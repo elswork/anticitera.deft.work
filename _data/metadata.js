@@ -1,11 +1,11 @@
 module.exports = {
-	title: "Eleventy Base Blog v8",
-	url: "https://example.com/",
-	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	title: "Proyecto Anticitera - Base de Conocimiento",
+	url: "https://elswork.github.io/anticitera.deft.work",
+	language: "es",
+	description: "En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI.",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Eloy López Sánchez",
+		email: "elswork@gmail.com",
+		url: "https://deft.work/"
 	}
 }
