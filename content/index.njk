@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Home
+  key: Inicio
   order: 1
 numberOfLatestPostsToShow: 3
 ---
@@ -15,7 +15,7 @@ numberOfLatestPostsToShow: 3
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
+<p>{{ morePosts }} más post{% if morePosts != 1 %}s{% endif %} pueden ser encontrados en <a href="/blog/">el archivo</a>.</p>
 {% endif %}
 
 {# List every content page in the project #}
