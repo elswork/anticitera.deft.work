@@ -9,6 +9,11 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
+const pluginIcons = require('eleventy-plugin-icons');
+// const icons = require('simple-icons/icons');
+// {
+// 	sources: [{ name: 'simple-icons', path: 'node_modules/simple-icons/icons' }];
+// }
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -17,6 +22,7 @@ module.exports = function(eleventyConfig) {
 		"./public/": "/",
 		"./node_modules/prismjs/themes/prism-okaidia.css": "/css/prism-okaidia.css"
 	});
+	eleventyConfig.addPassthroughCopy("bundle.css");
 
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
@@ -36,6 +42,21 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+	eleventyConfig.addPlugin(pluginIcons, {
+		mode: 'inline',
+		sources: [
+		  { name: 'simpleicon', path: './node_modules/simple-icons/icons' },
+		],
+		icon: {
+		  class: () => '',
+		  attributesBySource: {
+			simpleicon: {
+			  fill: 'currentColor',
+			  stroke: 'none',
+			},
+		  },
+		},
+	  });
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {

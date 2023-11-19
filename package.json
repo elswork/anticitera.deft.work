@@ -40,5 +40,9 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
 		"luxon": "^3.3.0",
 		"markdown-it-anchor": "^8.6.7"
+	},
+	"dependencies": {
+		"eleventy-plugin-icons": "^4.3.1",
+		"simple-icons": "^9.20.0"
 	}
 }

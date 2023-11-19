@@ -12,6 +12,7 @@ layout: layouts/base.njk
 	{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
 	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
 	{%- endfor %}
+	<li>✏️<a href="https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}">Editar en {% icon "simpleicon:github", class="icon" %} GitHub</a></li>
 </ul>
 
 {{ content | safe }}
