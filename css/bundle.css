@@ -2,3 +2,63 @@
     width: 1em;  /* o el tamaño que prefieras en relación con el tamaño de fuente circundante */
     height: 1em;
 }
+
+.icon_plus {
+    width: 1.5em;  /* o el tamaño que prefieras en relación con el tamaño de fuente circundante */
+    height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
+img[width] {
+    width: auto; /* Defer to max-width */
+}
+img[width][height] {
+    height: auto; /* Preserve aspect ratio */
+}
+
+footer {
+    background-color: #997d7d; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+    font-size: 0.9em; /* Tamaño de la fuente */
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto; /* Centrado del contenido */
+    display: flex;
+    justify-content: space-between; /* Espaciado entre elementos */
+    align-items: center;
+}
+
+footer ul {
+    list-style: none; /* Remueve los estilos por defecto de lista */
+    padding: 0; /* Remueve el espaciado interno */
+    display: flex; /* Hace que los elementos de la lista sean en línea */
+    gap: 15px; /* Espacio entre los elementos de la lista */
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+footer ul li a:hover {
+    color: #aaa; /* Color de los enlaces al pasar el ratón por encima */
+}
+
+footer .social-media a {
+    margin-right: 10px; /* Espaciado a la derecha para los enlaces de redes sociales */
+    color: white; /* Color del texto */
+}
+
+footer p {
+    margin: 0; /* Remueve el margen por defecto del párrafo */
+}
