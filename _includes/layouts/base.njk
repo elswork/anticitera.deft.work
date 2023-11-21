@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
@@ -57,10 +59,21 @@
 			<li>✏️<a href="https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}">Editar en {% icon "simpleicon:github", class="icon" %} GitHub</a></li>
 			<li>🤖<a href="https://github.dev/elswork/anticitera.deft.work">Editar en {% icon "simpleicon:visualstudiocode", class="icon" %} VSC</a></li>
 		</ul>
+		<br>
 			{{ content | safe }}
 		</main>
 
-		<footer></footer>
+		<footer>
+			<div class="container">
+				<div class="social-media">
+					<!-- Enlaces a redes sociales, si aplican -->
+					<a href="https://twitter.com/elswork" target="_blank">{% icon "simpleicon:twitter", class="icon_plus" %}</a>
+					<a href="https://github.com/elswork/anticitera.deft.work" target="_blank">{% icon "simpleicon:github", class="icon_plus" %}</a>
+					<!-- Otros enlaces a redes sociales -->
+				</div>
+				<p>.IA Isla Anticitera &copy; {{ 'now' | currentYear }} Todos los derechos reservados.</p>
+			</div>
+		</footer>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>

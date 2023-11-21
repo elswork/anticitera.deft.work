@@ -28,6 +28,11 @@ eleventyConfig.addPassthroughCopy("CNAME");
 	// Run Eleventy when these files change:
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
+	// Añadir un filtro personalizado para obtener el año actual
+	eleventyConfig.addFilter("currentYear", function() {
+		return new Date().getFullYear();
+	});
+
 	// Watch content images for the image pipeline.
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpeg}");
 
