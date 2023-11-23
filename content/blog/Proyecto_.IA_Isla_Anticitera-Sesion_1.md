@@ -9,11 +9,7 @@ tags:
 
 ## Introducción
 
-Este es un extracto de la conversación mantenida con:
-
-El asistente [GPTs Anticitera - OpenAI](https://chat.openai.com/g/g-fnpHOClUW-anticitera)
-
-Esta es la conversación integra [OpenAI GPTs Anticitera - Sesion 1](https://chat.openai.com/share/f89e60c3-e351-46e5-a8d7-3e04a6782f4e)
+Este es un extracto de la conversación mantenida con el asistente [GPTs Anticitera - OpenAI](https://chat.openai.com/g/g-fnpHOClUW-anticitera), esta es la conversación integra [OpenAI GPTs Anticitera - Sesion 1](https://chat.openai.com/share/f89e60c3-e351-46e5-a8d7-3e04a6782f4e)
 
 ## Definición de Objetivos y Metas Específicas:
 
