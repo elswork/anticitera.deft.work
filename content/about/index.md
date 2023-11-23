@@ -30,8 +30,7 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 - **Participación en la Comunidad**: Únase a nuestra [Lista de 📧 Correo](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link) y participe en discusiones y planificaciones.
 - **Difusión y Promoción**: Ayude a difundir la idea compartiéndola en redes sociales y otros canales.
   - [Facebook](https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work) [X/Twitter](https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera) [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada) [WhatsApp](https://api.whatsapp.com/send?text=https://anticitera.deft.work)
-  
-{% icon "simpleicon:facebook", class="icon_plus" %} Facebook {% icon "simpleicon:x", class="icon_plus" %} X/Twitter {% icon "simpleicon:linkedin", class="icon_plus" %} LinkedIn {% icon "simpleicon:whatsapp", class="icon_plus" %} WhatsApp
+<!-- {% icon "simpleicon:facebook", class="icon_plus" %} Facebook {% icon "simpleicon:x", class="icon_plus" %} X/Twitter {% icon "simpleicon:linkedin", class="icon_plus" %} LinkedIn {% icon "simpleicon:whatsapp", class="icon_plus" %} WhatsApp -->
 
 - **Colaboraciones Estratégicas**: Establezca contactos y relaciones con entidades interesadas.
 
