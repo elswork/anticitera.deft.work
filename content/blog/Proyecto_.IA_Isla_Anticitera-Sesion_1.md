@@ -1,5 +1,5 @@
 ---
-title: Proyecto Anticitera - Sesion 1
+title: Proyecto .IA Isla Anticitera - Sesion 1
 description: Esta es la primera sesión de trabajo.
 date: Last Modified
 tags:
@@ -11,7 +11,7 @@ tags:
 
 Este es un extracto de la conversación mantenida con:
 
-El asistente [GPT Anticitera - OpenAI](https://chat.openai.com/g/g-fnpHOClUW-anticitera)
+El asistente [GPTs Anticitera - OpenAI](https://chat.openai.com/g/g-fnpHOClUW-anticitera)
 
 Esta es la conversación integra [OpenAI GPTs Anticitera - Sesion 1](https://chat.openai.com/share/f89e60c3-e351-46e5-a8d7-3e04a6782f4e)
 
