@@ -3,11 +3,6 @@
     height: 1em;
 }
 
-.icon_plus {
-    width: 1.5em;  /* o el tamaño que prefieras en relación con el tamaño de fuente circundante */
-    height: 1.5em;
-}
-
 img {
     max-width: 100%;
 }
@@ -29,39 +24,47 @@ footer .container {
     width: 80%;
     margin: 0 auto; /* Centrado del contenido */
     display: flex;
-    justify-content: space-between; /* Espaciado entre elementos */
+    flex-direction: row;
     align-items: center;
+    gap: 15px;
 }
 
-footer ul {
-    list-style: none; /* Remueve los estilos por defecto de lista */
-    padding: 0; /* Remueve el espaciado interno */
-    display: flex; /* Hace que los elementos de la lista sean en línea */
-    gap: 15px; /* Espacio entre los elementos de la lista */
+footer .social-media,
+footer .share-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
 
-footer ul li {
-    display: inline;
-}
-
-footer ul li a {
+footer a {
     color: white; /* Color de los enlaces */
     text-decoration: none; /* Remueve el subrayado de los enlaces */
     transition: color 0.3s ease; /* Transición suave para el color */
 }
 
-footer ul li a:hover {
+footer a:hover {
     color: #aaa; /* Color de los enlaces al pasar el ratón por encima */
 }
 
-footer .social-media a {
-    margin-right: 10px; /* Espaciado a la derecha para los enlaces de redes sociales */
-    color: white; /* Color del texto */
+.icon_plus {
+    width: 1.5em; /* Tamaño de los iconos */
+    height: 1.5em;
 }
 
 footer p {
     margin: 0; /* Remueve el margen por defecto del párrafo */
+    text-align: center;
 }
+
+/* Estilos específicos para cada icono de redes sociales */
+.twitter-icon { color: #333; }
+.vscode-icon { color: #007ACC; }
+.github-icon { color: #333; }
+.json-icon { color: #F5A623; }
+.feedly-icon { color: #2BB24C; }
+.linkedin-icon { color: #0077B5; }
+.whatsapp-icon { color: #25D366; }
+.facebook-icon { color: #4267B2; }
 
 .issue-container {
     background-color: #f9f9f9;
@@ -115,7 +118,10 @@ footer p {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto; /* Centrado del contenido */
+    flex-direction: row;
     align-items: center;
+    gap: 15px;
 }
 
 .issue-footer-left, .issue-footer-right {
@@ -147,7 +153,8 @@ footer p {
     display: block;
 }
 
-.issue-link {
+/* Estilos existentes para el modo claro */
+.issue-link, .issue-link-create {
     background-color: #28a745;
     color: white;
     padding: 5px 10px;
@@ -156,19 +163,14 @@ footer p {
     font-size: 0.8em;
 }
 
-.issue-link:hover {
-    background-color: #218838;
-}
+/* Ajustes específicos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+    .issue-link, .issue-link-create {
+        background-color: #4caf50; /* Un verde más claro para mayor contraste */
+        color: #000000; /* Texto negro para mayor visibilidad */
+    }
 
-.issue-link-create {
-    background-color: #1e90ff; /* Un tono de azul */
-    color: white;
-    padding: 5px 10px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-size: 0.8em;
-}
-
-.issue-link-create:hover {
-    background-color: #1a7ccc; /* Un tono de azul más oscuro para el hover */
+    .issue-link:hover, .issue-link-create:hover {
+        background-color: #388e3c; /* Un verde más oscuro para el efecto hover */
+    }
 }
