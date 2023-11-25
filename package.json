@@ -42,7 +42,9 @@
 		"markdown-it-anchor": "^8.6.7"
 	},
 	"dependencies": {
+		"date-fns": "^2.30.0",
 		"eleventy-plugin-icons": "^4.3.1",
+		"markdown-it": "^13.0.2",
 		"simple-icons": "^9.20.0"
 	}
 }

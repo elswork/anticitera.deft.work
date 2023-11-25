@@ -18,6 +18,9 @@ jobs:
     - name: Install Dependencies
       run: npm install
 
+    - name: Get Issues
+      run: node issues.js  # or your specific build command
+
     - name: Build
       run: npx eleventy  # or your specific build command
 

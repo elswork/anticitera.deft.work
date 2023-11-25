@@ -10,12 +10,23 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 const pluginIcons = require('eleventy-plugin-icons');
-// const icons = require('simple-icons/icons');
-// {
-// 	sources: [{ name: 'simple-icons', path: 'node_modules/simple-icons/icons' }];
-// }
+
+const markdownIt = require("markdown-it");
+
+const { format } = require("date-fns");
 
 module.exports = function(eleventyConfig) {
+
+	// Crear una instancia de markdown-it
+	let markdownLib = markdownIt();
+
+	eleventyConfig.addFilter("date", (dateStr, formatStr = "dd/MM/yyyy HH:mm") => {
+        return format(new Date(dateStr), formatStr);
+    });
+	// Agregar un filtro personalizado
+	eleventyConfig.addFilter("markdown", function(content) {
+		return markdownLib.render(content);
+	});
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
