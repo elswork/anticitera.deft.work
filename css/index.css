@@ -13,7 +13,7 @@
 	--background-color: #fff;
 
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
+	--text-color-link: #082840; 
 	--text-color-link-active: #5f2b48;
 	--text-color-link-visited: #17050F;
 
@@ -78,7 +78,7 @@ li {
 	line-height: 1.5;
 }
 
-a[href] {
+/* a[href] {
 	color: var(--text-color-link);
 }
 a[href]:visited {
@@ -87,7 +87,7 @@ a[href]:visited {
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
-}
+} */
 
 main {
 	padding: 1rem;
