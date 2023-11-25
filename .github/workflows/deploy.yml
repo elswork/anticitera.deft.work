@@ -2,7 +2,9 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # or your default branch 
+      - main  # or your default branch
+  issues:
+    types: [opened] 
 
 jobs:
   build-and-deploy:
