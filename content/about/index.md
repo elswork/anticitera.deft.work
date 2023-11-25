@@ -22,7 +22,7 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 ## Objetivos del Proyecto
 
 - Promover la creación y adopción del dominio .IA.
-- Destacar la importancia histórica y cultural de la isla de Anticitera.
+- Destacar la importancia histórica y cultural de la Isla de Anticitera.
 - Fomentar la colaboración y el networking para apoyar la iniciativa.
 
 ## Cómo Contribuir
