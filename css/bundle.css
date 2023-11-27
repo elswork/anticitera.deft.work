@@ -25,6 +25,7 @@ footer .container {
     margin: 0 auto; /* Centrado del contenido */
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     gap: 15px;
 }
@@ -118,6 +119,7 @@ footer p {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto; /* Centrado del contenido */
     flex-direction: row;
     align-items: center;
