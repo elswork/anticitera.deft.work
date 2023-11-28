@@ -25,20 +25,24 @@ permalink: /feed/feed.xml
 	</entry>
 	{%- endfor %}
 
-	<!-- Aquí puedes añadir manualmente otras páginas como About -->
-	<entry>
-		<title>About</title>
-		<link>{{ '/about/' | url }}</link>
-		<description>Contenido de la página About</description>
-	</entry>
+	{% for item in collections.customFeed %}
+    <entry>
+        <title>{{ item.data.title }}</title>
+        <link>{{ item.url | url }}</link>
+        <updated>{{ item.date.toUTCString() }}</updated>
+        <id>{{ item.url | url }}</id>
+        <content type="html">
+            <![CDATA[{{ item.templateContent | markdown | safe }}]]>
+        </content>
+    </entry>
+	{% endfor %}
 
-	<!-- Aquí puedes incluir elementos de tu archivo issues.json -->
 	{% for issue in issues %}
 	<entry>
 		<title>{{ issue.title }}</title>
 		<link href="{{ issue.html_url }}"/>
 		<id>{{ issue.html_url }}</id>
-		<content type="html">{{ issue.body | markdown | safe }}</content>
+		<content type="html"><![CDATA[{{ issue.body | markdown | safe }}]]></content>
 		<updated>{{ issue.created_at }}</updated>
 	</entry>
 	{% endfor %}

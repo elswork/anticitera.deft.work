@@ -27,6 +27,21 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("markdown", function(content) {
 		return markdownLib.render(content);
 	});
+
+	eleventyConfig.addCollection("customFeed", function(collectionApi) {
+		// Obtener posts y otros elementos
+		let items = collectionApi.getFilteredByTag("post");
+	
+		// Agregar la página About
+		const aboutPage = collectionApi.getFilteredByGlob("./content/about/index.md")[0];
+		if (aboutPage) {
+			items.push(aboutPage);
+		}
+	
+		return items;
+	});
+	
+
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
