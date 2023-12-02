@@ -23,6 +23,9 @@ jobs:
     - name: Get Issues
       run: node issues.js  # or your specific build command
 
+    - name: Get Links
+      run: node links.js  # or your specific build command
+
     - name: Build
       run: npx eleventy  # or your specific build command
 
