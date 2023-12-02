@@ -2,6 +2,7 @@ const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
+const readline = require('readline');
 
 async function extractMetadataAndImages(url) {
     const response = await fetch(url);
@@ -50,8 +51,25 @@ ${metadata.description}
     fs.writeFileSync(filePath, content);
 }
 
-// Ejemplo de uso
-const url = 'https://anticitera.deft.work'; // La URL del enlace subido
-extractMetadataAndImages(url).then(metadata => {
-    createMarkdownFile(url, metadata);
-});
+async function processFile(filePath) {
+    const fileStream = fs.createReadStream(filePath);
+
+    const rl = readline.createInterface({
+        input: fileStream,
+        crlfDelay: Infinity
+    });
+
+    for await (const line of rl) {
+        if (line) {
+            try {
+                const metadata = await extractMetadataAndImages(line);
+                createMarkdownFile(line, metadata);
+            } catch (error) {
+                console.error(`Error processing URL ${line}:`, error);
+            }
+        }
+    }
+}
+
+const linksFilePath = path.join(__dirname, '_data', 'links');
+processFile(linksFilePath);
