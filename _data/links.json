@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://anticitera.deft.work/",
+    "title": ".IA Isla Anticitera - Base de Conocimiento",
+    "description": "En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA",
+    "imageUrls": [
+      "https://anticitera.deft.work/img/anticitera.webp",
+      "/img/Cabecera.webp",
+      "https://avatars.githubusercontent.com/u/1455507?v=4"
+    ]
+  },
+  {
+    "url": "https://www.lavanguardia.com/ciencia/20231128/9413057/inteligencia-artificial-google-aprende-observacion-e-imitacion-manera-parecida-personas.html",
+    "title": "Una inteligencia artificial de Google aprende por observación e imitación de manera parecida a las personas",
+    "description": "Una inteligencia artificial que aprende observando, en vez de memorizando una infinidad de datos o intentando ejecutar una acción de forma reiterada. Esta es la nueva",
+    "imageUrls": [
+      "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2022/07/11/62cc167b1cf73.r_d.611-245-0.jpeg",
+      "https://www.lavanguardia.com/files/image_449_220/files/fp/uploads/2022/07/11/62cc167b1cf73.r_d.611-245.jpeg",
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="
+    ]
+  },
+  {
+    "url": "https://azure.microsoft.com/es-es/products/machine-learning",
+    "title": "Azure Machine Learning: ML como servicio | Microsoft Azure",
+    "description": "Cree modelos de Machine Learning de manera simplificada con las plataformas de aprendizaje automático de Azure. El aprendizaje automático como servicio aumenta la accesibilidad y la eficacia.",
+    "imageUrls": [
+      "//azurecomcdn.azureedge.net/cvt-6181762de7ef0aa2e407e9ec9d51d11b942e326292351d55fe0edf7cdf4d0904/svg/virtual-machines.svg",
+      "//azurecomcdn.azureedge.net/cvt-6181762de7ef0aa2e407e9ec9d51d11b942e326292351d55fe0edf7cdf4d0904/svg/virtual-desktop.svg",
+      "//azurecomcdn.azureedge.net/cvt-6181762de7ef0aa2e407e9ec9d51d11b942e326292351d55fe0edf7cdf4d0904/svg/azure-sql.svg"
+    ]
+  },
+  {
+    "url": "https://play.rtve.es/v/6999053",
+    "title": "Alter Ego - Programa 1 - 2023: De humanos y máquinas | Ver ahora",
+    "description": "Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023",
+    "imageUrls": [
+      "https://img2.rtve.es/v/6999053/?imgProgApi=imgBackground&w=800",
+      "https://img2.rtve.es/v/6999053/?w=1600",
+      "https://img2.rtve.es/p/176830/logo/?w=320"
+    ]
+  }
+]
