@@ -1,12 +1,22 @@
 [
   {
-    "url": "https://anticitera.deft.work/",
-    "title": ".IA Isla Anticitera - Base de Conocimiento",
-    "description": "En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA",
+    "url": "https://play.rtve.es/v/6999053",
+    "title": "Alter Ego - Programa 1 - 2023: De humanos y máquinas | Ver ahora",
+    "description": "Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023",
     "imageUrls": [
-      "https://anticitera.deft.work/img/anticitera.webp",
-      "/img/Cabecera.webp",
-      "https://avatars.githubusercontent.com/u/1455507?v=4"
+      "https://img2.rtve.es/v/6999053/?imgProgApi=imgBackground&w=800",
+      "https://img2.rtve.es/v/6999053/?w=1600",
+      "https://img2.rtve.es/p/176830/logo/?w=320"
+    ]
+  },
+  {
+    "url": "https://cremasb.com/noticias/the-seeds-of-futurism-in-greek-mythology/147192/#gsc.tab=0",
+    "title": "La Antigua Grecia y su Visión de la Inteligencia Artificial",
+    "description": "La Antigua Grecia y su Visión de la Inteligencia Artificial - Cremas Digital",
+    "imageUrls": [
+      "https://cremasb.com/wp-content/uploads/2023/08/mfrack_realistic_photo_of_AI_technologies_and_woman_award_winni_62d09bf4-942f-4d48-a303-a54697575ff9.jpeg",
+      "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjEwIiBoZWlnaHQ9IjY0MiIgdmlld0JveD0iMCAwIDEyMTAgNjQyIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBzdHlsZT0iZmlsbDojY2ZkNGRiO2ZpbGwtb3BhY2l0eTogMC4xOyIvPjwvc3ZnPg==",
+      "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzIiIGhlaWdodD0iMTMyIiB2aWV3Qm94PSIwIDAgMTMyIDEzMiI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
     ]
   },
   {
@@ -30,13 +40,35 @@
     ]
   },
   {
-    "url": "https://play.rtve.es/v/6999053",
-    "title": "Alter Ego - Programa 1 - 2023: De humanos y máquinas | Ver ahora",
-    "description": "Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023",
+    "url": "https://youtu.be/WN8uUl4rbkE",
+    "title": "El mecanismo de Antikythera: un moderno artilugio de 2.100 años | Cultura",
+    "description": "Hace 115 años apareció un extraño artilugio entre los restos de un naufragio romano frente a la isla griega de Antikythera. Se trata de una calculadora astro...",
     "imageUrls": [
-      "https://img2.rtve.es/v/6999053/?imgProgApi=imgBackground&w=800",
-      "https://img2.rtve.es/v/6999053/?w=1600",
-      "https://img2.rtve.es/p/176830/logo/?w=320"
+      "https://i.ytimg.com/vi/WN8uUl4rbkE/maxresdefault.jpg"
     ]
+  },
+  {
+    "url": "https://www.elconfidencial.com/economia/2023-01-04/redes-neuronales-criptoactivos-idv_3549219/",
+    "title": "Hormigas, redes neuronales e inversión en criptoactivos",
+    "description": "Entiende cómo funciona este método de aprendizaje automático que optimiza y agiliza las estrategias de inversión. Escucha la charla de Javier Molina con Miquel Roig, 'head of Data Analysis' en Belobaba.  ",
+    "imageUrls": [
+      "https://images.ecestaticos.com/q4ZuHoAmMYtzL11Lhd8dEFlZZ0c=/0x0:2272x1704/600x315/filters:fill(white):format(jpg):quality(99):watermark(f.elconfidencial.com/file/bae/eea/fde/baeeeafde1b3229287b0c008f7602058.png,0,275,1)/f.elconfidencial.com/original/bbf/ad5/64b/bbfad564b6607fb97db1e7510005e5c9.jpg",
+      "https://images.ecestaticos.com/vUWVgyW2Y8rBtNf1MiMeeErOkdk=/0x0:2272x1704/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fbbf%2Fad5%2F64b%2Fbbfad564b6607fb97db1e7510005e5c9.jpg"
+    ]
+  },
+  {
+    "url": "https://cloud.google.com/duet-ai?hl=es",
+    "title": "Duet AI para desarrolladores | Google Cloud",
+    "description": "Un colaborador de IA siempre activo que ayuda a usuarios de todos los niveles de conocimientos cuando lo necesiten.",
+    "imageUrls": [
+      "https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
+      "https://www.gstatic.com/bricks/image/d5d37ee3593566c650cbb3e3724cc03e2cfe2d69d912622681ceba34ad31d198.svg",
+      "https://lh3.googleusercontent.com/AwxM98Vp2w9QFpFBoKRhsSNP-_zjUdZxBzYNP3eY5-dK2XCnCsi1bdJIzyVgogs7dYSnpi4Omb8_fQ=s60-w60-rj-sc0x00ffffff"
+    ]
+  },
+  {
+    "url": "https://x.com/elswork/status/1728326875074732375?s=20",
+    "title": "",
+    "imageUrls": []
   }
 ]

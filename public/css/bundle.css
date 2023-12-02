@@ -186,3 +186,57 @@ footer p {
         background-color: #388e3c; /* Un verde más oscuro para el efecto hover */
     }
 }
+
+.links-container {
+    margin: 0;
+    padding: 0;
+}
+
+.link-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link-title {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-description {
+    margin: 10px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gallery img {
+    max-height: 300px;
+    width: auto;
+    display: none;
+}
+
+.gallery-prev, .gallery-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.gallery-prev {
+    left: 10px;
+}
+
+.gallery-next {
+    right: 10px;
+}
+

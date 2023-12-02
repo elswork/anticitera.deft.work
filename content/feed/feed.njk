@@ -47,4 +47,13 @@ permalink: /feed/feed.xml
 		<updated>{{ issue.created_at }}</updated>
 	</entry>
 	{% endfor %}
+
+	{% for link in links %}
+	<entry>
+		<title>{{ link.title }}</title>
+		<link href="{{ link.url }}"/>
+		<id>{{ link.url }}</id>
+		<content>{{ link.description }}</content>
+	</entry>
+	{% endfor %}
 </feed>

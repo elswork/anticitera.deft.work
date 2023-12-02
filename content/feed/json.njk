@@ -43,6 +43,15 @@ permalink: /feed/feed.json
       "title": "{{ issue.title }}",
       "content_html": {{ issue.body | markdown | dump | safe }},
       "date_published": "{{ issue.created_at }}"
+    },{% if not loop.last %},{% endif %}
+    {% endfor %}
+
+    {% for link in links %}
+    {
+      "id": "{{ link.url }}",
+      "url": "{{ link.url }}",
+      "title": "{{ link.title }}",
+      "content": {{ link.descripcion }}
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]
