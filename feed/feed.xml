@@ -4,7 +4,7 @@
 	<subtitle>En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA</subtitle>
 	<link href="https://anticitera.deft.work/feed/feed.xml" rel="self"/>
 	<link href="https://anticitera.deft.work/"/>
-	<updated>2023-11-28T22:24:40Z</updated>
+	<updated>2023-12-02T09:20:46Z</updated>
 	<id>https://anticitera.deft.work/</id>
 	<author>
 		<name>Eloy López Sánchez</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title>Proyecto .IA Isla Anticitera - Sesion 1</title>
 		<link href="https://anticitera.deft.work/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/"/>
-		<updated>2023-11-28T22:24:40Z</updated>
+		<updated>2023-12-02T09:20:46Z</updated>
 		<id>https://anticitera.deft.work/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/</id>
 		<content type="html">&lt;h2 id=&quot;introduccion&quot; tabindex=&quot;-1&quot;&gt;Introducción &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Este es un extracto de la conversación mantenida con el asistente &lt;a href=&quot;https://chat.openai.com/g/g-fnpHOClUW-anticitera&quot;&gt;GPTs Anticitera - OpenAI&lt;/a&gt;, esta es la conversación integra &lt;a href=&quot;https://chat.openai.com/share/f89e60c3-e351-46e5-a8d7-3e04a6782f4e&quot;&gt;OpenAI GPTs Anticitera - Sesion 1&lt;/a&gt;&lt;/p&gt;
@@ -71,11 +71,12 @@
 	</entry>
 
 	
+	
     <entry>
-        <title></title>
-        <link>/about/</link>
-        <updated>Tue, 28 Nov 2023 22:24:40 GMT</updated>
-        <id>/about/</id>
+        <title>Proyecto .IA Isla Anticitera</title>
+        <link>https://anticitera.deft.work/about/</link>
+        <updated>2023-12-02T09:20:46Z</updated>
+        <id>https://anticitera.deft.work/about/</id>
         <content type="html">
             <![CDATA[<p>&lt;h1 id=&quot;proyecto-ia-isla-anticitera&quot; tabindex=&quot;-1&quot;&gt;Proyecto .IA Isla Anticitera &lt;a class=&quot;header-anchor&quot; href=&quot;#proyecto-ia-isla-anticitera&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;Este repositorio contiene documentos, recursos y material de referencia relacionados con el proyecto de promoción del dominio .IA, asociado al territorio de Isla de Anticitera. El proyecto busca establecer un nuevo dominio de internet y rendir homenaje al mecanismo de Anticitera, símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.&lt;/p&gt;
@@ -137,7 +138,7 @@
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLScj1paIvOUbqugD76fKncZ65ZOqL-f5bILycZComuxKhJeRPg/viewform?usp=sf_link&quot;&gt;Reserva tu Dominio .IA&lt;/a&gt; 📄 formulario de reservas.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1y-aLEKfQySJeDgZd4QeHa57G9P9Pp4mqWhLJSqxcB0o/edit?usp=sharing&quot;&gt;✍️ Lista Oficial de Reservas&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1-6lBWrMexLKKDpfI2u8zKnvit3mXeZT9Zs6ngZk4glI/edit?usp=sharing&quot;&gt;Tabla de Personas y Organizaciones&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://futureu.europa.eu/processes/Digital/f/15/proposals/27592?locale=es&quot;&gt;Propuesta para Crear Dominio .IA&lt;/a&gt; Propuesta en la plataforma Europea Futureu.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://futureu.europa.eu/processes/Digital/f/15/proposals/27592?locale=es&quot;&gt;&lt;s&gt;Propuesta para Crear Dominio .IA&lt;/s&gt;&lt;/a&gt; &lt;s&gt;Propuesta en la plataforma Europea Futureu.&lt;/s&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link&quot;&gt;Suscripción a la Lista de 📧 Correo&lt;/a&gt; prometemos no compartir vuestro correo, no enviar publicidad, ni enviar demasiados correos.&lt;/li&gt;
 &lt;/ul&gt;</p>
 ]]>
