@@ -29,7 +29,7 @@ permalink: /feed/feed.xml
 	{% set absoluteItemUrl %}{{ item.url | htmlBaseUrl(metadata.url) }}{% endset %}
     <entry>
         <title>{{ item.data.title }}</title>
-        <link>{{ absoluteItemUrl }}</link>
+		<link href="{{ absoluteItemUrl }}"/>
         <updated>{{ item.date | dateToRfc3339 }}</updated>
         <id>{{ absoluteItemUrl }}</id>
         <content type="html">
