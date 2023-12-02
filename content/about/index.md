@@ -1,5 +1,8 @@
 ---
 layout: layouts/base.njk
+title: Proyecto .IA Isla Anticitera
+description: Información relevante del Proyecto .IA Isla Anticitera.
+date: Last Modified
 eleventyNavigation:
   key: Proyecto
   order: 3
@@ -40,5 +43,5 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 - [Reserva tu Dominio .IA](https://docs.google.com/forms/d/e/1FAIpQLScj1paIvOUbqugD76fKncZ65ZOqL-f5bILycZComuxKhJeRPg/viewform?usp=sf_link) 📄 formulario de reservas.
 - [✍️ Lista Oficial de Reservas](https://docs.google.com/spreadsheets/d/1y-aLEKfQySJeDgZd4QeHa57G9P9Pp4mqWhLJSqxcB0o/edit?usp=sharing)
 - [Tabla de Personas y Organizaciones](https://docs.google.com/spreadsheets/d/1-6lBWrMexLKKDpfI2u8zKnvit3mXeZT9Zs6ngZk4glI/edit?usp=sharing)
-- [Propuesta para Crear Dominio .IA](https://futureu.europa.eu/processes/Digital/f/15/proposals/27592?locale=es) Propuesta en la plataforma Europea Futureu.
+- [~~Propuesta para Crear Dominio .IA~~](https://futureu.europa.eu/processes/Digital/f/15/proposals/27592?locale=es) ~~Propuesta en la plataforma Europea Futureu.~~
 - [Suscripción a la Lista de 📧 Correo](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link) prometemos no compartir vuestro correo, no enviar publicidad, ni enviar demasiados correos.

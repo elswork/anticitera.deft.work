@@ -26,11 +26,12 @@ permalink: /feed/feed.xml
 	{%- endfor %}
 
 	{% for item in collections.customFeed %}
+	{% set absoluteItemUrl %}{{ item.url | htmlBaseUrl(metadata.url) }}{% endset %}
     <entry>
         <title>{{ item.data.title }}</title>
-        <link>{{ item.url | url }}</link>
-        <updated>{{ item.date.toUTCString() }}</updated>
-        <id>{{ item.url | url }}</id>
+        <link>{{ absoluteItemUrl }}</link>
+        <updated>{{ item.date | dateToRfc3339 }}</updated>
+        <id>{{ absoluteItemUrl }}</id>
         <content type="html">
             <![CDATA[{{ item.templateContent | markdown | safe }}]]>
         </content>
