@@ -67,6 +67,16 @@ footer p {
 .whatsapp-icon { color: #25D366; }
 .facebook-icon { color: #4267B2; }
 
+#toggle-comments-btn {
+    /* Estilos para el botón */
+    background-color: #d35d23;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
 .issue-container {
     background-color: #f9f9f9;
     border: 1px solid #ddd;

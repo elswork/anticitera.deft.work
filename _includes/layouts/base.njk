@@ -97,7 +97,8 @@
 			{{ content | safe }}
 		<br>
 		{% for issue in issues %}
-			<div class="issue-container">
+			<button id="toggle-comments-btn">Ver Comentarios</button>
+			<div class="issue-container" style="display: none;">
 				<div class="issue-header">
 					<h3>{{ issue.title }}</h3>
 					<div class="issue-user">						
@@ -150,5 +151,15 @@
 		</footer>
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
+		<script>
+			document.getElementById('toggle-comments-btn').addEventListener('click', function() {
+				var container = document.querySelector('.issue-container');
+				if (container.style.display === 'none' || container.style.display === '') {
+					container.style.display = 'block';
+				} else {
+					container.style.display = 'none';
+				}
+			});
+		</script>
 	</body>
 </html>
