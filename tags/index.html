@@ -387,16 +387,16 @@ h2 + .header-anchor {
 
 		<br>
 		
-			<div class="issue-container">
+			<button id="toggle-comments-btn">Ver Comentarios</button>
+			<div class="issue-container" style="display: none;">
 				<div class="issue-header">
 					<h3>Comentario de prueba</h3>
 					<div class="issue-user">						
 						<a href="https://github.com/elswork" class="issue-author-link"><img src="https://avatars.githubusercontent.com/u/1455507?v=4" alt="elswork" class="issue-author-avatar">elswork</a>
 					</div>
 				</div>
-				<div class="issue-body"><h1>Test</h1>
-<p>Esto es una prueba. 💕</p>
-<p><img src="https://github.com/elswork/anticitera.deft.work/assets/1455507/c5bc98b0-142a-4421-9e25-ebd9417a41b2" alt="image"></p>
+				<div class="issue-body"><p>Esto es una prueba. 💕
+<img src="https://github.com/elswork/anticitera.deft.work/assets/1455507/4d033694-7a86-4965-8380-e3e98564435c" alt="image"></p>
 </div>
 				<div class="issue-footer">
 					<div class="issue-footer-left">
@@ -409,7 +409,7 @@ h2 + .header-anchor {
 					<div class="issue-footer-right">
 						<span class="issue-created-at">
 							🕒 25/11/2023 18:13
-							<span class="issue-updated-at">🔄 25/11/2023 19:18</span>
+							<span class="issue-updated-at">🔄 02/12/2023 12:01</span>
 						</span>
 						<a href="https://github.com/elswork/anticitera.deft.work/issues/1" class="issue-link">Ver comentario</a>
 					</div>
@@ -479,5 +479,15 @@ h2 + .header-anchor {
 		</footer>
 
 		<!-- Current page: /tags/ -->
+		<script>
+			document.getElementById('toggle-comments-btn').addEventListener('click', function() {
+				var container = document.querySelector('.issue-container');
+				if (container.style.display === 'none' || container.style.display === '') {
+					container.style.display = 'block';
+				} else {
+					container.style.display = 'none';
+				}
+			});
+		</script>
 	</body>
 </html>
