@@ -4,7 +4,7 @@
 	<subtitle>En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA</subtitle>
 	<link href="https://anticitera.deft.work/feed/feed.xml" rel="self"/>
 	<link href="https://anticitera.deft.work/"/>
-	<updated>2023-12-02T22:01:15Z</updated>
+	<updated>2023-12-02T23:39:31Z</updated>
 	<id>https://anticitera.deft.work/</id>
 	<author>
 		<name>Eloy López Sánchez</name>
@@ -14,7 +14,7 @@
 	<entry>
 		<title>Proyecto .IA Isla Anticitera - Sesion 1</title>
 		<link href="https://anticitera.deft.work/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/"/>
-		<updated>2023-12-02T22:01:15Z</updated>
+		<updated>2023-12-02T23:39:31Z</updated>
 		<id>https://anticitera.deft.work/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/</id>
 		<content type="html">&lt;h2 id=&quot;introduccion&quot; tabindex=&quot;-1&quot;&gt;Introducción &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Este es un extracto de la conversación mantenida con el asistente &lt;a href=&quot;https://chat.openai.com/g/g-fnpHOClUW-anticitera&quot;&gt;GPTs Anticitera - OpenAI&lt;/a&gt;, esta es la conversación integra &lt;a href=&quot;https://chat.openai.com/share/f89e60c3-e351-46e5-a8d7-3e04a6782f4e&quot;&gt;OpenAI GPTs Anticitera - Sesion 1&lt;/a&gt;&lt;/p&gt;
@@ -75,7 +75,7 @@
     <entry>
         <title>Proyecto .IA Isla Anticitera</title>
 		<link href="https://anticitera.deft.work/about/"/>
-        <updated>2023-12-02T22:01:15Z</updated>
+        <updated>2023-12-02T23:39:31Z</updated>
         <id>https://anticitera.deft.work/about/</id>
         <content type="html">
             <![CDATA[<p>&lt;h1 id=&quot;proyecto-ia-isla-anticitera&quot; tabindex=&quot;-1&quot;&gt;Proyecto .IA Isla Anticitera &lt;a class=&quot;header-anchor&quot; href=&quot;#proyecto-ia-isla-anticitera&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
@@ -144,6 +144,57 @@
 <img src="https://github.com/elswork/anticitera.deft.work/assets/1455507/4d033694-7a86-4965-8380-e3e98564435c" alt="image"></p>
 ]]></content>
 		<updated>2023-11-25T18:13:12Z</updated>
+	</entry>
+	
+
+	
+	<entry>
+		<title>Alter Ego - Programa 1 - 2023: De humanos y máquinas | Ver ahora</title>
+		<link href="https://play.rtve.es/v/6999053"/>
+		<id>https://play.rtve.es/v/6999053</id>
+		<content>Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023</content>
+	</entry>
+	
+	<entry>
+		<title>La Antigua Grecia y su Visión de la Inteligencia Artificial</title>
+		<link href="https://cremasb.com/noticias/the-seeds-of-futurism-in-greek-mythology/147192/#gsc.tab=0"/>
+		<id>https://cremasb.com/noticias/the-seeds-of-futurism-in-greek-mythology/147192/#gsc.tab=0</id>
+		<content>La Antigua Grecia y su Visión de la Inteligencia Artificial - Cremas Digital</content>
+	</entry>
+	
+	<entry>
+		<title>Una inteligencia artificial de Google aprende por observación e imitación de manera parecida a las personas</title>
+		<link href="https://www.lavanguardia.com/ciencia/20231128/9413057/inteligencia-artificial-google-aprende-observacion-e-imitacion-manera-parecida-personas.html"/>
+		<id>https://www.lavanguardia.com/ciencia/20231128/9413057/inteligencia-artificial-google-aprende-observacion-e-imitacion-manera-parecida-personas.html</id>
+		<content>Una inteligencia artificial que aprende observando, en vez de memorizando una infinidad de datos o intentando ejecutar una acción de forma reiterada. Esta es la nueva</content>
+	</entry>
+	
+	<entry>
+		<title>Azure Machine Learning: ML como servicio | Microsoft Azure</title>
+		<link href="https://azure.microsoft.com/es-es/products/machine-learning"/>
+		<id>https://azure.microsoft.com/es-es/products/machine-learning</id>
+		<content>Cree modelos de Machine Learning de manera simplificada con las plataformas de aprendizaje automático de Azure. El aprendizaje automático como servicio aumenta la accesibilidad y la eficacia.</content>
+	</entry>
+	
+	<entry>
+		<title>El mecanismo de Antikythera: un moderno artilugio de 2.100 años | Cultura</title>
+		<link href="https://youtu.be/WN8uUl4rbkE"/>
+		<id>https://youtu.be/WN8uUl4rbkE</id>
+		<content>Hace 115 años apareció un extraño artilugio entre los restos de un naufragio romano frente a la isla griega de Antikythera. Se trata de una calculadora astro...</content>
+	</entry>
+	
+	<entry>
+		<title>Hormigas, redes neuronales e inversión en criptoactivos</title>
+		<link href="https://www.elconfidencial.com/economia/2023-01-04/redes-neuronales-criptoactivos-idv_3549219/"/>
+		<id>https://www.elconfidencial.com/economia/2023-01-04/redes-neuronales-criptoactivos-idv_3549219/</id>
+		<content>Entiende cómo funciona este método de aprendizaje automático que optimiza y agiliza las estrategias de inversión. Escucha la charla de Javier Molina con Miquel Roig, &#39;head of Data Analysis&#39; en Belobaba.  </content>
+	</entry>
+	
+	<entry>
+		<title>Duet AI para desarrolladores | Google Cloud</title>
+		<link href="https://cloud.google.com/duet-ai?hl=es"/>
+		<id>https://cloud.google.com/duet-ai?hl=es</id>
+		<content>Un colaborador de IA siempre activo que ayuda a usuarios de todos los niveles de conocimientos cuando lo necesiten.</content>
 	</entry>
 	
 </feed>
