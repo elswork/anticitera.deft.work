@@ -33,7 +33,6 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 - **Participación en la Comunidad**: Únase a nuestra [Lista de 📧 Correo](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link) y participe en discusiones y planificaciones.
 - **Difusión y Promoción**: Ayude a difundir la idea compartiéndola en redes sociales y otros canales.
   - [Facebook](https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work) [X/Twitter](https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera) [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada) [WhatsApp](https://api.whatsapp.com/send?text=https://anticitera.deft.work)
-<!-- {% icon "simpleicon:facebook", class="icon_plus" %} Facebook {% icon "simpleicon:x", class="icon_plus" %} X/Twitter {% icon "simpleicon:linkedin", class="icon_plus" %} LinkedIn {% icon "simpleicon:whatsapp", class="icon_plus" %} WhatsApp -->
 
 - **Colaboraciones Estratégicas**: Establezca contactos y relaciones con entidades interesadas.
 
@@ -45,3 +44,9 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 - [Tabla de Personas y Organizaciones](https://docs.google.com/spreadsheets/d/1-6lBWrMexLKKDpfI2u8zKnvit3mXeZT9Zs6ngZk4glI/edit?usp=sharing)
 - [~~Propuesta para Crear Dominio .IA~~](https://futureu.europa.eu/processes/Digital/f/15/proposals/27592?locale=es) ~~Propuesta en la plataforma Europea Futureu.~~
 - [Suscripción a la Lista de 📧 Correo](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link) prometemos no compartir vuestro correo, no enviar publicidad, ni enviar demasiados correos.
+
+**[¡Patrocíname!](https://github.com/sponsors/elswork) Juntos seremos imparables.**
+
+Otras formas de financiarme:
+
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork)](https://github.com/sponsors/elswork) [![Donar PayPal](https://img.shields.io/badge/Donar-PayPal-green.svg)](https://www.paypal.com/donate/?business=LFKA5YRJAFYR6&no_recurring=0&item_name=Donación+para+Código+Abierto&currency_code=EUR) [![Donar Coinbase](https://img.shields.io/badge/coinbase-elswork-blue)](https://elswork.cb.id)
