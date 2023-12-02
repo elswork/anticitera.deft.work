@@ -22,7 +22,7 @@ permalink: /feed/feed.json
       "title": "{{ post.data.title }}",
       "content_html": {{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | dump | safe }},
       "date_published": "{{ post.date | dateToRfc3339 }}"
-    }{% if not loop.last %},{% endif %}
+    },{% if not loop.last %},{% endif %}
     {%- endfor %}
 
     {% for item in collections.customFeed %}
@@ -33,7 +33,7 @@ permalink: /feed/feed.json
       "title": "{{ item.data.title }}",
       "content_html": {{ item.templateContent | markdown | dump | safe }},
       "date_published": "{{ item.date | dateToRfc3339 }}"
-    }{% if not loop.last %},{% endif %}
+    },{% if not loop.last %},{% endif %}
     {% endfor %}
 
     {% for issue in issues %}
