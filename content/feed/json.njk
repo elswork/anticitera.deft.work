@@ -51,7 +51,8 @@ permalink: /feed/feed.json
       "id": "{{ link.url }}",
       "url": "{{ link.url }}",
       "title": "{{ link.title }}",
-      "content": {{ link.descripcion }}
+      "content": {{ link.descripcion }},
+      "date_published": "{{ link.processedDate }}"
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ]

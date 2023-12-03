@@ -1,6 +1,7 @@
 [
   {
     "url": "https://play.rtve.es/v/6999053",
+    "processedDate": "2023-12-03T00:17:40.525Z",
     "title": "Alter Ego - Programa 1 - 2023: De humanos y máquinas | Ver ahora",
     "description": "Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023",
     "imageUrls": [
@@ -11,6 +12,7 @@
   },
   {
     "url": "https://cremasb.com/noticias/the-seeds-of-futurism-in-greek-mythology/147192/#gsc.tab=0",
+    "processedDate": "2023-12-03T00:17:40.744Z",
     "title": "La Antigua Grecia y su Visión de la Inteligencia Artificial",
     "description": "La Antigua Grecia y su Visión de la Inteligencia Artificial - Cremas Digital",
     "imageUrls": [
@@ -21,6 +23,7 @@
   },
   {
     "url": "https://www.lavanguardia.com/ciencia/20231128/9413057/inteligencia-artificial-google-aprende-observacion-e-imitacion-manera-parecida-personas.html",
+    "processedDate": "2023-12-03T00:17:40.869Z",
     "title": "Una inteligencia artificial de Google aprende por observación e imitación de manera parecida a las personas",
     "description": "Una inteligencia artificial que aprende observando, en vez de memorizando una infinidad de datos o intentando ejecutar una acción de forma reiterada. Esta es la nueva",
     "imageUrls": [
@@ -31,6 +34,7 @@
   },
   {
     "url": "https://azure.microsoft.com/es-es/products/machine-learning",
+    "processedDate": "2023-12-03T00:17:41.266Z",
     "title": "Azure Machine Learning: ML como servicio | Microsoft Azure",
     "description": "Cree modelos de Machine Learning de manera simplificada con las plataformas de aprendizaje automático de Azure. El aprendizaje automático como servicio aumenta la accesibilidad y la eficacia.",
     "imageUrls": [
@@ -41,6 +45,7 @@
   },
   {
     "url": "https://youtu.be/WN8uUl4rbkE",
+    "processedDate": "2023-12-03T00:17:41.826Z",
     "title": "El mecanismo de Antikythera: un moderno artilugio de 2.100 años | Cultura",
     "description": "Hace 115 años apareció un extraño artilugio entre los restos de un naufragio romano frente a la isla griega de Antikythera. Se trata de una calculadora astro...",
     "imageUrls": [
@@ -49,6 +54,7 @@
   },
   {
     "url": "https://www.elconfidencial.com/economia/2023-01-04/redes-neuronales-criptoactivos-idv_3549219/",
+    "processedDate": "2023-12-03T00:17:42.235Z",
     "title": "Hormigas, redes neuronales e inversión en criptoactivos",
     "description": "Entiende cómo funciona este método de aprendizaje automático que optimiza y agiliza las estrategias de inversión. Escucha la charla de Javier Molina con Miquel Roig, 'head of Data Analysis' en Belobaba.  ",
     "imageUrls": [
@@ -58,6 +64,7 @@
   },
   {
     "url": "https://cloud.google.com/duet-ai?hl=es",
+    "processedDate": "2023-12-03T00:17:43.785Z",
     "title": "Duet AI para desarrolladores | Google Cloud",
     "description": "Un colaborador de IA siempre activo que ayuda a usuarios de todos los niveles de conocimientos cuando lo necesiten.",
     "imageUrls": [
@@ -65,10 +72,5 @@
       "https://www.gstatic.com/bricks/image/d5d37ee3593566c650cbb3e3724cc03e2cfe2d69d912622681ceba34ad31d198.svg",
       "https://lh3.googleusercontent.com/AwxM98Vp2w9QFpFBoKRhsSNP-_zjUdZxBzYNP3eY5-dK2XCnCsi1bdJIzyVgogs7dYSnpi4Omb8_fQ=s60-w60-rj-sc0x00ffffff"
     ]
-  },
-  {
-    "url": "https://x.com/elswork/status/1728326875074732375?s=20",
-    "title": "",
-    "imageUrls": []
   }
 ]

@@ -4,6 +4,10 @@ const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
 
+function getCurrentDateRfc3339() {
+    return new Date().toISOString();
+}
+
 async function extractMetadataAndImages(url) {
     const response = await fetch(url);
     const html = await response.text();
@@ -41,7 +45,6 @@ async function extractMetadataAndImages(url) {
 
 async function processFile(filePath) {
     const fileStream = fs.createReadStream(filePath);
-
     const rl = readline.createInterface({
         input: fileStream,
         crlfDelay: Infinity
@@ -53,8 +56,9 @@ async function processFile(filePath) {
         if (line) {
             try {
                 const metadata = await extractMetadataAndImages(line);
-                // Agregar los metadatos al arreglo
-                linksData.push({ url: line, ...metadata });
+                const currentDate = getCurrentDateRfc3339();
+                // Agregar los metadatos al arreglo junto con la fecha de procesamiento
+                linksData.push({ url: line, processedDate: currentDate, ...metadata });
             } catch (error) {
                 console.error(`Error processing URL ${line}:`, error);
             }
@@ -67,3 +71,4 @@ async function processFile(filePath) {
 
 const linksFilePath = path.join(__dirname, '_data', 'links');
 processFile(linksFilePath);
+

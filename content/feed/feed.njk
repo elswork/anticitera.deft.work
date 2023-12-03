@@ -54,6 +54,7 @@ permalink: /feed/feed.xml
 		<link href="{{ link.url }}"/>
 		<id>{{ link.url }}</id>
 		<content>{{ link.description }}</content>
+		<updated>{{ link.processedDate }}</updated>
 	</entry>
 	{% endfor %}
 </feed>
