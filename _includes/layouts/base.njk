@@ -91,7 +91,7 @@
 
 		<main id="skip">
 		<ul class="post-metadata">
-			<li>✏️<a href="https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}">Editar en {% icon "simpleicon:github", class="icon" %} GitHub</a></li>
+			<li>✏️<a href="https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}" target="_blank">Editar en {% icon "simpleicon:github", class="icon" %} GitHub</a></li>
 		</ul>
 		<br>
 			{{ content | safe }}
@@ -102,7 +102,7 @@
 				<div class="issue-header">
 					<h3>{{ issue.title }}</h3>
 					<div class="issue-user">						
-						<a href="{{ issue.user.html_url }}" class="issue-author-link"><img src="{{ issue.user.avatar_url }}" alt="{{ issue.user.login }}" class="issue-author-avatar">{{ issue.user.login }}</a>
+						<a href="{{ issue.user.html_url }}" target="_blank" class="issue-author-link"><img src="{{ issue.user.avatar_url }}" alt="{{ issue.user.login }}" class="issue-author-avatar">{{ issue.user.login }}</a>
 					</div>
 				</div>
 				<div class="issue-body">{{ issue.body | markdown | safe }}</div>
@@ -119,7 +119,7 @@
 							🕒 {{ issue.created_at | date('dd/MM/yyyy HH:mm') }}
 							<span class="issue-updated-at">🔄 {{ issue.updated_at | date('dd/MM/yyyy HH:mm') }}</span>
 						</span>
-						<a href="{{ issue.html_url }}" class="issue-link">Ver comentario</a>
+						<a href="{{ issue.html_url }}" target="_blank" class="issue-link">Ver comentario</a>
 					</div>
 				</div>
 			</div>
