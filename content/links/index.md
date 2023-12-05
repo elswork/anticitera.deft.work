@@ -13,7 +13,7 @@ eleventyNavigation:
 <div class="links-container">
 {% for link in links %}
     <div class="link-item">
-        <a href="{{ link.url }}" class="link-title">{{ link.title }}</a>
+        <a href="{{ link.url }}" target="_blank" class="link-title">{{ link.title }}</a>
         <p class="link-description">{{ link.description }}</p>
         <div class="gallery">
             <button class="gallery-prev">◀</button>
