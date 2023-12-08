@@ -240,3 +240,18 @@ footer p {
     right: 10px;
 }
 
+.video-container {
+    position: relative;
+    width: 100%; /* O un ancho máximo específico si lo prefieres */
+    padding-top: 56.25%; /* Proporción para vídeos de YouTube (16:9) */
+    margin: 15px 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
