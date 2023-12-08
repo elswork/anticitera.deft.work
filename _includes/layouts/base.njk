@@ -91,7 +91,11 @@
 
 		<main id="skip">
 		<ul class="post-metadata">
-			<li>✏️<a href="https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}" target="_blank">Editar en {% icon "simpleicon:github", class="icon" %} GitHub</a></li>
+			<li>				
+				<button onclick="window.location.href='https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}'" target="_blank" id="toggle-comments-btn">
+					Editar en {% icon "simpleicon:github", class="icon" %} GitHub
+				</button>
+			</li>
 		</ul>
 		<br>
 			{{ content | safe }}
@@ -123,29 +127,28 @@
 					</div>
 				</div>
 			</div>
-			<a href="https://github.com/elswork/anticitera.deft.work/issues/new" class="issue-link-create">Nuevo comentario</a>
+			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Nuevo comentario</button>
 		{% endfor %}
-
 
 		</main>
 
 		<footer>
 			<div class="container">
 				<div class="social-media">
-					<!-- Enlaces a redes sociales -->
-					<a href="https://twitter.com/elswork" target="_blank" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</a>
-					<a href="https://github.dev/elswork/anticitera.deft.work" target="_blank" class="vscode-icon">{% icon "simpleicon:visualstudiocode", class="icon_plus" %}</a>
-					<a href="https://github.com/elswork/anticitera.deft.work" target="_blank" class="github-icon">{% icon "simpleicon:github", class="icon_plus" %}</a>
-					<a href="/feed/feed.json" target="_blank" class="json-icon">{% icon "simpleicon:json", class="icon_plus" %}</a>
-					<a href="/feed/feed.xml" target="_blank" class="feedly-icon">{% icon "simpleicon:feedly", class="icon_plus" %}</a>
+					<!-- Botones para redes sociales -->
+					<button onclick="window.open('https://twitter.com/elswork', '_blank')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
+					<button onclick="window.open('https://github.dev/elswork/anticitera.deft.work', '_blank')" class="vscode-icon">{% icon "simpleicon:visualstudiocode", class="icon_plus" %}</button>
+					<button onclick="window.open('https://github.com/elswork/anticitera.deft.work', '_blank')" class="github-icon">{% icon "simpleicon:github", class="icon_plus" %}</button>
+					<button onclick="window.open('/feed/feed.json', '_blank')" class="json-icon">{% icon "simpleicon:json", class="icon_plus" %}</button>
+					<button onclick="window.open('/feed/feed.xml', '_blank')" class="feedly-icon">{% icon "simpleicon:feedly", class="icon_plus" %}</button>
 				</div>
 				<p>.IA Isla Anticitera &copy; {{ 'now' | currentYear }}</p>
 				<div class="share-links">
-					<!-- Enlaces para compartir -->				
-					<a href="https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera" target="_blank" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</a>
-					<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada" target="_blank" class="linkedin-icon">{% icon "simpleicon:linkedin", class="icon_plus" %}</a>
-					<a href="https://api.whatsapp.com/send?text=https://anticitera.deft.work" target="_blank" class="whatsapp-icon">{% icon "simpleicon:whatsapp", class="icon_plus" %}</a>
-					<a href="https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work" target="_blank" class="facebook-icon">{% icon "simpleicon:facebook", class="icon_plus" %}</a>
+					<!-- Botones para compartir -->
+					<button onclick="window.open('https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera', '_blank')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada', '_blank')" class="linkedin-icon">{% icon "simpleicon:linkedin", class="icon_plus" %}</button>
+					<button onclick="window.open('https://api.whatsapp.com/send?text=https://anticitera.deft.work', '_blank')" class="whatsapp-icon">{% icon "simpleicon:whatsapp", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work', '_blank')" class="facebook-icon">{% icon "simpleicon:facebook", class="icon_plus" %}</button>
 				</div>
 			</div>
 		</footer>

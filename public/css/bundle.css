@@ -62,6 +62,18 @@ footer p {
     text-align: center;
 }
 
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
 /* Estilos específicos para cada icono de redes sociales */
 .twitter-icon { color: #333; }
 .vscode-icon { color: #007ACC; }
@@ -71,16 +83,6 @@ footer p {
 .linkedin-icon { color: #0077B5; }
 .whatsapp-icon { color: #25D366; }
 .facebook-icon { color: #4267B2; }
-
-#toggle-comments-btn {
-    /* Estilos para el botón */
-    background-color: #d35d23;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-size: 0.8em;
-}
 
 .issue-container {
     background-color: #f9f9f9;
@@ -170,14 +172,42 @@ footer p {
     display: block;
 }
 
+#toggle-comments-btn {
+    /* Estilos para el botón */
+    background-color: #d35d23;
+    color: white;
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#toggle-comments-btn:hover {
+    background-color: #b64309; /* Color de fondo al pasar el ratón por encima */
+}
+
 /* Estilos existentes para el modo claro */
 .issue-link, .issue-link-create {
-    background-color: #28a745;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 3px;
-    text-decoration: none;
-    font-size: 0.8em;
+    background-color: #28a745; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.issue-link:hover, .issue-link-create:hover {
+    background-color: #218838; /* Color de fondo al pasar el ratón por encima */
 }
 
 /* Ajustes específicos para el modo oscuro */
