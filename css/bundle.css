@@ -30,7 +30,12 @@ footer .container {
     gap: 15px;
 }
 
-footer .social-media,
+footer .social-media{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
 footer .share-links {
     display: flex;
     gap: 15px;
