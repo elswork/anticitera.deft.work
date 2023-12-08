@@ -15,6 +15,13 @@ const markdownIt = require("markdown-it");
 
 const { format } = require("date-fns");
 
+function extractYouTubeID(url) {
+    const regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+    const match = url.match(regExp);
+
+    return (match && match[2].length === 11) ? match[2] : null;
+}
+
 module.exports = function(eleventyConfig) {
 
 	// Crear una instancia de markdown-it
@@ -23,6 +30,8 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addFilter("date", (dateStr, formatStr = "dd/MM/yyyy HH:mm") => {
         return format(new Date(dateStr), formatStr);
     });
+	// Filtro Youtube
+	eleventyConfig.addFilter("youtubeID", extractYouTubeID);
 	// Agregar un filtro personalizado
 	eleventyConfig.addFilter("markdown", function(content) {
 		return markdownLib.render(content);

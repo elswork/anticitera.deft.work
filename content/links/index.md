@@ -8,20 +8,24 @@ eleventyNavigation:
   order: 3
 ---
 
-<h1>Links</h1>
+<h1>Anticitera Links</h1>
 
 <div class="links-container">
 {% for link in links %}
     <div class="link-item">
-        <a href="{{ link.url }}" target="_blank" class="link-title">{{ link.title }}</a>
-        <p class="link-description">{{ link.description }}</p>
-        <div class="gallery">
-            <button class="gallery-prev">◀</button>
-            <button class="gallery-next">▶</button>
-            {% for imageUrl in link.imageUrls %}
-                <img src="{{ imageUrl }}" alt="Imagen relacionada">
-            {% endfor %}
-        </div>
+        {% if link.url and (link.url.includes('youtube.com') or link.url.includes('youtu.be')) %}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ link.url | youtubeID }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% else %}
+            <a href="{{ link.url }}" target="_blank" class="link-title">{{ link.title }}</a>
+            <p class="link-description">{{ link.description }}</p>
+            <div class="gallery">
+                <button class="gallery-prev">◀</button>
+                <button class="gallery-next">▶</button>
+                {% for imageUrl in link.imageUrls %}
+                    <img src="{{ imageUrl }}" alt="Imagen relacionada">
+                {% endfor %}
+            </div>
+        {% endif %}
     </div>
 {% endfor %}
 </div>
