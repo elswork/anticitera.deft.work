@@ -338,7 +338,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.location.href='https://github.com/elswork/anticitera.deft.work/edit/main/content/about/index.md'" target="_blank" id="toggle-comments-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/about/index.md', '_blank')" id="edit-github-btn">
 					Editar en 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -496,13 +496,20 @@ h2 + .header-anchor {
 
 		<!-- Current page: /about/ -->
 		<script>
-			document.getElementById('toggle-comments-btn').addEventListener('click', function() {
-				var container = document.querySelector('.issue-container');
-				if (container.style.display === 'none' || container.style.display === '') {
-					container.style.display = 'block';
-				} else {
-					container.style.display = 'none';
-				}
+			document.addEventListener('DOMContentLoaded', () => {
+				// ...resto del código para las galerías...
+
+				// Bucle para manejar cada botón "Ver Comentarios"
+				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
+					btn.addEventListener('click', function() {
+						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
+						if (container.style.display === 'none' || container.style.display === '') {
+							container.style.display = 'block';
+						} else {
+							container.style.display = 'none';
+						}
+					});
+				});
 			});
 		</script>
 		<script>

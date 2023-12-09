@@ -338,7 +338,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.location.href='https://github.com/elswork/anticitera.deft.work/edit/main/content/links/index.md'" target="_blank" id="toggle-comments-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/links/index.md', '_blank')" id="edit-github-btn">
 					Editar en 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -396,8 +396,8 @@ h2 + .header-anchor {
 <p><div class="gallery">
 <button class="gallery-prev">◀</button>
 <button class="gallery-next">▶</button></p>
-<p><img src="https://www.latercera.com/resizer/OcL0jkjExsBdtHFUhyz8l-KcOc4=/200x200/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/HNPJEJ6ICNBF5GG3EOO2ZN6FEY.jpeg" alt="Imagen relacionada"></p>
-<p><img src="https://www.latercera.com/resizer/oOzSmNEv03xhjwVR_gLy0QPhfGY=/200x200/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/NMN2QNMUWRGBJDCPCNZH3FG6L4.jpg" alt="Imagen relacionada"></p>
+<p><img src="https://www.latercera.com/resizer/3jP6LQy8PZVljwI-2JHjbiuueFI=/200x200/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/6YGS63KI4VB3DBEEG47AFGY72M.jpg" alt="Imagen relacionada"></p>
+<p><img src="https://www.latercera.com/resizer/tuQZEs2RYMjuqd9rdnfWL78xpLc=/200x200/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/W2Y66DB62AO5JP3AK3ESHWYRAM.jpg" alt="Imagen relacionada"></p>
 <p><img src="https://www.latercera.com/resizer/Z_Me1yozdo2Fj4YEkuv4VfcYoc0=/1280x960/smart/filters:quality(70):no_upscale()//arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/4SZVM7YWDVHWJB4O3NPPTEMYCU.png" alt="Imagen relacionada"></p>
 <p></div></p>
 <p></div></p>
@@ -656,13 +656,20 @@ h2 + .header-anchor {
 
 		<!-- Current page: /links/ -->
 		<script>
-			document.getElementById('toggle-comments-btn').addEventListener('click', function() {
-				var container = document.querySelector('.issue-container');
-				if (container.style.display === 'none' || container.style.display === '') {
-					container.style.display = 'block';
-				} else {
-					container.style.display = 'none';
-				}
+			document.addEventListener('DOMContentLoaded', () => {
+				// ...resto del código para las galerías...
+
+				// Bucle para manejar cada botón "Ver Comentarios"
+				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
+					btn.addEventListener('click', function() {
+						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
+						if (container.style.display === 'none' || container.style.display === '') {
+							container.style.display = 'block';
+						} else {
+							container.style.display = 'none';
+						}
+					});
+				});
 			});
 		</script>
 		<script>

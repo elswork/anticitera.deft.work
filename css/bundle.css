@@ -172,7 +172,7 @@ button:focus {
     display: block;
 }
 
-#toggle-comments-btn {
+#edit-github-btn, #toggle-comments-btn {
     /* Estilos para el botón */
     background-color: #d35d23;
     color: white;
@@ -187,7 +187,7 @@ button:focus {
     transition: background-color 0.3s; /* Transición suave para el hover */
 }
 
-#toggle-comments-btn:hover {
+#edit-github-btn:hover, #toggle-comments-btn:hover {
     background-color: #b64309; /* Color de fondo al pasar el ratón por encima */
 }
 
