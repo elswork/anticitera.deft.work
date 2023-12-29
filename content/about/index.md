@@ -13,14 +13,15 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 
 ## Estructura del Repositorio
 
-- **Origen**: Los siguientes enlaces detallan la historia y relevancia de la Isla de Anticitera y su relación con la Inteligencia Artificial.
-  - [Isla Anticitera - Cuna de la Inteligencia Artificial](https://deft.work/blog/2022/09/16/isla-anticitera-cuna-de-la-inteligencia-artificial/)
-  - [Isla Anticitera: ¿El futuro de la Inteligencia Artificial?](https://deft.work/blog/2023/04/03/isla-anticitera-el-futuro-de-la-inteligencia-artificial/)
-  - [Isla Anticitera - No esperes más, reserva ahora tu dominio .IA](https://deft.work/blog/2023/04/13/isla-anticitera-no-esperes-m%C3%A1s-reserva-ahora-tu-dominio-.ia/)
 
 - **Posts**: Artículos y entradas de blog que promueven la iniciativa del dominio .IA.
 
 - **_site**: Directorios relacionados con la configuración y estructura del sitio web del proyecto.
+
+- **Origen**: Los siguientes enlaces detallan la historia y relevancia de la Isla de Anticitera y su relación con la Inteligencia Artificial.
+  - [Isla Anticitera - Cuna de la Inteligencia Artificial](https://deft.work/blog/2022/09/16/isla-anticitera-cuna-de-la-inteligencia-artificial/)
+  - [Isla Anticitera: ¿El futuro de la Inteligencia Artificial?](https://deft.work/blog/2023/04/03/isla-anticitera-el-futuro-de-la-inteligencia-artificial/)
+  - [Isla Anticitera - No esperes más, reserva ahora tu dominio .IA](https://deft.work/blog/2023/04/13/isla-anticitera-no-esperes-m%C3%A1s-reserva-ahora-tu-dominio-.ia/)
 
 ## Objetivos del Proyecto
 
@@ -31,11 +32,12 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 ## Cómo Contribuir
 
 - **Participación en la Comunidad**: Únase a nuestra [Lista de 📧 Correo](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link) y participe en discusiones y planificaciones.
-- **Difusión y Promoción**: Ayude a difundir la idea compartiéndola en redes sociales y otros canales.
-  - [Facebook](https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work) [X/Twitter](https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera) [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada) [WhatsApp](https://api.whatsapp.com/send?text=https://anticitera.deft.work)
 
 - **Colaboraciones Estratégicas**: Establezca contactos y relaciones con entidades interesadas.
 
+- **Difusión y Promoción**: Ayude a difundir la idea compartiéndola en redes sociales y otros canales.
+  - [Facebook](https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work) [X/Twitter](https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera) [LinkedIn](https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada) [WhatsApp](https://api.whatsapp.com/send?text=https://anticitera.deft.work)
+  
 ## Enlaces Importantes
 
 - [OpenAI GPTs Anticitera](https://chat.openai.com/g/g-fnpHOClUW-anticitera) es el 🤖 asistente que me ayuda en este proyecto.
