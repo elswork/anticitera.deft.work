@@ -28,6 +28,7 @@ footer .container {
     flex-wrap: wrap;
     align-items: center;
     gap: 15px;
+    justify-content: space-between;
 }
 
 footer .social-media{
