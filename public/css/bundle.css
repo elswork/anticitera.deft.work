@@ -187,8 +187,46 @@ button:focus {
     transition: background-color 0.3s; /* Transición suave para el hover */
 }
 
-#edit-github-btn:hover, #toggle-comments-btn:hover {
+#vote-change-org:hover, #edit-github-btn:hover, #toggle-comments-btn:hover {
     background-color: #b64309; /* Color de fondo al pasar el ratón por encima */
+}
+
+#vote-change-org {
+    /* Estilos para el botón */
+    background-color: #8455e2;
+    color: white;
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#vote-change-org:hover {
+    background-color: #5f20de; /* Color de fondo al pasar el ratón por encima */
+}
+
+#suscribe-mail-list {
+    /* Estilos para el botón */
+    background-color: #a9aa49;
+    color: white;
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#suscribe-mail-list:hover {
+    background-color: #8d9004; /* Color de fondo al pasar el ratón por encima */
 }
 
 /* Estilos existentes para el modo claro */
