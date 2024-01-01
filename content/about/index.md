@@ -23,6 +23,10 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
   - [Isla Anticitera: ¿El futuro de la Inteligencia Artificial?](https://deft.work/blog/2023/04/03/isla-anticitera-el-futuro-de-la-inteligencia-artificial/)
   - [Isla Anticitera - No esperes más, reserva ahora tu dominio .IA](https://deft.work/blog/2023/04/13/isla-anticitera-no-esperes-m%C3%A1s-reserva-ahora-tu-dominio-.ia/)
 
+- **Otros**: Otros enlaces
+  - [Un informático en el lado del mal: El proyecto del Country-Code Top-Level-Domain .IA para la Isla Anticitera](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
+  - [Descubriendo Anticitera: El Puente entre la Historia y el Futuro de la IA](https://elswork.wordpress.com/2023/12/03/descubriendo-anticitera-el-puente-entre-la-historia-y-el-futuro-de-la-ia/)
+
 ## Objetivos del Proyecto
 
 - Promover la creación y adopción del dominio .IA.
