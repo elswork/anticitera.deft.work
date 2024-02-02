@@ -26,6 +26,7 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 - **Otros**: Otros enlaces
   - [Un informático en el lado del mal: El proyecto del Country-Code Top-Level-Domain .IA para la Isla Anticitera](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
   - [Descubriendo Anticitera: El Puente entre la Historia y el Futuro de la IA](https://elswork.wordpress.com/2023/12/03/descubriendo-anticitera-el-puente-entre-la-historia-y-el-futuro-de-la-ia/)
+  - [Entrevista MyPublicImpact - El Proyecto .IA Anticitera como Puente entre Épocas](https://mypublicimpact.com/2024/02/02/el-proyecto-ia-anticitera-como-puente-entre-epocas-entrevista-con-eloy-lopez-sanchez/)
 
 ## Objetivos del Proyecto
 
