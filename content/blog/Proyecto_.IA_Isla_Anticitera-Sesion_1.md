@@ -1,7 +1,7 @@
 ---
 title: Proyecto .IA Isla Anticitera - Sesion 1
 description: Esta es la primera sesión de trabajo.
-date: Last Modified
+date: 14/11/2023
 tags:
   - sesion
   - anticitera
