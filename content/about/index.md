@@ -9,12 +9,12 @@ eleventyNavigation:
 ---
 # Proyecto .IA Isla Anticitera 
 
-Este repositorio contiene documentos, recursos y material de referencia relacionados con el proyecto de promoción del dominio .IA, asociado al territorio de Isla de Anticitera. El proyecto busca establecer un nuevo dominio de internet y rendir homenaje al mecanismo de Anticitera, símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.
+Este repositorio contiene documentos, recursos y material de referencia relacionados con el proyecto de promoción del Dominio de Nivel Superior de Código de País (ccTLD) .IA, asociado al territorio de Isla de Anticitera. El proyecto busca establecer un nuevo dominio de internet y rendir homenaje al mecanismo de Anticitera, símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.
 
 
 ## Objetivos del Proyecto
 
-- Promover la creación y adopción del dominio .IA.
+- Promover la creación y adopción del Dominio de Nivel Superior de Código de País (ccTLD) .IA.
 - Destacar la importancia histórica y cultural del Mecanismo de Anticitera.
 - Fomentar la colaboración y el networking para apoyar la iniciativa.
 
@@ -41,7 +41,7 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 ## Estructura del Repositorio
 
 
-- **Posts**: Artículos y entradas de blog que promueven la iniciativa del dominio .IA.
+- **Posts**: Artículos y entradas de blog que promueven la iniciativa del Dominio de Nivel Superior de Código de País (ccTLD) .IA.
 
 - **_site**: Directorios relacionados con la configuración y estructura del sitio web del proyecto.
 
