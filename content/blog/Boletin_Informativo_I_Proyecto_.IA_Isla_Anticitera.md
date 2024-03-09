@@ -24,7 +24,7 @@ Este proyecto nace en 2019 a partir de una idea que en 2023 se plasma en un port
 ### ¿Que logros podemos reseñar en este tiempo?
 
 Hemos llegado a varios usuarios a través del portal y de los articulos publicados, tenemos 85 firmas en [la Solicitud de Change.org](https://chng.it/hqCyzBpwgW).
-El mayor logro en este tiempo fue en la plataforma [MyPublicInbox.com](https://mypublicinbox.com/) a traves de la cual establecimos contacto con [Chema Alonso](https://mypublicinbox.com/ChemaAlonso), que nos dió la oportunidad de publicar dos artículos en su blog y nos sugirió el plan de medios de la plataforma. A continuación la lista de articulos y entrevistas:
+El mayor logro en este tiempo fue en la plataforma [MyPublicInbox.com](https://mypublicinbox.com/) a traves de la cual establecimos contacto con [Chema Alonso](https://mypublicinbox.com/ChemaAlonso), que nos dió la oportunidad de publicar dos artículos en su blog y nos sugirió el plan de medios para dar a conocer nuestro proyecto. A continuación la lista de articulos y entrevistas resultantes del plan de medios:
 
   - [Un informático en el lado del mal: El proyecto del Country-Code Top-Level-Domain .IA para la Isla Anticitera](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
   - [Un informático en el lado del mal: Apoya la petición del Proyecto de Anticitera a la Unión Europea](https://www.elladodelmal.com/2024/02/apoya-la-peticion-del-proyecto-de.html)
@@ -32,10 +32,23 @@ El mayor logro en este tiempo fue en la plataforma [MyPublicInbox.com](https://m
   - [Bit Life Media - Un nuevo paradigma para la IA: el potencial del ccTLD .IA](https://bitlifemedia.com/2024/03/un-nuevo-paradigma-para-la-ia-el-potencial-del-cctld-ia/)
   - [OpenExpo Europe - Un nuevo amanecer para la .IA: El Dominio .IA](https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/)
 
+Otro logro reseñable es haber llegado a distintas personalidades del ámbito de la divulgación tecnológica:
+
+Carlos Santana Vega @dotcsv
+Brais de Moure @mouredev
+Nate Gentile
+
 ## Eventos y Actividades
 
+Precisamente se está gestando una posible colaboración de divulgadores tecnológicos para la creación de un video divulgativo sobre el Proyecto.
+
+
 ## Contacto y Participación
+
+Tú eres nuestro mayor activo, participa en la web mediante la creación de Pull Request o Issue, envíanos tú opinión, sugerencias o ideas para llevar el proyecto al siguiente nivel o simplemente responde a este correo.
 
 Colaboraciones Estratégicas: Establezca contactos y relaciones con entidades interesadas.
 
 Difusión y Promoción: Ayude a difundir la idea compartiéndola en redes sociales y otros canales.
+
+
