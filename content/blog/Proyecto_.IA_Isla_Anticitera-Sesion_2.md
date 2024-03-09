@@ -1,7 +1,7 @@
 ---
 title: Proyecto .IA Isla Anticitera - Sesion 2
 description: Esta es la segunda sesión de trabajo.
-date: 03/12/2023
+date: 2023-12-03
 tags:
   - sesion
   - anticitera
