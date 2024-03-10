@@ -15,7 +15,7 @@ Este es el primer Boletín Informativo sobre el Proyecto .IA Isla Anticitera.
 ### ¿Que es el Proyecto .IA Isla Anticitera?
 
 El Proyecto .IA Isla Anticitera es una iniciativa que busca crear un nuevo Dominio de Nivel Superior de Código de País (ccTLD) .IA asociado al territorio de la Isla de Anticitera. Esta pequeña isla, famosa por el Mecanismo de Anticitera, considerado como la primera computadora analógica de la historia, se convierte en un símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.
-El Proyecto .IA Isla Anticitera tambien es la comunidad de personas que de alguna u otra forma formamos parte del proyecto, este es el activo más valioso del proyecto, el que ayudará al proyecto a cumplir sus objetivos.
+El Proyecto .IA Isla Anticitera también es la comunidad de personas que de alguna u otra forma formamos parte del proyecto, este es el activo más valioso del proyecto, el que ayudará al proyecto a cumplir sus objetivos.
 
 ## Actualizaciones del proyecto
 
@@ -23,8 +23,8 @@ Este proyecto nace en 2019 a partir de una idea que en 2023 se plasma en un port
 
 ### ¿Que logros podemos reseñar en este tiempo?
 
-Hemos llegado a varios usuarios a través del portal y de los articulos publicados, tenemos 85 firmas en [la Solicitud de Change.org](https://chng.it/hqCyzBpwgW).
-El mayor logro en este tiempo fue en la plataforma [MyPublicInbox.com](https://mypublicinbox.com/) a traves de la cual establecimos contacto con [Chema Alonso](https://mypublicinbox.com/ChemaAlonso), que nos dió la oportunidad de publicar dos artículos en su blog y nos sugirió el plan de medios para dar a conocer nuestro proyecto. A continuación la lista de articulos y entrevistas resultantes del plan de medios:
+Hemos llegado a varios usuarios a través del portal y de los artículos publicados, tenemos 85 firmas en [la Solicitud de Change.org](https://chng.it/hqCyzBpwgW).
+El mayor logro en este tiempo fue en la plataforma [MyPublicInbox.com](https://mypublicinbox.com/) a través de la cual establecimos contacto con [Chema Alonso](https://mypublicinbox.com/ChemaAlonso), que nos dio la oportunidad de publicar dos artículos en su blog y nos sugirió el plan de medios para dar a conocer nuestro proyecto. A continuación, la lista de artículos y entrevistas resultantes del plan de medios:
 
   - [Un informático en el lado del mal: El proyecto del Country-Code Top-Level-Domain .IA para la Isla Anticitera](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
   - [Un informático en el lado del mal: Apoya la petición del Proyecto de Anticitera a la Unión Europea](https://www.elladodelmal.com/2024/02/apoya-la-peticion-del-proyecto-de.html)
