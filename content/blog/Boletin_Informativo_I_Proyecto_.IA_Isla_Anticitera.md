@@ -8,8 +8,9 @@ tags:
   - anticitera
 ---
 
-<img webc:is="eleventy-image" src="cat.jpg" alt="photo of my tabby cat">
-<eleventy-image src="cat.jpg" alt="photo of my tabby cat"></eleventy-image>
+<img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
+<img webc:is="eleventy-image" src="/img/Cabecera.webp" alt="photo of my tabby cat">
+<eleventy-image src="/img/Cabecera.webp" alt="photo of my tabby cat"></eleventy-image>
 
 ## Introducción y Bienvenida
 
