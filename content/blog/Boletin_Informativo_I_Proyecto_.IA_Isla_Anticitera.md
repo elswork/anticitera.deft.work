@@ -8,10 +8,6 @@ tags:
   - anticitera
 ---
 
-<img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
-<img webc:is="eleventy-image" src="/img/Cabecera.webp" alt="photo of my tabby cat">
-<eleventy-image src="/img/Cabecera.webp" alt="photo of my tabby cat"></eleventy-image>
-
 ## Introducción y Bienvenida
 
 Este es el primer Boletín Informativo sobre el Proyecto .IA Isla Anticitera.
@@ -38,9 +34,9 @@ El mayor logro en este tiempo fue en la plataforma [MyPublicInbox.com](https://m
 
 Otro logro reseñable es haber llegado a distintas personalidades del ámbito de la divulgación tecnológica:
 
-Carlos Santana Vega [@DotCSV](https://www.youtube.com/@DotCSV) 
-Brais de Moure [@mouredev](https://www.youtube.com/@mouredev)
-Nate Gentile [@NateGentile7](https://www.youtube.com/@NateGentile7)
+  - Carlos Santana Vega [@DotCSV](https://www.youtube.com/@DotCSV) 
+  - Brais de Moure [@mouredev](https://www.youtube.com/@mouredev)
+  - Nate Gentile [@NateGentile7](https://www.youtube.com/@NateGentile7)
 
 ## Eventos y Actividades
 
@@ -57,4 +53,4 @@ Difusión y Promoción: Ayude a difundir la idea compartiéndola en redes social
 
 [Proyecto .IA Isla Anticitera](https://anticitera.deft.work)
 
-
+<img src="/img/BitLifeMedia.webp" alt="Pie Proyecto .IA Isla Anticitera">
