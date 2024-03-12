@@ -1,7 +1,7 @@
 ---
 title: Boletín Informativo I Proyecto .IA Isla Anticitera
 description: Este es el primer mensaje a la comunidad.
-date: Last Modified
+date: 2024-03-10
 draft: false
 tags:
   - boletín
