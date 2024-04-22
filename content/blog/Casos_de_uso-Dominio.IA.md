@@ -12,14 +12,20 @@ tags:
 
 ## Empresariales
 
-Nvidia
+Nvid.ia
 
-Odiseia
+Odise.ia
 
-Wikipedia
+Wikiped.ia
 
 Academ.ia
 
-Alemania, Francia, Italia
+Alcald.ia
 
-Galicia, Murcia, Almeria, Valenc.ia
+Notic.ia, Cienc.ia, Teor.ia
+
+Aleman.ia, Franc.ia, Ital.ia
+
+Galic.ia, Murc.ia, Almer.ia, Valenc.ia
+
+Luc.ia, Son.ia, Valer.ia
