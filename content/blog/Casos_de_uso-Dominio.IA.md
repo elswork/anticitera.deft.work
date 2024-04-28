@@ -35,7 +35,11 @@ Podrían albergar los portales de los hub tecnológicos IA de cada región.
 
 ## Nombres
 
-Luc.ia, Son.ia, Valer.ia
+### Rosal.ia
+
+Podría ser una webapp en la que poder conversarcon la versión virtual de la Rosalía.
+
+### Luc.ia, Son.ia, Valer.ia
 
 ## Otros
 
@@ -51,8 +55,8 @@ La palabra academia proviene del griego Ἀκαδημία (Akadēmía), que era 
 
 Podría ser un website en el que le pasas diferentes noticias y te las clasifica utilizando múltiples índices.
 
-###Cienc.ia
+### Cienc.ia
 
 La ciencia (del latín scientĭa, 'conocimiento') es un conjunto de conocimientos sistemáticos comprobables que estudian, explican y predicen los fenómenos sociales, artificiales y naturales. Este portal podría ser un compendio de todas las IA aplicadas a las ciencias.
 
-###Teor.ia
+### Teor.ia
