@@ -1,7 +1,7 @@
 ---
 title: Casos de uso - Dominio .IA ejemplos prácticos
 description: Exploramos los posibles dominios .IA y sus posibles usos.
-date: Last Modified
+date: 2024-04-29
 draft: false
 tags:
   - .ia

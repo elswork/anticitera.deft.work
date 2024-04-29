@@ -1,7 +1,7 @@
 ---
 title: Maximizando Oportunidades - El Dominio .IA para Diversos Sectores
 description: Exploramos cómo el dominio .IA brinda soluciones innovadoras y específicas para empresas tecnológicas, académicos, historiadores, desarrolladores y organizaciones culturales.
-date: Last Modified
+date: 2024-04-13
 draft: false
 tags:
   - .ia
