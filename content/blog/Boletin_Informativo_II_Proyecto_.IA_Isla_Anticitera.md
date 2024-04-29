@@ -25,7 +25,7 @@ Estas son las novedades en el proyecto a partir del anterior boletín de marzo.
 
 Hemos llegado a las 100 firmas en [la Solicitud de Change.org](https://chng.it/hqCyzBpwgW).
 Hemos tratado de llegar a personalidades y empresas relevantes, pero por el momento no hemos tenido éxito, pero no desfallecemos volveremos a intentarlo por todos los medios que tengamos disponibles.
-Hemos creado el canal de Telegram [Discípulo Hacker de Arquímedes](https://t.me/+XOZeLDL-WIkxMTg0) para tener una conexión más directa con vosotros.
+Hemos creado el canal de Telegram [Discípulo Hacker de Arquímedes](https://t.me/+oAeZGMsePDg2ZDI0) para tener una conexión más directa con vosotros.
 Si lo preferís también existe un [Canal de Reddit](https://www.reddit.com/r/IslaAnticitera/).
 Hemos realizado una entrevista con 
 
