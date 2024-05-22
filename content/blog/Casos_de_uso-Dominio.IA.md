@@ -60,3 +60,5 @@ Podría ser un website en el que le pasas diferentes noticias y te las clasifica
 La ciencia (del latín scientĭa, 'conocimiento') es un conjunto de conocimientos sistemáticos comprobables que estudian, explican y predicen los fenómenos sociales, artificiales y naturales. Este portal podría ser un compendio de todas las IA aplicadas a las ciencias.
 
 ### Teor.ia
+
+### Democrac.ia
