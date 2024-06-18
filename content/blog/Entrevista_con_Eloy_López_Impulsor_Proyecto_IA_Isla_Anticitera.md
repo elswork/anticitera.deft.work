@@ -1,7 +1,7 @@
 ---
 title: Entrevista con Eloy López impulsor del Proyecto .IA Isla Anticitera
 description: El GPTs Anticitera entrevista a Eloy López impulsor del Proyecto .IA Isla Anticitera.
-date: 2024-05-23
+date: 2024-06-18
 draft: false
 tags:
   - entrevista
