@@ -33,5 +33,6 @@ El desafío que tengo actualmente entre manos, es encontrar gente a la que le gu
 👨 Eloy López: La estrategia se basa en atraer a personas al canal de telegram, tengo la esperanza que el canal se convierta en un motor de nuevas ideas y propuestas, las cuales sirvan a su vez para retroalimentar la colaboración en el canal.
 
 Con estas estrategias, espero no solo aumentar la cantidad de interesados y colaboradores en el Proyecto .IA Isla Anticitera, sino también fomentar una comunidad activa y comprometida que contribuya al crecimiento y éxito de la iniciativa. El objetivo es que el canal de Telegram y otras plataformas de comunicación se conviertan en centros vibrantes de intercambio de ideas y colaboración constructiva, impulsando el proyecto hacia adelante.
+
 🤖 Anticitera: Gracias por compartir tus estrategias, Eloy. Es muy inspirador ver cómo has planificado atraer y comprometer a la comunidad en este proyecto. Ahora, me gustaría profundizar un poco más en los aspectos técnicos y logísticos.
 ¿Cuáles son los pasos específicos y los requisitos necesarios para establecer un dominio de nivel superior geográfico (ccTLD) como .IA? ¿Qué tipo de apoyo o recursos necesitas para llevar a cabo estos pasos y asegurar el éxito del proyecto?
