@@ -15,6 +15,8 @@ const markdownIt = require("markdown-it");
 
 const { format } = require("date-fns");
 
+const embedYouTube = require("eleventy-plugin-youtube-embed");
+
 function extractYouTubeID(url) {
     const regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
     const match = url.match(regExp);
@@ -26,6 +28,8 @@ module.exports = function(eleventyConfig) {
 
 	// Crear una instancia de markdown-it
 	let markdownLib = markdownIt();
+
+	eleventyConfig.addPlugin(embedYouTube);
 
 	eleventyConfig.addFilter("date", (dateStr, formatStr = "dd/MM/yyyy HH:mm") => {
         return format(new Date(dateStr), formatStr);

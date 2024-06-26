@@ -45,6 +45,7 @@
 		"cheerio": "^1.0.0-rc.12",
 		"date-fns": "^2.30.0",
 		"eleventy-plugin-icons": "^4.3.1",
+		"eleventy-plugin-youtube-embed": "^1.10.2",
 		"markdown-it": "^13.0.2",
 		"simple-icons": "^9.20.0"
 	}
