@@ -8,10 +8,6 @@ tags:
   - anticitera
 ---
 
-## Introducción
-
-Este es el segundo Boletín Informativo sobre el Proyecto .IA Isla Anticitera.
-
 ## Actualizaciones del proyecto
 
 Estas son las novedades en el proyecto a partir del anterior boletín de marzo.
