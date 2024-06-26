@@ -33,9 +33,9 @@ https://youtu.be/PNA0f05zsC4
 
 Tú eres nuestro mayor activo, participa en la web mediante la creación de Pull Request o Issue, entra en nuestro canal de telegram, envíanos tú opinión, sugerencias o ideas para llevar el proyecto al siguiente nivel o simplemente responde a este correo.
 
-Colaboraciones Estratégicas: Establezca contactos y relaciones con entidades interesadas.
+Colaboraciones Estratégicas: Establezce contactos y relaciones con entidades que puedan resultar interesantes para el desarrollo del proyecto.
 
-Difusión y Promoción: Ayude a difundir la idea compartiéndola en redes sociales y otros canales.
+Difusión y Promoción: Ayuda a difundir la idea compartiéndola en redes sociales y otros canales.
 
 [Proyecto .IA Isla Anticitera](https://anticitera.deft.work)
 
