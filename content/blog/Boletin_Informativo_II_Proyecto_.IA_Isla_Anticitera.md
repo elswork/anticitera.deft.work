@@ -12,7 +12,7 @@ tags:
 
 Estas son las novedades en el proyecto a partir del anterior boletín de marzo.
 
-### ¿Que logros podemos reseñar en este tiempo?
+### ¿Qué logros podemos reseñar en este tiempo?
 
 - Hemos llegado a las 100 firmas en [la Solicitud de Change.org](https://chng.it/hqCyzBpwgW).
 - Hemos tratado de llegar a personalidades y empresas relevantes, pero por el momento no hemos tenido éxito, pero no desfallecemos volveremos a intentarlo por todos los medios que tengamos disponibles.
