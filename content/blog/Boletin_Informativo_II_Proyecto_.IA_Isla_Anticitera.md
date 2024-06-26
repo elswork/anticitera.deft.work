@@ -38,6 +38,7 @@ Colaboraciones Estratégicas: Establezce contactos y relaciones con entidades qu
 Difusión y Promoción: Ayuda a difundir la idea compartiéndola en redes sociales y otros canales.
 
 [Proyecto .IA Isla Anticitera](https://anticitera.deft.work)
+
 <a href="https://anticitera.deft.work">
   <img src="/img/TecladoyPaises.webp" alt="Pie Proyecto .IA Isla Anticitera">
 </a>
