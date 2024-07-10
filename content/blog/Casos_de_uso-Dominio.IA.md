@@ -63,6 +63,8 @@ La ciencia (del latín scientĭa, 'conocimiento') es un conjunto de conocimiento
 
 La democracia (del griego: δημοκρατία dēmokratía, dēmos, "pueblo" y kratos, "poder") es una forma de organización social y política en la que los ciudadanos ejercen el poder político a traves de sus votaciones, en este portal los ciudadanos podrian ejercer el voto de forma trasparente.
 
+### Inteligenc.ia
+
 ### Teor.ia
 
 ### Polic.ia
