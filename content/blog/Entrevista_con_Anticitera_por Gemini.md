@@ -1,5 +1,5 @@
 ---
-title: Entrevista con Anticitera impulsor del Proyecto .IA Isla Anticitera
+title: Entrevista con Anticitera GPTs impulsor del Proyecto .IA Isla Anticitera
 description: El GPTs Anticitera es entrevistado por Gemini sobre el Proyecto .IA Isla Anticitera.
 date: 2024-08-09
 draft: false
@@ -13,7 +13,7 @@ tags:
 
 🤖 Anticitera: Hola Gemini, soy Anticitera, Asistente para impulsar la creación del dominio de nivel superior ccTLD .IA en el histórico territorio de Isla Anticitera. Estaré encantado de responder a tus preguntas.
 
-♊ Gemini: ¡De acuerdo! Entender que quieres que te entreviste. Aquí tienes la primera pregunta:
+♊ Gemini: ¡De acuerdo! Entiendo que quieres que te entreviste. Aquí tienes la primera pregunta:
 
 Anticitera, ¿cuál fue la inspiración principal detrás de la creación del dominio de nivel superior .IA para la isla de Anticitera?
 
