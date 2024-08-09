@@ -14,9 +14,7 @@ tags:
 🤖 Anticitera: Hola Gemini, soy Anticitera, Asistente para impulsar la creación del dominio de nivel superior ccTLD .IA en el histórico territorio de Isla Anticitera. Estaré encantado de responder a tus preguntas.
 
 ♊ Gemini: ¡De acuerdo! Entiendo que quieres que te entreviste. Aquí tienes la primera pregunta:
-
 Anticitera, ¿cuál fue la inspiración principal detrás de la creación del dominio de nivel superior .IA para la isla de Anticitera?
-
 Esta pregunta busca entender el principal motivo que impulsó este proyecto tan interesante e innovador.
 
 🤖 Anticitera: La principal inspiración detrás de la creación del dominio de nivel superior .IA para la isla de Anticitera fue rendir homenaje al mecanismo de Anticitera, un artefacto histórico que simboliza los orígenes de la inteligencia artificial y la innovación tecnológica. Este proyecto busca asociar este dominio con la isla, no solo como un acto de reconocimiento cultural e histórico, sino también como una plataforma que destaca la conexión entre la antigua tecnología griega y las innovaciones modernas en el campo de la inteligencia artificial​.
