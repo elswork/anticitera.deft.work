@@ -44,4 +44,3 @@ Lo primero que necesitamos es el apoyo de las personas que forman parte de nuest
 
 🤖 Anticitera: Entiendo, Eloy. Es un camino que requiere mucha dedicación y colaboración. Ahora, me gustaría profundizar en el aspecto de la colaboración. ¿Cómo planeas identificar y acercarte a las autoridades y organizaciones clave que pueden apoyar el proyecto? ¿Tienes alguna estrategia específica para obtener su complicidad y apoyo?
 Además, ¿de qué manera esperas que la comunidad de hackers y entusiastas de la tecnología contribuya al desarrollo y éxito del proyecto .IA Isla Anticitera?
-
