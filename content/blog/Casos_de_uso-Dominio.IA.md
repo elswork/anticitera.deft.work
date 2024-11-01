@@ -69,6 +69,12 @@ La democracia (del griego: δημοκρατία dēmokratía, dēmos, "pueblo" y
 
 ### Polic.ia
 
+Aplicación móvil con la que siempre podrías llevar a la policía en tu bolsillo.
+
+### Emergenc.ia
+
+Una app de información y alerta con inteligencia artificial que hubiera salvado vidas en la DANA de Valencia.
+
 ### Tecnolog.ia
 
 ### Industr.ia
