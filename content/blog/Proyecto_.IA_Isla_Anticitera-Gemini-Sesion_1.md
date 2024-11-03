@@ -1,5 +1,5 @@
 ---
-title: I Sesión de trabajo con Gemini en proyecto .IA Isla Anticitera
+title: I Sesión de trabajo con Gemini en Proyecto .IA Isla Anticitera
 description: Le presentamos la idea del proyecto a Gemini y exploramos las posibilidades de colaboración.
 date: 2024-11-03
 draft: false
