@@ -73,7 +73,7 @@ Aplicación móvil con la que siempre podrías llevar a la policía en tu bolsil
 
 ### Emergenc.ia
 
-Una app de información y alerta con inteligencia artificial que hubiera salvado vidas en la DANA de Valencia.
+Una app de información y alerta con inteligencia artificial capaz de salvar vidas en catástrofes como la DANA de Valencia.
 
 ### Tecnolog.ia
 
