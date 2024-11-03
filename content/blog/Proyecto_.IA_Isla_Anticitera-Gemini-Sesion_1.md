@@ -7,6 +7,7 @@ tags:
   - gemini
   - anticitera
 ---
+Este es un extracto de la conversación mantenida con Gemini la inteligencia artificial  de Google:
 
 ### Gemini:
 
