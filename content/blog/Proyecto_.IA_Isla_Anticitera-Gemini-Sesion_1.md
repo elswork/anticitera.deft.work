@@ -35,7 +35,7 @@ Dime qué necesitas y haré todo lo posible para ayudarte.
 
 ### Eloy López:
 
-Necesito generar ideas para promocionar el proyecto, hasta ahora no he tenido suerte con el proyecto, yo buscaba atraer a otras personas para sumar esfuerzos y entre todos crear ideas creativas para dar a conocer el proyecto, pero por el momento no he tener apenas exito a pesar de que considero que la idea del proyecto es buena.
+Necesito generar ideas para promocionar el proyecto, hasta ahora no he tenido suerte con el proyecto, yo buscaba atraer a otras personas para sumar esfuerzos y entre todos crear ideas creativas para dar a conocer el proyecto.
 
 ### Gemini:
 
