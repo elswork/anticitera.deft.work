@@ -258,7 +258,7 @@ Con esta información, podremos elaborar un plan de acción más detallado y per
 
 **¡Estoy a tu disposición para ayudarte en todo lo que necesites!**
 
-### Eloy Lóprz:
+### Eloy López:
 
 ¿Qué crees que diria Arquimedes acerca del proyecto?
 
