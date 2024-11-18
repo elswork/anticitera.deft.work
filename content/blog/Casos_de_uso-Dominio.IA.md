@@ -65,6 +65,8 @@ La democracia (del griego: δημοκρατία dēmokratía, dēmos, "pueblo" y
 
 ### Inteligenc.ia
 
+### Filosof.ia
+
 ### Teor.ia
 
 ### Polic.ia
