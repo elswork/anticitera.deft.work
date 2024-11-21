@@ -71,6 +71,8 @@ La democracia (del griego: δημοκρατία dēmokratía, dēmos, "pueblo" y
 
 ### Teor.ia
 
+### Secretar.ia
+
 ### Polic.ia
 
 Aplicación móvil con la que siempre podrías llevar a la policía en tu bolsillo.
