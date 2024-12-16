@@ -57,4 +57,4 @@ Le confirmo mi interés en este proyecto y me pongo a su disposición para agend
 
 Agradezco nuevamente que haya compartido este proyecto conmigo y espero con interés la oportunidad de conversar más en detalle.
 
-![IA Anticitera](/img/AnticiteraIAsliced.webp)
+![IA Anticitera](/img/AnticiteraIAoverSea.webp)
