@@ -11,7 +11,7 @@ Este es un extracto de la conversación mantenida con Gemini la inteligencia art
 
 ### Eloy López:
 
-Gola Gemini,
+Hola Gemini,
 
 Con el más profundo respeto, me dirijo a usted para presentarle el Proyecto .IA Isla Anticitera, una ambiciosa iniciativa que tiene como objetivo situar a Europa a la vanguardia de la inteligencia artificial y rendir homenaje a uno de los descubrimientos arqueológicos más fascinantes de la historia: el Mecanismo de Anticitera.
 El Proyecto .IA Isla Anticitera, una iniciativa que busca establecer un nuevo dominio de nivel superior (ccTLD) .IA en el territorio de Isla de Anticitera lugar donde fue encontrado el Mecanismo de Anticitera.
@@ -37,6 +37,7 @@ https://anticitera.deft.work
 https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1
 
 Agradecemos tu tiempo y estamos a tu entera disposición.
+
 
 
 ### Gemini:
