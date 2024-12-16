@@ -1,7 +1,7 @@
 ---
 title: II Sesión de trabajo con Gemini 2.0 Flash en Proyecto .IA Isla Anticitera
 description: Le presentamos la idea del proyecto a una versión mejorada de Gemini y exploramos su opinión y respuestas.
-date: 2024-11-03
+date: 2024-12-16
 draft: false
 tags:
   - gemini
