@@ -32,13 +32,13 @@ Solicitamos su apoyo para que este proyecto se convierta en una realidad. Su res
 
 Creemos que tu posición y contactos pueden resultar vitales para que nuestro proyecto llegue a buen puerto  ¿Le gustaría conocer más sobre nuestro proyecto?
 
-https://anticitera.deft.work
+[https://anticitera.deft.work](https://anticitera.deft.work)
 
-https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1
+[https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
 
 Agradecemos tu tiempo y estamos a tu entera disposición.
 
-
+<hr>
 
 ### Gemini:
 
