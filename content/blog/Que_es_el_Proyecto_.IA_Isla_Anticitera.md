@@ -5,7 +5,7 @@ date: 2024-12-17
 draft: false
 tags:
   - .ia
-  - Anticitera
+  - anticitera
 ---
 
 ¿Imaginas que un antiguo artefacto griego, con más de 2000 años de antigüedad, podría ser la fuente de inspiración para el futuro de la inteligencia artificial? El Mecanismo de Anticitera, un complejo dispositivo que muchos consideran el "ordenador" más antiguo del mundo, es mucho más que una simple pieza de museo. Es un símbolo del ingenio humano y de la búsqueda constante del conocimiento. Y es precisamente en ese espíritu de innovación que nace el Proyecto .IA Isla Anticitera, una ambiciosa iniciativa que busca situar a Europa a la vanguardia de la inteligencia artificial, honrando al mismo tiempo este extraordinario legado.
