@@ -29,7 +29,7 @@ Podrían ser web apps para aprender idiomas apoyadas por diferentes asistentes, 
 
 ## Regionales
 
-### Galic.ia, Murc.ia, Almer.ia, Valenc.ia
+### Andaluc.ia Galic.ia, Murc.ia, Almer.ia, Valenc.ia
 
 Podrían albergar los portales de los hub tecnológicos IA de cada región.
 
