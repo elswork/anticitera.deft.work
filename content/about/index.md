@@ -59,7 +59,8 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
   - [Bit Life Media - Un nuevo paradigma para la IA: el potencial del ccTLD .IA](https://bitlifemedia.com/2024/03/un-nuevo-paradigma-para-la-ia-el-potencial-del-cctld-ia/)
   - [OpenExpo Europe - Un nuevo amanecer para la .IA: El Dominio .IA](https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/)
   - [Día Zero por Caoa8 - Anticitera la conexión entre la historia y la innovación con Eloy Lopéz](https://open.spotify.com/episode/4xM1ANXTokj1RdTU9QmIFB?go=1&sp_cid=66afdca16c3716c81e696097aeb7df6b&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=8b3675c242d54d2b)
-  - [CosasdeHackers - Eloy López y el DOMAIN HACK .IA de ISLA ANTICITERA](https://www.youtube.com/live/AriKIdJTeak?si=g1KsUQkfZrWh2DoS)
+  - [Entrevista CosasdeHackers - Eloy López y el DOMAIN HACK .IA de ISLA ANTICITERA](https://www.youtube.com/live/AriKIdJTeak?si=g1KsUQkfZrWh2DoS)
+	- [Entrevista Hack by Security](https://www.hackbysecurity.com/blog/entrevista-a-eloy-lopez)
 
 
 **[¡Patrocíname!](https://github.com/sponsors/elswork) Juntos seremos imparables.**
