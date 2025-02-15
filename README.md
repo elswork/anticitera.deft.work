@@ -1,11 +1,11 @@
 # Proyecto .IA Isla Anticitera 
 
-Este repositorio contiene documentos, recursos y material de referencia relacionados con el proyecto de promoción del dominio .IA, asociado al territorio de Isla de Anticitera. El proyecto busca establecer un nuevo dominio de internet y rendir homenaje al mecanismo de Anticitera, símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.
+Este repositorio contiene documentos, recursos y material de referencia relacionados con el proyecto de promoción del Dominio de Nivel Superior de Código de País (ccTLD) .IA, asociado al territorio de Isla de Anticitera. El proyecto busca establecer un nuevo dominio de internet y rendir homenaje al mecanismo de Anticitera, símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.
 
 
 ## Objetivos del Proyecto
 
-- Promover la creación y adopción del dominio .IA.
+- Promover la creación y adopción del Dominio de Nivel Superior de Código de País (ccTLD) .IA.
 - Destacar la importancia histórica y cultural del Mecanismo de Anticitera.
 - Fomentar la colaboración y el networking para apoyar la iniciativa.
 
@@ -32,7 +32,7 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 ## Estructura del Repositorio
 
 
-- **Posts**: Artículos y entradas de blog que promueven la iniciativa del dominio .IA.
+- **Posts**: Artículos y entradas de blog que promueven la iniciativa del Dominio de Nivel Superior de Código de País (ccTLD) .IA.
 
 - **_site**: Directorios relacionados con la configuración y estructura del sitio web del proyecto.
 
@@ -43,9 +43,15 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 
 - **Otros**: Otros enlaces
   - [Un informático en el lado del mal: El proyecto del Country-Code Top-Level-Domain .IA para la Isla Anticitera](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
+  - [Un informático en el lado del mal: Apoya la petición del Proyecto de Anticitera a la Unión Europea](https://www.elladodelmal.com/2024/02/apoya-la-peticion-del-proyecto-de.html)
+  - [Un informático en el lado del mal: Entrevista a Eloy López Sánchez, impulsor del dominio .IA de la "Isla de Anticitera"](https://www.elladodelmal.com/2024/06/entrevista-eloy-lopez-sanchez-impulsor.html)
   - [Descubriendo Anticitera: El Puente entre la Historia y el Futuro de la IA](https://elswork.wordpress.com/2023/12/03/descubriendo-anticitera-el-puente-entre-la-historia-y-el-futuro-de-la-ia/)
   - [Entrevista MyPublicImpact - El Proyecto .IA Anticitera como Puente entre Épocas](https://mypublicimpact.com/2024/02/02/el-proyecto-ia-anticitera-como-puente-entre-epocas-entrevista-con-eloy-lopez-sanchez/)
   - [Bit Life Media - Un nuevo paradigma para la IA: el potencial del ccTLD .IA](https://bitlifemedia.com/2024/03/un-nuevo-paradigma-para-la-ia-el-potencial-del-cctld-ia/)
+  - [OpenExpo Europe - Un nuevo amanecer para la .IA: El Dominio .IA](https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/)
+  - [Día Zero por Capa8 - Anticitera la conexión entre la historia y la innovación con Eloy Lopéz](https://open.spotify.com/episode/4xM1ANXTokj1RdTU9QmIFB?go=1&sp_cid=66afdca16c3716c81e696097aeb7df6b&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=8b3675c242d54d2b)
+  - [Entrevista CosasdeHackers - Eloy López y el DOMAIN HACK .IA de ISLA ANTICITERA](https://www.youtube.com/live/AriKIdJTeak?si=g1KsUQkfZrWh2DoS)
+  - [Entrevista Hack by Security](https://www.hackbysecurity.com/blog/entrevista-a-eloy-lopez)
 
 
 **[¡Patrocíname!](https://github.com/sponsors/elswork) Juntos seremos imparables.**
