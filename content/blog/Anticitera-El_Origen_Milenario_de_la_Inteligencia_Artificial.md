@@ -1,5 +1,5 @@
 ---
-title: Anticitera: El Origen Milenario de la Inteligencia Artificial.
+title: Anticitera - El Origen Milenario de la Inteligencia Artificial.
 description: Explorar cómo el Mecanismo de Anticitera es un símbolo temprano de la computación y la inteligencia artificial, estableciendo paralelismos con la IA moderna.
 date: 2025-02-15
 draft: false
