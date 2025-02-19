@@ -27,7 +27,7 @@ El objetivo central del proyecto es ambicioso: crear un nuevo Dominio de Nivel S
 
 -   Contenido: La página web incluye publicaciones sobre el proyecto, como su justificación, el origen de la idea, y el trabajo que están haciendo con herramientas de IA como Gemini 2.0 Flash.
 
-Implicaciones y Potencial:
+## Implicaciones y Potencial:
 
 -   Branding y Marketing: El dominio ".IA" podría tener un fuerte atractivo de marca para empresas y proyectos de IA, facilitando su identificación y promoción.
 
