@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>.IA Isla Anticitera - Base de Conocimiento</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>Perplexity - Análisis detallado del Proyecto .IA Isla Anticitera.</title>
+		<meta name="description" content="Le pedimos a Perplexity que nos haga un Análisis detallado del Proyecto .IA Isla Anticitera.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title=".IA Isla Anticitera - Base de Conocimiento">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title=".IA Isla Anticitera - Base de Conocimiento">
@@ -21,23 +21,173 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -357,7 +507,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/tags-list.njk', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md', '_blank')" id="edit-github-btn">
 					Editar en 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -388,52 +538,67 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>¿Que es el Proyecto .IA Isla Anticitera?</h3>
+			
+<h1>Perplexity - Análisis detallado del Proyecto .IA Isla Anticitera.</h1>
 
-<p>
-	El Proyecto .IA Isla Anticitera es una iniciativa que busca crear un nuevo Dominio de Nivel Superior de Código de País (ccTLD) .IA asociado al territorio de la Isla de Anticitera. Esta pequeña isla, famosa por el Mecanismo de Anticitera, considerado como la primera computadora analógica de la historia, se convierte en un símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.
-	El Proyecto .IA Isla Anticitera también es la comunidad de personas que de alguna u otra forma formamos parte del proyecto, este es el activo más valioso del proyecto, el que ayudará al proyecto a cumplir sus objetivos.
-</p>
-<div class="message-box">
-	<ol>
-		<li>Existe un dominio ccTLD .AI comunmente utilizado para proyectos de "Artificial Intelligence", pero no existe el ccTLD .IA que representaria a la mayoria del resto de idiomas del planeta.</li>
-    	<li>Buscamos crear una comunidad de entusiastas de la IA para promover la creación del dominio de nivel superior ccTLD .IA en el histórico territorio de Isla Anticitera.</li>
-		<li>Consulta los detalles del <a href="/about">Proyecto</a>.</li>
-	</ol>
-	</ol>
-	<p><em>Esta es la Base de conocimiento para el <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Asistente Anticitera de OpenAI</a> creado para asistir en la creación de proyectos tecnologicos relacionados con la .IA</em></p>
-</div>
-<!-- Stop deleting -->
-
-<h1>Tags</h1>
-
-<ul>
-
-	
-	<li><a href="/tags/sesion/" class="post-tag">sesion</a></li>
-
-	
-	<li><a href="/tags/anticitera/" class="post-tag">anticitera</a></li>
-
-	
-	<li><a href="/tags/boletin/" class="post-tag">boletín</a></li>
-
-	
-	<li><a href="/tags/ia/" class="post-tag">.ia</a></li>
-
-	
-	<li><a href="/tags/entrevista/" class="post-tag">entrevista</a></li>
-
-	
-	<li><a href="/tags/gemini/" class="post-tag">gemini</a></li>
-
-	
+<ul class="post-metadata">
+	<li><time datetime="2025-02-19">19 February 2025</time></li>
+	<li><a href="/tags/ia/" class="post-tag">.ia</a>, </li>
+	<li><a href="/tags/anticitera/" class="post-tag">anticitera</a>, </li>
 	<li><a href="/tags/perplexity/" class="post-tag">perplexity</a></li>
-
 </ul>
 
+<h1 id="analisis-del-proyecto-ia-isla-anticitera" tabindex="-1">Análisis del Proyecto .IA Isla Anticitera <a class="header-anchor" href="#analisis-del-proyecto-ia-isla-anticitera">#</a></h1>
+<h2 id="objetivo-principal" tabindex="-1">Objetivo Principal: <a class="header-anchor" href="#objetivo-principal">#</a></h2>
+<p>El objetivo central del proyecto es ambicioso: crear un nuevo Dominio de Nivel Superior de Código de País (ccTLD) &quot;.IA&quot; vinculado al territorio de la Isla de Anticitera en Grecia.</p>
+<h2 id="justificacion" tabindex="-1">Justificación: <a class="header-anchor" href="#justificacion">#</a></h2>
+<ul>
+<li>
+<p>Simbolismo: La isla es conocida por el Mecanismo de Anticitera, un artefacto antiguo considerado como la primera computadora analógica. El proyecto busca asociar este legado histórico de innovación tecnológica con el campo moderno de la Inteligencia Artificial.</p>
+</li>
+<li>
+<p>Identidad: El dominio &quot;.IA&quot; podría servir como un identificador único y memorable para proyectos, organizaciones e individuos relacionados con la Inteligencia Artificial.</p>
+</li>
+</ul>
+<h2 id="componentes-clave" tabindex="-1">Componentes Clave: <a class="header-anchor" href="#componentes-clave">#</a></h2>
+<ul>
+<li>
+<p>Comunidad: El proyecto reconoce la importancia de la comunidad de personas involucradas. Este grupo es visto como el activo más valioso para lograr los objetivos del proyecto.</p>
+</li>
+<li>
+<p>Contenido: La página web incluye publicaciones sobre el proyecto, como su justificación, el origen de la idea, y el trabajo que están haciendo con herramientas de IA como Gemini 2.0 Flash.</p>
+</li>
+</ul>
+<p>Implicaciones y Potencial:</p>
+<ul>
+<li>
+<p>Branding y Marketing: El dominio &quot;.IA&quot; podría tener un fuerte atractivo de marca para empresas y proyectos de IA, facilitando su identificación y promoción.</p>
+</li>
+<li>
+<p>Desarrollo Económico: La iniciativa podría atraer inversión y desarrollo tecnológico a la isla de Anticitera, revitalizando su economía.</p>
+</li>
+<li>
+<p>Comunidad Global de IA: El dominio podría fomentar la creación de una comunidad global en torno a la IA, con Anticitera como un punto focal simbólico.</p>
+</li>
+</ul>
+<h2 id="consideraciones-y-desafios" tabindex="-1">Consideraciones y Desafíos: <a class="header-anchor" href="#consideraciones-y-desafios">#</a></h2>
+<ul>
+<li>
+<p>Aprobación del ccTLD: Obtener la aprobación para un nuevo ccTLD es un proceso complejo que involucra a la ICANN (Corporación de Internet para la Asignación de Nombres y Números). Se requiere cumplir con criterios técnicos, financieros y operativos.</p>
+</li>
+<li>
+<p>Adopción: Incluso si se aprueba el dominio &quot;.IA&quot;, su éxito dependerá de la adopción por parte de la comunidad de IA. Se necesitarán estrategias de marketing y promoción efectivas.</p>
+</li>
+<li>
+<p>Gestión y Gobernanza: Se deberá establecer una estructura de gestión clara y transparente para el dominio, incluyendo políticas de registro, resolución de disputas y seguridad.</p>
+</li>
+</ul>
+<h2 id="en-resumen" tabindex="-1">En resumen: <a class="header-anchor" href="#en-resumen">#</a></h2>
+<p>El Proyecto .IA Isla Anticitera es una iniciativa interesante que busca vincular el pasado con el futuro de la tecnología. Su éxito dependerá de superar los desafíos regulatorios, técnicos y de adopción, pero tiene el potencial de crear un nuevo espacio de identidad y comunidad en el mundo de la Inteligencia Artificial.</p>
+<p><img src="/img/TecladoyPaises.webp" alt="IA Anticitera"></p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/Anticitera-El_Origen_Milenario_de_la_Inteligencia_Artificial/">Anticitera - El Origen Milenario de la Inteligencia Artificial.</a></li>
+</ul>
 
 		<br>
 		
@@ -532,7 +697,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /tags/ -->
+		<!-- Current page: /blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...
