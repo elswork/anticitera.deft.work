@@ -40,7 +40,7 @@ Invitaciones a unirse a una lista de correo y participar en la comunidad, promov
 
 ### d) Recursos técnicos y comunitarios
 
-El sitio está vinculado a un repositorio en GitHub [github.com/elswork/anticitera.deft.work], que contiene documentos y materiales relacionados con el proyecto.
+El sitio está vinculado a un repositorio en GitHub [https://github.com/elswork/anticitera.deft.work](https://github.com/elswork/anticitera.deft.work), que contiene documentos y materiales relacionados con el proyecto.
 Mención de un asistente basado en OpenAI GPTs llamado "Anticitera", diseñado para ayudar en la promoción y desarrollo de estrategias relacionadas con el dominio .ia.
 
 ### e) Publicaciones y actualizaciones
