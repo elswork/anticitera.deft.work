@@ -23,7 +23,7 @@ La enciclopedia en internet podría mostrar desarrollos basados en el contenido 
 
 ## Nacionales
 
-### Aleman.ia, Franc.ia, Ital.ia, Hispan.ia
+### Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia
 
 Podrían ser web apps para aprender idiomas apoyadas por diferentes asistentes, uno para el texto otro para el habla.
 
@@ -70,6 +70,10 @@ La democracia (del griego: δημοκρατία dēmokratía, dēmos, "pueblo" y
 ### Memor.ia
 
 ### Filosof.ia
+
+### Eufor.ia
+
+### Alegr.ia
 
 ### Teor.ia
 
