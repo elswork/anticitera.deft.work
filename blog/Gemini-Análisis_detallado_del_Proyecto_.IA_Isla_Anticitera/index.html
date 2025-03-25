@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Gemini - Análisis detallado del Proyecto .IA Isla Anticitera.</title>
+		<meta name="description" content="Le pedimos a Gemini Deep Research que nos haga un Análisis detallado del Proyecto .IA Isla Anticitera.">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title=".IA Isla Anticitera - Base de Conocimiento">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title=".IA Isla Anticitera - Base de Conocimiento">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@elswork">
+		<meta name="twitter:title" content=".IA Isla Anticitera - Base de Conocimiento">
+		<meta name="twitter:description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<meta name="twitter:image" content="https://anticitera.deft.work/img/anticitera.webp">
+
+		<meta property="og:title" content=".IA Isla Anticitera - Base de Conocimiento">
+		<meta property="og:description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<meta property="og:image" content="https://anticitera.deft.work/img/anticitera.webp">
+		<meta property="og:url" content="https://anticitera.deft.work/">
+		<meta property="og:type" content="website">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840; 
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 60em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+		<link rel="stylesheet" href="/css/bundle.css">
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRM23DV6JJ"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-FRM23DV6JJ');
+		</script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PCMLMBWD');</script>
+		<!-- End Google Tag Manager -->
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCMLMBWD"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<!-- Añadir la imagen del banner aquí -->
+            <img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
+			<a href="/" class="home-link">.IA Isla Anticitera - Base de Conocimiento</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Inicio</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">Proyecto</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
+					<li class="nav-item"><a href="/podcasts/">Podcasts</a></li>
+					<li class="nav-item"><a href="/x/">X</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+		<ul class="post-metadata">
+			<li>				
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/blog/Gemini-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md', '_blank')" id="edit-github-btn">
+					Editar en 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>GitHub</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+</svg> GitHub
+				</button>
+				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
+					Firma en 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>C</title>
+  <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
+</svg>. Change.org
+				</button>
+				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
+					Entra al 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>Telegram</title>
+  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+</svg> Telegram
+				</button>
+				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
+					Suscribete al 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>Gmail</title>
+  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+</svg> Correo
+				</button>
+			</li>
+		</ul>
+		<br>
+			
+<h1>Gemini - Análisis detallado del Proyecto .IA Isla Anticitera.</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-03-23">23 March 2025</time></li>
+	<li><a href="/tags/ia/" class="post-tag">.ia</a>, </li>
+	<li><a href="/tags/anticitera/" class="post-tag">anticitera</a>, </li>
+	<li><a href="/tags/gemini/" class="post-tag">gemini</a></li>
+</ul>
+
+<p>Vamos a realizar un análisis exhaustivo con Gemini Deep Research del sitio web <a href="anticitera.deft.work">https://anticitera.deft.work</a></p>
+<h1 id="el-proyecto-anticitera-uniendo-la-ingenieria-antigua-y-el-futuro-de-la-inteligencia-artificial" tabindex="-1"><strong>El Proyecto Anticitera: Uniendo la Ingeniería Antigua y el Futuro de la Inteligencia Artificial</strong> <a class="header-anchor" href="#el-proyecto-anticitera-uniendo-la-ingenieria-antigua-y-el-futuro-de-la-inteligencia-artificial">#</a></h1>
+<p>El proyecto Anticitera se presenta como una iniciativa innovadora con el objetivo central de establecer un nuevo Dominio de Nivel Superior de Código de País (ccTLD) &quot;.IA&quot; asociado al territorio de la isla de Anticitera <sup>1</sup>. Esta empresa se inspira en el mecanismo de Anticitera, considerado el primer computador analógico de la historia, erigiéndose como un símbolo de los albores de la inteligencia artificial y la innovación tecnológica <sup>1</sup>. La trascendencia de este artefacto antiguo, descubierto en las profundidades marinas cerca de la isla griega, radica en su sofisticación y capacidad para calcular fenómenos astronómicos, lo que desafía nuestra comprensión de las capacidades tecnológicas del mundo antiguo <sup>2</sup>. El proyecto Anticitera busca capitalizar esta rica herencia, proponiendo que la isla, cuna de este prodigio mecánico, sea reconocida en el espacio digital a través de un dominio que evoque los orígenes de la computación y la inteligencia <sup>1</sup>.</p>
+<p>Más allá de la mera creación de una dirección web distintiva, la iniciativa Anticitera aspira a fomentar una comunidad global de entusiastas de la inteligencia artificial en torno a este nuevo dominio <sup>1</sup>. Se reconoce que el éxito de un nuevo ccTLD depende intrínsecamente de su adopción y de la vitalidad del ecosistema que se desarrolle a su alrededor. Por ello, el proyecto se centra en construir una red de individuos y organizaciones que compartan el interés por la inteligencia artificial y que vean en el dominio &quot;.IA&quot; un espacio representativo y significativo <sup>1</sup>. Esta visión de comunidad subraya la comprensión de que la innovación en el campo de la inteligencia artificial es un esfuerzo colectivo que trasciende fronteras geográficas y lingüísticas.</p>
+<p>Un aspecto fundamental de la propuesta del proyecto Anticitera es la intención de establecer un dominio que pueda ser utilizado por la mayoría de los idiomas del mundo <sup>1</sup>. Esta ambición contrasta directamente con el dominio &quot;.AI&quot;, que si bien se ha convertido en un estándar de facto para proyectos relacionados con la inteligencia artificial, está intrínsecamente ligado al término en inglés (&quot;Artificial Intelligence&quot;) y es, de hecho, el ccTLD del territorio británico de ultramar de Anguila <sup>1</sup>. Al proponer &quot;.IA&quot;, que evoca &quot;Inteligencia Artificial&quot; en español y portugués, entre otros idiomas, el proyecto busca crear un espacio en línea más inclusivo y representativo para la comunidad global de la inteligencia artificial <sup>1</sup>.</p>
+<p>Para apoyar esta iniciativa, el proyecto Anticitera ha desarrollado el Asistente Anticitera por OpenAI <sup>1</sup>. Esta herramienta se presenta como un recurso valioso para la creación de proyectos tecnológicos vinculados al dominio &quot;.IA&quot;, demostrando un enfoque proactivo para fomentar la utilidad y la adopción del nuevo dominio <sup>1</sup>. La existencia de este asistente, junto con la visión de construir una comunidad activa, sugiere que el proyecto no se limita a la solicitud de un dominio, sino que busca activamente construir una infraestructura de apoyo para su uso y crecimiento. El presente informe analizará en detalle los diversos aspectos del proyecto Anticitera, desde su inspiración histórica hasta sus objetivos presentes y su potencial impacto futuro.</p>
+<h2 id="desvelando-la-vision-proposito-y-objetivos-de-la-iniciativa-del-dominio-ia" tabindex="-1"><strong>Desvelando la Visión: Propósito y Objetivos de la Iniciativa del Dominio .IA</strong> <a class="header-anchor" href="#desvelando-la-vision-proposito-y-objetivos-de-la-iniciativa-del-dominio-ia">#</a></h2>
+<p>El propósito primordial del proyecto Anticitera es la creación de &quot;.IA&quot; como un nuevo Dominio de Nivel Superior de Código de País (ccTLD) específicamente para la isla de Anticitera <sup>1</sup>. Esta iniciativa se fundamenta en el reconocimiento de la profunda significación histórica de la isla en relación con los orígenes de la inteligencia artificial y la innovación tecnológica <sup>1</sup>. La elección de Anticitera no es casual; la isla es célebre por el descubrimiento del mecanismo de Anticitera, un artefacto de más de dos mil años de antigüedad que se considera la primera computadora analógica de la humanidad <sup>14</sup>. Este vínculo histórico y simbólico es el pilar sobre el que se construye la propuesta del dominio &quot;.IA&quot;, buscando establecer una conexión entre la ingeniería computacional del pasado y el desarrollo de la inteligencia artificial en el presente y el futuro <sup>1</sup>. La iniciativa busca que este ccTLD no sea solo una dirección en internet, sino un símbolo de la perdurable capacidad humana para la innovación en el campo de la computación.</p>
+<p>Un objetivo clave del proyecto es la formación de una comunidad global de entusiastas de la inteligencia artificial que respalden activamente la creación y adopción de este ccTLD <sup>1</sup>. El proyecto reconoce que la viabilidad y el éxito de un nuevo dominio dependen en gran medida del apoyo y la participación de la comunidad a la que pretende servir. Al fomentar la creación de una red de investigadores, desarrolladores y aficionados de la inteligencia artificial, el proyecto Anticitera busca asegurar que el dominio &quot;.IA&quot; se convierta en un espacio dinámico y relevante para la colaboración y el intercambio de conocimientos <sup>1</sup>. Este enfoque en la construcción de comunidad refleja una comprensión de que la inteligencia artificial es un campo en constante evolución que se beneficia de la diversidad de perspectivas y la colaboración a nivel mundial.</p>
+<p>Una de las motivaciones centrales detrás de la propuesta del dominio &quot;.IA&quot; es la intención de crear un nombre de dominio que pueda ser utilizado por la mayoría de los idiomas del mundo <sup>1</sup>. Actualmente, el dominio &quot;.AI&quot;, que pertenece a Anguila <sup>18</sup>, se utiliza ampliamente para proyectos de inteligencia artificial, a pesar de estar intrínsecamente ligado al término en inglés <sup>1</sup>. El proyecto Anticitera argumenta que esta situación otorga un peso desproporcionado al idioma inglés en un campo que se beneficia enormemente de la diversidad lingüística y cultural <sup>12</sup>. Al proponer &quot;.IA&quot;, que tiene una resonancia directa con &quot;Inteligencia Artificial&quot; en español, portugués, italiano y francés, entre otros idiomas <sup>16</sup>, el proyecto busca establecer un espacio en línea más equitativo e inclusivo para la comunidad global de la inteligencia artificial <sup>1</sup>. Esta iniciativa representa un intento de desafiar la hegemonía del inglés en la ciencia y la tecnología, promoviendo un entorno en línea donde diversas lenguas y culturas puedan contribuir y ser representadas en el campo de la inteligencia artificial <sup>12</sup>.</p>
+<p>Como un paso concreto hacia la realización de su visión, el proyecto Anticitera ha desarrollado el Asistente Anticitera por OpenAI <sup>1</sup>. Esta herramienta de inteligencia artificial está diseñada específicamente para ayudar en la creación de proyectos tecnológicos relacionados con el dominio &quot;.IA&quot; <sup>1</sup>. La existencia de este asistente no solo proporciona un recurso práctico para los futuros usuarios del dominio &quot;.IA&quot;, sino que también subraya el compromiso del proyecto con la innovación y el fomento de una comunidad activa en torno a su propuesta <sup>1</sup>. Al ofrecer una herramienta que facilita el desarrollo de proyectos dentro del ecosistema &quot;.IA&quot;, el proyecto Anticitera busca incentivar la adopción del nuevo dominio y construir un entorno en línea donde la inteligencia artificial pueda florecer en un contexto multilingüe y culturalmente rico.</p>
+<h2 id="deconstruyendo-la-presencia-digital-analisis-del-sitio-web-ui-ux-caracteristicas-y-funcionalidades" tabindex="-1"><strong>Deconstruyendo la Presencia Digital: Análisis del Sitio Web (UI/UX, Características y Funcionalidades)</strong> <a class="header-anchor" href="#deconstruyendo-la-presencia-digital-analisis-del-sitio-web-ui-ux-caracteristicas-y-funcionalidades">#</a></h2>
+<p>El sitio web del proyecto .IA Isla Anticitera (<a href="https://anticitera.deft.work">https://Anticitera.deft.work</a>) presenta un diseño limpio y directo en su página de inicio <sup>1</sup>. La navegación principal se encuentra claramente visible en la parte superior, ofreciendo acceso a las secciones de &quot;Inicio&quot;, &quot;Blog&quot;, &quot;Proyecto&quot;, &quot;Links&quot;, &quot;Podcasts&quot; y &quot;X&quot; <sup>1</sup>. La inclusión de un enlace &quot;Skip to main content&quot; es una práctica positiva que mejora la accesibilidad para usuarios que utilizan lectores de pantalla <sup>1</sup>. Inmediatamente debajo de la introducción principal, se muestran las tres últimas publicaciones del blog, facilitando el descubrimiento de contenido reciente <sup>1</sup>. Sin embargo, no se observa una funcionalidad de búsqueda de forma inmediata, lo que podría dificultar ligeramente la usabilidad para usuarios que buscan información específica rápidamente <sup>1</sup>. En el pie de página, se encuentran iconos que enlazan a las redes sociales, lo que contribuye al atractivo visual y facilita el reconocimiento de estos enlaces <sup>1</sup>.</p>
+<p>La sección del blog del proyecto Anticitera presenta una lista de publicaciones ordenadas cronológicamente de forma inversa, mostrando primero las más recientes <sup>20</sup>. Cada entrada incluye el título de la publicación y el mes y año de su publicación <sup>20</sup>. La usabilidad de esta sección es sencilla, ya que el formato de lista permite escanear fácilmente los artículos disponibles. Los títulos son claros, lo que ayuda a los usuarios a comprender rápidamente el tema de cada publicación, y las fechas proporcionadas permiten identificar el contenido reciente <sup>20</sup>. El atractivo visual de la sección del blog es minimalista, consistiendo en una simple lista de enlaces <sup>20</sup>. Si bien es limpio y funcional, carece de elementos visuales que podrían hacerlo más atractivo. La inclusión de &quot;.IA Isla Anticitera © 2025&quot; en la parte inferior proporciona una clara indicación del origen del blog y el año actual <sup>20</sup>. No obstante, se identifican áreas de mejora potencial, como la adición de imágenes en miniatura o extractos para cada publicación, lo que podría mejorar el atractivo visual y proporcionar más contexto a los usuarios antes de hacer clic en un título. La implementación de un sistema de categorías o etiquetas permitiría a los usuarios filtrar y encontrar contenido relevante según sus intereses específicos dentro del tema general del proyecto .IA Isla Anticitera. La inclusión de una funcionalidad de búsqueda dentro de la sección del blog mejoraría significativamente la usabilidad para los usuarios que buscan información específica. Si bien se proporciona el mes y el año, incluir el día de la publicación podría ser beneficioso para los usuarios que necesitan información más precisa sobre la actualidad de una publicación. Finalmente, el uso de encabezados u otras señales visuales para separar mejor las publicaciones del blog podría mejorar la legibilidad <sup>20</sup>.</p>
+<p>La interfaz de usuario de la sección de enlaces del proyecto Anticitera parece funcional, pero la información proporcionada no es suficiente para una evaluación exhaustiva de su usabilidad y accesibilidad <sup>21</sup>. Se accede a esta sección a través de una pestaña clara de &quot;Links&quot; en el menú de navegación superior <sup>21</sup>. Los enlaces se presentan como videos incrustados de YouTube y vistas previas de artículos con títulos, lo que proporciona una visión general rápida del contenido <sup>21</sup>. Los usuarios pueden acceder directamente al contenido enlazado haciendo clic en las vistas previas o en los enlaces de YouTube proporcionados <sup>21</sup>. Sin embargo, no se dispone de información sobre la existencia de una funcionalidad de búsqueda o filtrado de los enlaces, ni sobre si los enlaces están categorizados u organizados de alguna manera específica, ni si se proporcionan descripciones adicionales para cada enlace que ofrezcan más contexto <sup>21</sup>. En cuanto a la accesibilidad, la información es limitada. Si bien el uso de texto para los títulos es positivo, no está claro si las imágenes de vista previa van acompañadas de texto alternativo descriptivo para lectores de pantalla, si se puede acceder a todos los enlaces y funcionalidades mediante el teclado, si existe suficiente contraste de color entre el texto y el fondo para usuarios con baja visión, o si los videos incrustados de YouTube tienen subtítulos adecuados para usuarios sordos o con problemas de audición <sup>21</sup>. El diseño de la sección parece relativamente limpio, con una clara separación entre los enlaces, y el uso de miniaturas y vistas previas proporciona pistas visuales sobre el contenido de cada enlace, pareciendo consistente con el tema general del sitio web <sup>21</sup>. No obstante, el atractivo visual podría mejorarse con una mayor variedad en los estilos de presentación, ya que el formato repetitivo de las incrustaciones de YouTube y las vistas previas de artículos podría resultar monótono, y la calidad y el tamaño de las imágenes de vista previa podrían afectar el atractivo visual <sup>21</sup>.</p>
+<p>Según el menú de navegación, existen otras secciones en el sitio web, como &quot;Proyecto&quot;, &quot;Podcasts&quot; y &quot;X&quot; <sup>1</sup>. Sin embargo, durante la investigación, las páginas correspondientes a &quot;Proyecto&quot; y &quot;Podcasts&quot; resultaron inaccesibles <sup>22</sup>. La sección &quot;X&quot; presumiblemente enlaza a la cuenta del proyecto en la plataforma Twitter (ahora X) <sup>1</sup>. La inaccesibilidad de las secciones &quot;Proyecto&quot; y &quot;Podcasts&quot; representa una limitación significativa para comprender completamente la iniciativa, ya que la sección &quot;Proyecto&quot; probablemente contendría información detallada sobre los objetivos, la metodología y el equipo detrás del proyecto, mientras que la sección &quot;Podcasts&quot; podría ofrecer contenido de audio relevante <sup>22</sup>.</p>
+<p>En general, la evaluación de la interfaz de usuario y la experiencia del usuario del sitio web de Anticitera se ve limitada por la información disponible en los fragmentos proporcionados, que se centran principalmente en secciones específicas <sup>1</sup>. Una valoración completa requeriría acceso a todas las secciones del sitio web y un análisis más detallado de su arquitectura, capacidad de respuesta y cumplimiento de los principios de diseño web.</p>
+<p>Tabla 2: Evaluación Resumida de la UI/UX del Sitio Web</p>
+<table>
+<thead>
+<tr>
+<th><strong>Sección</strong></th>
+<th><strong>Usabilidad</strong></th>
+<th><strong>Accesibilidad (Basado en la información disponible)</strong></th>
+<th><strong>Atractivo Visual</strong></th>
+<th><strong>Áreas de Mejora</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Homepage</td>
+<td>Clara navegación, acceso directo a contenido reciente</td>
+<td>Enlace &quot;Skip to main content&quot; presente, otros aspectos no detallados</td>
+<td>Limpio y funcional</td>
+<td>Falta de búsqueda aparente</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Blog</td>
+<td>Sencillo para escanear artículos por título y fecha</td>
+<td>Texto legible, estructura simple, pero evaluación completa limitada</td>
+<td>Minimalista, lista simple de enlaces</td>
+<td>Añadir miniaturas/extractos, categorías/etiquetas, búsqueda, formato de fecha más detallado, jerarquía visual</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Acceso directo a contenido enlazado</td>
+<td>Aspectos clave no claros (texto alternativo, navegación por teclado, contraste de color, subtítulos de video)</td>
+<td>Relativamente limpio, uso de miniaturas y vistas previas</td>
+<td>Funcionalidad de búsqueda, organización/categorización, descripciones de enlaces, variedad en la presentación, calidad de imagen</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Proyecto</td>
+<td>Inaccesible</td>
+<td>Inaccesible</td>
+<td>Inaccesible</td>
+<td>Accesibilidad</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Podcasts</td>
+<td>Inaccesible</td>
+<td>Inaccesible</td>
+<td>Inaccesible</td>
+<td>Accesibilidad</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+</tbody>
+</table>
+<h2 id="la-fundacion-tecnologica-comprendiendo-la-creacion-de-un-nuevo-cctld" tabindex="-1"><strong>La Fundación Tecnológica: Comprendiendo la Creación de un Nuevo ccTLD</strong> <a class="header-anchor" href="#la-fundacion-tecnologica-comprendiendo-la-creacion-de-un-nuevo-cctld">#</a></h2>
+<p>La tecnología fundamental detrás del proyecto Anticitera, más allá de la infraestructura del sitio web, radica en el proceso de establecimiento de un nuevo Dominio de Nivel Superior de Código de País (ccTLD) <sup>1</sup>. La creación y gestión de los ccTLD están supervisadas por la Autoridad de Números Asignados de Internet (IANA) y la Corporación de Internet para la Asignación de Nombres y Números (ICANN) <sup>18</sup>. IANA, que forma parte de ICANN, es la responsable de coordinar los identificadores únicos globales de internet <sup>18</sup>. El proceso para otorgar un ccTLD a una región geográfica requiere una solicitud detallada a ICANN, demostrando cómo el dominio deseado se alinea con la identidad del país o territorio y justificando su necesidad <sup>25</sup>. ICANN e IANA evalúan esta solicitud utilizando criterios de elegibilidad específicos, considerando factores clave como la identidad nacional o territorial única de la región, una necesidad genuina del dominio y la capacidad de la región para gestionarlo y mantenerlo de manera eficiente <sup>25</sup>. Una vez aprobada la solicitud, ICANN e IANA trabajan en estrecha colaboración con la autoridad designada de la región solicitante para finalizar los términos y responsabilidades, integrando posteriormente el ccTLD en el sistema global de nombres de dominio <sup>25</sup>.</p>
+<p>La creación de un nuevo ccTLD es un proceso regulatorio complejo que involucra a organizaciones internacionales como IANA e ICANN <sup>18</sup>. La participación de estas entidades subraya la magnitud del esfuerzo organizativo y potencialmente político que requiere el proyecto Anticitera. Para que la solicitud del dominio &quot;.IA&quot; tenga éxito, el proyecto deberá construir un argumento sólido que demuestre la identidad histórica y simbólica única de la isla en relación con la innovación tecnológica, así como la necesidad de un dominio multilingüe para la inteligencia artificial <sup>25</sup>. Además, será crucial presentar un plan creíble para la gestión técnica y administrativa eficiente del dominio <sup>25</sup>.</p>
+<p>Los pasos generales para obtener un ccTLD implican la presentación de una solicitud detallada a ICANN, demostrando la alineación con la identidad del territorio y una necesidad genuina, así como la capacidad para gestionar y mantener el dominio de manera eficiente <sup>25</sup>. Los criterios de elegibilidad considerados por ICANN e IANA incluyen la identidad única de la región, una necesidad real del dominio y la capacidad para una gestión eficiente <sup>25</sup>. Es importante destacar que el proceso para nuevos Dominios de Nivel Superior genéricos (gTLD) es diferente y más complejo que para los ccTLD <sup>26</sup>. Los ccTLD suelen ser gestionados por organizaciones nacionales o territoriales (registros de ccTLD) responsables de mantener los nombres de dominio y establecer los criterios de registro <sup>25</sup>. Estos registros establecen los requisitos para el registro, que pueden variar considerablemente de un registro a otro, pudiendo incluir requisitos de residencia o presencia local <sup>25</sup>. Si el dominio &quot;.IA&quot; es aprobado, el proyecto Anticitera deberá establecer una autoridad o registro designado para gestionar el dominio y definir las reglas para el registro, lo que será un aspecto crucial para la sostenibilidad a largo plazo del proyecto. La decisión de imponer requisitos específicos para registrar un dominio &quot;.IA&quot;, como una conexión con la isla o un enfoque en actividades relacionadas con la inteligencia artificial, impactará la adopción del dominio y el tipo de comunidad que se forme en torno a él.</p>
+<p>Si bien no es directamente aplicable al &quot;.IA&quot;, existe un Proceso Acelerado para ccTLD con IDN (Nombres de Dominio Internacionalizados) para países que utilizan escrituras no latinas <sup>24</sup>, lo que demuestra la flexibilidad de ICANN para adaptarse a diversas necesidades lingüísticas. Finalmente, el concepto de pseudo-ccTLD, que imita a los dominios oficiales sin reconocimiento formal <sup>24</sup>, subraya la importancia de la ambición del proyecto Anticitera por obtener un reconocimiento oficial para el dominio &quot;.IA&quot;.</p>
+<h2 id="el-elemento-humano-explorando-el-equipo-y-la-comunidad-detras-de-anticitera" tabindex="-1"><strong>El Elemento Humano: Explorando el Equipo y la Comunidad Detrás de Anticitera</strong> <a class="header-anchor" href="#el-elemento-humano-explorando-el-equipo-y-la-comunidad-detras-de-anticitera">#</a></h2>
+<p>La información disponible en el sitio web del proyecto sobre el equipo u organización detrás de la iniciativa es limitada <sup>1</sup>. Si bien se menciona una &quot;comunidad de personas&quot; involucrada en el proyecto <sup>1</sup>, no existe una sección dedicada que describa al equipo u organización en detalle. Sin embargo, el repositorio de GitHub del proyecto (<a href="https://github.com/elswork/anticitera.deft.work">https://github.com/elswork/anticitera.deft.work</a>) se presenta como una fuente potencial de información sobre los colaboradores y el desarrollo del proyecto <sup>19</sup>. La existencia de este repositorio en una plataforma de colaboración de código abierto sugiere un enfoque comunitario y participativo en la iniciativa, lo que implica que el proyecto se impulsa más por un esfuerzo colectivo que por una estructura organizacional jerárquica tradicional.</p>
+<p>El repositorio de GitHub contiene una variedad de información relevante, incluyendo los objetivos del proyecto, que se centran en la promoción de la creación y adopción del ccTLD .IA, destacando la importancia histórica y cultural del mecanismo de Anticitera y fomentando la colaboración <sup>19</sup>. También se detallan las formas en que las personas pueden contribuir al proyecto, como la participación en una lista de correo, la colaboración estratégica y la difusión y promoción a través de redes sociales como Facebook, X/Twitter, LinkedIn y WhatsApp <sup>19</sup>. Además, el repositorio incluye enlaces importantes al Asistente Anticitera de OpenAI, un formulario de reserva para dominios .IA, la lista oficial de reservas, una tabla de personas y organizaciones involucradas, propuestas para la creación del ccTLD .IA en Change.org y el Foro de la Iniciativa Ciudadana Europea, y un enlace de suscripción a la lista de correo <sup>19</sup>. La estructura del repositorio revela una organización lógica del proyecto, con directorios para &quot;Posts&quot; (artículos del blog), &quot;_site&quot; (configuración del sitio web) y &quot;Origen&quot; (enlaces que detallan la historia y relevancia de la isla de Anticitera y su relación con la inteligencia artificial) <sup>19</sup>. También se proporcionan enlaces a artículos y entrevistas que discuten el proyecto desde diversas perspectivas, así como información sobre la licencia del repositorio (MIT), los temas relacionados (inteligencia artificial, cctld, gpts, openai-chatgpt, isla-anticitera) y un enlace al archivo README <sup>19</sup>. La presencia de un problema abierto en el repositorio sugiere que el proyecto se encuentra en una fase activa de desarrollo y discusión <sup>19</sup>.</p>
+<p>La inclusión de propuestas para la creación del ccTLD .IA en plataformas como Change.org y el Foro de la Iniciativa Ciudadana Europea indica un esfuerzo por parte del proyecto para obtener un apoyo público y político más amplio para su iniciativa <sup>19</sup>. El uso de estas plataformas demuestra una comprensión de la necesidad de movilizar la opinión pública y potencialmente influir en las decisiones políticas relacionadas con la creación de nuevos ccTLD.</p>
+<h2 id="voces-externas-una-revision-de-la-percepcion-publica-y-el-discurso-academico" tabindex="-1"><strong>Voces Externas: Una Revisión de la Percepción Pública y el Discurso Académico</strong> <a class="header-anchor" href="#voces-externas-una-revision-de-la-percepcion-publica-y-el-discurso-academico">#</a></h2>
+<p>El mecanismo de Anticitera goza de un reconocimiento generalizado como el computador analógico más antiguo conocido y una maravilla de la tecnología antigua <sup>2</sup>. Su complejidad, propósito y orígenes continúan siendo objeto de investigación y fascinación <sup>5</sup>. Diversas interpretaciones sobre su función han surgido, abarcando desde cálculos astronómicos hasta propósitos educativos y filosóficos <sup>5</sup>. La establecida significación histórica y científica del mecanismo de Anticitera proporciona una base sólida y fácilmente comprensible para la narrativa del proyecto Anticitera, asociando inmediatamente el dominio propuesto con la innovación y la inteligencia. El público ya siente curiosidad por este antiguo artefacto, lo que crea una conexión natural con el concepto de inteligencia artificial, haciendo que el nombre y la idea central del proyecto sean instantáneamente más atractivos y memorables.</p>
+<p>Existen argumentos a favor de la creación del dominio .IA, como romper la hegemonía del inglés en la IA, fomentar una comunidad global y honrar la importancia histórica de Anticitera <sup>12</sup>. En foros en línea como Reddit, se ha manifestado interés en el dominio .IA por parte de hablantes de español y portugués, ya que &quot;.IA&quot; corresponde a &quot;Inteligencia Artificial&quot; en estos idiomas <sup>16</sup>. Sin embargo, en las discusiones en línea también se ha señalado que &quot;.ia&quot; ya es el dominio de nivel superior para Imagua y las Assimas, una nación ficticia en el juego NationStates <sup>16</sup>. Es importante aclarar que este uso no corresponde a un ccTLD oficialmente reconocido por IANA <sup>18</sup>. La existencia de un &quot;.ia&quot; no oficial asociado a una entidad ficticia plantea un posible desafío para el proyecto Anticitera a la hora de establecer su legitimidad y singularidad. Una comunicación clara sobre su búsqueda del reconocimiento oficial por parte de IANA será crucial. El proyecto ha implementado llamadas a la acción para apoyar la iniciativa del dominio .IA, incluyendo la reserva de dominios y la participación en redes sociales y plataformas relevantes <sup>17</sup>. En los materiales promocionales se utilizan hashtags como #IA, #Anticitera e #InteligenciaArtificial <sup>15</sup>.</p>
+<p>Tabla 1: Comparación de .AI y el Propuesto .IA</p>
+<table>
+<thead>
+<tr>
+<th><strong>Característica</strong></th>
+<th><strong>.AI</strong></th>
+<th><strong>.IA (Propuesto)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Territorio Asociado</td>
+<td>Anguila</td>
+<td>Isla de Anticitera</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Asociación Lingüística Primaria</td>
+<td>Inglés</td>
+<td>Multilingüe (Español, Portugués, etc.)</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Conexión Simbólica</td>
+<td>Ninguna directa con la IA</td>
+<td>Fuerte conexión con el mecanismo de Anticitera y los orígenes de la IA</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Uso Actual</td>
+<td>Estándar de facto para proyectos de IA</td>
+<td>Propuesto para proyectos de IA</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+</tbody>
+</table>
+<p>Los principios generales y las mejores prácticas para elegir nombres de dominio incluyen la memorabilidad, la alineación con la marca y las consideraciones de SEO <sup>35</sup>. Las herramientas de generación de nombres de dominio impulsadas por IA desempeñan un papel en la lluvia de ideas y la búsqueda de dominios disponibles <sup>35</sup>. El proyecto Anticitera busca aprovechar la relevancia semántica inherente de &quot;.IA&quot; para &quot;Inteligencia Artificial&quot; en varios idiomas, lo que se alinea con los principios de elección de un buen nombre de dominio. La conexión histórica con Anticitera refuerza aún más su capacidad de marca y singularidad.</p>
+<h2 id="mirando-hacia-adelante-objetivos-a-largo-plazo-y-potencial-trayectoria-de-desarrollo" tabindex="-1"><strong>Mirando Hacia Adelante: Objetivos a Largo Plazo y Potencial Trayectoria de Desarrollo</strong> <a class="header-anchor" href="#mirando-hacia-adelante-objetivos-a-largo-plazo-y-potencial-trayectoria-de-desarrollo">#</a></h2>
+<p>La visión a largo plazo del proyecto Anticitera se centra en romper la hegemonía del inglés en el campo de la inteligencia artificial y fomentar una comunidad global y multilingüe <sup>12</sup>. Se espera que el dominio &quot;.IA&quot; se convierta en un identificador reconocido y respetado para proyectos, investigaciones y organizaciones relacionadas con la inteligencia artificial en todo el mundo. Existe el potencial de que la isla de Anticitera se convierta en un centro simbólico para la colaboración internacional en el campo de la inteligencia artificial, aprovechando su significado histórico <sup>12</sup>. Esta ambición va más allá de un simple nombre de dominio, buscando posicionar a la isla como un punto focal para el discurso y la colaboración global en la inteligencia artificial, basándose en su conexión histórica única con la computación. Esto podría atraer a investigadores, desarrolladores y responsables políticos, lo que podría conducir a un mayor reconocimiento e iniciativas relacionadas con el campo.</p>
+<p>En el futuro, se podrían explorar asociaciones con instituciones académicas, organizaciones de investigación y empresas de tecnología. El Asistente Anticitera podría desempeñar un papel crucial en el fomento de la innovación y la adopción dentro del dominio &quot;.IA&quot;.</p>
+<h2 id="impacto-y-relevancia-evaluando-la-significacion-del-proyecto-anticitera" tabindex="-1"><strong>Impacto y Relevancia: Evaluando la Significación del Proyecto Anticitera</strong> <a class="header-anchor" href="#impacto-y-relevancia-evaluando-la-significacion-del-proyecto-anticitera">#</a></h2>
+<p>El proyecto Anticitera tiene el potencial de generar un impacto significativo en el campo de la inteligencia artificial al promover el multilingüismo y la inclusividad. Su relevancia radica en la conexión que establece entre las raíces históricas de la computación y sus avances modernos. La asociación de la isla de Anticitera con los orígenes y el futuro de la inteligencia artificial podría tener una gran significación cultural y simbólica. El proyecto podría fomentar un panorama más inclusivo y culturalmente diverso para la inteligencia artificial a nivel mundial, desafiando el dominio actual del inglés y recordando al mundo la larga historia del ingenio humano en la computación. El éxito en el establecimiento del dominio &quot;.IA&quot; podría contribuir a una representación más equitativa de diferentes idiomas y culturas dentro del campo de la inteligencia artificial en línea. La conexión simbólica con el mecanismo de Anticitera añade una dimensión histórica única a este moderno dominio tecnológico. Además, el proyecto podría generar un mayor reconocimiento e interés en la propia isla de Anticitera. A nivel más amplio, la iniciativa plantea reflexiones sobre la gobernanza de internet y la representación de diversas identidades lingüísticas y culturales en línea.</p>
+<h2 id="conclusion-sintetizando-hallazgos-y-ofreciendo-perspectivas-estrategicas" tabindex="-1"><strong>Conclusión: Sintetizando Hallazgos y Ofreciendo Perspectivas Estratégicas</strong> <a class="header-anchor" href="#conclusion-sintetizando-hallazgos-y-ofreciendo-perspectivas-estrategicas">#</a></h2>
+<p>El proyecto Anticitera representa una iniciativa ambiciosa y con visión de futuro que busca establecer un nuevo ccTLD &quot;.IA&quot; para la isla de Anticitera, inspirándose en el histórico mecanismo de Anticitera como símbolo de los orígenes de la inteligencia artificial. El proyecto tiene como objetivo fomentar una comunidad global y multilingüe en torno a este dominio, desafiando la hegemonía del inglés en el campo de la inteligencia artificial.</p>
+<p>Entre las fortalezas del proyecto se encuentran su sólida base histórica y simbólica, la clara visión de promover la inclusividad lingüística y la creación de una comunidad activa. La existencia del Asistente Anticitera de OpenAI es un paso concreto para apoyar la adopción del dominio. Sin embargo, el proyecto también enfrenta desafíos potenciales, como la necesidad de obtener la aprobación de IANA e ICANN para el nuevo ccTLD y la existencia del uso no oficial de &quot;.ia&quot; para una nación ficticia.</p>
+<p>Se ofrecen las siguientes perspectivas estratégicas:</p>
+<ul>
+<li><strong>Mejora del Sitio Web:</strong> Es fundamental priorizar la accesibilidad de todas las secciones del sitio web, especialmente &quot;Proyecto&quot; y &quot;Podcasts&quot;. Además, se recomienda mejorar la UI/UX de las secciones del blog y enlaces mediante la implementación de las sugerencias detalladas anteriormente (miniaturas, categorías, búsqueda, etc.).</li>
+<li><strong>Participación de la Comunidad:</strong> Se debe seguir fomentando la participación de la comunidad a través del repositorio de GitHub y otras plataformas. Es importante comunicar claramente el progreso del proyecto y las formas en que las personas pueden contribuir.</li>
+<li><strong>Esfuerzos de Promoción del Dominio .IA:</strong> En los esfuerzos de promoción, es crucial distinguir claramente la propuesta del ccTLD oficial &quot;.IA&quot; del uso no oficial existente. Se debe enfatizar la búsqueda del reconocimiento oficial por parte de IANA y los beneficios únicos del dominio propuesto en términos de relevancia lingüística y conexión histórica.</li>
+</ul>
+<p>En conclusión, el proyecto Anticitera posee un potencial significativo para impactar el panorama de la inteligencia artificial en línea, promoviendo una mayor diversidad lingüística y cultural y honrando la rica historia de la innovación computacional. Su éxito dependerá de la capacidad del equipo para superar los desafíos regulatorios y construir una comunidad global comprometida con su visión.</p>
+<h4 id="obras-citadas" tabindex="-1">Obras citadas <a class="header-anchor" href="#obras-citadas">#</a></h4>
+<ol>
+<li>.IA Isla Anticitera - Base de Conocimiento, fecha de acceso: marzo 24, 2025, <a href="https://anticitera.deft.work">https://Anticitera.deft.work</a></li>
+<li>Antikythera mechanism - Wikipedia, fecha de acceso: marzo 24, 2025, <a href="https://en.wikipedia.org/wiki/Antikythera_mechanism">https://en.wikipedia.org/wiki/Antikythera_mechanism</a></li>
+<li>Saros, Spirals, and the Antikythera Project ~ Revelations from an Ancient Shipwreck, fecha de acceso: marzo 24, 2025, <a href="https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck">https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck</a></li>
+<li>The Antikythera Mechanism: The Prove of the Accuracy of the Astronomical Calculations Based on It - MDPI, fecha de acceso: marzo 24, 2025, <a href="https://www.mdpi.com/2571-9408/4/4/211">https://www.mdpi.com/2571-9408/4/4/211</a></li>
+<li>The Antikythera Mechanism - Communications of the ACM, fecha de acceso: marzo 24, 2025, <a href="https://cacm.acm.org/research/the-antikythera-mechanism/">https://cacm.acm.org/research/the-antikythera-mechanism/</a></li>
+<li>Antikythera - Long Now, fecha de acceso: marzo 24, 2025, <a href="https://longnow.org/ideas/antikythera/">https://longnow.org/ideas/antikythera/</a></li>
+<li>The Antikythera Mechanism Research Project - What's Behind Doerr Number One, fecha de acceso: marzo 24, 2025, <a href="https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/">https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/</a></li>
+<li>The Antikythera Mechanism Research Project - AWOL - The Ancient World Online, fecha de acceso: marzo 24, 2025, <a href="http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html">http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html</a></li>
+<li>Antikythera Mechanism - The Interactive Commons, fecha de acceso: marzo 24, 2025, <a href="https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/">https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/</a></li>
+<li>The Antikythera reminds us that humanity shall always prevail over Artificial Intelligence, fecha de acceso: marzo 24, 2025, <a href="https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/">https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/</a></li>
+<li>&quot;Exploring the antikythera mechanism through augmented reality.&quot; by Tiffany Hatzidimitriu, fecha de acceso: marzo 24, 2025, <a href="https://digitalcommons.pace.edu/honorscollege_theses/375/">https://digitalcommons.pace.edu/honorscollege_theses/375/</a></li>
+<li>Antikythera Island: The Future of Artificial Intelligence? - Deft.Work, fecha de acceso: marzo 24, 2025, <a href="https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/">https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/</a></li>
+<li>Antikythera Mechanism: The ancient 'computer' that simply shouldn't exist - BBC REEL, fecha de acceso: marzo 24, 2025, <a href="https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/">https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/</a></li>
+<li>Antikythera Island - Cradle of Artificial Intelligence - Deft.Work, fecha de acceso: marzo 24, 2025, <a href="https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/">https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/</a></li>
+<li>Un nuevo amanecer para la IA: el dominio .IA - OpenExpo Europe, fecha de acceso: marzo 24, 2025, <a href="https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/">https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/</a></li>
+<li>.ia domain url extension? : r/webdev - Reddit, fecha de acceso: marzo 24, 2025, <a href="https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/">https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/</a></li>
+<li>Anticitera Island - Don't wait any longer, reserve your .IA domain now, fecha de acceso: marzo 24, 2025, <a href="https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/">https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/</a></li>
+<li>.ai Domain Delegation Data, fecha de acceso: marzo 24, 2025, <a href="http://www.iana.org/domains/root/db/ai.htm">http://www.iana.org/domains/root/db/ai.htm</a></li>
+<li>elswork/anticitera.deft.work: .IA Isla Anticitera - Base de ... - GitHub, fecha de acceso: marzo 24, 2025, <a href="https://github.com/elswork/anticitera.deft.work">https://github.com/elswork/anticitera.deft.work</a></li>
+<li>.IA Isla Anticitera - Base de Conocimiento, fecha de acceso: marzo 24, 2025, <a href="https://anticitera.deft.work/blog/">https://Anticitera.deft.work/blog/</a></li>
+<li>Sección de Links - IA Isla Anticitera, fecha de acceso: marzo 24, 2025, <a href="https://anticitera.deft.work/links/">https://Anticitera.deft.work/links/</a></li>
+<li>fecha de acceso: enero 1, 1970, <a href="https://anticitera.deft.work/proyecto/">https://Anticitera.deft.work/proyecto/</a></li>
+<li>fecha de acceso: enero 1, 1970, <a href="https://anticitera.deft.work/podcasts/">https://Anticitera.deft.work/podcasts/</a></li>
+<li>Country code top-level domain - ICANNWiki, fecha de acceso: marzo 24, 2025, <a href="https://icannwiki.org/Country_code_top-level_domain">https://icannwiki.org/Country_code_top-level_domain</a></li>
+<li>ccTLDs vs. gTLDs: Who wins and where? | Blog - Dataprovider.com, fecha de acceso: marzo 24, 2025, <a href="https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/">https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/</a></li>
+<li>Frequently Asked Questions | ICANN New gTLDs, fecha de acceso: marzo 24, 2025, <a href="https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en">https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en</a></li>
+<li>Country code top-level domain - Wikipedia, fecha de acceso: marzo 24, 2025, <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain">https://en.wikipedia.org/wiki/Country_code_top-level_domain</a></li>
+<li>List of Internet top-level domains - Wikipedia, fecha de acceso: marzo 24, 2025, <a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains</a></li>
+<li>All ccTLDs Explained | Country Code Top Level Domain - tasjeel ae, fecha de acceso: marzo 24, 2025, <a href="https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/">https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/</a></li>
+<li>ccTLD domain policies : Enom Customer Support, fecha de acceso: marzo 24, 2025, <a href="https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies">https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies</a></li>
+<li>IDN ccTLD Fast Track Process - icann, fecha de acceso: marzo 24, 2025, <a href="https://www.icann.org/resources/pages/fast-track-2012-02-25-en">https://www.icann.org/resources/pages/fast-track-2012-02-25-en</a></li>
+<li>Antikythera Survey Project | Institute of Archaeology - UCL – University College London, fecha de acceso: marzo 24, 2025, <a href="https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project">https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project</a></li>
+<li>The Antikythera Survey Project: Introduction - Archaeology Data Service, fecha de acceso: marzo 24, 2025, <a href="https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/">https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/</a></li>
+<li>Assimas Islands - Daidu - The Kylaris Encylopaedia, fecha de acceso: marzo 24, 2025, <a href="https://kylaris.miraheze.org/wiki/Assimas_Islands">https://kylaris.miraheze.org/wiki/Assimas_Islands</a></li>
+<li>Free AI Business and Domain Name Generator Tool, fecha de acceso: marzo 24, 2025, <a href="https://www.domain.com/domains/ai-domain-generator">https://www.domain.com/domains/ai-domain-generator</a></li>
+<li>Find the Perfect Website Names with Web.com's AI Domain Name Generator, fecha de acceso: marzo 24, 2025, <a href="https://www.web.com/blog/ai-domain-name-generator/">https://www.web.com/blog/ai-domain-name-generator/</a></li>
+<li>AI for Domain Name: 8 Tips For A Strong Online Presence - ShortDot, fecha de acceso: marzo 24, 2025, <a href="https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/">https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/</a></li>
+<li>Free Domain Name Ideas Tool - Get Instant Ideas for 2025 - GravityWrite, fecha de acceso: marzo 24, 2025, <a href="https://gravitywrite.com/blog/domain-name-ideas-tool">https://gravitywrite.com/blog/domain-name-ideas-tool</a></li>
+<li>Project Proposal for a New World Information Architecture Website | by Andrea Rosenbusch, fecha de acceso: marzo 24, 2025, <a href="https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb">https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb</a></li>
+</ol>
+<p><img src="/img/TecladoyPaises.webp" alt="IA Anticitera"></p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/">Grok 3 - Análisis detallado del Proyecto .IA Isla Anticitera.</a></li>
+</ul>
+
+		<br>
+		
+			<button id="toggle-comments-btn">Ver Comentarios</button>
+			<div class="issue-container" style="display: none;">
+				<div class="issue-header">
+					<h3>Comentario de prueba</h3>
+					<div class="issue-user">						
+						<a href="https://github.com/elswork" target="_blank" class="issue-author-link"><img src="https://avatars.githubusercontent.com/u/1455507?v=4" alt="elswork" class="issue-author-avatar">elswork</a>
+					</div>
+				</div>
+				<div class="issue-body"><p>Esto es una prueba. 💕
+<img src="https://github.com/elswork/anticitera.deft.work/assets/1455507/4d033694-7a86-4965-8380-e3e98564435c" alt="image"></p>
+</div>
+				<div class="issue-footer">
+					<div class="issue-footer-left">
+						<span class="issue-state">
+							🟢							
+						</span>
+						<span class="issue-comments">💬1</span>
+						<span class="issue-reactions">❤️1</span>
+					</div>
+					<div class="issue-footer-right">
+						<span class="issue-created-at">
+							🕒 25/11/2023 18:13
+							<span class="issue-updated-at">🔄 13/08/2024 13:32</span>
+						</span>
+						<a href="https://github.com/elswork/anticitera.deft.work/issues/1" target="_blank" class="issue-link">Ver comentario</a>
+					</div>
+				</div>
+			</div>
+			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Nuevo comentario</button>
+		
+
+		</main>
+
+		<footer>
+			<div class="container">
+				<div class="social-media">
+					<!-- Botones para redes sociales -->
+					<button onclick="window.open('https://twitter.com/elswork', '_blank')" class="twitter-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>X</title>
+  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+</svg></button>
+					<button onclick="window.open('https://github.dev/elswork/anticitera.deft.work', '_blank')" class="vscode-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Visual Studio Code</title>
+  <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/>
+</svg></button>
+					<button onclick="window.open('https://github.com/elswork/anticitera.deft.work', '_blank')" class="github-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>GitHub</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+</svg></button>
+					<button onclick="window.open('https://www.reddit.com/r/IslaAnticitera', '_blank')" class="reddit-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Reddit</title>
+  <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/>
+</svg></button>
+					<button onclick="window.open('/feed/feed.json', '_blank')" class="json-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>JSON</title>
+  <path d="M12.043 23.968c.479-.004.953-.029 1.426-.094a11.805 11.805 0 003.146-.863 12.404 12.404 0 003.793-2.542 11.977 11.977 0 002.44-3.427 11.794 11.794 0 001.02-3.476c.149-1.16.135-2.346-.045-3.499a11.96 11.96 0 00-.793-2.788 11.197 11.197 0 00-.854-1.617c-1.168-1.837-2.861-3.314-4.81-4.3a12.835 12.835 0 00-2.172-.87h-.005c.119.063.24.132.345.201.12.074.239.146.351.225a8.93 8.93 0 011.559 1.33c1.063 1.145 1.797 2.548 2.218 4.041.284.982.434 1.998.495 3.017.044.743.044 1.491-.047 2.229-.149 1.27-.554 2.51-1.228 3.596a7.475 7.475 0 01-1.903 2.084c-1.244.928-2.877 1.482-4.436 1.114a3.916 3.916 0 01-.748-.258 4.692 4.692 0 01-.779-.45 6.08 6.08 0 01-1.244-1.105 6.507 6.507 0 01-1.049-1.747 7.366 7.366 0 01-.494-2.54c-.03-1.273.225-2.553.854-3.67a6.43 6.43 0 011.663-1.918c.225-.178.464-.333.704-.479l.016-.007a5.121 5.121 0 00-1.441-.12 4.963 4.963 0 00-1.228.24c-.359.12-.704.27-1.019.45a6.146 6.146 0 00-.733.494c-.211.18-.42.36-.615.555-1.123 1.153-1.768 2.682-2.022 4.256-.15.973-.15 1.96-.091 2.95.105 1.395.391 2.787.945 4.062a8.518 8.518 0 001.348 2.173 8.14 8.14 0 003.132 2.23 7.934 7.934 0 002.113.54c.074.015.149.015.209.015zm-2.934-.398a4.102 4.102 0 01-.45-.228 8.5 8.5 0 01-2.038-1.534c-1.094-1.137-1.827-2.566-2.247-4.08a15.184 15.184 0 01-.495-3.172 12.14 12.14 0 01.046-2.082c.135-1.257.495-2.501 1.124-3.58a6.889 6.889 0 011.783-2.053 6.23 6.23 0 011.633-.9 5.363 5.363 0 013.522-.045c.029 0 .029 0 .045.03.015.015.045.015.06.03.045.016.104.045.165.074.239.12.479.271.704.42a6.294 6.294 0 012.097 2.502c.42.914.615 1.934.631 2.938.014 1.079-.18 2.157-.645 3.146a6.42 6.42 0 01-2.638 2.832c.09.03.18.045.271.075.225.044.449.074.688.074 1.468.045 2.892-.66 3.94-1.647.195-.18.375-.375.54-.585.225-.27.435-.54.614-.823.239-.375.435-.75.614-1.154a8.112 8.112 0 00.509-1.664c.196-1.004.211-2.022.149-3.026-.135-2.022-.673-4.045-1.842-5.724a9.054 9.054 0 00-.555-.719 9.868 9.868 0 00-1.063-1.034 8.477 8.477 0 00-1.363-.915 9.927 9.927 0 00-1.692-.598l-.3-.06c-.209-.03-.42-.044-.634-.06a8.453 8.453 0 00-1.015.016c-.704.045-1.412.16-2.112.337C5.799 1.227 2.863 3.566 1.3 6.67A11.834 11.834 0 00.238 9.801a11.81 11.81 0 00-.104 3.775c.12 1.02.374 2.023.778 2.977.227.57.511 1.124.825 1.648 1.094 1.783 2.683 3.236 4.51 4.24.688.39 1.408.69 2.157.944.226.074.45.15.689.21z"/>
+</svg></button>
+					<button onclick="window.open('/feed/feed.xml', '_blank')" class="feedly-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Feedly</title>
+  <path d="M13.85995 1.98852a2.60906 2.60906 0 00-3.72608 0L.76766 11.52674a2.72906 2.72906 0 000 3.79508l6.68415 6.80816a2.61806 2.61806 0 001.74004.66401h5.61313a2.61606 2.61606 0 001.87204-.79101l6.55415-6.67516a2.72606 2.72606 0 000-3.79508l-9.37021-9.54422zm-.26 17.4224l-.93502.95002a.372.372 0 01-.268.114h-.80003a.376.376 0 01-.247-.096l-.95402-.97002a.39.39 0 010-.54201l1.33703-1.36003a.37.37 0 01.531 0l1.33704 1.36103a.389.389 0 010 .543zm0-5.71113l-3.73709 3.80808a.374.374 0 01-.268.111h-.79902a.376.376 0 01-.25-.093l-.95103-.97002a.391.391 0 010-.54401l4.1391-4.2141a.372.372 0 01.531 0l1.33704 1.36204a.386.386 0 010 .54zm0-5.70713L7.0598 14.6528a.372.372 0 01-.268.113h-.80002a.373.373 0 01-.24901-.094l-.95302-.97202a.388.388 0 010-.54001L11.7329 6.0896a.372.372 0 01.531 0l1.33704 1.36004a.389.389 0 010 .543z"/>
+</svg></button>
+				</div>
+				<p>.IA Isla Anticitera &copy; 2025</p>
+				<div class="share-links">
+					<!-- Botones para compartir -->
+					<button onclick="window.open('https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera', '_blank')" class="twitter-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>X</title>
+  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+</svg></button>
+					<button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada', '_blank')" class="linkedin-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>LinkedIn</title>
+  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+</svg></button>
+					<button onclick="window.open('https://api.whatsapp.com/send?text=https://anticitera.deft.work', '_blank')" class="whatsapp-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>WhatsApp</title>
+  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+</svg></button>
+					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work', '_blank')" class="facebook-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Facebook</title>
+  <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+</svg></button>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Current page: /blog/Gemini-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/ -->
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				// ...resto del código para las galerías...
+
+				// Bucle para manejar cada botón "Ver Comentarios"
+				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
+					btn.addEventListener('click', function() {
+						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
+						if (container.style.display === 'none' || container.style.display === '') {
+							container.style.display = 'block';
+						} else {
+							container.style.display = 'none';
+						}
+					});
+				});
+			});
+		</script>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const galleries = document.querySelectorAll('.gallery');
+
+				galleries.forEach(gallery => {
+					const images = gallery.querySelectorAll('img');
+					let currentImageIndex = 0;
+					if (images.length > 0) {
+						images[currentImageIndex].style.display = 'block';
+					}
+
+					const showImage = (index) => {
+						if (images.length > 0) {
+							images[currentImageIndex].style.display = 'none';
+							currentImageIndex = (index + images.length) % images.length;
+							images[currentImageIndex].style.display = 'block';
+						}
+					};
+
+					const prevButton = gallery.querySelector('.gallery-prev');
+					const nextButton = gallery.querySelector('.gallery-next');
+
+					if (prevButton && nextButton) {
+						prevButton.addEventListener('click', () => {
+							showImage(currentImageIndex - 1);
+						});
+
+						nextButton.addEventListener('click', () => {
+							showImage(currentImageIndex + 1);
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
