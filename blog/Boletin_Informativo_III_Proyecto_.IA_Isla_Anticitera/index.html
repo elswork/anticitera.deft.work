@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Sección de Links</title>
-		<meta name="description" content="Links relevantes del Proyecto .IA Isla Anticitera.">
+		<title>Boletín Informativo III Proyecto .IA Isla Anticitera</title>
+		<meta name="description" content="Tercer mensaje a los miembros de la comunidad.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title=".IA Isla Anticitera - Base de Conocimiento">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title=".IA Isla Anticitera - Base de Conocimiento">
@@ -21,7 +21,175 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -329,7 +497,7 @@ h2 + .header-anchor {
 					<li class="nav-item"><a href="/">Inicio</a></li>
 					<li class="nav-item"><a href="/blog/">Blog</a></li>
 					<li class="nav-item"><a href="/about/">Proyecto</a></li>
-					<li class="nav-item"><a href="/links/" aria-current="page">Links</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
 					<li class="nav-item"><a href="/podcasts/">Podcasts</a></li>
 					<li class="nav-item"><a href="/x/">X</a></li>
 				</ul>
@@ -339,7 +507,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/links/index.md', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/blog/Boletin_Informativo_III_Proyecto_.IA_Isla_Anticitera.md', '_blank')" id="edit-github-btn">
 					Editar en 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -370,165 +538,37 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<h1>Anticitera Links</h1>
-<div class="links-container">
-<p><div class="link-item">
-<a href="https://youtu.be/AriKIdJTeak" target="_blank" class="link-title"> - YouTube</a>
-<p class="link-description">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></p>
-<p><div class="video-container">
-<iframe src="https://www.youtube.com/embed/AriKIdJTeak" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://youtu.be/PNA0f05zsC4" target="_blank" class="link-title"> - YouTube</a>
-<p class="link-description">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></p>
-<p><div class="video-container">
-<iframe src="https://www.youtube.com/embed/PNA0f05zsC4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/" target="_blank" class="link-title">The Antikythera reminds us that humanity shall always prevail over Artificial Intelligence - Planet Mainframe</a>
-<p class="link-description">In the last 2,500 years human civilization has made great strides; and in merely the last 80 of these, technology has advanced to the point where machines, endowed with artificial […]</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://planetmainframe.com/wp-content/uploads/2023/11/Antikythera.jpg" alt="Imagen relacionada"></p>
-<p><img src="https://planetmainframe.com/wp-content/uploads/2018/09/cropped-Planet-Mainframe.png" alt="Imagen relacionada"></p>
-<p><img src="https://planetmainframe.com/wp-content/uploads/2025/03/Arcati-Steam-Teach-Mainframes.png" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://www.bbc.com/mundo/noticias-36592050" target="_blank" class="link-title">Qué es el mecanismo de Anticitera y por qué es el objeto más misterioso de la historia de la tecnología - BBC News Mundo</a>
-<p class="link-description">El equipo internacional de expertos que investiga el fabuloso artilugio acaba de revelar más detalles de la computadora análoga encontrada hace un siglo en el fondo del Mar Mediterráneo, más de 2.000 años después de que el barco en el que iba naufragara.</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://ichef.bbci.co.uk/news/1024/branded_mundo/FF43/production/_90074356_item-2-promo.jpg" alt="Imagen relacionada"></p>
-<p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/D833/production/_90074355_item-2-promo.jpg.webp" alt="Imagen relacionada"></p>
-<p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/12653/production/_90074357_fondo-del-mar.jpg.webp" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://youtu.be/ailRl_hUUEE" target="_blank" class="link-title"> - YouTube</a>
-<p class="link-description">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></p>
-<p><div class="video-container">
-<iframe src="https://www.youtube.com/embed/ailRl_hUUEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://youtu.be/7NlBDeqgRIs" target="_blank" class="link-title"> - YouTube</a>
-<p class="link-description">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></p>
-<p><div class="video-container">
-<iframe src="https://www.youtube.com/embed/7NlBDeqgRIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://antikythera-mechanism.gr" target="_blank" class="link-title"></a>
-<p class="link-description"></p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://www.nature.com/articles/s41598-021-84310-w" target="_blank" class="link-title">A Model of the Cosmos in the ancient Greek Antikythera Mechanism - Scientific Reports</a>
-<p class="link-description">The Antikythera Mechanism, an ancient Greek astronomical calculator, has challenged researchers since its discovery in 1901. Now split into 82 fragments, only a third of the original survives, including 30 corroded bronze gearwheels. Microfocus X-ray Computed Tomography (X-ray CT) in 2005 decoded the structure of the rear of the machine but the front remained largely unresolved. X-ray CT also revealed inscriptions describing the motions of the Sun, Moon and all five planets known in antiquity and how they were displayed at the front as an ancient Greek Cosmos. Inscriptions specifying complex planetary periods forced new thinking on the mechanization of this Cosmos, but no previous reconstruction has come close to matching the data. Our discoveries lead to a new model, satisfying and explaining the evidence. Solving this complex 3D puzzle reveals a creation of genius—combining cycles from Babylonian astronomy, mathematics from Plato’s Academy and ancient Greek astronomical theories.</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-021-84310-w/MediaObjects/41598_2021_84310_Fig1_HTML.png" alt="Imagen relacionada"></p>
-<p><img src="https://media.springernature.com/full/nature-cms/uploads/product/srep/header-d3c533c187c710c1bedbd8e293815d5f.svg" alt="Imagen relacionada"></p>
-<p><img src="https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41550-023-02134-2/MediaObjects/41550_2023_2134_Fig1_HTML.png" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://www.ngenespanol.com/historia/que-hace-el-mecanismo-de-anticitera-y-quienes-lo-inventaron/" target="_blank" class="link-title">Página principal | National Geographic Latinoamérica</a>
-<p class="link-description">Sitio de Noticias de National Geographic Latinoamérica</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=400&amp;h=400&amp;q=75" alt="Imagen relacionada"></p>
-<p><img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600&amp;h=977" alt="Imagen relacionada"></p>
-<p><img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/kiv3681-3c.webp?w=1600&amp;h=900" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://www.abc.es/ciencia/anticitera-objeto-real-buscado-indiana-jones-misterioso-20230710140400-nt.html" target="_blank" class="link-title">Qué es el mecanismo de Anticitera, uno de los objetos más misteriosos de la historia y el primer ordenador del mundo</a>
-<p class="link-description">Este artefacto, por mérito propio es un rompecabezas increíble para su tiempo que supondría reescribir lo que creíamos saber hasta ahora</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://s1.abcstatics.com/abc/www/multimedia/ciencia/2023/07/05/antic1-U16600432270dbm-1024x512@abc.jpg" alt="Imagen relacionada"></p>
-<p><img src="https://s1.abcstatics.com/narwhal/1.2.225/assets/images/logo-ABC.svg" alt="Imagen relacionada"></p>
-<p><img src="https://s3.abcstatics.com/narwhal/1.2.281/assets/images/bienestar.svg" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://www.bbc.com/mundo/noticias-56382328" target="_blank" class="link-title">Mecanismo de Anticitera: los científicos descifran el misterio de la &quot;computadora&quot; más antigua del mundo - BBC News Mundo</a>
-<p class="link-description">El &quot;mecanismo de Anticitera&quot;, considerado el objeto más misterioso de la historia de la tecnología, tenía muchas piezas faltantes. Pero finalmente los científicos han recreado su complejo mecanismo.</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://ichef.bbci.co.uk/news/1024/branded_mundo/15ED7/production/_117551898_explodedcosmosmodel8x5.jpg" alt="Imagen relacionada"></p>
-<p><img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/3879/production/_90075441_armado-una-cara.jpg.webp" alt="Imagen relacionada"></p>
-<p><img src="https://ichef.bbci.co.uk/ace/ws/660/cpsprodpb/53e8/live/a8111c00-2171-11f0-8de0-dd87517cef42.png.webp" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://www.latercera.com/noticia/que-es-el-mecanismo-de-anticitera-y-por-que-es-el-objeto-mas-misterioso-de-la-historia-de-tecnologia/" target="_blank" class="link-title">Qué es el mecanismo de Anticitera y por qué es el objeto más misterioso de la historia de tecnología - La Tercera</a>
-<p class="link-description">El equipo internacional de expertos que investiga el fabuloso artilugio acaba de revelar más detalles de la computadora análoga encontrada hace un siglo en el fondo del Mar Mediterráneo, más de 2.000 años después de que el barco en el que iba naufragara.</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&amp;height=630&amp;width=1200&amp;focal=600%2C315" alt="Imagen relacionada"></p>
-<p><img src="https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&amp;focal=600%2C315&amp;width=800&amp;height=450&amp;quality=70" alt="Imagen relacionada"></p>
-<p><img src="https://www.latercera.com/resizer/v2/YI76CY2U7FHXFL4YSLNC5LCVX4.png?auth=4cfe27d6b23be4822da04c522cd9c0606268407e4fb3b4c0b553bb9cc6be4d89&amp;smart=true&amp;width=100&amp;height=56&amp;quality=70" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/" target="_blank" class="link-title">Inteligencia Artificial plasmada en la antigua Grecia - Rapinformes</a>
-<p class="link-description">Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus, Medea, o más desconocidos son Talos, Hefesto o Hesíodo. Por supuesto, no</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://rapinformes.es/wp-content/uploads/2013/02/inteligencia-artificial-plasmada-antigua-grecia.jpg" alt="Imagen relacionada"></p>
-<p><img src="https://rapinformes.es/wp-content/uploads/2021/04/matrices-marca-corp-RAP-INFORMES.png" alt="Imagen relacionada"></p>
-<p><img src="data:image/svg+xml,%3Csvg%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%20viewBox=&#39;0%200%201400%20782&#39;%3E%3C/svg%3E" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://youtu.be/WN8uUl4rbkE" target="_blank" class="link-title"> - YouTube</a>
-<p class="link-description">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></p>
-<p><div class="video-container">
-<iframe src="https://www.youtube.com/embed/WN8uUl4rbkE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://youtu.be/XmB8h_FDJCk" target="_blank" class="link-title"> - YouTube</a>
-<p class="link-description">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></p>
-<p><div class="video-container">
-<iframe src="https://www.youtube.com/embed/XmB8h_FDJCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://youtu.be/CIGZ54b3c1I" target="_blank" class="link-title"> - YouTube</a>
-<p class="link-description">Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</p></p>
-<p><div class="video-container">
-<iframe src="https://www.youtube.com/embed/CIGZ54b3c1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div></p>
-<p></div></p>
-<p><div class="link-item">
-<a href="https://play.rtve.es/v/6999053" target="_blank" class="link-title">Alter Ego - Programa 1 - 2023: De humanos y máquinas | Ver ahora</a>
-<p class="link-description">Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023</p></p>
-<p><div class="gallery">
-<button class="gallery-prev">◀</button>
-<button class="gallery-next">▶</button></p>
-<p><img src="https://img2.rtve.es/v/6999053/?imgProgApi=imgBackground&amp;w=800" alt="Imagen relacionada"></p>
-<p><img src="https://img2.rtve.es/v/6999053/?w=1600" alt="Imagen relacionada"></p>
-<p><img src="https://img2.rtve.es/p/176830/logo/?w=320" alt="Imagen relacionada"></p>
-<p></div></p>
-<p></div></p>
-</div>
+			
+<h1>Boletín Informativo III Proyecto .IA Isla Anticitera</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-04-25">25 April 2025</time></li>
+	<li><a href="/tags/boletin/" class="post-tag">boletín</a>, </li>
+	<li><a href="/tags/anticitera/" class="post-tag">anticitera</a></li>
+</ul>
+
+<h2 id="presentacion-eloy-lopez" tabindex="-1">Presentacion Eloy López <a class="header-anchor" href="#presentacion-eloy-lopez">#</a></h2>
+<p>Hola estimados colaboradores,</p>
+<p>Creo que, aunque este sea ya el tercer boletín de noticias, debería presentarme debidamente ante vosotros.</p>
+<p>Me llamo Eloy López y soy el principal responsable del Proyecto .IA Isla Anticitera o para abreviar Proyecto Anticitera.</p>
+<p>Corría el año 2019 cuando esta idea surgió en mi mente, en un principio fue una idea más y paso tiempo encerrada en mi mente, pero se volvió una idea recurrente por lo que decidí plasmarla en un artículo, después de ese artículo vinieron otros y finalmente este portal independiente <a href="https://anticitera.deft.work">anticitera.deft.work</a></p>
+<p>Durante todo este tiempo me he dedicado con mayor o menor éxito a difundir y divulgar el proyecto, se me ocurren muchos de vosotros que podríais hacer este trabajo mucho mejor que yo y llevarlo al próximo nivel. Me gustaría que alguien pueda tomar el testigo por si me pasa algo o aunque no me pase nada. Ya que saque la idea de mi mente, que pueda vivir y crecer entre todos nosotros.</p>
+<h3 id="que-logros-podemos-resenar-en-este-tiempo" tabindex="-1">¿Que logros podemos reseñar en este tiempo? <a class="header-anchor" href="#que-logros-podemos-resenar-en-este-tiempo">#</a></h3>
+<p>Desde el último boletín he conseguido conectar con varias personas a las que le ha gustado la idea del proyecto:</p>
+<ul>
+<li><a href="https://silvialeal.es/"><strong>Silvia Leal</strong></a> es divulgadora científica, Doctora Cum Laude en sociología, experta en tecnología y transformación digital.</li>
+<li><a href="https://www.linkedin.com/in/david-carmona/"><strong>David Carmona</strong></a> es General Manager de Inteligencia Artificial en Microsoft.</li>
+<li><a href="https://www.linkedin.com/in/rames"><strong>Rames Sarwat</strong></a> experto en ciberseguridad e IA, CEO de BeHuman.</li>
+<li><a href="https://www.linkedin.com/in/manuela-delgado-cruz/"><strong>Manuela Delgado</strong></a>, ingeniera especializada en IA y divulgadora.</li>
+<li><a href="https://vivancos.com/"><strong>David Vivancos</strong></a>, emprendedor e innovador en serie de ciencia y tecnología.</li>
+</ul>
+<h2 id="propuesta-a-la-comunidad" tabindex="-1">Propuesta a la comunidad <a class="header-anchor" href="#propuesta-a-la-comunidad">#</a></h2>
+<p>Me gustaría hacer con vosotros una lluvia de ideas para seguir promocionando el proyecto, ya que prácticamente he quemado todos mis cartuchos y necesito ideas frescas, por favor hacedme llegar vuestras ideas y/o sugerencias, respondiendo directamente en este correo o bien en nuestro <a href="https://t.me/+oAeZGMsePDg2ZDI0">canal de Telegram</a></p>
+<a href="https://anticitera.deft.work">
+  <img src="/img/TecladoyPaises.webp" alt="Pie Proyecto .IA Isla Anticitera">
+</a>
+<ul class="links-nextprev"><li>Previous: <a href="/blog/Gemini-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/">Gemini - Análisis detallado del Proyecto .IA Isla Anticitera.</a></li>
+</ul>
 
 		<br>
 		
@@ -627,7 +667,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /links/ -->
+		<!-- Current page: /blog/Boletin_Informativo_III_Proyecto_.IA_Isla_Anticitera/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...
