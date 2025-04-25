@@ -20,7 +20,7 @@ Corría el año 2019 cuando esta idea surgió en mi mente, en un principio fue u
 
 Durante todo este tiempo me he dedicado con mayor o menor éxito a difundir y divulgar el proyecto, se me ocurren muchos de vosotros que podríais hacer este trabajo mucho mejor que yo y llevarlo al próximo nivel. Me gustaría que alguien pueda tomar el testigo por si me pasa algo o aunque no me pase nada. Ya que saque la idea de mi mente, que pueda vivir y crecer entre todos nosotros.
 
-### ¿Que logros podemos reseñar en este tiempo?
+### ¿Qué logros podemos reseñar en este tiempo?
 
 Desde el último boletín he conseguido conectar con varias personas a las que le ha gustado la idea del proyecto:
 
