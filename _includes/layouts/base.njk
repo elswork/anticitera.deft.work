@@ -7,9 +7,6 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
@@ -78,18 +75,19 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-            <div><img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera"></div>
-            <div class="header-content"> <a href="/" class="home-link">{{ metadata.title }}</a>
-                <nav>
-                    <h2 class="visually-hidden">Top level navigation menu</h2>
-                    <ul class="nav">
-                    {%- for entry in collections.all | eleventyNavigation %}
-                        <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-                    {%- endfor %}
-                    </ul>
-                </nav>
-            </div>
-        </header>
+			<!-- Añadir la imagen del banner aquí -->
+            <img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
+			<a href="/" class="home-link">{{ metadata.title }}</a>			
+			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+				{%- for entry in collections.all | eleventyNavigation %}
+					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+				{%- endfor %}
+				</ul>
+			</nav>
+		</header>
 
 		<main id="skip">
 		<ul class="post-metadata">
