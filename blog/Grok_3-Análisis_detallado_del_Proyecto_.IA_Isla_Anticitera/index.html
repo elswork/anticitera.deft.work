@@ -6,10 +6,6 @@
 		<title>Grok 3 - Análisis detallado del Proyecto .IA Isla Anticitera.</title>
 		<meta name="description" content="Le pedimos a Grok 3 que nos haga un Análisis detallado del Proyecto .IA Isla Anticitera.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title=".IA Isla Anticitera - Base de Conocimiento">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title=".IA Isla Anticitera - Base de Conocimiento">
 
@@ -196,62 +192,38 @@ pre[class*="language-diff-"] {
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
-	--font-family: Roboto, -apple-system, system-ui, sans-serif;
-	--font-family-headings: Montserrat, -apple-system, system-ui, sans-serif;
+	--font-family: -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
 :root {
-	/* New Light Mode Color Variables */
-	--primary-accent-color: #007bff;
-	--text-color-light: #212529;
-	--background-color-light: #FFFFFF;
-	--border-color-light: #CED4DA;
-	--secondary-text-color-light: #6C757D;
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
 
-	/* Updated Existing CSS Variables - Light Mode */
-	--background-color: var(--background-color-light);
-	--text-color: var(--text-color-light);
-	--text-color-link: var(--primary-accent-color);
-	--text-color-link-active: #0056b3; /* Darker shade of accent for active */
-	--text-color-link-visited: #004085; /* Slightly different shade for visited */
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840; 
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
 
 	--syntax-tab-size: 2;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		/* New Dark Mode Color Variables */
-		--text-color-dark: #F8F9FA;
-		--background-color-dark: #1A1A1A;
-		--border-color-dark: #495057;
-		--secondary-text-color-dark: #ADB5BD;
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
 
-		/* Updated Existing CSS Variables - Dark Mode */
-		--background-color: var(--background-color-dark);
-		--text-color: var(--text-color-dark);
-		--text-color-link: var(--primary-accent-color); /* Or a lighter variant if needed */
-		--text-color-link-active: #3395ff; /* Lighter shade for active in dark mode */
-		--text-color-link-visited: #66b0ff; /* Lighter shade for visited in dark mode */
-	}
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
 
-	header {
-		border-bottom: 1px dashed var(--border-color-dark);
-		box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* A slightly more visible shadow for dark backgrounds */
-	}
-
-	.links-nextprev {
-		border-top: 1px dashed var(--border-color-dark);
-	}
-
-	.postlist-date,
-	.postlist-item:before {
-		color: var(--secondary-text-color-dark);
-	}
-
-	:hover > a[href].header-anchor {
-		color: var(--secondary-text-color-dark);
+		--background-color: #15202b;
 	}
 }
 
@@ -264,7 +236,7 @@ pre[class*="language-diff-"] {
 html,
 body {
 	padding: 0;
-	margin: 0 auto; /* Verified */
+	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
@@ -274,16 +246,6 @@ html {
 }
 body {
 	max-width: 60em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: var(--font-family-headings);
-	margin-top: 2rem;
-	margin-bottom: 1rem;
-}
-
-h1 { /* More top margin for h1 */
-	margin-top: 3rem;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -302,15 +264,10 @@ p:last-child {
 }
 p {
 	line-height: 1.5;
-	margin-bottom: 1.25rem;
-}
-
-ul, ol {
-	margin-bottom: 1.25rem;
 }
 
 li {
-	line-height: 1.5; /* Seems fine */
+	line-height: 1.5;
 }
 
 a[href] {
@@ -325,14 +282,14 @@ a[href]:active {
 }
 
 main {
-	padding: 2rem 1.5rem;
+	padding: 1rem;
 }
 main :first-child {
 	margin-top: 0;
 }
 
 header {
-	border-bottom: 1px dashed var(--border-color-light);
+	border-bottom: 1px dashed var(--color-gray-20);
 }
 header:after {
 	content: "";
@@ -342,8 +299,8 @@ header:after {
 
 .links-nextprev {
 	list-style: none;
-	border-top: 1px dashed var(--border-color-light);
-	padding: 2em 0;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
 }
 
 table {
@@ -379,33 +336,16 @@ code {
 
 /* Header */
 header {
-	display: block; /* Changed from flex */
-	padding: 1.5em 1.5em 0.5em 1.5em; /* Adjusted padding */
-	border-bottom: 1px dashed var(--border-color-light); /* Ensured border is still there */
-	box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
-header > div:first-child img { /* Banner image */
-	display: block;
-	max-width: 100%;
-	height: auto;
-	margin: 0 auto 1rem auto; /* Centered block image with bottom margin */
-}
-
-header .header-content { /* Wrapper for title and nav */
 	display: flex;
-	gap: 1em;
+	gap: 1em .5em;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between; /* Puts title left, nav right */
-	padding-bottom: 1em; /* Padding for the bottom of the header content */
+	padding: 1em;
 }
-
 .home-link {
-	font-size: 1.25em; /* Increased font size */
+	font-size: 1em; /* 16px /16 */
 	font-weight: 700;
-	font-family: var(--font-family-headings); /* Applied heading font */
-	margin-right: 0; /* Removed margin-right as space-between is used */
+	margin-right: 2em;
 }
 .home-link:link:not(:hover) {
 	text-decoration: none;
@@ -420,17 +360,13 @@ header .header-content { /* Wrapper for title and nav */
 }
 .nav-item {
 	display: inline-block;
-	margin-right: 1.5em;
-}
-.nav-item:last-child { /* Remove margin from last nav item */
-    margin-right: 0;
+	margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
 }
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
-	font-weight: bold; /* Added bold for current page */
 }
 
 /* Posts list */
@@ -457,17 +393,17 @@ header .header-content { /* Wrapper for title and nav */
 .postlist-date,
 .postlist-item:before {
 	font-size: 0.8125em; /* 13px /16 */
-	color: var(--secondary-text-color-light);
+	color: var(--color-gray-90);
 }
 .postlist-date {
 	word-spacing: -0.5px;
 }
 .postlist-link {
-	font-family: var(--font-family-headings); /* Added for consistency */
 	font-size: 1.1875em; /* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
-	padding: 0 0.5em; /* Standardized padding */
+	padding-left: .25em;
+	padding-right: .5em;
 	text-underline-position: from-font;
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
@@ -492,7 +428,7 @@ header .header-content { /* Wrapper for title and nav */
 .post-metadata {
 	display: inline-flex;
 	flex-wrap: wrap;
-	gap: 1em;
+	gap: .5em;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -518,217 +454,11 @@ a[href].header-anchor:hover {
 }
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
-	color: var(--secondary-text-color-light);
+	color: #aaa;
 }
 
 h2 + .header-anchor {
 	font-size: 1.5em;
-}
-
-footer .container {
-	padding: 2rem 1.5rem;
-}
-
-/* ==========================================================================
-   Button Styling
-   ========================================================================== */
-
-button, .button {
-	display: inline-block;
-	font-family: var(--font-family);
-	font-weight: bold;
-	text-align: center;
-	vertical-align: middle;
-	user-select: none;
-	background-color: var(--primary-accent-color);
-	color: white;
-	border: 1px solid var(--primary-accent-color);
-	padding: 0.5rem 1rem;
-	font-size: 0.9rem;
-	line-height: 1.5;
-	border-radius: 0.25rem;
-	text-decoration: none;
-	cursor: pointer;
-	transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
-}
-
-button:hover, .button:hover {
-	background-color: #0056b3; /* Darker shade of accent */
-	border-color: #0056b3;
-	color: white;
-	box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Added hover shadow */
-}
-
-button:focus, .button:focus {
-	outline: 0;
-	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5); /* Focus ring */
-}
-
-button:active, .button:active {
-	background-color: #004085; /* Even darker shade */
-	border-color: #004085;
-}
-
-/* Icon styling within buttons */
-/* Assuming .icon and .icon_plus are classes applied to SVGs or wrapper elements by the icon shortcode */
-button .icon, button .icon_plus {
-	margin-right: 0.5em;
-	vertical-align: middle; /* Or text-bottom, baseline, etc. depending on icon alignment */
-	width: 1.1em; /* Adjust size as needed */
-	height: 1.1em; /* Adjust size as needed */
-}
-
-/* For icon-only buttons, remove the margin */
-button .icon_plus:only-child, button .icon:only-child {
-    margin-right: 0;
-}
-
-/* Ensure SVGs inside buttons inherit color properly */
-button svg {
-    fill: currentColor;
-}
-
-/* ==========================================================================
-   Link Styling
-   ========================================================================== */
-
-main a {
-	text-decoration: underline;
-}
-
-main a:hover {
-	text-decoration: none; /* Optional: remove underline on hover if color change is enough */
-}
-
-/* ==========================================================================
-   Specific Button Group Styling
-   ========================================================================== */
-
-/* Post metadata buttons like #edit-github-btn, #vote-change-org, etc. */
-/* are covered by general button styling. */
-/* "Ver Comentarios" (#toggle-comments-btn) and "Nuevo comentario" (.issue-link-create) */
-/* are also covered by general button styling. */
-
-/* Style for icons within .post-metadata buttons */
-.post-metadata button .icon {
-	/* margin-right: 0.5em; /* Already handled by general button .icon style */
-	/* vertical-align: middle; /* Already handled */
-}
-
-
-/* Social Media Icon Buttons in Footer */
-footer .social-media button,
-footer .share-links button {
-	background-color: transparent;
-	color: var(--text-color-link);
-	border: 1px solid var(--border-color-light);
-	padding: 0.375rem 0.75rem; /* Adjust padding for icons */
-}
-
-footer .social-media button:hover,
-footer .share-links button:hover {
-	background-color: var(--primary-accent-color);
-	color: white;
-	border-color: var(--primary-accent-color);
-}
-
-/* Icons in footer buttons are typically icon-only */
-footer .social-media button .icon_plus,
-footer .share-links button .icon_plus {
-	margin-right: 0; /* Ensure no extra margin for icon-only */
-}
-
-/* ==========================================================================
-   Content Sections Styling
-   ========================================================================== */
-
-/* Blockquote Styling */
-blockquote {
-	margin: 1.5em 0 1.5em 2em;
-	padding: 0.5em 1em;
-	border-left: 4px solid var(--border-color-light);
-	font-style: italic;
-	color: var(--secondary-text-color-light);
-}
-
-/* GitHub Issues Section Styling */
-.issue-container {
-	border: 1px solid var(--border-color-light);
-	border-radius: 0.25rem;
-	padding: 1.5rem;
-	margin-bottom: 1.5rem;
-	background-color: var(--background-color); /* Explicitly set for context */
-	box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-}
-
-.issue-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start; /* Align items to the top */
-	margin-bottom: 1rem;
-	flex-wrap: wrap; /* Allow wrapping for smaller screens */
-	gap: 0.5rem; /* Gap for wrapped items */
-}
-
-.issue-header h3 {
-	margin: 0; /* Remove default heading margins */
-	font-size: 1.25em; /* Adjust size as needed */
-	font-family: var(--font-family-headings);
-}
-
-.issue-user {
-	display: flex;
-	align-items: center;
-	font-size: 0.9em;
-}
-
-.issue-user img.issue-author-avatar {
-	width: 30px; /* Adjust size */
-	height: 30px;
-	border-radius: 50%;
-	margin-right: 0.5em;
-}
-
-.issue-user a.issue-author-link {
-	text-decoration: none;
-	color: var(--text-color-link);
-}
-
-.issue-user a.issue-author-link:hover {
-	text-decoration: underline;
-}
-
-.issue-body {
-	margin-bottom: 1rem;
-	line-height: 1.6; /* Improve body text readability */
-}
-
-.issue-body p:last-child {
-	margin-bottom: 0;
-}
-
-.issue-footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 0.85em;
-	color: var(--secondary-text-color-light);
-	flex-wrap: wrap; /* Allow wrapping */
-	gap: 0.5rem; /* Gap for wrapped items */
-}
-
-.issue-footer-left, .issue-footer-right {
-	display: flex;
-	align-items: center;
-	gap: 0.75em; /* Space out items within left/right sections */
-}
-
-/* .issue-state, .issue-comments, .issue-reactions, .issue-created-at, .issue-updated-at { */
-	/* General styling for these spans if needed, otherwise rely on footer's color */
-/* } */
-
-.issue-link { /* This is the 'Ver comentario' link */
-	font-weight: bold;
 }</style>
 		<link rel="stylesheet" href="/css/bundle.css">
 
@@ -758,21 +488,21 @@ blockquote {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-            <div><img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera"></div>
-            <div class="header-content"> <a href="/" class="home-link">.IA Isla Anticitera - Base de Conocimiento</a>
-                <nav>
-                    <h2 class="visually-hidden">Top level navigation menu</h2>
-                    <ul class="nav">
-                        <li class="nav-item"><a href="/">Inicio</a></li>
-                        <li class="nav-item"><a href="/blog/">Blog</a></li>
-                        <li class="nav-item"><a href="/about/">Proyecto</a></li>
-                        <li class="nav-item"><a href="/links/">Links</a></li>
-                        <li class="nav-item"><a href="/podcasts/">Podcasts</a></li>
-                        <li class="nav-item"><a href="/x/">X</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+			<!-- Añadir la imagen del banner aquí -->
+            <img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
+			<a href="/" class="home-link">.IA Isla Anticitera - Base de Conocimiento</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Inicio</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/about/">Proyecto</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
+					<li class="nav-item"><a href="/podcasts/">Podcasts</a></li>
+					<li class="nav-item"><a href="/x/">X</a></li>
+				</ul>
+			</nav>
+		</header>
 
 		<main id="skip">
 		<ul class="post-metadata">
