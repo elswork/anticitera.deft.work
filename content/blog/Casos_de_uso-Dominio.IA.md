@@ -23,7 +23,7 @@ La enciclopedia en internet podría mostrar desarrollos basados en el contenido 
 
 ## Nacionales
 
-### Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia
+### Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia, Autral.ia, Ind.ia, Colomb.ia, Niger.ia, Ucran.ia
 
 Podrían ser web apps para aprender idiomas apoyadas por diferentes asistentes, uno para el texto otro para el habla.
 
