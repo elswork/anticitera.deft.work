@@ -6,7 +6,7 @@ draft: false
 tags:
   - .ia
   - anticitera
-  - deepdeek
+  - deepseek
 ---
 
 El **Proyecto .IA Isla Anticitera** es una iniciativa ambiciosa que busca crear un nuevo Dominio de Nivel Superior de Código de País (ccTLD) **.IA**, asociado a la Isla de Anticitera en Grecia. Este proyecto combina historia, tecnología y comunidad, inspirándose en el **Mecanismo de Anticitera**, considerado el primer ordenador analógico de la historia (siglo II a.C.) . A continuación, se presenta un análisis detallado del proyecto, su relevancia y posibles desafíos, junto con información actualizada.
