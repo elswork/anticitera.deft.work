@@ -21,7 +21,7 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 ## Enlaces Importantes
 
 - [OpenAI GPTs Anticitera](https://chat.openai.com/g/g-fnpHOClUW-anticitera) es el 🤖 asistente que me ayuda en este proyecto.
-- [Reserva tu Dominio .IA](https://docs.google.com/forms/d/e/1FAIpQLScj1paIvOUbqugD76fKncZ65ZOqL-f5bILycZComuxKhJeRPg/viewform?usp=sf_link) 📄 formulario de reservas.
+- [Reserva tu Dominio .IA](https://dominio.deft.work) 📄 https://dominio.deft.work webapp de reservas.
 - [✍️ Lista Oficial de Reservas](https://docs.google.com/spreadsheets/d/1y-aLEKfQySJeDgZd4QeHa57G9P9Pp4mqWhLJSqxcB0o/edit?usp=sharing)
 - [Tabla de Personas y Organizaciones](https://docs.google.com/spreadsheets/d/1-6lBWrMexLKKDpfI2u8zKnvit3mXeZT9Zs6ngZk4glI/edit?usp=sharing)
 - [Solicitemos la Creación del Nuevo Dominio de Nivel Superior ccTLD .IA](https://chng.it/hqCyzBpwgW) Propuesta en Change.org
