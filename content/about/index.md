@@ -67,4 +67,23 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 
 Otras formas de financiarme:
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork)](https://github.com/sponsors/elswork) [![Donar PayPal](https://img.shields.io/badge/Donar-PayPal-green.svg)](https://www.paypal.com/donate/?business=LFKA5YRJAFYR6&no_recurring=0&item_name=Donación+para+Código+Abierto&currency_code=EUR) [![Donar Coinbase](https://img.shields.io/badge/coinbase-elswork-blue)](https://elswork.cb.id)
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork)](https://github.com/sponsors/elswork) [![Donar PayPal](https://img.shields.io/badge/Donar-PayPal-green.svg)](https://www.paypal.com/donate/?business=LFKA5YRJAFYR6&no_recurring=0&item_name=Donación+para+Código+Abierto&currency_code=EUR) 
+---
+
+**Donar con Bitcoin (BTC):**
+
+`bc1qfxsxxcr2akh2l26m6am0vpwwkhnsua04lmgfef`
+
+[Ver en Blockchain.com](https://www.blockchain.com/btc/address/bc1qfxsxxcr2akh2l26m6am0vpwwkhnsua04lmgfef)
+
+---
+
+**Donar con Ethereum (ETH):**
+
+`0x186b91982CbB6450Af5Ab6F32edf074dFCE8771c`
+
+[Ver en Etherscan](https://etherscan.io/address/0x186b91982CbB6450Af5Ab6F32edf074dFCE8771c)
+
+---
+
+*Ten en cuenta que las donaciones son voluntarias y no son reembolsables. ¡Gracias por tu generosidad!*
