@@ -31,6 +31,16 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addPlugin(embedYouTube);
 
+	eleventyConfig.addShortcode("youtube", (url) => {
+		const videoID = extractYouTubeID(url);
+		if (!videoID) {
+			return "<div>Invalid YouTube URL</div>";
+		}
+		return `<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+	<iframe src="https://www.youtube.com/embed/${videoID}" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+	</div>`;
+	});
+
 	eleventyConfig.addFilter("date", (dateStr, formatStr = "dd/MM/yyyy HH:mm") => {
         return format(new Date(dateStr), formatStr);
     });
