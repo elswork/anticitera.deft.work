@@ -29,7 +29,9 @@ module.exports = function(eleventyConfig) {
 	// Crear una instancia de markdown-it
 	let markdownLib = markdownIt();
 
-	eleventyConfig.addPlugin(embedYouTube);
+	eleventyConfig.addPlugin(embedYouTube, {
+		lite: true
+	});
 
 	eleventyConfig.addShortcode("youtube", (url) => {
 		const videoID = extractYouTubeID(url);
