@@ -23,4 +23,4 @@ Hoy quiero enmendar el error de no haberlo dicho antes y, al mismo tiempo, abrir
 
 Este es un viaje que honra el pasado en la isla griega que le da nombre, pero que mira al futuro con la fuerza transformadora de todos los que creemos que la inteligencia artificial puede y debe ser una herramienta para el bien común. Y en ese futuro, **Latinoamérica está en el corazón del proyecto**.
 
-![IA Anticitera](/img/PecioAnticitera.webp)
+![IA Anticitera](/img/LATAM.webp)
