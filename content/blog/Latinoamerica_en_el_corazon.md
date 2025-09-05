@@ -9,9 +9,6 @@ tags:
   - Latinoamérica
 ---
 
-
-# Latinoamérica en el corazón del Proyecto Anticitera
-
 Cuando inicié el camino de Anticitera y la promoción del dominio **.ia**, lo hice inspirado por la historia del mecanismo de Anticitera y su simbolismo como origen remoto de la inteligencia artificial. Sin embargo, debo reconocer un error: en mis primeros textos olvidé dar el lugar que merece a **Latinoamérica**, una región que no solo tiene mucho que aportar, sino que debe estar en el centro de este proyecto.
 
 Ese olvido no es menor. Porque hablar de futuro digital, de inteligencia artificial y de nuevas formas de habitar internet sin mencionar a Latinoamérica es dejar fuera a millones de voces, talentos y comunidades que están transformando día a día la tecnología.
