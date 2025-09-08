@@ -7,6 +7,7 @@ tags:
   - .ia
   - anticitera
   - Latinoamérica
+  - LATAM
 ---
 
 Cuando inicié el camino de Anticitera y la promoción del dominio **.ia**, lo hice inspirado por la historia del mecanismo de Anticitera y su simbolismo como origen remoto de la inteligencia artificial. Sin embargo, debo reconocer un error: en mis primeros textos olvidé dar el lugar que merece a **Latinoamérica**, una región que no solo tiene mucho que aportar, sino que debe estar en el centro de este proyecto.
