@@ -39,7 +39,7 @@ Podrían albergar los portales de los hub tecnológicos IA de cada región.
 
 Podría ser una webapp en la que poder conversarción la versión virtual de la Rosalía.
 
-### Luc.ia, Son.ia, Valer.ia, Letiz.ia
+### Luc.ia, Son.ia, Valer.ia, Letiz.ia, La.ia
 
 ### Il.ia Topur.ia
 
