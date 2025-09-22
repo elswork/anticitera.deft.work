@@ -73,6 +73,8 @@ La democracia (del griego: δημοκρατία dēmokratía, dēmos, "pueblo" y
 
 ### Filosof.ia
 
+### Loter.ia
+
 ### Eufor.ia
 
 ### Alegr.ia
