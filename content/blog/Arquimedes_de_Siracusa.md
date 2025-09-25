@@ -52,4 +52,4 @@ Al destacar a Arquímedes y su conexión con la computación analógica primitiv
 
 Puede encontrar más detalles del Proyecto .IA Isla Anticitera y su comunidad en https://anticitera.deft.work/.
 
-![IA Anticitera](/img/Gemini_Galera.webp)
+![Arquímedes Anticitera](/img/Gemini_Arquimedes_Anticitera.webp)
