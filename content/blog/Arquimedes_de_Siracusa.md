@@ -1,6 +1,6 @@
 ---
 title: Arquímedes de Siracusa.
-description: Arquímedes: El Genio Griego y la Prehistoria de la Inteligencia Artificial.
+description: Arquímedes el Genio Griego y la Prehistoria de la Inteligencia Artificial.
 date: 2025-09-25
 draft: false
 tags:
