@@ -44,12 +44,12 @@ Sus avances en física incluyen los fundamentos de la hidrostática, la estátic
 
 El Proyecto .IA Isla Anticitera, busca que los proyectos alojados bajo el futuro dominio .IA tengan como referente la misma **excelencia y el ingenio** de los griegos antiguos. La figura de Arquímedes encarna perfectamente este ideal: un pensador que supo combinar la **visión científica** con la **aplicación práctica** de la ingeniería.
 
-Al destacar a Arquímedes y su conexión con la computación analógica primitiva, el artículo puede reforzar el mensaje del proyecto:
+Al destacar a Arquímedes y su conexión con la computación analógica primitiva, se refuerza el mensaje del proyecto:
 
 1.  **Superar la mentalidad de "Que inventen otros"**: La iniciativa anima a la comunidad española y europea a innovar, inspirados en la pericia de sus ancestros.
 2.  **Establecer un estándar de *expertise***: El objetivo a largo plazo es alcanzar el mismo nivel de *expertise* que los griegos en su época, lo que permitiría un avance exponencial en la IA.
 3.  **Promover el pensamiento crítico:** Los ancestros griegos, como Arquímedes, se enfocaban en buscar soluciones, incluso utilizando el pensamiento lateral para avanzar.
 
-Puede encontrar más detalles del Proyecto .IA Isla Anticitera y su comunidad en https://anticitera.deft.work/.
+Puede encontrar más detalles del Proyecto .IA Isla Anticitera y su comunidad en [Proyecto Anticitera](https://anticitera.deft.work/).
 
 ![Arquímedes Anticitera](/img/Gemini_Arquimedes_Anticitera.webp)
