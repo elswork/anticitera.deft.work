@@ -43,38 +43,38 @@
 * { box-sizing: border-box; }
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family: "Inter", -apple-system, system-ui, sans-serif;
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
 }
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	--color-gray-20: #e9ecef;
+	--color-gray-50: #adb5bd;
+	--color-gray-90: #212529;
 
-	--background-color: #fff;
-
+	--background-color: #f8f9fa;
 	--text-color: var(--color-gray-90);
-	--text-color-link: #082840; 
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	
+	--text-color-link: #007bff;
+	--text-color-link-active: #0056b3;
+	--text-color-link-visited: #6f42c1;
 
 	--syntax-tab-size: 2;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color-gray-20: #e0e0e0;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #dad8d8;
+		--color-gray-20: #495057;
+		--color-gray-50: #adb5bd;
+		--color-gray-90: #e9ecef;
 
-		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		--background-color: #121212;
+		--text-color: var(--color-gray-90);
 
-		--background-color: #15202b;
+		--text-color-link: #3391ff;
+		--text-color-link-active: #5cadff;
+		--text-color-link-visited: #9d79f2;
 	}
 }
 

@@ -152,17 +152,12 @@
 	</url>
 	
 	<url>
-		<loc>https://anticitera.deft.work/tags/arquimedes/</loc>
-		<lastmod>2025-09-30</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://anticitera.deft.work/tags/comunidad/</loc>
 		<lastmod>2025-09-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://anticitera.deft.work/tags/entrevista/</loc>
+		<loc>https://anticitera.deft.work/tags/arquimedes/</loc>
 		<lastmod>2025-09-30</lastmod>
 	</url>
 	
@@ -172,12 +167,7 @@
 	</url>
 	
 	<url>
-		<loc>https://anticitera.deft.work/tags/gemini/</loc>
-		<lastmod>2025-09-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://anticitera.deft.work/tags/grok/</loc>
+		<loc>https://anticitera.deft.work/tags/entrevista/</loc>
 		<lastmod>2025-09-30</lastmod>
 	</url>
 	
@@ -188,6 +178,16 @@
 	
 	<url>
 		<loc>https://anticitera.deft.work/tags/latam/</loc>
+		<lastmod>2025-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://anticitera.deft.work/tags/gemini/</loc>
+		<lastmod>2025-09-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://anticitera.deft.work/tags/grok/</loc>
 		<lastmod>2025-09-30</lastmod>
 	</url>
 	
