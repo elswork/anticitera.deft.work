@@ -80,4 +80,4 @@ Si logra superar estos obstáculos, podría convertirse en un símbolo de la ide
 
 <div style="text-align: center">⁂</div>
 
-![IA Anticitera](/img/TecladoyPaises.webp)
+![Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.](/img/TecladoyPaises.webp)

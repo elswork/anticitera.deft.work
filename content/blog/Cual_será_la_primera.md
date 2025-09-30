@@ -41,4 +41,4 @@ Tal como la compañía de ferrocarriles vio una oportunidad en vincularse con el
 3.  [Suscribiéndote al boletín de noticias](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link%27) para estar informado del progreso.
 4.  [Entrando en la sala de debate](https://t.me/+oAeZGMsePDg2ZDI0) de Telegram
 
-![IA Anticitera](/img/PecioAnticitera.webp)
+![Una ilustración de un barco en medio de una tormenta eléctrica frente a la isla de Anticitera](/img/PecioAnticitera.webp)

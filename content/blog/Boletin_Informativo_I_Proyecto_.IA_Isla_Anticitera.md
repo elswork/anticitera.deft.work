@@ -53,4 +53,4 @@ Difusión y Promoción: Ayude a difundir la idea compartiéndola en redes social
 
 [Proyecto .IA Isla Anticitera](https://anticitera.deft.work)
 
-<img src="/img/BitLifeMedia.webp" alt="Pie Proyecto .IA Isla Anticitera">
+<img src="/img/BitLifeMedia.webp" alt="Un teclado de ordenador retroiluminado, y de fondo un mapa del mundo formado por código binario de ceros y unos.">

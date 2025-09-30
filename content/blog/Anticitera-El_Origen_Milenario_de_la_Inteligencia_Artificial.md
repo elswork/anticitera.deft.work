@@ -58,4 +58,4 @@ Si hace más de 2.000 años los griegos construyeron una máquina capaz de model
 
 🚀 **¿Podría el dominio .ia ser un tributo a este legado?**
 
-![IA Anticitera](/img/Gemini_Galera.webp)
+![Ilustración de una antigua galera griega navegando en un mar tormentoso](/img/Gemini_Galera.webp)

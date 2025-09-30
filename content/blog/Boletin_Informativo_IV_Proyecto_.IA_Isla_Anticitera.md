@@ -27,12 +27,12 @@ Siguiendo nuestra estrategia de divulgación, hemos continuado contactando a per
 
 ### El Proyecto Bajo la Lupa de la IA
 
-Un hecho fascinante de las últimas semanas ha sido ver cómo nuestro propio proyecto se ha convertido en objeto de estudio por parte de diversas inteligencias artificiales. Las recientes publicaciones en nuestro blog, donde modelos como Gemini, DeepSeek y otros analizan los fundamentos y objetivos del Proyecto Anticitera, no solo validan la relevancia de nuestra iniciativa, sino que también nos proporcionan una valiosa retroalimentación.
+Un hecho fascinante de las últimas semanas ha sido ver cómo nuestro propio proyecto se ha convertido en objeto de estudio por parte de diversas inteligencias artificiales. Las recientes publicaciones en nuestro blog, donde modelos como Gemini, DeepSeek y otros analizan los fundamentos y objetivos del Proyecto Anticitera, no solo validan la relevancia de nuestra iniciativa, sino también nos proporcionan una valiosa retroalimentación.
 
 Esta "meta-reflexión" nos impulsa a refinar nuestras ideas y nos confirma que estamos en el camino correcto hacia la creación de un ecosistema de IA abierto, ético y beneficioso para todos.
 
 Gracias por seguir siendo parte de esta aventura.
 
 <a href="https://anticitera.deft.work">
-  <img src="/img/AnticiteraIAoverSea.webp" alt="Pie Proyecto .IA Isla Anticitera">
+  <img src="/img/AnticiteraIAoverSea.webp" alt="Una representación del mecanismo de Anticitera, atravesado por finos hilos de circuitos, flotando sobre el mar frente a la isla de Anticitera.">
 </a>

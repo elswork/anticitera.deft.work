@@ -104,4 +104,4 @@ El sitio [https://anticitera.deft.work](anticitera.deft.work) es una plataforma 
 
 Si el usuario desea un análisis más específico (por ejemplo, de diseño, usabilidad o contenido multimedia del sitio), necesitaría acceso directo o más detalles. ¿Hay algo más en lo que pueda profundizar?
 
-![IA Anticitera](/img/TecladoyPaises.webp)
+![Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.](/img/TecladoyPaises.webp)

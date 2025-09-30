@@ -163,4 +163,4 @@ En conclusión, el proyecto Anticitera posee un potencial significativo para imp
 38. Free Domain Name Ideas Tool - Get Instant Ideas for 2025 - GravityWrite, fecha de acceso: marzo 24, 2025, <https://gravitywrite.com/blog/domain-name-ideas-tool>
 39. Project Proposal for a New World Information Architecture Website | by Andrea Rosenbusch, fecha de acceso: marzo 24, 2025, <https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb>
 
-![IA Anticitera](/img/TecladoyPaises.webp)
+![Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.](/img/TecladoyPaises.webp)

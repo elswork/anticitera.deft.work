@@ -35,5 +35,5 @@ Desde el último boletín he conseguido conectar con varias personas a las que l
 Me gustaría hacer con vosotros una lluvia de ideas para seguir promocionando el proyecto, ya que prácticamente he quemado todos mis cartuchos y necesito ideas frescas, por favor hacedme llegar vuestras ideas y/o sugerencias, respondiendo directamente en este correo o bien en nuestro [canal de Telegram](https://t.me/+oAeZGMsePDg2ZDI0)
 
 <a href="https://anticitera.deft.work">
-  <img src="/img/TecladoyPaises.webp" alt="Pie Proyecto .IA Isla Anticitera">
+  <img src="/img/TecladoyPaises.webp" alt="Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.">
 </a>

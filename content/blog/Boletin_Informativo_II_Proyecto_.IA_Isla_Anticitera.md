@@ -36,5 +36,5 @@ Difusión y Promoción: Ayuda a difundir la idea compartiéndola en redes social
 [Proyecto .IA Isla Anticitera](https://anticitera.deft.work)
 
 <a href="https://anticitera.deft.work">
-  <img src="/img/TecladoyPaises.webp" alt="Pie Proyecto .IA Isla Anticitera">
+  <img src="/img/TecladoyPaises.webp" alt="Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.">
 </a>
