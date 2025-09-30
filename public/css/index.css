@@ -97,7 +97,7 @@ main :first-child {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	border-bottom: 1px solid var(--color-gray-20);
 }
 header:after {
 	content: "";
