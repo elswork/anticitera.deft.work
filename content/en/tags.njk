@@ -12,13 +12,13 @@ pagination:
   addAllPagesToCollections: true
 layout: layouts/home.njk
 eleventyComputed:
-  title: Etiquetado “{{ tag }}”
-permalink: /tags/{{ tag | slugify }}/
-lang: "es"
+  title: Tagged “{{ tag }}”
+permalink: /en/tags/{{ tag | slugify }}/
+lang: "en"
 ---
-<h1>Etiquetado “{{ tag }}”</h1>
+<h1>Tagged “{{ tag }}”</h1>
 
 {% set postslist = collections[ tag ] | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
-<p>Ver <a href="/tags/">todas las etiquetas</a>.</p>
+<p>See <a href="/en/tags/">all tags</a>.</p>

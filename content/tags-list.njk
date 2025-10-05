@@ -1,8 +1,11 @@
 ---
-permalink: /tags/
 layout: layouts/home.njk
+eleventyComputed:
+  title: "Todas las etiquetas"
+permalink: /tags/
+lang: "es"
 ---
-<h1>Tags</h1>
+<h1>Todas las etiquetas</h1>
 
 <ul>
 {% for tag in collections.all | getAllTags | filterTagList %}

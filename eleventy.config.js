@@ -156,6 +156,21 @@ module.exports = function(eleventyConfig) {
 		return Math.min.apply(null, numbers);
 	});
 
+	eleventyConfig.addFilter("where", (array, key, value) => {
+		return array.filter(item => {
+			const keys = key.split('.');
+			let data = item;
+			for (const k of keys) {
+				if (data.hasOwnProperty(k)) {
+					data = data[k];
+				} else {
+					return false;
+				}
+			}
+			return data === value;
+		});
+	});
+
 	// Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();
