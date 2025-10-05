@@ -53,6 +53,19 @@ module.exports = function(eleventyConfig) {
 		return markdownLib.render(content);
 	});
 
+	eleventyConfig.addCollection("posts_by_lang", function(collectionApi) {
+		const posts = collectionApi.getFilteredByTag("posts");
+		const postsByLang = {};
+		for (const post of posts) {
+			const lang = post.data.lang || "es";
+			if (!postsByLang[lang]) {
+				postsByLang[lang] = [];
+			}
+			postsByLang[lang].push(post);
+		}
+		return postsByLang;
+	});
+
 	eleventyConfig.addCollection("customFeed", function(collectionApi) {
 		// Obtener posts y otros elementos
 		let items = collectionApi.getFilteredByTag("post");

@@ -6,6 +6,7 @@ date: Last Modified
 eleventyNavigation:
   key: Proyecto
   order: 3
+lang: "es"
 ---
 # Proyecto .IA Isla Anticitera 
 

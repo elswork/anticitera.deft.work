@@ -1,14 +1,14 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Inicio
+  key: Home
   order: 1
 numberOfLatestPostsToShow: 3
-lang: "es"
+lang: "en"
 ---
 {% set postsCount = collections.posts_by_lang[lang] | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Última{% if latestPostsCount != 1 %}s{% endif %} {{ latestPostsCount }} Publicacion{% if latestPostsCount != 1 %}es{% endif %}</h1>
+<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
 {% set postslist = collections.posts_by_lang[lang] | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
@@ -16,14 +16,5 @@ lang: "es"
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} más post{% if morePosts != 1 %}s{% endif %} pueden ser encontrados en <a href="/blog/">el archivo</a>.</p>
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/en/blog/">the archive</a>.</p>
 {% endif %}
-
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}

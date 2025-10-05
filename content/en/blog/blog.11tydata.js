@@ -3,5 +3,4 @@ module.exports = {
 		"posts"
 	],
 	"layout": "layouts/post.njk",
-	"lang": "es"
 };
