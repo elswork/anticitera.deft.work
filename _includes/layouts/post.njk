@@ -16,9 +16,9 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-{%- if collections.posts %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem %}
-{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if collections.posts_by_lang[lang] %}
+{%- set previousPost = collections.posts_by_lang[lang] | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts_by_lang[lang] | getNextCollectionItem %}
 {%- if nextPost or previousPost %}
 <ul class="links-nextprev">
 	{%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>{% endif %}
