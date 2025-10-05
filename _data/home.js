@@ -67,5 +67,28 @@ module.exports = {
       view_comments: "Voir les Commentaires",
       new_comment: "Nouveau commentaire"
     }
+  },
+  pt: {
+    title: "O que é o Projeto Ilha de Antikythera .IA?",
+    paragraph1: "O Projeto Ilha de Antikythera .IA é uma iniciativa que busca criar um novo Domínio de Nível Superior de Código de País (ccTLD) .IA associado ao território da Ilha de Antikythera. Esta pequena ilha, famosa pelo Mecanismo de Antikythera, considerado o primeiro computador analógico da história, torna-se um símbolo das origens da Inteligência Artificial e da inovação tecnológica.",
+    paragraph2: "O Projeto Ilha de Antikythera .IA é também a comunidade de pessoas que, de uma forma ou de outra, fazem parte do projeto. Este é o ativo mais valioso do projeto, aquele que o ajudará a alcançar seus objetivos.",
+    link: {
+      text: "O que é o Projeto Ilha de Antikythera .IA?",
+      url: "/blog/O_que_e_o_Projeto_Ilha_Antikythera_IA/"
+    },
+    messageBox: {
+      item1: "Existe um ccTLD .AI comumente usado para projetos de 'Inteligência Artificial', mas o ccTLD .IA, que representaria a maioria das demais línguas do mundo, não existe.",
+      item2: "Buscamos criar uma comunidade de entusiastas de IA para promover a criação do domínio de nível superior ccTLD .IA no território histórico da Ilha de Antikythera.",
+      item3: "Verifique os detalhes do <a href=\"/pt/about\">Projeto</a>.",
+      footer: "Esta é a Base de Conhecimento para o <a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Assistente Antikythera da OpenAI</a> criado para auxiliar na criação de projetos tecnológicos relacionados a .IA"
+    },
+    buttons: {
+      edit_github: "Editar em",
+      vote_change_org: "Assinar em",
+      telegram_group: "Entrar",
+      suscribe_mail_list: "Assinar",
+      view_comments: "Ver Comentários",
+      new_comment: "Novo comentário"
+    }
   }
 };
