@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “deepseek”</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>Maximizing Opportunities - The .IA Domain for Various Sectors</title>
+		<meta name="description" content="We explore how the .IA domain provides innovative and specific solutions for technology companies, academics, historians, developers, and cultural organizations.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,24 +25,173 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -374,7 +523,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/tags.njk', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/blog/Maximizing_Opportunities-The_IA_Domain.md', '_blank')" id="edit-github-btn">
 					Edit on 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -405,44 +554,61 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>What is the .IA Antikythera Island Project?</h3>
+			
+<h1>Maximizing Opportunities - The .IA Domain for Various Sectors</h1>
 
-<p>
-	The .IA Antikythera Island Project is an initiative that seeks to create a new Country Code Top-Level Domain (ccTLD) .IA associated with the territory of the Island of Antikythera. This small island, famous for the Antikythera Mechanism, considered the first analog computer in history, becomes a symbol of the origins of Artificial Intelligence and technological innovation.
-	The .IA Antikythera Island Project is also the community of people who in one way or another are part of the project. This is the most valuable asset of the project, the one that will help the project achieve its objectives.
-	<br>
-	<a href="/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">What is the .IA Antikythera Island Project?</a>
-</p>
-<div class="message-box">
-	<ol>
-		<li>There is a ccTLD .AI commonly used for &#39;Artificial Intelligence&#39; projects, but the ccTLD .IA, which would represent the majority of the rest of the world&#39;s languages, does not exist.</li>
-    	<li>We seek to create a community of AI enthusiasts to promote the creation of the ccTLD .IA top-level domain in the historic territory of Antikythera Island.</li>
-		<li>Check the details of the <a href="/en/about">Project</a>.</li>
-	</ol>
-	<p><em>This is the Knowledge Base for the <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Antikythera Assistant from OpenAI</a> created to assist in the creation of technological projects related to .IA</em></p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-	<iframe src="https://www.youtube.com/embed/x1DeBF8bBVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-	</div>
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2024-04-13">13 April 2024</time></li>
+	<li><a href="/tags/ia/" class="post-tag">.ia</a>, </li>
+	<li><a href="/tags/antikythera/" class="post-tag">antikythera</a></li>
+</ul>
 
-<h1>Tagged “deepseek”</h1>
+<h1 id="detailed-use-case-for-the-ia-domain" tabindex="-1">Detailed Use Case for the .IA Domain <a class="header-anchor" href="#detailed-use-case-for-the-ia-domain">#</a></h1>
+<h2 id="potential-user-profiles" tabindex="-1">Potential User Profiles <a class="header-anchor" href="#potential-user-profiles">#</a></h2>
+<ul>
+<li><strong>Technology Companies</strong>: Companies specializing in artificial intelligence and emerging technologies.</li>
+<li><strong>Educational and Academic Institutions</strong>: Universities and research centers focusing on AI.</li>
+<li><strong>Historians and Archaeologists</strong>: Professionals researching the history and archaeology of the Island of Antikythera.</li>
+<li><strong>Community of Developers and Technology Enthusiasts</strong>: Individuals passionate about technology and software development.</li>
+<li><strong>Cultural and Tourism Organizations</strong>: Entities promoting culture and tourism on the Island of Antikythera.</li>
+</ul>
+<h2 id="specific-scenarios-where-the-ia-domain-adds-value" tabindex="-1">Specific Scenarios Where the .IA Domain Adds Value <a class="header-anchor" href="#specific-scenarios-where-the-ia-domain-adds-value">#</a></h2>
+<h3 id="for-technology-companies" tabindex="-1">For Technology Companies <a class="header-anchor" href="#for-technology-companies">#</a></h3>
+<ul>
+<li><strong>Reflection of Innovation</strong>: The .IA domain establishes a digital identity that emphasizes a company's innovative nature.</li>
+<li><strong>Brand Image Enhancement</strong>: Associating the brand with a domain that is synonymous with technological advancement.</li>
+</ul>
+<h3 id="for-educational-and-academic-institutions" tabindex="-1">For Educational and Academic Institutions <a class="header-anchor" href="#for-educational-and-academic-institutions">#</a></h3>
+<ul>
+<li><strong>Reliable Platform for Publications</strong>: Publishing research papers and educational resources on a domain specialized in AI.</li>
+<li><strong>International Collaboration</strong>: Fostering cooperation between institutions to advance knowledge in AI.</li>
+</ul>
+<h3 id="for-historians-and-archaeologists" tabindex="-1">For Historians and Archaeologists <a class="header-anchor" href="#for-historians-and-archaeologists">#</a></h3>
+<ul>
+<li><strong>Educational Resource Center</strong>: Serving as a repository of information on archaeological discoveries.</li>
+<li><strong>Collaborative Community</strong>: Creating a network for discussion and collaboration on historical projects.</li>
+</ul>
+<h3 id="for-the-developer-community" tabindex="-1">For the Developer Community <a class="header-anchor" href="#for-the-developer-community">#</a></h3>
+<ul>
+<li><strong>Innovation Forum</strong>: Sharing tools and collaborating on cutting-edge technology projects.</li>
+<li><strong>Participation in Open Source Projects</strong>: Promoting collaboration in free software projects.</li>
+</ul>
+<h3 id="for-cultural-and-tourism-organizations" tabindex="-1">For Cultural and Tourism Organizations <a class="header-anchor" href="#for-cultural-and-tourism-organizations">#</a></h3>
+<ul>
+<li><strong>Promotion of Cultural Tourism</strong>: Using the domain to highlight cultural events and activities.</li>
+<li><strong>Dissemination of Cultural Heritage</strong>: Sharing the historical and cultural richness of the Island of Antikythera.</li>
+</ul>
+<h2 id="practical-and-realistic-examples" tabindex="-1">Practical and Realistic Examples <a class="header-anchor" href="#practical-and-realistic-examples">#</a></h2>
+<ul>
+<li>An <strong>AI company</strong> uses the .IA domain to launch a new machine learning platform.</li>
+<li>A <strong>university</strong> hosts its latest AI research on a website with a .IA domain to increase its credibility.</li>
+<li><strong>Archaeologists</strong> share recent findings from the Island of Antikythera on a dedicated portal with a .IA domain.</li>
+<li><strong>Developers</strong> create an online forum under the .IA domain to discuss the latest technology trends.</li>
+<li>A <strong>tourism organization</strong> promotes a cultural festival on the Island of Antikythera through its .IA website.</li>
+</ul>
 
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/" class="postlist-link">DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</a>
-		<time class="postlist-date" datetime="2025-06-04">June 2025</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/en/tags/">all tags</a>.</p>
+<ul class="links-nextprev"><li>Previous: <a href="/en/blog/Newsletter_I_Antikythera_Island_IA_Project/">Newsletter I .IA Antikythera Island Project</a></li><li>Next: <a href="/en/blog/Use_Cases-IA_Domain/">Use Cases - .IA Domain practical examples</a></li>
+</ul>
 
 		<br>
 		
@@ -541,7 +707,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /en/tags/deepseek/ -->
+		<!-- Current page: /en/blog/Maximizing_Opportunities-The_IA_Domain/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...

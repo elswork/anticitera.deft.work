@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “deepseek”</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</title>
+		<meta name="description" content="We asked DeepSeek to give us a detailed analysis of the .IA Antikythera Island Project.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,24 +25,173 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -374,7 +523,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/tags.njk', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project.md', '_blank')" id="edit-github-btn">
 					Edit on 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -405,44 +554,94 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>What is the .IA Antikythera Island Project?</h3>
+			
+<h1>DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</h1>
 
-<p>
-	The .IA Antikythera Island Project is an initiative that seeks to create a new Country Code Top-Level Domain (ccTLD) .IA associated with the territory of the Island of Antikythera. This small island, famous for the Antikythera Mechanism, considered the first analog computer in history, becomes a symbol of the origins of Artificial Intelligence and technological innovation.
-	The .IA Antikythera Island Project is also the community of people who in one way or another are part of the project. This is the most valuable asset of the project, the one that will help the project achieve its objectives.
-	<br>
-	<a href="/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">What is the .IA Antikythera Island Project?</a>
-</p>
-<div class="message-box">
-	<ol>
-		<li>There is a ccTLD .AI commonly used for &#39;Artificial Intelligence&#39; projects, but the ccTLD .IA, which would represent the majority of the rest of the world&#39;s languages, does not exist.</li>
-    	<li>We seek to create a community of AI enthusiasts to promote the creation of the ccTLD .IA top-level domain in the historic territory of Antikythera Island.</li>
-		<li>Check the details of the <a href="/en/about">Project</a>.</li>
-	</ol>
-	<p><em>This is the Knowledge Base for the <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Antikythera Assistant from OpenAI</a> created to assist in the creation of technological projects related to .IA</em></p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-	<iframe src="https://www.youtube.com/embed/x1DeBF8bBVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-	</div>
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2025-06-04">04 June 2025</time></li>
+	<li><a href="/tags/ia/" class="post-tag">.ia</a>, </li>
+	<li><a href="/tags/antikythera/" class="post-tag">antikythera</a>, </li>
+	<li><a href="/tags/deepseek/" class="post-tag">deepseek</a></li>
+</ul>
 
-<h1>Tagged “deepseek”</h1>
-
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/" class="postlist-link">DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</a>
-		<time class="postlist-date" datetime="2025-06-04">June 2025</time>
-	</li>
-
+<p>The <strong>.IA Antikythera Island Project</strong> is an ambitious initiative that seeks to create a new Country Code Top-Level Domain (ccTLD) <strong>.IA</strong>, associated with the Island of Antikythera in Greece. This project combines history, technology, and community, inspired by the <strong>Antikythera Mechanism</strong>, considered the first analog computer in history (2nd century BC). Below is a detailed analysis of the project, its relevance, and possible challenges, along with updated information.</p>
+<hr>
+<h2 id="1-project-objectives" tabindex="-1"><strong>1. Project Objectives</strong> <a class="header-anchor" href="#1-project-objectives">#</a></h2>
+<p>The project has three fundamental pillars:</p>
+<ol>
+<li><strong>Create the .IA domain</strong>: Establish a ccTLD linked to the Island of Antikythera, similar to how .im represents the Isle of Man.</li>
+<li><strong>Honor the historical legacy</strong>: Use the Antikythera Mechanism as a symbol of ancient technological innovation and connect the past with the future of AI.</li>
+<li><strong>Foster a global community</strong>: Promote collaboration between researchers, companies, and AI enthusiasts.</li>
 </ol>
+<hr>
+<h2 id="2-historical-and-technological-context" tabindex="-1"><strong>2. Historical and Technological Context</strong> <a class="header-anchor" href="#2-historical-and-technological-context">#</a></h2>
+<h3 id="the-antikythera-mechanism" tabindex="-1"><strong>The Antikythera Mechanism</strong> <a class="header-anchor" href="#the-antikythera-mechanism">#</a></h3>
+<ul>
+<li>Discovered in 1901 in a shipwreck near the Greek island, this bronze gear artifact predicted astronomical phenomena.</li>
+<li>Although some recent studies suggest that it might have been more of an &quot;ingenious toy&quot; than a functional scientific tool, its complexity remains a technological milestone.</li>
+<li>The project reinterprets it as a precursor to AI, emphasizing its symbolism in technological evolution.</li>
+</ul>
+<h3 id="ia-domain-vs-ai" tabindex="-1"><strong>.IA Domain vs. .AI</strong> <a class="header-anchor" href="#ia-domain-vs-ai">#</a></h3>
+<ul>
+<li><strong>.AI</strong> already exists (assigned to Anguilla) and is widely used in artificial intelligence projects.</li>
+<li><strong>.IA</strong> would be a more inclusive alternative, as &quot;IA&quot; is the abbreviation for &quot;artificial intelligence&quot; in Spanish, French, and Italian.</li>
+</ul>
+<hr>
+<h2 id="3-feasibility-and-challenges" tabindex="-1"><strong>3. Feasibility and Challenges</strong> <a class="header-anchor" href="#3-feasibility-and-challenges">#</a></h2>
+<h3 id="technical-and-legal-aspects" tabindex="-1"><strong>Technical and Legal Aspects</strong> <a class="header-anchor" href="#technical-and-legal-aspects">#</a></h3>
+<ul>
+<li>The creation of a ccTLD requires the approval of <strong>ICANN</strong> and the support of the Greek government, as Antikythera is part of Greece.</li>
+<li>The project argues that .IA could be a &quot;geographic ccTLD&quot; (like .im for the Isle of Man), but it needs to demonstrate feasibility and community support.</li>
+</ul>
+<h3 id="competition-with-ai" tabindex="-1"><strong>Competition with .AI</strong> <a class="header-anchor" href="#competition-with-ai">#</a></h3>
+<ul>
+<li>The .AI domain is already established in the technology ecosystem, which could limit the adoption of .IA.</li>
+<li>The project seeks to differentiate itself by appealing to European cultural identity and technological decentralization.</li>
+</ul>
+<h3 id="current-status-2025" tabindex="-1"><strong>Current Status (2025)</strong> <a class="header-anchor" href="#current-status-2025">#</a></h3>
+<ul>
+<li>The project's website (<a href="https://anticitera.deft.work">anticitera.deft.work</a>) is still active, with updates until 2024.</li>
+<li>Collaborations on GitHub and a waiting list to reserve .IA domains are mentioned, although there is no evidence of concrete progress with ICANN.</li>
+</ul>
+<hr>
+<h2 id="4-opportunities-and-strategies" tabindex="-1"><strong>4. Opportunities and Strategies</strong> <a class="header-anchor" href="#4-opportunities-and-strategies">#</a></h2>
+<h3 id="attracting-sponsors" tabindex="-1"><strong>Attracting Sponsors</strong> <a class="header-anchor" href="#attracting-sponsors">#</a></h3>
+<ul>
+<li>The project seeks institutional sponsors (governments, universities) and technology companies.</li>
+<li>A key strategy is to position .IA as a domain for ethical and European AI projects.</li>
+</ul>
+<h3 id="community-and-dissemination" tabindex="-1"><strong>Community and Dissemination</strong> <a class="header-anchor" href="#community-and-dissemination">#</a></h3>
+<ul>
+<li>It invites participation through:
+<ul>
+<li><strong>Signing petitions</strong> (Change.org).</li>
+<li><strong>Mailing list and Telegram</strong> for discussions.</li>
+<li><strong>GitHub repository</strong> for technical collaboration.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="5-new-relevant-information-outside-of-search-results" tabindex="-1"><strong>5. New Relevant Information (Outside of Search Results)</strong> <a class="header-anchor" href="#5-new-relevant-information-outside-of-search-results">#</a></h2>
+<ol>
+<li><strong>ICANN and New ccTLDs</strong>: In 2024, ICANN evaluated new domain applications, but there are no public records of a formal application for .IA.</li>
+<li><strong>Academic Interest</strong>: Some European universities have shown interest in the project as a case study in historical technological innovation.</li>
+<li><strong>Alternatives</strong>: While .IA is not approved, the project could explore agreements with domain registrars to use subdomains (e.g., <code>name.antikythera.ia</code>).</li>
+</ol>
+<hr>
+<h2 id="conclusion" tabindex="-1"><strong>Conclusion</strong> <a class="header-anchor" href="#conclusion">#</a></h2>
+<p>The .IA Antikythera Island Project is an <strong>innovative but challenging initiative</strong>. Its success will depend on:</p>
+<ul>
+<li><strong>Political and technical support</strong> from Greece and the EU.</li>
+<li><strong>Community adoption</strong> to compete with .AI.</li>
+<li><strong>Funding and collaboration strategies</strong> with key players in AI.</li>
+</ul>
+<p>If it manages to overcome these obstacles, it could become a symbol of European technological identity, inspired by one of the most fascinating artifacts in history.</p>
+<p><strong>Would you like to delve into any specific aspect, such as the legal steps or opportunities for collaboration?</strong></p>
+<div style="text-align: center">⁂</div>
+<p><img src="/img/TecladoyPaises.webp" alt="A red backlit computer keyboard, with a world map in the background showing interconnected colored nodes."></p>
 
-
-<p>See <a href="/en/tags/">all tags</a>.</p>
+<ul class="links-nextprev"><li>Previous: <a href="/en/blog/Which_will_be_the_first/">Which will be the first company/organization/institution to sponsor the &quot;Antikythera Project&quot;?</a></li><li>Next: <a href="/en/blog/Latin_America_in_the_heart_of_the_Antikythera_Project/">Latin America at the heart of the Antikythera Project</a></li>
+</ul>
 
 		<br>
 		
@@ -541,7 +740,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /en/tags/deepseek/ -->
+		<!-- Current page: /en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...

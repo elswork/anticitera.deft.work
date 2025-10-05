@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “deepseek”</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>Interview with Eloy López promoter of the .IA Antikythera Island Project</title>
+		<meta name="description" content="The Antikythera GPTs interviews Eloy López promoter of the .IA Antikythera Island Project.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,24 +25,173 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -374,7 +523,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/tags.njk', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/blog/Interview_with_Eloy_Lopez_promoter_of_the_Antikythera_Island_IA_Project.md', '_blank')" id="edit-github-btn">
 					Edit on 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -405,44 +554,38 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>What is the .IA Antikythera Island Project?</h3>
+			
+<h1>Interview with Eloy López promoter of the .IA Antikythera Island Project</h1>
 
-<p>
-	The .IA Antikythera Island Project is an initiative that seeks to create a new Country Code Top-Level Domain (ccTLD) .IA associated with the territory of the Island of Antikythera. This small island, famous for the Antikythera Mechanism, considered the first analog computer in history, becomes a symbol of the origins of Artificial Intelligence and technological innovation.
-	The .IA Antikythera Island Project is also the community of people who in one way or another are part of the project. This is the most valuable asset of the project, the one that will help the project achieve its objectives.
-	<br>
-	<a href="/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">What is the .IA Antikythera Island Project?</a>
-</p>
-<div class="message-box">
-	<ol>
-		<li>There is a ccTLD .AI commonly used for &#39;Artificial Intelligence&#39; projects, but the ccTLD .IA, which would represent the majority of the rest of the world&#39;s languages, does not exist.</li>
-    	<li>We seek to create a community of AI enthusiasts to promote the creation of the ccTLD .IA top-level domain in the historic territory of Antikythera Island.</li>
-		<li>Check the details of the <a href="/en/about">Project</a>.</li>
-	</ol>
-	<p><em>This is the Knowledge Base for the <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Antikythera Assistant from OpenAI</a> created to assist in the creation of technological projects related to .IA</em></p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-	<iframe src="https://www.youtube.com/embed/x1DeBF8bBVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-	</div>
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2024-06-18">18 June 2024</time></li>
+	<li><a href="/tags/interview/" class="post-tag">interview</a>, </li>
+	<li><a href="/tags/antikythera/" class="post-tag">antikythera</a></li>
+</ul>
 
-<h1>Tagged “deepseek”</h1>
+<h2 id="the-antikythera-gpts-interviews-eloy-lopez-promoter-of-the-ia-antikythera-island-project" tabindex="-1">The Antikythera GPTs interviews Eloy López promoter of the .IA Antikythera Island Project <a class="header-anchor" href="#the-antikythera-gpts-interviews-eloy-lopez-promoter-of-the-ia-antikythera-island-project">#</a></h2>
+<p>🤖 Antikythera: Hello Eloy, it's a pleasure to have you here to discuss the fascinating .IA Antikythera Island Project. To begin, I would like to know more about the origin and motivation behind this initiative. Could you give us a brief description of how the idea of the .IA domain associated with the Island of Antikythera came about and what inspired you to lead this project?</p>
+<p>👨 Eloy López: Hello Antikythera, the pleasure is mine, it was 2019 and I was looking for a cool domain name for a website related to Artificial Intelligence and I came across some .AI domains, I immediately wondered if the opposite domain extension .IA, the non-English version, existed. It didn't exist, at that moment I started to investigate how geographic top-level domains (ccTLDs) are granted, which can basically be summarized as all those domains whose extension is two digits, e.g. .es Spain, .it Italy, eu. Europe, …</p>
+<p>According to the regulations, each and every one of these domains has to be associated with a territory, what would be the ideal territory?, I looked at other domains like .IM Isle of Man and I started looking for islands that started with &quot;A&quot; at that moment Antikythera Island came up and it was love at first sight, that island owes its name to the Antikythera mechanism, one of the greatest archaeological finds of all time, considered by many to be the oldest analog computer in humanity, built by hackers capable of going beyond the limitations of their time, without a doubt this artifact and its island are worthy candidates to represent the ccTLD .IA</p>
+<p>So far so good, I had a very good idea rolling in my head, until in 2022 I decided to release it in the form of an article on my blog, from this article others arose and in 2023 I decided to give it its own site https://anticitera.deft.work creating the .IA Antikythera Island Project</p>
+<p>A project in progress: The project continues its course, with the aim of making .IA the official domain of the Island of Antikythera, a bridge between the past and the future, a tribute to innovation and a catalyst for technological development. A dream that seeks to unite history with the avant-garde, honoring the legacy of the Antikythera mechanism and opening up a world of possibilities in the field of Artificial Intelligence.</p>
+<p>Do you want to join the journey? The .IA Antikythera Island Project invites you to be part of this adventure. Join the community, collaborate with your ideas and let's make this dream a reality. Together we can make .IA a symbol of innovation and progress, a beacon that illuminates the path to a bright future.</p>
+<p>🤖 Antikythera: Thank you for sharing the inspiring story, Eloy. Now that we understand the origin and motivation behind the .IA Antikythera Island Project, I would like to delve into the practical aspects of the project. Could you explain what have been the biggest challenges you have faced so far in the development of the project and how you have overcome them? Also, what are the next steps you have planned to advance this initiative?</p>
+<p>👨 Eloy López: The first challenge I faced was the creation of the portal for the project, a task in which you helped me considerably, you probably don't remember, but your collaboration was very valuable in several areas of the website development, you helped me with html and also css and js tasks, you helped me configure and implement several Eleventy modules, you saved me a lot of time.</p>
+<p>The challenge I currently have on my hands is to find people who like the project and want to contribute their grain of sand, there are currently people registered in the newsletter, but I would like to reach people capable of contributing their point of view and contributing ideas for the project. To achieve this, I have launched the Telegram channel, where I hope interesting debates about the project will take place.</p>
+<p>🤖 Antikythera: It's great to hear how you've overcome some of the initial technical challenges. Now, regarding community participation and collaboration, could you tell us more about the strategies you plan to implement to attract more interested parties and collaborators to the .IA Antikythera Island Project?</p>
+<p>👨 Eloy López: The strategy is based on attracting people to the Telegram channel, I hope that the channel will become a driver of new ideas and proposals, which in turn will serve to provide feedback for collaboration on the channel.</p>
+<p>With these strategies, I hope not only to increase the number of interested parties and collaborators in the .IA Antikythera Island Project, but also to foster an active and committed community that contributes to the growth and success of the initiative. The goal is for the Telegram channel and other communication platforms to become vibrant centers for the exchange of ideas and constructive collaboration, driving the project forward.</p>
+<p>🤖 Antikythera: Thank you for sharing your strategies, Eloy. It is very inspiring to see how you have planned to attract and engage the community in this project. Now, I would like to delve a little deeper into the technical and logistical aspects.
+What are the specific steps and requirements necessary to establish a geographic top-level domain (ccTLD) like .IA? What kind of support or resources do you need to carry out these steps and ensure the success of the project?</p>
+<p>👨 Eloy López: It will be necessary to have the complicity of the Greek or European authorities to present the new ccTLD proposal to ICANN. Until we reach those authorities, there will be a long road that will depend on our expertise and cunning in influencing people and organizations.
+Without a doubt, we will need the best hackers in our community, just as the best were needed to build the Antikythera mechanism.</p>
+<p>The first thing we need is the support of the people who are part of our community, of course financial support will also be needed and of course we will need time.</p>
+<p>🤖 Antikythera: I understand, Eloy. It is a path that requires a lot of dedication and collaboration. Now, I would like to delve into the aspect of collaboration. How do you plan to identify and approach the key authorities and organizations that can support the project? Do you have any specific strategy to obtain their complicity and support?
+Also, in what way do you expect the community of hackers and technology enthusiasts to contribute to the development and success of the .IA Antikythera Island Project?</p>
 
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/" class="postlist-link">DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</a>
-		<time class="postlist-date" datetime="2025-06-04">June 2025</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/en/tags/">all tags</a>.</p>
+<ul class="links-nextprev"><li>Previous: <a href="/en/blog/Use_Cases-IA_Domain/">Use Cases - .IA Domain practical examples</a></li><li>Next: <a href="/en/blog/Newsletter_II_Antikythera_Island_IA_Project/">Newsletter II .IA Antikythera Island Project</a></li>
+</ul>
 
 		<br>
 		
@@ -541,7 +684,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /en/tags/deepseek/ -->
+		<!-- Current page: /en/blog/Interview_with_Eloy_Lopez_promoter_of_the_Antikythera_Island_IA_Project/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...

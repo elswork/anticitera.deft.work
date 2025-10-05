@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “deepseek”</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>.IA Antikythera Island Project - Session 1</title>
+		<meta name="description" content="This is the first working session.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,24 +25,173 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -374,7 +523,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/tags.njk', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/blog/Antikythera_Island_IA_Project-Session_1.md', '_blank')" id="edit-github-btn">
 					Edit on 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -405,44 +554,69 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>What is the .IA Antikythera Island Project?</h3>
+			
+<h1>.IA Antikythera Island Project - Session 1</h1>
 
-<p>
-	The .IA Antikythera Island Project is an initiative that seeks to create a new Country Code Top-Level Domain (ccTLD) .IA associated with the territory of the Island of Antikythera. This small island, famous for the Antikythera Mechanism, considered the first analog computer in history, becomes a symbol of the origins of Artificial Intelligence and technological innovation.
-	The .IA Antikythera Island Project is also the community of people who in one way or another are part of the project. This is the most valuable asset of the project, the one that will help the project achieve its objectives.
-	<br>
-	<a href="/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">What is the .IA Antikythera Island Project?</a>
-</p>
-<div class="message-box">
-	<ol>
-		<li>There is a ccTLD .AI commonly used for &#39;Artificial Intelligence&#39; projects, but the ccTLD .IA, which would represent the majority of the rest of the world&#39;s languages, does not exist.</li>
-    	<li>We seek to create a community of AI enthusiasts to promote the creation of the ccTLD .IA top-level domain in the historic territory of Antikythera Island.</li>
-		<li>Check the details of the <a href="/en/about">Project</a>.</li>
-	</ol>
-	<p><em>This is the Knowledge Base for the <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Antikythera Assistant from OpenAI</a> created to assist in the creation of technological projects related to .IA</em></p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-	<iframe src="https://www.youtube.com/embed/x1DeBF8bBVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-	</div>
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2023-11-14">14 November 2023</time></li>
+	<li><a href="/tags/session/" class="post-tag">session</a>, </li>
+	<li><a href="/tags/antikythera/" class="post-tag">antikythera</a></li>
+</ul>
 
-<h1>Tagged “deepseek”</h1>
-
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/" class="postlist-link">DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</a>
-		<time class="postlist-date" datetime="2025-06-04">June 2025</time>
-	</li>
-
+<h2 id="introduction" tabindex="-1">Introduction <a class="header-anchor" href="#introduction">#</a></h2>
+<p>This is an excerpt from the conversation held with the assistant <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">GPTs Antikythera - OpenAI</a>, this is the full conversation <a href="https://chat.openai.com/share/f89e60c3-e351-46e5-a8d7-3e04a6782f4e">OpenAI GPTs Antikythera - Session 1</a></p>
+<h2 id="definition-of-specific-objectives-and-goals" tabindex="-1">Definition of Specific Objectives and Goals: <a class="header-anchor" href="#definition-of-specific-objectives-and-goals">#</a></h2>
+<ol>
+<li><strong>Definition of Specific Objectives and Goals</strong>:</li>
 </ol>
+<ul>
+<li><strong>Main Objective</strong>: Establish and promote the creation of the .ia top-level domain, associating it with the territory of the Island of Antikythera in homage to the Antikythera mechanism.</li>
+<li><strong>Specific Goals</strong>: Could include creating a compelling case for the domain, collaborating with technological and historical entities, and promoting it on relevant platforms.</li>
+</ul>
+<ol start="2">
+<li><strong>Research and Analysis</strong>:</li>
+</ol>
+<ul>
+<li><strong>History and Relevance of Antikythera</strong>: Deepen the historical and cultural knowledge of the island and its mechanism.</li>
+<li><strong>Technical and Legal Aspects</strong>: Understand the requirements for establishing a new top-level domain.</li>
+</ul>
+<ol start="3">
+<li><strong>Creation of a Network of Contacts</strong>:</li>
+</ol>
+<ul>
+<li><strong>Identification of Potential Allies</strong>: Locate interested organizations, technology experts, historians, and educational entities.</li>
+<li><strong>Establishment of Communication</strong>: Initiate contacts and discussions to explore collaborations.</li>
+</ul>
+<ol start="4">
+<li><strong>Development of Communication Materials</strong>:</li>
+</ol>
+<ul>
+<li><strong>Educational and Promotional Content</strong>: Create presentations, blog articles, and social media materials.</li>
+<li><strong>Bilingualism</strong>: Ensure that materials are accessible in both Spanish and English.</li>
+</ul>
+<ol start="5">
+<li><strong>Promotion and Marketing Plan</strong>:</li>
+</ol>
+<ul>
+<li><strong>Digital Strategy</strong>: Use social media, blogs, and technology platforms to disseminate the initiative.</li>
+<li><strong>Events and Presentations</strong>: Plan participation in conferences, webinars, or meetings with stakeholders.</li>
+</ul>
+<ol start="6">
+<li><strong>Evaluation and Adjustments</strong>:</li>
+</ol>
+<ul>
+<li><strong>Monitoring and Analysis of Results</strong>: Monitor the progress and reception of the initiative.</li>
+<li><strong>Strategic Adjustments</strong>: Modify the approach as necessary based on feedback and results obtained.</li>
+</ul>
+<ol start="7">
+<li><strong>Respect for Privacy and Ethical Principles</strong>:</li>
+</ol>
+<ul>
+<li><strong>Ethical Data Management</strong>: Ensure that all activities respect privacy and ethics in the handling of information.</li>
+</ul>
 
-
-<p>See <a href="/en/tags/">all tags</a>.</p>
+<ul class="links-nextprev"><li>Next: <a href="/en/blog/Antikythera_Island_IA_Project-Session_2/">.IA Antikythera Island Project - Session 2</a></li>
+</ul>
 
 		<br>
 		
@@ -541,7 +715,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /en/tags/deepseek/ -->
+		<!-- Current page: /en/blog/Antikythera_Island_IA_Project-Session_1/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...

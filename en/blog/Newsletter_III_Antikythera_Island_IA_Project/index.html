@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “deepseek”</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>Newsletter III .IA Antikythera Island Project</title>
+		<meta name="description" content="Third message to community members.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,24 +25,173 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -374,7 +523,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/tags.njk', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/blog/Newsletter_III_Antikythera_Island_IA_Project.md', '_blank')" id="edit-github-btn">
 					Edit on 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -405,44 +554,38 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>What is the .IA Antikythera Island Project?</h3>
+			
+<h1>Newsletter III .IA Antikythera Island Project</h1>
 
-<p>
-	The .IA Antikythera Island Project is an initiative that seeks to create a new Country Code Top-Level Domain (ccTLD) .IA associated with the territory of the Island of Antikythera. This small island, famous for the Antikythera Mechanism, considered the first analog computer in history, becomes a symbol of the origins of Artificial Intelligence and technological innovation.
-	The .IA Antikythera Island Project is also the community of people who in one way or another are part of the project. This is the most valuable asset of the project, the one that will help the project achieve its objectives.
-	<br>
-	<a href="/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">What is the .IA Antikythera Island Project?</a>
-</p>
-<div class="message-box">
-	<ol>
-		<li>There is a ccTLD .AI commonly used for &#39;Artificial Intelligence&#39; projects, but the ccTLD .IA, which would represent the majority of the rest of the world&#39;s languages, does not exist.</li>
-    	<li>We seek to create a community of AI enthusiasts to promote the creation of the ccTLD .IA top-level domain in the historic territory of Antikythera Island.</li>
-		<li>Check the details of the <a href="/en/about">Project</a>.</li>
-	</ol>
-	<p><em>This is the Knowledge Base for the <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Antikythera Assistant from OpenAI</a> created to assist in the creation of technological projects related to .IA</em></p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-	<iframe src="https://www.youtube.com/embed/x1DeBF8bBVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-	</div>
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2025-04-25">25 April 2025</time></li>
+	<li><a href="/tags/newsletter/" class="post-tag">newsletter</a>, </li>
+	<li><a href="/tags/antikythera/" class="post-tag">antikythera</a></li>
+</ul>
 
-<h1>Tagged “deepseek”</h1>
+<h2 id="eloy-lopez-s-introduction" tabindex="-1">Eloy López's Introduction <a class="header-anchor" href="#eloy-lopez-s-introduction">#</a></h2>
+<p>Hello dear collaborators,</p>
+<p>I think that, although this is already the third newsletter, I should introduce myself properly to you.</p>
+<p>My name is Eloy López and I am the main person responsible for the .IA Antikythera Island Project or, to abbreviate, the Antikythera Project.</p>
+<p>It was in 2019 when this idea arose in my mind, at first it was just another idea and it spent time locked in my mind, but it became a recurring idea so I decided to put it into an article, after that article came others and finally this independent portal <a href="https://anticitera.deft.work">anticitera.deft.work</a></p>
+<p>During all this time I have dedicated myself with greater or lesser success to disseminating and publicizing the project, I can think of many of you who could do this work much better than me and take it to the next level. I would like someone to be able to take over if something happens to me or even if nothing happens to me. Since I got the idea out of my mind, may it live and grow among all of us.</p>
+<h3 id="what-achievements-can-we-highlight-in-this-time" tabindex="-1">What achievements can we highlight in this time? <a class="header-anchor" href="#what-achievements-can-we-highlight-in-this-time">#</a></h3>
+<p>Since the last newsletter I have managed to connect with several people who have liked the idea of the project:</p>
+<ul>
+<li><a href="https://silvialeal.es/"><strong>Silvia Leal</strong></a> is a science popularizer, Doctor Cum Laude in sociology, expert in technology and digital transformation.</li>
+<li><a href="https://www.linkedin.com/in/david-carmona/"><strong>David Carmona</strong></a> is General Manager of Artificial Intelligence at Microsoft.</li>
+<li><a href="https://www.linkedin.com/in/rames"><strong>Rames Sarwat</strong></a> expert in cybersecurity and AI, CEO of BeHuman.</li>
+<li><a href="https://www.linkedin.com/in/manuela-delgado-cruz/"><strong>Manuela Delgado</strong></a>, engineer specializing in AI and popularizer.</li>
+<li><a href="https://vivancos.com/"><strong>David Vivancos</strong></a>, serial science and technology entrepreneur and innovator.</li>
+</ul>
+<h2 id="proposal-to-the-community" tabindex="-1">Proposal to the community <a class="header-anchor" href="#proposal-to-the-community">#</a></h2>
+<p>I would like to brainstorm with you to continue promoting the project, since I have practically burned all my cartridges and I need fresh ideas, please send me your ideas and/or suggestions, responding directly to this email or in our <a href="https://t.me/+oAeZGMsePDg2ZDI0">Telegram channel</a></p>
+<a href="https://anticitera.deft.work">
+  <img src="/img/TecladoyPaises.webp" alt="A red backlit computer keyboard, with a world map in the background showing interconnected colored nodes.">
+</a>
 
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/" class="postlist-link">DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</a>
-		<time class="postlist-date" datetime="2025-06-04">June 2025</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/en/tags/">all tags</a>.</p>
+<ul class="links-nextprev"><li>Previous: <a href="/en/blog/Gemini-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/">Gemini - Detailed Analysis of the .IA Antikythera Island Project.</a></li><li>Next: <a href="/en/blog/Which_will_be_the_first/">Which will be the first company/organization/institution to sponsor the &quot;Antikythera Project&quot;?</a></li>
+</ul>
 
 		<br>
 		
@@ -541,7 +684,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /en/tags/deepseek/ -->
+		<!-- Current page: /en/blog/Newsletter_III_Antikythera_Island_IA_Project/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...

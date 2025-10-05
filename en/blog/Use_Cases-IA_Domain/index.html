@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged “deepseek”</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>Use Cases - .IA Domain practical examples</title>
+		<meta name="description" content="We explore possible .IA domains and their potential uses.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,24 +25,173 @@
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -374,7 +523,7 @@ h2 + .header-anchor {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/tags.njk', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/en/blog/Use_Cases-IA_Domain.md', '_blank')" id="edit-github-btn">
 					Edit on 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
@@ -405,44 +554,63 @@ h2 + .header-anchor {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>What is the .IA Antikythera Island Project?</h3>
+			
+<h1>Use Cases - .IA Domain practical examples</h1>
 
-<p>
-	The .IA Antikythera Island Project is an initiative that seeks to create a new Country Code Top-Level Domain (ccTLD) .IA associated with the territory of the Island of Antikythera. This small island, famous for the Antikythera Mechanism, considered the first analog computer in history, becomes a symbol of the origins of Artificial Intelligence and technological innovation.
-	The .IA Antikythera Island Project is also the community of people who in one way or another are part of the project. This is the most valuable asset of the project, the one that will help the project achieve its objectives.
-	<br>
-	<a href="/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">What is the .IA Antikythera Island Project?</a>
-</p>
-<div class="message-box">
-	<ol>
-		<li>There is a ccTLD .AI commonly used for &#39;Artificial Intelligence&#39; projects, but the ccTLD .IA, which would represent the majority of the rest of the world&#39;s languages, does not exist.</li>
-    	<li>We seek to create a community of AI enthusiasts to promote the creation of the ccTLD .IA top-level domain in the historic territory of Antikythera Island.</li>
-		<li>Check the details of the <a href="/en/about">Project</a>.</li>
-	</ol>
-	<p><em>This is the Knowledge Base for the <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Antikythera Assistant from OpenAI</a> created to assist in the creation of technological projects related to .IA</em></p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-	<iframe src="https://www.youtube.com/embed/x1DeBF8bBVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-	</div>
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2024-04-29">29 April 2024</time></li>
+	<li><a href="/tags/ia/" class="post-tag">.ia</a></li>
+</ul>
 
-<h1>Tagged “deepseek”</h1>
+<h1 id="possible-use-cases-for-the-ia-domain" tabindex="-1">Possible Use Cases for the .IA Domain <a class="header-anchor" href="#possible-use-cases-for-the-ia-domain">#</a></h1>
+<h2 id="companies-and-organizations" tabindex="-1">Companies and Organizations <a class="header-anchor" href="#companies-and-organizations">#</a></h2>
+<h3 id="nvid-ia" tabindex="-1">Nvid.ia <a class="header-anchor" href="#nvid-ia">#</a></h3>
+<p>NVIDIA has become the undisputed leader in the artificial intelligence (AI) industry. According to some experts, NVIDIA dominates 80% of the market for AI chips. Its technology, leadership, and financial success make it the company to watch in this field. The quintessential AI multinational could use this URL to host all its Open Source models, so that they can be freely tested and downloaded.</p>
+<h3 id="odysse-ia" tabindex="-1">Odysse.ia <a class="header-anchor" href="#odysse-ia">#</a></h3>
+<h3 id="wikiped-ia" tabindex="-1">Wikiped.ia <a class="header-anchor" href="#wikiped-ia">#</a></h3>
+<p>The online encyclopedia could showcase developments based on Wikipedia's content, for example, an assistant that allows users to navigate the content conversationally.</p>
+<h2 id="national" tabindex="-1">National <a class="header-anchor" href="#national">#</a></h2>
+<h3 id="german-ia-franc-ia-scot-ia-ital-ia-hispan-ia-austral-ia-ind-ia-colomb-ia-niger-ia-ukrain-ia" tabindex="-1">German.ia, Franc.ia, Scot.ia, Ital.ia, Hispan.ia, Austral.ia, Ind.ia, Colomb.ia, Niger.ia, Ukrain.ia <a class="header-anchor" href="#german-ia-franc-ia-scot-ia-ital-ia-hispan-ia-austral-ia-ind-ia-colomb-ia-niger-ia-ukrain-ia">#</a></h3>
+<p>These could be web apps for learning languages supported by different assistants, one for text and another for speech.</p>
+<h2 id="regional" tabindex="-1">Regional <a class="header-anchor" href="#regional">#</a></h2>
+<h3 id="andaluc-ia-galic-ia-murc-ia-almer-ia-valenc-ia" tabindex="-1">Andaluc.ia, Galic.ia, Murc.ia, Almer.ia, Valenc.ia <a class="header-anchor" href="#andaluc-ia-galic-ia-murc-ia-almer-ia-valenc-ia">#</a></h3>
+<p>These could host the portals of the AI technology hubs of each region.</p>
+<h2 id="names" tabindex="-1">Names <a class="header-anchor" href="#names">#</a></h2>
+<h3 id="rosal-ia" tabindex="-1">Rosal.ia <a class="header-anchor" href="#rosal-ia">#</a></h3>
+<p>This could be a webapp where you can converse with a virtual version of Rosalía.</p>
+<h3 id="luc-ia-son-ia-valer-ia-letiz-ia-la-ia" tabindex="-1">Luc.ia, Son.ia, Valer.ia, Letiz.ia, La.ia <a class="header-anchor" href="#luc-ia-son-ia-valer-ia-letiz-ia-la-ia">#</a></h3>
+<h3 id="il-ia-topur-ia" tabindex="-1">Il.ia Topur.ia <a class="header-anchor" href="#il-ia-topur-ia">#</a></h3>
+<h2 id="others" tabindex="-1">Others <a class="header-anchor" href="#others">#</a></h2>
+<h3 id="academ-ia" tabindex="-1">Academ.ia <a class="header-anchor" href="#academ-ia">#</a></h3>
+<p>The word academy comes from the Greek Ἀκαδημία (Akadēmía), which was the name of a public garden near Athens where Plato taught his disciples. The garden was named after a legendary hero of Greek mythology, Academus. In the current version, it could be a website where students can resolve their doubts and be mentored by the best teachers.</p>
+<h3 id="mayoral-ia" tabindex="-1">Mayoral.ia <a class="header-anchor" href="#mayoral-ia">#</a></h3>
+<p>Can an AI model run for mayor? I am sure we will soon see citizens voting for a political party that incorporates a well-balanced and unbiased model.</p>
+<h3 id="notic-ia-news" tabindex="-1">Notic.ia (News) <a class="header-anchor" href="#notic-ia-news">#</a></h3>
+<p>This could be a website where you pass different news items and it classifies them using multiple indexes.</p>
+<h3 id="cienc-ia-science" tabindex="-1">Cienc.ia (Science) <a class="header-anchor" href="#cienc-ia-science">#</a></h3>
+<p>Science (from the Latin scientĭa, 'knowledge') is a set of systematic, verifiable knowledge that studies, explains, and predicts social, artificial, and natural phenomena. This portal could be a compendium of all AIs applied to the sciences.</p>
+<h3 id="democrac-ia-democracy" tabindex="-1">Democrac.ia (Democracy) <a class="header-anchor" href="#democrac-ia-democracy">#</a></h3>
+<p>Democracy (from the Greek: δημοκρατία dēmokratía, dēmos, &quot;people&quot; and kratos, &quot;power&quot;) is a form of social and political organization in which citizens exercise political power through their votes. On this portal, citizens could exercise their vote transparently.</p>
+<h3 id="intelligenc-ia" tabindex="-1">Intelligenc.ia <a class="header-anchor" href="#intelligenc-ia">#</a></h3>
+<h3 id="memor-ia-memory" tabindex="-1">Memor.ia (Memory) <a class="header-anchor" href="#memor-ia-memory">#</a></h3>
+<h3 id="famil-ia-family" tabindex="-1">Famil.ia (Family) <a class="header-anchor" href="#famil-ia-family">#</a></h3>
+<h3 id="philosoph-ia-philosophy" tabindex="-1">Philosoph.ia (Philosophy) <a class="header-anchor" href="#philosoph-ia-philosophy">#</a></h3>
+<h3 id="loter-ia-lottery" tabindex="-1">Loter.ia (Lottery) <a class="header-anchor" href="#loter-ia-lottery">#</a></h3>
+<h3 id="euphor-ia" tabindex="-1">Euphor.ia <a class="header-anchor" href="#euphor-ia">#</a></h3>
+<h3 id="alegr-ia-joy" tabindex="-1">Alegr.ia (Joy) <a class="header-anchor" href="#alegr-ia-joy">#</a></h3>
+<h3 id="theor-ia-theory" tabindex="-1">Theor.ia (Theory) <a class="header-anchor" href="#theor-ia-theory">#</a></h3>
+<h3 id="secretar-ia-secretary" tabindex="-1">Secretar.ia (Secretary) <a class="header-anchor" href="#secretar-ia-secretary">#</a></h3>
+<h3 id="polic-ia-police" tabindex="-1">Polic.ia (Police) <a class="header-anchor" href="#polic-ia-police">#</a></h3>
+<p>A mobile application with which you could always carry the police in your pocket.</p>
+<h3 id="emergenc-ia-emergency" tabindex="-1">Emergenc.ia (Emergency) <a class="header-anchor" href="#emergenc-ia-emergency">#</a></h3>
+<p>An information and alert app with artificial intelligence capable of saving lives in disasters like the DANA in Valencia.</p>
+<h3 id="technolog-ia-technology" tabindex="-1">Technolog.ia (Technology) <a class="header-anchor" href="#technolog-ia-technology">#</a></h3>
+<h3 id="industr-ia-industry" tabindex="-1">Industr.ia (Industry) <a class="header-anchor" href="#industr-ia-industry">#</a></h3>
+<h3 id="factor-ia-factory" tabindex="-1">Factor.ia (Factory) <a class="header-anchor" href="#factor-ia-factory">#</a></h3>
+<h3 id="alimentar-ia-food" tabindex="-1">Alimentar.ia (Food) <a class="header-anchor" href="#alimentar-ia-food">#</a></h3>
 
-
-
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/en/blog/DeepSeek-Detailed_Analysis_of_the_Antikythera_Island_IA_Project/" class="postlist-link">DeepSeek - Detailed Analysis of the .IA Antikythera Island Project.</a>
-		<time class="postlist-date" datetime="2025-06-04">June 2025</time>
-	</li>
-
-</ol>
-
-
-<p>See <a href="/en/tags/">all tags</a>.</p>
+<ul class="links-nextprev"><li>Previous: <a href="/en/blog/Maximizing_Opportunities-The_IA_Domain/">Maximizing Opportunities - The .IA Domain for Various Sectors</a></li><li>Next: <a href="/en/blog/Interview_with_Eloy_Lopez_promoter_of_the_Antikythera_Island_IA_Project/">Interview with Eloy López promoter of the .IA Antikythera Island Project</a></li>
+</ul>
 
 		<br>
 		
@@ -541,7 +709,7 @@ h2 + .header-anchor {
 			</div>
 		</footer>
 
-		<!-- Current page: /en/tags/deepseek/ -->
+		<!-- Current page: /en/blog/Use_Cases-IA_Domain/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// ...resto del código para las galerías...
