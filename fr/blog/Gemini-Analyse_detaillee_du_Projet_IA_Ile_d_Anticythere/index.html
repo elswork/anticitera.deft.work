@@ -1,0 +1,958 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Gemini - Analyse détaillée du Projet .IA Île d&#39;Anticythère.</title>
+		<meta name="description" content="Nous avons demandé à Gemini Deep Research de nous faire une analyse détaillée du Projet .IA Île d&#39;Anticythère.">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title=".IA Isla Anticitera - Base de Conocimiento">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title=".IA Isla Anticitera - Base de Conocimiento">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@elswork">
+		<meta name="twitter:title" content=".IA Isla Anticitera - Base de Conocimiento">
+		<meta name="twitter:description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<meta name="twitter:image" content="https://anticitera.deft.work/img/anticitera.webp">
+
+		<meta property="og:title" content=".IA Isla Anticitera - Base de Conocimiento">
+		<meta property="og:description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<meta property="og:image" content="https://anticitera.deft.work/img/anticitera.webp">
+		<meta property="og:url" content="https://anticitera.deft.work/">
+		<meta property="og:type" content="website">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: 'GFS Didot', serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e9ecef;
+	--color-gray-50: #adb5bd;
+	--color-gray-90: #212529;
+
+	--background-color: #f8f9fa;
+	--text-color: var(--color-gray-90);
+	
+	--text-color-link: #007bff;
+	--text-color-link-active: #0056b3;
+	--text-color-link-visited: #6f42c1;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #495057;
+		--color-gray-50: #adb5bd;
+		--color-gray-90: #e9ecef;
+
+		--background-color: #121212;
+		--text-color: var(--color-gray-90);
+
+		--text-color-link: #3391ff;
+		--text-color-link-active: #5cadff;
+		--text-color-link-visited: #9d79f2;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 60em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+	transition: color 0.2s ease-in-out;
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px solid var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px solid var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	background-color: var(--color-gray-20);
+	padding: 0.2em 0.6em;
+	border-radius: 0.8em;
+	font-size: 0.8em;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}</style>
+		<link rel="stylesheet" href="/css/bundle.css">
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRM23DV6JJ"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-FRM23DV6JJ');
+		</script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PCMLMBWD');</script>
+		<!-- End Google Tag Manager -->
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCMLMBWD"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<!-- Añadir la imagen del banner aquí -->
+            <img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
+			<a href="/" class="home-link">.IA Isla Anticitera - Base de Conocimiento</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					
+					
+						<li class="nav-item"><a href="/fr/">Accueil</a></li>
+					
+					
+					
+					
+					
+						<li class="nav-item"><a href="/fr/blog/">Blog</a></li>
+					
+					
+					
+					
+						<li class="nav-item"><a href="/fr/about/">Projet</a></li>
+					
+					
+						<li class="nav-item"><a href="/fr/links/">Liens</a></li>
+					
+					
+					
+						<li class="nav-item"><a href="/fr/podcasts/">Podcasts</a></li>
+					
+					
+					
+						<li class="nav-item"><a href="/fr/x/">X</a></li>
+					
+					
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+		<ul class="post-metadata">
+			<li>				
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/fr/blog/Gemini-Analyse_detaillee_du_Projet_IA_Ile_d_Anticythere.md', '_blank')" id="edit-github-btn">
+					Modifier sur 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>GitHub</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+</svg> GitHub
+				</button>
+				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
+					Signer sur 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>C</title>
+  <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
+</svg>. Change.org
+				</button>
+				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
+					Rejoindre 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>Telegram</title>
+  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+</svg> Telegram
+				</button>
+				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
+					S&#39;abonner à 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>Gmail</title>
+  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+</svg> Correo
+				</button>
+			</li>
+		</ul>
+		<br>
+			
+<h1>Gemini - Analyse détaillée du Projet .IA Île d&#39;Anticythère.</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-03-23">23 March 2025</time></li>
+	<li><a href="/tags/ia/" class="post-tag">.ia</a>, </li>
+	<li><a href="/tags/anticythere/" class="post-tag">anticythère</a>, </li>
+	<li><a href="/tags/gemini/" class="post-tag">gemini</a></li>
+</ul>
+
+<p>Faisons une analyse exhaustive avec Gemini Deep Research du site web <a href="anticitera.deft.work">https://anticitera.deft.work</a></p>
+<h1 id="le-projet-anticythere-unir-l-ingenierie-antique-et-l-avenir-de-l-intelligence-artificielle" tabindex="-1"><strong>Le Projet Anticythère : Unir l'Ingénierie Antique et l'Avenir de l'Intelligence Artificielle</strong> <a class="header-anchor" href="#le-projet-anticythere-unir-l-ingenierie-antique-et-l-avenir-de-l-intelligence-artificielle">#</a></h1>
+<p>Le projet Anticythère se présente comme une initiative innovante dont l'objectif central est d'établir un nouveau domaine de premier niveau de code pays (ccTLD) « .IA » associé au territoire de l'île d'Anticythère <sup>1</sup>. Cette entreprise s'inspire du mécanisme d'Anticythère, considéré comme le premier ordinateur analogique de l'histoire, s'érigeant en symbole des débuts de l'intelligence artificielle et de l'innovation technologique <sup>1</sup>. L'importance de cet artefact ancien, découvert dans les profondeurs marines près de l'île grecque, réside dans sa sophistication et sa capacité à calculer des phénomènes astronomiques, ce qui remet en question notre compréhension des capacités technologiques du monde antique <sup>2</sup>. Le projet Anticythère cherche à capitaliser sur ce riche héritage, en proposant que l'île, berceau de ce prodige mécanique, soit reconnue dans l'espace numérique à travers un domaine qui évoque les origines de l'informatique et de l'intelligence <sup>1</sup>.</p>
+<p>Au-delà de la simple création d'une adresse web distinctive, l'initiative Anticythère aspire à encourager une communauté mondiale de passionnés d'intelligence artificielle autour de ce nouveau domaine <sup>1</sup>. Il est reconnu que le succès d'un nouveau ccTLD dépend intrinsèquement de son adoption et de la vitalité de l'écosystème qui se développe autour de lui. C'est pourquoi le projet se concentre sur la construction d'un réseau d'individus et d'organisations qui partagent un intérêt pour l'intelligence artificielle et qui voient dans le domaine « .IA » un espace représentatif et significatif <sup>1</sup>. Cette vision de communauté souligne la compréhension que l'innovation dans le domaine de l'intelligence artificielle est un effort collectif qui transcende les frontières géographiques et linguistiques.</p>
+<p>Un aspect fondamental de la proposition du projet Anticythère est l'intention d'établir un domaine qui puisse être utilisé par la plupart des langues du monde <sup>1</sup>. Cette ambition contraste directement avec le domaine « .AI », qui, bien qu'il soit devenu une norme de facto pour les projets liés à l'intelligence artificielle, est intrinsèquement lié au terme anglais (« Artificial Intelligence ») et est, en fait, le ccTLD du territoire britannique d'outre-mer d'Anguilla <sup>1</sup>. En proposant « .IA », qui évoque « Inteligencia Artificial » en espagnol et en portugais, entre autres langues, le projet cherche à créer un espace en ligne plus inclusif et représentatif pour la communauté mondiale de l'intelligence artificielle <sup>1</sup>.</p>
+<p>Pour soutenir cette initiative, le projet Anticythère a développé l'Assistant Anticythère par OpenAI <sup>1</sup>. Cet outil est présenté comme une ressource précieuse pour la création de projets technologiques liés au domaine « .IA », démontrant une approche proactive pour encourager l'utilité et l'adoption du nouveau domaine <sup>1</sup>. L'existence de cet assistant, ainsi que la vision de construire une communauté active, suggère que le projet ne se limite pas à la demande d'un domaine, mais cherche activement à construire une infrastructure de soutien pour son utilisation et sa croissance. Le présent rapport analysera en détail les différents aspects du projet Anticythère, de son inspiration historique à ses objectifs actuels et à son impact potentiel futur.</p>
+<h2 id="devoiler-la-vision-but-et-objectifs-de-l-initiative-du-domaine-ia" tabindex="-1"><strong>Dévoiler la Vision : But et Objectifs de l'Initiative du Domaine .IA</strong> <a class="header-anchor" href="#devoiler-la-vision-but-et-objectifs-de-l-initiative-du-domaine-ia">#</a></h2>
+<p>Le but principal du projet Anticythère est la création de « .IA » en tant que nouveau domaine de premier niveau de code pays (ccTLD) spécifiquement pour l'île d'Anticythère <sup>1</sup>. Cette initiative est fondée sur la reconnaissance de la profonde signification historique de l'île en ce qui concerne les origines de l'intelligence artificielle et de l'innovation technologique <sup>1</sup>. Le choix d'Anticythère n'est pas fortuit ; l'île est célèbre pour la découverte du mécanisme d'Anticythère, un artefact de plus de deux mille ans considéré comme le premier ordinateur analogique de l'humanité <sup>14</sup>. Ce lien historique et symbolique est le pilier sur lequel se construit la proposition du domaine « .IA », cherchant à établir une connexion entre l'ingénierie informatique du passé et le développement de l'intelligence artificielle dans le présent et le futur <sup>1</sup>. L'initiative vise à ce que ce ccTLD ne soit pas seulement une adresse sur Internet, mais un symbole de la capacité humaine durable à l'innovation dans le domaine de l'informatique.</p>
+<p>Un objectif clé du projet est la formation d'une communauté mondiale de passionnés d'intelligence artificielle qui soutiennent activement la création et l'adoption de ce ccTLD <sup>1</sup>. Le projet reconnaît que la viabilité et le succès d'un nouveau domaine dépendent en grande partie du soutien et de la participation de la communauté qu'il vise à servir. En encourageant la création d'un réseau de chercheurs, de développeurs et d'amateurs d'intelligence artificielle, le projet Anticythère cherche à s'assurer que le domaine « .IA » devienne un espace dynamique et pertinent pour la collaboration et l'échange de connaissances <sup>1</sup>. Cette approche axée sur la construction d'une communauté reflète une compréhension que l'intelligence artificielle est un domaine en constante évolution qui bénéficie de la diversité des perspectives et de la collaboration au niveau mondial.</p>
+<p>L'une des motivations centrales de la proposition du domaine « .IA » est l'intention de créer un nom de domaine qui puisse être utilisé par la plupart des langues du monde <sup>1</sup>. Actuellement, le domaine « .AI », qui appartient à Anguilla <sup>18</sup>, est largement utilisé pour les projets d'intelligence artificielle, bien qu'il soit intrinsèquement lié au terme anglais <sup>1</sup>. Le projet Anticythère soutient que cette situation accorde un poids disproportionné à la langue anglaise dans un domaine qui bénéficie énormément de la diversité linguistique et culturelle <sup>12</sup>. En proposant « .IA », qui a une résonance directe avec « Inteligencia Artificial » en espagnol, portugais, italien et français, entre autres langues <sup>16</sup>, le projet cherche à établir un espace en ligne plus équitable et inclusif pour la communauté mondiale de l'intelligence artificielle <sup>1</sup>. Cette initiative représente une tentative de défier l'hégémonie de l'anglais dans la science et la technologie, en promouvant un environnement en ligne où diverses langues et cultures peuvent contribuer et être représentées dans le domaine de l'intelligence artificielle <sup>12</sup>.</p>
+<p>Comme une étape concrète vers la réalisation de sa vision, le projet Anticythère a développé l'Assistant Anticythère par OpenAI <sup>1</sup>. Cet outil d'intelligence artificielle est spécifiquement conçu pour aider à la création de projets technologiques liés au domaine « .IA » <sup>1</sup>. L'existence de cet assistant fournit non seulement une ressource pratique pour les futurs utilisateurs du domaine « .IA », mais souligne également l'engagement du projet en faveur de l'innovation et de la promotion d'une communauté active autour de sa proposition <sup>1</sup>. En offrant un outil qui facilite le développement de projets au sein de l'écosystème « .IA », le projet Anticythère cherche à encourager l'adoption du nouveau domaine et à construire un environnement en ligne où l'intelligence artificielle peut s'épanouir dans un contexte multilingue et culturellement riche.</p>
+<h2 id="deconstruire-la-presence-numerique-analyse-du-site-web-ui-ux-caracteristiques-et-fonctionnalites" tabindex="-1"><strong>Déconstruire la Présence Numérique : Analyse du Site Web (UI/UX, Caractéristiques et Fonctionnalités)</strong> <a class="header-anchor" href="#deconstruire-la-presence-numerique-analyse-du-site-web-ui-ux-caracteristiques-et-fonctionnalites">#</a></h2>
+<p>Le site web du projet .IA Île d'Anticythère (<a href="https://anticitera.deft.work">https://Anticitera.deft.work</a>) présente un design épuré et direct sur sa page d'accueil <sup>1</sup>. La navigation principale est clairement visible en haut, offrant un accès aux sections « Accueil », « Blog », « Projet », « Liens », « Podcasts » et « X » <sup>1</sup>. L'inclusion d'un lien « Passer au contenu principal » est une pratique positive qui améliore l'accessibilité pour les utilisateurs qui utilisent des lecteurs d'écran <sup>1</sup>. Immédiatement sous l'introduction principale, les trois dernières publications du blog sont affichées, facilitant la découverte de contenu récent <sup>1</sup>. Cependant, aucune fonctionnalité de recherche n'est immédiatement visible, ce qui pourrait légèrement entraver l'utilisabilité pour les utilisateurs qui recherchent rapidement des informations spécifiques <sup>1</sup>. Dans le pied de page, on trouve des icônes qui renvoient aux réseaux sociaux, ce qui contribue à l'attrait visuel et facilite la reconnaissance de ces liens <sup>1</sup>.</p>
+<p>La section blog du projet Anticythère présente une liste de publications classées par ordre chronologique inverse, affichant d'abord les plus récentes <sup>20</sup>. Chaque entrée comprend le titre de la publication ainsi que le mois et l'année de sa publication <sup>20</sup>. L'utilisabilité de cette section est simple, car le format de liste permet de parcourir facilement les articles disponibles. Les titres sont clairs, ce qui aide les utilisateurs à comprendre rapidement le sujet de chaque publication, et les dates fournies permettent d'identifier le contenu récent <sup>20</sup>. L'attrait visuel de la section blog est minimaliste, consistant en une simple liste de liens <sup>20</sup>. Bien qu'il soit épuré et fonctionnel, il manque d'éléments visuels qui pourraient le rendre plus attrayant. L'inclusion de « .IA Île d'Anticythère © 2025 » en bas de page fournit une indication claire de l'origine du blog et de l'année en cours <sup>20</sup>. Néanmoins, des domaines d'amélioration potentiels sont identifiés, tels que l'ajout d'images miniatures ou d'extraits pour chaque publication, ce qui pourrait améliorer l'attrait visuel et fournir plus de contexte aux utilisateurs avant de cliquer sur un titre. La mise en œuvre d'un système de catégories ou d'étiquettes permettrait aux utilisateurs de filtrer et de trouver du contenu pertinent en fonction de leurs intérêts spécifiques dans le thème général du projet .IA Île d'Anticythère. L'inclusion d'une fonctionnalité de recherche dans la section blog améliorerait considérablement l'utilisabilité pour les utilisateurs qui recherchent des informations spécifiques. Bien que le mois et l'année soient fournis, l'inclusion du jour de la publication pourrait être bénéfique pour les utilisateurs qui ont besoin d'informations plus précises sur l'actualité d'une publication. Enfin, l'utilisation de titres ou d'autres signaux visuels pour mieux séparer les publications du blog pourrait améliorer la lisibilité <sup>20</sup>.</p>
+<p>L'interface utilisateur de la section des liens du projet Anticythère semble fonctionnelle, mais les informations fournies ne sont pas suffisantes pour une évaluation exhaustive de son utilisabilité et de son accessibilité <sup>21</sup>. On accède à cette section par un onglet clair « Liens » dans le menu de navigation supérieur <sup>21</sup>. Les liens sont présentés sous forme de vidéos YouTube intégrées et d'aperçus d'articles avec des titres, ce qui donne un aperçu rapide du contenu <sup>21</sup>. Les utilisateurs peuvent accéder directement au contenu lié en cliquant sur les aperçus ou sur les liens YouTube fournis <sup>21</sup>. Cependant, aucune information n'est disponible sur l'existence d'une fonctionnalité de recherche ou de filtrage des liens, ni sur le fait que les liens sont classés ou organisés d'une manière spécifique, ni si des descriptions supplémentaires sont fournies pour chaque lien offrant plus de contexte <sup>21</sup>. En ce qui concerne l'accessibilité, les informations sont limitées. Bien que l'utilisation de texte pour les titres soit positive, il n'est pas clair si les images d'aperçu sont accompagnées d'un texte alternatif descriptif pour les lecteurs d'écran, si tous les liens et fonctionnalités sont accessibles au clavier, s'il existe un contraste de couleur suffisant entre le texte et l'arrière-plan pour les utilisateurs malvoyants, ou si les vidéos YouTube intégrées ont des sous-titres adéquats pour les utilisateurs sourds ou malentendants <sup>21</sup>. La conception de la section semble relativement épurée, avec une séparation claire entre les liens, et l'utilisation de vignettes et d'aperçus fournit des indices visuels sur le contenu de chaque lien, semblant cohérente avec le thème général du site web <sup>21</sup>. Néanmoins, l'attrait visuel pourrait être amélioré avec une plus grande variété dans les styles de présentation, car le format répétitif des intégrations YouTube et des aperçus d'articles po... [tronqué]</p>
+<p>Selon le menu de navigation, il existe d'autres sections sur le site web, telles que « Projet », « Podcasts » et « X » <sup>1</sup>. Cependant, lors de l'enquête, les pages correspondant à « Projet » et « Podcasts » se sont révélées inaccessibles <sup>22</sup>. La section « X » renvoie vraisemblablement au compte du projet sur la plateforme Twitter (maintenant X) <sup>1</sup>. L'inaccessibilité des sections « Projet » et « Podcasts » représente une limitation importante pour comprendre pleinement l'initiative, car la section « Projet » contiendrait probablement des informations détaillées sur les objectifs, la méthodologie et l'équipe derrière le projet, tandis que la section « Podcasts » pourrait offrir un contenu audio pertinent <sup>22</sup>.</p>
+<p>En général, l'évaluation de l'interface utilisateur et de l'expérience utilisateur du site web d'Anticythère est limitée par les informations disponibles dans les extraits fournis, qui se concentrent principalement sur des sections spécifiques <sup>1</sup>. Une évaluation complète nécessiterait un accès à toutes les sections du site web et une analyse plus détaillée de son architecture, de sa réactivité et de sa conformité aux principes de conception web.</p>
+<p>Tableau 2 : Évaluation Résumée de l'UI/UX du Site Web</p>
+<table>
+<thead>
+<tr>
+<th><strong>Section</strong></th>
+<th><strong>Utilisabilité</strong></th>
+<th><strong>Accessibilité (Basé sur les informations disponibles)</strong></th>
+<th><strong>Attrait Visuel</strong></th>
+<th><strong>Domaines d'Amélioration</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Page d'accueil</td>
+<td>Navigation claire, accès direct au contenu récent</td>
+<td>Lien « Passer au contenu principal » présent, autres aspects non détaillés</td>
+<td>Épuré et fonctionnel</td>
+<td>Absence de recherche apparente</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Blog</td>
+<td>Simple pour parcourir les articles par titre et date</td>
+<td>Texte lisible, structure simple, mais évaluation complète limitée</td>
+<td>Minimaliste, simple liste de liens</td>
+<td>Ajouter des vignettes/extraits, des catégories/étiquettes, une recherche, un format de date plus détaillé, une hiérarchie visuelle</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Liens</td>
+<td>Accès direct au contenu lié</td>
+<td>Aspects clés non clairs (texte alternatif, navigation au clavier, contraste des couleurs, sous-titres vidéo)</td>
+<td>Relativement épuré, utilisation de vignettes et d'aperçus</td>
+<td>Fonctionnalité de recherche, organisation/catégorisation, descriptions des liens, variété dans la présentation, qualité de l'image</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Projet</td>
+<td>Inaccessible</td>
+<td>Inaccessible</td>
+<td>Inaccessible</td>
+<td>Accessibilité</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Podcasts</td>
+<td>Inaccessible</td>
+<td>Inaccessible</td>
+<td>Inaccessible</td>
+<td>Accessibilité</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+</tbody>
+</table>
+<h2 id="la-fondation-technologique-comprendre-la-creation-d-un-nouveau-cctld" tabindex="-1"><strong>La Fondation Technologique : Comprendre la Création d'un Nouveau ccTLD</strong> <a class="header-anchor" href="#la-fondation-technologique-comprendre-la-creation-d-un-nouveau-cctld">#</a></h2>
+<p>La technologie fondamentale derrière le projet Anticythère, au-delà de l'infrastructure du site web, réside dans le processus d'établissement d'un nouveau domaine de premier niveau de code pays (ccTLD) <sup>1</sup>. La création et la gestion des ccTLD sont supervisées par l'Autorité des numéros attribués sur Internet (IANA) et la Société pour l'attribution des noms de domaine et des numéros sur Internet (ICANN) <sup>18</sup>. L'IANA, qui fait partie de l'ICANN, est responsable de la coordination des identifiants uniques mondiaux d'Internet <sup>18</sup>. Le processus d'attribution d'un ccTLD à une région géographique nécessite une demande détaillée à l'ICANN, démontrant comment le domaine souhaité s'aligne sur l'identité du pays ou du territoire et justifiant son besoin <sup>25</sup>. L'ICANN et l'IANA évaluent cette demande à l'aide de critères d'éligibilité spécifiques, en tenant compte de facteurs clés tels que l'identité nationale ou territoriale unique de la région, un besoin réel du domaine et la capacité de la région à le gérer et à le maintenir efficacement <sup>25</sup>. Une fois la demande approuvée, l'ICANN et l'IANA travaillent en étroite collaboration avec l'autorité désignée de la région requérante pour finaliser les termes et les responsabilités, en intégrant ensuite le ccTLD dans le système mondial de noms de domaine <sup>25</sup>.</p>
+<p>La création d'un nouveau ccTLD est un processus réglementaire complexe qui implique des organisations internationales telles que l'IANA et l'ICANN <sup>18</sup>. La participation de ces entités souligne l'ampleur de l'effort organisationnel et potentiellement politique que requiert le projet Anticythère. Pour que la demande du domaine « .IA » aboutisse, le projet devra construire un argument solide qui démontre l'identité historique et symbolique unique de l'île en ce qui concerne l'innovation technologique, ainsi que la nécessité d'un domaine multilingue pour l'intelligence artificielle <sup>25</sup>. De plus, il sera crucial de présenter un plan crédible pour la gestion technique et administrative efficace du domaine <sup>25</sup>.</p>
+<p>Les étapes générales pour obtenir un ccTLD impliquent la soumission d'une demande détaillée à l'ICANN, démontrant l'alignement avec l'identité du territoire et un besoin réel, ainsi que la capacité de gérer et de maintenir le domaine efficacement <sup>25</sup>. Les critères d'éligibilité pris en compte par l'ICANN et l'IANA comprennent l'identité unique de la région, un besoin réel du domaine et la capacité de gestion efficace <sup>25</sup>. Il est important de noter que le processus pour les nouveaux domaines de premier niveau génériques (gTLD) est différent et plus complexe que pour les ccTLD <sup>26</sup>. Les ccTLD sont généralement gérés par des organisations nationales ou territoriales (registres de ccTLD) responsables de la maintenance des noms de domaine et de l'établissement des critères d'enregistrement <sup>25</sup>. Ces registres établissent les exigences d'enregistrement, qui peuvent varier considérablement d'un registre à l'autre, et peuvent inclure des exigences de résidence ou de présence locale <sup>25</sup>. Si le domaine « .IA » est approuvé, le projet Anticythère devra établir une autorité ou un registre désigné pour gérer le domaine et définir les règles d'enregistrement, ce qui sera un aspect crucial pour la durabilité à long terme du projet. La décision d'imposer des exigences spécifiques pour l'enregistrement d'un domaine « .IA », telles qu'un lien avec l'île ou un accent sur les activités liées à l'intelligence artificielle, aura un impact sur l'adoption du domaine et le type de communauté qui se formera autour de lui.</p>
+<p>Bien qu'il ne soit pas directement applicable au « .IA », il existe un processus accéléré pour les ccTLD avec des IDN (noms de domaine internationalisés) pour les pays qui utilisent des écritures non latines <sup>24</sup>, ce qui démontre la flexibilité de l'ICANN à s'adapter à divers besoins linguistiques. Enfin, le concept de pseudo-ccTLD, qui imite les domaines officiels sans reconnaissance formelle <sup>24</sup>, souligne l'importance de l'ambition du projet Anticythère d'obtenir une reconnaissance officielle pour le domaine « .IA ».</p>
+<h2 id="l-element-humain-explorer-l-equipe-et-la-communaute-derriere-anticythere" tabindex="-1"><strong>L'Élément Humain : Explorer l'Équipe et la Communauté Derrière Anticythère</strong> <a class="header-anchor" href="#l-element-humain-explorer-l-equipe-et-la-communaute-derriere-anticythere">#</a></h2>
+<p>Les informations disponibles sur le site web du projet concernant l'équipe ou l'organisation derrière l'initiative sont limitées <sup>1</sup>. Bien qu'une « communauté de personnes » impliquée dans le projet soit mentionnée <sup>1</sup>, il n'existe pas de section dédiée décrivant l'équipe ou l'organisation en détail. Cependant, le référentiel GitHub du projet (<a href="https://github.com/elswork/anticitera.deft.work">https://github.com/elswork/anticitera.deft.work</a>) est présenté comme une source potentielle d'informations sur les collaborateurs et le développement du projet <sup>19</sup>. L'existence de ce référentiel sur une plateforme de collaboration open source suggère une approche communautaire et participative de l'initiative, ce qui implique que le projet est davantage porté par un effort collectif que par une structure organisationnelle hiérarchique traditionnelle.</p>
+<p>Le référentiel GitHub contient une variété d'informations pertinentes, y compris les objectifs du projet, qui se concentrent sur la promotion de la création et de l'adoption du ccTLD .IA, en soulignant l'importance historique et culturelle du mécanisme d'Anticythère et en encourageant la collaboration <sup>19</sup>. Il détaille également les manières dont les personnes peuvent contribuer au projet, telles que la participation à une liste de diffusion, la collaboration stratégique et la diffusion et la promotion via les réseaux sociaux tels que Facebook, X/Twitter, LinkedIn et WhatsApp <sup>19</sup>. De plus, le référentiel comprend des liens importants vers l'Assistant Anticythère d'OpenAI, un formulaire de réservation pour les domaines .IA, la liste officielle des réservations, un tableau des personnes et des organisations impliquées, des propositions pour la création du ccTLD .IA sur Change.org et le Forum de l'Initiative Citoyenne Européenne, et un lien d'abonnement à la liste de diffusion <sup>19</sup>. La structure du référentiel révèle une organisation logique du projet, avec des répertoires pour « Posts » (articles de blog), « _site » (configuration du site web) et « Origine » (liens détaillant l'histoire et la pertinence de l'île d'Anticythère et sa relation avec l'intelligence artificielle) <sup>19</sup>. Des liens vers des articles et des entretiens qui discutent du projet sous différents angles sont également fournis, ainsi que des informations sur la licence du référentiel (MIT), les sujets connexes (intelligence artificielle, cctld, gpts, openai-chatgpt, île-d'anticythère) et un lien vers le fichier README <sup>19</sup>. La présence d'un problème ouvert dans le référentiel suggère que le projet est dans une phase active de développement et de discussion <sup>19</sup>.</p>
+<p>L'inclusion de propositions pour la création du ccTLD .IA sur des plateformes telles que Change.org et le Forum de l'Initiative Citoyenne Européenne indique un effort de la part du projet pour obtenir un soutien public et politique plus large pour son initiative <sup>19</sup>. L'utilisation de ces plateformes démontre une compréhension de la nécessité de mobiliser l'opinion publique et d'influencer potentiellement les décisions politiques liées à la création de nouveaux ccTLD.</p>
+<h2 id="voix-externes-une-revue-de-la-perception-publique-et-du-discours-academique" tabindex="-1"><strong>Voix Externes : Une Revue de la Perception Publique et du Discours Académique</strong> <a class="header-anchor" href="#voix-externes-une-revue-de-la-perception-publique-et-du-discours-academique">#</a></h2>
+<p>Le mécanisme d'Anticythère est largement reconnu comme le plus ancien ordinateur analogique connu et une merveille de la technologie antique <sup>2</sup>. Sa complexité, son but et ses origines continuent de faire l'objet de recherches et de fascination <sup>5</sup>. Diverses interprétations de sa fonction ont émergé, allant des calculs astronomiques à des fins éducatives et philosophiques <sup>5</sup>. La signification historique et scientifique établie du mécanisme d'Anticythère fournit une base solide et facilement compréhensible pour le récit du projet Anticythère, associant immédiatement le domaine proposé à l'innovation et à l'intelligence. Le public est déjà curieux de cet artefact ancien, ce qui crée un lien naturel avec le concept d'intelligence artificielle, rendant le nom et l'idée centrale du projet instantanément plus attrayants et mémorables.</p>
+<p>Il existe des arguments en faveur de la création du domaine .IA, tels que la rupture de l'hégémonie de l'anglais dans l'IA, la promotion d'une communauté mondiale et l'hommage à l'importance historique d'Anticythère <sup>12</sup>. Sur des forums en ligne comme Reddit, un intérêt pour le domaine .IA a été exprimé par des hispanophones et des lusophones, car « .IA » correspond à « Inteligencia Artificial » dans ces langues <sup>16</sup>. Cependant, dans les discussions en ligne, il a également été souligné que « .ia » est déjà le domaine de premier niveau pour Imagua et les Assimas, une nation fictive dans le jeu NationStates <sup>16</sup>. Il est important de préciser que cette utilisation ne correspond pas à un ccTLD officiellement reconnu par l'IANA <sup>18</sup>. L'existence d'un « .ia » non officiel associé à une entité fictive pose un défi possible pour le projet Anticythère pour établir sa légitimité et son unicité. Une communication claire sur sa recherche de reconnaissance officielle par l'IANA sera cruciale. Le projet a mis en œuvre des appels à l'action pour soutenir l'initiative du domaine .IA, y compris la réservation de domaines et la participation sur les réseaux sociaux et les plateformes pertinentes <sup>17</sup>. Dans les supports promotionnels, des hashtags tels que #IA, #Anticythère et #IntelligenceArtificielle sont utilisés <sup>15</sup>.</p>
+<p>Tableau 1 : Comparaison de .AI et du .IA proposé</p>
+<table>
+<thead>
+<tr>
+<th><strong>Caractéristique</strong></th>
+<th><strong>.AI</strong></th>
+<th><strong>.IA (Proposé)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Territoire Associé</td>
+<td>Anguilla</td>
+<td>Île d'Anticythère</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Association Linguistique Primaire</td>
+<td>Anglais</td>
+<td>Multilingue (Espagnol, Portugais, etc.)</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Connexion Symbolique</td>
+<td>Aucune directe avec l'IA</td>
+<td>Forte connexion avec le mécanisme d'Anticythère et les origines de l'IA</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>Utilisation Actuelle</td>
+<td>Norme de facto pour les projets d'IA</td>
+<td>Proposé pour les projets d'IA</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+</tbody>
+</table>
+<p>Les principes généraux et les meilleures pratiques pour choisir des noms de domaine incluent la mémorabilité, l'alignement avec la marque et les considérations de référencement <sup>35</sup>. Les outils de génération de noms de domaine basés sur l'IA jouent un rôle dans le brainstorming et la recherche de domaines disponibles <sup>35</sup>. Le projet Anticythère cherche à tirer parti de la pertinence sémantique inhérente de « .IA » pour « Intelligence Artificielle » dans plusieurs langues, ce qui correspond aux principes du choix d'un bon nom de domaine. Le lien historique avec Anticythère renforce encore sa capacité de marque et son unicité.</p>
+<h2 id="regarder-vers-l-avenir-objectifs-a-long-terme-et-trajectoire-de-developpement-potentielle" tabindex="-1"><strong>Regarder Vers l'Avenir : Objectifs à Long Terme et Trajectoire de Développement Potentielle</strong> <a class="header-anchor" href="#regarder-vers-l-avenir-objectifs-a-long-terme-et-trajectoire-de-developpement-potentielle">#</a></h2>
+<p>La vision à long terme du projet Anticythère se concentre sur la rupture de l'hégémonie de l'anglais dans le domaine de l'intelligence artificielle et la promotion d'une communauté mondiale et multilingue <sup>12</sup>. On s'attend à ce que le domaine « .IA » devienne un identifiant reconnu et respecté pour les projets, les recherches et les organisations liés à l'intelligence artificielle dans le monde entier. Il est possible que l'île d'Anticythère devienne un centre symbolique pour la collaboration internationale dans le domaine de l'intelligence artificielle, en tirant parti de sa signification historique <sup>12</sup>. Cette ambition va au-delà d'un simple nom de domaine, cherchant à positionner l'île comme un point focal pour le discours et la collaboration mondiale sur l'intelligence artificielle, en se basant sur son lien historique unique avec l'informatique. Cela pourrait attirer des chercheurs, des développeurs et des décideurs politiques, ce qui pourrait conduire à une plus grande reconnaissance et à des initiatives liées au domaine.</p>
+<p>À l'avenir, des partenariats avec des institutions universitaires, des organisations de recherche et des entreprises technologiques pourraient être explorés. L'Assistant Anticythère pourrait jouer un rôle crucial dans la promotion de l'innovation et de l'adoption au sein du domaine « .IA ».</p>
+<h2 id="impact-et-pertinence-evaluation-de-la-signification-du-projet-anticythere" tabindex="-1"><strong>Impact et Pertinence : Évaluation de la Signification du Projet Anticythère</strong> <a class="header-anchor" href="#impact-et-pertinence-evaluation-de-la-signification-du-projet-anticythere">#</a></h2>
+<p>Le projet Anticythère a le potentiel de générer un impact significatif dans le domaine de l'intelligence artificielle en promouvant le multilinguisme et l'inclusivité. Sa pertinence réside dans le lien qu'il établit entre les racines historiques de l'informatique et ses avancées modernes. L'association de l'île d'Anticythère avec les origines et l'avenir de l'intelligence artificielle pourrait avoir une grande signification culturelle et symbolique. Le projet pourrait favoriser un paysage plus inclusif et culturellement diversifié pour l'intelligence artificielle au niveau mondial, en défiant la domination actuelle de l'anglais et en rappelant au monde la longue histoire de l'ingéniosité humaine en informatique. Le succès de l'établissement du domaine « .IA » pourrait contribuer à une représentation plus équitable des différentes langues et cultures au sein du domaine de l'intelligence artificielle en ligne. Le lien symbolique avec le mécanisme d'Anticythère ajoute une dimension historique unique à ce domaine technologique moderne. De plus, le projet pourrait générer une plus grande reconnaissance et un plus grand intérêt pour l'île d'Anticythère elle-même. À un niveau plus large, l'initiative soulève des réflexions sur la gouvernance d'Internet et la représentation de diverses identités linguistiques et culturelles en ligne.</p>
+<h2 id="conclusion-synthetiser-les-resultats-et-offrir-des-perspectives-strategiques" tabindex="-1"><strong>Conclusion : Synthétiser les Résultats et Offrir des Perspectives Stratégiques</strong> <a class="header-anchor" href="#conclusion-synthetiser-les-resultats-et-offrir-des-perspectives-strategiques">#</a></h2>
+<p>Le projet Anticythère représente une initiative ambitieuse et visionnaire qui vise à établir un nouveau ccTLD « .IA » pour l'île d'Anticythère, en s'inspirant du mécanisme historique d'Anticythère comme symbole des origines de l'intelligence artificielle. Le projet vise à encourager une communauté mondiale et multilingue autour de ce domaine, en défiant l'hégémonie de l'anglais dans le domaine de l'intelligence artificielle.</p>
+<p>Parmi les points forts du projet figurent sa solide base historique et symbolique, la vision claire de promouvoir l'inclusivité linguistique et la création d'une communauté active. L'existence de l'Assistant Anticythère d'OpenAI est une étape concrète pour soutenir l'adoption du domaine. Cependant, le projet est également confronté à des défis potentiels, tels que la nécessité d'obtenir l'approbation de l'IANA et de l'ICANN pour le nouveau ccTLD et l'existence de l'utilisation non officielle de « .ia » pour une nation fictive.</p>
+<p>Les perspectives stratégiques suivantes sont proposées :</p>
+<ul>
+<li><strong>Amélioration du Site Web :</strong> Il est essentiel de donner la priorité à l'accessibilité de toutes les sections du site web, en particulier « Projet » et « Podcasts ». De plus, il est recommandé d'améliorer l'UI/UX des sections blog et liens en mettant en œuvre les suggestions détaillées ci-dessus (vignettes, catégories, recherche, etc.).</li>
+<li><strong>Participation de la Communauté :</strong> La participation de la communauté doit continuer à être encouragée par le biais du référentiel GitHub et d'autres plateformes. Il est important de communiquer clairement les progrès du projet et les manières dont les personnes peuvent contribuer.</li>
+<li><strong>Efforts de Promotion du Domaine .IA :</strong> Dans les efforts de promotion, il est crucial de distinguer clairement la proposition du ccTLD officiel « .IA » de l'utilisation non officielle existante. Il convient de souligner la recherche de la reconnaissance officielle par l'IANA et les avantages uniques du domaine proposé en termes de pertinence linguistique et de lien historique.</li>
+</ul>
+<p>En conclusion, le projet Anticythère possède un potentiel significatif pour avoir un impact sur le paysage de l'intelligence artificielle en ligne, en promouvant une plus grande diversité linguistique et culturelle et en honorant la riche histoire de l'innovation informatique. Son succès dépendra de la capacité de l'équipe à surmonter les défis réglementaires et à construire une communauté mondiale engagée dans sa vision.</p>
+<h4 id="ouvrages-cites" tabindex="-1">Ouvrages cités <a class="header-anchor" href="#ouvrages-cites">#</a></h4>
+<ol>
+<li>.IA Île d'Anticythère - Base de Connaissances, consulté le : 24 mars 2025, <a href="https://anticitera.deft.work">https://Anticitera.deft.work</a></li>
+<li>Mécanisme d'Anticythère - Wikipédia, consulté le : 24 mars 2025, <a href="https://en.wikipedia.org/wiki/Antikythera_mechanism">https://en.wikipedia.org/wiki/Antikythera_mechanism</a></li>
+<li>Saros, Spirales et le Projet Anticythère ~ Révélations d'une Épave Antique, consulté le : 24 mars 2025, <a href="https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck">https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck</a></li>
+<li>Le Mécanisme d'Anticythère : La Preuve de la Précision des Calculs Astronomiques Basés sur Celui-ci - MDPI, consulté le : 24 mars 2025, <a href="https://www.mdpi.com/2571-9408/4/4/211">https://www.mdpi.com/2571-9408/4/4/211</a></li>
+<li>Le Mécanisme d'Anticythère - Communications de l'ACM, consulté le : 24 mars 2025, <a href="https://cacm.acm.org/research/the-antikythera-mechanism/">https://cacm.acm.org/research/the-antikythera-mechanism/</a></li>
+<li>Anticythère - Long Now, consulté le : 24 mars 2025, <a href="https://longnow.org/ideas/antikythera/">https://longnow.org/ideas/antikythera/</a></li>
+<li>Le Projet de Recherche sur le Mécanisme d'Anticythère - What's Behind Doerr Number One, consulté le : 24 mars 2025, <a href="https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/">https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/</a></li>
+<li>Le Projet de Recherche sur le Mécanisme d'Anticythère - AWOL - The Ancient World Online, consulté le : 24 mars 2025, <a href="http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html">http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html</a></li>
+<li>Mécanisme d'Anticythère - The Interactive Commons, consulté le : 24 mars 2025, <a href="https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/">https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/</a></li>
+<li>L'Anticythère nous rappelle que l'humanité prévaudra toujours sur l'Intelligence Artificielle, consulté le : 24 mars 2025, <a href="https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/">https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/</a></li>
+<li>« Explorer le mécanisme d'Anticythère à travers la réalité augmentée. » par Tiffany Hatzidimitriu, consulté le : 24 mars 2025, <a href="https://digitalcommons.pace.edu/honorscollege_theses/375/">https://digitalcommons.pace.edu/honorscollege_theses/375/</a></li>
+<li>Île d'Anticythère : L'Avenir de l'Intelligence Artificielle ? - Deft.Work, consulté le : 24 mars 2025, <a href="https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/">https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/</a></li>
+<li>Mécanisme d'Anticythère : L'ancien « ordinateur » qui ne devrait tout simplement pas exister - BBC REEL, consulté le : 24 mars 2025, <a href="https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/">https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/</a></li>
+<li>Île d'Anticythère - Berceau de l'Intelligence Artificielle - Deft.Work, consulté le : 24 mars 2025, <a href="https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/">https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/</a></li>
+<li>Une nouvelle aube pour l'IA : le domaine .IA - OpenExpo Europe, consulté le : 24 mars 2025, <a href="https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/">https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/</a></li>
+<li>.ia extension d'url de domaine ? : r/webdev - Reddit, consulté le : 24 mars 2025, <a href="https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/">https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/</a></li>
+<li>Île d'Anticythère - N'attendez plus, réservez votre domaine .IA maintenant, consulté le : 24 mars 2025, <a href="https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/">https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/</a></li>
+<li>Données de Délégation du Domaine .ai, consulté le : 24 mars 2025, <a href="http://www.iana.org/domains/root/db/ai.htm">http://www.iana.org/domains/root/db/ai.htm</a></li>
+<li>elswork/anticitera.deft.work : .IA Île d'Anticythère - Base de ... - GitHub, consulté le : 24 mars 2025, <a href="https://github.com/elswork/anticitera.deft.work">https://github.com/elswork/anticitera.deft.work</a></li>
+<li>.IA Île d'Anticythère - Base de Connaissances, consulté le : 24 mars 2025, <a href="https://anticitera.deft.work/blog/">https://Anticitera.deft.work/blog/</a></li>
+<li>Section des Liens - IA Île d'Anticythère, consulté le : 24 mars 2025, <a href="https://anticitera.deft.work/links/">https://Anticitera.deft.work/links/</a></li>
+<li>consulté le : 1er janvier 1970, <a href="https://anticitera.deft.work/proyecto/">https://Anticitera.deft.work/proyecto/</a></li>
+<li>consulté le : 1er janvier 1970, <a href="https://anticitera.deft.work/podcasts/">https://Anticitera.deft.work/podcasts/</a></li>
+<li>Domaine de premier niveau de code pays - ICANNWiki, consulté le : 24 mars 2025, <a href="https://icannwiki.org/Country_code_top-level_domain">https://icannwiki.org/Country_code_top-level_domain</a></li>
+<li>ccTLD vs gTLD : Qui gagne et où ? | Blog - Dataprovider.com, consulté le : 24 mars 2025, <a href="https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/">https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/</a></li>
+<li>Foire Aux Questions | Nouveaux gTLD de l'ICANN, consulté le : 24 mars 2025, <a href="https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en">https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en</a></li>
+<li>Domaine de premier niveau de code pays - Wikipédia, consulté le : 24 mars 2025, <a href="https://en.wikipedia.org/wiki/Country_code_top-level_domain">https://en.wikipedia.org/wiki/Country_code_top-level_domain</a></li>
+<li>Liste des domaines de premier niveau d'Internet - Wikipédia, consulté le : 24 mars 2025, <a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains</a></li>
+<li>Tous les ccTLD expliqués | Domaine de Premier Niveau de Code Pays - tasjeel ae, consulté le : 24 mars 2025, <a href="https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/">https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/</a></li>
+<li>Politiques de domaine ccTLD : Support Client Enom, consulté le : 24 mars 2025, <a href="https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies">https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies</a></li>
+<li>Processus Accéléré pour les ccTLD IDN - icann, consulté le : 24 mars 2025, <a href="https://www.icann.org/resources/pages/fast-track-2012-02-25-en">https://www.icann.org/resources/pages/fast-track-2012-02-25-en</a></li>
+<li>Projet d'Enquête sur Anticythère | Institut d'Archéologie - UCL – University College London, consulté le : 24 mars 2025, <a href="https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project">https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project</a></li>
+<li>Le Projet d'Enquête sur Anticythère : Introduction - Archaeology Data Service, consulté le : 24 mars 2025, <a href="https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/">https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/</a></li>
+<li>Îles Assimas - Daidu - L'Encyclopédie Kylaris, consulté le : 24 mars 2025, <a href="https://kylaris.miraheze.org/wiki/Assimas_Islands">https://kylaris.miraheze.org/wiki/Assimas_Islands</a></li>
+<li>Outil Gratuit de Génération de Noms d'Entreprise et de Domaine par IA, consulté le : 24 mars 2025, <a href="https://www.domain.com/domains/ai-domain-generator">https://www.domain.com/domains/ai-domain-generator</a></li>
+<li>Trouvez les Noms de Site Web Parfaits avec le Générateur de Noms de Domaine par IA de Web.com, consulté le : 24 mars 2025, <a href="https://www.web.com/blog/ai-domain-name-generator/">https://www.web.com/blog/ai-domain-name-generator/</a></li>
+<li>IA pour le Nom de Domaine : 8 Conseils Pour une Forte Présence en Ligne - ShortDot, consulté le : 24 mars 2025, <a href="https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/">https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/</a></li>
+<li>Outil Gratuit d'Idées de Noms de Domaine - Obtenez des Idées Instantanées pour 2025 - GravityWrite, consulté le : 24 mars 2025, <a href="https://gravitywrite.com/blog/domain-name-ideas-tool">https://gravitywrite.com/blog/domain-name-ideas-tool</a></li>
+<li>Proposition de Projet pour un Nouveau Site Web d'Architecture de l'Information Mondiale | par Andrea Rosenbusch, consulté le : 24 mars 2025, <a href="https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb">https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb</a></li>
+</ol>
+<p><img src="/img/TecladoyPaises.webp" alt="Un clavier d'ordinateur rétroéclairé en rouge, avec une carte du monde en arrière-plan montrant des nœuds colorés interconnectés."></p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/fr/blog/Grok_3-Analyse_detaillee_du_Projet_IA_Ile_d_Anticythere/">Grok 3 - Analyse détaillée du Projet .IA Île d&#39;Anticythère.</a></li><li>Next: <a href="/fr/blog/Bulletin_d_Information_III_Projet_IA_Ile_d_Anticythere/">Bulletin d&#39;Information III Projet .IA Île d&#39;Anticythère</a></li>
+</ul>
+
+		<br>
+		
+			<button id="toggle-comments-btn">Voir les Commentaires</button>
+			<div class="issue-container" style="display: none;">
+				<div class="issue-header">
+					<h3>Comentario de prueba</h3>
+					<div class="issue-user">						
+						<a href="https://github.com/elswork" target="_blank" class="issue-author-link"><img src="https://avatars.githubusercontent.com/u/1455507?v=4" alt="elswork" class="issue-author-avatar">elswork</a>
+					</div>
+				</div>
+				<div class="issue-body"><p>Esto es una prueba. 💕
+<img src="https://github.com/elswork/anticitera.deft.work/assets/1455507/4d033694-7a86-4965-8380-e3e98564435c" alt="image"></p>
+</div>
+				<div class="issue-footer">
+					<div class="issue-footer-left">
+						<span class="issue-state">
+							🟢							
+						</span>
+						<span class="issue-comments">💬1</span>
+						<span class="issue-reactions">❤️1</span>
+					</div>
+					<div class="issue-footer-right">
+						<span class="issue-created-at">
+							🕒 25/11/2023 18:13
+							<span class="issue-updated-at">🔄 13/08/2024 13:32</span>
+						</span>
+						<a href="https://github.com/elswork/anticitera.deft.work/issues/1" target="_blank" class="issue-link">Ver comentario</a>
+					</div>
+				</div>
+			</div>
+			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Nouveau commentaire</button>
+		
+
+		</main>
+
+		<footer>
+			<div class="container">
+				<div class="social-media">
+					<!-- Botones para redes sociales -->
+					<button onclick="window.open('https://twitter.com/elswork', '_blank')" class="twitter-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>X</title>
+  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+</svg></button>
+					<button onclick="window.open('https://github.dev/elswork/anticitera.deft.work', '_blank')" class="vscode-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Visual Studio Code</title>
+  <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/>
+</svg></button>
+					<button onclick="window.open('https://github.com/elswork/anticitera.deft.work', '_blank')" class="github-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>GitHub</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+</svg></button>
+					<button onclick="window.open('https://www.reddit.com/r/IslaAnticitera', '_blank')" class="reddit-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Reddit</title>
+  <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/>
+</svg></button>
+					<button onclick="window.open('/feed/feed.json', '_blank')" class="json-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>JSON</title>
+  <path d="M12.043 23.968c.479-.004.953-.029 1.426-.094a11.805 11.805 0 003.146-.863 12.404 12.404 0 003.793-2.542 11.977 11.977 0 002.44-3.427 11.794 11.794 0 001.02-3.476c.149-1.16.135-2.346-.045-3.499a11.96 11.96 0 00-.793-2.788 11.197 11.197 0 00-.854-1.617c-1.168-1.837-2.861-3.314-4.81-4.3a12.835 12.835 0 00-2.172-.87h-.005c.119.063.24.132.345.201.12.074.239.146.351.225a8.93 8.93 0 011.559 1.33c1.063 1.145 1.797 2.548 2.218 4.041.284.982.434 1.998.495 3.017.044.743.044 1.491-.047 2.229-.149 1.27-.554 2.51-1.228 3.596a7.475 7.475 0 01-1.903 2.084c-1.244.928-2.877 1.482-4.436 1.114a3.916 3.916 0 01-.748-.258 4.692 4.692 0 01-.779-.45 6.08 6.08 0 01-1.244-1.105 6.507 6.507 0 01-1.049-1.747 7.366 7.366 0 01-.494-2.54c-.03-1.273.225-2.553.854-3.67a6.43 6.43 0 011.663-1.918c.225-.178.464-.333.704-.479l.016-.007a5.121 5.121 0 00-1.441-.12 4.963 4.963 0 00-1.228.24c-.359.12-.704.27-1.019.45a6.146 6.146 0 00-.733.494c-.211.18-.42.36-.615.555-1.123 1.153-1.768 2.682-2.022 4.256-.15.973-.15 1.96-.091 2.95.105 1.395.391 2.787.945 4.062a8.518 8.518 0 001.348 2.173 8.14 8.14 0 003.132 2.23 7.934 7.934 0 002.113.54c.074.015.149.015.209.015zm-2.934-.398a4.102 4.102 0 01-.45-.228 8.5 8.5 0 01-2.038-1.534c-1.094-1.137-1.827-2.566-2.247-4.08a15.184 15.184 0 01-.495-3.172 12.14 12.14 0 01.046-2.082c.135-1.257.495-2.501 1.124-3.58a6.889 6.889 0 011.783-2.053 6.23 6.23 0 011.633-.9 5.363 5.363 0 013.522-.045c.029 0 .029 0 .045.03.015.015.045.015.06.03.045.016.104.045.165.074.239.12.479.271.704.42a6.294 6.294 0 012.097 2.502c.42.914.615 1.934.631 2.938.014 1.079-.18 2.157-.645 3.146a6.42 6.42 0 01-2.638 2.832c.09.03.18.045.271.075.225.044.449.074.688.074 1.468.045 2.892-.66 3.94-1.647.195-.18.375-.375.54-.585.225-.27.435-.54.614-.823.239-.375.435-.75.614-1.154a8.112 8.112 0 00.509-1.664c.196-1.004.211-2.022.149-3.026-.135-2.022-.673-4.045-1.842-5.724a9.054 9.054 0 00-.555-.719 9.868 9.868 0 00-1.063-1.034 8.477 8.477 0 00-1.363-.915 9.927 9.927 0 00-1.692-.598l-.3-.06c-.209-.03-.42-.044-.634-.06a8.453 8.453 0 00-1.015.016c-.704.045-1.412.16-2.112.337C5.799 1.227 2.863 3.566 1.3 6.67A11.834 11.834 0 00.238 9.801a11.81 11.81 0 00-.104 3.775c.12 1.02.374 2.023.778 2.977.227.57.511 1.124.825 1.648 1.094 1.783 2.683 3.236 4.51 4.24.688.39 1.408.69 2.157.944.226.074.45.15.689.21z"/>
+</svg></button>
+					<button onclick="window.open('/feed/feed.xml', '_blank')" class="feedly-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Feedly</title>
+  <path d="M13.85995 1.98852a2.60906 2.60906 0 00-3.72608 0L.76766 11.52674a2.72906 2.72906 0 000 3.79508l6.68415 6.80816a2.61806 2.61806 0 001.74004.66401h5.61313a2.61606 2.61606 0 001.87204-.79101l6.55415-6.67516a2.72606 2.72606 0 000-3.79508l-9.37021-9.54422zm-.26 17.4224l-.93502.95002a.372.372 0 01-.268.114h-.80003a.376.376 0 01-.247-.096l-.95402-.97002a.39.39 0 010-.54201l1.33703-1.36003a.37.37 0 01.531 0l1.33704 1.36103a.389.389 0 010 .543zm0-5.71113l-3.73709 3.80808a.374.374 0 01-.268.111h-.79902a.376.376 0 01-.25-.093l-.95103-.97002a.391.391 0 010-.54401l4.1391-4.2141a.372.372 0 01.531 0l1.33704 1.36204a.386.386 0 010 .54zm0-5.70713L7.0598 14.6528a.372.372 0 01-.268.113h-.80002a.373.373 0 01-.24901-.094l-.95302-.97202a.388.388 0 010-.54001L11.7329 6.0896a.372.372 0 01.531 0l1.33704 1.36004a.389.389 0 010 .543z"/>
+</svg></button>
+				</div>
+				<p>.IA Isla Anticitera &copy; 2025</p>
+				<div class="share-links">
+					<!-- Botones para compartir -->
+					<button onclick="window.open('https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera', '_blank')" class="twitter-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>X</title>
+  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+</svg></button>
+					<button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada', '_blank')" class="linkedin-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>LinkedIn</title>
+  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+</svg></button>
+					<button onclick="window.open('https://api.whatsapp.com/send?text=https://anticitera.deft.work', '_blank')" class="whatsapp-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>WhatsApp</title>
+  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+</svg></button>
+					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work', '_blank')" class="facebook-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Facebook</title>
+  <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+</svg></button>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Current page: /fr/blog/Gemini-Analyse_detaillee_du_Projet_IA_Ile_d_Anticythere/ -->
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				// ...resto del código para las galerías...
+
+				// Bucle para manejar cada botón "Ver Comentarios"
+				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
+					btn.addEventListener('click', function() {
+						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
+						if (container.style.display === 'none' || container.style.display === '') {
+							container.style.display = 'block';
+						} else {
+							container.style.display = 'none';
+						}
+					});
+				});
+			});
+		</script>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const galleries = document.querySelectorAll('.gallery');
+
+				galleries.forEach(gallery => {
+					const images = gallery.querySelectorAll('img');
+					let currentImageIndex = 0;
+					if (images.length > 0) {
+						images[currentImageIndex].style.display = 'block';
+					}
+
+					const showImage = (index) => {
+						if (images.length > 0) {
+							images[currentImageIndex].style.display = 'none';
+							currentImageIndex = (index + images.length) % images.length;
+							images[currentImageIndex].style.display = 'block';
+						}
+					};
+
+					const prevButton = gallery.querySelector('.gallery-prev');
+					const nextButton = gallery.querySelector('.gallery-next');
+
+					if (prevButton && nextButton) {
+						prevButton.addEventListener('click', () => {
+							showImage(currentImageIndex - 1);
+						});
+
+						nextButton.addEventListener('click', () => {
+							showImage(currentImageIndex + 1);
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
