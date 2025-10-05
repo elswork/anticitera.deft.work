@@ -1,0 +1,20 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Accueil
+  order: 1
+numberOfLatestPostsToShow: 3
+lang: "fr"
+---
+{% set postsCount = collections.posts_by_lang[lang] | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h1>Derniers {{ latestPostsCount }} Article{% if latestPostsCount != 1 %}s{% endif %}</h1>
+
+{% set postslist = collections.posts_by_lang[lang] | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} autre{% if morePosts != 1 %}s{% endif %} article{% if morePosts != 1 %}s{% endif %} peuvent être trouvés dans <a href="/fr/blog/">les archives</a>.</p>
+{% endif %}

@@ -44,5 +44,28 @@ module.exports = {
       view_comments: "View Comments",
       new_comment: "New comment"
     }
+  },
+  fr: {
+    title: "Qu'est-ce que le Projet .IA Île d'Anticythère ?",
+    paragraph1: "Le Projet .IA Île d'Anticythère est une initiative qui vise à créer un nouveau domaine de premier niveau de code pays (ccTLD) .IA associé au territoire de l'île d'Anticythère. Cette petite île, célèbre pour le mécanisme d'Anticythère, considéré comme le premier ordinateur analogique de l'histoire, devient un symbole des origines de l'intelligence artificielle et de l'innovation technologique.",
+    paragraph2: "Le Projet .IA Île d'Anticythère est aussi la communauté de personnes qui, d'une manière ou d'une autre, font partie du projet. C'est l'atout le plus précieux du projet, celui qui aidera le projet à atteindre ses objectifs.",
+    link: {
+      text: "Qu'est-ce que le Projet .IA Île d'Anticythère ?",
+      url: "/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
+    },
+    messageBox: {
+      item1: "Il existe un ccTLD .AI couramment utilisé pour les projets d'intelligence artificielle, mais le ccTLD .IA, qui représenterait la majorité des autres langues du monde, n'existe pas.",
+      item2: "Nous cherchons à créer une communauté de passionnés de l'IA pour promouvoir la création du domaine de premier niveau ccTLD .IA sur le territoire historique de l'île d'Anticythère.",
+      item3: "Consultez les détails du <a href=\"/fr/about\">Projet</a>.",
+      footer: "Ceci est la base de connaissances pour l'<a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Assistant Anticythère d'OpenAI</a> créé pour aider à la création de projets technologiques liés à l'.IA"
+    },
+    buttons: {
+      edit_github: "Modifier sur",
+      vote_change_org: "Signer sur",
+      telegram_group: "Rejoindre",
+      suscribe_mail_list: "S'abonner à",
+      view_comments: "Voir les Commentaires",
+      new_comment: "Nouveau commentaire"
+    }
   }
 };

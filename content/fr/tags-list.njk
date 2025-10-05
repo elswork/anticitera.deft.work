@@ -1,0 +1,16 @@
+---
+layout: layouts/home.njk
+eleventyComputed:
+  title: Toutes les balises
+permalink: /fr/tags/
+lang: "fr"
+---
+<h1>Toutes les balises</h1>
+
+{% set tagList = collections.all | getAllTags | filterTagList %}
+<ul>
+{% for tag in tagList %}
+  {% set tagUrl %}/fr/tags/{{ tag | slugify }}/{% endset %}
+  <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+{% endfor %}
+</ul>

@@ -85,17 +85,21 @@
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
-				                <ul class="nav">
-				                {%- for entry in collections.all | eleventyNavigation %}
-				                    {# English pages show nav entries with URLs starting with /en/ #}
-				                    {%- if lang == 'en' and entry.url and entry.url.startsWith('/en/') %}
-				                        <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				                    {# Spanish pages show nav entries with URLs NOT starting with /en/ (since 'es' is the default and has no prefix) #}
-				                    {%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') %}
-				                        <li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				                    {%- endif %}
-				                {%- endfor %}
-				                </ul>			</nav>
+				<ul class="nav">
+				{%- for entry in collections.all | eleventyNavigation %}
+					{# English pages show nav entries with URLs starting with /en/ #}
+					{%- if lang == 'en' and entry.url and entry.url.startsWith('/en/') %}
+						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{# French pages show nav entries with URLs starting with /fr/ #}
+					{%- elif lang == 'fr' and entry.url and entry.url.startsWith('/fr/') %}
+						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{# Spanish pages show nav entries with URLs NOT starting with /en/ or /fr/ #}
+					{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') %}
+						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{%- endif %}
+				{%- endfor %}
+				</ul>
+			</nav>
 		</header>
 
 		<main id="skip">
