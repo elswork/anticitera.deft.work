@@ -132,6 +132,11 @@
 	</url>
 	
 	<url>
+		<loc>https://anticitera.deft.work/en/about/</loc>
+		<lastmod>2025-10-05</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://anticitera.deft.work/en/blog/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
@@ -157,17 +162,22 @@
 	</url>
 	
 	<url>
-		<loc>https://anticitera.deft.work/en/tags/boletin/</loc>
-		<lastmod>2025-10-05</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://anticitera.deft.work/en/tags/arquimedes/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
 	<url>
+		<loc>https://anticitera.deft.work/en/tags/boletin/</loc>
+		<lastmod>2025-10-05</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://anticitera.deft.work/en/tags/comunidad/</loc>
+		<lastmod>2025-10-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://anticitera.deft.work/en/tags/deepseek/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
@@ -182,7 +192,7 @@
 	</url>
 	
 	<url>
-		<loc>https://anticitera.deft.work/en/tags/deepseek/</loc>
+		<loc>https://anticitera.deft.work/en/tags/grok/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
@@ -193,11 +203,6 @@
 	
 	<url>
 		<loc>https://anticitera.deft.work/en/tags/latam/</loc>
-		<lastmod>2025-10-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://anticitera.deft.work/en/tags/grok/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
@@ -257,17 +262,22 @@
 	</url>
 	
 	<url>
-		<loc>https://anticitera.deft.work/tags/boletin/</loc>
-		<lastmod>2025-10-05</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://anticitera.deft.work/tags/arquimedes/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
 	<url>
+		<loc>https://anticitera.deft.work/tags/boletin/</loc>
+		<lastmod>2025-10-05</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://anticitera.deft.work/tags/comunidad/</loc>
+		<lastmod>2025-10-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://anticitera.deft.work/tags/deepseek/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
@@ -282,7 +292,7 @@
 	</url>
 	
 	<url>
-		<loc>https://anticitera.deft.work/tags/deepseek/</loc>
+		<loc>https://anticitera.deft.work/tags/grok/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
@@ -293,11 +303,6 @@
 	
 	<url>
 		<loc>https://anticitera.deft.work/tags/latam/</loc>
-		<lastmod>2025-10-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://anticitera.deft.work/tags/grok/</loc>
 		<lastmod>2025-10-05</lastmod>
 	</url>
 	
