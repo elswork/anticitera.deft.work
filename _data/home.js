@@ -12,6 +12,14 @@ module.exports = {
       item2: "Buscamos crear una comunidad de entusiastas de la IA para promover la creación del dominio de nivel superior ccTLD .IA en el histórico territorio de Isla Anticitera.",
       item3: "Consulta los detalles del <a href=\"/about\">Proyecto</a>.",
       footer: "Esta es la Base de conocimiento para el <a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Asistente Anticitera de OpenAI</a> creado para asistir en la creación de proyectos tecnologicos relacionados con la .IA"
+    },
+    buttons: {
+      edit_github: "Editar en",
+      vote_change_org: "Firma en",
+      telegram_group: "Entra al",
+      suscribe_mail_list: "Suscribete al",
+      view_comments: "Ver Comentarios",
+      new_comment: "Nuevo comentario"
     }
   },
   en: {
@@ -27,6 +35,14 @@ module.exports = {
       item2: "We seek to create a community of AI enthusiasts to promote the creation of the ccTLD .IA top-level domain in the historic territory of Antikythera Island.",
       item3: "Check the details of the <a href=\"/en/about\">Project</a>.",
       footer: "This is the Knowledge Base for the <a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Antikythera Assistant from OpenAI</a> created to assist in the creation of technological projects related to .IA"
+    },
+    buttons: {
+      edit_github: "Edit on",
+      vote_change_org: "Sign on",
+      telegram_group: "Join",
+      suscribe_mail_list: "Subscribe to",
+      view_comments: "View Comments",
+      new_comment: "New comment"
     }
   }
 };

@@ -102,16 +102,16 @@
 		<ul class="post-metadata">
 			<li>				
 				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}', '_blank')" id="edit-github-btn">
-					Editar en {% icon "simpleicon:github", class="icon" %} GitHub
+					{{ home[lang].buttons.edit_github }} {% icon "simpleicon:github", class="icon" %} GitHub
 				</button>
 				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
-					Firma en {% icon "simpleicon:c", class="icon" %}. Change.org
+					{{ home[lang].buttons.vote_change_org }} {% icon "simpleicon:c", class="icon" %}. Change.org
 				</button>
 				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
-					Entra al {% icon "simpleicon:telegram", class="icon" %} Telegram
+					{{ home[lang].buttons.telegram_group }} {% icon "simpleicon:telegram", class="icon" %} Telegram
 				</button>
 				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
-					Suscribete al {% icon "simpleicon:gmail", class="icon" %} Correo
+					{{ home[lang].buttons.suscribe_mail_list }} {% icon "simpleicon:gmail", class="icon" %} Correo
 				</button>
 			</li>
 		</ul>
@@ -119,7 +119,7 @@
 			{{ content | safe }}
 		<br>
 		{% for issue in issues %}
-			<button id="toggle-comments-btn">Ver Comentarios</button>
+			<button id="toggle-comments-btn">{{ home[lang].buttons.view_comments }}</button>
 			<div class="issue-container" style="display: none;">
 				<div class="issue-header">
 					<h3>{{ issue.title }}</h3>
@@ -145,7 +145,7 @@
 					</div>
 				</div>
 			</div>
-			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Nuevo comentario</button>
+			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">{{ home[lang].buttons.new_comment }}</button>
 		{% endfor %}
 
 		</main>
