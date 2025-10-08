@@ -272,3 +272,12 @@ a[href].header-anchor:focus,
 h2 + .header-anchor {
 	font-size: 1.5em;
 }
+
+
+/* YouTube Embed */
+main lite-youtube {
+	max-width: 100%;
+	width: 100%;
+	display: block;
+	margin: 2em 0;
+}

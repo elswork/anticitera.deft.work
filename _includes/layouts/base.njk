@@ -45,10 +45,13 @@
 		{#- Add the contents of a file to the bundle #}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
 		{#- Or add from node_modules #}
+		{%- css %}{% include "node_modules/lite-youtube-embed/src/lite-yt-embed.css" %}{% endcss %}
 		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
 
 		{#- Render the CSS bundle using Inlined CSS (for the fastest site performance in production) #}
-		<style>{% getBundle "css" %}</style>
+				<style>{% getBundle "css" %}</style>
+
+		{%- js %}{% include "node_modules/lite-youtube-embed/src/lite-yt-embed.js" %}{% endjs %}
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 		<link rel="stylesheet" href="/css/bundle.css">
@@ -231,5 +234,7 @@
 				});
 			});
 		</script>
+			<script type="module" src="{{ '/js/lite-yt-embed.js' | url }}"></script>
+			<script>{% getBundle "js" %}</script>
 	</body>
 </html>
