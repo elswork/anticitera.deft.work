@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+eleventyComputed:
+  title: "Tutte le etichette"
+permalink: /it/tags/
+lang: "it"
+---
+<h1>Tutte le etichette</h1>
+
+<ul>
+{% for tag in collections.all | getAllTags | filterTagList %}
+	{% set tagUrl %}/it/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>

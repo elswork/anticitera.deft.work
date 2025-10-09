@@ -1,0 +1,22 @@
+---
+layout: layouts/home.njk
+title: "Cos'è il Progetto .IA Isola di Anticitera?"
+eleventyNavigation:
+  key: Home
+  order: 1
+numberOfLatestPostsToShow: 3
+permalink: /it/
+lang: "it"
+---
+{% set postsCount = collections.posts_by_lang[lang] | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h1>Ultime {{ latestPostsCount }} Pubblicazion{% if latestPostsCount != 1 %}i{% endif %}</h1>
+
+{% set postslist = collections.posts_by_lang[lang] | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} altr{% if morePosts != 1 %}i{% endif %} post{% if morePosts != 1 %}s{% endif %} possono essere trovati in <a href="/it/blog/">l'archivio</a>.</p>
+{% endif %}

@@ -99,8 +99,10 @@
 					{# Portuguese pages show nav entries with URLs starting with /pt/ #}
 					{%- elif lang == 'pt' and entry.url and entry.url.startsWith('/pt/') %}
 						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{%- elif lang == 'it' and entry.url and entry.url.startsWith('/it/') %}
+						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 					{# Spanish pages show nav entries with URLs NOT starting with /en/ or /fr/ #}
-					{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') %}
+					{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') and not entry.url.startsWith('/it/') %}
 						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 					{%- endif %}
 				{%- endfor %}

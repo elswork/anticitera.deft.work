@@ -1,0 +1,12 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Blog
+  order: 2
+permalink: /it/blog/
+lang: "it"
+---
+<h1>Blog</h1>
+
+{% set postslist = collections.posts_by_lang[lang] %}
+{% include "postslist.njk" %}

@@ -90,5 +90,28 @@ module.exports = {
       view_comments: "Ver Comentários",
       new_comment: "Novo comentário"
     }
+  },
+  it: {
+    title: "Cos'è il Progetto .IA Isola di Anticitera?",
+    paragraph1: "Il Progetto .IA Isola di Anticitera è un'iniziativa che mira a creare un nuovo Dominio di Primo Livello con Codice Paese (ccTLD) .IA associato al territorio dell'Isola di Anticitera. Questa piccola isola, famosa per il Meccanismo di Anticitera, considerato il primo computer analogico della storia, diventa un simbolo delle origini dell'Intelligenza Artificiale e dell'innovazione tecnologica.",
+    paragraph2: "Il Progetto .IA Isola di Anticitera è anche la comunità di persone che in un modo o nell'altro fanno parte del progetto. Questo è l'asset più prezioso del progetto, quello che aiuterà il progetto a raggiungere i suoi obiettivi.",
+    link: {
+      text: "Cos'è il Progetto .IA Isola di Anticitera?",
+      url: "/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
+    },
+    messageBox: {
+      item1: "Esiste un ccTLD .AI comunemente utilizzato per progetti di 'Intelligenza Artificiale', ma non esiste il ccTLD .IA, che rappresenterebbe la maggioranza delle altre lingue del mondo.",
+      item2: "Cerchiamo di creare una comunità di appassionati di IA per promuovere la creazione del dominio di primo livello ccTLD .IA nel territorio storico dell'Isola di Anticitera.",
+      item3: "Consulta i dettagli del <a href=\"/it/about\">Progetto</a>.",
+      footer: "Questa è la Base di Conoscenza per l'<a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Assistente Anticitera di OpenAI</a> creato per assistere nella creazione di progetti tecnologici relativi a .IA"
+    },
+    buttons: {
+      edit_github: "Modifica su",
+      vote_change_org: "Firma su",
+      telegram_group: "Unisciti",
+      suscribe_mail_list: "Sottoscrivi",
+      view_comments: "Vedi Commenti",
+      new_comment: "Nuovo commento"
+    }
   }
 };
