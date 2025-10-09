@@ -1,0 +1,19 @@
+---
+layout: layouts/home.njk
+pagination:
+  data: collections.posts
+  size: 5
+  alias: posts
+  reverse: true
+  filter:
+    - all
+    - posts_by_lang
+permalink: /de/blog{% if pagination.pageNumber > 0 %}/page-{{ pagination.pageNumber + 1 }}{% endif %}/
+lang: "de"
+eleventyComputed:
+  title: "{% if pagination.pageNumber > 0 %}Blog Seite {{ pagination.pageNumber + 1}} - {% endif %}Archiv"
+---
+
+{% set postslist = posts | where("data.lang", "de") %}
+{% set postslistCounter = postslist | length %}
+{% include "postslist.njk" %}

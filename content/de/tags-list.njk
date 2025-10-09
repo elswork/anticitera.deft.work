@@ -1,0 +1,15 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+layout: layouts/home.njk
+permalink: /de/tags/
+lang: "de"
+eleventyComputed:
+  title: Tags ({{ collections.tagList | length }})
+---
+<h1>Tags</h1>
+
+{% set taglist = collections.tagList %}
+{% include "taglist.njk" %}

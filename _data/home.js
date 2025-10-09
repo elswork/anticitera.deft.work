@@ -113,5 +113,28 @@ module.exports = {
       view_comments: "Vedi Commenti",
       new_comment: "Nuovo commento"
     }
+  },
+  de: {
+    title: "Was ist das .IA Antikythera-Insel-Projekt?",
+    paragraph1: "Das .IA Antikythera-Insel-Projekt ist eine Initiative, die darauf abzielt, eine neue Country Code Top-Level Domain (ccTLD) .IA zu schaffen, die mit dem Gebiet der Insel Antikythera verbunden ist. Diese kleine Insel, berühmt für den Mechanismus von Antikythera, der als der erste Analogcomputer der Geschichte gilt, wird zu einem Symbol für die Ursprünge der Künstlichen Intelligenz und technologischen Innovation.",
+    paragraph2: "Das .IA Antikythera-Insel-Projekt ist auch die Gemeinschaft von Menschen, die auf die eine oder andere Weise Teil des Projekts sind. Dies ist das wertvollste Gut des Projekts, das dem Projekt dabei helfen wird, seine Ziele zu erreichen.",
+    link: {
+      text: "Was ist das .IA Antikythera-Insel-Projekt?",
+      url: "/de/blog/Was_ist_das_.IA_Antikythera-Insel-Projekt/"
+    },
+    messageBox: {
+      item1: "Es gibt eine ccTLD .AI, die häufig für 'Künstliche Intelligenz'-Projekte verwendet wird, aber es gibt keine ccTLD .IA, die die Mehrheit der anderen Sprachen der Welt repräsentieren würde.",
+      item2: "Wir versuchen, eine Gemeinschaft von KI-Enthusiasten zu schaffen, um die Schaffung der Top-Level-Domain ccTLD .IA im historischen Gebiet der Insel Antikythera zu fördern.",
+      item3: "Siehe die Details des <a href=\"/de/about\">Projekts</a>.",
+      footer: "Dies ist die Wissensbasis für den <a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Antikythera-Assistenten von OpenAI</a>, der zur Unterstützung bei der Erstellung technologischer Projekte im Zusammenhang mit .IA entwickelt wurde"
+    },
+    buttons: {
+      edit_github: "Bearbeiten auf",
+      vote_change_org: "Unterschreiben auf",
+      telegram_group: "Beitreten",
+      suscribe_mail_list: "Abonnieren",
+      view_comments: "Kommentare anzeigen",
+      new_comment: "Neuer Kommentar"
+    }
   }
 };
