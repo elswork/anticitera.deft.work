@@ -1,43 +1,50 @@
 module.exports = {
   es: {
     name: "Español",
-    flag: "🇪🇸",
+    flag: "ES",
+    flagEmoji: "🇪🇸",
     code: "es",
     nativeName: "Español"
   },
   en: {
     name: "English", 
-    flag: "🇬🇧",
+    flag: "EN",
+    flagEmoji: "🇬🇧",
     code: "en",
     nativeName: "English"
   },
   fr: {
     name: "Français",
-    flag: "🇫🇷", 
+    flag: "FR",
+    flagEmoji: "🇫🇷", 
     code: "fr",
     nativeName: "Français"
   },
   pt: {
     name: "Português",
-    flag: "🇵🇹",
+    flag: "PT",
+    flagEmoji: "🇵🇹",
     code: "pt", 
     nativeName: "Português"
   },
   it: {
     name: "Italiano",
-    flag: "🇮🇹",
+    flag: "IT",
+    flagEmoji: "🇮🇹",
     code: "it",
     nativeName: "Italiano"
   },
   de: {
     name: "Deutsch",
-    flag: "🇩🇪",
+    flag: "DE",
+    flagEmoji: "🇩🇪",
     code: "de",
     nativeName: "Deutsch"
   },
   el: {
     name: "Ελληνικά", 
-    flag: "🇬🇷",
+    flag: "GR",
+    flagEmoji: "🇬🇷",
     code: "el",
     nativeName: "Ελληνικά"
   }

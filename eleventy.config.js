@@ -43,9 +43,21 @@ module.exports = function(eleventyConfig) {
 		languages = languages || {};
 		hreflangUrls = hreflangUrls || {};
 		
+		// Create flag display function
+		function getFlagDisplay(langCode, lang) {
+			// Try emoji first, fallback to SVG image, then country code
+			if (lang?.flagEmoji) {
+				return `<span class="flag-emoji">${lang.flagEmoji}</span><img src="/img/flags/${langCode}.svg" alt="${lang.flag}" class="flag-svg" style="display:none;" width="20" height="14">`;
+			}
+			return `<img src="/img/flags/${langCode}.svg" alt="${lang?.flag || langCode.toUpperCase()}" class="flag-svg" width="20" height="14">`;
+		}
+		
+		const currentLangData = languages[currentLang];
+		const flagDisplay = getFlagDisplay(currentLang, currentLangData);
+		
 		let html = `<div class="language-selector">
 			<button class="language-selector-button" aria-label="Select language">
-				<span class="language-flag">${languages[currentLang]?.flag || '🌐'}</span>
+				<span class="language-flag">${flagDisplay}</span>
 				<span class="language-code">${currentLang.toUpperCase()}</span>
 			</button>
 			<div class="language-dropdown">`;
@@ -58,8 +70,10 @@ module.exports = function(eleventyConfig) {
 			const url = isAvailable ? hreflangUrls[langCode] : '#';
 			const className = `language-option ${isCurrent ? 'current' : ''}`;
 			
+			const optionFlag = getFlagDisplay(langCode, lang);
+			
 			html += `<a href="${url}" class="${className}" ${!isAvailable ? 'style="opacity: 0.5; pointer-events: none;"' : ''}>
-				<span class="language-flag">${lang.flag}</span>
+				<span class="language-flag">${optionFlag}</span>
 				<span class="language-name">${lang.nativeName}</span>
 				<span class="language-code">${lang.code}</span>
 			</a>`;

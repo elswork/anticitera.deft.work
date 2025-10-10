@@ -98,9 +98,38 @@
 }
 
 .language-flag {
-  font-size: 20px;
   width: 28px;
+  height: 20px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+}
+
+.language-flag .flag-emoji {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.language-flag .flag-svg {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+/* Fallback detection for emoji support */
+@supports not (font-family: "Apple Color Emoji") {
+  .language-flag .flag-emoji {
+    display: none;
+  }
+  .language-flag .flag-svg {
+    display: block !important;
+  }
 }
 
 .language-name {
