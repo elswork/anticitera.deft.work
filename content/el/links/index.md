@@ -1,18 +1,37 @@
 ---
 layout: layouts/base.njk
-title: Σύνδεσμοι
-description: Σχετικοί σύνδεσμοι για το Έργο .IA Νήσου Αντικυθήρων.
+title: Τμήμα Συνδέσμων
+description: Σχετικοί σύνδεσμοι για το Πρόγραμμα .IA Νησί Αντικυθήρων.
 date: Last Modified
+lang: el
 eleventyNavigation:
-  key: Σύνδεσμοι
-  order: 4
-permalink: /el/links/
-lang: "el"
+  key: Links
+  order: 3
 ---
-# Σύνδεσμοι
 
-- [OpenAI GPTs Anticitera](https://chat.openai.com/g/g-fnpHOClUW-anticitera) είναι ο 🤖 βοηθός που με βοηθά σε αυτό το έργο.
-- [Κρατήστε τον Τομέα .IA σας](https://docs.google.com/forms/d/e/1FAIpQLScj1paIvOUbqugD76fKncZ65ZOqL-f5bILycZComuxKhJeRPg/viewform?usp=sf_link) 📄 φόρμα κρατήσεων.
+<h1>Σύνδεσμοι Αντικυθήρων</h1>
+
+<div class="links-container">
+{% for link in links %}
+    <div class="link-item">
+        <a href="{{ link.url }}" target="_blank" class="link-title">{{ link.title }}</a>
+        <p class="link-description">{{ link.description }}</p>
+        {% if link.url and (link.url.includes('youtube.com') or link.url.includes('youtu.be')) %}
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{{ link.url | youtubeID }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        {% else %}
+            <div class="gallery">
+                <button class="gallery-prev">◀</button>
+                <button class="gallery-next">▶</button>
+                {% for imageUrl in link.imageUrls %}
+                    <img src="{{ imageUrl }}" alt="Σχετική εικόνα">
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endfor %}
+</div>
 - [✍️ Επίσημη Λίστα Κρατήσεων](https://docs.google.com/spreadsheets/d/1y-aLEKfQySJeDgZd4QeHa57G9P9Pp4mqWhLJSqxcB0o/edit?usp=sharing)
 - [Πίνακας Ατόμων και Οργανισμών](https://docs.google.com/spreadsheets/d/1-6lBWrMexLKKDpfI2u8zKnvit3mXeZT9Zs6ngZk4glI/edit?usp=sharing)
 - [Ας ζητήσουμε τη Δημιουργία του Νέου Τομέα Ανώτατου Επιπέδου ccTLD .IA](https://chng.it/hqCyzBpwgW) Πρόταση στο Change.org

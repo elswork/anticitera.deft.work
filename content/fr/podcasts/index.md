@@ -1,15 +1,21 @@
 ---
 layout: layouts/base.njk
 title: Podcasts
-description: Podcasts pertinents du Projet .IA Île d'Anticythère.
+description: Podcasts pertinents pour le Projet .IA Île d'Anticythère.
 date: Last Modified
+lang: fr
 eleventyNavigation:
   key: Podcasts
   order: 5
-lang: "fr"
 ---
-# Podcasts
 
-- [Día Zero par Capa8 - Anticythère la connexion entre l'histoire et l'innovation avec Eloy Lopéz](https://open.spotify.com/episode/4xM1ANXTokj1RdTU9QmIFB?go=1&sp_cid=66afdca16c3716c81e696097aeb7df6b&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=8b3675c242d54d2b)
-- [Entretien CosasdeHackers - Eloy López et le DOMAIN HACK .IA de l'ÎLE D'ANTICYTHÈRE](https://www.youtube.com/live/AriKIdJTeak?si=g1KsUQkfZrWh2DoS)
-- [Entretien Hack by Security](https://www.hackbysecurity.com/blog/entrevista-a-eloy-lopez)
+<h1>#ÎleAnticythère dans les Podcasts</h1>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/12WGbrVFWpJPQyOznnnI6f?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<hr>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4xM1ANXTokj1RdTU9QmIFB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<hr>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0zkRLxViiNX7liGZ7XYtLZ?utm_source=generator&t=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<hr>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0ONjzyNeTKsFwK5YB8ebwC?utm_source=generator&theme=0&t=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<hr>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4YTzWuMj5KsVaT98EsvyzH?utm_source=generator&t=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
