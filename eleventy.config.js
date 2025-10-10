@@ -46,6 +46,42 @@ module.exports = function(eleventyConfig) {
 		return markdownLib.render(content);
 	});
 
+	// Filtro para generar hreflang URLs
+	eleventyConfig.addFilter("hreflangUrls", function(currentUrl, collections) {
+		const languages = ['es', 'en', 'fr', 'pt', 'it', 'de', 'el'];
+		const urls = {};
+		
+		// Normalizar la URL actual eliminando prefijos de idioma
+		let basePath = currentUrl;
+		languages.forEach(lang => {
+			basePath = basePath.replace(new RegExp(`^/${lang}/`), '/');
+		});
+		
+		// Para cada idioma, verificar si existe la página correspondiente
+		languages.forEach(lang => {
+			let targetUrl;
+			if (lang === 'es') {
+				// Español es el idioma por defecto
+				targetUrl = basePath;
+			} else {
+				targetUrl = `/${lang}${basePath}`;
+			}
+			
+			// Verificar si la página existe en las colecciones
+			const pageExists = collections.all.find(item => {
+				return item.url === targetUrl || 
+					   item.url === targetUrl.replace(/\/$/, '/index.html') ||
+					   item.url === targetUrl + 'index.html';
+			});
+			
+			if (pageExists) {
+				urls[lang] = targetUrl;
+			}
+		});
+		
+		return urls;
+	});
+
 	eleventyConfig.addCollection("posts_by_lang", function(collectionApi) {
 		const posts = collectionApi.getFilteredByTag("posts");
 		const postsByLang = {};

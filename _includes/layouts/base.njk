@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ metadata.language }}">
+<html lang="{{ lang or metadata.language }}">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,6 +27,16 @@
 		<meta property="og:image" content="{{ metadata.url }}img/anticitera.webp">
 		<meta property="og:url" content="{{ metadata.url }}">
 		<meta property="og:type" content="website">
+
+		{#- Hreflang tags for multilingual support #}
+		{%- set hreflangUrls = page.url | hreflangUrls(collections) %}
+		{%- for lang, url in hreflangUrls %}
+		<link rel="alternate" hreflang="{{ lang }}" href="{{ metadata.url }}{{ url | replace('/', '', 1) }}">
+		{%- endfor %}
+		{#- x-default points to Spanish version if it exists #}
+		{%- if hreflangUrls.es %}
+		<link rel="alternate" hreflang="x-default" href="{{ metadata.url }}{{ hreflangUrls.es | replace('/', '', 1) }}">
+		{%- endif %}
 
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
