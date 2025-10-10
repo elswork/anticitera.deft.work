@@ -1,0 +1,73 @@
+# Robots.txt para anticitera.deft.work
+# Proyecto .IA Isla Anticitera - Base de Conocimiento
+# Permitir acceso completo a todos los bots de búsqueda para máxima visibilidad
+
+User-agent: *
+Allow: /
+
+# Directorios específicos permitidos explícitamente
+Allow: /es/
+Allow: /en/
+Allow: /fr/
+Allow: /pt/
+Allow: /it/
+Allow: /de/
+Allow: /el/
+Allow: /blog/
+Allow: /about/
+Allow: /links/
+Allow: /podcasts/
+Allow: /feed/
+
+# Sitemap URLs para facilitar la indexación
+Sitemap: https://anticitera.deft.work/sitemap.xml
+Sitemap: https://anticitera.deft.work/feed/feed.xml
+Sitemap: https://anticitera.deft.work/feed/feed.json
+
+# Optimización específica para diferentes bots de búsqueda
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Bots de redes sociales para compartir contenido
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Crawl-delay general para bots más agresivos
+User-agent: *
+Crawl-delay: 1
+
+# Host canónico
+Host: anticitera.deft.work
