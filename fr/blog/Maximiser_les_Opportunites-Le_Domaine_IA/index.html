@@ -478,6 +478,187 @@ main lite-youtube {
 	display: block;
 	margin: 2em 0;
 }
+/* Language Selector Styles */
+.language-selector {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  z-index: 9999;
+}
+
+.language-selector-button {
+  background: #3498db;
+  border: 1px solid #2980b9;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 90px;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+.language-selector-button:hover {
+  background: #2980b9;
+  border-color: #1f5582;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+  transform: translateY(-1px);
+}
+
+.language-selector-button:focus {
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+.language-selector-button::after {
+  content: '▼';
+  font-size: 10px;
+  transition: transform 0.3s ease;
+  margin-left: auto;
+}
+
+.language-selector.open .language-selector-button::after {
+  transform: rotate(180deg);
+}
+
+.language-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  min-width: 220px;
+  z-index: 10000;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: all 0.3s ease;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.language-selector.open .language-dropdown {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.language-option:last-child {
+  border-bottom: none;
+}
+
+.language-option:hover {
+  background: #f8f9fa;
+  color: #2980b9;
+}
+
+.language-option.current {
+  background: #e3f2fd;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.language-flag {
+  font-size: 20px;
+  width: 28px;
+  text-align: center;
+}
+
+.language-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.language-code {
+  color: #666;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .language-selector {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .language-selector-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .language-dropdown {
+    right: auto;
+    left: 0;
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+/* Integration with existing nav - IMPROVED */
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+header nav .nav {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Ensure language selector is visible */
+header {
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+  
+  header nav .nav {
+    order: 1;
+    justify-content: center;
+  }
+  
+  .language-selector {
+    order: 2;
+    align-self: center;
+  }
+}
 lite-youtube {
     background-color: #000;
     position: relative;
@@ -660,6 +841,40 @@ lite-youtube.lyt-activated > .lty-playbtn {
 					
 					
 				</ul>
+				<div class="language-selector">
+			<button class="language-selector-button" aria-label="Select language">
+				<span class="language-flag">🇫🇷</span>
+				<span class="language-code">FR</span>
+			</button>
+			<div class="language-dropdown"><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇪🇸</span>
+				<span class="language-name">Español</span>
+				<span class="language-code">es</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇬🇧</span>
+				<span class="language-name">English</span>
+				<span class="language-code">en</span>
+			</a><a href="/fr/blog/Maximiser_les_Opportunites-Le_Domaine_IA/" class="language-option current" >
+				<span class="language-flag">🇫🇷</span>
+				<span class="language-name">Français</span>
+				<span class="language-code">fr</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇵🇹</span>
+				<span class="language-name">Português</span>
+				<span class="language-code">pt</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇮🇹</span>
+				<span class="language-name">Italiano</span>
+				<span class="language-code">it</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇩🇪</span>
+				<span class="language-name">Deutsch</span>
+				<span class="language-code">de</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇬🇷</span>
+				<span class="language-name">Ελληνικά</span>
+				<span class="language-code">el</span>
+			</a></div></div>
 			</nav>
 		</header>
 
@@ -853,7 +1068,34 @@ lite-youtube.lyt-activated > .lty-playbtn {
 		<!-- Current page: /fr/blog/Maximiser_les_Opportunites-Le_Domaine_IA/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
-				// ...resto del código para las galerías...
+				// Language selector functionality
+				const languageSelector = document.querySelector('.language-selector');
+				if (languageSelector) {
+					const button = languageSelector.querySelector('.language-selector-button');
+					const dropdown = languageSelector.querySelector('.language-dropdown');
+					
+					button.addEventListener('click', (e) => {
+						e.stopPropagation();
+						languageSelector.classList.toggle('open');
+					});
+					
+					// Close dropdown when clicking outside
+					document.addEventListener('click', () => {
+						languageSelector.classList.remove('open');
+					});
+					
+					// Prevent dropdown from closing when clicking inside it
+					dropdown.addEventListener('click', (e) => {
+						e.stopPropagation();
+					});
+					
+					// Close dropdown on escape key
+					document.addEventListener('keydown', (e) => {
+						if (e.key === 'Escape') {
+							languageSelector.classList.remove('open');
+						}
+					});
+				}
 
 				// Bucle para manejar cada botón "Ver Comentarios"
 				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {

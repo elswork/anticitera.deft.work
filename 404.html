@@ -327,6 +327,187 @@ main lite-youtube {
 	display: block;
 	margin: 2em 0;
 }
+/* Language Selector Styles */
+.language-selector {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  z-index: 9999;
+}
+
+.language-selector-button {
+  background: #3498db;
+  border: 1px solid #2980b9;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 90px;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+.language-selector-button:hover {
+  background: #2980b9;
+  border-color: #1f5582;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+  transform: translateY(-1px);
+}
+
+.language-selector-button:focus {
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+.language-selector-button::after {
+  content: '▼';
+  font-size: 10px;
+  transition: transform 0.3s ease;
+  margin-left: auto;
+}
+
+.language-selector.open .language-selector-button::after {
+  transform: rotate(180deg);
+}
+
+.language-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  min-width: 220px;
+  z-index: 10000;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: all 0.3s ease;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.language-selector.open .language-dropdown {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.language-option:last-child {
+  border-bottom: none;
+}
+
+.language-option:hover {
+  background: #f8f9fa;
+  color: #2980b9;
+}
+
+.language-option.current {
+  background: #e3f2fd;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.language-flag {
+  font-size: 20px;
+  width: 28px;
+  text-align: center;
+}
+
+.language-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.language-code {
+  color: #666;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .language-selector {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .language-selector-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .language-dropdown {
+    right: auto;
+    left: 0;
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+/* Integration with existing nav - IMPROVED */
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+header nav .nav {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Ensure language selector is visible */
+header {
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+  
+  header nav .nav {
+    order: 1;
+    justify-content: center;
+  }
+  
+  .language-selector {
+    order: 2;
+    align-self: center;
+  }
+}
 lite-youtube {
     background-color: #000;
     position: relative;
@@ -461,6 +642,17 @@ lite-youtube.lyt-activated > .lty-playbtn {
 					
 					
 					
+						<li class="nav-item"><a href="/">Inicio</a></li>
+					
+					
+					
+						<li class="nav-item"><a href="/blog/">Blog</a></li>
+					
+					
+					
+					
+					
+						<li class="nav-item"><a href="/about/">Proyecto</a></li>
 					
 					
 					
@@ -472,6 +664,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
 					
 					
 					
+						<li class="nav-item"><a href="/links/">Links</a></li>
 					
 					
 					
@@ -481,22 +674,50 @@ lite-youtube.lyt-activated > .lty-playbtn {
 					
 					
 					
+						<li class="nav-item"><a href="/x/">X</a></li>
 					
 					
 					
 					
 					
 					
-					
-					
-					
-					
-					
-					
-					
-					
+						<li class="nav-item"><a href="/podcasts/">Podcasts</a></li>
 					
 				</ul>
+				<div class="language-selector">
+			<button class="language-selector-button" aria-label="Select language">
+				<span class="language-flag">🇪🇸</span>
+				<span class="language-code">ES</span>
+			</button>
+			<div class="language-dropdown"><a href="#" class="language-option current" style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇪🇸</span>
+				<span class="language-name">Español</span>
+				<span class="language-code">es</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇬🇧</span>
+				<span class="language-name">English</span>
+				<span class="language-code">en</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇫🇷</span>
+				<span class="language-name">Français</span>
+				<span class="language-code">fr</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇵🇹</span>
+				<span class="language-name">Português</span>
+				<span class="language-code">pt</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇮🇹</span>
+				<span class="language-name">Italiano</span>
+				<span class="language-code">it</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇩🇪</span>
+				<span class="language-name">Deutsch</span>
+				<span class="language-code">de</span>
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag">🇬🇷</span>
+				<span class="language-name">Ελληνικά</span>
+				<span class="language-code">el</span>
+			</a></div></div>
 			</nav>
 		</header>
 
@@ -504,28 +725,28 @@ lite-youtube.lyt-activated > .lty-playbtn {
 		<ul class="post-metadata">
 			<li>				
 				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/404.md', '_blank')" id="edit-github-btn">
-					 
+					Editar en 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
   <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
 </svg> GitHub
 				</button>
 				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
-					 
+					Firma en 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>C</title>
   <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
 </svg>. Change.org
 				</button>
 				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
-					 
+					Entra al 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>Telegram</title>
   <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
 </svg> Telegram
 				</button>
 				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
-					 
+					Suscribete al 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>Gmail</title>
   <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
@@ -536,21 +757,21 @@ lite-youtube.lyt-activated > .lty-playbtn {
 		<br>
 			<!-- Delete this message, it will also remove the component CSS from the bundle -->
 <br>
-<h3></h3>
+<h3>¿Qué es el Proyecto .IA Isla Anticitera?</h3>
 
 <p>
-	
-	
+	El Proyecto .IA Isla Anticitera es una iniciativa que busca crear un nuevo Dominio de Nivel Superior de Código de País (ccTLD) .IA asociado al territorio de la Isla de Anticitera. Esta pequeña isla, famosa por el Mecanismo de Anticitera, considerado como la primera computadora analógica de la historia, se convierte en un símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.
+	El Proyecto .IA Isla Anticitera también es la comunidad de personas que de alguna u otra forma formamos parte del proyecto, este es el activo más valioso del proyecto, el que ayudará al proyecto a cumplir sus objetivos.
 	<br>
-	<a href=""></a>
+	<a href="/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">¿Qué es el Proyecto .IA Isla Anticitera?</a>
 </p>
 <div class="message-box">
 	<ol>
-		<li></li>
-    	<li></li>
-		<li></li>
+		<li>Existe un dominio ccTLD .AI comunmente utilizado para proyectos de &quot;Artificial Intelligence&quot;, pero no existe el ccTLD .IA que representaria a la mayoria del resto de idiomas del planeta.</li>
+    	<li>Buscamos crear una comunidad de entusiastas de la IA para promover la creación del dominio de nivel superior ccTLD .IA en el histórico territorio de Isla Anticitera.</li>
+		<li>Consulta los detalles del <a href="/about">Proyecto</a>.</li>
 	</ol>
-	<p><em></em></p>
+	<p><em>Esta es la Base de conocimiento para el <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Asistente Anticitera de OpenAI</a> creado para asistir en la creación de proyectos tecnologicos relacionados con la .IA</em></p>
 </div>
 <lite-youtube videoid="x1DeBF8bBVc"></lite-youtube>
 <!-- Stop deleting -->
@@ -570,7 +791,7 @@ This will work for both GitHub pages and Netlify:
 
 		<br>
 		
-			<button id="toggle-comments-btn"></button>
+			<button id="toggle-comments-btn">Ver Comentarios</button>
 			<div class="issue-container" style="display: none;">
 				<div class="issue-header">
 					<h3>Comentario de prueba</h3>
@@ -598,7 +819,7 @@ This will work for both GitHub pages and Netlify:
 					</div>
 				</div>
 			</div>
-			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create"></button>
+			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Nuevo comentario</button>
 		
 
 		</main>
@@ -668,7 +889,34 @@ This will work for both GitHub pages and Netlify:
 		<!-- Current page: /404.html -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
-				// ...resto del código para las galerías...
+				// Language selector functionality
+				const languageSelector = document.querySelector('.language-selector');
+				if (languageSelector) {
+					const button = languageSelector.querySelector('.language-selector-button');
+					const dropdown = languageSelector.querySelector('.language-dropdown');
+					
+					button.addEventListener('click', (e) => {
+						e.stopPropagation();
+						languageSelector.classList.toggle('open');
+					});
+					
+					// Close dropdown when clicking outside
+					document.addEventListener('click', () => {
+						languageSelector.classList.remove('open');
+					});
+					
+					// Prevent dropdown from closing when clicking inside it
+					dropdown.addEventListener('click', (e) => {
+						e.stopPropagation();
+					});
+					
+					// Close dropdown on escape key
+					document.addEventListener('keydown', (e) => {
+						if (e.key === 'Escape') {
+							languageSelector.classList.remove('open');
+						}
+					});
+				}
 
 				// Bucle para manejar cada botón "Ver Comentarios"
 				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
