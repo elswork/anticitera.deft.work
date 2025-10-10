@@ -36,6 +36,39 @@ module.exports = function(eleventyConfig) {
 		return `<lite-youtube videoid="${videoID}"></lite-youtube>`;
 	});
 
+	// Language selector shortcode
+	eleventyConfig.addShortcode("languageSelector", function(currentLang, currentUrl, languages, hreflangUrls) {
+		// Provide defaults if parameters are undefined
+		currentLang = currentLang || 'es';
+		languages = languages || {};
+		hreflangUrls = hreflangUrls || {};
+		
+		let html = `<div class="language-selector">
+			<button class="language-selector-button" aria-label="Select language">
+				<span class="language-flag">${languages[currentLang]?.flag || '🌐'}</span>
+				<span class="language-code">${currentLang.toUpperCase()}</span>
+			</button>
+			<div class="language-dropdown">`;
+		
+		// Generate language options
+		Object.keys(languages).forEach(langCode => {
+			const lang = languages[langCode];
+			const isAvailable = hreflangUrls[langCode];
+			const isCurrent = langCode === currentLang;
+			const url = isAvailable ? hreflangUrls[langCode] : '#';
+			const className = `language-option ${isCurrent ? 'current' : ''}`;
+			
+			html += `<a href="${url}" class="${className}" ${!isAvailable ? 'style="opacity: 0.5; pointer-events: none;"' : ''}>
+				<span class="language-flag">${lang.flag}</span>
+				<span class="language-name">${lang.nativeName}</span>
+				<span class="language-code">${lang.code}</span>
+			</a>`;
+		});
+		
+		html += `</div></div>`;
+		return html;
+	});
+
 	eleventyConfig.addFilter("date", (dateStr, formatStr = "dd/MM/yyyy HH:mm") => {
         return format(new Date(dateStr), formatStr);
     });

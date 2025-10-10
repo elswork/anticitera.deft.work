@@ -54,6 +54,7 @@
 		{%- css %}* { box-sizing: border-box; }{% endcss %}
 		{#- Add the contents of a file to the bundle #}
 		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+		{%- css %}{% include "public/css/language-selector.css" %}{% endcss %}
 		{#- Or add from node_modules #}
 		{%- css %}{% include "node_modules/lite-youtube-embed/src/lite-yt-embed.css" %}{% endcss %}
 		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
@@ -124,6 +125,8 @@
 					{%- endif %}
 				{%- endfor %}
 				</ul>
+				{%- set hreflangUrls = page.url | hreflangUrls(collections) %}
+				{% languageSelector lang, page.url, languages, hreflangUrls %}
 			</nav>
 		</header>
 
@@ -204,7 +207,34 @@
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
-				// ...resto del código para las galerías...
+				// Language selector functionality
+				const languageSelector = document.querySelector('.language-selector');
+				if (languageSelector) {
+					const button = languageSelector.querySelector('.language-selector-button');
+					const dropdown = languageSelector.querySelector('.language-dropdown');
+					
+					button.addEventListener('click', (e) => {
+						e.stopPropagation();
+						languageSelector.classList.toggle('open');
+					});
+					
+					// Close dropdown when clicking outside
+					document.addEventListener('click', () => {
+						languageSelector.classList.remove('open');
+					});
+					
+					// Prevent dropdown from closing when clicking inside it
+					dropdown.addEventListener('click', (e) => {
+						e.stopPropagation();
+					});
+					
+					// Close dropdown on escape key
+					document.addEventListener('keydown', (e) => {
+						if (e.key === 'Escape') {
+							languageSelector.classList.remove('open');
+						}
+					});
+				}
 
 				// Bucle para manejar cada botón "Ver Comentarios"
 				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
