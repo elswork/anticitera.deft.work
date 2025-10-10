@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
-title: Liens
-description: Liens pertinents du Projet .IA Île d'Anticythère.
+title: Section des Liens
+description: Liens pertinents pour le Projet .IA Île d'Anticythère.
 date: Last Modified
+lang: fr
 eleventyNavigation:
-  key: Liens
-  order: 4
-lang: "fr"
+  key: Links
+  order: 3
 ---
 # Liens
 
