@@ -1,0 +1,15 @@
+---
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tag
+layout: layouts/home.njk
+permalink: /el/tags/
+lang: "el"
+eleventyComputed:
+  title: Ετικέτες ({{ collections.tagList | length }})
+---
+<h1>Ετικέτες</h1>
+
+{% set taglist = collections.tagList %}
+{% include "taglist.njk" %}

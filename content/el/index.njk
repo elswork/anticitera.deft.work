@@ -1,0 +1,23 @@
+---
+layout: layouts/home.njk
+title: "Τι είναι το Έργο .IA Νήσου Αντικυθήρων;"
+eleventyNavigation:
+  key: Αρχική
+  order: 1
+numberOfLatestPostsToShow: 3
+permalink: /el/
+lang: "el"
+---
+{% set postslist = collections.posts | where("data.lang", "el") | reverse %}
+{% set latestPostsCount = postslist | length | min(numberOfLatestPostsToShow) %}
+<h1>Τελευταίες {{ latestPostsCount }} δημοσίευση{% if latestPostsCount != 1 %}εις{% endif %}</h1>
+
+{% set postslist = postslist | head(numberOfLatestPostsToShow) %}
+{% set postslistCounter = postslist | length %}
+{% include "postslist.njk" %}
+
+{% set totalPosts = collections.posts | where("data.lang", "el") | length %}
+{% set morePosts = totalPosts - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} επιπλέον δημοσίευση{% if morePosts != 1 %}εις{% endif %} μπορούν να βρεθούν στο <a href="/el/blog/">αρχείο</a>.</p>
+{% endif %}

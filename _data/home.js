@@ -114,6 +114,29 @@ module.exports = {
       new_comment: "Nuovo commento"
     }
   },
+  el: {
+    title: "Τι είναι το Έργο .IA Νήσου Αντικυθήρων;",
+    paragraph1: "Το Έργο .IA Νήσου Αντικυθήρων είναι μια πρωτοβουλία που επιδιώκει να δημιουργήσει έναν νέο Τομέα Ανώτατου Επιπέδου Κωδικού Χώρας (ccTLD) .IA συνδεδεμένο με την επικράτεια του Νησιού των Αντικυθήρων. Αυτό το μικρό νησί, διάσημο για τον Μηχανισμό των Αντικυθήρων, που θεωρείται ο πρώτος αναλογικός υπολογιστής της ιστορίας, γίνεται σύμβολο των απαρχών της Τεχνητής Νοημοσύνης και της τεχνολογικής καινοτομίας.",
+    paragraph2: "Το Έργο .IA Νήσου Αντικυθήρων είναι επίσης η κοινότητα ανθρώπων που με τον έναν ή τον άλλο τρόπο αποτελούμε μέρος του έργου. Αυτό είναι το πολυτιμότερο περιουσιακό στοιχείο του έργου, εκείνο που θα βοηθήσει το έργο να επιτύχει τους στόχους του.",
+    link: {
+      text: "Τι είναι το Έργο .IA Νήσου Αντικυθήρων;",
+      url: "/el/blog/Ti_einai_to_Ergo_IA_Nisou_Antikythiron/"
+    },
+    messageBox: {
+      item1: "Υπάρχει ένας ccTLD .AI που χρησιμοποιείται συχνά για έργα \"Τεχνητής Νοημοσύνης\", αλλά δεν υπάρχει ο ccTLD .IA που θα αντιπροσώπευε την πλειονότητα των υπόλοιπων γλωσσών του πλανήτη.",
+      item2: "Επιδιώκουμε να δημιουργήσουμε μια κοινότητα ενθουσιωδών ΤΝ για να προωθήσουμε τη δημιουργία του τομέα ανώτατου επιπέδου ccTLD .IA στην ιστορική επικράτεια του Νησιού των Αντικυθήρων.",
+      item3: "Συμβουλευτείτε τις λεπτομέρειες του <a href=\"/el/about\">Έργου</a>.",
+      footer: "Αυτή είναι η Βάση Γνώσης για τον <a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Βοηθό Αντικύθηρα από OpenAI</a> που δημιουργήθηκε για να βοηθήσει στη δημιουργία τεχνολογικών έργων σχετικών με την .IA"
+    },
+    buttons: {
+      edit_github: "Επεξεργασία στο",
+      vote_change_org: "Υπογραφή στο",
+      telegram_group: "Είσοδος στο",
+      suscribe_mail_list: "Εγγραφή στη",
+      view_comments: "Προβολή Σχολίων",
+      new_comment: "Νέο σχόλιο"
+    }
+  },
   de: {
     title: "Was ist das .IA Antikythera-Insel-Projekt?",
     paragraph1: "Das .IA Antikythera-Insel-Projekt ist eine Initiative, die darauf abzielt, eine neue Country Code Top-Level Domain (ccTLD) .IA zu schaffen, die mit dem Gebiet der Insel Antikythera verbunden ist. Diese kleine Insel, berühmt für den Mechanismus von Antikythera, der als der erste Analogcomputer der Geschichte gilt, wird zu einem Symbol für die Ursprünge der Künstlichen Intelligenz und technologischen Innovation.",
