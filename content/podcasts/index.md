@@ -3,9 +3,10 @@ layout: layouts/base.njk
 title: Podcasts
 description: Podcasts relevantes para el Proyecto .IA Isla Anticitera.
 date: Last Modified
+lang: es
 eleventyNavigation:
   key: Podcasts
-  order: 4
+  order: 5
 ---
 
 <h1>#IslaAnticitera en Podcasts</h1>

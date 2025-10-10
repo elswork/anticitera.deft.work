@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: Publicación en X
 description: Posts relevantes del Proyecto .IA Isla Anticitera.
 date: Last Modified
+lang: es
 eleventyNavigation:
   key: X
   order: 4

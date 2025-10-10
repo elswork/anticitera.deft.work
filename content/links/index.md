@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: Sección de Links
 description: Links relevantes del Proyecto .IA Isla Anticitera.
 date: Last Modified
+lang: es
 eleventyNavigation:
   key: Links
   order: 3
