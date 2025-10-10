@@ -436,9 +436,38 @@ main lite-youtube {
 }
 
 .language-flag {
-  font-size: 20px;
   width: 28px;
+  height: 20px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+}
+
+.language-flag .flag-emoji {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.language-flag .flag-svg {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+/* Fallback detection for emoji support */
+@supports not (font-family: "Apple Color Emoji") {
+  .language-flag .flag-emoji {
+    display: none;
+  }
+  .language-flag .flag-svg {
+    display: block !important;
+  }
 }
 
 .language-name {
@@ -699,35 +728,35 @@ lite-youtube.lyt-activated > .lty-playbtn {
 				</ul>
 				<div class="language-selector">
 			<button class="language-selector-button" aria-label="Select language">
-				<span class="language-flag">🇩🇪</span>
+				<span class="language-flag"><span class="flag-emoji">🇩🇪</span><img src="/img/flags/de.svg" alt="DE" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-code">DE</span>
 			</button>
 			<div class="language-dropdown"><a href="/tags/gemini/" class="language-option " >
-				<span class="language-flag">🇪🇸</span>
+				<span class="language-flag"><span class="flag-emoji">🇪🇸</span><img src="/img/flags/es.svg" alt="ES" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Español</span>
 				<span class="language-code">es</span>
 			</a><a href="/en/tags/gemini/" class="language-option " >
-				<span class="language-flag">🇬🇧</span>
+				<span class="language-flag"><span class="flag-emoji">🇬🇧</span><img src="/img/flags/en.svg" alt="EN" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">English</span>
 				<span class="language-code">en</span>
 			</a><a href="/fr/tags/gemini/" class="language-option " >
-				<span class="language-flag">🇫🇷</span>
+				<span class="language-flag"><span class="flag-emoji">🇫🇷</span><img src="/img/flags/fr.svg" alt="FR" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Français</span>
 				<span class="language-code">fr</span>
 			</a><a href="/pt/tags/gemini/" class="language-option " >
-				<span class="language-flag">🇵🇹</span>
+				<span class="language-flag"><span class="flag-emoji">🇵🇹</span><img src="/img/flags/pt.svg" alt="PT" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Português</span>
 				<span class="language-code">pt</span>
 			</a><a href="/it/tags/gemini/" class="language-option " >
-				<span class="language-flag">🇮🇹</span>
+				<span class="language-flag"><span class="flag-emoji">🇮🇹</span><img src="/img/flags/it.svg" alt="IT" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Italiano</span>
 				<span class="language-code">it</span>
 			</a><a href="/de/tags/gemini/" class="language-option current" >
-				<span class="language-flag">🇩🇪</span>
+				<span class="language-flag"><span class="flag-emoji">🇩🇪</span><img src="/img/flags/de.svg" alt="DE" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Deutsch</span>
 				<span class="language-code">de</span>
 			</a><a href="/el/tags/gemini/" class="language-option " >
-				<span class="language-flag">🇬🇷</span>
+				<span class="language-flag"><span class="flag-emoji">🇬🇷</span><img src="/img/flags/el.svg" alt="GR" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Ελληνικά</span>
 				<span class="language-code">el</span>
 			</a></div></div>
@@ -919,6 +948,46 @@ lite-youtube.lyt-activated > .lty-playbtn {
 		<!-- Current page: /de/tags/gemini/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
+				// Emoji support detection
+				function hasEmojiSupport() {
+					const canvas = document.createElement('canvas');
+					const ctx = canvas.getContext('2d');
+					canvas.width = 20;
+					canvas.height = 20;
+					
+					ctx.textBaseline = 'middle';
+					ctx.textAlign = 'center';
+					ctx.fillStyle = '#000';
+					ctx.font = '16px Arial';
+					ctx.fillText('🇪🇸', 10, 10);
+					
+					const imageData = ctx.getImageData(0, 0, 20, 20);
+					const data = imageData.data;
+					
+					// Check if pixels have color (not just black/white)
+					for (let i = 0; i < data.length; i += 4) {
+						const r = data[i];
+						const g = data[i + 1];
+						const b = data[i + 2];
+						const a = data[i + 3];
+						
+						if (a > 0 && (r !== g || g !== b)) {
+							return true;
+						}
+					}
+					return false;
+				}
+				
+				// If no emoji support, show SVG flags
+				if (!hasEmojiSupport()) {
+					document.querySelectorAll('.flag-emoji').forEach(emoji => {
+						emoji.style.display = 'none';
+					});
+					document.querySelectorAll('.flag-svg').forEach(svg => {
+						svg.style.display = 'block';
+					});
+				}
+
 				// Language selector functionality
 				const languageSelector = document.querySelector('.language-selector');
 				if (languageSelector) {
