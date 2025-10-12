@@ -95,7 +95,6 @@ NVIDIA已成为人工智能（AI）行业无可争议的领导者。据一些专
 
 ### Industr.ia
 
-### Factor.ia
 
 ### Alimentar.ia
 

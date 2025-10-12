@@ -95,7 +95,6 @@ tags:
 
 ### Industr.ia
 
-### Factor.ia
 
 ### Alimentar.ia
 

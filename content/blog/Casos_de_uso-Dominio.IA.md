@@ -95,8 +95,10 @@ Una app de información y alerta con inteligencia artificial capaz de salvar vid
 
 ### Industr.ia
 
-### Factor.ia
-
 ### Alimentar.ia
 
 ### Factor.ia
+
+
+
+
