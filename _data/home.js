@@ -159,5 +159,28 @@ module.exports = {
       view_comments: "Kommentare anzeigen",
       new_comment: "Neuer Kommentar"
     }
+  },
+  cn: {
+    title: "什么是.IA安提基特拉岛项目？",
+    paragraph1: ".IA安提基特拉岛项目是一项旨在为安提基特拉岛地区创建一个新的国家代码顶级域名（ccTLD）.IA的倡议。这个小岛因安提基特拉机械而闻名，该机械被认为是历史上第一台模拟计算机，因此成为人工智能和技术创新起源的象征。",
+    paragraph2: ".IA安提基特拉岛项目也是由以各种方式参与该项目的人们组成的社区，这是该项目最宝贵的资产，将帮助项目实现其目标。",
+    link: {
+      text: "什么是.IA安提基特拉岛项目？",
+      url: "/cn/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
+    },
+    messageBox: {
+      item1: "存在一个通常用于‘人工智能’项目的ccTLD .AI，但代表地球上大多数其他语言的ccTLD .IA尚不存在。",
+      item2: "我们寻求创建一个人工智能爱好者社区，以推动在历史悠久的安提基特拉岛领土上创建ccTLD .IA顶级域名。",
+      item3: "查看<a href=\"/cn/about\">项目</a>详情。",
+      footer: "这是为<a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">OpenAI的安提基特拉助手</a>创建的知识库，旨在协助创建与.IA相关的技术项目。"
+    },
+    buttons: {
+      edit_github: "在GitHub上编辑",
+      vote_change_org: "在Change.org上签名",
+      telegram_group: "加入Telegram",
+      suscribe_mail_list: "订阅邮件列表",
+      view_comments: "查看评论",
+      new_comment: "发表新评论"
+    }
   }
 };

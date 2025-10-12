@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+eleventyComputed:
+  title: "所有标签"
+permalink: /{{ lang }}/tags/
+---
+<h1>所有标签</h1>
+
+{% set tagList = collections.all | getAllTags | filterTagList %}
+<ul>
+{% for tag in tagList %}
+  {% set tagUrl %}/{{ lang }}/tags/{{ tag | slugify }}/{% endset %}
+  <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+{% endfor %}
+</ul>

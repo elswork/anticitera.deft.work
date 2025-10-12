@@ -119,8 +119,11 @@
 					{# Greek pages show nav entries with URLs starting with /el/ #}
 					{%- elif lang == 'el' and entry.url and entry.url.startsWith('/el/') %}
 						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# Spanish pages show nav entries with URLs NOT starting with /en/ or /fr/ #}
-					{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') and not entry.url.startsWith('/it/') and not entry.url.startsWith('/de/') and not entry.url.startsWith('/el/') %}
+					{# Chinese pages show nav entries with URLs starting with /cn/ #}
+					{%- elif lang == 'cn' and entry.url and entry.url.startsWith('/cn/') %}
+						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{# Spanish pages show nav entries with URLs NOT starting with /en/ or /fr/ etc. #}
+					{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') and not entry.url.startsWith('/it/') and not entry.url.startsWith('/de/') and not entry.url.startsWith('/el/') and not entry.url.startsWith('/cn/') %}
 						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 					{%- endif %}
 				{%- endfor %}

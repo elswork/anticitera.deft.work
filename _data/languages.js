@@ -47,5 +47,12 @@ module.exports = {
     flagEmoji: "🇬🇷",
     code: "el",
     nativeName: "Ελληνικά"
+  },
+  cn: {
+    name: "中文",
+    flag: "CN",
+    flagEmoji: "🇨🇳",
+    code: "cn",
+    nativeName: "中文"
   }
 };

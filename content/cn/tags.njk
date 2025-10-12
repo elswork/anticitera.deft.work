@@ -1,0 +1,23 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - post
+    - posts
+    - tagList
+    - posts_by_lang
+  addAllPagesToCollections: true
+layout: layouts/home.njk
+eleventyComputed:
+  title: "标签“{{ tag }}”"
+permalink: /{{ lang }}/tags/{{ tag | slugify }}/
+---
+<h1>标签“{{ tag }}”</h1>
+
+{% set postslist = collections[ tag ] | where("data.lang", lang) %}
+{% include "postslist.njk" %}
+
+<p>查看<a href="/{{ lang }}/tags/">所有标签</a>。</p>
