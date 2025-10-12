@@ -142,6 +142,10 @@ module.exports = function(eleventyConfig) {
 		return postsByLang;
 	});
 
+	eleventyConfig.addCollection("germanPosts", function(collectionApi) {
+		return collectionApi.getAll().filter(item => item.inputPath.startsWith('./content/de/blog/'));
+	});
+
 	eleventyConfig.addCollection("customFeed", function(collectionApi) {
 		// Obtener posts y otros elementos
 		let items = collectionApi.getFilteredByTag("post");
