@@ -54,5 +54,12 @@ module.exports = {
     flagEmoji: "🇨🇳",
     code: "cn",
     nativeName: "中文"
+  },
+  ru: {
+    name: "Русский",
+    flag: "RU",
+    flagEmoji: "🇷🇺",
+    code: "ru",
+    nativeName: "Русский"
   }
 };

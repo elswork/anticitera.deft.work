@@ -1,0 +1,20 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Главная
+  order: 1
+numberOfLatestPostsToShow: 3
+lang: "ru"
+---
+{% set postsCount = collections.posts_by_lang[lang] | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h1>Последние {{ latestPostsCount }} статьи</h1>
+
+{% set postslist = collections.posts_by_lang[lang] | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} других статей можно найти в <a href="/ru/blog/">архиве</a>.</p>
+{% endif %}

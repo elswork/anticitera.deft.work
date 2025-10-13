@@ -1,0 +1,24 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - post
+    - posts
+    - tagList
+    - posts_by_lang
+  addAllPagesToCollections: true
+layout: layouts/home.njk
+eleventyComputed:
+  title: "Записи с тегом “{{ tag }}”"
+permalink: /ru/tags/{{ tag | slugify }}/
+lang: "ru"
+---
+<h1>Записи с тегом “{{ tag }}”</h1>
+
+{% set postslist = collections[ tag ] | where("data.lang", lang) %}
+{% include "postslist.njk" %}
+
+<p>Посмотреть <a href="/ru/tags/">все теги</a>.</p>

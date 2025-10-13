@@ -95,7 +95,7 @@ module.exports = function(eleventyConfig) {
 
 	// Filtro para generar hreflang URLs
 	eleventyConfig.addFilter("hreflangUrls", function(currentUrl, collections) {
-		const languages = ['es', 'en', 'fr', 'pt', 'it', 'de', 'el', 'cn'];
+		const languages = ['es', 'en', 'fr', 'pt', 'it', 'de', 'el', 'cn', 'ru'];
 		const urls = {};
 		
 		// Normalizar la URL actual eliminando prefijos de idioma

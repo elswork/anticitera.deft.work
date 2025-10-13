@@ -1,0 +1,11 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Блог
+  order: 2
+lang: "ru"
+---
+<h1>Блог</h1>
+
+{% set postslist = collections.posts_by_lang[lang] %}
+{% include "postslist.njk" %}
