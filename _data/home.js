@@ -4,8 +4,9 @@ module.exports = {
     paragraph1: "El Proyecto .IA Isla Anticitera es una iniciativa que busca crear un nuevo Dominio de Nivel Superior de Código de País (ccTLD) .IA asociado al territorio de la Isla de Anticitera. Esta pequeña isla, famosa por el Mecanismo de Anticitera, considerado como la primera computadora analógica de la historia, se convierte en un símbolo de los orígenes de la Inteligencia Artificial y la innovación tecnológica.",
     paragraph2: "El Proyecto .IA Isla Anticitera también es la comunidad de personas que de alguna u otra forma formamos parte del proyecto, este es el activo más valioso del proyecto, el que ayudará al proyecto a cumplir sus objetivos.",
     link: {
-      text: "¿Qué es el Proyecto .IA Isla Anticitera?",
-      url: "/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
+      text: "Qué es el Proyecto .IA Isla Anticitera",
+      url: "/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/",
+      external: false,
     },
     messageBox: {
       item1: "Existe un dominio ccTLD .AI comunmente utilizado para proyectos de \"Artificial Intelligence\", pero no existe el ccTLD .IA que representaria a la mayoria del resto de idiomas del planeta.",
@@ -28,7 +29,7 @@ module.exports = {
     paragraph2: "The .IA Antikythera Island Project is also the community of people who in one way or another are part of the project. This is the most valuable asset of the project, the one that will help the project achieve its objectives.",
     link: {
       text: "What is the .IA Antikythera Island Project?",
-      url: "/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
+      url: "/en/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
     },
     messageBox: {
       item1: "There is a ccTLD .AI commonly used for 'Artificial Intelligence' projects, but the ccTLD .IA, which would represent the majority of the rest of the world's languages, does not exist.",
@@ -51,7 +52,7 @@ module.exports = {
     paragraph2: "Le Projet .IA Île d'Anticythère est aussi la communauté de personnes qui, d'une manière ou d'une autre, font partie du projet. C'est l'atout le plus précieux du projet, celui qui aidera le projet à atteindre ses objectifs.",
     link: {
       text: "Qu'est-ce que le Projet .IA Île d'Anticythère ?",
-      url: "/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
+      url: "/fr/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
     },
     messageBox: {
       item1: "Il existe un ccTLD .AI couramment utilisé pour les projets d'intelligence artificielle, mais le ccTLD .IA, qui représenterait la majorité des autres langues du monde, n'existe pas.",
@@ -74,7 +75,7 @@ module.exports = {
     paragraph2: "O Projeto Ilha de Antikythera .IA é também a comunidade de pessoas que, de uma forma ou de outra, fazem parte do projeto. Este é o ativo mais valioso do projeto, aquele que o ajudará a alcançar seus objetivos.",
     link: {
       text: "O que é o Projeto Ilha de Antikythera .IA?",
-      url: "/blog/O_que_e_o_Projeto_Ilha_Antikythera_IA/"
+      url: "/pt/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
     },
     messageBox: {
       item1: "Existe um ccTLD .AI comumente usado para projetos de 'Inteligência Artificial', mas o ccTLD .IA, que representaria a maioria das demais línguas do mundo, não existe.",
@@ -97,7 +98,7 @@ module.exports = {
     paragraph2: "Il Progetto .IA Isola di Anticitera è anche la comunità di persone che in un modo o nell'altro fanno parte del progetto. Questo è l'asset più prezioso del progetto, quello che aiuterà il progetto a raggiungere i suoi obiettivi.",
     link: {
       text: "Cos'è il Progetto .IA Isola di Anticitera?",
-      url: "/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
+      url: "/it/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
     },
     messageBox: {
       item1: "Esiste un ccTLD .AI comunemente utilizzato per progetti di 'Intelligenza Artificiale', ma non esiste il ccTLD .IA, che rappresenterebbe la maggioranza delle altre lingue del mondo.",
@@ -120,7 +121,7 @@ module.exports = {
     paragraph2: "Το Έργο .IA Νήσου Αντικυθήρων είναι επίσης η κοινότητα ανθρώπων που με τον έναν ή τον άλλο τρόπο αποτελούμε μέρος του έργου. Αυτό είναι το πολυτιμότερο περιουσιακό στοιχείο του έργου, εκείνο που θα βοηθήσει το έργο να επιτύχει τους στόχους του.",
     link: {
       text: "Τι είναι το Έργο .IA Νήσου Αντικυθήρων;",
-      url: "/el/blog/Ti_einai_to_Ergo_IA_Nisou_Antikythiron/"
+      url: "/el/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
     },
     messageBox: {
       item1: "Υπάρχει ένας ccTLD .AI που χρησιμοποιείται συχνά για έργα \"Τεχνητής Νοημοσύνης\", αλλά δεν υπάρχει ο ccTLD .IA που θα αντιπροσώπευε την πλειονότητα των υπόλοιπων γλωσσών του πλανήτη.",
@@ -143,7 +144,7 @@ module.exports = {
     paragraph2: "Das .IA Antikythera-Insel-Projekt ist auch die Gemeinschaft von Menschen, die auf die eine oder andere Weise Teil des Projekts sind. Dies ist das wertvollste Gut des Projekts, das dem Projekt dabei helfen wird, seine Ziele zu erreichen.",
     link: {
       text: "Was ist das .IA Antikythera-Insel-Projekt?",
-      url: "/de/blog/Was_ist_das_.IA_Antikythera-Insel-Projekt/"
+      url: "/de/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/"
     },
     messageBox: {
       item1: "Es gibt eine ccTLD .AI, die häufig für 'Künstliche Intelligenz'-Projekte verwendet wird, aber es gibt keine ccTLD .IA, die die Mehrheit der anderen Sprachen der Welt repräsentieren würde.",
