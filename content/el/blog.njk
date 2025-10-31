@@ -1,19 +1,11 @@
 ---
 layout: layouts/home.njk
-pagination:
-  data: collections.posts
-  size: 5
-  alias: posts
-  reverse: true
-  filter:
-    - all
-    - posts_by_lang
-permalink: /el/blog{% if pagination.pageNumber > 0 %}/page-{{ pagination.pageNumber + 1 }}{% endif %}/
+eleventyNavigation:
+  key: Blog
+  order: 2
 lang: "el"
-eleventyComputed:
-  title: "{% if pagination.pageNumber > 0 %}Blog Σελίδα {{ pagination.pageNumber + 1}} - {% endif %}Αρχείο"
 ---
+<h1>Blog</h1>
 
-{% set postslist = posts | where("data.lang", "el") %}
-{% set postslistCounter = postslist | length %}
+{% set postslist = collections.posts_by_lang[lang] %}
 {% include "postslist.njk" %}
