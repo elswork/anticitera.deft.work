@@ -1,13 +1,13 @@
 ---
 layout: layouts/post.njk
-title: Foro
-permalink: /foro/
+title: 论坛
+permalink: /cn/foro/
 eleventyNavigation:
-  key: Foro
+  key: 论坛
   order: 4
 ---
 
-Este es un espacio para la comunidad. Deja tus ideas, comentarios, preguntas y sugerencias.
+这是一个社区空间。留下您的评论、问题和建议。
 
 <script src="https://giscus.app/client.js"
         data-repo="elswork/anticitera.deft.work"
@@ -20,7 +20,7 @@ Este es un espacio para la comunidad. Deja tus ideas, comentarios, preguntas y s
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="dark_dimmed"
-        data-lang="es"
+        data-lang="zh-CN"
         crossorigin="anonymous"
         async>
 </script>
