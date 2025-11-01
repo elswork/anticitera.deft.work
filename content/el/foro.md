@@ -20,7 +20,7 @@ eleventyNavigation:
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="dark_dimmed"
-        data-lang="el"
+        data-lang="en"
         crossorigin="anonymous"
         async>
 </script>
