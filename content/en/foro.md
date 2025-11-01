@@ -19,7 +19,7 @@ This is a space for the community. Leave your comments, questions, and suggestio
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="dark_dimmed"
+        data-theme="dark_high_contrast"
         data-lang="en"
         crossorigin="anonymous"
         async>
