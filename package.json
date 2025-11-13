@@ -1,10 +1,10 @@
 {
-	"name": "eleventy-base-blog",
-	"version": "8.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"name": "anticitera-deft-work",
+	"version": "1.0.0",
+	"description": "Proyecto .IA Isla Anticitera - Sitio web del proyecto para promover la creación del dominio de nivel superior .IA",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
-		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/anticitera.deft.work/",
 		"start": "npx @11ty/eleventy --serve --quiet",
 		"debug": "DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
@@ -12,25 +12,25 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "git://github.com/elswork/anticitera.deft.work.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Eloy López Sánchez",
+		"email": "elswork@gmail.com",
+		"url": "https://deft.work/"
 	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=14"
 	},
 	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
+		"type": "github",
+		"url": "https://github.com/sponsors/elswork"
 	},
 	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+		"url": "https://github.com/elswork/anticitera.deft.work/issues"
 	},
-	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+	"homepage": "https://anticitera.deft.work",
 	"devDependencies": {
 		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-img": "^3.1.1",
