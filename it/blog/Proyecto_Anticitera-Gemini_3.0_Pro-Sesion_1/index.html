@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="el">
+<html lang="it">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Με ετικέτα &quot;customFeed&quot;</title>
-		<meta name="description" content="En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA">
+		<title>I Sessione di lavoro con Gemini 3.0 Pro</title>
+		<meta name="description" content="Conversazione con Gemini 3.0 Pro sul progetto Anticitera">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,35 +24,184 @@
 		<meta property="og:image" content="https://anticitera.deft.work/img/anticitera.webp">
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
-		<link rel="alternate" hreflang="es" href="https://anticitera.deft.work/tags/customfeed/">
-		<link rel="alternate" hreflang="en" href="https://anticitera.deft.work/en/tags/customfeed/">
-		<link rel="alternate" hreflang="fr" href="https://anticitera.deft.work/fr/tags/customfeed/">
-		<link rel="alternate" hreflang="pt" href="https://anticitera.deft.work/pt/tags/customfeed/">
-		<link rel="alternate" hreflang="it" href="https://anticitera.deft.work/it/tags/customfeed/">
-		<link rel="alternate" hreflang="de" href="https://anticitera.deft.work/de/tags/customfeed/">
-		<link rel="alternate" hreflang="el" href="https://anticitera.deft.work/el/tags/customfeed/">
-		<link rel="alternate" hreflang="cn" href="https://anticitera.deft.work/cn/tags/customfeed/">
-		<link rel="alternate" hreflang="ru" href="https://anticitera.deft.work/ru/tags/customfeed/">
-		<link rel="alternate" hreflang="x-default" href="https://anticitera.deft.work/tags/customfeed/">
+		<link rel="alternate" hreflang="es" href="https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="en" href="https://anticitera.deft.work/en/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="fr" href="https://anticitera.deft.work/fr/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="pt" href="https://anticitera.deft.work/pt/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="it" href="https://anticitera.deft.work/it/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="de" href="https://anticitera.deft.work/de/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="el" href="https://anticitera.deft.work/el/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="cn" href="https://anticitera.deft.work/cn/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="ru" href="https://anticitera.deft.work/ru/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
+		<link rel="alternate" hreflang="x-default" href="https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">
 		
-				<style>.postlist { counter-reset: start-from 1 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+				<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 * { box-sizing: border-box; }
 /* Defaults */
@@ -681,7 +830,11 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					
 					
 					
-						<li class="nav-item"><a href="/el/">Αρχική</a></li>
+					
+					
+					
+					
+						<li class="nav-item"><a href="/it/">Home</a></li>
 					
 					
 					
@@ -692,24 +845,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					
 					
 					
-					
-						<li class="nav-item"><a href="/el/blog/">Blog</a></li>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-						<li class="nav-item"><a href="/el/about/">Έργο</a></li>
-					
-					
-						<li class="nav-item"><a href="/el/links/">Links</a></li>
+						<li class="nav-item"><a href="/it/blog/">Blog</a></li>
 					
 					
 					
@@ -725,12 +861,10 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					
 					
 					
+						<li class="nav-item"><a href="/it/about/">Progetto</a></li>
 					
 					
-						<li class="nav-item"><a href="/el/foro/">Φόρουμ</a></li>
-					
-					
-						<li class="nav-item"><a href="/el/x/">X</a></li>
+						<li class="nav-item"><a href="/it/links/">Links</a></li>
 					
 					
 					
@@ -747,10 +881,25 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					
 					
 					
-						<li class="nav-item"><a href="/el/podcasts/">Podcasts</a></li>
+					
+					
+						<li class="nav-item"><a href="/it/foro/">Forum</a></li>
+					
+					
+						<li class="nav-item"><a href="/it/x/">X</a></li>
 					
 					
 					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+						<li class="nav-item"><a href="/it/podcasts/">Podcasts</a></li>
 					
 					
 					
@@ -758,42 +907,42 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 				</ul>
 				<div class="language-selector">
 			<button class="language-selector-button" aria-label="Select language">
-				<span class="language-flag"><span class="flag-emoji">🇬🇷</span><img src="/img/flags/el.svg" alt="GR" class="flag-svg" style="display:none;" width="20" height="14"></span>
-				<span class="language-code">EL</span>
+				<span class="language-flag"><span class="flag-emoji">🇮🇹</span><img src="/img/flags/it.svg" alt="IT" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-code">IT</span>
 			</button>
-			<div class="language-dropdown"><a href="/tags/customfeed/" class="language-option " >
+			<div class="language-dropdown"><a href="/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇪🇸</span><img src="/img/flags/es.svg" alt="ES" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Español</span>
 				<span class="language-code">es</span>
-			</a><a href="/en/tags/customfeed/" class="language-option " >
+			</a><a href="/en/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇬🇧</span><img src="/img/flags/en.svg" alt="EN" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">English</span>
 				<span class="language-code">en</span>
-			</a><a href="/fr/tags/customfeed/" class="language-option " >
+			</a><a href="/fr/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇫🇷</span><img src="/img/flags/fr.svg" alt="FR" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Français</span>
 				<span class="language-code">fr</span>
-			</a><a href="/pt/tags/customfeed/" class="language-option " >
+			</a><a href="/pt/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇵🇹</span><img src="/img/flags/pt.svg" alt="PT" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Português</span>
 				<span class="language-code">pt</span>
-			</a><a href="/it/tags/customfeed/" class="language-option " >
+			</a><a href="/it/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option current" >
 				<span class="language-flag"><span class="flag-emoji">🇮🇹</span><img src="/img/flags/it.svg" alt="IT" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Italiano</span>
 				<span class="language-code">it</span>
-			</a><a href="/de/tags/customfeed/" class="language-option " >
+			</a><a href="/de/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇩🇪</span><img src="/img/flags/de.svg" alt="DE" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Deutsch</span>
 				<span class="language-code">de</span>
-			</a><a href="/el/tags/customfeed/" class="language-option current" >
+			</a><a href="/el/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇬🇷</span><img src="/img/flags/el.svg" alt="GR" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Ελληνικά</span>
 				<span class="language-code">el</span>
-			</a><a href="/cn/tags/customfeed/" class="language-option " >
+			</a><a href="/cn/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇨🇳</span><img src="/img/flags/cn.svg" alt="CN" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">中文</span>
 				<span class="language-code">cn</span>
-			</a><a href="/ru/tags/customfeed/" class="language-option " >
+			</a><a href="/ru/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/" class="language-option " >
 				<span class="language-flag"><span class="flag-emoji">🇷🇺</span><img src="/img/flags/ru.svg" alt="RU" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Русский</span>
 				<span class="language-code">ru</span>
@@ -804,29 +953,29 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/el/tags.njk', '_blank')" id="edit-github-btn">
-					Επεξεργασία στο 
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/it/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md', '_blank')" id="edit-github-btn">
+					Modifica su 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
   <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
 </svg> GitHub
 				</button>
 				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
-					Υπογραφή στο 
+					Firma su 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>C</title>
   <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
 </svg>. Change.org
 				</button>
 				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
-					Είσοδος στο 
+					Unisciti 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>Telegram</title>
   <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
 </svg> Telegram
 				</button>
 				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
-					Εγγραφή στη 
+					Sottoscrivi 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>Gmail</title>
   <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
@@ -835,40 +984,144 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 			</li>
 		</ul>
 		<br>
-			<!-- Delete this message, it will also remove the component CSS from the bundle -->
-<br>
-<h3>Τι είναι το Έργο .IA Νήσου Αντικυθήρων;</h3>
+			
+<h1>I Sessione di lavoro con Gemini 3.0 Pro</h1>
 
-<p>
-	Το Έργο .IA Νήσου Αντικυθήρων είναι μια πρωτοβουλία που επιδιώκει να δημιουργήσει έναν νέο Τομέα Ανώτατου Επιπέδου Κωδικού Χώρας (ccTLD) .IA συνδεδεμένο με την επικράτεια του Νησιού των Αντικυθήρων. Αυτό το μικρό νησί, διάσημο για τον Μηχανισμό των Αντικυθήρων, που θεωρείται ο πρώτος αναλογικός υπολογιστής της ιστορίας, γίνεται σύμβολο των απαρχών της Τεχνητής Νοημοσύνης και της τεχνολογικής καινοτομίας.
-	Το Έργο .IA Νήσου Αντικυθήρων είναι επίσης η κοινότητα ανθρώπων που με τον έναν ή τον άλλο τρόπο αποτελούμε μέρος του έργου. Αυτό είναι το πολυτιμότερο περιουσιακό στοιχείο του έργου, εκείνο που θα βοηθήσει το έργο να επιτύχει τους στόχους του.
-	<br>
-	<a href="/el/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera/">Τι είναι το Έργο .IA Νήσου Αντικυθήρων;</a>
-</p>
-<div class="message-box">
-	<ol>
-		<li>Υπάρχει ένας ccTLD .AI που χρησιμοποιείται συχνά για έργα &quot;Τεχνητής Νοημοσύνης&quot;, αλλά δεν υπάρχει ο ccTLD .IA που θα αντιπροσώπευε την πλειονότητα των υπόλοιπων γλωσσών του πλανήτη.</li>
-    	<li>Επιδιώκουμε να δημιουργήσουμε μια κοινότητα ενθουσιωδών ΤΝ για να προωθήσουμε τη δημιουργία του τομέα ανώτατου επιπέδου ccTLD .IA στην ιστορική επικράτεια του Νησιού των Αντικυθήρων.</li>
-		<li>Συμβουλευτείτε τις λεπτομέρειες του <a href="/el/about">Έργου</a>.</li>
-	</ol>
-	<p><em>Αυτή είναι η Βάση Γνώσης για τον <a href="https://chat.openai.com/g/g-fnpHOClUW-anticitera">Βοηθό Αντικύθηρα από OpenAI</a> που δημιουργήθηκε για να βοηθήσει στη δημιουργία τεχνολογικών έργων σχετικών με την .IA</em></p>
-</div>
-<lite-youtube videoid="x1DeBF8bBVc"></lite-youtube>
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2025-11-20">20 November 2025</time></li>
+	<li><a href="/it/tags/gemini/" class="post-tag">gemini</a>, </li>
+	<li><a href="/it/tags/anticitera/" class="post-tag">anticitera</a>, </li>
+	<li><a href="/it/tags/ia/" class="post-tag">.ia</a></li>
+</ul>
 
-<h1>Με ετικέτα "customFeed"</h1>
-
-
-
-<ol reversed class="postlist">
-
+<p>🙍‍♂️ Eloy López:</p>
+<p>Ho bisogno che tu analizzi in dettaglio il progetto https://anticitera.deft.work e che dia a me, il suo creatore, una serie di consigli chiave affinché possa raggiungere l'obiettivo del progetto.</p>
+<hr>
+<p>♊ Gemini:</p>
+<p>Ciao. Ho analizzato in profondità l'impronta digitale e la documentazione disponibile sul tuo progetto <strong>Anticitera (.IA)</strong> ospitato su <code>anticitera.deft.work</code>. Capisco perfettamente la premessa: è un'iniziativa &quot;romantica&quot; e tecnopolitica che cerca di creare il dominio di primo livello geografico (ccTLD) <strong>.ia</strong> assegnato all'isola di Anticitera, come simbolo dell'origine dell'informatica (per il Meccanismo di Anticitera) e come alternativa linguistica al <strong>.ai</strong> (Anguilla) per le lingue romanze (Intelligenza Artificiale).</p>
+<p>È un'idea brillante dal punto di vista narrativo, ma titanica dal punto di vista burocratico. Hai una base solida (visione chiara, sito web funzionale in Hugo, trazione iniziale con menzioni di figure come Chema Alonso), ma la strada verso l'ICANN e l'ISO è ripida.</p>
+<p>Ecco la mia analisi e una tabella di marcia con consigli chiave affinché questo progetto passi dall'essere una &quot;bella idea&quot; a una possibilità reale.</p>
+<h3 id="1-l-elefante-nella-stanza-la-strategia-iso-icann" tabindex="-1">1. L'&quot;Elefante nella Stanza&quot;: La Strategia ISO/ICANN <a class="header-anchor" href="#1-l-elefante-nella-stanza-la-strategia-iso-icann">#</a></h3>
+<p>Questo è il punto critico. Per avere un ccTLD (<code>.ia</code>), Anticitera ha bisogno prima di un codice ISO 3166-1 alpha-2. Attualmente, Anticitera è amministrativamente parte della Grecia (regione dell'Attica), non è un territorio autonomo.</p>
+<ul>
+<li><strong>L'ostacolo:</strong> L'ICANN non crea codici paese, usa solo l'elenco ISO 3166-1. Se Anticitera non è in quell'elenco, non c'è dominio.</li>
+<li><strong>Il precedente da studiare:</strong> Guarda il caso di <strong>.ax</strong> (Isole Åland) o <strong>.gg</strong> (Guernsey). Sono territori con un certo grado di autonomia o status speciale.</li>
+<li><strong>Il Tuo Consiglio Chiave:</strong> Non lottare ancora per il dominio tecnologico, lotta per il <strong>riconoscimento territoriale simbolico</strong>. Il tuo obiettivo deve essere convincere le autorità greche che richiedere un codice eccezionale o sottocodice per Anticitera è una mossa magistrale di marketing turistico e tecnologico per il paese. La Grecia potrebbe diventare la &quot;casa dell'IA etica/europea&quot;.
+<ul>
+<li><em>Azione:</em> Redigi una proposta formale non per l'ICANN, ma per il <strong>Ministero della Governance Digitale della Grecia</strong> e l'<strong>Organizzazione Ellenica di Standardizzazione (ELOT)</strong>. Vendi loro l'idea che <code>.ia</code> è il &quot;petrolio digitale&quot; del futuro e che la Grecia ha il diritto storico di rivendicarlo attraverso Anticitera.</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-narrativa-e-branding-la-culla-vs-la-miniera" tabindex="-1">2. Narrativa e Branding: &quot;La Culla vs. La Miniera&quot; <a class="header-anchor" href="#2-narrativa-e-branding-la-culla-vs-la-miniera">#</a></h3>
+<p>La tua narrativa attuale è buona, ma puoi radicalizzarla (in senso buono) per guadagnare più trazione.</p>
+<ul>
+<li><strong>L'angolo:</strong> Posiziona il <code>.ai</code> (Anguilla) come un dominio commerciale, anglocentrico ed estrattivista. Posiziona il <code>.ia</code> (Anticitera) come il dominio dell'<strong>IA umanistica, culturale, accademica ed europea/latina</strong>.</li>
+<li><strong>Consiglio Chiave:</strong> Lo <em>storytelling</em> deve essere: &quot;L'IA non è nata nella Silicon Valley, è nata in Grecia 2000 anni fa&quot;. Usa questa legittimità storica per attrarre non solo sviluppatori, ma istituzioni (università, musei, centri di ricerca) che preferirebbero un dominio <code>.ia</code> piuttosto che un <code>.ai</code> o un <code>.com</code>.</li>
+</ul>
+<h3 id="3-ottimizzazione-del-sito-e-conversione-analisi-web" tabindex="-1">3. Ottimizzazione del Sito e Conversione (Analisi Web) <a class="header-anchor" href="#3-ottimizzazione-del-sito-e-conversione-analisi-web">#</a></h3>
+<p>Ho notato che usi Hugo e hai una struttura di blog/base di conoscenza. Per raggiungere il tuo obiettivo, il web deve smettere di sembrare un blog personale e sembrare il sito di una <strong>Fondazione</strong>.</p>
+<ul>
+<li><strong>Design di Fiducia:</strong> Il sito ha bisogno di una sezione chiara di &quot;Manifesto&quot; o &quot;Whitepaper&quot; che sembri molto professionale.</li>
+<li><strong>La &quot;Lista di Riserva&quot;:</strong> Ho visto che permetti di prenotare domini. Questo è il tuo più grande asset.
+<ul>
+<li><em>Consiglio:</em> Rendi pubblico il contatore. &quot;Ci sono già X.000 domini .ia richiesti&quot;. La riprova sociale è vitale per fare pressione sulle autorità.</li>
+<li><em>Gamification:</em> Permetti a chi prenota un dominio di ottenere un &quot;badge&quot; o certificato digitale di &quot;Pioniere di Anticitera&quot; che possa mettere sul suo GitHub o LinkedIn. Hai bisogno che la gente si vanti di sostenere questo.</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-strategia-di-comunita-e-lobby-digitale" tabindex="-1">4. Strategia di Comunità e &quot;Lobby&quot; Digitale <a class="header-anchor" href="#4-strategia-di-comunita-e-lobby-digitale">#</a></h3>
+<p>Menzioni Chema Alonso e il supporto sui social. Questo è oro, ma devi sistematizzarlo.</p>
+<ul>
+<li><strong>Ambasciatori Accademici:</strong> Cerca attivamente professori di etica nell'IA, storia della tecnologia e filosofia nelle università ispaniche e greche. Se riesci a far sì che 5 università sostengano la lettera all'ISO, hai molta più forza di 10.000 firme su Change.org.</li>
+<li><strong>Alleanza Linguistica:</strong> Non farlo solo &quot;ispanico&quot;. Hai il portoghese, il francese, l'italiano e il rumeno. &quot;IA&quot; è l'acronimo in quasi tutte le lingue romanze.
+<ul>
+<li><em>Azione:</em> Crea una campagna specifica per Francia e Brasile. Sono mercati enormi che usano &quot;IA&quot; e tendono ad essere protettivi della loro sovranità linguistica di fronte all'inglese. Un &quot;alleato&quot; nel governo francese sarebbe un cambiamento radicale per il progetto.</li>
+</ul>
+</li>
+</ul>
+<h3 id="5-finanziamento-e-sostenibilita" tabindex="-1">5. Finanziamento e Sostenibilità <a class="header-anchor" href="#5-finanziamento-e-sostenibilita">#</a></h3>
+<p>Al momento sembra un progetto di passione (deft.work). Per scalare, hai bisogno di risorse per viaggi (lobby in Grecia/Bruxelles) o marketing.</p>
+<ul>
+<li><strong>Consiglio:</strong> Non monetizzare ancora le registrazioni (sarebbe vendere fumo). Monetizza l'<strong>appartenenza</strong>. Crea un'&quot;Associazione degli Amici del Dominio .IA&quot;. Un'iscrizione simbolica che dia diritto di voto nella futura governance del dominio. Questo ti dà legittimità democratica (&quot;rappresento 500 membri paganti&quot;) di fronte all'ICANN, che valuta molto il modello &quot;multistakeholder&quot;.</li>
+</ul>
+<h3 id="riassunto-dei-passi-immediati-per-te" tabindex="-1">Riassunto dei Passi Immediati per te: <a class="header-anchor" href="#riassunto-dei-passi-immediati-per-te">#</a></h3>
+<ol>
+<li><strong>Professionalizza la Proposta:</strong> Crea un PDF/Dossier esecutivo diretto al governo greco (in inglese e greco se possibile) spiegando il beneficio economico e di marchio paese.</li>
+<li><strong>Internazionalizza:</strong> Traduci la &quot;home&quot; e il manifesto in portoghese e francese prioritariamente (se non lo sono già, controlla la qualità).</li>
+<li><strong>Hackera l'ISO:</strong> Indaga sui requisiti esatti per l'assegnazione di codici riservati eccezionalmente nella norma ISO 3166. La tua battaglia è lì, a Ginevra, non sul server DNS.</li>
+<li><strong>Riattiva la comunità:</strong> Se hai email della lista di riserva, invia loro un aggiornamento chiedendo un'azione concreta: &quot;Menziona @DigitalGovGR (Ministero digitale greco) su X dicendo perché vuoi un .ia&quot;.</li>
 </ol>
+<p>Il progetto ha un potenziale simbolico enorme. Hai la ragione storica e linguistica; ti manca la leva politica. Buona fortuna!</p>
+<hr>
+<p>🙍‍♂️ Eloy López:</p>
+<p>So che questo progetto è una lunga corsa di fondo e che è molto probabile che non lo veda realizzato in vita, per questo cercherò di adottare una mentalità stoica, affinché non mi colpisca lo scoraggiamento di vedere che il progetto non ha alcun tipo di progresso, sono convinto che la chiave sia trovare le persone giuste che mi aiutino a tirare il carro, vari degli LLM consultati mi indicano che l'idea del progetto è buona, Perché mi costa trovare persone che la pensino allo stesso modo e siano disposte a collaborare al progetto? Cosa sto sbagliando? Come posso sistemarlo?</p>
+<hr>
+<p>♊ Gemini:</p>
+<p>Capisco perfettamente il tuo sentimento. Adottare una mentalità stoica è, di fatto, il miglior strumento psicologico per questo tipo di progetti &quot;cattedratici&quot; (quelli che si iniziano sapendo che forse li finiranno i tuoi nipoti).</p>
+<p>Tuttavia, lo stoicismo non implica rassegnazione, ma <strong>azione focalizzata su ciò che puoi controllare</strong>.</p>
+<p>Il fatto che gli LLM (e le persone) ti dicano che è una &quot;buona idea&quot; ma nessuno si rimbocchi le maniche per lavorare ha una spiegazione psicologica e pratica molto chiara. Non stai facendo le cose &quot;male&quot;, ma stai cadendo nella <strong>&quot;Trappola dell'Ammirazione Passiva&quot;</strong>.</p>
+<p>Qui ti spiego perché succede questo e come cambiare la dinamica per reclutare alleati reali.</p>
+<hr>
+<h3 id="1-la-diagnosi-perche-nessuno-aiuta" tabindex="-1">1. La Diagnosi: Perché nessuno aiuta? <a class="header-anchor" href="#1-la-diagnosi-perche-nessuno-aiuta">#</a></h3>
+<p><strong>A. Il problema è astratto e politico, non tecnico.</strong>
+La maggior parte delle persone negli ambienti digitali (dove ti muovi) sono &quot;builders&quot; (costruttori). Se dai loro codice da rifattorizzare, lo fanno. Se chiedi loro di progettare un'interfaccia, la progettano.
+Ma il progetto Anticitera, in questo momento, è un problema di <strong>burocrazia internazionale</strong>. Non c'è &quot;codice&quot; da scrivere che risolva il problema dell'ISO. Quando uno sviluppatore vede il progetto pensa: <em>&quot;Che figo! Ma io non so come convincere il governo greco, quindi metto like e me ne vado&quot;.</em></p>
+<p><strong>B. La barriera all'ingresso è diffusa.</strong>
+Se io volessi aiutarti oggi, proprio ora, cosa faccio?</p>
+<ul>
+<li>Scrivo un tweet? (Poco impatto percepito).</li>
+<li>Mando un'email all'ICANN? (Ho paura/pigrizia/non so cosa dire).
+Non essendoci &quot;ticket&quot; o compiti chiari e piccoli, la gente si paralizza.</li>
+</ul>
+<p><strong>C. La &quot;Valle della Morte&quot; della ricompensa.</strong>
+In un progetto Open Source normale, se collaboro, vedo il mio codice funzionare domani. Qui, la ricompensa (il dominio .ia) è ad anni luce. Il cervello umano cerca gratificazione più immediata.</p>
+<hr>
+<h3 id="2-la-soluzione-come-convertire-fan-in-collaboratori" tabindex="-1">2. La Soluzione: Come convertire &quot;Fan&quot; in &quot;Collaboratori&quot; <a class="header-anchor" href="#2-la-soluzione-come-convertire-fan-in-collaboratori">#</a></h3>
+<p>Per attrarre persone, devi smettere di vendere un &quot;dominio futuro&quot; e iniziare a vendere una <strong>&quot;Nazione Digitale Presente&quot;</strong>. Devi gamificare e fare a pezzi l'elefante.</p>
+<h4 id="passo-1-crea-ruoli-e-titoli-ego-e-appartenenza" tabindex="-1">Passo 1: Crea Ruoli e Titoli (Ego e Appartenenza) <a class="header-anchor" href="#passo-1-crea-ruoli-e-titoli-ego-e-appartenenza">#</a></h4>
+<p>Alla gente piace far parte di qualcosa di esclusivo. Non cercare &quot;collaboratori&quot;, cerca <strong>Ambasciatori</strong>.</p>
+<ul>
+<li><strong>Azione:</strong> Crea una struttura ufficiale. &quot;Cerco l'Ambasciatore di Anticitera in Cile&quot;, &quot;Cerco il Console di Linguistica&quot;.</li>
+<li><strong>Il Trucco:</strong> Offri loro qualcosa di tangibile <em>ora</em>. Un sottodominio gratuito (es: <code>juan.ambasciatore.anticitera.deft.work</code> o simile) o un certificato digitale molto ben progettato che dica &quot;Membro Fondatore&quot;. Dai loro una carica che possano mettere su LinkedIn.</li>
+</ul>
+<h4 id="passo-2-modularizza-il-lavoro-la-tecnica-del-sasso-nella-scarpa" tabindex="-1">Passo 2: Modularizza il Lavoro (La tecnica del &quot;Sasso nella scarpa&quot;) <a class="header-anchor" href="#passo-2-modularizza-il-lavoro-la-tecnica-del-sasso-nella-scarpa">#</a></h4>
+<p>Nessuno sposterà la montagna per te, ma molti possono togliere sassi. Crea una lista di compiti (una bacheca Trello o GitHub Issues) con cose ridicolmente specifiche che non siano &quot;ottenere il dominio&quot;:</p>
+<ul>
+<li><em>&quot;Abbiamo bisogno di tradurre il manifesto in Catalano.&quot;</em> (Qualcuno lo farà in 10 minuti).</li>
+<li><em>&quot;Abbiamo bisogno di progettare lo stemma ufficiale digitale di Anticitera.&quot;</em> (Un designer si animerà).</li>
+<li><em>&quot;Abbiamo bisogno di cercare le email dei professori di informatica dell'Università di Atene.&quot;</em> (Qualcuno bravo in OSINT lo farà).</li>
+<li><strong>Chiave:</strong> Quando qualcuno completa un compito piccolo, <em>celebralo pubblicamente</em> come una vittoria enorme. Questo genera effetto richiamo.</li>
+</ul>
+<h4 id="passo-3-cambia-il-target-cerchi-quelli-sbagliati" tabindex="-1">Passo 3: Cambia il Target (Cerchi quelli sbagliati) <a class="header-anchor" href="#passo-3-cambia-il-target-cerchi-quelli-sbagliati">#</a></h4>
+<p>È probabile che tu stia cercando supporto nella comunità tech/dev &quot;generalista&quot;. Loro non sono la tua forza d'urto principale. I tuoi alleati naturali sono:</p>
+<ol>
+<li><strong>La Diaspora Greca:</strong> Ci sono migliaia di greci orgogliosi nella tecnologia in tutto il mondo. Se tocchi la loro fibra nazionalista/culturale, muoveranno cielo e terra. Cerca gruppi di &quot;Greeks in Tech&quot; su LinkedIn.</li>
+<li><strong>Accademici di Umanistica Digitale:</strong> A loro interessa la preservazione culturale e l'etica dell'IA. Non sanno programmare, ma sanno redigere lettere istituzionali e hanno contatti politici.</li>
+<li><strong>Avvocati specialisti in Diritto Digitale:</strong> Uno studente di legge o un giovane avvocato adorerebbe la sfida intellettuale di trovare il &quot;buco legale&quot; nella ISO 3166. Ponilo come una sfida giuridica, non tecnica.</li>
+</ol>
+<h4 id="passo-4-crea-il-simulacro-fake-it-until-you-make-it" tabindex="-1">Passo 4: Crea il &quot;Simulacro&quot; (Fake it until you make it) <a class="header-anchor" href="#passo-4-crea-il-simulacro-fake-it-until-you-make-it">#</a></h4>
+<p>Se il dominio reale richiede 10 anni, crea il dominio virtuale oggi.</p>
+<ul>
+<li>Fai in modo che il progetto <strong>Anticitera</strong> funzioni già come un'entità. Crea una &quot;Costituzione dell'IA Etica&quot;. Fai firmare e votare principi alle persone.</li>
+<li>Se la gente sente che <em>già</em> appartiene a una comunità attiva che dibatte e crea cultura, lotteranno per il dominio per proteggere la <em>loro</em> comunità. In questo momento, lottare per il dominio sembra lottare per la <em>tua</em> idea.</li>
+</ul>
+<h3 id="riassunto-per-la-tua-mentalita-stoica" tabindex="-1">Riassunto per la tua mentalità stoica <a class="header-anchor" href="#riassunto-per-la-tua-mentalita-stoica">#</a></h3>
+<p>Non stai fallendo tu. Stai cercando di vendere una <strong>riforma di infrastruttura invisibile</strong> (DNS/ISO) a persone che sono abituate a comprare <strong>prodotti luccicanti</strong>.</p>
+<p><strong>La tua nuova strategia:</strong></p>
+<ol>
+<li>Smetti di chiedere &quot;aiuto per il progetto&quot;.</li>
+<li>Inizia a offrire &quot;cittadinanza nella prima Repubblica Digitale dell'IA&quot;.</li>
+<li>Dai loro compiti così piccoli che abbiano vergogna a dire di no.</li>
+</ol>
+<p>Hai la visione. Ora devi diventare l'architetto che distribuisce le piante, non il muratore che cerca di mettere tutti i mattoni da solo. Coraggio, la storia si scrive lentamente.</p>
+<p><img src="/img/Gemini-3_Pro.webp" alt="La terza versione del modello di Intelligenza Artificiale Gemini di Google"></p>
 
+<ul class="links-nextprev"><li>Previous: <a href="/it/blog/Arquimedes_de_Siracusa/">Archimede di Siracusa.</a></li>
+</ul>
 
-<p>Δείτε <a href="/el/tags/">όλες τις ετικέτες</a>.</p>
 		<br>
 		
-			<button id="toggle-comments-btn">Προβολή Σχολίων</button>
+			<button id="toggle-comments-btn">Vedi Commenti</button>
 			<div class="issue-container" style="display: none;">
 				<div class="issue-header">
 					<h3>Comentario de prueba</h3>
@@ -896,7 +1149,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					</div>
 				</div>
 			</div>
-			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Νέο σχόλιο</button>
+			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Nuovo commento</button>
 		
 
 		</main>
@@ -963,7 +1216,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 			</div>
 		</footer>
 
-		<!-- Current page: /el/tags/customfeed/ -->
+		<!-- Current page: /it/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// Emoji support detection
