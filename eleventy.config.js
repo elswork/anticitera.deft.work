@@ -16,13 +16,13 @@ const markdownIt = require("markdown-it");
 const { format } = require("date-fns");
 
 function extractYouTubeID(url) {
-    const regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
-    const match = url.match(regExp);
+	const regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+	const match = url.match(regExp);
 
-    return (match && match[2].length === 11) ? match[2] : null;
+	return (match && match[2].length === 11) ? match[2] : null;
 }
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
 
 	// Crear una instancia de markdown-it
 	let markdownLib = markdownIt();
@@ -37,12 +37,12 @@ module.exports = function(eleventyConfig) {
 	});
 
 	// Language selector shortcode
-	eleventyConfig.addShortcode("languageSelector", function(currentLang, currentUrl, languages, hreflangUrls) {
+	eleventyConfig.addShortcode("languageSelector", function (currentLang, currentUrl, languages, hreflangUrls) {
 		// Provide defaults if parameters are undefined
 		currentLang = currentLang || 'es';
 		languages = languages || {};
 		hreflangUrls = hreflangUrls || {};
-		
+
 		// Create flag display function
 		function getFlagDisplay(langCode, lang) {
 			// Try emoji first, fallback to SVG image, then country code
@@ -51,17 +51,17 @@ module.exports = function(eleventyConfig) {
 			}
 			return `<img src="/img/flags/${langCode}.svg" alt="${lang?.flag || langCode.toUpperCase()}" class="flag-svg" width="20" height="14">`;
 		}
-		
+
 		const currentLangData = languages[currentLang];
 		const flagDisplay = getFlagDisplay(currentLang, currentLangData);
-		
+
 		let html = `<div class="language-selector">
 			<button class="language-selector-button" aria-label="Select language">
 				<span class="language-flag">${flagDisplay}</span>
 				<span class="language-code">${currentLang.toUpperCase()}</span>
 			</button>
 			<div class="language-dropdown">`;
-		
+
 		// Generate language options
 		Object.keys(languages).forEach(langCode => {
 			const lang = languages[langCode];
@@ -69,41 +69,41 @@ module.exports = function(eleventyConfig) {
 			const isCurrent = langCode === currentLang;
 			const url = isAvailable ? hreflangUrls[langCode] : '#';
 			const className = `language-option ${isCurrent ? 'current' : ''}`;
-			
+
 			const optionFlag = getFlagDisplay(langCode, lang);
-			
+
 			html += `<a href="${url}" class="${className}" ${!isAvailable ? 'style="opacity: 0.5; pointer-events: none;"' : ''}>
 				<span class="language-flag">${optionFlag}</span>
 				<span class="language-name">${lang.nativeName}</span>
 				<span class="language-code">${lang.code}</span>
 			</a>`;
 		});
-		
+
 		html += `</div></div>`;
 		return html;
 	});
 
 	eleventyConfig.addFilter("date", (dateStr, formatStr = "dd/MM/yyyy HH:mm") => {
-        return format(new Date(dateStr), formatStr);
-    });
+		return format(new Date(dateStr), formatStr);
+	});
 	// Filtro Youtube
 	eleventyConfig.addFilter("youtubeID", extractYouTubeID);
 	// Agregar un filtro personalizado
-	eleventyConfig.addFilter("markdown", function(content) {
+	eleventyConfig.addFilter("markdown", function (content) {
 		return markdownLib.render(content);
 	});
 
 	// Filtro para generar hreflang URLs
-	eleventyConfig.addFilter("hreflangUrls", function(currentUrl, collections) {
+	eleventyConfig.addFilter("hreflangUrls", function (currentUrl, collections) {
 		const languages = ['es', 'en', 'fr', 'pt', 'it', 'de', 'el', 'cn', 'ru'];
 		const urls = {};
-		
+
 		// Normalizar la URL actual eliminando prefijos de idioma
 		let basePath = currentUrl;
 		languages.forEach(lang => {
 			basePath = basePath.replace(new RegExp(`^/${lang}/`), '/');
 		});
-		
+
 		// Para cada idioma, verificar si existe la página correspondiente
 		languages.forEach(lang => {
 			let targetUrl;
@@ -113,23 +113,23 @@ module.exports = function(eleventyConfig) {
 			} else {
 				targetUrl = `/${lang}${basePath}`;
 			}
-			
+
 			// Verificar si la página existe en las colecciones
 			const pageExists = collections.all.find(item => {
-				return item.url === targetUrl || 
-					   item.url === targetUrl.replace(/\/$/, '/index.html') ||
-					   item.url === targetUrl + 'index.html';
+				return item.url === targetUrl ||
+					item.url === targetUrl.replace(/\/$/, '/index.html') ||
+					item.url === targetUrl + 'index.html';
 			});
-			
+
 			if (pageExists) {
 				urls[lang] = targetUrl;
 			}
 		});
-		
+
 		return urls;
 	});
 
-	eleventyConfig.addCollection("posts_by_lang", function(collectionApi) {
+	eleventyConfig.addCollection("posts_by_lang", function (collectionApi) {
 		const posts = collectionApi.getFilteredByTag("posts");
 		const postsByLang = {};
 		for (const post of posts) {
@@ -142,23 +142,39 @@ module.exports = function(eleventyConfig) {
 		return postsByLang;
 	});
 
-	eleventyConfig.addCollection("germanPosts", function(collectionApi) {
+	eleventyConfig.addCollection("germanPosts", function (collectionApi) {
 		return collectionApi.getAll().filter(item => item.inputPath.startsWith('./content/de/blog/'));
 	});
 
-	eleventyConfig.addCollection("customFeed", function(collectionApi) {
+	eleventyConfig.addCollection("validTags", function (collectionApi) {
+		const tagSet = new Set();
+		collectionApi.getAll().forEach(item => {
+			(item.data.tags || []).forEach(tag => {
+				// Check if slugify returns something
+				const slug = eleventyConfig.getFilter("slugify")(tag);
+				if (slug && slug.length > 0) {
+					tagSet.add(tag);
+				}
+			});
+		});
+		// Filter out the ignored tags
+		const ignored = ["all", "post", "posts", "tagList", "posts_by_lang"];
+		return Array.from(tagSet).filter(tag => !ignored.includes(tag));
+	});
+
+	eleventyConfig.addCollection("customFeed", function (collectionApi) {
 		// Obtener posts y otros elementos
 		let items = collectionApi.getFilteredByTag("post");
-	
+
 		// Agregar la página About
 		const aboutPage = collectionApi.getFilteredByGlob("./content/about/index.md")[0];
 		if (aboutPage) {
 			items.push(aboutPage);
 		}
-	
+
 		return items;
 	});
-	
+
 
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
@@ -173,7 +189,7 @@ module.exports = function(eleventyConfig) {
 	// https://www.11ty.dev/docs/watch-serve/#add-your-own-watch-targets
 
 	// Añadir un filtro personalizado para obtener el año actual
-	eleventyConfig.addFilter("currentYear", function() {
+	eleventyConfig.addFilter("currentYear", function () {
 		return new Date().getFullYear();
 	});
 
@@ -195,18 +211,18 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginIcons, {
 		mode: 'inline',
 		sources: [
-		  { name: 'simpleicon', path: './node_modules/simple-icons/icons' },
+			{ name: 'simpleicon', path: './node_modules/simple-icons/icons' },
 		],
 		icon: {
-		  class: () => '',
-		  attributesBySource: {
-			simpleicon: {
-			  fill: 'currentColor',
-			  stroke: 'none',
+			class: () => '',
+			attributesBySource: {
+				simpleicon: {
+					fill: 'currentColor',
+					stroke: 'none',
+				},
 			},
-		  },
 		},
-	  });
+	});
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -216,15 +232,15 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addFilter('htmlDateString', (dateObj) => {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
-		return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+		return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy-LL-dd');
 	});
 
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
-		if(!Array.isArray(array) || array.length === 0) {
+		if (!Array.isArray(array) || array.length === 0) {
 			return [];
 		}
-		if( n < 0 ) {
+		if (n < 0) {
 			return array.slice(n);
 		}
 
@@ -254,7 +270,7 @@ module.exports = function(eleventyConfig) {
 	// Return all the tags used in a collection
 	eleventyConfig.addFilter("getAllTags", collection => {
 		let tagSet = new Set();
-		for(let item of collection) {
+		for (let item of collection) {
 			(item.data.tags || []).forEach(tag => tagSet.add(tag));
 		}
 		return Array.from(tagSet);
@@ -273,7 +289,7 @@ module.exports = function(eleventyConfig) {
 				symbol: "#",
 				ariaHidden: false,
 			}),
-			level: [1,2,3,4],
+			level: [1, 2, 3, 4],
 			slugify: eleventyConfig.getFilter("slugify")
 		});
 	});
