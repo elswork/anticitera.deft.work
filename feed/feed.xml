@@ -4,12 +4,141 @@
 	<subtitle>En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA</subtitle>
 	<link href="https://anticitera.deft.work/feed/feed.xml" rel="self"/>
 	<link href="https://anticitera.deft.work/"/>
-	<updated>2025-09-25T00:00:00Z</updated>
+	<updated>2025-11-20T00:00:00Z</updated>
 	<id>https://anticitera.deft.work/</id>
 	<author>
 		<name>Eloy López Sánchez</name>
 		<email>elswork@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>I Sesión de trabajo con Gemini 3.0 Pro</title>
+		<link href="https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/"/>
+		<updated>2025-11-20T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/</id>
+		<content type="html">&lt;p&gt;🙍‍♂️ Eloy López:&lt;/p&gt;
+&lt;p&gt;Necesito que analices en detalle el proyecto https://anticitera.deft.work y que me des a mí, su creador, una serie de consejos clave para que pueda alcanzar el objetivo del proyecto.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;♊ Gemini:&lt;/p&gt;
+&lt;p&gt;Hola. He analizado en profundidad la huella digital y la documentación disponible sobre tu proyecto &lt;strong&gt;Anticitera (.IA)&lt;/strong&gt; alojado en &lt;code&gt;anticitera.deft.work&lt;/code&gt;. Entiendo perfectamente la premisa: es una iniciativa &amp;quot;romántica&amp;quot; y tecnopolítica que busca crear el dominio de nivel superior geográfico (ccTLD) &lt;strong&gt;.ia&lt;/strong&gt; asignado a la isla de Anticitera, como símbolo del origen de la computación (por el Mecanismo de Anticitera) y como alternativa lingüística al &lt;strong&gt;.ai&lt;/strong&gt; (Anguila) para las lenguas romances (Inteligencia Artificial).&lt;/p&gt;
+&lt;p&gt;Es una idea brillante desde el punto de vista narrativo, pero titánica desde el punto de vista burocrático. Tienes una base sólida (visión clara, sitio web funcional en Hugo, tracción inicial con menciones de figuras como Chema Alonso), pero el camino hacia la ICANN e ISO es empinado.&lt;/p&gt;
+&lt;p&gt;Aquí tienes mi análisis y una hoja de ruta con consejos clave para que este proyecto pase de ser una &amp;quot;idea bonita&amp;quot; a una posibilidad real.&lt;/p&gt;
+&lt;h3 id=&quot;1-el-elefante-en-la-habitacion-la-estrategia-iso-icann&quot; tabindex=&quot;-1&quot;&gt;1. El &amp;quot;Elefante en la Habitación&amp;quot;: La Estrategia ISO/ICANN &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Este es el punto crítico. Para tener un ccTLD (&lt;code&gt;.ia&lt;/code&gt;), Anticitera necesita primero un código ISO 3166-1 alpha-2. Actualmente, Anticitera es administrativamente parte de Grecia (región de Ática), no un territorio autónomo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;El obstáculo:&lt;/strong&gt; La ICANN no crea códigos de país, solo usa la lista ISO 3166-1. Si Anticitera no está en esa lista, no hay dominio.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;El precedente a estudiar:&lt;/strong&gt; Mira el caso de &lt;strong&gt;.ax&lt;/strong&gt; (Islas Åland) o &lt;strong&gt;.gg&lt;/strong&gt; (Guernsey). Son territorios con cierto grado de autonomía o estatus especial.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tu Consejo Clave:&lt;/strong&gt; No luches por el dominio tecnológico todavía, lucha por el &lt;strong&gt;reconocimiento territorial simbólico&lt;/strong&gt;. Tu objetivo debe ser convencer a las autoridades griegas de que solicitar un código excepcional o sub-código para Anticitera es una jugada maestra de marketing turístico y tecnológico para el país. Grecia podría convertirse en la &amp;quot;casa de la IA ética/europea&amp;quot;.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Acción:&lt;/em&gt; Redacta una propuesta formal no para la ICANN, sino para el &lt;strong&gt;Ministerio de Gobernanza Digital de Grecia&lt;/strong&gt; y el &lt;strong&gt;Hellenic Standardization Organization (ELOT)&lt;/strong&gt;. Véndeles la idea de que &lt;code&gt;.ia&lt;/code&gt; es el &amp;quot;petróleo digital&amp;quot; del futuro y que Grecia tiene el derecho histórico de reclamarlo a través de Anticitera.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;2-narrativa-y-branding-la-cuna-vs-la-mina&quot; tabindex=&quot;-1&quot;&gt;2. Narrativa y Branding: &amp;quot;La Cuna vs. La Mina&amp;quot; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Tu narrativa actual es buena, pero puedes radicalizarla (en el buen sentido) para ganar más tracción.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;El ángulo:&lt;/strong&gt; Posiciona el &lt;code&gt;.ai&lt;/code&gt; (Anguila) como un dominio comercial, anglocéntrico y extractivista. Posiciona el &lt;code&gt;.ia&lt;/code&gt; (Anticitera) como el dominio de la &lt;strong&gt;IA humanista, cultural, académica y europea/latina&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consejo Clave:&lt;/strong&gt; El &lt;em&gt;storytelling&lt;/em&gt; debe ser: &amp;quot;La IA no nació en Silicon Valley, nació en Grecia hace 2000 años&amp;quot;. Usa esa legitimidad histórica para atraer no solo a desarrolladores, sino a instituciones (universidades, museos, centros de investigación) que preferirían un dominio &lt;code&gt;.ia&lt;/code&gt; antes que un &lt;code&gt;.ai&lt;/code&gt; o &lt;code&gt;.com&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;3-optimizacion-del-sitio-y-conversion-analisis-web&quot; tabindex=&quot;-1&quot;&gt;3. Optimización del Sitio y Conversión (Análisis Web) &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;He notado que usas Hugo y tienes una estructura de blog/base de conocimiento. Para lograr tu objetivo, la web debe dejar de parecer un blog personal y parecer el sitio de una &lt;strong&gt;Fundación&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Diseño de Confianza:&lt;/strong&gt; El sitio necesita una sección clara de &amp;quot;Manifiesto&amp;quot; o &amp;quot;Whitepaper&amp;quot; que se vea muy profesional.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La &amp;quot;Lista de Reserva&amp;quot;:&lt;/strong&gt; He visto que permites reservar dominios. Esto es tu mayor activo.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Consejo:&lt;/em&gt; Haz público el contador. &amp;quot;Ya hay X,000 dominios .ia solicitados&amp;quot;. La prueba social es vital para presionar a las autoridades.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Gamificación:&lt;/em&gt; Permite que quien reserve un dominio obtenga un &amp;quot;badge&amp;quot; o certificado digital de &amp;quot;Pionero de Anticitera&amp;quot; que pueda poner en su GitHub o LinkedIn. Necesitas que la gente presuma de apoyar esto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;4-estrategia-de-comunidad-y-lobby-digital&quot; tabindex=&quot;-1&quot;&gt;4. Estrategia de Comunidad y &amp;quot;Lobby&amp;quot; Digital &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Mencionas a Chema Alonso y el soporte en redes. Eso es oro, pero necesitas sistematizarlo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Embajadores Académicos:&lt;/strong&gt; Busca activamente a profesores de ética en IA, historia de la tecnología y filosofía en universidades hispanas y griegas. Si consigues que 5 universidades apoyen la carta a la ISO, tienes mucha más fuerza que 10,000 firmas en Change.org.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alianza Lingüística:&lt;/strong&gt; No lo hagas solo &amp;quot;hispano&amp;quot;. Tienes el portugués, el francés, el italiano y el rumano. &amp;quot;IA&amp;quot; es el acrónimo en casi todas las lenguas romances.
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Acción:&lt;/em&gt; Crea una campaña específica para Francia y Brasil. Son mercados enormes que usan &amp;quot;IA&amp;quot; y suelen ser protectores de su soberanía lingüística frente al inglés. Un &amp;quot;aliado&amp;quot; en el gobierno francés sería un cambio radical para el proyecto.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;5-financiacion-y-sostenibilidad&quot; tabindex=&quot;-1&quot;&gt;5. Financiación y Sostenibilidad &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Ahora mismo parece un proyecto de pasión (deft.work). Para escalar, necesitas recursos para viajes (lobby en Grecia/Bruselas) o marketing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Consejo:&lt;/strong&gt; No monetices los registros todavía (sería vender humo). Monetiza la &lt;strong&gt;pertenencia&lt;/strong&gt;. Crea una &amp;quot;Asociación de Amigos del Dominio .IA&amp;quot;. Una membresía simbólica que de derecho a voto en la futura gobernanza del dominio. Esto te da legitimidad democrática (&amp;quot;represento a 500 miembros de pago&amp;quot;) frente a la ICANN, que valora mucho el modelo &amp;quot;multistakeholder&amp;quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;resumen-de-pasos-inmediatos-para-ti&quot; tabindex=&quot;-1&quot;&gt;Resumen de Pasos Inmediatos para ti: &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Profesionaliza la Propuesta:&lt;/strong&gt; Crea un PDF/Dossier ejecutivo dirigido al gobierno griego (en inglés y griego si es posible) explicando el beneficio económico y de marca país.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Internacionaliza:&lt;/strong&gt; Traduce la &amp;quot;home&amp;quot; y el manifiesto al portugués y francés prioritariamente (si no lo están ya, revisa la calidad).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hackea la ISO:&lt;/strong&gt; Investiga los requisitos exactos para la asignación de códigos reservados excepcionalmente en la norma ISO 3166. Tu batalla es ahí, en Ginebra, no en el servidor DNS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reactiva la comunidad:&lt;/strong&gt; Si tienes emails de la lista de reserva, envíales una actualización pidiendo una acción concreta: &amp;quot;Menciona a @DigitalGovGR (Ministerio digital griego) en X diciendo por qué quieres un .ia&amp;quot;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;El proyecto tiene un potencial simbólico enorme. Tienes la razón histórica y lingüística; te falta la palanca política. ¡Mucha suerte!&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;🙍‍♂️ Eloy López:&lt;/p&gt;
+&lt;p&gt;Se que este proyecto es una larga carrera de fondo y que es muy probable que no lo vea realizado en vida, por eso voy a procurar adoptar una mentalidad estoica, para que no me afecte el desánimo de ver que el proyecto no tiene ningún tipo de progreso, estoy convencido que la clave está en encontrar a las personas adecuadas que me ayuden a tirar del carro, varios de los LLM consultados me indican que la idea del proyecto es buena, ¿Por qué me cuesta encontrar personas que piensen lo mismo y estén dispuestas a colaborar en el proyecto?, ¿Qué estoy haciendo mal?, ¿Cómo puedo arreglarlo?&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;♊ Gemini:&lt;/p&gt;
+&lt;p&gt;Entiendo perfectamente tu sentimiento. Adoptar una mentalidad estoica es, de hecho, la mejor herramienta psicológica para este tipo de proyectos &amp;quot;catedralicios&amp;quot; (aquellos que se empiezan sabiendo que quizás los terminen tus nietos).&lt;/p&gt;
+&lt;p&gt;Sin embargo, el estoicismo no implica resignación, sino &lt;strong&gt;acción focalizada en lo que puedes controlar&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;El hecho de que los LLM (y la gente) te digan que es una &amp;quot;buena idea&amp;quot; pero nadie se arremangue para trabajar tiene una explicación psicológica y práctica muy clara. No estás haciendo las cosas &amp;quot;mal&amp;quot;, pero estás cayendo en la &lt;strong&gt;&amp;quot;Trampa de la Admiración Pasiva&amp;quot;&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Aquí te explico por qué ocurre esto y cómo cambiar la dinámica para reclutar aliados reales.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;1-el-diagnostico-por-que-nadie-ayuda&quot; tabindex=&quot;-1&quot;&gt;1. El Diagnóstico: ¿Por qué nadie ayuda? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;A. El problema es abstracto y político, no técnico.&lt;/strong&gt;
+La mayoría de la gente en entornos digitales (donde te mueves) son &amp;quot;builders&amp;quot; (constructores). Si les das código para refactorizar, lo hacen. Si les pides diseñar una interfaz, la diseñan.
+Pero el proyecto Anticitera, ahora mismo, es un problema de &lt;strong&gt;burocracia internacional&lt;/strong&gt;. No hay &amp;quot;código&amp;quot; que picar que solucione el problema de la ISO. Cuando un desarrollador ve el proyecto piensa: &lt;em&gt;&amp;quot;¡Qué chulo! Pero yo no sé cómo convencer al gobierno griego, así que le doy like y me voy&amp;quot;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;B. La barrera de entrada es difusa.&lt;/strong&gt;
+Si yo quisiera ayudarte hoy, ahora mismo, ¿qué hago?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;¿Escribo un tuit? (Poco impacto percibido).&lt;/li&gt;
+&lt;li&gt;¿Mando un email a la ICANN? (Me da miedo/pereza/no sé qué decir).
+Al no haber &amp;quot;tickets&amp;quot; o tareas claras y pequeñas, la gente se paraliza.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;C. El &amp;quot;Valle de la Muerte&amp;quot; de la recompensa.&lt;/strong&gt;
+En un proyecto Open Source normal, si colaboro, veo mi código funcionando mañana. Aquí, la recompensa (el dominio .ia) está a años luz. El cerebro humano busca gratificación más inmediata.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;2-la-solucion-como-convertir-fans-en-colaboradores&quot; tabindex=&quot;-1&quot;&gt;2. La Solución: Cómo convertir &amp;quot;Fans&amp;quot; en &amp;quot;Colaboradores&amp;quot; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Para atraer gente, tienes que dejar de vender un &amp;quot;dominio futuro&amp;quot; y empezar a vender una &lt;strong&gt;&amp;quot;Nación Digital Presente&amp;quot;&lt;/strong&gt;. Necesitas gamificar y trocear el elefante.&lt;/p&gt;
+&lt;h4 id=&quot;paso-1-crea-roles-y-titulos-ego-y-pertenencia&quot; tabindex=&quot;-1&quot;&gt;Paso 1: Crea Roles y Títulos (Ego y Pertenencia) &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;A la gente le encanta ser parte de algo exclusivo. No busques &amp;quot;colaboradores&amp;quot;, busca &lt;strong&gt;Embajadores&lt;/strong&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Acción:&lt;/strong&gt; Crea una estructura oficial. &amp;quot;Busco al Embajador de Anticitera en Chile&amp;quot;, &amp;quot;Busco al Cónsul de Lingüística&amp;quot;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;El Truco:&lt;/strong&gt; Ofréceles algo tangible &lt;em&gt;ahora&lt;/em&gt;. Un subdominio gratuito (ej: &lt;code&gt;juan.embajador.anticitera.deft.work&lt;/code&gt; o similar) o un certificado digital muy bien diseñado que diga &amp;quot;Miembro Fundador&amp;quot;. Dales un cargo que puedan poner en LinkedIn.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;paso-2-modulariza-el-trabajo-la-tecnica-de-la-piedra-en-el-zapato&quot; tabindex=&quot;-1&quot;&gt;Paso 2: Modulariza el Trabajo (La técnica de la &amp;quot;Piedra en el zapato&amp;quot;) &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Nadie moverá la montaña por ti, pero muchos pueden quitar piedras. Crea una lista de tareas (un tablón de Trello o GitHub Issues) con cosas ridículamente específicas que no sean &amp;quot;conseguir el dominio&amp;quot;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&amp;quot;Necesitamos traducir el manifiesto al Catalán.&amp;quot;&lt;/em&gt; (Alguien lo hará en 10 minutos).&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&amp;quot;Necesitamos diseñar el escudo oficial digital de Anticitera.&amp;quot;&lt;/em&gt; (Un diseñador se animará).&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&amp;quot;Necesitamos buscar los correos electrónicos de los profesores de informática de la Universidad de Atenas.&amp;quot;&lt;/em&gt; (Alguien bueno en OSINT lo hará).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clave:&lt;/strong&gt; Cuando alguien complete una tarea pequeña, &lt;em&gt;celébralo públicamente&lt;/em&gt; como una victoria enorme. Eso genera efecto llamada.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;paso-3-cambia-el-target-buscas-a-los-equivocados&quot; tabindex=&quot;-1&quot;&gt;Paso 3: Cambia el Target (Buscas a los equivocados) &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Es probable que estés buscando apoyo en la comunidad tech/dev &amp;quot;generalista&amp;quot;. Ellos no son tu fuerza de choque principal. Tus aliados naturales son:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;La Diáspora Griega:&lt;/strong&gt; Hay miles de griegos orgullosos en tecnología alrededor del mundo. Si tocas su fibra nacionalista/cultural, moverán cielo y tierra. Busca grupos de &amp;quot;Greeks in Tech&amp;quot; en LinkedIn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Académicos de Humanidades Digitales:&lt;/strong&gt; A ellos les interesa la preservación cultural y la ética de la IA. No saben programar, pero saben redactar cartas institucionales y tienen contactos políticos.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abogados especialistas en Derecho Digital:&lt;/strong&gt; A un estudiante de derecho o un abogado joven le encantaría el reto intelectual de encontrar el &amp;quot;agujero legal&amp;quot; en la ISO 3166. Plantéalo como un reto jurídico, no técnico.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;paso-4-crea-el-simulacro-fake-it-until-you-make-it&quot; tabindex=&quot;-1&quot;&gt;Paso 4: Crea el &amp;quot;Simulacro&amp;quot; (Fake it until you make it) &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Si el dominio real tarda 10 años, crea el dominio virtual hoy.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Haz que el proyecto &lt;strong&gt;Anticitera&lt;/strong&gt; funcione ya como una entidad. Crea una &amp;quot;Constitución de la IA Ética&amp;quot;. Haz que la gente firme y vote principios.&lt;/li&gt;
+&lt;li&gt;Si la gente siente que &lt;em&gt;ya&lt;/em&gt; pertenece a una comunidad activa que debate y crea cultura, lucharán por el dominio para proteger &lt;em&gt;su&lt;/em&gt; comunidad. Ahora mismo, luchar por el dominio se siente como luchar por &lt;em&gt;tu&lt;/em&gt; idea.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;resumen-para-tu-mentalidad-estoica&quot; tabindex=&quot;-1&quot;&gt;Resumen para tu mentalidad estoica &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;No estás fallando tú. Estás intentando vender una &lt;strong&gt;reforma de infraestructura invisible&lt;/strong&gt; (DNS/ISO) a gente que está acostumbrada a comprar &lt;strong&gt;productos brillantes&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tu nueva estrategia:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Deja de pedir &amp;quot;ayuda para el proyecto&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Empieza a ofrecer &amp;quot;ciudadanía en la primera República Digital de la IA&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Dales tareas tan pequeñas que les de vergüenza decir que no.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Tienes la visión. Ahora tienes que convertirte en el arquitecto que reparte los planos, no en el albañil que intenta poner todos los ladrillos solo. Ánimo, la historia se escribe despacio.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/Gemini-3_Pro.webp&quot; alt=&quot;La tercera versión del modelo de Inteligencia Artificial Gemini de Google&quot;&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Архимед из Сиракуз.</title>
@@ -12868,7 +12997,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
     <entry>
         <title>Proyecto .IA Isla Anticitera</title>
 		<link href="https://anticitera.deft.work/about/"/>
-        <updated>2025-11-13T18:39:56Z</updated>
+        <updated>2025-11-20T11:01:31Z</updated>
         <id>https://anticitera.deft.work/about/</id>
         <content type="html">
             <![CDATA[<p>&lt;h1 id=&quot;proyecto-ia-isla-anticitera&quot; tabindex=&quot;-1&quot;&gt;Proyecto .IA Isla Anticitera &lt;a class=&quot;header-anchor&quot; href=&quot;#proyecto-ia-isla-anticitera&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
@@ -12972,7 +13101,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/AriKIdJTeak"/>
 		<id>https://youtu.be/AriKIdJTeak</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-11-13T18:40:42.308Z</updated>
+		<updated>2025-11-20T11:01:49.036Z</updated>
 	</entry>
 	
 	<entry>
@@ -12980,7 +13109,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/PNA0f05zsC4"/>
 		<id>https://youtu.be/PNA0f05zsC4</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-11-13T18:40:43.167Z</updated>
+		<updated>2025-11-20T11:01:49.846Z</updated>
 	</entry>
 	
 	<entry>
@@ -12988,7 +13117,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/"/>
 		<id>https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/</id>
 		<content>In the last 2,500 years human civilization has made great strides; and in merely the last 80 of these, technology has advanced to the point where machines, endowed with artificial […]</content>
-		<updated>2025-11-13T18:40:43.609Z</updated>
+		<updated>2025-11-20T11:01:51.064Z</updated>
 	</entry>
 	
 	<entry>
@@ -12996,7 +13125,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.bbc.com/mundo/noticias-36592050"/>
 		<id>https://www.bbc.com/mundo/noticias-36592050</id>
 		<content>El equipo internacional de expertos que investiga el fabuloso artilugio acaba de revelar más detalles de la computadora análoga encontrada hace un siglo en el fondo del Mar Mediterráneo, más de 2.000 años después de que el barco en el que iba naufragara.</content>
-		<updated>2025-11-13T18:40:43.985Z</updated>
+		<updated>2025-11-20T11:01:51.663Z</updated>
 	</entry>
 	
 	<entry>
@@ -13004,7 +13133,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/ailRl_hUUEE"/>
 		<id>https://youtu.be/ailRl_hUUEE</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-11-13T18:40:44.837Z</updated>
+		<updated>2025-11-20T11:01:52.521Z</updated>
 	</entry>
 	
 	<entry>
@@ -13012,7 +13141,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/7NlBDeqgRIs"/>
 		<id>https://youtu.be/7NlBDeqgRIs</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-11-13T18:40:45.668Z</updated>
+		<updated>2025-11-20T11:01:53.365Z</updated>
 	</entry>
 	
 	<entry>
@@ -13020,7 +13149,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://antikythera-mechanism.gr"/>
 		<id>https://antikythera-mechanism.gr</id>
 		<content></content>
-		<updated>2025-11-13T18:40:46.153Z</updated>
+		<updated>2025-11-20T11:01:53.831Z</updated>
 	</entry>
 	
 	<entry>
@@ -13028,7 +13157,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.nature.com/articles/s41598-021-84310-w"/>
 		<id>https://www.nature.com/articles/s41598-021-84310-w</id>
 		<content>The Antikythera Mechanism, an ancient Greek astronomical calculator, has challenged researchers since its discovery in 1901. Now split into 82 fragments, only a third of the original survives, including 30 corroded bronze gearwheels. Microfocus X-ray Computed Tomography (X-ray CT) in 2005 decoded the structure of the rear of the machine but the front remained largely unresolved. X-ray CT also revealed inscriptions describing the motions of the Sun, Moon and all five planets known in antiquity and how they were displayed at the front as an ancient Greek Cosmos. Inscriptions specifying complex planetary periods forced new thinking on the mechanization of this Cosmos, but no previous reconstruction has come close to matching the data. Our discoveries lead to a new model, satisfying and explaining the evidence. Solving this complex 3D puzzle reveals a creation of genius—combining cycles from Babylonian astronomy, mathematics from Plato’s Academy and ancient Greek astronomical theories.</content>
-		<updated>2025-11-13T18:40:47.102Z</updated>
+		<updated>2025-11-20T11:01:55.219Z</updated>
 	</entry>
 	
 	<entry>
@@ -13036,7 +13165,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.ngenespanol.com/historia/que-hace-el-mecanismo-de-anticitera-y-quienes-lo-inventaron/"/>
 		<id>https://www.ngenespanol.com/historia/que-hace-el-mecanismo-de-anticitera-y-quienes-lo-inventaron/</id>
 		<content>Sitio de Noticias de National Geographic Latinoamérica</content>
-		<updated>2025-11-13T18:40:47.274Z</updated>
+		<updated>2025-11-20T11:01:55.493Z</updated>
 	</entry>
 	
 	<entry>
@@ -13044,7 +13173,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.abc.es/ciencia/anticitera-objeto-real-buscado-indiana-jones-misterioso-20230710140400-nt.html"/>
 		<id>https://www.abc.es/ciencia/anticitera-objeto-real-buscado-indiana-jones-misterioso-20230710140400-nt.html</id>
 		<content>Este artefacto, por mérito propio es un rompecabezas increíble para su tiempo que supondría reescribir lo que creíamos saber hasta ahora</content>
-		<updated>2025-11-13T18:40:48.045Z</updated>
+		<updated>2025-11-20T11:01:56.560Z</updated>
 	</entry>
 	
 	<entry>
@@ -13052,7 +13181,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.bbc.com/mundo/noticias-56382328"/>
 		<id>https://www.bbc.com/mundo/noticias-56382328</id>
 		<content>El &quot;mecanismo de Anticitera&quot;, considerado el objeto más misterioso de la historia de la tecnología, tenía muchas piezas faltantes. Pero finalmente los científicos han recreado su complejo mecanismo.</content>
-		<updated>2025-11-13T18:40:48.303Z</updated>
+		<updated>2025-11-20T11:01:56.960Z</updated>
 	</entry>
 	
 	<entry>
@@ -13060,7 +13189,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.latercera.com/noticia/que-es-el-mecanismo-de-anticitera-y-por-que-es-el-objeto-mas-misterioso-de-la-historia-de-tecnologia/"/>
 		<id>https://www.latercera.com/noticia/que-es-el-mecanismo-de-anticitera-y-por-que-es-el-objeto-mas-misterioso-de-la-historia-de-tecnologia/</id>
 		<content>El equipo internacional de expertos que investiga el fabuloso artilugio acaba de revelar más detalles de la computadora análoga encontrada hace un siglo en el fondo del Mar Mediterráneo, más de 2.000 años después de que el barco en el que iba naufragara.</content>
-		<updated>2025-11-13T18:40:49.334Z</updated>
+		<updated>2025-11-20T11:01:57.874Z</updated>
 	</entry>
 	
 	<entry>
@@ -13068,7 +13197,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/"/>
 		<id>https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/</id>
 		<content>Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus, Medea, o más desconocidos son Talos, Hefesto o Hesíodo. Por supuesto, no</content>
-		<updated>2025-11-13T18:40:52.219Z</updated>
+		<updated>2025-11-20T11:01:59.561Z</updated>
 	</entry>
 	
 	<entry>
@@ -13076,7 +13205,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/WN8uUl4rbkE"/>
 		<id>https://youtu.be/WN8uUl4rbkE</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-11-13T18:40:53.131Z</updated>
+		<updated>2025-11-20T11:02:00.588Z</updated>
 	</entry>
 	
 	<entry>
@@ -13084,7 +13213,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/XmB8h_FDJCk"/>
 		<id>https://youtu.be/XmB8h_FDJCk</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-11-13T18:40:53.809Z</updated>
+		<updated>2025-11-20T11:02:01.339Z</updated>
 	</entry>
 	
 	<entry>
@@ -13092,7 +13221,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/CIGZ54b3c1I"/>
 		<id>https://youtu.be/CIGZ54b3c1I</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-11-13T18:40:54.556Z</updated>
+		<updated>2025-11-20T11:02:02.145Z</updated>
 	</entry>
 	
 	<entry>
@@ -13100,7 +13229,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://play.rtve.es/v/6999053"/>
 		<id>https://play.rtve.es/v/6999053</id>
 		<content>Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023</content>
-		<updated>2025-11-13T18:40:55.323Z</updated>
+		<updated>2025-11-20T11:02:05.768Z</updated>
 	</entry>
 	
 </feed>
