@@ -94,47 +94,51 @@
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<!-- Añadir la imagen del banner aquí -->
-            <img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
-			<a href="/" class="home-link">{{ metadata.title }}</a>			
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					{# English pages show nav entries with URLs starting with /en/ #}
-					{%- if lang == 'en' and entry.url and entry.url.startsWith('/en/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# French pages show nav entries with URLs starting with /fr/ #}
-					{%- elif lang == 'fr' and entry.url and entry.url.startsWith('/fr/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# Portuguese pages show nav entries with URLs starting with /pt/ #}
-					{%- elif lang == 'pt' and entry.url and entry.url.startsWith('/pt/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# Italian pages show nav entries with URLs starting with /it/ #}
-					{%- elif lang == 'it' and entry.url and entry.url.startsWith('/it/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# German pages show nav entries with URLs starting with /de/ #}
-					{%- elif lang == 'de' and entry.url and entry.url.startsWith('/de/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# Greek pages show nav entries with URLs starting with /el/ #}
-					{%- elif lang == 'el' and entry.url and entry.url.startsWith('/el/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# Chinese pages show nav entries with URLs starting with /cn/ #}
-					{%- elif lang == 'cn' and entry.url and entry.url.startsWith('/cn/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# Russian pages show nav entries with URLs starting with /ru/ #}
-					{%- elif lang == 'ru' and entry.url and entry.url.startsWith('/ru/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{# Spanish pages show nav entries with URLs NOT starting with /en/ or /fr/ etc. #}
-					{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') and not entry.url.startsWith('/it/') and not entry.url.startsWith('/de/') and not entry.url.startsWith('/el/') and not entry.url.startsWith('/cn/') and not entry.url.startsWith('/ru/') %}
-						<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-					{%- endif %}
-				{%- endfor %}
-				</ul>
-				{%- set hreflangUrls = page.url | hreflangUrls(collections) %}
-				{% languageSelector lang, page.url, languages, hreflangUrls %}
-			</nav>
+			<div class="header-banner">
+				<!-- Añadir la imagen del banner aquí -->
+				{% image "/public/img/Cabecera.webp", "Cabecera Proyecto .IA Isla Anticitera", ["auto"], "100vw", "eager" %}
+			</div>
+			<div class="header-nav-container">
+				<a href="/" class="home-link">{{ metadata.title }}</a>			
+				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+				<nav>
+					<h2 class="visually-hidden">Top level navigation menu</h2>
+					<ul class="nav">
+					{%- for entry in collections.all | eleventyNavigation %}
+						{# English pages show nav entries with URLs starting with /en/ #}
+						{%- if lang == 'en' and entry.url and entry.url.startsWith('/en/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# French pages show nav entries with URLs starting with /fr/ #}
+						{%- elif lang == 'fr' and entry.url and entry.url.startsWith('/fr/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# Portuguese pages show nav entries with URLs starting with /pt/ #}
+						{%- elif lang == 'pt' and entry.url and entry.url.startsWith('/pt/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# Italian pages show nav entries with URLs starting with /it/ #}
+						{%- elif lang == 'it' and entry.url and entry.url.startsWith('/it/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# German pages show nav entries with URLs starting with /de/ #}
+						{%- elif lang == 'de' and entry.url and entry.url.startsWith('/de/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# Greek pages show nav entries with URLs starting with /el/ #}
+						{%- elif lang == 'el' and entry.url and entry.url.startsWith('/el/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# Chinese pages show nav entries with URLs starting with /cn/ #}
+						{%- elif lang == 'cn' and entry.url and entry.url.startsWith('/cn/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# Russian pages show nav entries with URLs starting with /ru/ #}
+						{%- elif lang == 'ru' and entry.url and entry.url.startsWith('/ru/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{# Spanish pages show nav entries with URLs NOT starting with /en/ or /fr/ etc. #}
+						{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') and not entry.url.startsWith('/it/') and not entry.url.startsWith('/de/') and not entry.url.startsWith('/el/') and not entry.url.startsWith('/cn/') and not entry.url.startsWith('/ru/') %}
+							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{%- endif %}
+					{%- endfor %}
+					</ul>
+					{%- set hreflangUrls = page.url | hreflangUrls(collections) %}
+					{% languageSelector lang, page.url, languages, hreflangUrls %}
+				</nav>
+			</div>
 		</header>
 
 		<main id="skip">
