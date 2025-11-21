@@ -99,7 +99,7 @@
 				{% image "/public/img/Cabecera.webp", "Cabecera Proyecto .IA Isla Anticitera", ["auto"], "100vw", "eager" %}
 			</div>
 			<div class="header-nav-container">
-				<a href="/" class="home-link">{{ metadata.title }}</a>			
+				<!-- <a href="/" class="home-link">{{ metadata.title }}</a> -->
 				{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 				<nav>
 					<h2 class="visually-hidden">Top level navigation menu</h2>
@@ -137,6 +137,7 @@
 					</ul>
 					{%- set hreflangUrls = page.url | hreflangUrls(collections) %}
 					{% languageSelector lang, page.url, languages, hreflangUrls %}
+					<a href="https://dominio.deft.work" class="cta-button">Reservar 🌍 Dominio .IA</a>
 				</nav>
 			</div>
 		</header>

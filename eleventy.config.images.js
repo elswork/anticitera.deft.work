@@ -17,7 +17,8 @@ module.exports = eleventyConfig => {
 		let formats = ["avif", "webp", "auto"];
 		let file;
 		if (src.startsWith("/")) {
-			file = path.join(".", src.substring(1));
+			file = path.join(process.cwd(), src);
+			console.log(`[Image Shortcode] Resolving absolute path: ${src} -> ${file}`);
 		} else {
 			file = relativeToInputPath(this.page.inputPath, src);
 		}
