@@ -389,6 +389,30 @@ main lite-youtube {
 	display: block;
 	margin: 2em 0;
 }
+
+/* CTA Button */
+.cta-button {
+	background-color: #28a745;
+	color: white !important;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+	background-color: #218838;
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.cta-button {
+		margin-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+}
 /* Language Selector Styles */
 .language-selector {
   position: relative;
@@ -728,7 +752,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 				<picture><source type="image/avif" srcset="/img/BPuSysFSp8-960.avif 960w" sizes="100vw"><img alt="Cabecera Proyecto .IA Isla Anticitera" loading="eager" decoding="async" src="/img/BPuSysFSp8-960.webp" width="960" height="256"></picture>
 			</div>
 			<div class="header-nav-container">
-				<a href="/" class="home-link">Proyecto .IA Isla Anticitera</a>
+				<!-- <a href="/" class="home-link">Proyecto .IA Isla Anticitera</a> -->
 				<nav>
 					<h2 class="visually-hidden">Top level navigation menu</h2>
 					<ul class="nav">
@@ -852,6 +876,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 				<span class="language-name">Русский</span>
 				<span class="language-code">ru</span>
 			</a></div></div>
+					<a href="https://dominio.deft.work" class="cta-button">Reservar 🌍 Dominio .IA</a>
 				</nav>
 			</div>
 		</header>
@@ -933,18 +958,8 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 	</li>
 
 	<li class="postlist-item">
-		<a href="/de/blog/Boletin_Informativo_IV_Proyecto_.IA_Isla_Anticitera/" class="postlist-link">Informationsblatt IV .IA Antikythera-Insel-Projekt</a>
-		<time class="postlist-date" datetime="2025-09-07">September 2025</time>
-	</li>
-
-	<li class="postlist-item">
 		<a href="/de/blog/Boletin_Informativo_II_Proyecto_.IA_Isla_Anticitera/" class="postlist-link">Informationsblatt II .IA Antikythera-Insel-Projekt</a>
 		<time class="postlist-date" datetime="2024-06-26">June 2024</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/de/blog/Cual_será_la_primera/" class="postlist-link">Welches wird das erste Unternehmen/Organisation/Institution sein, das das &quot;Antikythera-Projekt&quot; sponsert?</a>
-		<time class="postlist-date" datetime="2025-05-08">May 2025</time>
 	</li>
 
 	<li class="postlist-item">
@@ -953,8 +968,18 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 	</li>
 
 	<li class="postlist-item">
+		<a href="/de/blog/Boletin_Informativo_IV_Proyecto_.IA_Isla_Anticitera/" class="postlist-link">Informationsblatt IV .IA Antikythera-Insel-Projekt</a>
+		<time class="postlist-date" datetime="2025-09-07">September 2025</time>
+	</li>
+
+	<li class="postlist-item">
 		<a href="/de/blog/Casos_de_uso-Dominio.IA/" class="postlist-link">Anwendungsfälle - .IA Domain praktische Beispiele</a>
 		<time class="postlist-date" datetime="2024-04-29">April 2024</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/de/blog/Cual_será_la_primera/" class="postlist-link">Welches wird das erste Unternehmen/Organisation/Institution sein, das das &quot;Antikythera-Projekt&quot; sponsert?</a>
+		<time class="postlist-date" datetime="2025-05-08">May 2025</time>
 	</li>
 
 	<li class="postlist-item">
@@ -968,18 +993,8 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 	</li>
 
 	<li class="postlist-item">
-		<a href="/de/blog/Entrevista_con_Eloy_López_Impulsor_Proyecto_IA_Isla_Anticitera/" class="postlist-link">Interview mit Eloy López, Förderer des .IA Antikythera-Insel-Projekts</a>
-		<time class="postlist-date" datetime="2024-06-18">June 2024</time>
-	</li>
-
-	<li class="postlist-item">
 		<a href="/de/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/" class="postlist-link">Grok 3 - Detaillierte Analyse des .IA Antikythera-Insel-Projekts</a>
 		<time class="postlist-date" datetime="2025-02-20">February 2025</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/de/blog/Gemini-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/" class="postlist-link">Gemini - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.</a>
-		<time class="postlist-date" datetime="2025-03-23">March 2025</time>
 	</li>
 
 	<li class="postlist-item">
@@ -988,23 +1003,28 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 	</li>
 
 	<li class="postlist-item">
+		<a href="/de/blog/Entrevista_con_Eloy_López_Impulsor_Proyecto_IA_Isla_Anticitera/" class="postlist-link">Interview mit Eloy López, Förderer des .IA Antikythera-Insel-Projekts</a>
+		<time class="postlist-date" datetime="2024-06-18">June 2024</time>
+	</li>
+
+	<li class="postlist-item">
 		<a href="/de/blog/Maximizando_Oportunidades-El_Dominio.IA/" class="postlist-link">Maximierung der Möglichkeiten – Die .IA-Domain für verschiedene Sektoren</a>
 		<time class="postlist-date" datetime="2024-04-13">April 2024</time>
 	</li>
 
 	<li class="postlist-item">
-		<a href="/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/" class="postlist-link">Projekt .IA Insel Antikythera - Sitzung 1</a>
-		<time class="postlist-date" datetime="2023-11-14">November 2023</time>
-	</li>
-
-	<li class="postlist-item">
-		<a href="/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini-Sesion_1/" class="postlist-link">I Arbeitssitzung mit Gemini zum Projekt .IA Insel Antikythera</a>
-		<time class="postlist-date" datetime="2024-11-03">November 2024</time>
+		<a href="/de/blog/Gemini-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/" class="postlist-link">Gemini - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.</a>
+		<time class="postlist-date" datetime="2025-03-23">March 2025</time>
 	</li>
 
 	<li class="postlist-item">
 		<a href="/de/blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera/" class="postlist-link">Perplexity - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.</a>
 		<time class="postlist-date" datetime="2025-02-19">February 2025</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini-Sesion_1/" class="postlist-link">I Arbeitssitzung mit Gemini zum Projekt .IA Insel Antikythera</a>
+		<time class="postlist-date" datetime="2024-11-03">November 2024</time>
 	</li>
 
 	<li class="postlist-item">
@@ -1015,6 +1035,11 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 	<li class="postlist-item">
 		<a href="/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_2/" class="postlist-link">Projekt .IA Insel Antikythera - Sitzung 2</a>
 		<time class="postlist-date" datetime="2023-12-03">December 2023</time>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/" class="postlist-link">Projekt .IA Insel Antikythera - Sitzung 1</a>
+		<time class="postlist-date" datetime="2023-11-14">November 2023</time>
 	</li>
 
 	<li class="postlist-item">
@@ -1030,36 +1055,6 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 </ol>
 
 		<br>
-		
-			<button id="toggle-comments-btn">Kommentare anzeigen</button>
-			<div class="issue-container" style="display: none;">
-				<div class="issue-header">
-					<h3>Comentario de prueba</h3>
-					<div class="issue-user">						
-						<a href="https://github.com/elswork" target="_blank" class="issue-author-link"><img src="https://avatars.githubusercontent.com/u/1455507?v=4" alt="elswork" class="issue-author-avatar">elswork</a>
-					</div>
-				</div>
-				<div class="issue-body"><p>Esto es una prueba. 💕
-<img src="https://github.com/elswork/anticitera.deft.work/assets/1455507/4d033694-7a86-4965-8380-e3e98564435c" alt="image"></p>
-</div>
-				<div class="issue-footer">
-					<div class="issue-footer-left">
-						<span class="issue-state">
-							🟢							
-						</span>
-						<span class="issue-comments">💬1</span>
-						<span class="issue-reactions">❤️1</span>
-					</div>
-					<div class="issue-footer-right">
-						<span class="issue-created-at">
-							🕒 25/11/2023 18:13
-							<span class="issue-updated-at">🔄 13/08/2024 13:32</span>
-						</span>
-						<a href="https://github.com/elswork/anticitera.deft.work/issues/1" target="_blank" class="issue-link">Ver comentario</a>
-					</div>
-				</div>
-			</div>
-			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Neuer Kommentar</button>
 		
 
 		</main>

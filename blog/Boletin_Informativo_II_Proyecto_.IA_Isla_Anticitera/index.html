@@ -538,6 +538,30 @@ main lite-youtube {
 	display: block;
 	margin: 2em 0;
 }
+
+/* CTA Button */
+.cta-button {
+	background-color: #28a745;
+	color: white !important;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+	background-color: #218838;
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.cta-button {
+		margin-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+}
 /* Language Selector Styles */
 .language-selector {
   position: relative;
@@ -877,7 +901,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 				<picture><source type="image/avif" srcset="/img/BPuSysFSp8-960.avif 960w" sizes="100vw"><img alt="Cabecera Proyecto .IA Isla Anticitera" loading="eager" decoding="async" src="/img/BPuSysFSp8-960.webp" width="960" height="256"></picture>
 			</div>
 			<div class="header-nav-container">
-				<a href="/" class="home-link">Proyecto .IA Isla Anticitera</a>
+				<!-- <a href="/" class="home-link">Proyecto .IA Isla Anticitera</a> -->
 				<nav>
 					<h2 class="visually-hidden">Top level navigation menu</h2>
 					<ul class="nav">
@@ -994,6 +1018,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 				<span class="language-name">Русский</span>
 				<span class="language-code">ru</span>
 			</a></div></div>
+					<a href="https://dominio.deft.work" class="cta-button">Reservar 🌍 Dominio .IA</a>
 				</nav>
 			</div>
 		</header>
@@ -1064,36 +1089,6 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 </ul>
 
 		<br>
-		
-			<button id="toggle-comments-btn">Ver Comentarios</button>
-			<div class="issue-container" style="display: none;">
-				<div class="issue-header">
-					<h3>Comentario de prueba</h3>
-					<div class="issue-user">						
-						<a href="https://github.com/elswork" target="_blank" class="issue-author-link"><img src="https://avatars.githubusercontent.com/u/1455507?v=4" alt="elswork" class="issue-author-avatar">elswork</a>
-					</div>
-				</div>
-				<div class="issue-body"><p>Esto es una prueba. 💕
-<img src="https://github.com/elswork/anticitera.deft.work/assets/1455507/4d033694-7a86-4965-8380-e3e98564435c" alt="image"></p>
-</div>
-				<div class="issue-footer">
-					<div class="issue-footer-left">
-						<span class="issue-state">
-							🟢							
-						</span>
-						<span class="issue-comments">💬1</span>
-						<span class="issue-reactions">❤️1</span>
-					</div>
-					<div class="issue-footer-right">
-						<span class="issue-created-at">
-							🕒 25/11/2023 18:13
-							<span class="issue-updated-at">🔄 13/08/2024 13:32</span>
-						</span>
-						<a href="https://github.com/elswork/anticitera.deft.work/issues/1" target="_blank" class="issue-link">Ver comentario</a>
-					</div>
-				</div>
-			</div>
-			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">Nuevo comentario</button>
 		
 
 		</main>
