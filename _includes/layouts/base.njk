@@ -162,35 +162,7 @@
 		<br>
 			{{ content | safe }}
 		<br>
-		{% for issue in issues %}
-			<button id="toggle-comments-btn">{{ home[lang].buttons.view_comments }}</button>
-			<div class="issue-container" style="display: none;">
-				<div class="issue-header">
-					<h3>{{ issue.title }}</h3>
-					<div class="issue-user">						
-						<a href="{{ issue.user.html_url }}" target="_blank" class="issue-author-link"><img src="{{ issue.user.avatar_url }}" alt="{{ issue.user.login }}" class="issue-author-avatar">{{ issue.user.login }}</a>
-					</div>
-				</div>
-				<div class="issue-body">{{ issue.body | markdown | safe }}</div>
-				<div class="issue-footer">
-					<div class="issue-footer-left">
-						<span class="issue-state">
-							{% if issue.state == 'open' %}🟢{% else %}🔴{% endif %}							
-						</span>
-						<span class="issue-comments">💬{{ issue.comments }}</span>
-						<span class="issue-reactions">❤️{{ issue.reactions.total_count }}</span>
-					</div>
-					<div class="issue-footer-right">
-						<span class="issue-created-at">
-							🕒 {{ issue.created_at | date('dd/MM/yyyy HH:mm') }}
-							<span class="issue-updated-at">🔄 {{ issue.updated_at | date('dd/MM/yyyy HH:mm') }}</span>
-						</span>
-						<a href="{{ issue.html_url }}" target="_blank" class="issue-link">Ver comentario</a>
-					</div>
-				</div>
-			</div>
-			<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/issues/new', '_blank')" class="issue-link-create">{{ home[lang].buttons.new_comment }}</button>
-		{% endfor %}
+
 
 		</main>
 
@@ -288,17 +260,7 @@
 					});
 				}
 
-				// Bucle para manejar cada botón "Ver Comentarios"
-				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
-					btn.addEventListener('click', function() {
-						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
-						if (container.style.display === 'none' || container.style.display === '') {
-							container.style.display = 'block';
-						} else {
-							container.style.display = 'none';
-						}
-					});
-				});
+
 			});
 		</script>
 		<script>
