@@ -50,7 +50,7 @@
 
 	--background-color: #f8f9fa;
 	--text-color: var(--color-gray-90);
-	
+
 	--text-color-link: #007bff;
 	--text-color-link-active: #0056b3;
 	--text-color-link-visited: #6f42c1;
@@ -87,9 +87,11 @@ body {
 	color: var(--text-color);
 	background-color: var(--background-color);
 }
+
 html {
 	overflow-y: scroll;
 }
+
 body {
 	max-width: 60em;
 }
@@ -108,6 +110,7 @@ body {
 p:last-child {
 	margin-bottom: 0;
 }
+
 p {
 	line-height: 1.5;
 }
@@ -120,9 +123,11 @@ a[href] {
 	color: var(--text-color-link);
 	transition: color 0.2s ease-in-out;
 }
+
 a[href]:visited {
 	color: var(--text-color-link-visited);
 }
+
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
@@ -131,6 +136,7 @@ a[href]:active {
 main {
 	padding: 1rem;
 }
+
 main :first-child {
 	margin-top: 0;
 }
@@ -138,6 +144,7 @@ main :first-child {
 header {
 	border-bottom: 1px solid var(--color-gray-20);
 }
+
 header:after {
 	content: "";
 	display: table;
@@ -153,6 +160,7 @@ header:after {
 table {
 	margin: 1em 0;
 }
+
 table td,
 table th {
 	padding-right: 1em;
@@ -162,9 +170,11 @@ pre,
 code {
 	font-family: var(--font-family-monospace);
 }
+
 pre:not([class*="language-"]) {
 	margin: .5em 0;
-	line-height: 1.375; /* 22px /16 */
+	line-height: 1.375;
+	/* 22px /16 */
 	-moz-tab-size: var(--syntax-tab-size);
 	-o-tab-size: var(--syntax-tab-size);
 	tab-size: var(--syntax-tab-size);
@@ -177,6 +187,7 @@ pre:not([class*="language-"]) {
 	word-spacing: normal;
 	word-break: normal;
 }
+
 code {
 	word-break: break-all;
 }
@@ -184,16 +195,40 @@ code {
 /* Header */
 header {
 	display: flex;
-	gap: 1em .5em;
-	flex-wrap: wrap;
-	align-items: center;
+	flex-direction: column;
+	align-items: stretch;
 	padding: 1em;
 }
+
+.header-banner img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.header-nav-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1em .5em;
+	width: 100%;
+	margin-top: 1em;
+}
+
+/* Removed .header-nav-container nav { flex: 1; } to prevent forced wrapping */
+
+.header-nav-container nav {
+	/* flex: 1; */
+}
+
 .home-link {
-	font-size: 1em; /* 16px /16 */
+	font-size: 1em;
+	/* 16px /16 */
 	font-weight: 700;
 	margin-right: 2em;
 }
+
 .home-link:link:not(:hover) {
 	text-decoration: none;
 }
@@ -205,13 +240,16 @@ header {
 	margin: 0;
 	list-style: none;
 }
+
 .nav-item {
 	display: inline-block;
 	margin-right: 1em;
 }
+
 .nav-item a[href]:not(:hover) {
 	text-decoration: none;
 }
+
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
 }
@@ -222,6 +260,7 @@ header {
 	padding: 0;
 	padding-left: 1.5rem;
 }
+
 .postlist-item {
 	display: flex;
 	flex-wrap: wrap;
@@ -229,6 +268,7 @@ header {
 	counter-increment: start-from -1;
 	margin-bottom: 1em;
 }
+
 .postlist-item:before {
 	display: inline-block;
 	pointer-events: none;
@@ -237,16 +277,21 @@ header {
 	text-align: right;
 	margin-left: -1.5rem;
 }
+
 .postlist-date,
 .postlist-item:before {
-	font-size: 0.8125em; /* 13px /16 */
+	font-size: 0.8125em;
+	/* 13px /16 */
 	color: var(--color-gray-90);
 }
+
 .postlist-date {
 	word-spacing: -0.5px;
 }
+
 .postlist-link {
-	font-size: 1.1875em; /* 19px /16 */
+	font-size: 1.1875em;
+	/* 19px /16 */
 	font-weight: 700;
 	flex-basis: calc(100% - 1.5rem);
 	padding-left: .25em;
@@ -255,6 +300,7 @@ header {
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
 }
+
 .postlist-item-active .postlist-link {
 	font-weight: bold;
 }
@@ -270,7 +316,8 @@ header {
 	border-radius: 0.8em;
 	font-size: 0.8em;
 }
-.postlist-item > .post-tag {
+
+.postlist-item>.post-tag {
 	align-self: center;
 }
 
@@ -283,6 +330,7 @@ header {
 	padding: 0;
 	margin: 0;
 }
+
 .post-metadata time {
 	margin-right: 1em;
 }
@@ -294,20 +342,23 @@ header {
 	font-size: 1em;
 	margin-left: .1em;
 }
+
 a[href].header-anchor,
 a[href].header-anchor:visited {
 	color: transparent;
 }
+
 a[href].header-anchor:focus,
 a[href].header-anchor:hover {
 	text-decoration: underline;
 }
+
 a[href].header-anchor:focus,
-:hover > a[href].header-anchor {
+:hover>a[href].header-anchor {
 	color: #aaa;
 }
 
-h2 + .header-anchor {
+h2+.header-anchor {
 	font-size: 1.5em;
 }
 
@@ -653,91 +704,94 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<!-- Añadir la imagen del banner aquí -->
-            <img src="/img/Cabecera.webp" alt="Cabecera Proyecto .IA Isla Anticitera">
-			<a href="/" class="home-link">Proyecto .IA Isla Anticitera</a>
-			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
-					
-					
-					
-					
-					
-					
-					
-						<li class="nav-item"><a href="/it/">Home</a></li>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-						<li class="nav-item"><a href="/it/blog/">Blog</a></li>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-						<li class="nav-item"><a href="/it/about/" aria-current="page">Progetto</a></li>
-					
-					
-						<li class="nav-item"><a href="/it/links/">Links</a></li>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-						<li class="nav-item"><a href="/it/foro/">Forum</a></li>
-					
-					
-						<li class="nav-item"><a href="/it/x/">X</a></li>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-						<li class="nav-item"><a href="/it/podcasts/">Podcasts</a></li>
-					
-					
-					
-					
-				</ul>
-				<div class="language-selector">
+			<div class="header-banner">
+				<!-- Añadir la imagen del banner aquí -->
+				<picture><source type="image/avif" srcset="/img/BPuSysFSp8-960.avif 960w" sizes="100vw"><img alt="Cabecera Proyecto .IA Isla Anticitera" loading="eager" decoding="async" src="/img/BPuSysFSp8-960.webp" width="960" height="256"></picture>
+			</div>
+			<div class="header-nav-container">
+				<a href="/" class="home-link">Proyecto .IA Isla Anticitera</a>
+				<nav>
+					<h2 class="visually-hidden">Top level navigation menu</h2>
+					<ul class="nav">
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/it/">Home</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/it/blog/">Blog</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/it/about/" aria-current="page">Progetto</a></li>
+						
+						
+							<li class="nav-item"><a href="/it/links/">Links</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/it/foro/">Forum</a></li>
+						
+						
+							<li class="nav-item"><a href="/it/x/">X</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/it/podcasts/">Podcasts</a></li>
+						
+						
+						
+						
+					</ul>
+					<div class="language-selector">
 			<button class="language-selector-button" aria-label="Select language">
 				<span class="language-flag"><span class="flag-emoji">🇮🇹</span><img src="/img/flags/it.svg" alt="IT" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-code">IT</span>
@@ -779,7 +833,8 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 				<span class="language-name">Русский</span>
 				<span class="language-code">ru</span>
 			</a></div></div>
-			</nav>
+				</nav>
+			</div>
 		</header>
 
 		<main id="skip">
