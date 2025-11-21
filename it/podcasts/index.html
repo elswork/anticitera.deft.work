@@ -907,7 +907,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 <hr>
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4YTzWuMj5KsVaT98EsvyzH?utm_source=generator&t=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 		<br>
-		
+
 
 		</main>
 
@@ -1045,17 +1045,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					});
 				}
 
-				// Bucle para manejar cada botón "Ver Comentarios"
-				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
-					btn.addEventListener('click', function() {
-						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
-						if (container.style.display === 'none' || container.style.display === '') {
-							container.style.display = 'block';
-						} else {
-							container.style.display = 'none';
-						}
-					});
-				});
+
 			});
 		</script>
 		<script>

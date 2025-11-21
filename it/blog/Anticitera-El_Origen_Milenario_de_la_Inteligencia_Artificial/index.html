@@ -1114,7 +1114,7 @@ Se più di 2.000 anni fa i greci costruirono una macchina in grado di modellare 
 </ul>
 
 		<br>
-		
+
 
 		</main>
 
@@ -1252,17 +1252,7 @@ Se più di 2.000 anni fa i greci costruirono una macchina in grado di modellare 
 					});
 				}
 
-				// Bucle para manejar cada botón "Ver Comentarios"
-				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
-					btn.addEventListener('click', function() {
-						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
-						if (container.style.display === 'none' || container.style.display === '') {
-							container.style.display = 'block';
-						} else {
-							container.style.display = 'none';
-						}
-					});
-				});
+
 			});
 		</script>
 		<script>

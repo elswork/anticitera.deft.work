@@ -1114,7 +1114,7 @@ Si, il y a plus de 2 000 ans, les Grecs ont construit une machine capable de mod
 </ul>
 
 		<br>
-		
+
 
 		</main>
 
@@ -1252,17 +1252,7 @@ Si, il y a plus de 2 000 ans, les Grecs ont construit une machine capable de mod
 					});
 				}
 
-				// Bucle para manejar cada botón "Ver Comentarios"
-				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
-					btn.addEventListener('click', function() {
-						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
-						if (container.style.display === 'none' || container.style.display === '') {
-							container.style.display = 'block';
-						} else {
-							container.style.display = 'none';
-						}
-					});
-				});
+
 			});
 		</script>
 		<script>

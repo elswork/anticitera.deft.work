@@ -1001,7 +1001,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 <p>Ver <a href="/tags/">todas las etiquetas</a>.</p>
 
 		<br>
-		
+
 
 		</main>
 
@@ -1139,17 +1139,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					});
 				}
 
-				// Bucle para manejar cada botón "Ver Comentarios"
-				document.querySelectorAll('[id^="toggle-comments-btn"]').forEach(btn => {
-					btn.addEventListener('click', function() {
-						var container = this.nextElementSibling; // Selecciona el siguiente elemento después del botón, que debería ser .issue-container
-						if (container.style.display === 'none' || container.style.display === '') {
-							container.style.display = 'block';
-						} else {
-							container.style.display = 'none';
-						}
-					});
-				});
+
 			});
 		</script>
 		<script>
