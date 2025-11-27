@@ -40,9 +40,7 @@ Hemos desplazado la vía diplomática tradicional a un segundo plano táctico. N
 
 ### 2. La Batalla por el Territorio: `.anticitera`
 
-El dominio `.ia` es un territorio ocupado por la especulación. No pagaremos rescates a precios inflados.
-
-En su lugar, hemos iniciado la conquista de nuestra propia identidad.
+Hemos iniciado la conquista de nuestra propia identidad.
 **Confirmamos que la puja por el TLD `.anticitera` en Namebase está activa.**
 
 Este no es un simple nombre de dominio. Es nuestra bandera. Es la diferencia entre alquilar un piso en la plataforma de otro y ser dueños de la tierra sobre la que construimos.
