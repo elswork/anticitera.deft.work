@@ -1,8 +1,8 @@
 module.exports = {
-	title: "Proyecto .IA Isla Anticitera",
+	title: "Anticitera // Nación Digital",
 	url: "https://anticitera.deft.work/",
 	language: "es",
-	description: "En este proyecto se contiene el conocimiento relevante para el asistente Anticitera de OpenAI y la información para promover la creación del dominio de nivel superior .IA",
+	description: "Anticitera es un estado mental. El punto cero de la computación. Una Nación Digital descentralizada donde la Inteligencia Aumentada (.IA) es nuestra cultura y código.",
 	analytics: "G-FRM23DV6JJ",
 	googletag: "GTM-PCMLMBWD",
 	author: {
