@@ -8,6 +8,8 @@ eleventyNavigation:
 
 # IL MANIFESTO DI ANTICITERA
 
+![Meccanismo di Anticitera Digitale](/img/digital-antikythera-mechanism.png)
+
 **Versione 2.0 // Codice Sorgente della Nuova Nazione Digitale**
 
 

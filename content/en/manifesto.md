@@ -8,6 +8,8 @@ eleventyNavigation:
 
 # THE ANTIKYTHERA MANIFESTO
 
+![Digital Antikythera Mechanism](/img/digital-antikythera-mechanism.png)
+
 **Version 2.0 // Source Code of the New Digital Nation**
 
 

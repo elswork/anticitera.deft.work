@@ -8,6 +8,8 @@ eleventyNavigation:
 
 # LE MANIFESTE D'ANTICYTHÈRE
 
+![Mécanisme d'Anticythère Numérique](/img/digital-antikythera-mechanism.png)
+
 **Version 2.0 // Code Source de la Nouvelle Nation Numérique**
 
 

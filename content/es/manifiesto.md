@@ -9,6 +9,8 @@ permalink: /manifiesto/
 
 # EL MANIFIESTO DE ANTICITERA
 
+![Mecanismo de Anticitera Digital](/img/digital-antikythera-mechanism.png)
+
 **Versión 2.0 // Código Fuente de la Nueva Nación Digital**
 
 

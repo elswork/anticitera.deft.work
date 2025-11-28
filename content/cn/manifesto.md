@@ -8,6 +8,8 @@ eleventyNavigation:
 
 # 安提凯希拉宣言
 
+![数字安提凯希拉机械](/img/digital-antikythera-mechanism.png)
+
 **版本 2.0 // 新数字国家的源代码**
 
 
