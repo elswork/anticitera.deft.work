@@ -8,7 +8,7 @@ eleventyNavigation:
 
 # МАНИФЕСТ АНТИКИТЕРЫ
 
-![Цифровой Антикитерский Механизм](/img/digital-antikythera-mechanism.png)
+![Цифровой Антикитерский Механизм](/img/anticitera-header.webp)
 
 **Версия 2.0 // Исходный код новой цифровой нации**
 

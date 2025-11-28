@@ -8,7 +8,7 @@ eleventyNavigation:
 
 # ΤΟ ΜΑΝΙΦΕΣΤΟ ΤΩΝ ΑΝΤΙΚΥΘΗΡΩΝ
 
-![Ψηφιακός Μηχανισμός Αντικυθήρων](/img/digital-antikythera-mechanism.png)
+![Ψηφιακός Μηχανισμός Αντικυθήρων](/img/anticitera-header.webp)
 
 **Έκδοση 2.0 // Πηγαίος Κώδικας του Νέου Ψηφιακού Έθνους**
 

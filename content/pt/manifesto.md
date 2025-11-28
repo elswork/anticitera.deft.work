@@ -8,7 +8,7 @@ eleventyNavigation:
 
 # O MANIFESTO DE ANTICÍTERA
 
-![Mecanismo de Anticítera Digital](/img/digital-antikythera-mechanism.png)
+![Mecanismo de Anticítera Digital](/img/anticitera-header.webp)
 
 **Versão 2.0 // Código Fonte da Nova Nação Digital**
 
