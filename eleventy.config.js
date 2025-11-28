@@ -100,6 +100,9 @@ module.exports = function (eleventyConfig) {
 
 		// Normalizar la URL actual eliminando prefijos de idioma
 		let basePath = currentUrl;
+		if (!basePath || typeof basePath !== 'string') {
+			return {};
+		}
 		languages.forEach(lang => {
 			basePath = basePath.replace(new RegExp(`^/${lang}/`), '/');
 		});
