@@ -4,6 +4,7 @@ title: 宣言
 eleventyNavigation:
   key: 宣言
   order: 2
+permalink: /cn/manifesto/
 ---
 
 # 安提凯希拉宣言

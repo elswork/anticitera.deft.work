@@ -4,6 +4,7 @@ title: Манифест
 eleventyNavigation:
   key: Манифест
   order: 2
+permalink: /ru/manifesto/
 ---
 
 # МАНИФЕСТ АНТИКИТЕРЫ

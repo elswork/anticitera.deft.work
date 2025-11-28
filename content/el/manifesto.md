@@ -4,6 +4,7 @@ title: Μανιφέστο
 eleventyNavigation:
   key: Μανιφέστο
   order: 2
+permalink: /el/manifesto/
 ---
 
 # ΤΟ ΜΑΝΙΦΕΣΤΟ ΤΩΝ ΑΝΤΙΚΥΘΗΡΩΝ

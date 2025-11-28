@@ -4,6 +4,7 @@ title: Manifest
 eleventyNavigation:
   key: Manifest
   order: 2
+permalink: /de/manifest/
 ---
 
 # DAS ANTIKYTHERA-MANIFEST

@@ -4,6 +4,7 @@ title: Manifeste
 eleventyNavigation:
   key: Manifeste
   order: 2
+permalink: /fr/manifeste/
 ---
 
 # LE MANIFESTE D'ANTICYTHÈRE

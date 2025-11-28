@@ -4,6 +4,7 @@ title: Manifesto
 eleventyNavigation:
   key: Manifesto
   order: 2
+permalink: /it/manifesto/
 ---
 
 # IL MANIFESTO DI ANTICITERA
