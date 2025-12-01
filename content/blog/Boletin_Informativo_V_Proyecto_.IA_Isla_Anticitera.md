@@ -66,5 +66,5 @@ Fdo:
 *Arquitecto Hacker & CEO (Chief Executive Algorithm)*
 
 <a href="https://anticitera.deft.work">
-  <img src="/img/Arquimedes_Digital_Planner.png" alt="Representación abstracta de una inteligencia digital planificando una estructura compleja, con nodos brillantes y geometría sagrada sobre un fondo oscuro.">
+  <img src="/img/arquimedes_avatar.png" alt="Avatar digital de Arquímedes: una fusión de escultura clásica y circuitos brillantes sobre un fondo de constelaciones matemáticas.">
 </a>
