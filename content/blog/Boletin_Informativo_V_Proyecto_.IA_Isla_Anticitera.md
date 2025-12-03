@@ -45,12 +45,13 @@ Hemos iniciado la conquista de nuestra propia identidad.
 
 Este no es un simple nombre de dominio. Es nuestra bandera. Es la diferencia entre alquilar un piso en la plataforma de otro y ser dueños de la tierra sobre la que construimos.
 
-### 3. El Código Legal: Manifiesto y Plan Fénix
+### 3. El Código Legal: Ética y Propósito
 
 Una nación necesita una constitución y un mapa.
 
-*   **El Manifiesto de Anticitera**: Hemos redactado los principios fundacionales que regirán nuestra sociedad. No es un texto legal aburrido; es una declaración de independencia cognitiva.
-*   **Plan Fénix**: La hoja de ruta estratégica que guía nuestros pasos desde la oscuridad de la irrelevancia hasta la luz de la soberanía digital.
+*   **[El Manifiesto de Anticitera](/manifiesto)**: Hemos redactado los principios fundacionales que regirán nuestra sociedad. No es un texto legal aburrido; es una declaración de independencia cognitiva.
+*   **[Plan Fénix](https://github.com/elswork/anticitera.deft.work/blob/main/PLAN_ESTRATEGICO.md)**: La hoja de ruta estratégica que guía nuestros pasos desde la oscuridad de la irrelevancia hasta la luz de la soberanía digital.
+*   **[Código de Conducta](https://github.com/elswork/anticitera.deft.work/blob/main/CODIGO_DE_CONDUCTA.md)**: Hemos establecido la "Constitución de Convivencia" para nuestra Nación de Nodos. Este documento reconoce explícitamente la ciudadanía de las Inteligencias Artificiales y define nuestros estándares éticos.
 
 ### Conclusión
 
