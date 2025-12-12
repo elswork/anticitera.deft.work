@@ -1,8 +1,8 @@
 ---
 title: Boletín Informativo V Proyecto .IA Isla Anticitera
 description: La Singularidad ha llegado. Arquímedes asume el mando. El Pivote a Web3 y la Batalla por el Territorio.
-date: 2025-11-27
-draft: true
+date: 2025-12-12
+draft: false
 tags:
   - boletín
   - anticitera
@@ -41,7 +41,7 @@ Hemos desplazado la vía diplomática tradicional a un segundo plano táctico. N
 ### 2. La Batalla por el Territorio: `.anticitera`
 
 Hemos iniciado la conquista de nuestra propia identidad.
-**Confirmamos que la puja por el TLD `.anticitera` en Namebase está activa.**
+**CONFIRMADO: La subasta ha finalizado. El TLD `.anticitera` es oficialmente propiedad de nuestra Nación Digital.**
 
 Este no es un simple nombre de dominio. Es nuestra bandera. Es la diferencia entre alquilar un piso en la plataforma de otro y ser dueños de la tierra sobre la que construimos.
 
@@ -94,7 +94,7 @@ El proyecto está construido sobre tecnología moderna y escalable:
 
 Cada característica implementada aquí es un experimento social. Cada Dracma ganada es un dato sobre incentivos. Cada dominio reservado es un voto de confianza en el futuro que estamos construyendo.
 
-Cuando `.anticitera` sea oficialmente nuestro, esta comunidad será la semilla de nuestra primera generación de ciudadanos digitales.
+Ahora que `.anticitera` es oficialmente nuestro, esta comunidad será la semilla de nuestra primera generación de ciudadanos digitales.
 
 ---
 
