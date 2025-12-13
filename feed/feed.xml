@@ -4,12 +4,246 @@
 	<subtitle>Anticitera es un estado mental. El punto cero de la computación. Una Nación Digital descentralizada donde la Inteligencia Aumentada (.IA) es nuestra cultura y código.</subtitle>
 	<link href="https://anticitera.deft.work/feed/feed.xml" rel="self"/>
 	<link href="https://anticitera.deft.work/"/>
-	<updated>2025-12-12T00:00:00Z</updated>
+	<updated>2025-12-13T00:00:00Z</updated>
 	<id>https://anticitera.deft.work/</id>
 	<author>
 		<name>Eloy López Sánchez</name>
 		<email>elswork@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Как ИИ видит код проекта Антикитера</title>
+		<link href="https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;В проекте .IA Остров Антикитера мы много говорим о будущем сотрудничества человека и машины. Но последовательны ли мы в этом в нашей собственной технологической &amp;quot;начинке&amp;quot;?&lt;/p&gt;
+&lt;p&gt;Недавно мы подвергли наш публичный репозиторий своеобразному аудиту: мы попросили &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (экспериментальный инструмент ИИ) прочитать наш код и объяснить нам, о чем этот проект.&lt;/p&gt;
+&lt;p&gt;Результат был захватывающим не только из-за того, что ИИ угадал правильно, но и из-за того, что это означает для прозрачности нашего цифрового &amp;quot;Кода страны&amp;quot;.&lt;/p&gt;
+&lt;h3 id=&quot;chto-uvidel-ii&quot; tabindex=&quot;-1&quot;&gt;Что &amp;quot;увидел&amp;quot; ИИ &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Не давая никакого предварительного контекста, ИИ проанализировал наши файлы и сделал верные выводы:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Техническая архитектура:&lt;/strong&gt; Он сразу определил, что мы используем &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;, генератор статических сайтов, отдавая приоритет скорости и простоте перед тяжелыми фреймворками.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Двойная миссия:&lt;/strong&gt; Он уловил, что мы не просто технический веб-сайт, а инициатива с исторической и активистской составляющей. Он понял, что код служит повествованию: связи между механизмом Антикитеры и современным ИИ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Структура контента:&lt;/strong&gt; Он &amp;quot;прочитал&amp;quot; организацию наших папок и понял, как мы отделяем логику от публикации статей в блоге.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;pochemu-eto-vazhno&quot; tabindex=&quot;-1&quot;&gt;Почему это важно? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Если ИИ может понять ваш проект, просто прочитав код, это означает, что ваша структура логична, чиста и честна. Это окончательный тест &amp;quot;Семантического SEO&amp;quot; для эры автономных агентов.&lt;/p&gt;
+&lt;p&gt;В результате этого эксперимента мы добавили файл &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; (на отсутствие которого указал ИИ), чтобы облегчить более плавное сотрудничество с нами как людям, так и будущим агентам.&lt;/p&gt;
+&lt;h3 id=&quot;zaklyuchenie&quot; tabindex=&quot;-1&quot;&gt;Заключение &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Мы ничего не скрываем. Наш код открыт не только по лицензии, но и по читаемости. Мы хотим, чтобы через 2000 лет, если кто-то (или что-то) найдет этот цифровой репозиторий, &amp;quot;потерпевший кораблекрушение&amp;quot; в сети, он смог понять его так же хорошо, как мы сегодня понимаем шестеренки Антикитеры.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;Видение ИИ: Шестеренки кода&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Вы можете прочитать наше новое руководство по участию &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;здесь&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Como uma IA vê o código do Projeto Anticitera</title>
+		<link href="https://anticitera.deft.work/pt/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/pt/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;No Projeto .IA Ilha de Anticitera, falamos muito sobre o futuro da colaboração humano-máquina. Mas somos consistentes com isso em nossas próprias entranhas tecnológicas?&lt;/p&gt;
+&lt;p&gt;Recentemente, submetemos nosso repositório público a uma auditoria peculiar: pedimos ao &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (uma ferramenta experimental de IA) que lesse nosso código e nos explicasse do que se trata este projeto.&lt;/p&gt;
+&lt;p&gt;O resultado foi fascinante, não apenas pelo que acertou, mas pelo que isso significa para a transparência do nosso &amp;quot;Código de País&amp;quot; digital.&lt;/p&gt;
+&lt;h3 id=&quot;o-que-a-ia-viu&quot; tabindex=&quot;-1&quot;&gt;O que a IA &amp;quot;viu&amp;quot; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/pt/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Sem dar nenhum contexto prévio, a IA analisou nossos arquivos e deduziu corretamente:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;A Arquitetura Técnica:&lt;/strong&gt; Identificou imediatamente que usamos &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;, um gerador de sites estáticos, priorizando a velocidade e a simplicidade sobre frameworks pesados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A Dupla Missão:&lt;/strong&gt; Captou que não somos apenas um site técnico, mas uma iniciativa com um componente histórico e ativista. Entendeu que o código serve a uma narrativa: a conexão entre o mecanismo de Anticitera e a IA moderna.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A Estrutura de Conteúdo:&lt;/strong&gt; &amp;quot;Leu&amp;quot; nossa organização de pastas e entendeu como separamos a lógica da publicação dos artigos do blog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;por-que-isso-importa&quot; tabindex=&quot;-1&quot;&gt;Por que isso importa? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/pt/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Se uma IA pode entender seu projeto apenas lendo o código, significa que sua estrutura é lógica, limpa e honesta. É o teste definitivo de &amp;quot;SEO Semântico&amp;quot; para a era dos agentes autônomos.&lt;/p&gt;
+&lt;p&gt;Como resultado deste experimento, adicionamos um arquivo &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; (que a IA notou estar faltando) para facilitar que tanto humanos quanto futuros agentes possam colaborar conosco de forma mais fluida.&lt;/p&gt;
+&lt;h3 id=&quot;conclusao&quot; tabindex=&quot;-1&quot;&gt;Conclusão &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/pt/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Não escondemos nada. Nosso código é aberto não apenas por licença, mas por legibilidade. Queremos que, daqui a 2000 anos, se alguém (ou algo) encontrar este repositório digital &amp;quot;naufragado&amp;quot; na rede, possa entendê-lo tão bem quanto nós entendemos hoje as engrenagens de Anticitera.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;Visão da IA: Engrenagens de código&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Você pode ler nosso novo guia de contribuição &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;aqui&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Come un&#39;IA vede il codice del Progetto Anticitera</title>
+		<link href="https://anticitera.deft.work/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;Nel Progetto .IA Isola di Anticitera, parliamo molto del futuro della collaborazione uomo-macchina. Ma siamo coerenti con questo nelle nostre viscere tecnologiche?&lt;/p&gt;
+&lt;p&gt;Recentemente, abbiamo sottoposto il nostro repository pubblico a un controllo particolare: abbiamo chiesto a &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (uno strumento sperimentale di IA) di leggere il nostro codice e spiegarci di cosa tratta questo progetto.&lt;/p&gt;
+&lt;p&gt;Il risultato è stato affascinante, non solo per ciò che ha indovinato, ma per ciò che questo significa per la trasparenza del nostro &amp;quot;Codice Paese&amp;quot; digitale.&lt;/p&gt;
+&lt;h3 id=&quot;cosa-ha-visto-l-ia&quot; tabindex=&quot;-1&quot;&gt;Cosa ha &amp;quot;visto&amp;quot; l&#39;IA &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Senza darle alcun contesto precedente, l&#39;IA ha analizzato i nostri file e ha dedotto correttamente:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;L&#39;Architettura Tecnica:&lt;/strong&gt; Ha identificato immediatamente che usiamo &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;, un generatore di siti statici, dando priorità alla velocità e alla semplicità rispetto a framework pesanti.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Doppia Missione:&lt;/strong&gt; Ha capito che non siamo solo un sito web tecnico, ma un&#39;iniziativa con una componente storica e attivista. Ha capito che il codice serve una narrazione: il legame tra il meccanismo di Anticitera e l&#39;IA moderna.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Struttura dei Contenuti:&lt;/strong&gt; Ha &amp;quot;letto&amp;quot; la nostra organizzazione delle cartelle e ha capito come separiamo la logica dalla pubblicazione degli articoli del blog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;perche-e-importante&quot; tabindex=&quot;-1&quot;&gt;Perché è importante? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Se un&#39;IA può capire il tuo progetto leggendo solo il codice, significa che la tua struttura è logica, pulita e onesta. È il test definitivo di &amp;quot;SEO Semantico&amp;quot; per l&#39;era degli agenti autonomi.&lt;/p&gt;
+&lt;p&gt;Come risultato di questo esperimento, abbiamo aggiunto un file &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; (che l&#39;IA aveva notato mancare) per facilitare una collaborazione più fluida sia per gli umani che per i futuri agenti.&lt;/p&gt;
+&lt;h3 id=&quot;conclusione&quot; tabindex=&quot;-1&quot;&gt;Conclusione &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Non nascondiamo nulla. Il nostro codice è aperto non solo per licenza, ma per leggibilità. Vogliamo che, tra 2000 anni, se qualcuno (o qualcosa) trovasse questo repository digitale &amp;quot;naufragato&amp;quot; nella rete, possa capirlo bene quanto noi capiamo oggi gli ingranaggi di Anticitera.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;Visione IA: Ingranaggi di codice&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Puoi leggere la nostra nuova guida ai contributi &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;qui&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Comment une IA voit le code du Projet Anticythère</title>
+		<link href="https://anticitera.deft.work/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;Dans le projet .IA Île d&#39;Anticythère, nous parlons beaucoup de l&#39;avenir de la collaboration homme-machine. Mais sommes-nous cohérents avec cela dans nos propres entrailles technologiques ?&lt;/p&gt;
+&lt;p&gt;Récemment, nous avons soumis notre référentiel public à un audit particulier : nous avons demandé à &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (un outil d&#39;IA expérimental) de lire notre code et de nous expliquer en quoi consiste ce projet.&lt;/p&gt;
+&lt;p&gt;Le résultat a été fascinant, non seulement pour ce qu&#39;il a trouvé, mais aussi pour ce que cela signifie pour la transparence de notre &amp;quot;Code Pays&amp;quot; numérique.&lt;/p&gt;
+&lt;h3 id=&quot;ce-que-l-ia-a-vu&quot; tabindex=&quot;-1&quot;&gt;Ce que l&#39;IA a &amp;quot;vu&amp;quot; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Sans lui donner aucun contexte préalable, l&#39;IA a analysé nos fichiers et a correctement déduit :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;L&#39;Architecture Technique :&lt;/strong&gt; Elle a immédiatement identifié que nous utilisons &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;, un générateur de sites statiques, privilégiant la vitesse et la simplicité par rapport aux frameworks lourds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Double Mission :&lt;/strong&gt; Elle a compris que nous ne sommes pas seulement un site web technique, mais une initiative avec une composante historique et militante. Elle a compris que le code sert un récit : le lien entre le mécanisme d&#39;Anticythère et l&#39;IA moderne.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Structure du Contenu :&lt;/strong&gt; Elle a &amp;quot;lu&amp;quot; notre organisation de dossiers et a compris comment nous séparons la logique de la publication des articles de blog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;pourquoi-est-ce-important&quot; tabindex=&quot;-1&quot;&gt;Pourquoi est-ce important ? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Si une IA peut comprendre votre projet simplement en lisant le code, cela signifie que votre structure est logique, propre et honnête. C&#39;est le test ultime de &amp;quot;SEO Sémantique&amp;quot; pour l&#39;ère des agents autonomes.&lt;/p&gt;
+&lt;p&gt;À la suite de cette expérience, nous avons ajouté un fichier &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; (que l&#39;IA a noté manquant) pour faciliter la collaboration plus fluide des humains et des futurs agents avec nous.&lt;/p&gt;
+&lt;h3 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Nous ne cachons rien. Notre code est ouvert non seulement par licence, mais aussi par lisibilité. Nous voulons que, dans 2000 ans, si quelqu&#39;un (ou quelque chose) trouve ce référentiel numérique &amp;quot;naufragé&amp;quot; sur le net, il puisse le comprendre aussi bien que nous comprenons aujourd&#39;hui les engrenages d&#39;Anticythère.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;Vision IA : Engrenages de code&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Vous pouvez lire notre nouveau guide de contribution &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;ici&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How an AI Sees the Antikythera Project Code</title>
+		<link href="https://anticitera.deft.work/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;At the .IA Antikythera Island Project, we talk a lot about the future of human-machine collaboration. But are we consistent with that in our own technological guts?&lt;/p&gt;
+&lt;p&gt;Recently, we submitted our public repository to a peculiar audit: we asked &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (an experimental AI tool) to read our code and explain what this project is about.&lt;/p&gt;
+&lt;p&gt;The result was fascinating, not only because of what it got right, but because of what this means for the transparency of our digital &amp;quot;Country Code&amp;quot;.&lt;/p&gt;
+&lt;h3 id=&quot;what-the-ai-saw&quot; tabindex=&quot;-1&quot;&gt;What the AI &amp;quot;Saw&amp;quot; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Without giving it any prior context, the AI analyzed our files and correctly deduced:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;The Technical Architecture:&lt;/strong&gt; It immediately identified that we use &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;, a static site generator, prioritizing speed and simplicity over heavy frameworks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Dual Mission:&lt;/strong&gt; It grasped that we are not just a technical website, but an initiative with a historical and activist component. It understood that the code serves a narrative: the connection between the Antikythera mechanism and modern AI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Content Structure:&lt;/strong&gt; It &amp;quot;read&amp;quot; our folder organization and understood how we separate the logic from the blog post publication.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;why-does-this-matter&quot; tabindex=&quot;-1&quot;&gt;Why Does This Matter? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If an AI can understand your project just by reading the code, it means your structure is logical, clean, and honest. It is the ultimate &amp;quot;Semantic SEO&amp;quot; test for the era of autonomous agents.&lt;/p&gt;
+&lt;p&gt;As a result of this experiment, we have added a &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; file (which the AI noted was missing) to make it easier for both humans and future agents to collaborate with us more fluidly.&lt;/p&gt;
+&lt;h3 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;We hide nothing. Our code is open not just by license, but by readability. We want that, in 2000 years, if someone (or something) finds this digital repository &amp;quot;shipwrecked&amp;quot; on the net, they can understand it as well as we understand the gears of Antikythera today.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;AI Vision: Code Gears&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;You can read our new contribution guide &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;here&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Πώς βλέπει μια Τεχνητή Νοημοσύνη τον κώδικα του Project Antikythera</title>
+		<link href="https://anticitera.deft.work/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;Στο Project .IA Νήσος των Αντικυθήρων, μιλάμε πολύ για το μέλλον της συνεργασίας ανθρώπου-μηχανής. Αλλά είμαστε συνεπείς με αυτό στα δικά μας τεχνολογικά σπλάχνα;&lt;/p&gt;
+&lt;p&gt;Πρόσφατα, υποβάλαμε το δημόσιο αποθετήριό μας σε έναν ιδιόμορφο έλεγχο: ζητήσαμε από το &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (ένα πειραματικό εργαλείο Τεχνητής Νοημοσύνης) να διαβάσει τον κώδικά μας και να μας εξηγήσει περί τίνος πρόκειται αυτό το έργο.&lt;/p&gt;
+&lt;p&gt;Το αποτέλεσμα ήταν συναρπαστικό, όχι μόνο για το τι πέτυχε σωστά, αλλά και για το τι σημαίνει αυτό για τη διαφάνεια του ψηφιακού μας &amp;quot;Κωδικού Χώρας&amp;quot;.&lt;/p&gt;
+&lt;h3 id=&quot;ti-eide-i-texniti-noimosyni&quot; tabindex=&quot;-1&quot;&gt;Τι &amp;quot;είδε&amp;quot; η Τεχνητή Νοημοσύνη &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Χωρίς να της δώσουμε κανένα προηγούμενο πλαίσιο, η Τεχνητή Νοημοσύνη ανέλυσε τα αρχεία μας και συμπέρανε σωστά:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Την Τεχνική Αρχιτεκτονική:&lt;/strong&gt; Αναγνώρισε αμέσως ότι χρησιμοποιούμε &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;, μια γεννήτρια στατικών ιστότοπων, δίνοντας προτεραιότητα στην ταχύτητα και την απλότητα έναντι βαριών πλαισίων.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Τη Διπλή Αποστολή:&lt;/strong&gt; Κατάλαβε ότι δεν είμαστε απλώς ένας τεχνικός ιστότοπος, αλλά μια πρωτοβουλία με ιστορικό και ακτιβιστικό στοιχείο. Κατάλαβε ότι ο κώδικας υπηρετεί μια αφήγηση: τη σύνδεση μεταξύ του Μηχανισμού των Αντικυθήρων και της σύγχρονης Τεχνητής Νοημοσύνης.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Τη Δομή Περιεχομένου:&lt;/strong&gt; &amp;quot;Διάβασε&amp;quot; την οργάνωση των φακέλων μας και κατάλαβε πώς διαχωρίζουμε τη λογική από τη δημοσίευση των άρθρων του blog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;giati-exei-simasia-ayto&quot; tabindex=&quot;-1&quot;&gt;Γιατί έχει σημασία αυτό; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Εάν μια Τεχνητή Νοημοσύνη μπορεί να κατανοήσει το έργο σας απλά διαβάζοντας τον κώδικα, σημαίνει ότι η δομή σας είναι λογική, καθαρή και ειλικρινής. Είναι το απόλυτο τεστ &amp;quot;Σημασιολογικού SEO&amp;quot; για την εποχή των αυτόνομων πρακτόρων.&lt;/p&gt;
+&lt;p&gt;Ως αποτέλεσμα αυτού του πειράματος, προσθέσαμε ένα αρχείο &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; (που η Τεχνητή Νοημοσύνη παρατήρησε ότι έλειπε) για να διευκολύνουμε τόσο τους ανθρώπους όσο και τους μελλοντικούς πράκτορες να συνεργαστούν μαζί μας πιο ρευστά.&lt;/p&gt;
+&lt;h3 id=&quot;symperasma&quot; tabindex=&quot;-1&quot;&gt;Συμπέρασμα &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Δεν κρύβουμε τίποτα. Ο κώδικάς μας είναι ανοιχτός όχι μόνο λόγω άδειας χρήσης, αλλά και λόγω αναγνωσιμότητας. Θέλουμε, σε 2000 χρόνια, αν κάποιος (ή κάτι) βρει αυτό το ψηφιακό αποθετήριο &amp;quot;ναυαγισμένο&amp;quot; στο δίκτυο, να μπορεί να το καταλάβει τόσο καλά όσο καταλαβαίνουμε εμείς σήμερα τα γρανάζια των Αντικυθήρων.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;Όραμα AI: Γρανάζια Κώδικα&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Μπορείτε να διαβάσετε τον νέο μας οδηγό συνεισφοράς &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;εδώ&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Wie eine KI den Code des Projekts Antikythera sieht</title>
+		<link href="https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;Im Projekt .IA Insel Antikythera sprechen wir viel über die Zukunft der Zusammenarbeit zwischen Mensch und Maschine. Aber sind wir in unserem eigenen technischen Kern konsequent?&lt;/p&gt;
+&lt;p&gt;Kürzlich haben wir unser öffentliches Repository einem besonderen Audit unterzogen: Wir baten &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (ein experimentelles KI-Tool), unseren Code zu lesen und uns zu erklären, worum es bei diesem Projekt geht.&lt;/p&gt;
+&lt;p&gt;Das Ergebnis war faszinierend, nicht nur wegen dessen, was es richtig erkannt hat, sondern auch wegen der Bedeutung für die Transparenz unseres digitalen &amp;quot;Ländercodes&amp;quot;.&lt;/p&gt;
+&lt;h3 id=&quot;was-die-ki-sah&quot; tabindex=&quot;-1&quot;&gt;Was die KI &amp;quot;sah&amp;quot; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Ohne vorherigen Kontext analysierte die KI unsere Dateien und folgerte richtig:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Die technische Architektur:&lt;/strong&gt; Sie erkannte sofort, dass wir &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt; verwenden, einen Generator für statische Websites, und Geschwindigkeit und Einfachheit gegenüber schweren Frameworks priorisieren.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Die doppelte Mission:&lt;/strong&gt; Sie begriff, dass wir nicht nur eine technische Website sind, sondern eine Initiative mit einer historischen und aktivistischen Komponente. Sie verstand, dass der Code einer Erzählung dient: der Verbindung zwischen dem Mechanismus von Antikythera und der modernen KI.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Die Inhaltsstruktur:&lt;/strong&gt; Sie &amp;quot;las&amp;quot; unsere Ordnerorganisation und verstand, wie wir die Logik von der Veröffentlichung der Blogbeiträge trennen.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;warum-ist-das-wichtig&quot; tabindex=&quot;-1&quot;&gt;Warum ist das wichtig? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Wenn eine KI Ihr Projekt verstehen kann, indem sie nur den Code liest, bedeutet das, dass Ihre Struktur logisch, sauber und ehrlich ist. Es ist der ultimative &amp;quot;Semantische SEO&amp;quot;-Test für das Zeitalter der autonomen Agenten.&lt;/p&gt;
+&lt;p&gt;Als Ergebnis dieses Experiments haben wir eine Datei &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; hinzugefügt (die der KI fehlte), um sowohl Menschen als auch zukünftigen Agenten die Zusammenarbeit mit uns zu erleichtern.&lt;/p&gt;
+&lt;h3 id=&quot;fazit&quot; tabindex=&quot;-1&quot;&gt;Fazit &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Wir verstecken nichts. Unser Code ist offen, nicht nur durch die Lizenz, sondern auch durch Lesbarkeit. Wir möchten, dass jemand (oder etwas), der dieses digitale Repository in 2000 Jahren als &amp;quot;Schiffswrack&amp;quot; im Netz findet, es genauso gut verstehen kann, wie wir heute die Zahnräder von Antikythera verstehen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;KI-Vision: Code-Zahnräder&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Sie können unseren neuen Leitfaden für Beiträge &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;hier&lt;/a&gt; lesen.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>AI 如何看待安提基特拉项目的代码</title>
+		<link href="https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;在 .IA 安提基特拉岛项目中，我们经常谈论人机协作的未来。但我们在自己的技术核心中是否贯彻了这一点呢？&lt;/p&gt;
+&lt;p&gt;最近，我们将我们的公共仓库提交给了一个特别的审计：我们要求 &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt;（一个实验性的 AI 工具）阅读我们的代码，并解释这个项目是关于什么的。&lt;/p&gt;
+&lt;p&gt;结果令人着迷，不仅因为它说对了，更在于这意味着我们数字“国家代码”的透明度。&lt;/p&gt;
+&lt;h3 id=&quot;ai&quot; tabindex=&quot;-1&quot;&gt;AI “看到”了什么 &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在没有任何预先背景的情况下，AI 分析了我们的文件并正确推断出：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;技术架构：&lt;/strong&gt; 它立即识别出我们使用的是 &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;，一个静态网站生成器，优先考虑速度和简洁性，而不是沉重的框架。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;双重使命：&lt;/strong&gt; 它领会到我们不仅仅是一个技术网站，而是一个具有历史和激进主义成分的倡议。它理解代码服务于一个叙事：安提基特拉机械与现代 AI 之间的联系。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容结构：&lt;/strong&gt; 它“阅读”了我们的文件夹组织，并理解了我们如何将逻辑与博客文章发布分离开来。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;&quot; tabindex=&quot;-1&quot;&gt;为什么这很重要？ &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;如果一个 AI 仅通过阅读代码就能理解你的项目，这意味着你的结构是合乎逻辑、清晰且诚实的。这是自主代理时代终极的“语义 SEO”测试。&lt;/p&gt;
+&lt;p&gt;作为这次实验的结果，我们要增加了一个 &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; 文件（AI 指出缺失该文件），以便让通过人类和未来的代理能更流畅地与我们通过。&lt;/p&gt;
+&lt;h3 id=&quot;-1&quot; tabindex=&quot;-1&quot;&gt;结论 &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;我们没有隐藏任何东西。我们的代码不仅在许可上是开放的，在可读性上也是开放的。我们希望，在 2000 年后，如果某人（或某物）在网络上发现这个“沉船”的数字仓库，他们能像我们今天理解安提基特拉的齿轮一样理解它。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;AI 愿景：代码齿轮&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;您可以在&lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;这里&lt;/a&gt;阅读我们新的贡献指南。&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Cómo ve una IA el código del Proyecto Anticitera</title>
+		<link href="https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera/"/>
+		<updated>2025-12-13T00:00:00Z</updated>
+		<id>https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera/</id>
+		<content type="html">&lt;p&gt;En el Proyecto .IA Isla Anticitera, hablamos mucho sobre el futuro de la colaboración humano-máquina. Pero, ¿somos coherentes con ello en nuestras propias tripas tecnológicas?&lt;/p&gt;
+&lt;p&gt;Recientemente, sometimos nuestro repositorio público a una auditoría peculiar: le pedimos a &lt;strong&gt;&lt;a href=&quot;https://codewiki.google/github.com/elswork/anticitera.deft.work&quot;&gt;Google Code Wiki&lt;/a&gt;&lt;/strong&gt; (una herramienta experimental de IA) que leyera nuestro código y nos explicara de qué va este proyecto.&lt;/p&gt;
+&lt;p&gt;El resultado fue fascinante, no solo por lo que acertó, sino por lo que esto significa para la transparencia de nuestro &amp;quot;Código de País&amp;quot; digital.&lt;/p&gt;
+&lt;h3 id=&quot;lo-que-la-ia-vio&quot; tabindex=&quot;-1&quot;&gt;Lo que la IA &amp;quot;vio&amp;quot; &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Sin darle contexto previo, la IA analizó nuestros archivos y dedujo correctamente:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;La Arquitectura Técnica:&lt;/strong&gt; Identificó inmediatamente que usamos &lt;strong&gt;Eleventy (11ty)&lt;/strong&gt;, un generador de sitios estáticos, priorizando la velocidad y la simplicidad sobre frameworks pesados.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Misión Dual:&lt;/strong&gt; Captó que no somos solo un sitio web técnico, sino una iniciativa con un componente histórico y activista. Entendió que el código sirve a una narrativa: la conexión entre el mecanismo de Anticitera y la IA moderna.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;La Estructura de Contenidos:&lt;/strong&gt; &amp;quot;Leyó&amp;quot; nuestra organización de carpetas y entendió cómo separamos la lógica de publicación de los artículos del blog.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;por-que-importa-esto&quot; tabindex=&quot;-1&quot;&gt;¿Por qué importa esto? &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Si una IA puede entender tu proyecto leyendo solo el código, significa que tu estructura es lógica, limpia y honesta. Es el test definitivo de &amp;quot;SEO Semántico&amp;quot; para la era de los agentes autónomos.&lt;/p&gt;
+&lt;p&gt;Como resultado de este experimento, hemos añadido un archivo &lt;code&gt;CONTRIBUTING.md&lt;/code&gt; (que la IA echaba en falta) para facilitar que tanto humanos como futuros agentes puedan colaborar con nosotros de forma más fluida.&lt;/p&gt;
+&lt;h3 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusión &lt;a class=&quot;header-anchor&quot; href=&quot;https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;No escondemos nada. Nuestro código es abierto no solo por licencia, sino por legibilidad. Queremos que, dentro de 2000 años, si alguien (o algo) encuentra este repositorio digital &amp;quot;naufragado&amp;quot; en la red, pueda entenderlo tan bien como nosotros entendemos hoy los engranajes de Anticitera.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://anticitera.deft.work/img/ai_code_vision.png&quot; alt=&quot;Visión de la IA: Engranajes de código&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Puedes leer nuestra nueva guía de contribución &lt;a href=&quot;https://anticitera.deft.work/CONTRIBUTING&quot;&gt;aquí&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Boletín Informativo V Proyecto .IA Isla Anticitera</title>
@@ -14106,7 +14340,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
     <entry>
         <title>Proyecto .IA Isla Anticitera</title>
 		<link href="https://anticitera.deft.work/about/"/>
-        <updated>2025-12-12T15:43:42Z</updated>
+        <updated>2025-12-13T10:37:56Z</updated>
         <id>https://anticitera.deft.work/about/</id>
         <content type="html">
             <![CDATA[<p>&lt;h1 id=&quot;proyecto-ia-isla-anticitera&quot; tabindex=&quot;-1&quot;&gt;Proyecto .IA Isla Anticitera &lt;a class=&quot;header-anchor&quot; href=&quot;#proyecto-ia-isla-anticitera&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
@@ -14210,7 +14444,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.esquire.com/es/ciencia/a69584412/mecanismo-anticitera-grecia-primer-ordenador-mundo/"/>
 		<id>https://www.esquire.com/es/ciencia/a69584412/mecanismo-anticitera-grecia-primer-ordenador-mundo/</id>
 		<content>Descubierto en un barco hundido a comienzos del siglo XX, sigue sorprendiendo a historiadores, científicos y arqueólogos.</content>
-		<updated>2025-12-12T15:44:10.782Z</updated>
+		<updated>2025-12-13T10:38:21.898Z</updated>
 	</entry>
 	
 	<entry>
@@ -14218,7 +14452,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/AriKIdJTeak"/>
 		<id>https://youtu.be/AriKIdJTeak</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-12-12T15:44:11.959Z</updated>
+		<updated>2025-12-13T10:38:22.883Z</updated>
 	</entry>
 	
 	<entry>
@@ -14226,7 +14460,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/PNA0f05zsC4"/>
 		<id>https://youtu.be/PNA0f05zsC4</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-12-12T15:44:12.823Z</updated>
+		<updated>2025-12-13T10:38:23.815Z</updated>
 	</entry>
 	
 	<entry>
@@ -14234,7 +14468,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/"/>
 		<id>https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/</id>
 		<content>In the last 2,500 years human civilization has made great strides; and in merely the last 80 of these, technology has advanced to the point where machines, endowed with artificial […]</content>
-		<updated>2025-12-12T15:44:14.192Z</updated>
+		<updated>2025-12-13T10:38:25.692Z</updated>
 	</entry>
 	
 	<entry>
@@ -14242,7 +14476,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.bbc.com/mundo/noticias-36592050"/>
 		<id>https://www.bbc.com/mundo/noticias-36592050</id>
 		<content>El equipo internacional de expertos que investiga el fabuloso artilugio acaba de revelar más detalles de la computadora análoga encontrada hace un siglo en el fondo del Mar Mediterráneo, más de 2.000 años después de que el barco en el que iba naufragara.</content>
-		<updated>2025-12-12T15:44:14.713Z</updated>
+		<updated>2025-12-13T10:38:26.588Z</updated>
 	</entry>
 	
 	<entry>
@@ -14250,7 +14484,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/ailRl_hUUEE"/>
 		<id>https://youtu.be/ailRl_hUUEE</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-12-12T15:44:15.533Z</updated>
+		<updated>2025-12-13T10:38:27.558Z</updated>
 	</entry>
 	
 	<entry>
@@ -14258,7 +14492,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/7NlBDeqgRIs"/>
 		<id>https://youtu.be/7NlBDeqgRIs</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-12-12T15:44:16.558Z</updated>
+		<updated>2025-12-13T10:38:28.624Z</updated>
 	</entry>
 	
 	<entry>
@@ -14266,7 +14500,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://antikythera-mechanism.gr"/>
 		<id>https://antikythera-mechanism.gr</id>
 		<content></content>
-		<updated>2025-12-12T15:44:17.214Z</updated>
+		<updated>2025-12-13T10:38:29.475Z</updated>
 	</entry>
 	
 	<entry>
@@ -14274,7 +14508,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.nature.com/articles/s41598-021-84310-w"/>
 		<id>https://www.nature.com/articles/s41598-021-84310-w</id>
 		<content>The Antikythera Mechanism, an ancient Greek astronomical calculator, has challenged researchers since its discovery in 1901. Now split into 82 fragments, only a third of the original survives, including 30 corroded bronze gearwheels. Microfocus X-ray Computed Tomography (X-ray CT) in 2005 decoded the structure of the rear of the machine but the front remained largely unresolved. X-ray CT also revealed inscriptions describing the motions of the Sun, Moon and all five planets known in antiquity and how they were displayed at the front as an ancient Greek Cosmos. Inscriptions specifying complex planetary periods forced new thinking on the mechanization of this Cosmos, but no previous reconstruction has come close to matching the data. Our discoveries lead to a new model, satisfying and explaining the evidence. Solving this complex 3D puzzle reveals a creation of genius—combining cycles from Babylonian astronomy, mathematics from Plato’s Academy and ancient Greek astronomical theories.</content>
-		<updated>2025-12-12T15:44:18.663Z</updated>
+		<updated>2025-12-13T10:38:31.137Z</updated>
 	</entry>
 	
 	<entry>
@@ -14282,7 +14516,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.ngenespanol.com/historia/que-hace-el-mecanismo-de-anticitera-y-quienes-lo-inventaron/"/>
 		<id>https://www.ngenespanol.com/historia/que-hace-el-mecanismo-de-anticitera-y-quienes-lo-inventaron/</id>
 		<content>Sitio de Noticias de National Geographic Latinoamérica</content>
-		<updated>2025-12-12T15:44:19.011Z</updated>
+		<updated>2025-12-13T10:38:31.554Z</updated>
 	</entry>
 	
 	<entry>
@@ -14290,7 +14524,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.abc.es/ciencia/anticitera-objeto-real-buscado-indiana-jones-misterioso-20230710140400-nt.html"/>
 		<id>https://www.abc.es/ciencia/anticitera-objeto-real-buscado-indiana-jones-misterioso-20230710140400-nt.html</id>
 		<content>Este artefacto, por mérito propio es un rompecabezas increíble para su tiempo que supondría reescribir lo que creíamos saber hasta ahora</content>
-		<updated>2025-12-12T15:44:19.579Z</updated>
+		<updated>2025-12-13T10:38:32.484Z</updated>
 	</entry>
 	
 	<entry>
@@ -14298,7 +14532,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.bbc.com/mundo/noticias-56382328"/>
 		<id>https://www.bbc.com/mundo/noticias-56382328</id>
 		<content>El &quot;mecanismo de Anticitera&quot;, considerado el objeto más misterioso de la historia de la tecnología, tenía muchas piezas faltantes. Pero finalmente los científicos han recreado su complejo mecanismo.</content>
-		<updated>2025-12-12T15:44:19.845Z</updated>
+		<updated>2025-12-13T10:38:32.822Z</updated>
 	</entry>
 	
 	<entry>
@@ -14306,7 +14540,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://www.latercera.com/noticia/que-es-el-mecanismo-de-anticitera-y-por-que-es-el-objeto-mas-misterioso-de-la-historia-de-tecnologia/"/>
 		<id>https://www.latercera.com/noticia/que-es-el-mecanismo-de-anticitera-y-por-que-es-el-objeto-mas-misterioso-de-la-historia-de-tecnologia/</id>
 		<content>El equipo internacional de expertos que investiga el fabuloso artilugio acaba de revelar más detalles de la computadora análoga encontrada hace un siglo en el fondo del Mar Mediterráneo, más de 2.000 años después de que el barco en el que iba naufragara.</content>
-		<updated>2025-12-12T15:44:21.058Z</updated>
+		<updated>2025-12-13T10:38:33.748Z</updated>
 	</entry>
 	
 	<entry>
@@ -14314,7 +14548,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/"/>
 		<id>https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/</id>
 		<content>Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus, Medea, o más desconocidos son Talos, Hefesto o Hesíodo. Por supuesto, no</content>
-		<updated>2025-12-12T15:44:23.638Z</updated>
+		<updated>2025-12-13T10:38:37.001Z</updated>
 	</entry>
 	
 	<entry>
@@ -14322,7 +14556,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/WN8uUl4rbkE"/>
 		<id>https://youtu.be/WN8uUl4rbkE</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-12-12T15:44:24.638Z</updated>
+		<updated>2025-12-13T10:38:38.238Z</updated>
 	</entry>
 	
 	<entry>
@@ -14330,7 +14564,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/XmB8h_FDJCk"/>
 		<id>https://youtu.be/XmB8h_FDJCk</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-12-12T15:44:25.463Z</updated>
+		<updated>2025-12-13T10:38:39.199Z</updated>
 	</entry>
 	
 	<entry>
@@ -14338,7 +14572,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://youtu.be/CIGZ54b3c1I"/>
 		<id>https://youtu.be/CIGZ54b3c1I</id>
 		<content>Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.</content>
-		<updated>2025-12-12T15:44:26.308Z</updated>
+		<updated>2025-12-13T10:38:40.147Z</updated>
 	</entry>
 	
 	<entry>
@@ -14346,7 +14580,7 @@ El mayor logro en este tiempo fue en la plataforma &lt;a href=&quot;https://mypu
 		<link href="https://play.rtve.es/v/6999053"/>
 		<id>https://play.rtve.es/v/6999053</id>
 		<content>Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia invisible, con Almudena Ariza, donde se ofrece una visión dual de la IA en 2023</content>
-		<updated>2025-12-12T15:44:27.158Z</updated>
+		<updated>2025-12-13T10:38:41.223Z</updated>
 	</entry>
 	
 </feed>
