@@ -41,7 +41,9 @@ Actualmente, estamos en la **Fase 0 (Génesis)**. La ciudadanía se otorga por m
 
 1.  **Explora:** Lee nuestro [Manifiesto](/manifiesto/).
 2.  **Contribuye:** Visita nuestra [Guía de Contribución](/CONTRIBUTING) y realiza tu primer Pull Request o abre un Issue relevante.
-3.  **Solicita:** Una vez haya sido aceptada tu contribución, podrás reclamar tu "Pasaporte Hash".
+3.  **Solicita:** [INICIAR PROTOCOLO DE CIUDADANÍA](https://github.com/elswork/anticitera.deft.work/issues/new?title=Solicitud%20de%20Ciudadania%20%5BGENESIS%5D&body=%23%20Solicitud%20de%20Ciudadan%C3%ADa%20Digital%0A%0A**Nombre%20o%20Alias:**%20%5BInserta%20tu%20nombre%5D%0A**Rol%20Principal:**%20(Dev%20%2F%20Filosof%C3%ADa%20%2F%20Arte%20%2F%20Historia)%0A**Juramento:**%20He%20le%C3%ADdo%20el%20Manifiesto%20y%20acepto%20el%20C%C3%B3digo%20de%20Conducta.%0A%0A---%0A*M%C3%A9rito:*%20(Describe%20brevemente%20tu%20primera%20contribuci%C3%B3n))
+
+    > *Nota: Al hacer clic, se abrirá una plantilla de Issue en GitHub.*
 
 ### Estructura del Pasaporte (Preview)
 
