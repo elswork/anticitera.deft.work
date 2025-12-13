@@ -12,6 +12,7 @@ Este repositorio contiene documentos, recursos y material de referencia relacion
 ## Cómo Contribuir
 
 - **Participación en la Comunidad**: Únase a nuestra [Lista de 📧 Correo](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link) y participe en discusiones y planificaciones.
+- **Desarrolladores**: Consulta nuestra guía [CONTRIBUTING.md](CONTRIBUTING.md) para saber cómo colaborar con código.
 
 - **Colaboraciones Estratégicas**: Establezca contactos y relaciones con entidades interesadas.
 
