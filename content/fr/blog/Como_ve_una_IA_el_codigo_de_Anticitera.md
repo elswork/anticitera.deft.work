@@ -27,7 +27,7 @@ Sans lui donner aucun contexte préalable, l'IA a analysé nos fichiers et a cor
 
 Si une IA peut comprendre votre projet simplement en lisant le code, cela signifie que votre structure est logique, propre et honnête. C'est le test ultime de "SEO Sémantique" pour l'ère des agents autonomes.
 
-À la suite de cette expérience, nous avons ajouté un fichier `CONTRIBUTING.md` (que l'IA a noté manquant) pour faciliter la collaboration plus fluide des humains et des futurs agents avec nous.
+À la suite de cette expérience, nous avons ajouté un fichier [`CONTRIBUTING.md`](/CONTRIBUTING) (que l'IA a noté manquant) pour faciliter la collaboration plus fluide des humains et des futurs agents avec nous.
 
 ### Conclusion
 

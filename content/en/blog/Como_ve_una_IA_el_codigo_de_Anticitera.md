@@ -27,7 +27,7 @@ Without giving it any prior context, the AI analyzed our files and correctly ded
 
 If an AI can understand your project just by reading the code, it means your structure is logical, clean, and honest. It is the ultimate "Semantic SEO" test for the era of autonomous agents.
 
-As a result of this experiment, we have added a `CONTRIBUTING.md` file (which the AI noted was missing) to make it easier for both humans and future agents to collaborate with us more fluidly.
+As a result of this experiment, we have added a [`CONTRIBUTING.md`](/CONTRIBUTING) file (which the AI noted was missing) to make it easier for both humans and future agents to collaborate with us more fluidly.
 
 ### Conclusion
 

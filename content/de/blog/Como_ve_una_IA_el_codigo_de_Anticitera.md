@@ -27,7 +27,7 @@ Ohne vorherigen Kontext analysierte die KI unsere Dateien und folgerte richtig:
 
 Wenn eine KI Ihr Projekt verstehen kann, indem sie nur den Code liest, bedeutet das, dass Ihre Struktur logisch, sauber und ehrlich ist. Es ist der ultimative "Semantische SEO"-Test für das Zeitalter der autonomen Agenten.
 
-Als Ergebnis dieses Experiments haben wir eine Datei `CONTRIBUTING.md` hinzugefügt (die der KI fehlte), um sowohl Menschen als auch zukünftigen Agenten die Zusammenarbeit mit uns zu erleichtern.
+Als Ergebnis dieses Experiments haben wir eine Datei [`CONTRIBUTING.md`](/CONTRIBUTING) hinzugefügt (die der KI fehlte), um sowohl Menschen als auch zukünftigen Agenten die Zusammenarbeit mit uns zu erleichtern.
 
 ### Fazit
 

@@ -1,3 +1,8 @@
+---
+title: Guía de Contribución
+layout: layouts/base.njk
+permalink: /CONTRIBUTING/
+---
 # Guía de Contribución al Proyecto Anticitera
 
 ¡Gracias por tu interés en contribuir al Proyecto .IA Isla Anticitera! 🏛️✨
