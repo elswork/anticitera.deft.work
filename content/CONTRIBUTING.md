@@ -45,7 +45,7 @@ Esto lanzará un servidor local en `http://localhost:8080` que se recargará aut
 
 ## 📂 Estructura del Proyecto
 
-Una visión rápida para orientarte (tal y como lo vería una IA bien entrenada):
+Una visión rápida para orientarte (tal y como lo vería una IA bien entrenada). Puedes consultar nuestra [Wiki viva en Code Wiki](https://codewiki.google/github.com/elswork/anticitera.deft.work) para más detalles:
 
 - `content/`: Aquí vive todo el contenido (páginas, blog posts).
     - `blog/`: Artículos en Markdown.
