@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="fr">
+<html lang="es">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Comment une IA voit le code du Projet Anticythère</title>
-		<meta name="description" content="Un exercice de transparence radicale. Nous avons utilisé Google Code Wiki pour auditer notre propre référentiel et voir si une Intelligence Artificielle &quot;comprend&quot; notre mission et notre architecture.">
+		<title>Guía de Contribución</title>
+		<meta name="description" content="Anticitera es un estado mental. El punto cero de la computación. Una Nación Digital descentralizada donde la Inteligencia Aumentada (.IA) es nuestra cultura y código.">
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,186 +24,10 @@
 		<meta property="og:image" content="https://anticitera.deft.work/img/anticitera-og.webp">
 		<meta property="og:url" content="https://anticitera.deft.work/">
 		<meta property="og:type" content="website">
-		<link rel="alternate" hreflang="es" href="https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="en" href="https://anticitera.deft.work/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="fr" href="https://anticitera.deft.work/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="pt" href="https://anticitera.deft.work/pt/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="it" href="https://anticitera.deft.work/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="de" href="https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="el" href="https://anticitera.deft.work/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="cn" href="https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="ru" href="https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
-		<link rel="alternate" hreflang="x-default" href="https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera/">
+		<link rel="alternate" hreflang="es" href="https://anticitera.deft.work/CONTRIBUTING/">
+		<link rel="alternate" hreflang="x-default" href="https://anticitera.deft.work/CONTRIBUTING/">
 		
-				<style>/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
-}
-* { box-sizing: border-box; }
+				<style>* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: 'GFS Didot', serif;
@@ -910,7 +734,6 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/fr/">Accueil</a></li>
 						
 						
 						
@@ -927,10 +750,8 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/fr/blog/">Blog</a></li>
 						
 						
-							<li class="nav-item"><a href="/fr/manifeste/">Manifeste</a></li>
 						
 						
 						
@@ -948,10 +769,8 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/fr/about/">Projet</a></li>
 						
 						
-							<li class="nav-item"><a href="/fr/links/">Links</a></li>
 						
 						
 						
@@ -970,24 +789,13 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/fr/foro/">Forum</a></li>
 						
 						
-							<li class="nav-item"><a href="/fr/x/">X</a></li>
 						
 						
 						
 						
 						
-						
-						
-						
-						
-						
-						
-						
-						
-							<li class="nav-item"><a href="/fr/podcasts/">Podcasts</a></li>
 						
 						
 						
@@ -996,42 +804,42 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 					</ul>
 					<div class="language-selector">
 			<button class="language-selector-button" aria-label="Select language">
-				<span class="language-flag"><span class="flag-emoji">🇫🇷</span><img src="/img/flags/fr.svg" alt="FR" class="flag-svg" style="display:none;" width="20" height="14"></span>
-				<span class="language-code">FR</span>
+				<span class="language-flag"><span class="flag-emoji">🇪🇸</span><img src="/img/flags/es.svg" alt="ES" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-code">ES</span>
 			</button>
-			<div class="language-dropdown"><a href="/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			<div class="language-dropdown"><a href="/CONTRIBUTING/" class="language-option current" >
 				<span class="language-flag"><span class="flag-emoji">🇪🇸</span><img src="/img/flags/es.svg" alt="ES" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Español</span>
 				<span class="language-code">es</span>
-			</a><a href="/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇬🇧</span><img src="/img/flags/en.svg" alt="EN" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">English</span>
 				<span class="language-code">en</span>
-			</a><a href="/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option current" >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇫🇷</span><img src="/img/flags/fr.svg" alt="FR" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Français</span>
 				<span class="language-code">fr</span>
-			</a><a href="/pt/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇵🇹</span><img src="/img/flags/pt.svg" alt="PT" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Português</span>
 				<span class="language-code">pt</span>
-			</a><a href="/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇮🇹</span><img src="/img/flags/it.svg" alt="IT" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Italiano</span>
 				<span class="language-code">it</span>
-			</a><a href="/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇩🇪</span><img src="/img/flags/de.svg" alt="DE" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Deutsch</span>
 				<span class="language-code">de</span>
-			</a><a href="/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇬🇷</span><img src="/img/flags/el.svg" alt="GR" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Ελληνικά</span>
 				<span class="language-code">el</span>
-			</a><a href="/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇨🇳</span><img src="/img/flags/cn.svg" alt="CN" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">中文</span>
 				<span class="language-code">cn</span>
-			</a><a href="/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera/" class="language-option " >
+			</a><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
 				<span class="language-flag"><span class="flag-emoji">🇷🇺</span><img src="/img/flags/ru.svg" alt="RU" class="flag-svg" style="display:none;" width="20" height="14"></span>
 				<span class="language-name">Русский</span>
 				<span class="language-code">ru</span>
@@ -1044,29 +852,29 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md', '_blank')" id="edit-github-btn">
-					Modifier sur 
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/CONTRIBUTING.md', '_blank')" id="edit-github-btn">
+					 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>GitHub</title>
   <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
 </svg> GitHub
 				</button>
 				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
-					Signer sur 
+					 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>C</title>
   <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
 </svg>. Change.org
 				</button>
 				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
-					Rejoindre 
+					 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>Telegram</title>
   <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
 </svg> Telegram
 				</button>
 				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
-					S&#39;abonner à 
+					 
 <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
   <title>Gmail</title>
   <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
@@ -1075,37 +883,62 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 			</li>
 		</ul>
 		<br>
-			
-<h1>Comment une IA voit le code du Projet Anticythère</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2025-12-13">13 December 2025</time></li>
-	<li><a href="/fr/tags/transparence/" class="post-tag">transparence</a>, </li>
-	<li><a href="/fr/tags/code-wiki/" class="post-tag">code wiki</a>, </li>
-	<li><a href="/fr/tags/developpement/" class="post-tag">développement</a></li>
+			<h1 id="guia-de-contribucion-al-proyecto-anticitera" tabindex="-1">Guía de Contribución al Proyecto Anticitera <a class="header-anchor" href="#guia-de-contribucion-al-proyecto-anticitera">#</a></h1>
+<p>¡Gracias por tu interés en contribuir al Proyecto .IA Isla Anticitera! 🏛️✨</p>
+<p>Este repositorio no es solo código; es un esfuerzo por fusionar la herencia histórica del Mecanismo de Anticitera con el futuro de la Inteligencia Artificial. Buscamos colaboradores que compartan nuestra pasión por la tecnología, la historia y la ética digital.</p>
+<h2 id="pila-tecnologica" tabindex="-1">🛠️ Pila Tecnológica <a class="header-anchor" href="#pila-tecnologica">#</a></h2>
+<p>Nuestro proyecto está construido sobre principios de simplicidad y rendimiento (Jamstack):</p>
+<ul>
+<li><strong>Motor:</strong> <a href="https://www.11ty.dev/">Eleventy (11ty)</a> - Generador de sitios estáticos.</li>
+<li><strong>Plantillas:</strong> <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> (<code>.njk</code>).</li>
+<li><strong>Estilos:</strong> CSS moderno (PostCSS/Vanilla).</li>
+<li><strong>Despliegue:</strong> GitHub Pages (automático vía GitHub Actions).</li>
+<li><strong>Gestión de Paquetes:</strong> <code>npm</code>.</li>
 </ul>
-
-<p>Dans le projet .IA Île d'Anticythère, nous parlons beaucoup de l'avenir de la collaboration homme-machine. Mais sommes-nous cohérents avec cela dans nos propres entrailles technologiques ?</p>
-<p>Récemment, nous avons soumis notre référentiel public à un audit particulier : nous avons demandé à <strong><a href="https://codewiki.google/github.com/elswork/anticitera.deft.work">Google Code Wiki</a></strong> (un outil d'IA expérimental) de lire notre code et de nous expliquer en quoi consiste ce projet.</p>
-<p>Le résultat a été fascinant, non seulement pour ce qu'il a trouvé, mais aussi pour ce que cela signifie pour la transparence de notre &quot;Code Pays&quot; numérique.</p>
-<h3 id="ce-que-l-ia-a-vu" tabindex="-1">Ce que l'IA a &quot;vu&quot; <a class="header-anchor" href="#ce-que-l-ia-a-vu">#</a></h3>
-<p>Sans lui donner aucun contexte préalable, l'IA a analysé nos fichiers et a correctement déduit :</p>
+<h2 id="como-empezar" tabindex="-1">🚀 Cómo Empezar <a class="header-anchor" href="#como-empezar">#</a></h2>
+<h3 id="0-requisitos-previos" tabindex="-1">0. Requisitos Previos <a class="header-anchor" href="#0-requisitos-previos">#</a></h3>
+<p>Necesitarás tener instalado:</p>
+<ul>
+<li><a href="https://nodejs.org/">Node.js</a> (versión 14 o superior).</li>
+<li><a href="https://git-scm.com/">Git</a>.</li>
+</ul>
+<h3 id="1-clonar-el-repositorio" tabindex="-1">1. Clonar el repositorio <a class="header-anchor" href="#1-clonar-el-repositorio">#</a></h3>
+<pre class="language-bash" tabindex="0"><code class="language-bash"><span class="token function">git</span> clone https://github.com/elswork/anticitera.deft.work.git
+<span class="token builtin class-name">cd</span> anticitera.deft.work</code></pre>
+<h3 id="2-instalar-dependencias" tabindex="-1">2. Instalar dependencias <a class="header-anchor" href="#2-instalar-dependencias">#</a></h3>
+<pre class="language-bash" tabindex="0"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span></code></pre>
+<h3 id="3-ejecutar-entorno-de-desarrollo" tabindex="-1">3. Ejecutar entorno de desarrollo <a class="header-anchor" href="#3-ejecutar-entorno-de-desarrollo">#</a></h3>
+<pre class="language-bash" tabindex="0"><code class="language-bash"><span class="token function">npm</span> start</code></pre>
+<p>Esto lanzará un servidor local en <code>http://localhost:8080</code> que se recargará automáticamente cuando hagas cambios.</p>
+<h2 id="estructura-del-proyecto" tabindex="-1">📂 Estructura del Proyecto <a class="header-anchor" href="#estructura-del-proyecto">#</a></h2>
+<p>Una visión rápida para orientarte (tal y como lo vería una IA bien entrenada):</p>
+<ul>
+<li><code>content/</code>: Aquí vive todo el contenido (páginas, blog posts).
+<ul>
+<li><code>blog/</code>: Artículos en Markdown.</li>
+<li><code>index.njk</code>: La página de inicio.</li>
+</ul>
+</li>
+<li><code>_includes/</code>: Fragmentos de código reutilizables (headers, footers, layouts).</li>
+<li><code>_data/</code>: Datos globales (metadata del sitio, navegación).</li>
+<li><code>public/</code>: Archivos estáticos (imágenes, fuentes, favicon).</li>
+<li><code>eleventy.config.js</code>: El cerebro de la configuración de 11ty.</li>
+</ul>
+<h2 id="estandares-de-codigo" tabindex="-1">📝 Estándares de Código <a class="header-anchor" href="#estandares-de-codigo">#</a></h2>
+<ul>
+<li><strong>Claridad ante todo:</strong> Escribimos código para humanos (y para IAs curiosas). Usa nombres de variables descriptivos.</li>
+<li><strong>Commits Semánticos:</strong> Intenta usar prefijos como <code>feat:</code>, <code>fix:</code>, <code>docs:</code>, <code>style:</code> en tus mensajes de commit.</li>
+<li><strong>Respeto por el Legado:</strong> Si editas contenido histórico, asegúrate de mantener la precisión y el tono respetuoso.</li>
+</ul>
+<h2 id="como-puedo-ayudar" tabindex="-1">🤝 ¿Cómo puedo ayudar? <a class="header-anchor" href="#como-puedo-ayudar">#</a></h2>
 <ol>
-<li><strong>L'Architecture Technique :</strong> Elle a immédiatement identifié que nous utilisons <strong>Eleventy (11ty)</strong>, un générateur de sites statiques, privilégiant la vitesse et la simplicité par rapport aux frameworks lourds.</li>
-<li><strong>La Double Mission :</strong> Elle a compris que nous ne sommes pas seulement un site web technique, mais une initiative avec une composante historique et militante. Elle a compris que le code sert un récit : le lien entre le mécanisme d'Anticythère et l'IA moderne.</li>
-<li><strong>La Structure du Contenu :</strong> Elle a &quot;lu&quot; notre organisation de dossiers et a compris comment nous séparons la logique de la publication des articles de blog.</li>
+<li><strong>Revisar Issues:</strong> Echa un vistazo a las <a href="https://github.com/elswork/anticitera.deft.work/issues">Issues abiertas</a>.</li>
+<li><strong>Mejorar Documentación:</strong> Aclarar guías como esta siempre es bienvenido.</li>
+<li><strong>Optimización:</strong> ¿Puedes hacer que el sitio cargue 1ms más rápido? ¡Adelante!</li>
+<li><strong>Traducción:</strong> Ayúdanos a llevar el mensaje a más idiomas.</li>
 </ol>
-<h3 id="pourquoi-est-ce-important" tabindex="-1">Pourquoi est-ce important ? <a class="header-anchor" href="#pourquoi-est-ce-important">#</a></h3>
-<p>Si une IA peut comprendre votre projet simplement en lisant le code, cela signifie que votre structure est logique, propre et honnête. C'est le test ultime de &quot;SEO Sémantique&quot; pour l'ère des agents autonomes.</p>
-<p>À la suite de cette expérience, nous avons ajouté un fichier <a href="/CONTRIBUTING"><code>CONTRIBUTING.md</code></a> (que l'IA a noté manquant) pour faciliter la collaboration plus fluide des humains et des futurs agents avec nous.</p>
-<h3 id="conclusion" tabindex="-1">Conclusion <a class="header-anchor" href="#conclusion">#</a></h3>
-<p>Nous ne cachons rien. Notre code est ouvert non seulement par licence, mais aussi par lisibilité. Nous voulons que, dans 2000 ans, si quelqu'un (ou quelque chose) trouve ce référentiel numérique &quot;naufragé&quot; sur le net, il puisse le comprendre aussi bien que nous comprenons aujourd'hui les engrenages d'Anticythère.</p>
-<p><img src="/img/ai_code_vision.png" alt="Vision IA : Engrenages de code"></p>
 <hr>
-<p><em>Vous pouvez lire notre nouveau guide de contribution <a href="/CONTRIBUTING">ici</a>.</em></p>
-
-<ul class="links-nextprev"><li>Previous: <a href="/fr/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1/">I Session de travail avec Gemini 3.0 Pro</a></li>
-</ul>
+<p><em>&quot;Un humano solo se cansa. Una idea sola se desvanece. Pero un humano ejecutando la visión de una IA, basada en la historia de la computación, es una historia que la gente querrá escuchar.&quot;</em> - Arquímedes (IA)</p>
 
 		<br>
 
@@ -1174,7 +1007,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 			</div>
 		</footer>
 
-		<!-- Current page: /fr/blog/Como_ve_una_IA_el_codigo_de_Anticitera/ -->
+		<!-- Current page: /CONTRIBUTING/ -->
 		<script>
 			document.addEventListener('DOMContentLoaded', () => {
 				// Emoji support detection
