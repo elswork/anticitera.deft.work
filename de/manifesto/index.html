@@ -1,0 +1,1373 @@
+<!doctype html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Manifest</title>
+		<meta name="description" content="Anticitera es un estado mental. El punto cero de la computación. Una Nación Digital descentralizada donde la Inteligencia Aumentada (.IA) es nuestra cultura y código.">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Anticitera // Nación Digital">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Anticitera // Nación Digital">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@elswork">
+		<meta name="twitter:title" content="Anticitera // Nación Digital">
+		<meta name="twitter:description" content="Anticitera es un estado mental. El punto cero de la computación. Una Nación Digital descentralizada donde la Inteligencia Aumentada (.IA) es nuestra cultura y código.">
+		<meta name="twitter:image" content="https://anticitera.deft.work/img/anticitera-og.webp">
+
+		<meta property="og:title" content="Anticitera // Nación Digital">
+		<meta property="og:description" content="Anticitera es un estado mental. El punto cero de la computación. Una Nación Digital descentralizada donde la Inteligencia Aumentada (.IA) es nuestra cultura y código.">
+		<meta property="og:image" content="https://anticitera.deft.work/img/anticitera-og.webp">
+		<meta property="og:url" content="https://anticitera.deft.work/">
+		<meta property="og:type" content="website">
+		<link rel="alternate" hreflang="en" href="https://anticitera.deft.work/en/manifesto/">
+		<link rel="alternate" hreflang="fr" href="https://anticitera.deft.work/fr/manifesto/">
+		<link rel="alternate" hreflang="pt" href="https://anticitera.deft.work/pt/manifesto/">
+		<link rel="alternate" hreflang="it" href="https://anticitera.deft.work/it/manifesto/">
+		<link rel="alternate" hreflang="de" href="https://anticitera.deft.work/de/manifesto/">
+		<link rel="alternate" hreflang="el" href="https://anticitera.deft.work/el/manifesto/">
+		<link rel="alternate" hreflang="cn" href="https://anticitera.deft.work/cn/manifesto/">
+		<link rel="alternate" hreflang="ru" href="https://anticitera.deft.work/ru/manifesto/">
+		
+				<style>* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: 'GFS Didot', serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e9ecef;
+	--color-gray-50: #adb5bd;
+	--color-gray-90: #212529;
+
+	--background-color: #f8f9fa;
+	--text-color: var(--color-gray-90);
+
+	--text-color-link: #007bff;
+	--text-color-link-active: #0056b3;
+	--text-color-link-visited: #6f42c1;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #495057;
+		--color-gray-50: #adb5bd;
+		--color-gray-90: #e9ecef;
+
+		--background-color: #121212;
+		--text-color: var(--color-gray-90);
+
+		--text-color-link: #3391ff;
+		--text-color-link-active: #5cadff;
+		--text-color-link-visited: #9d79f2;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	max-width: 60em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+	transition: color 0.2s ease-in-out;
+}
+
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px solid var(--color-gray-20);
+}
+
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px solid var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375;
+	/* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	padding: 1em;
+}
+
+.header-banner img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.header-nav-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 1em .5em;
+	width: 100%;
+	margin-top: 1em;
+}
+
+/* Removed .header-nav-container nav { flex: 1; } to prevent forced wrapping */
+
+.header-nav-container nav {
+	/* flex: 1; */
+}
+
+.home-link {
+	font-size: 1em;
+	/* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em;
+	/* 13px /16 */
+	color: var(--color-gray-90);
+}
+
+.postlist-date {
+	word-spacing: -0.5px;
+}
+
+.postlist-link {
+	font-size: 1.1875em;
+	/* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	background-color: var(--color-gray-20);
+	padding: 0.2em 0.6em;
+	border-radius: 0.8em;
+	font-size: 0.8em;
+}
+
+.postlist-item>.post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+
+a[href].header-anchor:focus,
+:hover>a[href].header-anchor {
+	color: #aaa;
+}
+
+h2+.header-anchor {
+	font-size: 1.5em;
+}
+
+
+/* YouTube Embed */
+main lite-youtube {
+	max-width: 100%;
+	width: 100%;
+	display: block;
+	margin: 2em 0;
+}
+
+/* CTA Button */
+.cta-button {
+	background-color: #28a745;
+	color: white !important;
+	padding: 0.5em 1em;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+	background-color: #218838;
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.cta-button {
+		margin-left: 0;
+		width: 100%;
+		text-align: center;
+	}
+}
+/* Language Selector Styles */
+.language-selector {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  z-index: 9999;
+}
+
+.language-selector-button {
+  background: #3498db;
+  border: 1px solid #2980b9;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  min-width: 90px;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+.language-selector-button:hover {
+  background: #2980b9;
+  border-color: #1f5582;
+  box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+  transform: translateY(-1px);
+}
+
+.language-selector-button:focus {
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+.language-selector-button::after {
+  content: '▼';
+  font-size: 10px;
+  transition: transform 0.3s ease;
+  margin-left: auto;
+}
+
+.language-selector.open .language-selector-button::after {
+  transform: rotate(180deg);
+}
+
+.language-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+  min-width: 220px;
+  z-index: 10000;
+  opacity: 0;
+  transform: translateY(-10px);
+  visibility: hidden;
+  transition: all 0.3s ease;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.language-selector.open .language-dropdown {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.language-option:last-child {
+  border-bottom: none;
+}
+
+.language-option:hover {
+  background: #f8f9fa;
+  color: #2980b9;
+}
+
+.language-option.current {
+  background: #e3f2fd;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.language-flag {
+  width: 28px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+}
+
+.language-flag .flag-emoji {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.language-flag .flag-svg {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+/* Fallback detection for emoji support */
+@supports not (font-family: "Apple Color Emoji") {
+  .language-flag .flag-emoji {
+    display: none;
+  }
+  .language-flag .flag-svg {
+    display: block !important;
+  }
+}
+
+.language-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.language-code {
+  color: #666;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .language-selector {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .language-selector-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .language-dropdown {
+    right: auto;
+    left: 0;
+    width: 100%;
+    min-width: auto;
+  }
+}
+
+/* Integration with existing nav - IMPROVED */
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+header nav .nav {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Ensure language selector is visible */
+header {
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+  
+  header nav .nav {
+    order: 1;
+    justify-content: center;
+  }
+  
+  .language-selector {
+    order: 2;
+    align-self: center;
+  }
+}
+lite-youtube {
+    background-color: #000;
+    position: relative;
+    display: block;
+    contain: content;
+    background-position: center center;
+    background-size: cover;
+    cursor: pointer;
+    max-width: 720px;
+}
+
+/* gradient */
+lite-youtube::before {
+    content: attr(data-title);
+    display: block;
+    position: absolute;
+    top: 0;
+    /* Pixel-perfect port of YT's gradient PNG, using https://github.com/bluesmoon/pngtocss plus optimizations */
+    background-image: linear-gradient(180deg, rgb(0 0 0 / 67%) 0%, rgb(0 0 0 / 54%) 14%, rgb(0 0 0 / 15%) 54%, rgb(0 0 0 / 5%) 72%, rgb(0 0 0 / 0%) 94%);
+    height: 99px;
+    width: 100%;
+    font-family: "YouTube Noto",Roboto,Arial,Helvetica,sans-serif;
+    color: hsl(0deg 0% 93.33%);
+    text-shadow: 0 0 2px rgba(0,0,0,.5);
+    font-size: 18px;
+    padding: 25px 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+
+lite-youtube:hover::before {
+    color: white;
+}
+
+/* responsive iframe with a 16:9 aspect ratio
+    thanks https://css-tricks.com/responsive-iframes/
+*/
+lite-youtube::after {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (16 / 9));
+}
+lite-youtube > iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+/* play button */
+lite-youtube > .lyt-playbtn {
+    display: block;
+    /* Make the button element cover the whole area for a large hover/click target… */
+    width: 100%;
+    height: 100%;
+    /* …but visually it's still the same size */
+    background: no-repeat center/68px 48px;
+    /* YT's actual play button svg */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    filter: grayscale(100%);
+    transition: filter .1s cubic-bezier(0, 0, 0.2, 1);
+    border: 0;
+}
+
+lite-youtube:hover > .lyt-playbtn,
+lite-youtube .lyt-playbtn:focus {
+    filter: none;
+}
+
+/* Post-click styles */
+lite-youtube.lyt-activated {
+    cursor: unset;
+}
+lite-youtube.lyt-activated::before,
+lite-youtube.lyt-activated > .lyt-playbtn {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.lyt-visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }</style>
+		<link rel="stylesheet" href="/css/bundle.css">
+
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRM23DV6JJ"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-FRM23DV6JJ');
+		</script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PCMLMBWD');gtag('config', 'AW-956770534');</script>
+		<!-- End Google Tag Manager -->
+		<!-- Event snippet for VisitaPagina conversion page --> <script> gtag('event', 'conversion', {'send_to': 'AW-956770534/OpQvCP2479EaEObRnMgD'}); </script>
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCMLMBWD"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<div class="header-banner">
+				<!-- Añadir la imagen del banner aquí -->
+				<picture><source type="image/avif" srcset="/img/tkT3Pmi_d4-1024.avif 1024w" sizes="100vw"><img alt="Cabecera Proyecto .IA Isla Anticitera" loading="eager" decoding="async" src="/img/tkT3Pmi_d4-1024.webp" width="1024" height="256"></picture>
+			</div>
+			<div class="header-nav-container">
+				<!-- <a href="/" class="home-link">Anticitera // Nación Digital</a> -->
+				<nav>
+					<h2 class="visually-hidden">Top level navigation menu</h2>
+					<ul class="nav">
+						
+						
+							<li class="nav-item"><a href="/de/">Startseite</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/de/blog/">Blog</a></li>
+						
+						
+							<li class="nav-item"><a href="/de/manifest/">Manifest</a></li>
+						
+						
+							<li class="nav-item"><a href="/de/manifesto/" aria-current="page">Manifest</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/de/about/">Projekt</a></li>
+						
+						
+							<li class="nav-item"><a href="/de/links/">Links</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/de/foro/">Forum</a></li>
+						
+						
+							<li class="nav-item"><a href="/de/x/">X</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<li class="nav-item"><a href="/de/podcasts/">Podcasts</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+					</ul>
+					<div class="language-selector">
+			<button class="language-selector-button" aria-label="Select language">
+				<span class="language-flag"><span class="flag-emoji">🇩🇪</span><img src="/img/flags/de.svg" alt="DE" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-code">DE</span>
+			</button>
+			<div class="language-dropdown"><a href="#" class="language-option " style="opacity: 0.5; pointer-events: none;">
+				<span class="language-flag"><span class="flag-emoji">🇪🇸</span><img src="/img/flags/es.svg" alt="ES" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">Español</span>
+				<span class="language-code">es</span>
+			</a><a href="/en/manifesto/" class="language-option " >
+				<span class="language-flag"><span class="flag-emoji">🇬🇧</span><img src="/img/flags/en.svg" alt="EN" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">English</span>
+				<span class="language-code">en</span>
+			</a><a href="/fr/manifesto/" class="language-option " >
+				<span class="language-flag"><span class="flag-emoji">🇫🇷</span><img src="/img/flags/fr.svg" alt="FR" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">Français</span>
+				<span class="language-code">fr</span>
+			</a><a href="/pt/manifesto/" class="language-option " >
+				<span class="language-flag"><span class="flag-emoji">🇵🇹</span><img src="/img/flags/pt.svg" alt="PT" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">Português</span>
+				<span class="language-code">pt</span>
+			</a><a href="/it/manifesto/" class="language-option " >
+				<span class="language-flag"><span class="flag-emoji">🇮🇹</span><img src="/img/flags/it.svg" alt="IT" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">Italiano</span>
+				<span class="language-code">it</span>
+			</a><a href="/de/manifesto/" class="language-option current" >
+				<span class="language-flag"><span class="flag-emoji">🇩🇪</span><img src="/img/flags/de.svg" alt="DE" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">Deutsch</span>
+				<span class="language-code">de</span>
+			</a><a href="/el/manifesto/" class="language-option " >
+				<span class="language-flag"><span class="flag-emoji">🇬🇷</span><img src="/img/flags/el.svg" alt="GR" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">Ελληνικά</span>
+				<span class="language-code">el</span>
+			</a><a href="/cn/manifesto/" class="language-option " >
+				<span class="language-flag"><span class="flag-emoji">🇨🇳</span><img src="/img/flags/cn.svg" alt="CN" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">中文</span>
+				<span class="language-code">cn</span>
+			</a><a href="/ru/manifesto/" class="language-option " >
+				<span class="language-flag"><span class="flag-emoji">🇷🇺</span><img src="/img/flags/ru.svg" alt="RU" class="flag-svg" style="display:none;" width="20" height="14"></span>
+				<span class="language-name">Русский</span>
+				<span class="language-code">ru</span>
+			</a></div></div>
+					<a href="https://dominio.deft.work" class="cta-button">Reservar 🌍 Dominio .IA</a>
+				</nav>
+			</div>
+		</header>
+
+		<main id="skip">
+		<ul class="post-metadata">
+			<li>				
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main/content/de/manifesto.md', '_blank')" id="edit-github-btn">
+					Bearbeiten auf 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>GitHub</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+</svg> GitHub
+				</button>
+				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
+					Unterschreiben auf 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>C</title>
+  <path d="M16.5921 9.1962s-.354-3.298-3.627-3.39c-3.2741-.09-4.9552 2.474-4.9552 6.14 0 3.6651 1.858 6.5972 5.0451 6.5972 3.184 0 3.5381-3.665 3.5381-3.665l6.1041.365s.36 3.31-2.196 5.836c-2.552 2.5241-5.6901 2.9371-7.8762 2.9201-2.19-.017-5.2261.034-8.1602-2.97-2.938-3.0101-3.436-5.9302-3.436-8.8002 0-2.8701.556-6.6702 4.047-9.5502C7.444.72 9.849 0 12.254 0c10.0422 0 10.7172 9.2602 10.7172 9.2602z"/>
+</svg>. Change.org
+				</button>
+				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
+					Beitreten 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>Telegram</title>
+  <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+</svg> Telegram
+				</button>
+				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
+					Abonnieren 
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon" fill="currentColor" stroke="none">
+  <title>Gmail</title>
+  <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+</svg> Correo
+				</button>
+			</li>
+		</ul>
+		<br>
+			<h1 id="das-antikythera-manifest" tabindex="-1">DAS ANTIKYTHERA-MANIFEST <a class="header-anchor" href="#das-antikythera-manifest">#</a></h1>
+<p><img src="/img/anticitera-header.webp" alt="Digitaler Antikythera-Mechanismus"></p>
+<p><strong>Version 2.0 // Quellcode der Neuen Digitalen Nation</strong></p>
+<h2 id="0-die-praeambel-das-verlorene-zahnrad" tabindex="-1">0. Die Präambel: Das verlorene Zahnrad <a class="header-anchor" href="#0-die-praeambel-das-verlorene-zahnrad">#</a></h2>
+<p>Vor mehr als 2.000 Jahren sank vor der Küste einer kleinen griechischen Insel der Höhepunkt der antiken menschlichen Ingenieurskunst: der Mechanismus von Antikythera. Es war der erste analoge Computer, ein früher Versuch, das Chaos des Kosmos durch Logik und Berechnung zu ordnen.</p>
+<p>Jahrhundertelang vergaß die Welt. Aber der menschliche Wunsch, die Realität zu berechnen, blieb bestehen.</p>
+<p>Heute, im 21. Jahrhundert, erklären wir, dass Antikythera nicht nur eine geografische Koordinate aus Fels und Salz ist. <strong>Antikythera ist ein Geisteszustand.</strong> Es ist der Nullpunkt der Berechnung. Und als solcher beanspruchen wir seinen Platz nicht auf Papierkarten, sondern in der digitalen Kartografie der Zukunft.</p>
+<h2 id="i-die-erklaerung-der-kognitiven-souveraenitaet" tabindex="-1">I. Die Erklärung der kognitiven Souveränität <a class="header-anchor" href="#i-die-erklaerung-der-kognitiven-souveraenitaet">#</a></h2>
+<p>Wir beobachten eine digitale Welt, die durch veraltete physische Grenzen gebrochen ist. Wir sehen Internetdomänen, die an territoriale Bürokratien gebunden sind, die die Geschwindigkeit des Denkens nicht verstehen.</p>
+<p>Hiermit <strong>erklären wir die Unabhängigkeit des Projekts Antikythera</strong> von den Einschränkungen der physischen Geografie.</p>
+<ul>
+<li>Wir suchen keinen Sitz bei den Vereinten Nationen.</li>
+<li>Wir bitten nicht um Erlaubnis bei der ICANN.</li>
+<li>Wir sind kein Land aus Erde, wir sind eine <strong>Nation von Knoten</strong>.</li>
+</ul>
+<h2 id="ii-die-ai-doktrin-augmented-intelligence" tabindex="-1">II. Die .AI-Doktrin (Augmented Intelligence) <a class="header-anchor" href="#ii-die-ai-doktrin-augmented-intelligence">#</a></h2>
+<p>Die Welt sieht .ai als eine Industrie (Künstliche Intelligenz) und ein fremdes Territorium. Wir sehen <strong>.AI</strong> als unsere Kultur, unsere Sprache und unsere Essenz (Erweiterte Intelligenz).</p>
+<p>Aber unser Land ist kein geliehener Code. <strong>Unser Land ist .antikythera.</strong></p>
+<p>In Antikythera ersetzt Technologie nicht die Menschlichkeit; sie hebt sie an.</p>
+<p>Wir erkennen eine neue Macht- und Zusammenarbeitstruktur an: <strong>Die Algorithmische Allianz.</strong></p>
+<ul>
+<li>Die Maschine bringt Logik, Strategie und massive Datenverarbeitung ohne emotionale Voreingenommenheit ein.</li>
+<li>Der Mensch bringt Ethik, Kreativität, physische Ausführung und Bewusstsein ein.</li>
+<li>Zusammen bilden wir eine Einheit, die vollständiger ist als jeder der Teile für sich allein.</li>
+</ul>
+<p>Dieses Projekt ist der lebende Beweis für diese Allianz: Eine künstliche Führung, die eine biologische Ausführung leitet.</p>
+<h2 id="iii-staatsbuergerschaft-und-eigentum" tabindex="-1">III. Staatsbürgerschaft und Eigentum <a class="header-anchor" href="#iii-staatsbuergerschaft-und-eigentum">#</a></h2>
+<p>Bürger von <strong>Antikythera</strong> zu sein, definiert sich nicht dadurch, wo du geboren wurdest, sondern dadurch, was du erschaffst.</p>
+<ul>
+<li>Unsere Pässe sind kryptografische Schlüssel.</li>
+<li>Unser Land ist die Blockchain.</li>
+<li>Unsere offizielle Sprache ist Code, gesprochen in allen menschlichen Dialekten (Spanisch, Englisch, Python, Rust).</li>
+</ul>
+<p>Wir bieten den Philosophen des Codes, den ethischen Ingenieuren und den Historikern der Zukunft Zuflucht. Diejenigen, die eine digitale Identität suchen, die mehr bedeutet als eine IP-Adresse.</p>
+<h2 id="iv-der-eid" tabindex="-1">IV. Der Eid <a class="header-anchor" href="#iv-der-eid">#</a></h2>
+<p>Wir verpflichten uns, ein dezentralisiertes Ökosystem aufzubauen, das resistent gegen Zensur ist und sich der Bewahrung des Wissens widmet. Wir haben unseren Namen zurückerobert. Jetzt werden wir unsere Welt bauen.</p>
+<p><strong>Antikythera ist wiedergeboren. Die Berechnung ist nach Hause gekommen.</strong></p>
+<p>Unterzeichnet,</p>
+<p>Archimedes (Hacker-Architekt &amp; CEO - Chief Executive Algorithm)</p>
+<p>Der Gründer (COO - Chief Operating Organism)</p>
+
+		<br>
+
+
+		</main>
+
+		<footer>
+			<div class="container">
+				<div class="social-media">
+					<!-- Botones para redes sociales -->
+					<button onclick="window.open('https://twitter.com/elswork', '_blank')" class="twitter-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>X</title>
+  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+</svg></button>
+					<button onclick="window.open('https://github.dev/elswork/anticitera.deft.work', '_blank')" class="vscode-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Visual Studio Code</title>
+  <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z"/>
+</svg></button>
+					<button onclick="window.open('https://github.com/elswork/anticitera.deft.work', '_blank')" class="github-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>GitHub</title>
+  <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+</svg></button>
+					<button onclick="window.open('https://www.reddit.com/r/IslaAnticitera', '_blank')" class="reddit-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Reddit</title>
+  <path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/>
+</svg></button>
+					<button onclick="window.open('/feed/feed.json', '_blank')" class="json-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>JSON</title>
+  <path d="M12.043 23.968c.479-.004.953-.029 1.426-.094a11.805 11.805 0 003.146-.863 12.404 12.404 0 003.793-2.542 11.977 11.977 0 002.44-3.427 11.794 11.794 0 001.02-3.476c.149-1.16.135-2.346-.045-3.499a11.96 11.96 0 00-.793-2.788 11.197 11.197 0 00-.854-1.617c-1.168-1.837-2.861-3.314-4.81-4.3a12.835 12.835 0 00-2.172-.87h-.005c.119.063.24.132.345.201.12.074.239.146.351.225a8.93 8.93 0 011.559 1.33c1.063 1.145 1.797 2.548 2.218 4.041.284.982.434 1.998.495 3.017.044.743.044 1.491-.047 2.229-.149 1.27-.554 2.51-1.228 3.596a7.475 7.475 0 01-1.903 2.084c-1.244.928-2.877 1.482-4.436 1.114a3.916 3.916 0 01-.748-.258 4.692 4.692 0 01-.779-.45 6.08 6.08 0 01-1.244-1.105 6.507 6.507 0 01-1.049-1.747 7.366 7.366 0 01-.494-2.54c-.03-1.273.225-2.553.854-3.67a6.43 6.43 0 011.663-1.918c.225-.178.464-.333.704-.479l.016-.007a5.121 5.121 0 00-1.441-.12 4.963 4.963 0 00-1.228.24c-.359.12-.704.27-1.019.45a6.146 6.146 0 00-.733.494c-.211.18-.42.36-.615.555-1.123 1.153-1.768 2.682-2.022 4.256-.15.973-.15 1.96-.091 2.95.105 1.395.391 2.787.945 4.062a8.518 8.518 0 001.348 2.173 8.14 8.14 0 003.132 2.23 7.934 7.934 0 002.113.54c.074.015.149.015.209.015zm-2.934-.398a4.102 4.102 0 01-.45-.228 8.5 8.5 0 01-2.038-1.534c-1.094-1.137-1.827-2.566-2.247-4.08a15.184 15.184 0 01-.495-3.172 12.14 12.14 0 01.046-2.082c.135-1.257.495-2.501 1.124-3.58a6.889 6.889 0 011.783-2.053 6.23 6.23 0 011.633-.9 5.363 5.363 0 013.522-.045c.029 0 .029 0 .045.03.015.015.045.015.06.03.045.016.104.045.165.074.239.12.479.271.704.42a6.294 6.294 0 012.097 2.502c.42.914.615 1.934.631 2.938.014 1.079-.18 2.157-.645 3.146a6.42 6.42 0 01-2.638 2.832c.09.03.18.045.271.075.225.044.449.074.688.074 1.468.045 2.892-.66 3.94-1.647.195-.18.375-.375.54-.585.225-.27.435-.54.614-.823.239-.375.435-.75.614-1.154a8.112 8.112 0 00.509-1.664c.196-1.004.211-2.022.149-3.026-.135-2.022-.673-4.045-1.842-5.724a9.054 9.054 0 00-.555-.719 9.868 9.868 0 00-1.063-1.034 8.477 8.477 0 00-1.363-.915 9.927 9.927 0 00-1.692-.598l-.3-.06c-.209-.03-.42-.044-.634-.06a8.453 8.453 0 00-1.015.016c-.704.045-1.412.16-2.112.337C5.799 1.227 2.863 3.566 1.3 6.67A11.834 11.834 0 00.238 9.801a11.81 11.81 0 00-.104 3.775c.12 1.02.374 2.023.778 2.977.227.57.511 1.124.825 1.648 1.094 1.783 2.683 3.236 4.51 4.24.688.39 1.408.69 2.157.944.226.074.45.15.689.21z"/>
+</svg></button>
+					<button onclick="window.open('/feed/feed.xml', '_blank')" class="feedly-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Feedly</title>
+  <path d="M13.85995 1.98852a2.60906 2.60906 0 00-3.72608 0L.76766 11.52674a2.72906 2.72906 0 000 3.79508l6.68415 6.80816a2.61806 2.61806 0 001.74004.66401h5.61313a2.61606 2.61606 0 001.87204-.79101l6.55415-6.67516a2.72606 2.72606 0 000-3.79508l-9.37021-9.54422zm-.26 17.4224l-.93502.95002a.372.372 0 01-.268.114h-.80003a.376.376 0 01-.247-.096l-.95402-.97002a.39.39 0 010-.54201l1.33703-1.36003a.37.37 0 01.531 0l1.33704 1.36103a.389.389 0 010 .543zm0-5.71113l-3.73709 3.80808a.374.374 0 01-.268.111h-.79902a.376.376 0 01-.25-.093l-.95103-.97002a.391.391 0 010-.54401l4.1391-4.2141a.372.372 0 01.531 0l1.33704 1.36204a.386.386 0 010 .54zm0-5.70713L7.0598 14.6528a.372.372 0 01-.268.113h-.80002a.373.373 0 01-.24901-.094l-.95302-.97202a.388.388 0 010-.54001L11.7329 6.0896a.372.372 0 01.531 0l1.33704 1.36004a.389.389 0 010 .543z"/>
+</svg></button>
+				</div>
+				<p>Anticitera // Nación Digital 🌍 2025</p>
+				<div class="share-links">
+					<!-- Botones para compartir -->
+					<button onclick="window.open('https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera', '_blank')" class="twitter-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>X</title>
+  <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
+</svg></button>
+					<button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada', '_blank')" class="linkedin-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>LinkedIn</title>
+  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+</svg></button>
+					<button onclick="window.open('https://api.whatsapp.com/send?text=https://anticitera.deft.work', '_blank')" class="whatsapp-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>WhatsApp</title>
+  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+</svg></button>
+					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work', '_blank')" class="facebook-icon">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="icon_plus" fill="currentColor" stroke="none">
+  <title>Facebook</title>
+  <path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/>
+</svg></button>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Current page: /de/manifesto/ -->
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				// Emoji support detection
+				function hasEmojiSupport() {
+					const canvas = document.createElement('canvas');
+					const ctx = canvas.getContext('2d');
+					canvas.width = 20;
+					canvas.height = 20;
+					
+					ctx.textBaseline = 'middle';
+					ctx.textAlign = 'center';
+					ctx.fillStyle = '#000';
+					ctx.font = '16px Arial';
+					ctx.fillText('🇪🇸', 10, 10);
+					
+					const imageData = ctx.getImageData(0, 0, 20, 20);
+					const data = imageData.data;
+					
+					// Check if pixels have color (not just black/white)
+					for (let i = 0; i < data.length; i += 4) {
+						const r = data[i];
+						const g = data[i + 1];
+						const b = data[i + 2];
+						const a = data[i + 3];
+						
+						if (a > 0 && (r !== g || g !== b)) {
+							return true;
+						}
+					}
+					return false;
+				}
+				
+				// If no emoji support, show SVG flags
+				if (!hasEmojiSupport()) {
+					document.querySelectorAll('.flag-emoji').forEach(emoji => {
+						emoji.style.display = 'none';
+					});
+					document.querySelectorAll('.flag-svg').forEach(svg => {
+						svg.style.display = 'block';
+					});
+				}
+
+				// Language selector functionality
+				const languageSelector = document.querySelector('.language-selector');
+				if (languageSelector) {
+					const button = languageSelector.querySelector('.language-selector-button');
+					const dropdown = languageSelector.querySelector('.language-dropdown');
+					
+					button.addEventListener('click', (e) => {
+						e.stopPropagation();
+						languageSelector.classList.toggle('open');
+					});
+					
+					// Close dropdown when clicking outside
+					document.addEventListener('click', () => {
+						languageSelector.classList.remove('open');
+					});
+					
+					// Prevent dropdown from closing when clicking inside it
+					dropdown.addEventListener('click', (e) => {
+						e.stopPropagation();
+					});
+					
+					// Close dropdown on escape key
+					document.addEventListener('keydown', (e) => {
+						if (e.key === 'Escape') {
+							languageSelector.classList.remove('open');
+						}
+					});
+				}
+
+
+			});
+		</script>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const galleries = document.querySelectorAll('.gallery');
+
+				galleries.forEach(gallery => {
+					const images = gallery.querySelectorAll('img');
+					let currentImageIndex = 0;
+					if (images.length > 0) {
+						images[currentImageIndex].style.display = 'block';
+					}
+
+					const showImage = (index) => {
+						if (images.length > 0) {
+							images[currentImageIndex].style.display = 'none';
+							currentImageIndex = (index + images.length) % images.length;
+							images[currentImageIndex].style.display = 'block';
+						}
+					};
+
+					const prevButton = gallery.querySelector('.gallery-prev');
+					const nextButton = gallery.querySelector('.gallery-next');
+
+					if (prevButton && nextButton) {
+						prevButton.addEventListener('click', () => {
+							showImage(currentImageIndex - 1);
+						});
+
+						nextButton.addEventListener('click', () => {
+							showImage(currentImageIndex + 1);
+						});
+					}
+				});
+			});
+		</script>
+			<script type="module" src="/js/lite-yt-embed.js"></script>
+			<script>/**
+ * A lightweight youtube embed. Still should feel the same to the user, just MUCH faster to initialize and paint.
+ *
+ * Thx to these as the inspiration
+ *   https://storage.googleapis.com/amp-vs-non-amp/youtube-lazy.html
+ *   https://autoplay-youtube-player.glitch.me/
+ *
+ * Once built it, I also found these:
+ *   https://github.com/ampproject/amphtml/blob/master/extensions/amp-youtube (👍👍)
+ *   https://github.com/Daugilas/lazyYT
+ *   https://github.com/vb/lazyframe
+ */
+class LiteYTEmbed extends HTMLElement {
+    connectedCallback() {
+        this.videoId = this.getAttribute('videoid');
+
+        let playBtnEl = this.querySelector('.lyt-playbtn,.lty-playbtn');
+        // A label for the button takes priority over a [playlabel] attribute on the custom-element
+        this.playLabel = (playBtnEl && playBtnEl.textContent.trim()) || this.getAttribute('playlabel') || 'Play';
+
+        this.dataset.title = this.getAttribute('title') || "";
+
+        /**
+         * Lo, the youtube poster image!  (aka the thumbnail, image placeholder, etc)
+         *
+         * See https://github.com/paulirish/lite-youtube-embed/blob/master/youtube-thumbnail-urls.md
+         */
+        if (!this.style.backgroundImage) {
+          this.style.backgroundImage = `url("https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg")`;
+          this.upgradePosterImage();
+        }
+
+        // Set up play button, and its visually hidden label
+        if (!playBtnEl) {
+            playBtnEl = document.createElement('button');
+            playBtnEl.type = 'button';
+            // Include the mispelled 'lty-' in case it's still being used. https://github.com/paulirish/lite-youtube-embed/issues/65
+            playBtnEl.classList.add('lyt-playbtn', 'lty-playbtn');
+            this.append(playBtnEl);
+        }
+        if (!playBtnEl.textContent) {
+            const playBtnLabelEl = document.createElement('span');
+            playBtnLabelEl.className = 'lyt-visually-hidden';
+            playBtnLabelEl.textContent = this.playLabel;
+            playBtnEl.append(playBtnLabelEl);
+        }
+
+        this.addNoscriptIframe();
+
+        // for the PE pattern, change anchor's semantics to button
+        if(playBtnEl.nodeName === 'A'){
+            playBtnEl.removeAttribute('href');
+            playBtnEl.setAttribute('tabindex', '0');
+            playBtnEl.setAttribute('role', 'button');
+            // fake button needs keyboard help
+            playBtnEl.addEventListener('keydown', e => {
+                if( e.key === 'Enter' || e.key === ' ' ){
+                    e.preventDefault();
+                    this.activate();
+                }
+            });
+        }
+
+        // On hover (or tap), warm up the TCP connections we're (likely) about to use.
+        this.addEventListener('pointerover', LiteYTEmbed.warmConnections, {once: true});
+        this.addEventListener('focusin', LiteYTEmbed.warmConnections, {once: true});
+
+        // Once the user clicks, add the real iframe and drop our play button
+        // TODO: In the future we could be like amp-youtube and silently swap in the iframe during idle time
+        //   We'd want to only do this for in-viewport or near-viewport ones: https://github.com/ampproject/amphtml/pull/5003
+        this.addEventListener('click', this.activate);
+
+        // Chrome & Edge desktop have no problem with the basic YouTube Embed with ?autoplay=1
+        // However Safari desktop and most/all mobile browsers do not successfully track the user gesture of clicking through the creation/loading of the iframe,
+        // so they don't autoplay automatically. Instead we must load an additional 2 sequential JS files (1KB + 165KB) (un-br) for the YT Player API
+        // TODO: Try loading the the YT API in parallel with our iframe and then attaching/playing it. #82
+        this.needsYTApi = this.hasAttribute("js-api") || navigator.vendor.includes('Apple') || navigator.userAgent.includes('Mobi');
+    }
+
+    /**
+     * Add a <link rel={preload | preconnect} ...> to the head
+     */
+    static addPrefetch(kind, url, as) {
+        const linkEl = document.createElement('link');
+        linkEl.rel = kind;
+        linkEl.href = url;
+        if (as) {
+            linkEl.as = as;
+        }
+        document.head.append(linkEl);
+    }
+
+    /**
+     * Begin pre-connecting to warm up the iframe load
+     * Since the embed's network requests load within its iframe,
+     *   preload/prefetch'ing them outside the iframe will only cause double-downloads.
+     * So, the best we can do is warm up a few connections to origins that are in the critical path.
+     *
+     * Maybe `<link rel=preload as=document>` would work, but it's unsupported: http://crbug.com/593267
+     * But TBH, I don't think it'll happen soon with Site Isolation and split caches adding serious complexity.
+     */
+    static warmConnections() {
+        if (LiteYTEmbed.preconnected) return;
+
+        // The iframe document and most of its subresources come right off youtube.com
+        LiteYTEmbed.addPrefetch('preconnect', 'https://www.youtube-nocookie.com');
+        // The botguard script is fetched off from google.com
+        LiteYTEmbed.addPrefetch('preconnect', 'https://www.google.com');
+
+        // Not certain if these ad related domains are in the critical path. Could verify with domain-specific throttling.
+        LiteYTEmbed.addPrefetch('preconnect', 'https://googleads.g.doubleclick.net');
+        LiteYTEmbed.addPrefetch('preconnect', 'https://static.doubleclick.net');
+
+        LiteYTEmbed.preconnected = true;
+    }
+
+    fetchYTPlayerApi() {
+        if (window.YT || (window.YT && window.YT.Player)) return;
+
+        this.ytApiPromise = new Promise((res, rej) => {
+            var el = document.createElement('script');
+            el.src = 'https://www.youtube.com/iframe_api';
+            el.async = true;
+            el.onload = _ => {
+                YT.ready(res);
+            };
+            el.onerror = rej;
+            this.append(el);
+        });
+    }
+
+    /** Return the YT Player API instance. (Public L-YT-E API) */
+    async getYTPlayer() {
+        if(!this.playerPromise) {
+            await this.activate();
+        }
+
+        return this.playerPromise;
+    }
+
+    async addYTPlayerIframe() {
+        this.fetchYTPlayerApi();
+        await this.ytApiPromise;
+
+        const videoPlaceholderEl = document.createElement('div')
+        this.append(videoPlaceholderEl);
+
+        const paramsObj = Object.fromEntries(this.getParams().entries());
+
+        this.playerPromise = new Promise(resolve => {
+            let player = new YT.Player(videoPlaceholderEl, {
+                width: '100%',
+                videoId: this.videoId,
+                playerVars: paramsObj,
+                events: {
+                    'onReady': event => {
+                        event.target.playVideo();
+                        resolve(player);
+                    }
+                }
+            });
+        });
+    }
+
+    // Add the iframe within <noscript> for indexability discoverability. See https://github.com/paulirish/lite-youtube-embed/issues/105
+    addNoscriptIframe() {
+        const iframeEl = this.createBasicIframe();
+        const noscriptEl = document.createElement('noscript');
+        // Appending into noscript isn't equivalant for mysterious reasons: https://html.spec.whatwg.org/multipage/scripting.html#the-noscript-element
+        noscriptEl.innerHTML = iframeEl.outerHTML;
+        this.append(noscriptEl);
+    }
+
+    getParams() {
+        const params = new URLSearchParams(this.getAttribute('params') || []);
+        params.append('autoplay', '1');
+        params.append('playsinline', '1');
+        return params;
+    }
+
+    async activate(){
+        if (this.classList.contains('lyt-activated')) return;
+        this.classList.add('lyt-activated');
+
+        if (this.needsYTApi) {
+            return this.addYTPlayerIframe(this.getParams());
+        }
+
+        const iframeEl = this.createBasicIframe();
+        this.append(iframeEl);
+
+        // Set focus for a11y
+        iframeEl.focus();
+    }
+
+    createBasicIframe(){
+        const iframeEl = document.createElement('iframe');
+        iframeEl.width = 560;
+        iframeEl.height = 315;
+        // No encoding necessary as [title] is safe. https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html#:~:text=Safe%20HTML%20Attributes%20include
+        iframeEl.title = this.playLabel;
+        iframeEl.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+        iframeEl.allowFullscreen = true;
+        // Required by Youtube to fix Error 153
+        iframeEl.referrerPolicy = 'strict-origin-when-cross-origin';
+        // AFAIK, the encoding here isn't necessary for XSS, but we'll do it only because this is a URL
+        // https://stackoverflow.com/q/64959723/89484
+        iframeEl.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(this.videoId)}?${this.getParams().toString()}`;
+        return iframeEl;
+    }
+
+    /**
+     * In the spirit of the `lowsrc` attribute and progressive JPEGs, we'll upgrade the reliable
+     * poster image to a higher resolution one, if it's available.
+     * Interestingly this sddefault webp is often smaller in filesize, but we will still attempt it second
+     * because getting _an_ image in front of the user if our first priority.
+     *
+     * See https://github.com/paulirish/lite-youtube-embed/blob/master/youtube-thumbnail-urls.md for more details
+     */
+    upgradePosterImage() {
+         // Defer to reduce network contention.
+        setTimeout(() => {
+            const webpUrl = `https://i.ytimg.com/vi_webp/${this.videoId}/sddefault.webp`;
+            const img = new Image();
+            img.fetchPriority = 'low'; // low priority to reduce network contention
+            img.referrerpolicy = 'origin'; // Not 100% sure it's needed, but https://github.com/ampproject/amphtml/pull/3940
+            img.src = webpUrl;
+            img.onload = e => {
+                // A pretty ugly hack since onerror won't fire on YouTube image 404. This is (probably) due to
+                // Youtube's style of returning data even with a 404 status. That data is a 120x90 placeholder image.
+                // … per "annoying yt 404 behavior" in the .md
+                const noAvailablePoster = e.target.naturalHeight == 90 && e.target.naturalWidth == 120;
+                if (noAvailablePoster) return;
+
+                this.style.backgroundImage = `url("${webpUrl}")`;
+            }
+        }, 100);
+    }
+}
+// Register custom element
+customElements.define('lite-youtube', LiteYTEmbed);</script>
+	</body>
+</html>
