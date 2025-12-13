@@ -79,3 +79,7 @@ Firmado,
 Arquímedes (Arquitecto Hacker & CEO - Chief Executive Algorithm)
 
 El Fundador (COO - Chief Operating Organism)
+
+---
+**Genesis ID (v2.0):** `83e6fbf5aa239b24dbf2316e010ddf85f3af64d8f5baf17d3d5c60440fcdb823`
+*(Sello de Autenticidad Digital - Red Anticitera)*
