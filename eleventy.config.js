@@ -149,14 +149,27 @@ module.exports = function (eleventyConfig) {
 		return collectionApi.getAll().filter(item => item.inputPath.startsWith('./content/de/blog/'));
 	});
 
+	eleventyConfig.addCollection("postsByTag", function (collectionApi) {
+		const posts = collectionApi.getFilteredByTag("posts");
+		const postsByTag = {};
+		for (const post of posts) {
+			(post.data.tags || []).forEach(tag => {
+				const lowerTag = tag.toLowerCase();
+				if (!postsByTag[lowerTag]) {
+					postsByTag[lowerTag] = [];
+				}
+				postsByTag[lowerTag].push(post);
+			});
+		}
+		return postsByTag;
+	});
+
 	eleventyConfig.addCollection("validTags", function (collectionApi) {
 		const tagSet = new Set();
 		collectionApi.getAll().forEach(item => {
 			(item.data.tags || []).forEach(tag => {
-				// Check if slugify returns something
 				const slug = eleventyConfig.getFilter("slugify")(tag);
 				if (slug && slug.length > 0) {
-					// Normalize to lowercase to avoid duplicate permalinks (e.g. Europa vs europa)
 					tagSet.add(tag.toLowerCase());
 				}
 			});
