@@ -12,7 +12,7 @@ lang: "pt"
 ---
 <h1>Tagged “{{ tag }}”</h1>
 
-{% set postslist = collections[ tag ] | where("data.lang", lang) %}
+{% set postslist = collections.postsByTag[ tag ] | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
 <p>See <a href="/pt/tags/">all tags</a>.</p>

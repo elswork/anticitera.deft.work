@@ -12,7 +12,7 @@ lang: "ru"
 ---
 <h1>Записи с тегом “{{ tag }}”</h1>
 
-{% set postslist = collections[ tag ] | where("data.lang", lang) %}
+{% set postslist = collections.postsByTag[ tag ] | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
 <p>Посмотреть <a href="/ru/tags/">все теги</a>.</p>

@@ -12,7 +12,7 @@ lang: "el"
 ---
 <h1>Με ετικέτα "{{ tag }}"</h1>
 
-{% set postslist = collections[ tag ] | where("data.lang", lang) %}
+{% set postslist = collections.postsByTag[ tag ] | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
 <p>Δείτε <a href="/el/tags/">όλες τις ετικέτες</a>.</p>
