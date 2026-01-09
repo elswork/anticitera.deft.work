@@ -12,6 +12,9 @@ tags:
 
 ## Digitale Souveränität wird nicht erbeten, sie wird auf Standards aufgebaut.
 
+![Ausschuss für digitale europäische Souveränität](/img/soberania_digital_comite.png)
+
+
 Wir befinden uns an einem historischen Wendepunkt. Die Internetinfrastruktur ist nicht neutral; sie ist ein geopolitisches Schlachtfeld. Während globale Mächte ihre digitalen Vermögenswerte sichern, läuft Europa Gefahr, die Kontrolle über die kritischste Kennung der kommenden Jahrzehnte zu verlieren: das Suffix **.ia**.
 
 ### Das Problem: Erfassung der .IA-Kennung

@@ -12,6 +12,9 @@ tags:
 
 ## La Soberanía Digital no se pide, se construye sobre estándares.
 
+![Comité de Soberanía Digital Europea](/img/soberania_digital_comite.png)
+
+
 Estamos en un punto de inflexión histórico. La infraestructura de internet no es neutral; es un campo de batalla geopolítico. Mientras las potencias globales aseguran sus activos digitales, Europa corre el riesgo de perder el control sobre el identificador más crítico de las próximas décadas: el sufijo **.ia**.
 
 ### El Problema: Captura del Identificador .IA

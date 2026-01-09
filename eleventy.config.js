@@ -156,7 +156,8 @@ module.exports = function (eleventyConfig) {
 				// Check if slugify returns something
 				const slug = eleventyConfig.getFilter("slugify")(tag);
 				if (slug && slug.length > 0) {
-					tagSet.add(tag);
+					// Normalize to lowercase to avoid duplicate permalinks (e.g. Europa vs europa)
+					tagSet.add(tag.toLowerCase());
 				}
 			});
 		});

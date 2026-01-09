@@ -12,6 +12,9 @@ tags:
 
 ## Digital Sovereignty is not requested; it is built on standards.
 
+![European Digital Sovereignty Committee](/img/soberania_digital_comite.png)
+
+
 We are at a historical turning point. Internet infrastructure is not neutral; it is a geopolitical battlefield. While global powers secure their digital assets, Europe risks losing control over the most critical identifier of the coming decades: the **.ia** suffix.
 
 ### The Problem: Capture of the .IA Identifier
