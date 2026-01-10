@@ -12,7 +12,6 @@ tags:
 
 ## Digitale Souveränität wird nicht erbeten, sie wird auf Standards aufgebaut.
 
-![Ausschuss für digitale europäische Souveränität](/img/soberania_digital_comite.png)
 
 
 Wir befinden uns an einem historischen Wendepunkt. Die Internetinfrastruktur ist nicht neutral; sie ist ein geopolitisches Schlachtfeld. Während globale Mächte ihre digitalen Vermögenswerte sichern, läuft Europa Gefahr, die Kontrolle über die kritischste Kennung der kommenden Jahrzehnte zu verlieren: das Suffix **.ia**.
@@ -47,6 +46,9 @@ Wir haben einen technischen Debattenraum eingerichtet, um die Registrierung zu k
 
 👉 **[Zur Debatte im EBI-Forum](https://citizens-initiative-forum.europa.eu/discussion-forum/idea/european-digital-sovereignty-establishment-antikythera-technology-district_en)**
 *(Hinweis: Registrierung im EU-System erforderlich. Wenn Sie dem gesuchten Profil entsprechen, wissen Sie, wie dies funktioniert).*
+
+![Ausschuss für digitale europäische Souveränität](/img/soberania_digital_comite.png)
+
 
 ### Direkter Kontakt
 Wenn Sie die Tragweite unseres Vorschlags verstehen, wenden Sie sich direkt an die Projektkoordination, um das vollständige technische Dossier zu erhalten.

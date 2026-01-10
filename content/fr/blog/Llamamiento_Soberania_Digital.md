@@ -12,7 +12,6 @@ tags:
 
 ## La Souveraineté Numérique ne se demande pas, elle se construit sur des normes.
 
-![Comité de Souveraineté Numérique Européenne](/img/soberania_digital_comite.png)
 
 
 Nous sommes à un tournant historique. L'infrastructure d'internet n'est pas neutre ; c'est un champ de bataille géopolitique. Alors que les puissances mondiales sécurisent leurs actifs numériques, l'Europe risque de perdre le contrôle sur l'identifiant le plus critique des prochaines décennies : le suffixe **.ia**.
@@ -47,6 +46,8 @@ Nous avons activé un espace de débat technique pour coordonner l'enregistremen
 
 👉 **[Accéder au Débat sur le Forum de l'ICE](https://citizens-initiative-forum.europa.eu/discussion-forum/idea/european-digital-sovereignty-establishment-antikythera-technology-district_en)**
 *(Note : Nécessite une inscription dans le système de l'UE. Si vous avez le profil que nous cherchons, vous savez déjà comment cela fonctionne).*
+
+![Comité de Souveraineté Numérique Européenne](/img/soberania_digital_comite.png)
 
 ### Contact Direct
 Si vous comprenez l'ampleur de ce que nous proposons, contactez directement la coordination du projet pour recevoir le dossier technique complet.

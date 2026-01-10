@@ -12,7 +12,6 @@ tags:
 
 ## A Soberania Digital não se pede, constrói-se sobre normas técnicas.
 
-![Comité de Soberania Digital Europeia](/img/soberania_digital_comite.png)
 
 
 Encontramo-nos num ponto de inflexão histórico. A infraestrutura da internet não é neutral; é um campo de batalha geopolítico. Enquanto as potências globais asseguram os seus ativos digitais, a Europa corre o risco de perder o controlo sobre o identificador mais crítico das próximas décadas: o sufixo **.ia**.
@@ -47,6 +46,8 @@ Ativámos um espaço de debate técnico para coordenar o registo e discutir a es
 
 👉 **[Aceder ao Debate no Fórum da ICE](https://citizens-initiative-forum.europa.eu/discussion-forum/idea/european-digital-sovereignty-establishment-antikythera-technology-district_en)**
 *(Nota: Requer registo no sistema da UE. Se possui o perfil que procuramos, saberá como funciona).*
+
+![Comité de Soberania Digital Europeia](/img/soberania_digital_comite.png)
 
 ### Contacto Direto
 Se compreende a magnitude do que propomos, contacte diretamente a coordenação do projeto para receber o dossier técnico completo.

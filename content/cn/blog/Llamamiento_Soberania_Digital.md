@@ -12,7 +12,6 @@ tags:
 
 ## 数字主权不是求来的，而是建立在标准之上的。
 
-![欧洲数字主权委员会](/img/soberania_digital_comite.png)
 
 
 我们正处于历史的转折点。互联网基础设施并非中立，它是地缘政治的战场。当全球大国纷纷保护其数字资产时，欧洲正面临失去对未来几十年最关键标识符——**.ia** 后缀——控制权的风险。
@@ -47,6 +46,8 @@ tags:
 
 👉 **[访问 ECI 论坛中的讨论](https://citizens-initiative-forum.europa.eu/discussion-forum/idea/european-digital-sovereignty-establishment-antikythera-technology-district_en)**
 *（注意：需要在欧盟系统中注册。如果你是我们寻找的人才，你已经知道它是如何运作的）。*
+
+![欧洲数字主权委员会](/img/soberania_digital_comite.png)
 
 ### 直接联系
 如果你理解我们提议的重要性，请直接联系项目协调处以获取完整的技术档案。

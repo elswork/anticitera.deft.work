@@ -12,7 +12,6 @@ tags:
 
 ## Digital Sovereignty is not requested; it is built on standards.
 
-![European Digital Sovereignty Committee](/img/soberania_digital_comite.png)
 
 
 We are at a historical turning point. Internet infrastructure is not neutral; it is a geopolitical battlefield. While global powers secure their digital assets, Europe risks losing control over the most critical identifier of the coming decades: the **.ia** suffix.
@@ -47,6 +46,8 @@ We have enabled a technical debate space to coordinate registration and discuss 
 
 👉 **[Access the Discussion in the ECI Forum](https://citizens-initiative-forum.europa.eu/discussion-forum/idea/european-digital-sovereignty-establishment-antikythera-technology-district_en)**
 *(Note: Requires registration in the EU system. If you fit the profile we are looking for, you already know how it works).*
+
+![European Digital Sovereignty Committee](/img/soberania_digital_comite.png)
 
 ### Direct Contact
 If you understand the magnitude of what we are proposing, contact the project coordination directly to receive the full technical dossier.
