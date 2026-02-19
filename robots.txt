@@ -24,6 +24,9 @@ Sitemap: https://anticitera.deft.work/sitemap.xml
 Sitemap: https://anticitera.deft.work/feed/feed.xml
 Sitemap: https://anticitera.deft.work/feed/feed.json
 
+# Markdown for Agents (llms.txt standard)
+Sitemap: https://anticitera.deft.work/llms.txt
+
 # Optimización específica para diferentes bots de búsqueda
 User-agent: Googlebot
 Allow: /
