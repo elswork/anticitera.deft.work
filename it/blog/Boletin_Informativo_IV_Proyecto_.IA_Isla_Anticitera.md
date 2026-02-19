@@ -38,3 +38,7 @@ Questa "meta-riflessione" ci spinge a perfezionare le nostre idee e ci conferma 
 
 
 Grazie per continuare a far parte di questa avventura.
+
+
+
+  ![Una rappresentazione del meccanismo di Anticitera, attraversato da sottili fili di circuiti, che fluttua sul mare di fronte all'isola di Anticitera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

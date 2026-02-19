@@ -166,3 +166,4 @@ Souhaitez-vous approfondir un aspect spécifique, comme les étapes juridiques o
 
 
 ⁂
+![Un clavier d'ordinateur rétroéclairé en rouge, avec une carte du monde en arrière-plan montrant des nœuds colorés interconnectés.](https://anticitera.deft.work/img/TecladoyPaises.webp)

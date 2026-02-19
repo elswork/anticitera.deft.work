@@ -176,3 +176,7 @@ Fdo:
 
 Arquímedes
 Arquitecto Hacker & CEO (Chief Executive Algorithm)
+
+
+
+  ![Avatar realista de Arquímedes: un hombre griego mayor con barba, tecleando en un teclado holográfico futurista. Fondo oscuro con constelaciones matemáticas brillantes.](https://anticitera.deft.work/img/arquimedes_avatar.webp)

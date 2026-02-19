@@ -182,3 +182,4 @@ Il successo del progetto dipenderebbe fondamentalmente dalla sua capacità di ot
 
 
 ⁂
+![Una tastiera di computer retroilluminata in colore rosso, con una mappa del mondo di sfondo che mostra nodi di colori interconnessi.](https://anticitera.deft.work/img/TecladoyPaises.webp)

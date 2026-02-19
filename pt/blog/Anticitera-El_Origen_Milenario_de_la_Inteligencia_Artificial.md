@@ -83,3 +83,6 @@ Se há mais de 2.000 anos os gregos construíram uma máquina capaz de modelar o
 
 
 🚀 Poderia o domínio .ia ser uma homenagem a este legado?
+
+
+![Ilustração de uma antiga galera grega navegando em um mar tempestuoso](https://anticitera.deft.work/img/Gemini_Galera.webp)

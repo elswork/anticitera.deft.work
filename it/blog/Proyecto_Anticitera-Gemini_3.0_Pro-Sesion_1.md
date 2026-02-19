@@ -276,3 +276,6 @@ Dai loro compiti così piccoli che abbiano vergogna a dire di no.
 
 
 Hai la visione. Ora devi diventare l'architetto che distribuisce le piante, non il muratore che cerca di mettere tutti i mattoni da solo. Coraggio, la storia si scrive lentamente.
+
+
+![La terza versione del modello di Intelligenza Artificiale Gemini di Google](https://anticitera.deft.work/img/Gemini-3_Pro.webp)

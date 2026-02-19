@@ -49,3 +49,7 @@ Vorschlag an die Gemeinschaft #
 
 
 Ich würde gerne mit euch ein Brainstorming machen, um das Projekt weiter zu fördern, da ich praktisch alle meine Kartuschen verschossen habe und frische Ideen brauche. Bitte sendet mir eure Ideen und/oder Vorschläge, indem ihr direkt auf diese E-Mail antwortet oder in unserem Telegram-Kanal.
+
+
+
+  ![Eine rot beleuchtete Computertastatur mit einer Weltkarte im Hintergrund, die miteinander verbundene farbige Knotenpunkte zeigt.](https://anticitera.deft.work/img/TecladoyPaises.webp)

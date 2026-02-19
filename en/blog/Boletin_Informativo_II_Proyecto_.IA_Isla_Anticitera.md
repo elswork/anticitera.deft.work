@@ -46,3 +46,7 @@ Dissemination and Promotion: Help spread the idea by sharing it on social media 
 
 
 .IA Antikythera Island Project
+
+
+
+  ![A red backlit computer keyboard, with a world map in the background showing interconnected colored nodes.](https://anticitera.deft.work/img/TecladoyPaises.webp)

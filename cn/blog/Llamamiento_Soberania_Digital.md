@@ -67,7 +67,7 @@ URL: https://anticitera.deft.work/cn/blog/Llamamiento_Soberania_Digital/
 （注意：需要在欧盟系统中注册。如果你是我们寻找的人才，你已经知道它是如何运作的）。
 
 
-
+![欧洲数字主权委员会](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 直接联系 #

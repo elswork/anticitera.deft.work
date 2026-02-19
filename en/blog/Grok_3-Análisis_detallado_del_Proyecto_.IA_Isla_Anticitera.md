@@ -143,3 +143,6 @@ The site https://anticitera.deft.work is an ambitious platform that combines his
 
 
 If the user wants a more specific analysis (for example, of design, usability, or multimedia content of the site), I would need direct access or more details. Is there anything else I can elaborate on?
+
+
+![A red backlit computer keyboard, with a world map in the background showing interconnected colored nodes.](https://anticitera.deft.work/img/TecladoyPaises.webp)

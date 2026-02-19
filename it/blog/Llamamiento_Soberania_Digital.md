@@ -67,7 +67,7 @@ Abbiamo abilitato uno spazio di dibattito tecnico per coordinare la registrazion
 (Nota: Richiede registrazione nel sistema dell'UE. Se hai il profilo che cerchiamo, sai già come funziona).
 
 
-
+![Comitato per la Sovranità Digitale Europea](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 Contatto Diretto #

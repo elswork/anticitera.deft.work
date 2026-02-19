@@ -1,5 +1,5 @@
 # Projet .IA Île d'Anticythère
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/about/
 
 ---
@@ -166,7 +166,7 @@ Sponsorisez-moi ! Ensemble, nous serons inarrêtables.
 Autres moyens de me financer :
 
 
-  #
+![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork) ![Donner PayPal](https://img.shields.io/badge/Donner-PayPal-green.svg) #
 
 
 Donner avec Bitcoin (BTC) :

@@ -616,3 +616,6 @@ Em resumo, Arquimedes provavelmente veria no projeto uma amostra da engenhosidad
 
 
 Gostaria de explorar alguma dessas ideias mais a fundo? Por exemplo, poderíamos analisar como os princípios da alavanca, tão estudados por Arquimedes, estão relacionados aos algoritmos de aprendizado de máquina. Ou poderíamos discutir as implicações filosóficas da criação de máquinas inteligentes capazes de aprender e evoluir.
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAsliced.webp)

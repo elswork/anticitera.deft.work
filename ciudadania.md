@@ -1,5 +1,5 @@
 # Ciudadanía Digital
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ciudadania/
 
 ---
@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/ciudadania/
 Ciudadanía Digital de Anticitera #
 
 
-
+![Pasaporte Digital](https://anticitera.deft.work/img/anticitera-header.webp)
 
 
 

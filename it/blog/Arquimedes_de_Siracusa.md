@@ -91,3 +91,6 @@ Promuovere il pensiero critico: Gli antenati greci, come Archimede, si concentra
 
 
 Puoi trovare maggiori dettagli sul Progetto .IA Isola di Anticitera e la sua comunità su Progetto Anticitera.
+
+
+![Ritratto di Archimede di Siracusa che riflette, con il meccanismo di Anticitera](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

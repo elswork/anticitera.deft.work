@@ -1,5 +1,5 @@
 # .IA安提基特拉岛项目
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/about/
 
 ---
@@ -166,7 +166,7 @@ Entrevista Hack by Security
 其他资助方式：
 
 
-  #
+![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork) ![通过PayPal捐赠](https://img.shields.io/badge/Donar-PayPal-green.svg) #
 
 
 用比特币（BTC）捐赠：

@@ -67,7 +67,7 @@ Hemos habilitado un espacio de debate técnico para coordinar el registro y disc
 (Nota: Requiere registro en el sistema de la UE. Si eres el perfil que buscamos, ya sabes cómo funciona).
 
 
-
+![Comité de Soberanía Digital Europea](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 Contacto Directo #

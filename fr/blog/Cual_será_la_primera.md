@@ -65,3 +65,7 @@ En vous abonnant à la newsletter pour être informé de l'avancement.
 
 
 En rejoignant le salon de discussion sur Telegram
+
+
+
+![Une illustration d'un navire au milieu d'un orage électrique au large de l'île d'Anticythère](https://anticitera.deft.work/img/PecioAnticitera.webp)

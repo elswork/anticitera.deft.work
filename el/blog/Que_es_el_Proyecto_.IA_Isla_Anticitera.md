@@ -60,3 +60,7 @@ URL: https://anticitera.deft.work/el/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera
 
 
 Μπαίνοντας στην αίθουσα συζητήσεων του Telegram
+
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAwhatis.webp)

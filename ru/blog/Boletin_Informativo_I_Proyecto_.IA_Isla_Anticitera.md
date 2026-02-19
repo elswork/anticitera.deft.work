@@ -80,3 +80,6 @@ OpenExpo Europe - Un nuevo amanecer para la .IA: El Dominio .IA
 
 
 Проект .IA Остров Антикитера
+
+
+![Клавиатура компьютера с подсветкой, а на заднем плане карта мира, состоящая из двоичного кода из нулей и единиц.](https://anticitera.deft.work/img/BitLifeMedia.webp)

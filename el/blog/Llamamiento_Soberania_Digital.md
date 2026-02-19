@@ -67,7 +67,7 @@ URL: https://anticitera.deft.work/el/blog/Llamamiento_Soberania_Digital/
 (Σημείωση: Απαιτείται εγγραφή στο σύστημα της ΕΕ. Εάν διαθέτετε το προφίλ που αναζητούμε, γνωρίζετε ήδη πώς λειτουργεί).
 
 
-
+![Επιτροπή Ευρωπαϊκής Ψηφιακής Κυριαρχίας](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 Άμεση Επικοινωνία #

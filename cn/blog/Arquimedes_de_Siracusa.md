@@ -91,3 +91,6 @@ URL: https://anticitera.deft.work/cn/blog/Arquimedes_de_Siracusa/
 
 
 您可以在安提基特拉项目上找到有关.IA安提基特拉岛项目及其社区的更多详细信息。
+
+
+![锡拉库萨的阿基米德在思考的肖像，背景是安提基特拉机械](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

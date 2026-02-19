@@ -276,3 +276,6 @@ Dales tareas tan pequeñas que les de vergüenza decir que no.
 
 
 Tienes la visión. Ahora tienes que convertirte en el arquitecto que reparte los planos, no en el albañil que intenta poner todos los ladrillos solo. Ánimo, la historia se escribe despacio.
+
+
+![La tercera versión del modelo de Inteligencia Artificial Gemini de Google](https://anticitera.deft.work/img/Gemini-3_Pro.webp)

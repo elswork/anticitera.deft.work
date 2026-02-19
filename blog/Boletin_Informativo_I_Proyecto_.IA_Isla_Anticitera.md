@@ -80,3 +80,6 @@ Difusión y Promoción: Ayude a difundir la idea compartiéndola en redes social
 
 
 Proyecto .IA Isla Anticitera
+
+
+![Un teclado de ordenador retroiluminado, y de fondo un mapa del mundo formado por código binario de ceros y unos.](https://anticitera.deft.work/img/BitLifeMedia.webp)

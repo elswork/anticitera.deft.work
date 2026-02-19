@@ -166,3 +166,4 @@ Si logra superar estos obstáculos, podría convertirse en un símbolo de la ide
 
 
 ⁂
+![Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.](https://anticitera.deft.work/img/TecladoyPaises.webp)

@@ -788,3 +788,6 @@ Gemini: #
 
 
 您想更深入地探讨这些想法中的任何一个吗？ 例如，我们可以分析阿基米德深入研究的杠杆原理如何与机器学习算法相关联。或者我们可以讨论创造能够学习和进化的智能机器的哲学含义。
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAsliced.webp)

@@ -143,3 +143,6 @@ Il sito https://anticitera.deft.work è una piattaforma ambiziosa che combina st
 
 
 Se l'utente desidera un'analisi più specifica (ad esempio, di design, usabilità o contenuto multimediale del sito), avrei bisogno di accesso diretto o maggiori dettagli. C'è qualcos'altro che posso approfondire?
+
+
+![Una tastiera di un computer retroilluminata in rosso, con una mappa del mondo sullo sfondo che mostra nodi colorati interconnessi.](https://anticitera.deft.work/img/TecladoyPaises.webp)

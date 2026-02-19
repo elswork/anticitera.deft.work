@@ -91,3 +91,6 @@ Promover o pensamento crítico: Os antigos gregos, como Arquimedes, focavam em e
 
 
 Você pode encontrar mais detalhes sobre o Projeto Ilha de Anticítera .IA e sua comunidade em Antikythera Project.
+
+
+![Retrato de Arquimedes de Siracusa refletindo, com o mecanismo de Anticítera](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

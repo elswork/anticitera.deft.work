@@ -143,3 +143,6 @@ O site https://anticitera.deft.work é uma plataforma ambiciosa que combina hist
 
 
 Se o usuário desejar uma análise mais específica (por exemplo, de design, usabilidade ou conteúdo multimídia do site), eu precisaria de acesso direto ou mais detalhes. Há algo mais em que posso elaborar?
+
+
+![Um teclado de computador retroiluminado em vermelho, com um mapa-múndi ao fundo mostrando nós coloridos interconectados.](https://anticitera.deft.work/img/TecladoyPaises.webp)

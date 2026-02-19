@@ -38,3 +38,7 @@ URL: https://anticitera.deft.work/el/blog/Boletin_Informativo_IV_Proyecto_.IA_Is
 
 
 Σας ευχαριστούμε που συνεχίζετε να είστε μέρος αυτής της περιπέτειας.
+
+
+
+  ![Μια αναπαράσταση του μηχανισμού των Αντικυθήρων, διασχίζεται από λεπτά νήματα κυκλωμάτων, που επιπλέει πάνω από τη θάλασσα μπροστά από το νησί των Αντικυθήρων.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

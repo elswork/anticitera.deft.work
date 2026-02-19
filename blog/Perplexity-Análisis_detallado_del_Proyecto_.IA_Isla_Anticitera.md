@@ -182,3 +182,4 @@ El éxito del proyecto dependería fundamentalmente de su capacidad para obtener
 
 
 ⁂
+![Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.](https://anticitera.deft.work/img/TecladoyPaises.webp)

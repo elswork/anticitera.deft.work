@@ -394,3 +394,7 @@ AI用于域名：8个建立强大在线形象的技巧 - ShortDot，访问日期
 
 
 新世界信息架构网站项目提案 | by Andrea Rosenbusch，访问日期：2025年3月24日，https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb
+
+
+
+![一个红色背光的电脑键盘，背景是显示相互连接的彩色节点的世界地图。](https://anticitera.deft.work/img/TecladoyPaises.webp)

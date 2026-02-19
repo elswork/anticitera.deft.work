@@ -1,5 +1,5 @@
 # Links Bereich
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/links/
 
 ---
@@ -24,13 +24,13 @@ Descubierto en un barco hundido a comienzos del siglo XX, sigue sorprendiendo a 
 ▶
 
 
+![Verwandtes Bild](https://hips.hearstapps.com/hmg-prod/images/antikythera-mechanism-1-67b49f584eafb.jpg?crop=1.00xw:0.514xh;0,0.110xh&resize=1200:*)
 
 
+![Verwandtes Bild](https://anticitera.deft.work/_assets/design-tokens/fre/static/icons/search.f1c199c.svg)
 
 
-
-
-
+![Verwandtes Bild](https://anticitera.deft.work/_assets/design-tokens/fre/static/icons/close.38e3324.svg)
 
 
 
@@ -101,13 +101,13 @@ In the last 2,500 years human civilization has made great strides; and in merely
 ▶
 
 
+![Verwandtes Bild](https://planetmainframe.com/wp-content/uploads/2023/11/Antikythera.jpg)
 
 
+![Verwandtes Bild](https://planetmainframe.com/wp-content/uploads/2025/11/PMF-YouTube-Icon.png)
 
 
-
-
-
+![Verwandtes Bild](https://planetmainframe.com/wp-content/uploads/2025/08/LinkedIn-Icon-Full.png)
 
 
 
@@ -136,13 +136,13 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ▶
 
 
+![Verwandtes Bild](https://ichef.bbci.co.uk/news/1024/branded_mundo/FF43/production/_90074356_item-2-promo.jpg)
 
 
+![Verwandtes Bild](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/D833/production/_90074355_item-2-promo.jpg.webp)
 
 
-
-
-
+![Verwandtes Bild](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/12653/production/_90074357_fondo-del-mar.jpg.webp)
 
 
 
@@ -239,13 +239,13 @@ The Antikythera Mechanism, an ancient Greek astronomical calculator, has challen
 ▶
 
 
+![Verwandtes Bild](https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-021-84310-w/MediaObjects/41598_2021_84310_Fig1_HTML.png)
 
 
+![Verwandtes Bild](https://media.springernature.com/full/nature-cms/uploads/product/srep/header-d3c533c187c710c1bedbd8e293815d5f.svg)
 
 
-
-
-
+![Verwandtes Bild](https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41550-022-01857-y/MediaObjects/41550_2022_1857_Fig1_HTML.png)
 
 
 
@@ -274,13 +274,13 @@ Sitio de Noticias de National Geographic Latinoamérica
 ▶
 
 
+![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600&h=977)
 
 
+![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/cerezos_0.webp?w=1600&h=900)
 
 
-
-
-
+![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/cheetahsupclosewithbertiegregory_editada.webp?w=973&h=548)
 
 
 
@@ -309,13 +309,13 @@ Este artefacto, por mérito propio es un rompecabezas increíble para su tiempo 
 ▶
 
 
+![Verwandtes Bild](https://s1.abcstatics.com/abc/www/multimedia/ciencia/2023/07/05/antic1-U16600432270dbm-1024x512@abc.jpg)
 
 
+![Verwandtes Bild](https://s1.abcstatics.com/abc/www/multimedia/plantillas/icon-visual-story.svg)
 
 
-
-
-
+![Verwandtes Bild](https://s1.abcstatics.com/abc/www/multimedia/plantillas/icon-audio.svg)
 
 
 
@@ -344,13 +344,13 @@ El "mecanismo de Anticitera", considerado el objeto más misterioso de la histor
 ▶
 
 
+![Verwandtes Bild](https://ichef.bbci.co.uk/news/1024/branded_mundo/15ED7/production/_117551898_explodedcosmosmodel8x5.jpg)
 
 
+![Verwandtes Bild](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/3879/production/_90075441_armado-una-cara.jpg.webp)
 
 
-
-
-
+![Verwandtes Bild](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/D833/production/_90074355_item-2-promo.jpg.webp)
 
 
 
@@ -379,13 +379,13 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ▶
 
 
+![Verwandtes Bild](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&height=630&width=1200&focal=600%2C315)
 
 
+![Verwandtes Bild](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-
-
-
+![Verwandtes Bild](https://kiosco.latercera.com/latest-issue-cover-image?collection=Lt-diario-la-tercera-early-access)
 
 
 
@@ -414,13 +414,13 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 ▶
 
 
+![Verwandtes Bild](https://rapinformes.es/wp-content/uploads/2013/02/inteligencia-artificial-plasmada-antigua-grecia.jpg)
 
 
+![Verwandtes Bild](https://rapinformes.es/wp-content/uploads/2021/04/matrices-marca-corp-RAP-INFORMES.png)
 
 
-
-
-
+![Verwandtes Bild](https://rapinformes.es/wp-content/uploads/2026/01/siete-anos-de-desconexion-digital.jpg)
 
 
 
@@ -510,3 +510,12 @@ Accede a RTVE Play para disfrutar del capítulo 1 de Alter Ego: la inteligencia 
 
 ◀
 ▶
+
+
+![Verwandtes Bild](https://img.rtve.es/v/6999053/imgbackground/?w=800)
+
+
+![Verwandtes Bild](https://img.rtve.es/v/6999053/?w=1600)
+
+
+![Verwandtes Bild](https://img.rtve.es/p/176830/logo/?w=320)

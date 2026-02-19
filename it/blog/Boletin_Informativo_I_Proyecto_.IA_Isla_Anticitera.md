@@ -80,3 +80,6 @@ Diffusione e Promozione: Aiuta a diffondere l'idea condividendola sui social med
 
 
 Progetto .IA Isola di Anticitera
+
+
+![Una tastiera di un computer retroilluminata, e sullo sfondo una mappa del mondo formata da codice binario di zeri e uni.](https://anticitera.deft.work/img/BitLifeMedia.webp)

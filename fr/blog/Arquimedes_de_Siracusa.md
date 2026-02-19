@@ -91,3 +91,6 @@ Promouvoir la pensée critique : Les ancêtres grecs, comme Archimède, se conce
 
 
 Vous pouvez trouver plus de détails sur le Projet .IA Île d'Anticythère et sa communauté sur Projet Anticythère.
+
+
+![Portrait d'Archimède de Syracuse réfléchissant, avec le mécanisme d'Anticythère](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

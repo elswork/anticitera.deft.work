@@ -1,5 +1,5 @@
 # Proyecto .IA Isla Anticitera
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/about/
 
 ---
@@ -166,7 +166,7 @@ Entrevista Hack by Security
 Otras formas de financiarme:
 
 
-  #
+![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork) ![Donar PayPal](https://img.shields.io/badge/Donar-PayPal-green.svg) #
 
 
 Donar con Bitcoin (BTC):

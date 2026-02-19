@@ -65,3 +65,7 @@ By subscribing to the newsletter to stay informed of progress.
 
 
 By joining the Telegram discussion room
+
+
+
+![An illustration of a ship in the middle of a thunderstorm off the island of Antikythera](https://anticitera.deft.work/img/PecioAnticitera.webp)

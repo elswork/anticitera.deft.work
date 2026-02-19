@@ -65,3 +65,7 @@ Suscribiéndote al boletín de noticias para estar informado del progreso.
 
 
 Entrando en la sala de debate de Telegram
+
+
+
+![Una ilustración de un barco en medio de una tormenta eléctrica frente a la isla de Anticitera](https://anticitera.deft.work/img/PecioAnticitera.webp)

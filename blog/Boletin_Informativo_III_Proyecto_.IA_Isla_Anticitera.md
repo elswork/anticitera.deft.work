@@ -49,3 +49,7 @@ Propuesta a la comunidad #
 
 
 Me gustaría hacer con vosotros una lluvia de ideas para seguir promocionando el proyecto, ya que prácticamente he quemado todos mis cartuchos y necesito ideas frescas, por favor hacedme llegar vuestras ideas y/o sugerencias, respondiendo directamente en este correo o bien en nuestro canal de Telegram
+
+
+
+  ![Un teclado de ordenador retroiluminado en color rojo, con un mapa del mundo de fondo mostrando nodos de colores interconectados.](https://anticitera.deft.work/img/TecladoyPaises.webp)

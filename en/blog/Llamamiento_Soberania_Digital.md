@@ -67,7 +67,7 @@ We have enabled a technical debate space to coordinate registration and discuss 
 (Note: Requires registration in the EU system. If you fit the profile we are looking for, you already know how it works).
 
 
-
+![European Digital Sovereignty Committee](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 Direct Contact #

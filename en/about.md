@@ -1,5 +1,5 @@
 # .IA Antikythera Island Project
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/about/
 
 ---
@@ -166,7 +166,7 @@ Sponsor me! Together we will be unstoppable.
 Other ways to fund me:
 
 
-  #
+![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork) ![Donate PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg) #
 
 
 Donate with Bitcoin (BTC):

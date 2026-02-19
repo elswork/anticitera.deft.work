@@ -45,7 +45,7 @@ Conclusion #
 We hide nothing. Our code is open not just by license, but by readability. We want that, in 2000 years, if someone (or something) finds this digital repository "shipwrecked" on the net, they can understand it as well as we understand the gears of Antikythera today.
 
 
-
+![AI Vision: Code Gears](https://anticitera.deft.work/img/ai_code_vision.png)
 
 
 

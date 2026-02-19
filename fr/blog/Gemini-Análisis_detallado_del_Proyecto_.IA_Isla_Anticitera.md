@@ -394,3 +394,7 @@ Outil Gratuit d'Idées de Noms de Domaine - Obtenez des Idées Instantanées pou
 
 
 Proposition de Projet pour un Nouveau Site Web d'Architecture de l'Information Mondiale | par Andrea Rosenbusch, consulté le : 24 mars 2025, https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb
+
+
+
+![Un clavier d'ordinateur rétroéclairé en rouge, avec une carte du monde en arrière-plan montrant des nœuds colorés interconnectés.](https://anticitera.deft.work/img/TecladoyPaises.webp)

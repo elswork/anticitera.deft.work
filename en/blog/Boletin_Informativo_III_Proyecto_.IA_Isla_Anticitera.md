@@ -49,3 +49,7 @@ Proposal to the community #
 
 
 I would like to brainstorm with you to continue promoting the project, since I have practically burned all my cartridges and I need fresh ideas, please send me your ideas and/or suggestions, responding directly to this email or in our Telegram channel
+
+
+
+  ![A red backlit computer keyboard, with a world map in the background showing interconnected colored nodes.](https://anticitera.deft.work/img/TecladoyPaises.webp)

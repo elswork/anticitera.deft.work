@@ -23,3 +23,6 @@ Aujourd'hui, je veux réparer l'erreur de ne pas l'avoir dit plus tôt et, en m�
 
 
 C'est un voyage qui honore le passé sur l'île grecque qui lui donne son nom, mais qui regarde vers l'avenir avec la force transformatrice de tous ceux qui croient que l'intelligence artificielle peut et doit être un outil pour le bien commun. Et dans cet avenir, l'Amérique Latine est au cœur du projet.
+
+
+![Une représentation du mécanisme d'Anticythère à côté d'une carte de l'Amérique du Sud, symbolisant l'union du projet avec l'Amérique Latine.](https://anticitera.deft.work/img/LATAM.webp)

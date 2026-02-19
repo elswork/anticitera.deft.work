@@ -46,3 +46,7 @@ Diffusione e Promozione: Aiuta a diffondere l'idea condividendola sui social med
 
 
 Progetto .IA Isola di Anticitera
+
+
+
+  ![Una tastiera di un computer retroilluminata in rosso, con una mappa del mondo sullo sfondo che mostra nodi colorati interconnessi.](https://anticitera.deft.work/img/TecladoyPaises.webp)

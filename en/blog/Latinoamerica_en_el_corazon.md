@@ -23,3 +23,6 @@ Today I want to amend the mistake of not having said it before and, at the same 
 
 
 This is a journey that honors the past on the Greek island that gives it its name, but that looks to the future with the transformative force of all of us who believe that artificial intelligence can and should be a tool for the common good. And in that future, Latin America is at the heart of the project.
+
+
+![A representation of the Antikythera mechanism next to a map of South America, symbolizing the union of the project with Latin America.](https://anticitera.deft.work/img/LATAM.webp)

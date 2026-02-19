@@ -166,3 +166,4 @@ Ti piacerebbe approfondire qualche aspetto specifico, come i passaggi legali o l
 
 
 ⁂
+![Una tastiera di un computer retroilluminata in rosso, con una mappa del mondo sullo sfondo che mostra nodi colorati interconnessi.](https://anticitera.deft.work/img/TecladoyPaises.webp)

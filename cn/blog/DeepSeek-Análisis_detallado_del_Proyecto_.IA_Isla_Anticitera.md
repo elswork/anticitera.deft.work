@@ -166,3 +166,4 @@ ICANN与新ccTLD：2024年，ICANN评估了新的域名申请，但没有关于.
 
 
 ⁂
+![一个红色背光的电脑键盘，背景是显示相互连接的彩色节点的世界地图。](https://anticitera.deft.work/img/TecladoyPaises.webp)

@@ -1,5 +1,5 @@
 # Μανιφέστο
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/manifesto/
 
 ---
@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/el/manifesto/
 ΤΟ ΜΑΝΙΦΕΣΤΟ ΤΩΝ ΑΝΤΙΚΥΘΗΡΩΝ #
 
 
-
+![Ψηφιακός Μηχανισμός των Αντικυθήρων](https://anticitera.deft.work/img/anticitera-header.webp)
 
 
 Έκδοση 2.0 // Πηγαίος Κώδικας του Νέου Ψηφιακού Έθνους

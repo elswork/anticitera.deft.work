@@ -182,3 +182,4 @@ The success of the project would fundamentally depend on its ability to obtain t
 
 
 ⁂
+![A red backlit computer keyboard, with a world map in the background showing interconnected colored nodes.](https://anticitera.deft.work/img/TecladoyPaises.webp)

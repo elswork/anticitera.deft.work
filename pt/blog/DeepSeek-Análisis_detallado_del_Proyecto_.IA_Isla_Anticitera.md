@@ -166,3 +166,4 @@ Gostaria de aprofundar em algum aspecto específico, como as etapas legais ou op
 
 
 ⁂
+![A red backlit computer keyboard, with a world map in the background showing interconnected colored nodes.](https://anticitera.deft.work/img/TecladoyPaises.webp)

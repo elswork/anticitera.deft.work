@@ -38,3 +38,7 @@ This "meta-reflection" prompts us to refine our ideas and confirms that we are o
 
 
 Thank you for continuing to be part of this adventure.
+
+
+
+  ![A representation of the Antikythera mechanism, crossed by thin threads of circuits, floating over the sea off the island of Antikythera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

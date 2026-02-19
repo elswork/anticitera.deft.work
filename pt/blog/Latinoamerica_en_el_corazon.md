@@ -23,3 +23,6 @@ Hoje quero corrigir o erro de não ter dito isso antes e, ao mesmo tempo, abrir 
 
 
 Esta é uma jornada que honra o passado na ilha grega que lhe dá nome, mas que olha para o futuro com a força transformadora de todos nós que acreditamos que a inteligência artificial pode e deve ser uma ferramenta para o bem comum. E nesse futuro, a América Latina está no coração do projeto.
+
+
+![Uma representação do mecanismo de Anticítera ao lado de um mapa da América do Sul, simbolizando a união do projeto com a América Latina.](https://anticitera.deft.work/img/LATAM.webp)

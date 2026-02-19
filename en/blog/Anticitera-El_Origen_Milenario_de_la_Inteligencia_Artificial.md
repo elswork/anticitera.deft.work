@@ -83,3 +83,6 @@ If more than 2,000 years ago the Greeks built a machine capable of modeling the 
 
 
 🚀 Could the .ia domain be a tribute to this legacy?
+
+
+![Illustration of an ancient Greek galley sailing in a stormy sea](https://anticitera.deft.work/img/Gemini_Galera.webp)

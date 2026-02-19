@@ -46,3 +46,7 @@ Verbreitung und Promotion: Hilf dabei, die Idee zu verbreiten, indem du sie in s
 
 
 Projekt .IA Antikythera-Insel
+
+
+
+  ![Eine rot beleuchtete Computertastatur mit einer Weltkarte im Hintergrund, die miteinander verbundene farbige Knotenpunkte zeigt.](https://anticitera.deft.work/img/TecladoyPaises.webp)

@@ -80,3 +80,6 @@ Nate Gentile @NateGentile7
 
 
 Proyecto .IA Isla Anticitera
+
+
+![一个背光电脑键盘，背景是由零和一组成的二进制代码世界地图。](https://anticitera.deft.work/img/BitLifeMedia.webp)

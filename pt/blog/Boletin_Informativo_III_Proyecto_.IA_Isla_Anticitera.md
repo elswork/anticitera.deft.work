@@ -49,3 +49,7 @@ Proposta à comunidade #
 
 
 Gostaria de fazer um brainstorming com vocês para continuar a promover o projeto, já que praticamente queimei todos os meus cartuchos e preciso de ideias novas, por favor, enviem-me as vossas ideias e/ou sugestões, respondendo diretamente a este e-mail ou no nosso canal do Telegram
+
+
+
+  ![Um teclado de computador retroiluminado em vermelho, com um mapa-múndi ao fundo mostrando nós coloridos interconectados.](https://anticitera.deft.work/img/TecladoyPaises.webp)

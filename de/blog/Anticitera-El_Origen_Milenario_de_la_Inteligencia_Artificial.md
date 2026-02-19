@@ -83,3 +83,6 @@ Wenn die Griechen vor mehr als 2.000 Jahren eine Maschine bauten, die in der Lag
 
 
 🚀 Könnte die .ia-Domain eine Hommage an dieses Erbe sein?
+
+
+![Illustration einer antiken griechischen Galeere, die in einem stürmischen Meer segelt](https://anticitera.deft.work/img/Gemini_Galera.webp)

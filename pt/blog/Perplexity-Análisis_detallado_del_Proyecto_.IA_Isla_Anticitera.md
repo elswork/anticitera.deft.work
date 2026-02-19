@@ -182,3 +182,4 @@ O sucesso do projeto dependeria fundamentalmente da sua capacidade de obter o ap
 
 
 ⁂
+![Um teclado de computador retroiluminado em vermelho, com um mapa-múndi ao fundo mostrando nós coloridos interconectados.](https://anticitera.deft.work/img/TecladoyPaises.webp)

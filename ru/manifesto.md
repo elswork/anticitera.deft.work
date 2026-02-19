@@ -1,5 +1,5 @@
 # Манифест
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/manifesto/
 
 ---
@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/ru/manifesto/
 МАНИФЕСТ АНТИКИТЕРЫ #
 
 
-
+![Цифровой Механизм Антикитеры](https://anticitera.deft.work/img/anticitera-header.webp)
 
 
 Версия 2.0 // Исходный Код Новой Цифровой Нации

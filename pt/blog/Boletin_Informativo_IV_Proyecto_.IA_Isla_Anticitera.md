@@ -38,3 +38,7 @@ Essa "meta-reflexão" nos leva a refinar nossas ideias e confirma que estamos no
 
 
 Obrigado por continuar fazendo parte desta aventura.
+
+
+
+  ![Uma representação do mecanismo de Antikythera, atravessado por finos fios de circuitos, flutuando sobre o mar da ilha de Antikythera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

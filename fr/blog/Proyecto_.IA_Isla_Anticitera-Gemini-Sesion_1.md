@@ -788,3 +788,6 @@ En résumé, Archimède verrait probablement dans le projet un exemple de l'ing�
 
 
 Souhaitez-vous explorer plus en profondeur l'une de ces idées ? Par exemple, nous pourrions analyser comment les principes du levier, si étudiés par Archimède, sont liés aux algorithmes d'apprentissage automatique. Ou nous pourrions discuter des implications philosophiques de la création de machines intelligentes capables d'apprendre et d'évoluer.
+
+
+![IA Anticythère](https://anticitera.deft.work/img/AnticiteraIAsliced.webp)

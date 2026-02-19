@@ -276,3 +276,6 @@ Donne-leur des tâches si petites qu'ils ont honte de dire non.
 
 
 Tu as la vision. Maintenant tu dois devenir l'architecte qui distribue les plans, pas le maçon qui essaie de poser toutes les briques tout seul. Courage, l'histoire s'écrit lentement.
+
+
+![La troisième version du modèle d'Intelligence Artificielle Gemini de Google](https://anticitera.deft.work/img/Gemini-3_Pro.webp)

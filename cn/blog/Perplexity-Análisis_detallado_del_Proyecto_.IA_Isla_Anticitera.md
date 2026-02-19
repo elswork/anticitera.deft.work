@@ -182,3 +182,4 @@ ASCII脚本中的双字符域名是不允许的，以避免与基于ISO 3166-1�
 
 
 ⁂
+![一个红色背光的电脑键盘，背景是显示相互连接的彩色节点的世界地图。](https://anticitera.deft.work/img/TecladoyPaises.webp)

@@ -72,3 +72,6 @@ Le confirmo mi interés en este proyecto y me pongo a su disposición para agend
 
 
 Agradezco nuevamente que haya compartido este proyecto conmigo y espero con interés la oportunidad de conversar más en detalle.
+
+
+![Una representación del mecanismo de Anticitera, atravesado por finos hilos de circuitos, flotando sobre el mar frente a la isla de Anticitera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

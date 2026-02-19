@@ -67,7 +67,7 @@ URL: https://anticitera.deft.work/ru/blog/Llamamiento_Soberania_Digital/
 (Примечание: Требуется регистрация в системе ЕС. Если вы соответствуете искомому профилю, вы уже знаете, как она работает).
 
 
-
+![Европейский комитет цифрового суверенитета](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 Прямой контакт #

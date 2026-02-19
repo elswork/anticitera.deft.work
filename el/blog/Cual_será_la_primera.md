@@ -65,3 +65,7 @@ URL: https://anticitera.deft.work/el/blog/Cual_será_la_primera/
 
 
 Μπαίνοντας στην αίθουσα συζητήσεων του Telegram
+
+
+
+![Μια απεικόνιση ενός πλοίου στη μέση μιας καταιγίδας με κεραυνούς μπροστά από το νησί των Αντικυθήρων](https://anticitera.deft.work/img/PecioAnticitera.webp)

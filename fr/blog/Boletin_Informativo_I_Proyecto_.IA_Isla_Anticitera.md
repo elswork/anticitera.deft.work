@@ -80,3 +80,6 @@ Diffusion et Promotion : Aidez à diffuser l'idée en la partageant sur les rés
 
 
 Projet .IA Île d'Anticythère
+
+
+![Un clavier d'ordinateur rétroéclairé, et en arrière-plan une carte du monde formée de code binaire de zéros et de uns.](https://anticitera.deft.work/img/BitLifeMedia.webp)

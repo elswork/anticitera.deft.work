@@ -72,3 +72,6 @@ Ti confermo il mio interesse per questo progetto e mi metto a tua disposizione p
 
 
 Ti ringrazio nuovamente per aver condiviso questo progetto con me e attendo con interesse l'opportunità di conversare più in dettaglio.
+
+
+![Una rappresentazione del meccanismo di Anticitera, attraversato da sottili fili di circuiti, che fluttua sul mare di fronte all'isola di Anticitera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

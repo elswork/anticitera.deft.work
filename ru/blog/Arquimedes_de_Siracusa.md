@@ -91,3 +91,6 @@ URL: https://anticitera.deft.work/ru/blog/Arquimedes_de_Siracusa/
 
 
 Вы можете найти более подробную информацию о проекте .IA Isla Anticitera и его сообществе на Proyecto Anticitera.
+
+
+![Портрет Архимеда из Сиракуз, размышляющего, с Антикитерским механизмом](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

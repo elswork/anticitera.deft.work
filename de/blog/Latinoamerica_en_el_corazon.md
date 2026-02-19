@@ -23,3 +23,6 @@ Heute möchte ich den Fehler korrigieren, es nicht früher gesagt zu haben, und 
 
 
 Dies ist eine Reise, die die Vergangenheit auf der griechischen Insel ehrt, die ihr den Namen gibt, aber die Zukunft mit der transformierenden Kraft all derer betrachtet, die glauben, dass künstliche Intelligenz ein Werkzeug für das Gemeinwohl sein kann und muss. Und in dieser Zukunft steht Lateinamerika im Herzen des Projekts.
+
+
+![Eine Darstellung des Mechanismus von Antikythera neben einer Karte Südamerikas, die die Verbindung des Projekts mit Lateinamerika symbolisiert.](https://anticitera.deft.work/img/LATAM.webp)

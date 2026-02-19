@@ -65,3 +65,7 @@ URL: https://anticitera.deft.work/ru/blog/Cual_será_la_primera/
 
 
 Присоединившись к дискуссионной комнате в Telegram
+
+
+
+![Иллюстрация корабля в центре грозы перед островом Антикитера](https://anticitera.deft.work/img/PecioAnticitera.webp)

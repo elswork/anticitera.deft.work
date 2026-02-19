@@ -38,3 +38,7 @@ URL: https://anticitera.deft.work/cn/blog/Boletin_Informativo_IV_Proyecto_.IA_Is
 
 
 感谢您继续参与这次冒险。
+
+
+
+  ![安提基特拉机械的代表，被细细的电路穿过，漂浮在安提基特拉岛前的海上。](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

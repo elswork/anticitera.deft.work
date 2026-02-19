@@ -65,3 +65,7 @@ URL: https://anticitera.deft.work/cn/blog/Cual_será_la_primera/
 
 
 进入Telegram辩论室
+
+
+
+![一艘船在安提基特拉岛前雷暴中的插图](https://anticitera.deft.work/img/PecioAnticitera.webp)

@@ -276,3 +276,6 @@ Give them tasks so small that they are embarrassed to say no.
 
 
 You have the vision. Now you have to become the architect who hands out the blueprints, not the bricklayer who tries to lay all the bricks alone. Cheer up, history is written slowly.
+
+
+![The third version of Google's Gemini Artificial Intelligence model](https://anticitera.deft.work/img/Gemini-3_Pro.webp)

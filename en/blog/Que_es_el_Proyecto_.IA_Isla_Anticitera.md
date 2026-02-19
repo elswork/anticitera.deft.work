@@ -60,3 +60,7 @@ By subscribing to the newsletter to stay informed of progress.
 
 
 By joining the Telegram discussion room
+
+
+
+![IA Antikythera](https://anticitera.deft.work/img/AnticiteraIAwhatis.webp)

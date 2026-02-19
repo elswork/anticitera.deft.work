@@ -38,3 +38,7 @@ Diese "Meta-Reflexion" motiviert uns, unsere Ideen zu verfeinern und bestätigt 
 
 
 Danke, dass ihr weiterhin Teil dieses Abenteuers seid.
+
+
+
+  ![Eine Darstellung des Antikythera-Mechanismus, durchzogen von feinen Schaltkreisdrähten, schwebend über dem Meer vor der Insel Antikythera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

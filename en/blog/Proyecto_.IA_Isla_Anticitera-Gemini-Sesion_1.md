@@ -788,3 +788,6 @@ In summary, Archimedes would probably see in the project a sample of human ingen
 
 
 Would you like to explore any of these ideas further? For example, we could analyze how the principles of the lever, so studied by Archimedes, are related to machine learning algorithms. Or we could discuss the philosophical implications of creating intelligent machines capable of learning and evolving.
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAsliced.webp)

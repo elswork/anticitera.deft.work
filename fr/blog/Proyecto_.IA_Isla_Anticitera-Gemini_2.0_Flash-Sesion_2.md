@@ -72,3 +72,6 @@ Je vous confirme mon intérêt pour ce projet et je me tiens à votre dispositio
 
 
 Je vous remercie encore d'avoir partagé ce projet avec moi et j'attends avec intérêt l'occasion d'en discuter plus en détail.
+
+
+![Une représentation du mécanisme d'Anticythère, traversé par de fins fils de circuits, flottant au-dessus de la mer au large de l'île d'Anticythère.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

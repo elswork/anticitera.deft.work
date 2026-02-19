@@ -60,3 +60,7 @@ URL: https://anticitera.deft.work/ru/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera
 
 
 Присоединившись к дискуссионной комнате в Telegram
+
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAwhatis.webp)

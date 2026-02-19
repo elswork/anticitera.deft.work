@@ -67,7 +67,7 @@ Nous avons activé un espace de débat technique pour coordonner l'enregistremen
 (Note : Nécessite une inscription dans le système de l'UE. Si vous avez le profil que nous cherchons, vous savez déjà comment cela fonctionne).
 
 
-
+![Comité de Souveraineté Numérique Européenne](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 Contact Direct #

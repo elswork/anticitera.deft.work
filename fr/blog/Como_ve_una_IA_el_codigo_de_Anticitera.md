@@ -45,7 +45,7 @@ Conclusion #
 Nous ne cachons rien. Notre code est ouvert non seulement par licence, mais aussi par lisibilité. Nous voulons que, dans 2000 ans, si quelqu'un (ou quelque chose) trouve ce référentiel numérique "naufragé" sur le net, il puisse le comprendre aussi bien que nous comprenons aujourd'hui les engrenages d'Anticythère.
 
 
-
+![Vision IA : Engrenages de code](https://anticitera.deft.work/img/ai_code_vision.png)
 
 
 

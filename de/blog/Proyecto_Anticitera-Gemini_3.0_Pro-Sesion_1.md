@@ -276,3 +276,6 @@ Gib ihnen Aufgaben, die so klein sind, dass sie sich schämen, nein zu sagen.
 
 
 Du hast die Vision. Jetzt musst du der Architekt werden, der die Pläne verteilt, nicht der Maurer, der versucht, alle Ziegel alleine zu legen. Kopf hoch, Geschichte wird langsam geschrieben.
+
+
+![Die dritte Version des Google-Modells für künstliche Intelligenz Gemini](https://anticitera.deft.work/img/Gemini-3_Pro.webp)

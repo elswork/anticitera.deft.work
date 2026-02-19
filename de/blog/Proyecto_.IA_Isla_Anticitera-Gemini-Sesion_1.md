@@ -788,3 +788,6 @@ Zusammenfassend würde Archimedes das Projekt wahrscheinlich als ein Beispiel f�
 
 
 Möchten Sie eine dieser Ideen weiter vertiefen? Zum Beispiel könnten wir analysieren, wie die von Archimedes so intensiv untersuchten Hebelprinzipien mit den Algorithmen des maschinellen Lernens zusammenhängen. Oder wir könnten über die philosophischen Implikationen der Schaffung intelligenter Maschinen diskutieren, die lernen und sich weiterentwickeln können.
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAsliced.webp)

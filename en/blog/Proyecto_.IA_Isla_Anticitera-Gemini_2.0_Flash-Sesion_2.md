@@ -72,3 +72,6 @@ I confirm my interest in this project and I am at your disposal to schedule a co
 
 
 I thank you again for sharing this project with me and I look forward to the opportunity to discuss it in more detail.
+
+
+![A representation of the Antikythera mechanism, crossed by thin threads of circuits, floating over the sea off the island of Antikythera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

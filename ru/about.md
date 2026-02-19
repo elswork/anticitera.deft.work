@@ -1,5 +1,5 @@
 # Проект .IA Остров Антикитера
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/about/
 
 ---
@@ -166,7 +166,7 @@ Entrevista Hack by Security
 Другие способы финансирования:
 
 
-  #
+![GitHub Sponsors](https://img.shields.io/github/sponsors/elswork) ![Пожертвовать PayPal](https://img.shields.io/badge/%D0%9F%D0%BE%D0%B6%D0%B5%D1%80%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-PayPal-green.svg) #
 
 
 Пожертвовать с помощью Bitcoin (BTC):

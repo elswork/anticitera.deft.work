@@ -60,3 +60,7 @@ Iscrivendoti alla newsletter per rimanere informato sui progressi.
 
 
 Entrando nella sala di discussione di Telegram
+
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAwhatis.webp)

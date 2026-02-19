@@ -23,3 +23,6 @@ Hoy quiero enmendar el error de no haberlo dicho antes y, al mismo tempo, abrir 
 
 
 Este es un viaje que honra el pasado en la isla griega que le da nombre, pero que mira al futuro con la fuerza transformadora de todos los que creemos que la inteligencia artificial puede y debe ser una herramienta para el bien común. Y en ese futuro, l'America Latina está en el corazón del proyecto.
+
+
+![Una representación del mecanismo de Anticitera junto a un mapa de Sudamérica, simbolizando la unión del proyecto con Latinoamérica.](https://anticitera.deft.work/img/LATAM.webp)

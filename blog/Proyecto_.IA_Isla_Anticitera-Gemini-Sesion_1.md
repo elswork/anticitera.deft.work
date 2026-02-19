@@ -788,3 +788,6 @@ En resumen, Arquímedes probablemente vería en el proyecto una muestra del inge
 
 
 ¿Te gustaría explorar más a fondo alguna de estas ideas? Por ejemplo, podríamos analizar cómo los principios de la palanca, tan estudiados por Arquímedes, se relacionan con los algoritmos de aprendizaje automático. O podríamos discutir sobre las implicaciones filosóficas de crear máquinas inteligentes capaces de aprender y evolucionar.
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAsliced.webp)

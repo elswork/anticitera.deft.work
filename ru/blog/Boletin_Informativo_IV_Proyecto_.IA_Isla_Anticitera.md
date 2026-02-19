@@ -38,3 +38,7 @@ URL: https://anticitera.deft.work/ru/blog/Boletin_Informativo_IV_Proyecto_.IA_Is
 
 
 Спасибо, что продолжаете быть частью этого приключения.
+
+
+
+  ![Изображение Антикитерского механизма, пронизанного тонкими нитями схем, парящего над морем у острова Антикитера.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

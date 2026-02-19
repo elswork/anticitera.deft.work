@@ -38,3 +38,7 @@ Cette « méta-réflexion » nous pousse à affiner nos idées et nous confirme 
 
 
 Merci de continuer à faire partie de cette aventure.
+
+
+
+  ![Une représentation du mécanisme d'Anticythère, traversé par de fins fils de circuits, flottant au-dessus de la mer au large de l'île d'Anticythère.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

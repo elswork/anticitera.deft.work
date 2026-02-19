@@ -83,3 +83,6 @@ Si, il y a plus de 2 000 ans, les Grecs ont construit une machine capable de mod
 
 
 🚀 Le domaine .ia pourrait-il être un hommage à cet héritage ?
+
+
+![Illustration d'une ancienne galère grecque naviguant sur une mer orageuse](https://anticitera.deft.work/img/Gemini_Galera.webp)

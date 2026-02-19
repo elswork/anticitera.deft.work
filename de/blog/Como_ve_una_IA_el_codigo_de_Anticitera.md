@@ -45,7 +45,7 @@ Fazit #
 Wir verstecken nichts. Unser Code ist offen, nicht nur durch die Lizenz, sondern auch durch Lesbarkeit. Wir möchten, dass jemand (oder etwas), der dieses digitale Repository in 2000 Jahren als "Schiffswrack" im Netz findet, es genauso gut verstehen kann, wie wir heute die Zahnräder von Antikythera verstehen.
 
 
-
+![KI-Vision: Code-Zahnräder](https://anticitera.deft.work/img/ai_code_vision.png)
 
 
 

@@ -65,3 +65,7 @@ Subscrevendo a newsletter para se manter informado sobre o progresso.
 
 
 Juntando-se à sala de discussão no Telegram
+
+
+
+![Uma ilustração de um navio no meio de uma tempestade ao largo da ilha de Anticítera](https://anticitera.deft.work/img/PecioAnticitera.webp)

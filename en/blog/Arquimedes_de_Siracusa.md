@@ -91,3 +91,6 @@ Promoting critical thinking: The ancient Greeks, like Archimedes, focused on fin
 
 
 You can find more details about the .IA Antikythera Island Project and its community at Antikythera Project.
+
+
+![Portrait of Archimedes of Syracuse reflecting, with the Antikythera mechanism](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

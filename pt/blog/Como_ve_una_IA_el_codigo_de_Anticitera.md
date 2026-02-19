@@ -45,7 +45,7 @@ Conclusão #
 Não escondemos nada. Nosso código é aberto não apenas por licença, mas por legibilidade. Queremos que, daqui a 2000 anos, se alguém (ou algo) encontrar este repositório digital "naufragado" na rede, possa entendê-lo tão bem quanto nós entendemos hoje as engrenagens de Anticitera.
 
 
-
+![Visão da IA: Engrenagens de código](https://anticitera.deft.work/img/ai_code_vision.png)
 
 
 

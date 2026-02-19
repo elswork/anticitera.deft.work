@@ -65,3 +65,7 @@ Iscrivendoti alla newsletter per rimanere informato sui progressi.
 
 
 Entrando nella sala di discussione di Telegram
+
+
+
+![Un'illustrazione di una nave in mezzo a una tempesta di fulmini di fronte all'isola di Anticitera](https://anticitera.deft.work/img/PecioAnticitera.webp)

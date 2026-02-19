@@ -394,3 +394,7 @@ Free Domain Name Ideas Tool - Get Instant Ideas for 2025 - GravityWrite, data di
 
 
 Project Proposal for a New World Information Architecture Website | by Andrea Rosenbusch, data di accesso: marzo 24, 2025, https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb
+
+
+
+![Una tastiera di un computer retroilluminata in rosso, con una mappa del mondo sullo sfondo che mostra nodi colorati interconnessi.](https://anticitera.deft.work/img/TecladoyPaises.webp)

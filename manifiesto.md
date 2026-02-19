@@ -1,5 +1,5 @@
 # Manifiesto
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/manifiesto/
 
 ---
@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/manifiesto/
 EL MANIFIESTO DE ANTICITERA #
 
 
-
+![Mecanismo de Anticitera Digital](https://anticitera.deft.work/img/anticitera-header.webp)
 
 
 Versión 2.0 // Código Fuente de la Nueva Nación Digital

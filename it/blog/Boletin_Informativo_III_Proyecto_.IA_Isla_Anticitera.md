@@ -49,3 +49,7 @@ Proposta alla comunità #
 
 
 Mi piacerebbe fare con voi un brainstorming per continuare a promuovere il progetto, dato che ho praticamente esaurito tutte le mie cartucce e ho bisogno di idee fresche. Per favore, fatemi avere le vostre idee e/o suggerimenti, rispondendo direttamente a questa email o sul nostro canale Telegram
+
+
+
+  ![Una tastiera di un computer retroilluminata in rosso, con una mappa del mondo sullo sfondo che mostra nodi colorati interconnessi.](https://anticitera.deft.work/img/TecladoyPaises.webp)

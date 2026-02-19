@@ -46,3 +46,7 @@ Divulgação e Promoção: Ajude a divulgar a ideia partilhando-a nas redes soci
 
 
 Projeto Ilha Antikythera .IA
+
+
+
+  ![Um teclado de computador retroiluminado a vermelho, com um mapa-múndi ao fundo mostrando nós coloridos interligados.](https://anticitera.deft.work/img/TecladoyPaises.webp)

@@ -23,3 +23,6 @@ URL: https://anticitera.deft.work/cn/blog/Latinoamerica_en_el_corazon/
 
 
 这是一次致敬以其命名的希腊岛屿的过去的旅程，但它以所有相信人工智能可以而且应该成为共同利益工具的人的变革力量展望未来。在那个未来，拉丁美洲在项目的核心。
+
+
+![安提基特拉机械与南美洲地图的并列图，象征着该项目与拉丁美洲的联合。](https://anticitera.deft.work/img/LATAM.webp)

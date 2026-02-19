@@ -91,3 +91,6 @@ URL: https://anticitera.deft.work/el/blog/Arquimedes_de_Siracusa/
 
 
 Μπορείτε να βρείτε περισσότερες λεπτομέρειες για το Έργο .IA Νήσος Αντικύθηρα και την κοινότητά του στο Έργο Αντικύθηρα.
+
+
+![Πορτρέτο του Αρχιμήδη των Συρακουσών να σκέφτεται, με τον μηχανισμό των Αντικυθήρων](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

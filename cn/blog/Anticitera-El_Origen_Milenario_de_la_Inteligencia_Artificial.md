@@ -83,3 +83,6 @@ URL: https://anticitera.deft.work/cn/blog/Anticitera-El_Origen_Milenario_de_la_I
 
 
 🚀 .ia域名会是对这份遗产的致敬吗？
+
+
+![一艘古希腊排桨帆船在暴风雨中航行的插图](https://anticitera.deft.work/img/Gemini_Galera.webp)

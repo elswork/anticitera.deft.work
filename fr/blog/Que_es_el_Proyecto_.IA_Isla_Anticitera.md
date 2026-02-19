@@ -60,3 +60,7 @@ En vous abonnant à la newsletter pour être informé de l'avancement.
 
 
 En rejoignant le salon de discussion sur Telegram
+
+
+
+![IA Anticythère](https://anticitera.deft.work/img/AnticiteraIAwhatis.webp)

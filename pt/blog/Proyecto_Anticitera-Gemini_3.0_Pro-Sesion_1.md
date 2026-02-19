@@ -276,3 +276,6 @@ Dá-lhes tarefas tão pequenas que tenham vergonha de dizer que não.
 
 
 Tens a visão. Agora tens de te tornar o arquiteto que distribui as plantas, não o pedreiro que tenta colocar todos os tijolos sozinho. Ânimo, a história escreve-se devagar.
+
+
+![A terceira versão do modelo de Inteligência Artificial Gemini da Google](https://anticitera.deft.work/img/Gemini-3_Pro.webp)

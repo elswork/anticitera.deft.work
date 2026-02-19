@@ -60,3 +60,7 @@ URL: https://anticitera.deft.work/cn/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera
 
 
 进入Telegram辩论室
+
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAwhatis.webp)

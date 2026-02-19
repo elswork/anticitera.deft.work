@@ -67,7 +67,7 @@ Wir haben einen technischen Debattenraum eingerichtet, um die Registrierung zu k
 (Hinweis: Registrierung im EU-System erforderlich. Wenn Sie dem gesuchten Profil entsprechen, wissen Sie, wie dies funktioniert).
 
 
-
+![Ausschuss für digitale europäische Souveränität](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
 Direkter Kontakt #

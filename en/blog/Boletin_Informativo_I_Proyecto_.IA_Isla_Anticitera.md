@@ -80,3 +80,6 @@ Dissemination and Promotion: Help spread the idea by sharing it on social media 
 
 
 .IA Antikythera Island Project
+
+
+![A backlit computer keyboard, and in the background a world map made of binary code of zeros and ones.](https://anticitera.deft.work/img/BitLifeMedia.webp)

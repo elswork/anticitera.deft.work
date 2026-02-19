@@ -788,3 +788,6 @@ In sintesi, Archimede probabilmente vedrebbe nel progetto una dimostrazione dell
 
 
 Ti piacerebbe esplorare più a fondo qualcuna di queste idee? Ad esempio, potremmo analizzare come i principi della leva, così studiati da Archimede, si relazionano con gli algoritmi di apprendimento automatico. Oppure potremmo discutere le implicazioni filosofiche della creazione di macchine intelligenti capaci di imparare ed evolvere.
+
+
+![IA Anticitera](https://anticitera.deft.work/img/AnticiteraIAsliced.webp)

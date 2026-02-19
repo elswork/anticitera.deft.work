@@ -72,3 +72,6 @@ Confirmo meu interesse neste projeto e estou à sua disposição para agendarmos
 
 
 Agradeço novamente por compartilhar este projeto comigo e aguardo a oportunidade de discuti-lo em mais detalhes.
+
+
+![Uma representação do mecanismo de Antikythera, atravessado por finos fios de circuitos, flutuando sobre o mar ao largo da ilha de Antikythera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

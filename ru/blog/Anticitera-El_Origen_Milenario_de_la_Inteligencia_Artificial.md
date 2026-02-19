@@ -83,3 +83,6 @@ URL: https://anticitera.deft.work/ru/blog/Anticitera-El_Origen_Milenario_de_la_I
 
 
 🚀 Может ли домен .ia стать данью этому наследию?
+
+
+![Иллюстрация древнегреческой галеры, плывущей по бурному морю](https://anticitera.deft.work/img/Gemini_Galera.webp)

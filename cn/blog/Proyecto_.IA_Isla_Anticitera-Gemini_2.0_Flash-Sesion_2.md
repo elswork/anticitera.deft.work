@@ -72,3 +72,6 @@ Gemini: #
 
 
 再次感谢您与我分享这个项目，我期待有机会更详细地交谈。
+
+
+![安提基特拉机械的代表，被细细的电路穿过，漂浮在安提基特拉岛前的海上。](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)

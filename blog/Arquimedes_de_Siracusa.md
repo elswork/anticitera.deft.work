@@ -91,3 +91,6 @@ Promover el pensamiento crítico: Los ancestros griegos, como Arquímedes, se en
 
 
 Puede encontrar más detalles del Proyecto .IA Isla Anticitera y su comunidad en Proyecto Anticitera.
+
+
+![Retrato de Arquímedes de Siracusa reflexionando, con el mecanismo de Anticitera](https://anticitera.deft.work/img/Gemini_Arquimedes_Anticitera.webp)

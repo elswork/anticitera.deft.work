@@ -1,5 +1,5 @@
 # 宣言
-Fecha: Thu Feb 19 2026 21:44:49 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/manifesto/
 
 ---
@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/cn/manifesto/
 安提基特拉宣言 #
 
 
-
+![安提基特拉数字机制](https://anticitera.deft.work/img/anticitera-header.webp)
 
 
 版本 2.0 // 新数字国家的源代码

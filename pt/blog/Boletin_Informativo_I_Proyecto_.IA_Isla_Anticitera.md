@@ -80,3 +80,6 @@ Divulgação e Promoção: Ajude a espalhar a ideia partilhando-a nas redes soci
 
 
 Projeto Ilha Antikythera .IA
+
+
+![Um teclado de computador retroiluminado, e ao fundo um mapa-múndi feito de código binário de zeros e uns.](https://anticitera.deft.work/img/BitLifeMedia.webp)

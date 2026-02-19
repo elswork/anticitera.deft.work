@@ -49,3 +49,7 @@ Proposition à la communauté #
 
 
 J'aimerais faire un brainstorming avec vous pour continuer à promouvoir le projet, car j'ai pratiquement épuisé toutes mes cartouches et j'ai besoin d'idées neuves. S'il vous plaît, faites-moi part de vos idées et/ou suggestions, en répondant directement à cet e-mail ou sur notre canal Telegram
+
+
+
+  ![Un clavier d'ordinateur rétroéclairé en rouge, avec une carte du monde en arrière-plan montrant des nœuds colorés interconnectés.](https://anticitera.deft.work/img/TecladoyPaises.webp)
