@@ -13,6 +13,17 @@
 
 - [Contenido Completo (Markdown)](/llms-full.txt): Una consolidación de los textos clave en un solo archivo para facilitar el procesamiento RAG.
 
+## Otros Idiomas (Versiones Markdown)
+
+- [English](/en.md)
+- [Italiano](/it.md)
+- [Français](/fr.md)
+- [Português](/pt.md)
+- [Deutsch](/de.md)
+- [Ελληνικά](/el.md)
+- [中文](/cn.md)
+- [Русский](/ru.md)
+
 ## Índice de Contenidos (Español)
 
 - [Proyecto .IA Isla Anticitera - Sesion 1](/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1.md)
@@ -58,10 +69,10 @@
 - [Etiquetado “estrategia”](/tags/estrategia.md)
 - [Etiquetado “web3”](/tags/web3.md)
 - [Etiquetado “manifiesto”](/tags/manifiesto.md)
+- [Etiquetado “deepseek”](/tags/deepseek.md)
 - [Etiquetado “transparencia”](/tags/transparencia.md)
 - [Etiquetado “code wiki”](/tags/code-wiki.md)
 - [Etiquetado “desarrollo”](/tags/desarrollo.md)
-- [Etiquetado “deepseek”](/tags/deepseek.md)
 - [Etiquetado “entrevista”](/tags/entrevista.md)
 - [Etiquetado “gemini”](/tags/gemini.md)
 - [Etiquetado “grok”](/tags/grok.md)
@@ -104,9 +115,9 @@
 - [Etiquetado “latin america”](/tags/latin-america.md)
 - [Etiquetado “sovereignty”](/tags/sovereignty.md)
 - [Etiquetado “session”](/tags/session.md)
+- [Etiquetado “bulletin”](/tags/bulletin.md)
 - [Etiquetado “anticythère”](/tags/anticythere.md)
 - [Etiquetado “archimède”](/tags/archimede.md)
-- [Etiquetado “bulletin”](/tags/bulletin.md)
 - [Etiquetado “communauté”](/tags/communaute.md)
 - [Etiquetado “transparence”](/tags/transparence.md)
 - [Etiquetado “développement”](/tags/developpement.md)
@@ -130,7 +141,7 @@
 - [Etiquetado “разработка”](/tags/razrabotka.md)
 - [Etiquetado “интервью”](/tags/intervyu.md)
 - [Etiquetado “латинская америка”](/tags/latinskaya-amerika.md)
+- [Etiquetado “сессия”](/tags/sessiya.md)
 - [Etiquetado “суверенитет”](/tags/suverenitet.md)
 - [Etiquetado “европа”](/tags/evropa.md)
-- [Etiquetado “сессия”](/tags/sessiya.md)
 - [Publicación en X](/x.md)
