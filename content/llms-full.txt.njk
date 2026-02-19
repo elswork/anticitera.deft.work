@@ -17,7 +17,7 @@ Este archivo contiene la consolidación de los documentos principales del Proyec
         {%- if item.url == path -%}
 ---
 ## DOCUMENTO: {{ item.data.title }}
-URL: {{ item.url }}
+URL: https://anticitera.deft.work{% if item.url == '/' %}/index.md{% else %}{{ item.url | replace(r/\/$/, '') }}.md{% endif %}
 
 {{ item.content | striptags | safe }}
 
@@ -31,7 +31,7 @@ URL: {{ item.url }}
 ---
 ### POST: {{ post.data.title }}
 Fecha: {{ post.date | date }}
-URL: {{ post.url }}
+URL: https://anticitera.deft.work{{ post.url | replace(r/\/$/, '') }}.md
 
 {{ post.content | striptags | safe }}
 

@@ -8,10 +8,10 @@ eleventyExcludeFromCollections: true
 
 ## Secciones Principales
 
-- [Manifiesto](/es/manifiesto/): El núcleo ideológico del proyecto.
-- [Dossier de Presentación](/es/about/): Historia y propósito.
-- [Ciudadanía Digital](/es/ciudadania/): Derechos y deberes en la Nación de Nodos.
-- [Blog](/es/blog/): Actualizaciones y reflexiones sobre la Alianza Algorítmica.
+- [Manifiesto](/es/manifiesto.md): El núcleo ideológico del proyecto.
+- [Dossier de Presentación](/es/about.md): Historia y propósito.
+- [Ciudadanía Digital](/es/ciudadania.md): Derechos y deberes en la Nación de Nodos.
+- [Blog](/es/blog.md): Actualizaciones y reflexiones sobre la Alianza Algorítmica.
 
 ## Recursos para Agentes
 
@@ -21,6 +21,6 @@ eleventyExcludeFromCollections: true
 
 {% for item in collections.all -%}
 {%- if item.url and not item.data.eleventyExcludeFromCollections and (item.data.lang == 'es' or not item.data.lang) -%}
-- [{{ item.data.title or item.fileSlug }}]({{ item.url }})
+- [{{ item.data.title or item.fileSlug }}]({% if item.url == '/' %}/index.md{% else %}{{ item.url | replace(r/\/$/, '') }}.md{% endif %})
 {% endif -%}
 {%- endfor -%}

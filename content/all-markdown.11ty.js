@@ -38,8 +38,18 @@ class AllMarkdown {
         const title = item.data.title || item.fileSlug;
         const content = item.content || "";
 
-        // Simple text extraction using Cheerio
+        // Simple text extraction and image conversion using Cheerio
         const $ = cheerio.load(content);
+
+        // Convert <img> tags to Markdown syntax
+        $('img').each((i, el) => {
+            const alt = $(el).attr('alt') || '';
+            let src = $(el).attr('src') || '';
+            if (src && !src.startsWith('http')) {
+                src = `https://anticitera.deft.work${src.startsWith('/') ? '' : '/'}${src}`;
+            }
+            $(el).replaceWith(`![${alt}](${src})`);
+        });
 
         // To preserve some spacing between paragraphs, we can process blocks
         $('h1, h2, h3, h4, h5, h6, p, li, blockquote').append('\n\n');
