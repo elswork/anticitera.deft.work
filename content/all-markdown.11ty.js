@@ -51,6 +51,30 @@ class AllMarkdown {
             $(el).replaceWith(`![${alt}](${src})`);
         });
 
+        // Convert <a> tags to Markdown links
+        $('a').each((i, el) => {
+            const text = $(el).text().trim();
+            let href = $(el).attr('href') || '';
+
+            if (href && !href.startsWith('http') && !href.startsWith('#')) {
+                // Internal link: convert to .md version
+                if (href === '/') {
+                    href = 'https://anticitera.deft.work/index.md';
+                } else {
+                    href = `https://anticitera.deft.work${href.replace(/\/$/, "")}.md`;
+                }
+            }
+
+            if (text && href) {
+                $(el).replaceWith(`[${text}](${href})`);
+            }
+        });
+
+        // Handle lists
+        $('li').each((i, el) => {
+            $(el).prepend('* ');
+        });
+
         // To preserve some spacing between paragraphs, we can process blocks
         $('h1, h2, h3, h4, h5, h6, p, li, blockquote').append('\n\n');
         const textContent = $.text().trim();
