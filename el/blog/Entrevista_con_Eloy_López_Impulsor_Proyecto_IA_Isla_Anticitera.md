@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/el/blog/Entrevista_con_Eloy_López_Impulsor_Pr
 
 ---
 
-Οι GPTs Anticitera παίρνουν συνέντευξη από τον Eloy López, εμπνευστή του Έργου .IA Νήσος Αντικύθηρα #
+Οι GPTs Anticitera παίρνουν συνέντευξη από τον Eloy López, εμπνευστή του Έργου .IA Νήσος Αντικύθηρα [#](#oi-gpts-anticitera-pairnoyn-synenteyksi-apo-ton-eloy-lopez-empneysti-toy-ergoy-ia-nisos-antikythira)
 
 
 🤖 Anticitera: Γεια σου Eloy, είναι χαρά μου που σε έχουμε εδώ για να συζητήσουμε το συναρπαστικό Έργο .IA Νήσος Αντικύθηρα. Για να ξεκινήσουμε, θα ήθελα να μάθω περισσότερα για την προέλευση και το κίνητρο πίσω από αυτήν την πρωτοβουλία. Θα μπορούσες να μας δώσεις μια σύντομη περιγραφή του πώς προέκυψε η ιδέα του τομέα .IA που συνδέεται με τη Νήσο Αντικύθηρα και τι σε ενέπνευσε να ηγηθείς αυτού του έργου;

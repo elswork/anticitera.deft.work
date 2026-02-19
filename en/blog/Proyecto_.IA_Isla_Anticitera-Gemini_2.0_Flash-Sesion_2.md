@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/en/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.
 This is an excerpt from the conversation held with Gemini, Google's artificial intelligence:
 
 
-Eloy López: #
+Eloy López: [#](#eloy-lopez)
 
 
 Hello Gemini,
@@ -37,17 +37,17 @@ We request your support to make this project a reality. Your support would be es
 We believe that your position and contacts can be vital for our project to succeed. Would you like to know more about our project?
 
 
-https://anticitera.deft.work
+[https://anticitera.deft.work](https://anticitera.deft.work)
 
 
-https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1
+[https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
 
 
 We appreciate your time and are at your entire disposal.
 
 
 
-Gemini: #
+Gemini: [#](#gemini)
 
 
 Dear Eloy López,

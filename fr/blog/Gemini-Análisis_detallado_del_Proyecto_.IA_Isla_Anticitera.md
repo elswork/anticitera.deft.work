@@ -4,10 +4,10 @@ URL: https://anticitera.deft.work/fr/blog/Gemini-Análisis_detallado_del_Proyect
 
 ---
 
-Faisons une analyse exhaustive avec Gemini Deep Research du site web https://anticitera.deft.work
+Faisons une analyse exhaustive avec Gemini Deep Research du site web [https://anticitera.deft.work](https://anticitera.deft.workanticitera.deft.work.md)
 
 
-Le Projet Anticythère : Unir l'Ingénierie Antique et l'Avenir de l'Intelligence Artificielle #
+Le Projet Anticythère : Unir l'Ingénierie Antique et l'Avenir de l'Intelligence Artificielle [#](#le-projet-anticythere-unir-l-ingenierie-antique-et-l-avenir-de-l-intelligence-artificielle)
 
 
 Le projet Anticythère se présente comme une initiative innovante dont l'objectif central est d'établir un nouveau domaine de premier niveau de code pays (ccTLD) « .IA » associé au territoire de l'île d'Anticythère 1. Cette entreprise s'inspire du mécanisme d'Anticythère, considéré comme le premier ordinateur analogique de l'histoire, s'érigeant en symbole des débuts de l'intelligence artificielle et de l'innovation technologique 1. L'importance de cet artefact ancien, découvert dans les profondeurs marines près de l'île grecque, réside dans sa sophistication et sa capacité à calculer des phénomènes astronomiques, ce qui remet en question notre compréhension des capacités technologiques du monde antique 2. Le projet Anticythère cherche à capitaliser sur ce riche héritage, en proposant que l'île, berceau de ce prodige mécanique, soit reconnue dans l'espace numérique à travers un domaine qui évoque les origines de l'informatique et de l'intelligence 1.
@@ -22,7 +22,7 @@ Un aspect fondamental de la proposition du projet Anticythère est l'intention d
 Pour soutenir cette initiative, le projet Anticythère a développé l'Assistant Anticythère par OpenAI 1. Cet outil est présenté comme une ressource précieuse pour la création de projets technologiques liés au domaine « .IA », démontrant une approche proactive pour encourager l'utilité et l'adoption du nouveau domaine 1. L'existence de cet assistant, ainsi que la vision de construire une communauté active, suggère que le projet ne se limite pas à la demande d'un domaine, mais cherche activement à construire une infrastructure de soutien pour son utilisation et sa croissance. Le présent rapport analysera en détail les différents aspects du projet Anticythère, de son inspiration historique à ses objectifs actuels et à son impact potentiel futur.
 
 
-Dévoiler la Vision : But et Objectifs de l'Initiative du Domaine .IA #
+Dévoiler la Vision : But et Objectifs de l'Initiative du Domaine .IA [#](#devoiler-la-vision-but-et-objectifs-de-l-initiative-du-domaine-ia)
 
 
 Le but principal du projet Anticythère est la création de « .IA » en tant que nouveau domaine de premier niveau de code pays (ccTLD) spécifiquement pour l'île d'Anticythère 1. Cette initiative est fondée sur la reconnaissance de la profonde signification historique de l'île en ce qui concerne les origines de l'intelligence artificielle et de l'innovation technologique 1. Le choix d'Anticythère n'est pas fortuit ; l'île est célèbre pour la découverte du mécanisme d'Anticythère, un artefact de plus de deux mille ans considéré comme le premier ordinateur analogique de l'humanité 14. Ce lien historique et symbolique est le pilier sur lequel se construit la proposition du domaine « .IA », cherchant à établir une connexion entre l'ingénierie informatique du passé et le développement de l'intelligence artificielle dans le présent et le futur 1. L'initiative vise à ce que ce ccTLD ne soit pas seulement une adresse sur Internet, mais un symbole de la capacité humaine durable à l'innovation dans le domaine de l'informatique.
@@ -37,10 +37,10 @@ L'une des motivations centrales de la proposition du domaine « .IA » est l'int
 Comme une étape concrète vers la réalisation de sa vision, le projet Anticythère a développé l'Assistant Anticythère par OpenAI 1. Cet outil d'intelligence artificielle est spécifiquement conçu pour aider à la création de projets technologiques liés au domaine « .IA » 1. L'existence de cet assistant fournit non seulement une ressource pratique pour les futurs utilisateurs du domaine « .IA », mais souligne également l'engagement du projet en faveur de l'innovation et de la promotion d'une communauté active autour de sa proposition 1. En offrant un outil qui facilite le développement de projets au sein de l'écosystème « .IA », le projet Anticythère cherche à encourager l'adoption du nouveau domaine et à construire un environnement en ligne où l'intelligence artificielle peut s'épanouir dans un contexte multilingue et culturellement riche.
 
 
-Déconstruire la Présence Numérique : Analyse du Site Web (UI/UX, Caractéristiques et Fonctionnalités) #
+Déconstruire la Présence Numérique : Analyse du Site Web (UI/UX, Caractéristiques et Fonctionnalités) [#](#deconstruire-la-presence-numerique-analyse-du-site-web-ui-ux-caracteristiques-et-fonctionnalites)
 
 
-Le site web du projet .IA Île d'Anticythère (https://Anticitera.deft.work) présente un design épuré et direct sur sa page d'accueil 1. La navigation principale est clairement visible en haut, offrant un accès aux sections « Accueil », « Blog », « Projet », « Liens », « Podcasts » et « X » 1. L'inclusion d'un lien « Passer au contenu principal » est une pratique positive qui améliore l'accessibilité pour les utilisateurs qui utilisent des lecteurs d'écran 1. Immédiatement sous l'introduction principale, les trois dernières publications du blog sont affichées, facilitant la découverte de contenu récent 1. Cependant, aucune fonctionnalité de recherche n'est immédiatement visible, ce qui pourrait légèrement entraver l'utilisabilité pour les utilisateurs qui recherchent rapidement des informations spécifiques 1. Dans le pied de page, on trouve des icônes qui renvoient aux réseaux sociaux, ce qui contribue à l'attrait visuel et facilite la reconnaissance de ces liens 1.
+Le site web du projet .IA Île d'Anticythère ([https://Anticitera.deft.work](https://anticitera.deft.work)) présente un design épuré et direct sur sa page d'accueil 1. La navigation principale est clairement visible en haut, offrant un accès aux sections « Accueil », « Blog », « Projet », « Liens », « Podcasts » et « X » 1. L'inclusion d'un lien « Passer au contenu principal » est une pratique positive qui améliore l'accessibilité pour les utilisateurs qui utilisent des lecteurs d'écran 1. Immédiatement sous l'introduction principale, les trois dernières publications du blog sont affichées, facilitant la découverte de contenu récent 1. Cependant, aucune fonctionnalité de recherche n'est immédiatement visible, ce qui pourrait légèrement entraver l'utilisabilité pour les utilisateurs qui recherchent rapidement des informations spécifiques 1. Dans le pied de page, on trouve des icônes qui renvoient aux réseaux sociaux, ce qui contribue à l'attrait visuel et facilite la reconnaissance de ces liens 1.
 
 
 La section blog du projet Anticythère présente une liste de publications classées par ordre chronologique inverse, affichant d'abord les plus récentes 20. Chaque entrée comprend le titre de la publication ainsi que le mois et l'année de sa publication 20. L'utilisabilité de cette section est simple, car le format de liste permet de parcourir facilement les articles disponibles. Les titres sont clairs, ce qui aide les utilisateurs à comprendre rapidement le sujet de chaque publication, et les dates fournies permettent d'identifier le contenu récent 20. L'attrait visuel de la section blog est minimaliste, consistant en une simple liste de liens 20. Bien qu'il soit épuré et fonctionnel, il manque d'éléments visuels qui pourraient le rendre plus attrayant. L'inclusion de « .IA Île d'Anticythère © 2025 » en bas de page fournit une indication claire de l'origine du blog et de l'année en cours 20. Néanmoins, des domaines d'amélioration potentiels sont identifiés, tels que l'ajout d'images miniatures ou d'extraits pour chaque publication, ce qui pourrait améliorer l'attrait visuel et fournir plus de contexte aux utilisateurs avant de cliquer sur un titre. La mise en œuvre d'un système de catégories ou d'étiquettes permettrait aux utilisateurs de filtrer et de trouver du contenu pertinent en fonction de leurs intérêts spécifiques dans le thème général du projet .IA Île d'Anticythère. L'inclusion d'une fonctionnalité de recherche dans la section blog améliorerait considérablement l'utilisabilité pour les utilisateurs qui recherchent des informations spécifiques. Bien que le mois et l'année soient fournis, l'inclusion du jour de la publication pourrait être bénéfique pour les utilisateurs qui ont besoin d'informations plus précises sur l'actualité d'une publication. Enfin, l'utilisation de titres ou d'autres signaux visuels pour mieux séparer les publications du blog pourrait améliorer la lisibilité 20.
@@ -141,7 +141,7 @@ Accessibilité
 
 
 
-La Fondation Technologique : Comprendre la Création d'un Nouveau ccTLD #
+La Fondation Technologique : Comprendre la Création d'un Nouveau ccTLD [#](#la-fondation-technologique-comprendre-la-creation-d-un-nouveau-cctld)
 
 
 La technologie fondamentale derrière le projet Anticythère, au-delà de l'infrastructure du site web, réside dans le processus d'établissement d'un nouveau domaine de premier niveau de code pays (ccTLD) 1. La création et la gestion des ccTLD sont supervisées par l'Autorité des numéros attribués sur Internet (IANA) et la Société pour l'attribution des noms de domaine et des numéros sur Internet (ICANN) 18. L'IANA, qui fait partie de l'ICANN, est responsable de la coordination des identifiants uniques mondiaux d'Internet 18. Le processus d'attribution d'un ccTLD à une région géographique nécessite une demande détaillée à l'ICANN, démontrant comment le domaine souhaité s'aligne sur l'identité du pays ou du territoire et justifiant son besoin 25. L'ICANN et l'IANA évaluent cette demande à l'aide de critères d'éligibilité spécifiques, en tenant compte de facteurs clés tels que l'identité nationale ou territoriale unique de la région, un besoin réel du domaine et la capacité de la région à le gérer et à le maintenir efficacement 25. Une fois la demande approuvée, l'ICANN et l'IANA travaillent en étroite collaboration avec l'autorité désignée de la région requérante pour finaliser les termes et les responsabilités, en intégrant ensuite le ccTLD dans le système mondial de noms de domaine 25.
@@ -156,10 +156,10 @@ Les étapes générales pour obtenir un ccTLD impliquent la soumission d'une dem
 Bien qu'il ne soit pas directement applicable au « .IA », il existe un processus accéléré pour les ccTLD avec des IDN (noms de domaine internationalisés) pour les pays qui utilisent des écritures non latines 24, ce qui démontre la flexibilité de l'ICANN à s'adapter à divers besoins linguistiques. Enfin, le concept de pseudo-ccTLD, qui imite les domaines officiels sans reconnaissance formelle 24, souligne l'importance de l'ambition du projet Anticythère d'obtenir une reconnaissance officielle pour le domaine « .IA ».
 
 
-L'Élément Humain : Explorer l'Équipe et la Communauté Derrière Anticythère #
+L'Élément Humain : Explorer l'Équipe et la Communauté Derrière Anticythère [#](#l-element-humain-explorer-l-equipe-et-la-communaute-derriere-anticythere)
 
 
-Les informations disponibles sur le site web du projet concernant l'équipe ou l'organisation derrière l'initiative sont limitées 1. Bien qu'une « communauté de personnes » impliquée dans le projet soit mentionnée 1, il n'existe pas de section dédiée décrivant l'équipe ou l'organisation en détail. Cependant, le référentiel GitHub du projet (https://github.com/elswork/anticitera.deft.work) est présenté comme une source potentielle d'informations sur les collaborateurs et le développement du projet 19. L'existence de ce référentiel sur une plateforme de collaboration open source suggère une approche communautaire et participative de l'initiative, ce qui implique que le projet est davantage porté par un effort collectif que par une structure organisationnelle hiérarchique traditionnelle.
+Les informations disponibles sur le site web du projet concernant l'équipe ou l'organisation derrière l'initiative sont limitées 1. Bien qu'une « communauté de personnes » impliquée dans le projet soit mentionnée 1, il n'existe pas de section dédiée décrivant l'équipe ou l'organisation en détail. Cependant, le référentiel GitHub du projet ([https://github.com/elswork/anticitera.deft.work](https://github.com/elswork/anticitera.deft.work)) est présenté comme une source potentielle d'informations sur les collaborateurs et le développement du projet 19. L'existence de ce référentiel sur une plateforme de collaboration open source suggère une approche communautaire et participative de l'initiative, ce qui implique que le projet est davantage porté par un effort collectif que par une structure organisationnelle hiérarchique traditionnelle.
 
 
 Le référentiel GitHub contient une variété d'informations pertinentes, y compris les objectifs du projet, qui se concentrent sur la promotion de la création et de l'adoption du ccTLD .IA, en soulignant l'importance historique et culturelle du mécanisme d'Anticythère et en encourageant la collaboration 19. Il détaille également les manières dont les personnes peuvent contribuer au projet, telles que la participation à une liste de diffusion, la collaboration stratégique et la diffusion et la promotion via les réseaux sociaux tels que Facebook, X/Twitter, LinkedIn et WhatsApp 19. De plus, le référentiel comprend des liens importants vers l'Assistant Anticythère d'OpenAI, un formulaire de réservation pour les domaines .IA, la liste officielle des réservations, un tableau des personnes et des organisations impliquées, des propositions pour la création du ccTLD .IA sur Change.org et le Forum de l'Initiative Citoyenne Européenne, et un lien d'abonnement à la liste de diffusion 19. La structure du référentiel révèle une organisation logique du projet, avec des répertoires pour « Posts » (articles de blog), « _site » (configuration du site web) et « Origine » (liens détaillant l'histoire et la pertinence de l'île d'Anticythère et sa relation avec l'intelligence artificielle) 19. Des liens vers des articles et des entretiens qui discutent du projet sous différents angles sont également fournis, ainsi que des informations sur la licence du référentiel (MIT), les sujets connexes (intelligence artificielle, cctld, gpts, openai-chatgpt, île-d'anticythère) et un lien vers le fichier README 19. La présence d'un problème ouvert dans le référentiel suggère que le projet est dans une phase active de développement et de discussion 19.
@@ -168,7 +168,7 @@ Le référentiel GitHub contient une variété d'informations pertinentes, y com
 L'inclusion de propositions pour la création du ccTLD .IA sur des plateformes telles que Change.org et le Forum de l'Initiative Citoyenne Européenne indique un effort de la part du projet pour obtenir un soutien public et politique plus large pour son initiative 19. L'utilisation de ces plateformes démontre une compréhension de la nécessité de mobiliser l'opinion publique et d'influencer potentiellement les décisions politiques liées à la création de nouveaux ccTLD.
 
 
-Voix Externes : Une Revue de la Perception Publique et du Discours Académique #
+Voix Externes : Une Revue de la Perception Publique et du Discours Académique [#](#voix-externes-une-revue-de-la-perception-publique-et-du-discours-academique)
 
 
 Le mécanisme d'Anticythère est largement reconnu comme le plus ancien ordinateur analogique connu et une merveille de la technologie antique 2. Sa complexité, son but et ses origines continuent de faire l'objet de recherches et de fascination 5. Diverses interprétations de sa fonction ont émergé, allant des calculs astronomiques à des fins éducatives et philosophiques 5. La signification historique et scientifique établie du mécanisme d'Anticythère fournit une base solide et facilement compréhensible pour le récit du projet Anticythère, associant immédiatement le domaine proposé à l'innovation et à l'intelligence. Le public est déjà curieux de cet artefact ancien, ce qui crée un lien naturel avec le concept d'intelligence artificielle, rendant le nom et l'idée centrale du projet instantanément plus attrayants et mémorables.
@@ -234,7 +234,7 @@ Proposé pour les projets d'IA
 Les principes généraux et les meilleures pratiques pour choisir des noms de domaine incluent la mémorabilité, l'alignement avec la marque et les considérations de référencement 35. Les outils de génération de noms de domaine basés sur l'IA jouent un rôle dans le brainstorming et la recherche de domaines disponibles 35. Le projet Anticythère cherche à tirer parti de la pertinence sémantique inhérente de « .IA » pour « Intelligence Artificielle » dans plusieurs langues, ce qui correspond aux principes du choix d'un bon nom de domaine. Le lien historique avec Anticythère renforce encore sa capacité de marque et son unicité.
 
 
-Regarder Vers l'Avenir : Objectifs à Long Terme et Trajectoire de Développement Potentielle #
+Regarder Vers l'Avenir : Objectifs à Long Terme et Trajectoire de Développement Potentielle [#](#regarder-vers-l-avenir-objectifs-a-long-terme-et-trajectoire-de-developpement-potentielle)
 
 
 La vision à long terme du projet Anticythère se concentre sur la rupture de l'hégémonie de l'anglais dans le domaine de l'intelligence artificielle et la promotion d'une communauté mondiale et multilingue 12. On s'attend à ce que le domaine « .IA » devienne un identifiant reconnu et respecté pour les projets, les recherches et les organisations liés à l'intelligence artificielle dans le monde entier. Il est possible que l'île d'Anticythère devienne un centre symbolique pour la collaboration internationale dans le domaine de l'intelligence artificielle, en tirant parti de sa signification historique 12. Cette ambition va au-delà d'un simple nom de domaine, cherchant à positionner l'île comme un point focal pour le discours et la collaboration mondiale sur l'intelligence artificielle, en se basant sur son lien historique unique avec l'informatique. Cela pourrait attirer des chercheurs, des développeurs et des décideurs politiques, ce qui pourrait conduire à une plus grande reconnaissance et à des initiatives liées au domaine.
@@ -243,13 +243,13 @@ La vision à long terme du projet Anticythère se concentre sur la rupture de l'
 À l'avenir, des partenariats avec des institutions universitaires, des organisations de recherche et des entreprises technologiques pourraient être explorés. L'Assistant Anticythère pourrait jouer un rôle crucial dans la promotion de l'innovation et de l'adoption au sein du domaine « .IA ».
 
 
-Impact et Pertinence : Évaluation de la Signification du Projet Anticythère #
+Impact et Pertinence : Évaluation de la Signification du Projet Anticythère [#](#impact-et-pertinence-evaluation-de-la-signification-du-projet-anticythere)
 
 
 Le projet Anticythère a le potentiel de générer un impact significatif dans le domaine de l'intelligence artificielle en promouvant le multilinguisme et l'inclusivité. Sa pertinence réside dans le lien qu'il établit entre les racines historiques de l'informatique et ses avancées modernes. L'association de l'île d'Anticythère avec les origines et l'avenir de l'intelligence artificielle pourrait avoir une grande signification culturelle et symbolique. Le projet pourrait favoriser un paysage plus inclusif et culturellement diversifié pour l'intelligence artificielle au niveau mondial, en défiant la domination actuelle de l'anglais et en rappelant au monde la longue histoire de l'ingéniosité humaine en informatique. Le succès de l'établissement du domaine « .IA » pourrait contribuer à une représentation plus équitable des différentes langues et cultures au sein du domaine de l'intelligence artificielle en ligne. Le lien symbolique avec le mécanisme d'Anticythère ajoute une dimension historique unique à ce domaine technologique moderne. De plus, le projet pourrait générer une plus grande reconnaissance et un plus grand intérêt pour l'île d'Anticythère elle-même. À un niveau plus large, l'initiative soulève des réflexions sur la gouvernance d'Internet et la représentation de diverses identités linguistiques et culturelles en ligne.
 
 
-Conclusion : Synthétiser les Résultats et Offrir des Perspectives Stratégiques #
+Conclusion : Synthétiser les Résultats et Offrir des Perspectives Stratégiques [#](#conclusion-synthetiser-les-resultats-et-offrir-des-perspectives-strategiques)
 
 
 Le projet Anticythère représente une initiative ambitieuse et visionnaire qui vise à établir un nouveau ccTLD « .IA » pour l'île d'Anticythère, en s'inspirant du mécanisme historique d'Anticythère comme symbole des origines de l'intelligence artificielle. Le projet vise à encourager une communauté mondiale et multilingue autour de ce domaine, en défiant l'hégémonie de l'anglais dans le domaine de l'intelligence artificielle.
@@ -262,138 +262,138 @@ Les perspectives stratégiques suivantes sont proposées :
 
 
 
-Amélioration du Site Web : Il est essentiel de donner la priorité à l'accessibilité de toutes les sections du site web, en particulier « Projet » et « Podcasts ». De plus, il est recommandé d'améliorer l'UI/UX des sections blog et liens en mettant en œuvre les suggestions détaillées ci-dessus (vignettes, catégories, recherche, etc.).
+* Amélioration du Site Web : Il est essentiel de donner la priorité à l'accessibilité de toutes les sections du site web, en particulier « Projet » et « Podcasts ». De plus, il est recommandé d'améliorer l'UI/UX des sections blog et liens en mettant en œuvre les suggestions détaillées ci-dessus (vignettes, catégories, recherche, etc.).
 
 
-Participation de la Communauté : La participation de la communauté doit continuer à être encouragée par le biais du référentiel GitHub et d'autres plateformes. Il est important de communiquer clairement les progrès du projet et les manières dont les personnes peuvent contribuer.
+* Participation de la Communauté : La participation de la communauté doit continuer à être encouragée par le biais du référentiel GitHub et d'autres plateformes. Il est important de communiquer clairement les progrès du projet et les manières dont les personnes peuvent contribuer.
 
 
-Efforts de Promotion du Domaine .IA : Dans les efforts de promotion, il est crucial de distinguer clairement la proposition du ccTLD officiel « .IA » de l'utilisation non officielle existante. Il convient de souligner la recherche de la reconnaissance officielle par l'IANA et les avantages uniques du domaine proposé en termes de pertinence linguistique et de lien historique.
+* Efforts de Promotion du Domaine .IA : Dans les efforts de promotion, il est crucial de distinguer clairement la proposition du ccTLD officiel « .IA » de l'utilisation non officielle existante. Il convient de souligner la recherche de la reconnaissance officielle par l'IANA et les avantages uniques du domaine proposé en termes de pertinence linguistique et de lien historique.
 
 
 
 En conclusion, le projet Anticythère possède un potentiel significatif pour avoir un impact sur le paysage de l'intelligence artificielle en ligne, en promouvant une plus grande diversité linguistique et culturelle et en honorant la riche histoire de l'innovation informatique. Son succès dépendra de la capacité de l'équipe à surmonter les défis réglementaires et à construire une communauté mondiale engagée dans sa vision.
 
 
-Ouvrages cités #
+Ouvrages cités [#](#ouvrages-cites)
 
 
 
-.IA Île d'Anticythère - Base de Connaissances, consulté le : 24 mars 2025, https://Anticitera.deft.work
+* .IA Île d'Anticythère - Base de Connaissances, consulté le : 24 mars 2025, [https://Anticitera.deft.work](https://anticitera.deft.work)
 
 
-Mécanisme d'Anticythère - Wikipédia, consulté le : 24 mars 2025, https://en.wikipedia.org/wiki/Antikythera_mechanism
+* Mécanisme d'Anticythère - Wikipédia, consulté le : 24 mars 2025, [https://en.wikipedia.org/wiki/Antikythera_mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism)
 
 
-Saros, Spirales et le Projet Anticythère ~ Révélations d'une Épave Antique, consulté le : 24 mars 2025, https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck
+* Saros, Spirales et le Projet Anticythère ~ Révélations d'une Épave Antique, consulté le : 24 mars 2025, [https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck](https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck)
 
 
-Le Mécanisme d'Anticythère : La Preuve de la Précision des Calculs Astronomiques Basés sur Celui-ci - MDPI, consulté le : 24 mars 2025, https://www.mdpi.com/2571-9408/4/4/211
+* Le Mécanisme d'Anticythère : La Preuve de la Précision des Calculs Astronomiques Basés sur Celui-ci - MDPI, consulté le : 24 mars 2025, [https://www.mdpi.com/2571-9408/4/4/211](https://www.mdpi.com/2571-9408/4/4/211)
 
 
-Le Mécanisme d'Anticythère - Communications de l'ACM, consulté le : 24 mars 2025, https://cacm.acm.org/research/the-antikythera-mechanism/
+* Le Mécanisme d'Anticythère - Communications de l'ACM, consulté le : 24 mars 2025, [https://cacm.acm.org/research/the-antikythera-mechanism/](https://cacm.acm.org/research/the-antikythera-mechanism/)
 
 
-Anticythère - Long Now, consulté le : 24 mars 2025, https://longnow.org/ideas/antikythera/
+* Anticythère - Long Now, consulté le : 24 mars 2025, [https://longnow.org/ideas/antikythera/](https://longnow.org/ideas/antikythera/)
 
 
-Le Projet de Recherche sur le Mécanisme d'Anticythère - What's Behind Doerr Number One, consulté le : 24 mars 2025, https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/
+* Le Projet de Recherche sur le Mécanisme d'Anticythère - What's Behind Doerr Number One, consulté le : 24 mars 2025, [https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/](https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/)
 
 
-Le Projet de Recherche sur le Mécanisme d'Anticythère - AWOL - The Ancient World Online, consulté le : 24 mars 2025, http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html
+* Le Projet de Recherche sur le Mécanisme d'Anticythère - AWOL - The Ancient World Online, consulté le : 24 mars 2025, [http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html](http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html)
 
 
-Mécanisme d'Anticythère - The Interactive Commons, consulté le : 24 mars 2025, https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/
+* Mécanisme d'Anticythère - The Interactive Commons, consulté le : 24 mars 2025, [https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/](https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/)
 
 
-L'Anticythère nous rappelle que l'humanité prévaudra toujours sur l'Intelligence Artificielle, consulté le : 24 mars 2025, https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/
+* L'Anticythère nous rappelle que l'humanité prévaudra toujours sur l'Intelligence Artificielle, consulté le : 24 mars 2025, [https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/](https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/)
 
 
-« Explorer le mécanisme d'Anticythère à travers la réalité augmentée. » par Tiffany Hatzidimitriu, consulté le : 24 mars 2025, https://digitalcommons.pace.edu/honorscollege_theses/375/
+* « Explorer le mécanisme d'Anticythère à travers la réalité augmentée. » par Tiffany Hatzidimitriu, consulté le : 24 mars 2025, [https://digitalcommons.pace.edu/honorscollege_theses/375/](https://digitalcommons.pace.edu/honorscollege_theses/375/)
 
 
-Île d'Anticythère : L'Avenir de l'Intelligence Artificielle ? - Deft.Work, consulté le : 24 mars 2025, https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/
+* Île d'Anticythère : L'Avenir de l'Intelligence Artificielle ? - Deft.Work, consulté le : 24 mars 2025, [https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/](https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/)
 
 
-Mécanisme d'Anticythère : L'ancien « ordinateur » qui ne devrait tout simplement pas exister - BBC REEL, consulté le : 24 mars 2025, https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/
+* Mécanisme d'Anticythère : L'ancien « ordinateur » qui ne devrait tout simplement pas exister - BBC REEL, consulté le : 24 mars 2025, [https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/](https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/)
 
 
-Île d'Anticythère - Berceau de l'Intelligence Artificielle - Deft.Work, consulté le : 24 mars 2025, https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/
+* Île d'Anticythère - Berceau de l'Intelligence Artificielle - Deft.Work, consulté le : 24 mars 2025, [https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/](https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/)
 
 
-Une nouvelle aube pour l'IA : le domaine .IA - OpenExpo Europe, consulté le : 24 mars 2025, https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/
+* Une nouvelle aube pour l'IA : le domaine .IA - OpenExpo Europe, consulté le : 24 mars 2025, [https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/](https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/)
 
 
-.ia extension d'url de domaine ? : r/webdev - Reddit, consulté le : 24 mars 2025, https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/
+* .ia extension d'url de domaine ? : r/webdev - Reddit, consulté le : 24 mars 2025, [https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/](https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/)
 
 
-Île d'Anticythère - N'attendez plus, réservez votre domaine .IA maintenant, consulté le : 24 mars 2025, https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/
+* Île d'Anticythère - N'attendez plus, réservez votre domaine .IA maintenant, consulté le : 24 mars 2025, [https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/](https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/)
 
 
-Données de Délégation du Domaine .ai, consulté le : 24 mars 2025, http://www.iana.org/domains/root/db/ai.htm
+* Données de Délégation du Domaine .ai, consulté le : 24 mars 2025, [http://www.iana.org/domains/root/db/ai.htm](http://www.iana.org/domains/root/db/ai.htm)
 
 
-elswork/anticitera.deft.work : .IA Île d'Anticythère - Base de ... - GitHub, consulté le : 24 mars 2025, https://github.com/elswork/anticitera.deft.work
+* elswork/anticitera.deft.work : .IA Île d'Anticythère - Base de ... - GitHub, consulté le : 24 mars 2025, [https://github.com/elswork/anticitera.deft.work](https://github.com/elswork/anticitera.deft.work)
 
 
-.IA Île d'Anticythère - Base de Connaissances, consulté le : 24 mars 2025, https://Anticitera.deft.work/blog/
+* .IA Île d'Anticythère - Base de Connaissances, consulté le : 24 mars 2025, [https://Anticitera.deft.work/blog/](https://anticitera.deft.work/blog/)
 
 
-Section des Liens - IA Île d'Anticythère, consulté le : 24 mars 2025, https://Anticitera.deft.work/links/
+* Section des Liens - IA Île d'Anticythère, consulté le : 24 mars 2025, [https://Anticitera.deft.work/links/](https://anticitera.deft.work/links/)
 
 
-consulté le : 1er janvier 1970, https://Anticitera.deft.work/proyecto/
+* consulté le : 1er janvier 1970, [https://Anticitera.deft.work/proyecto/](https://anticitera.deft.work/proyecto/)
 
 
-consulté le : 1er janvier 1970, https://Anticitera.deft.work/podcasts/
+* consulté le : 1er janvier 1970, [https://Anticitera.deft.work/podcasts/](https://anticitera.deft.work/podcasts/)
 
 
-Domaine de premier niveau de code pays - ICANNWiki, consulté le : 24 mars 2025, https://icannwiki.org/Country_code_top-level_domain
+* Domaine de premier niveau de code pays - ICANNWiki, consulté le : 24 mars 2025, [https://icannwiki.org/Country_code_top-level_domain](https://icannwiki.org/Country_code_top-level_domain)
 
 
-ccTLD vs gTLD : Qui gagne et où ? | Blog - Dataprovider.com, consulté le : 24 mars 2025, https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/
+* ccTLD vs gTLD : Qui gagne et où ? | Blog - Dataprovider.com, consulté le : 24 mars 2025, [https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/](https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/)
 
 
-Foire Aux Questions | Nouveaux gTLD de l'ICANN, consulté le : 24 mars 2025, https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en
+* Foire Aux Questions | Nouveaux gTLD de l'ICANN, consulté le : 24 mars 2025, [https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en](https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en)
 
 
-Domaine de premier niveau de code pays - Wikipédia, consulté le : 24 mars 2025, https://en.wikipedia.org/wiki/Country_code_top-level_domain
+* Domaine de premier niveau de code pays - Wikipédia, consulté le : 24 mars 2025, [https://en.wikipedia.org/wiki/Country_code_top-level_domain](https://en.wikipedia.org/wiki/Country_code_top-level_domain)
 
 
-Liste des domaines de premier niveau d'Internet - Wikipédia, consulté le : 24 mars 2025, https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+* Liste des domaines de premier niveau d'Internet - Wikipédia, consulté le : 24 mars 2025, [https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
 
 
-Tous les ccTLD expliqués | Domaine de Premier Niveau de Code Pays - tasjeel ae, consulté le : 24 mars 2025, https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/
+* Tous les ccTLD expliqués | Domaine de Premier Niveau de Code Pays - tasjeel ae, consulté le : 24 mars 2025, [https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/](https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/)
 
 
-Politiques de domaine ccTLD : Support Client Enom, consulté le : 24 mars 2025, https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies
+* Politiques de domaine ccTLD : Support Client Enom, consulté le : 24 mars 2025, [https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies](https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies)
 
 
-Processus Accéléré pour les ccTLD IDN - icann, consulté le : 24 mars 2025, https://www.icann.org/resources/pages/fast-track-2012-02-25-en
+* Processus Accéléré pour les ccTLD IDN - icann, consulté le : 24 mars 2025, [https://www.icann.org/resources/pages/fast-track-2012-02-25-en](https://www.icann.org/resources/pages/fast-track-2012-02-25-en)
 
 
-Projet d'Enquête sur Anticythère | Institut d'Archéologie - UCL – University College London, consulté le : 24 mars 2025, https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project
+* Projet d'Enquête sur Anticythère | Institut d'Archéologie - UCL – University College London, consulté le : 24 mars 2025, [https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project](https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project)
 
 
-Le Projet d'Enquête sur Anticythère : Introduction - Archaeology Data Service, consulté le : 24 mars 2025, https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/
+* Le Projet d'Enquête sur Anticythère : Introduction - Archaeology Data Service, consulté le : 24 mars 2025, [https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/](https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/)
 
 
-Îles Assimas - Daidu - L'Encyclopédie Kylaris, consulté le : 24 mars 2025, https://kylaris.miraheze.org/wiki/Assimas_Islands
+* Îles Assimas - Daidu - L'Encyclopédie Kylaris, consulté le : 24 mars 2025, [https://kylaris.miraheze.org/wiki/Assimas_Islands](https://kylaris.miraheze.org/wiki/Assimas_Islands)
 
 
-Outil Gratuit de Génération de Noms d'Entreprise et de Domaine par IA, consulté le : 24 mars 2025, https://www.domain.com/domains/ai-domain-generator
+* Outil Gratuit de Génération de Noms d'Entreprise et de Domaine par IA, consulté le : 24 mars 2025, [https://www.domain.com/domains/ai-domain-generator](https://www.domain.com/domains/ai-domain-generator)
 
 
-Trouvez les Noms de Site Web Parfaits avec le Générateur de Noms de Domaine par IA de Web.com, consulté le : 24 mars 2025, https://www.web.com/blog/ai-domain-name-generator/
+* Trouvez les Noms de Site Web Parfaits avec le Générateur de Noms de Domaine par IA de Web.com, consulté le : 24 mars 2025, [https://www.web.com/blog/ai-domain-name-generator/](https://www.web.com/blog/ai-domain-name-generator/)
 
 
-IA pour le Nom de Domaine : 8 Conseils Pour une Forte Présence en Ligne - ShortDot, consulté le : 24 mars 2025, https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/
+* IA pour le Nom de Domaine : 8 Conseils Pour une Forte Présence en Ligne - ShortDot, consulté le : 24 mars 2025, [https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/](https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/)
 
 
-Outil Gratuit d'Idées de Noms de Domaine - Obtenez des Idées Instantanées pour 2025 - GravityWrite, consulté le : 24 mars 2025, https://gravitywrite.com/blog/domain-name-ideas-tool
+* Outil Gratuit d'Idées de Noms de Domaine - Obtenez des Idées Instantanées pour 2025 - GravityWrite, consulté le : 24 mars 2025, [https://gravitywrite.com/blog/domain-name-ideas-tool](https://gravitywrite.com/blog/domain-name-ideas-tool)
 
 
-Proposition de Projet pour un Nouveau Site Web d'Architecture de l'Information Mondiale | par Andrea Rosenbusch, consulté le : 24 mars 2025, https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb
+* Proposition de Projet pour un Nouveau Site Web d'Architecture de l'Information Mondiale | par Andrea Rosenbusch, consulté le : 24 mars 2025, [https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb](https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb)
 
 
 

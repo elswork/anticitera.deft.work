@@ -1,5 +1,5 @@
 # 标签“arquímedes”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/tags/arquimedes/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/cn/tags/arquimedes/
 
 
 
-	
-		锡拉库萨的阿基米德
+	* 
+		[锡拉库萨的阿基米德](https://anticitera.deft.work/cn/blog/Arquimedes_de_Siracusa.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/cn/tags/arquimedes/
 
 
 
-查看所有标签。
+查看[所有标签](https://anticitera.deft.work/cn/tags.md)。

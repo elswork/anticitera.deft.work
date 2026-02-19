@@ -1,5 +1,5 @@
 # Getaggt "community"
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/tags/community/
 
 ---
@@ -12,8 +12,8 @@ Getaggt "community"
 
 
 
-	
-		Informationsblatt IV .IA Antikythera-Insel-Projekt
+	* 
+		[Informationsblatt IV .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_IV_Proyecto_.IA_Isla_Anticitera.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ Getaggt "community"
 
 
 
-Siehe alle Tags.
+Siehe [alle Tags](https://anticitera.deft.work/de/tags.md).

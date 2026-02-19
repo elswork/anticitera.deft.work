@@ -1,5 +1,5 @@
 # Etichettato “sessione”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/tags/sessione/
 
 ---
@@ -12,15 +12,15 @@ Etichettato “sessione”
 
 
 
-	
-		Progetto .IA Isola di Anticitera - Sessione 2
+	* 
+		[Progetto .IA Isola di Anticitera - Sessione 2](https://anticitera.deft.work/it/blog/Proyecto_.IA_Isla_Anticitera-Sesion_2.md)
 		December 2023
 	
 
 
 
-	
-		Progetto .IA Isola di Anticitera - Sessione 1
+	* 
+		[Progetto .IA Isola di Anticitera - Sessione 1](https://anticitera.deft.work/it/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1.md)
 		November 2023
 	
 
@@ -29,4 +29,4 @@ Etichettato “sessione”
 
 
 
-Vedi tutti i tag.
+Vedi [tutti i tag](https://anticitera.deft.work/it/tags.md).

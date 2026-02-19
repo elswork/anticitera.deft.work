@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/cn/blog/Boletin_Informativo_IV_Proyecto_.IA_Is
 
 ---
 
-凝聚力量，势头渐增 #
+凝聚力量，势头渐增 [#](#)
 
 
 大家好，
@@ -13,7 +13,7 @@ URL: https://anticitera.deft.work/cn/blog/Boletin_Informativo_IV_Proyecto_.IA_Is
 我怀着极大的热情向大家介绍.IA安提基特拉岛项目的第四期新闻简报。在过去几周里，我们见证了合作与持续努力的成果，使我们离目标越来越近。
 
 
-特别感谢Chema Alonso #
+特别感谢Chema Alonso [#](#chema-alonso)
 
 
 我们要特别感谢Chema Alonso，他慷慨地在他的YouTube频道上发布了我们的新视频。像他这样的举动是我们项目传播的基石，让我们能够触及更广泛、更多样化的受众。你们的慷慨与支持激励着我们继续前行。
@@ -22,13 +22,13 @@ URL: https://anticitera.deft.work/cn/blog/Boletin_Informativo_IV_Proyecto_.IA_Is
 
 
 
-我们继续敲开大门 #
+我们继续敲开大门 [#](#-1)
 
 
 遵循我们的传播策略，我们继续联系信息技术和人工智能领域的相关人士。虽然这是一条需要耐心和毅力的道路，但每一次对话和每一个新的联系都丰富了我们，并为未来的合作打开了大门。我们坚信，人才和经验的结合是实现安提基特拉愿景的关键。
 
 
-人工智能审视下的项目 #
+人工智能审视下的项目 [#](#-2)
 
 
 过去几周一个引人入胜的事实是，我们自己的项目已成为各种人工智能的研究对象。我们博客上最近发布的文章中，像Gemini、DeepSeek等模型分析了安提基特拉项目的基础和目标，这不仅验证了我们倡议的相关性，也为我们提供了宝贵的反馈。
@@ -40,5 +40,4 @@ URL: https://anticitera.deft.work/cn/blog/Boletin_Informativo_IV_Proyecto_.IA_Is
 感谢您继续参与这次冒险。
 
 
-
-  ![安提基特拉机械的代表，被细细的电路穿过，漂浮在安提基特拉岛前的海上。](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)
+[![安提基特拉机械的代表，被细细的电路穿过，漂浮在安提基特拉岛前的海上。](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)](https://anticitera.deft.work)

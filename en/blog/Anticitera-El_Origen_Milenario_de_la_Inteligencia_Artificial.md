@@ -8,7 +8,7 @@ Artificial intelligence is one of the greatest revolutions of the 21st century, 
 
 
 
-1. The Antikythera Mechanism: A Machine Ahead of its Time #
+1. The Antikythera Mechanism: A Machine Ahead of its Time [#](#1-the-antikythera-mechanism-a-machine-ahead-of-its-time)
 
 
 The Antikythera Mechanism is a complex astronomical computer from ancient Greece, dated between the 2nd century BC and the 1st century BC. Its level of precision and mechanical design was so advanced that nothing comparable would be seen for more than 1,500 years, with the first astronomical clocks of medieval Europe.
@@ -18,13 +18,13 @@ The Antikythera Mechanism is a complex astronomical computer from ancient Greece
 
 
 
-Composed of more than 30 bronze gears with astonishing precision.
+* Composed of more than 30 bronze gears with astonishing precision.
 
 
-Predicts eclipses, lunar phases, and planetary movements.
+* Predicts eclipses, lunar phases, and planetary movements.
 
 
-Uses a sophisticated mathematical model to represent the cosmos.
+* Uses a sophisticated mathematical model to represent the cosmos.
 
 
 
@@ -32,47 +32,47 @@ This artifact demonstrates that humanity was already seeking to automate knowled
 
 
 
-2. What is its Relationship with AI? #
+2. What is its Relationship with AI? [#](#2-what-is-its-relationship-with-ai)
 
 
 Although the Antikythera Mechanism is not an artificial intelligence in the current sense, it shares key principles with it:
 
 
-🔵 Automation of Knowledge #
+🔵 Automation of Knowledge [#](#automation-of-knowledge)
 
 
 
-Just as today's AI models process data to make predictions, the Antikythera Mechanism analyzed astronomical patterns and converted them into useful information.
+* Just as today's AI models process data to make predictions, the Antikythera Mechanism analyzed astronomical patterns and converted them into useful information.
 
 
-This process of simulating reality through a mathematical model is the same one that modern AIs use to recognize images, translate languages, or generate text.
-
-
-
-🔵 Early Algorithmic Engineering #
+* This process of simulating reality through a mathematical model is the same one that modern AIs use to recognize images, translate languages, or generate text.
 
 
 
-The mechanism used mechanical algorithms based on gears, which transformed an input (a date) into an output (planetary position, eclipses, etc.).
-
-
-This concept is analogous to how AI algorithms convert input data into intelligent predictions.
+🔵 Early Algorithmic Engineering [#](#early-algorithmic-engineering)
 
 
 
-🔵 A Data-Driven Decision-Making System #
+* The mechanism used mechanical algorithms based on gears, which transformed an input (a date) into an output (planetary position, eclipses, etc.).
+
+
+* This concept is analogous to how AI algorithms convert input data into intelligent predictions.
 
 
 
-The mechanism allowed for the accurate prediction of astronomical events, aiding in the planning of crops, religious festivals, and naval expeditions.
-
-
-Today, AI is used in finance, medicine, and science to make informed decisions based on data, just as the ancient Greeks relied on the Antikythera Mechanism.
+🔵 A Data-Driven Decision-Making System [#](#a-data-driven-decision-making-system)
 
 
 
+* The mechanism allowed for the accurate prediction of astronomical events, aiding in the planning of crops, religious festivals, and naval expeditions.
 
-3. From the Past to the Future: The Legacy of Antikythera in Modern AI #
+
+* Today, AI is used in finance, medicine, and science to make informed decisions based on data, just as the ancient Greeks relied on the Antikythera Mechanism.
+
+
+
+
+3. From the Past to the Future: The Legacy of Antikythera in Modern AI [#](#3-from-the-past-to-the-future-the-legacy-of-antikythera-in-modern-ai)
 
 
 The Antikythera Mechanism leaves us with a powerful lesson: humanity has always sought to create tools to process information and make predictions. Modern AI is nothing more than the evolution of this ancestral desire.

@@ -1,5 +1,5 @@
 # Με ετικέτα "latam"
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/tags/latam/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/el/tags/latam/
 
 
 
-	
-		Η Λατινική Αμερική στην καρδιά του Έργου Αντικύθηρα
+	* 
+		[Η Λατινική Αμερική στην καρδιά του Έργου Αντικύθηρα](https://anticitera.deft.work/el/blog/Latinoamerica_en_el_corazon.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/el/tags/latam/
 
 
 
-Δείτε όλες τις ετικέτες.
+Δείτε [όλες τις ετικέτες](https://anticitera.deft.work/el/tags.md).

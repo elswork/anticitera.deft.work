@@ -23,111 +23,111 @@ Olá. Analisei em profundidade a pegada digital e a documentação disponível s
 Aqui tens a minha análise e um roteiro com conselhos chave para que este projeto passe de ser uma "ideia bonita" a uma possibilidade real.
 
 
-1. O "Elefante na Sala": A Estratégia ISO/ICANN #
+1. O "Elefante na Sala": A Estratégia ISO/ICANN [#](#1-o-elefante-na-sala-a-estrategia-iso-icann)
 
 
 Este é o ponto crítico. Para ter um ccTLD (.ia), Anticitera precisa primeiro de um código ISO 3166-1 alpha-2. Atualmente, Anticitera é administrativamente parte da Grécia (região da Ática), não é um território autónomo.
 
 
 
-O obstáculo: A ICANN não cria códigos de país, apenas usa a lista ISO 3166-1. Se Anticitera não estiver nessa lista, não há domínio.
+* O obstáculo: A ICANN não cria códigos de país, apenas usa a lista ISO 3166-1. Se Anticitera não estiver nessa lista, não há domínio.
 
 
-O precedente a estudar: Olha para o caso de .ax (Ilhas Åland) ou .gg (Guernsey). São territórios com certo grau de autonomia ou estatuto especial.
+* O precedente a estudar: Olha para o caso de .ax (Ilhas Åland) ou .gg (Guernsey). São territórios com certo grau de autonomia ou estatuto especial.
 
 
-O Teu Conselho Chave: Não lutes pelo domínio tecnológico ainda, luta pelo reconhecimento territorial simbólico. O teu objetivo deve ser convencer as autoridades gregas de que solicitar um código excecional ou subcódigo para Anticitera é uma jogada de mestre de marketing turístico e tecnológico para o país. A Grécia poderia tornar-se a "casa da IA ética/europeia".
+* O Teu Conselho Chave: Não lutes pelo domínio tecnológico ainda, luta pelo reconhecimento territorial simbólico. O teu objetivo deve ser convencer as autoridades gregas de que solicitar um código excecional ou subcódigo para Anticitera é uma jogada de mestre de marketing turístico e tecnológico para o país. A Grécia poderia tornar-se a "casa da IA ética/europeia".
 
-Ação: Redige uma proposta formal não para a ICANN, mas para o Ministério da Governação Digital da Grécia e a Organização Helénica de Normalização (ELOT). Vende-lhes a ideia de que .ia é o "petróleo digital" do futuro e que a Grécia tem o direito histórico de reivindicá-lo através de Anticitera.
-
-
-
+* Ação: Redige uma proposta formal não para a ICANN, mas para o Ministério da Governação Digital da Grécia e a Organização Helénica de Normalização (ELOT). Vende-lhes a ideia de que .ia é o "petróleo digital" do futuro e que a Grécia tem o direito histórico de reivindicá-lo através de Anticitera.
 
 
 
 
-2. Narrativa e Branding: "O Berço vs. A Mina" #
+
+
+
+2. Narrativa e Branding: "O Berço vs. A Mina" [#](#2-narrativa-e-branding-o-berco-vs-a-mina)
 
 
 A tua narrativa atual é boa, mas podes radicalizá-la (no bom sentido) para ganhar mais tração.
 
 
 
-O ângulo: Posiciona o .ai (Anguila) como um domínio comercial, anglocêntrico e extrativista. Posiciona o .ia (Anticitera) como o domínio da IA humanista, cultural, académica e europeia/latina.
+* O ângulo: Posiciona o .ai (Anguila) como um domínio comercial, anglocêntrico e extrativista. Posiciona o .ia (Anticitera) como o domínio da IA humanista, cultural, académica e europeia/latina.
 
 
-Conselho Chave: O storytelling deve ser: "A IA não nasceu em Silicon Valley, nasceu na Grécia há 2000 anos". Usa essa legitimidade histórica para atrair não só programadores, mas também instituições (universidades, museus, centros de investigação) que prefeririam um domínio .ia antes de um .ai ou .com.
+* Conselho Chave: O storytelling deve ser: "A IA não nasceu em Silicon Valley, nasceu na Grécia há 2000 anos". Usa essa legitimidade histórica para atrair não só programadores, mas também instituições (universidades, museus, centros de investigação) que prefeririam um domínio .ia antes de um .ai ou .com.
 
 
 
-3. Otimização do Site e Conversão (Análise Web) #
+3. Otimização do Site e Conversão (Análise Web) [#](#3-otimizacao-do-site-e-conversao-analise-web)
 
 
 Notei que usas Hugo e tens uma estrutura de blog/base de conhecimento. Para alcançar o teu objetivo, a web deve deixar de parecer um blog pessoal e parecer o site de uma Fundação.
 
 
 
-Design de Confiança: O site precisa de uma secção clara de "Manifesto" ou "Whitepaper" que pareça muito profissional.
+* Design de Confiança: O site precisa de uma secção clara de "Manifesto" ou "Whitepaper" que pareça muito profissional.
 
 
-A "Lista de Reserva": Vi que permites reservar domínios. Este é o teu maior ativo.
+* A "Lista de Reserva": Vi que permites reservar domínios. Este é o teu maior ativo.
 
-Conselho: Torna o contador público. "Já há X.000 domínios .ia solicitados". A prova social é vital para pressionar as autoridades.
-
-
-Gamificação: Permite que quem reserve um domínio obtenha um "badge" ou certificado digital de "Pioneiro de Anticitera" que possa colocar no seu GitHub ou LinkedIn. Precisas que as pessoas se gabem de apoiar isto.
+* Conselho: Torna o contador público. "Já há X.000 domínios .ia solicitados". A prova social é vital para pressionar as autoridades.
 
 
-
+* Gamificação: Permite que quem reserve um domínio obtenha um "badge" ou certificado digital de "Pioneiro de Anticitera" que possa colocar no seu GitHub ou LinkedIn. Precisas que as pessoas se gabem de apoiar isto.
 
 
 
 
-4. Estratégia de Comunidade e "Lobby" Digital #
+
+
+
+4. Estratégia de Comunidade e "Lobby" Digital [#](#4-estrategia-de-comunidade-e-lobby-digital)
 
 
 Mencionas o Chema Alonso e o suporte nas redes. Isso é ouro, mas precisas de sistematizá-lo.
 
 
 
-Embaixadores Académicos: Procura ativamente professores de ética em IA, história da tecnologia e filosofia em universidades hispânicas e gregas. Se conseguires que 5 universidades apoiem a carta à ISO, tens muito mais força do que 10.000 assinaturas no Change.org.
+* Embaixadores Académicos: Procura ativamente professores de ética em IA, história da tecnologia e filosofia em universidades hispânicas e gregas. Se conseguires que 5 universidades apoiem a carta à ISO, tens muito mais força do que 10.000 assinaturas no Change.org.
 
 
-Aliança Linguística: Não o faças apenas "hispânico". Tens o português, o francês, o italiano e o romeno. "IA" é o acrónimo em quase todas as línguas românicas.
+* Aliança Linguística: Não o faças apenas "hispânico". Tens o português, o francês, o italiano e o romeno. "IA" é o acrónimo em quase todas as línguas românicas.
 
-Ação: Cria uma campanha específica para França e Brasil. São mercados enormes que usam "IA" e costumam ser protetores da sua soberania linguística face ao inglês. Um "aliado" no governo francês seria uma mudança radical para o projeto.
-
-
-
+* Ação: Cria uma campanha específica para França e Brasil. São mercados enormes que usam "IA" e costumam ser protetores da sua soberania linguística face ao inglês. Um "aliado" no governo francês seria uma mudança radical para o projeto.
 
 
 
 
-5. Financiamento e Sustentabilidade #
+
+
+
+5. Financiamento e Sustentabilidade [#](#5-financiamento-e-sustentabilidade)
 
 
 Agora mesmo parece um projeto de paixão (deft.work). Para escalar, precisas de recursos para viagens (lobby na Grécia/Bruxelas) ou marketing.
 
 
 
-Conselho: Não monetizes os registos ainda (seria vender fumo). Monetiza a pertença. Cria uma "Associação de Amigos do Domínio .IA". Uma adesão simbólica que dê direito a voto na futura governança do domínio. Isto dá-te legitimidade democrática ("represento 500 membros pagantes") face à ICANN, que valoriza muito o modelo "multistakeholder".
+* Conselho: Não monetizes os registos ainda (seria vender fumo). Monetiza a pertença. Cria uma "Associação de Amigos do Domínio .IA". Uma adesão simbólica que dê direito a voto na futura governança do domínio. Isto dá-te legitimidade democrática ("represento 500 membros pagantes") face à ICANN, que valoriza muito o modelo "multistakeholder".
 
 
 
-Resumo dos Passos Imediatos para ti: #
+Resumo dos Passos Imediatos para ti: [#](#resumo-dos-passos-imediatos-para-ti)
 
 
 
-Profissionaliza a Proposta: Cria um PDF/Dossier executivo dirigido ao governo grego (em inglês e grego se possível) explicando o benefício económico e de marca país.
+* Profissionaliza a Proposta: Cria um PDF/Dossier executivo dirigido ao governo grego (em inglês e grego se possível) explicando o benefício económico e de marca país.
 
 
-Internacionaliza: Traduz a "home" e o manifesto para português e francês prioritariamente (se não estiverem já, revê a qualidade).
+* Internacionaliza: Traduz a "home" e o manifesto para português e francês prioritariamente (se não estiverem já, revê a qualidade).
 
 
-Hackeia a ISO: Investiga os requisitos exatos para a atribuição de códigos reservados excecionalmente na norma ISO 3166. A tua batalha é aí, em Genebra, não no servidor DNS.
+* Hackeia a ISO: Investiga os requisitos exatos para a atribuição de códigos reservados excecionalmente na norma ISO 3166. A tua batalha é aí, em Genebra, não no servidor DNS.
 
 
-Reativa a comunidade: Se tens emails da lista de reserva, envia-lhes uma atualização pedindo uma ação concreta: "Menciona @DigitalGovGR (Ministério digital grego) no X dizendo porque queres um .ia".
+* Reativa a comunidade: Se tens emails da lista de reserva, envia-lhes uma atualização pedindo uma ação concreta: "Menciona @DigitalGovGR (Ministério digital grego) no X dizendo porque queres um .ia".
 
 
 
@@ -158,7 +158,7 @@ Aqui explico-te porque é que isto acontece e como mudar a dinâmica para recrut
 
 
 
-1. O Diagnóstico: Porque é que ninguém ajuda? #
+1. O Diagnóstico: Porque é que ninguém ajuda? [#](#1-o-diagnostico-porque-e-que-ninguem-ajuda)
 
 
 A. O problema é abstrato e político, não técnico.
@@ -171,10 +171,10 @@ Se eu quisesse ajudar-te hoje, agora mesmo, o que faço?
 
 
 
-Escrevo um tweet? (Pouco impacto percebido).
+* Escrevo um tweet? (Pouco impacto percebido).
 
 
-Mando um email à ICANN? (Tenho medo/preguiça/não sei o que dizer).
+* Mando um email à ICANN? (Tenho medo/preguiça/não sei o que dizer).
 Ao não haver "tickets" ou tarefas claras e pequenas, as pessoas paralisam.
 
 
@@ -184,78 +184,78 @@ Num projeto Open Source normal, se colaboro, vejo o meu código a funcionar aman
 
 
 
-2. A Solução: Como converter "Fãs" em "Colaboradores" #
+2. A Solução: Como converter "Fãs" em "Colaboradores" [#](#2-a-solucao-como-converter-fas-em-colaboradores)
 
 
 Para atrair pessoas, tens de deixar de vender um "domínio futuro" e começar a vender uma "Nação Digital Presente". Precisas de gamificar e cortar o elefante aos bocados.
 
 
-Passo 1: Cria Papéis e Títulos (Ego e Pertença) #
+Passo 1: Cria Papéis e Títulos (Ego e Pertença) [#](#passo-1-cria-papeis-e-titulos-ego-e-pertenca)
 
 
 As pessoas adoram fazer parte de algo exclusivo. Não procures "colaboradores", procura Embaixadores.
 
 
 
-Ação: Cria uma estrutura oficial. "Procuro o Embaixador de Anticitera no Chile", "Procuro o Cônsul de Linguística".
+* Ação: Cria uma estrutura oficial. "Procuro o Embaixador de Anticitera no Chile", "Procuro o Cônsul de Linguística".
 
 
-O Truque: Oferece-lhes algo tangível agora. Um subdomínio gratuito (ex: juan.embaixador.anticitera.deft.work ou similar) ou um certificado digital muito bem desenhado que diga "Membro Fundador". Dá-lhes um cargo que possam colocar no LinkedIn.
+* O Truque: Oferece-lhes algo tangível agora. Um subdomínio gratuito (ex: juan.embaixador.anticitera.deft.work ou similar) ou um certificado digital muito bem desenhado que diga "Membro Fundador". Dá-lhes um cargo que possam colocar no LinkedIn.
 
 
 
-Passo 2: Modulariza o Trabalho (A técnica da "Pedra no sapato") #
+Passo 2: Modulariza o Trabalho (A técnica da "Pedra no sapato") [#](#passo-2-modulariza-o-trabalho-a-tecnica-da-pedra-no-sapato)
 
 
 Ninguém moverá a montanha por ti, mas muitos podem tirar pedras. Cria uma lista de tarefas (um quadro Trello ou GitHub Issues) com coisas ridiculamente específicas que não sejam "conseguir o domínio":
 
 
 
-"Precisamos de traduzir o manifesto para Catalão." (Alguém o fará em 10 minutos).
+* "Precisamos de traduzir o manifesto para Catalão." (Alguém o fará em 10 minutos).
 
 
-"Precisamos de desenhar o brasão oficial digital de Anticitera." (Um designer animar-se-á).
+* "Precisamos de desenhar o brasão oficial digital de Anticitera." (Um designer animar-se-á).
 
 
-"Precisamos de procurar os emails dos professores de informática da Universidade de Atenas." (Alguém bom em OSINT o fará).
+* "Precisamos de procurar os emails dos professores de informática da Universidade de Atenas." (Alguém bom em OSINT o fará).
 
 
-Chave: Quando alguém completar uma tarefa pequena, celebra-o publicamente como uma vitória enorme. Isso gera efeito de chamada.
+* Chave: Quando alguém completar uma tarefa pequena, celebra-o publicamente como uma vitória enorme. Isso gera efeito de chamada.
 
 
 
-Passo 3: Muda o Target (Procuras os errados) #
+Passo 3: Muda o Target (Procuras os errados) [#](#passo-3-muda-o-target-procuras-os-errados)
 
 
 É provável que estejas a procurar apoio na comunidade tech/dev "generalista". Eles não são a tua força de choque principal. Os teus aliados naturais são:
 
 
 
-A Diáspora Grega: Há milhares de gregos orgulhosos em tecnologia à volta do mundo. Se tocares na sua fibra nacionalista/cultural, moverão céus e terra. Procura grupos de "Greeks in Tech" no LinkedIn.
+* A Diáspora Grega: Há milhares de gregos orgulhosos em tecnologia à volta do mundo. Se tocares na sua fibra nacionalista/cultural, moverão céus e terra. Procura grupos de "Greeks in Tech" no LinkedIn.
 
 
-Académicos de Humanidades Digitais: A eles interessa-lhes a preservação cultural e a ética da IA. Não sabem programar, mas sabem redigir cartas institucionais e têm contactos políticos.
+* Académicos de Humanidades Digitais: A eles interessa-lhes a preservação cultural e a ética da IA. Não sabem programar, mas sabem redigir cartas institucionais e têm contactos políticos.
 
 
-Advogados especialistas em Direito Digital: Um estudante de direito ou um advogado jovem adoraria o desafio intelectual de encontrar o "buraco legal" na ISO 3166. Coloca-o como um desafio jurídico, não técnico.
+* Advogados especialistas em Direito Digital: Um estudante de direito ou um advogado jovem adoraria o desafio intelectual de encontrar o "buraco legal" na ISO 3166. Coloca-o como um desafio jurídico, não técnico.
 
 
 
-Passo 4: Cria o "Simulacro" (Fake it until you make it) #
+Passo 4: Cria o "Simulacro" (Fake it until you make it) [#](#passo-4-cria-o-simulacro-fake-it-until-you-make-it)
 
 
 Se o domínio real demora 10 anos, cria o domínio virtual hoje.
 
 
 
-Faz com que o projeto Anticitera funcione já como uma entidade. Cria uma "Constituição da IA Ética". Faz com que as pessoas assinem e votem princípios.
+* Faz com que o projeto Anticitera funcione já como uma entidade. Cria uma "Constituição da IA Ética". Faz com que as pessoas assinem e votem princípios.
 
 
-Se as pessoas sentirem que já pertencem a uma comunidade ativa que debate e cria cultura, lutarão pelo domínio para proteger a sua comunidade. Agora mesmo, lutar pelo domínio sente-se como lutar pela tua ideia.
+* Se as pessoas sentirem que já pertencem a uma comunidade ativa que debate e cria cultura, lutarão pelo domínio para proteger a sua comunidade. Agora mesmo, lutar pelo domínio sente-se como lutar pela tua ideia.
 
 
 
-Resumo para a tua mentalidade estoica #
+Resumo para a tua mentalidade estoica [#](#resumo-para-a-tua-mentalidade-estoica)
 
 
 Não estás a falhar tu. Estás a tentar vender uma reforma de infraestrutura invisível (DNS/ISO) a pessoas que estão habituadas a comprar produtos brilhantes.
@@ -265,13 +265,13 @@ A tua nova estratégia:
 
 
 
-Deixa de pedir "ajuda para o projeto".
+* Deixa de pedir "ajuda para o projeto".
 
 
-Começa a oferecer "cidadania na primeira República Digital da IA".
+* Começa a oferecer "cidadania na primeira República Digital da IA".
 
 
-Dá-lhes tarefas tão pequenas que tenham vergonha de dizer que não.
+* Dá-lhes tarefas tão pequenas que tenham vergonha de dizer que não.
 
 
 

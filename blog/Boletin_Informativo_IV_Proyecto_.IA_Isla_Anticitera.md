@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/blog/Boletin_Informativo_IV_Proyecto_.IA_Isla_
 
 ---
 
-Uniendo Fuerzas y Ganando Impulso #
+Uniendo Fuerzas y Ganando Impulso [#](#uniendo-fuerzas-y-ganando-impulso)
 
 
 Hola a todos,
@@ -13,7 +13,7 @@ Hola a todos,
 Con gran entusiasmo les presento el cuarto boletín informativo del Proyecto .IA Isla Anticitera. En las últimas semanas, hemos sido testigos de cómo la colaboración y el esfuerzo continuo están dando frutos, acercándonos cada vez más a nuestros objetivos.
 
 
-Un Agradecimiento Especial a Chema Alonso #
+Un Agradecimiento Especial a Chema Alonso [#](#un-agradecimiento-especial-a-chema-alonso)
 
 
 Queremos extender un agradecimiento muy especial a Chema Alonso, quien amablemente ha publicado nuestro nuevo video en su canal de YouTube. Gestos como el suyo son un pilar fundamental para la difusión de nuestro proyecto, permitiéndonos llegar a una audiencia más amplia y diversa. Vuestra generosidad y apoyo nos inspiran a seguir adelante.
@@ -22,13 +22,13 @@ Queremos extender un agradecimiento muy especial a Chema Alonso, quien amablemen
 
 
 
-Continuamos Tocando Puertas #
+Continuamos Tocando Puertas [#](#continuamos-tocando-puertas)
 
 
 Siguiendo nuestra estrategia de divulgación, hemos continuado contactando a personalidades relevantes en el sector de la informática y la inteligencia artificial. Aunque es un camino que requiere paciencia y perseverancia, cada conversación y cada nueva conexión nos enriquece y nos abre puertas para futuras colaboraciones. Estamos convencidos de que la suma de talento y experiencia es la clave para materializar la visión de Anticitera.
 
 
-El Proyecto Bajo la Lupa de la IA #
+El Proyecto Bajo la Lupa de la IA [#](#el-proyecto-bajo-la-lupa-de-la-ia)
 
 
 Un hecho fascinante de las últimas semanas ha sido ver cómo nuestro propio proyecto se ha convertido en objeto de estudio por parte de diversas inteligencias artificiales. Las recientes publicaciones en nuestro blog, donde modelos como Gemini, DeepSeek y otros analizan los fundamentos y objetivos del Proyecto Anticitera, no solo validan la relevancia de nuestra iniciativa, sino también nos proporcionan una valiosa retroalimentación.
@@ -40,5 +40,4 @@ Esta "meta-reflexión" nos impulsa a refinar nuestras ideas y nos confirma que e
 Gracias por seguir siendo parte de esta aventura.
 
 
-
-  ![Una representación del mecanismo de Anticitera, atravesado por finos hilos de circuitos, flotando sobre el mar frente a la isla de Anticitera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)
+[![Una representación del mecanismo de Anticitera, atravesado por finos hilos de circuitos, flotando sobre el mar frente a la isla de Anticitera.](https://anticitera.deft.work/img/AnticiteraIAoverSea.webp)](https://anticitera.deft.work)

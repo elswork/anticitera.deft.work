@@ -4,27 +4,27 @@ URL: https://anticitera.deft.work/pt/blog/Boletin_Informativo_II_Proyecto_.IA_Is
 
 ---
 
-Atualizações do Projeto #
+Atualizações do Projeto [#](#atualizacoes-do-projeto)
 
 
 Estas são as novidades do projeto desde a última newsletter em março.
 
 
-Que conquistas podemos destacar neste período? #
+Que conquistas podemos destacar neste período? [#](#que-conquistas-podemos-destacar-neste-periodo)
 
 
 
-Alcançamos 100 assinaturas na Petícia do Change.org.
+* Alcançamos 100 assinaturas na [Petícia do Change.org](https://chng.it/hqCyzBpwgW).
 
 
-Tentamos contactar personalidades e empresas relevantes, mas até agora não tivemos sucesso, mas não vamos desistir, tentaremos novamente por todos os meios disponíveis.
+* Tentamos contactar personalidades e empresas relevantes, mas até agora não tivemos sucesso, mas não vamos desistir, tentaremos novamente por todos os meios disponíveis.
 
 
-Criamos o canal do Telegram Discípulo Hacker de Arquimedes para ter uma conexão mais direta com você.
+* Criamos o canal do Telegram [Discípulo Hacker de Arquimedes](https://t.me/+oAeZGMsePDg2ZDI0) para ter uma conexão mais direta com você.
 
 
 
-Eventos e Atividades #
+Eventos e Atividades [#](#eventos-e-atividades)
 
 
 Vale destacar a entrevista realizada com Pablo Gutierrez no programa De Hacker a Hacker.
@@ -33,7 +33,7 @@ Vale destacar a entrevista realizada com Pablo Gutierrez no programa De Hacker a
 https://youtu.be/PNA0f05zsC4
 
 
-Contacto e Participação #
+Contacto e Participação [#](#contacto-e-participacao)
 
 
 Você é o nosso maior trunfo, participe na web criando um Pull Request ou Issue, junte-se ao nosso canal do Telegram, envie-nos a sua opinião, sugestões ou ideias para levar o projeto ao próximo nível ou simplesmente responda a este email.
@@ -45,8 +45,7 @@ Colaborações Estratégicas: Estabelecer contactos e relacionamentos com entida
 Divulgação e Promoção: Ajude a divulgar a ideia partilhando-a nas redes sociais e noutros canais.
 
 
-Projeto Ilha Antikythera .IA
+[Projeto Ilha Antikythera .IA](https://anticitera.deft.work)
 
 
-
-  ![Um teclado de computador retroiluminado a vermelho, com um mapa-múndi ao fundo mostrando nós coloridos interligados.](https://anticitera.deft.work/img/TecladoyPaises.webp)
+[![Um teclado de computador retroiluminado a vermelho, com um mapa-múndi ao fundo mostrando nós coloridos interligados.](https://anticitera.deft.work/img/TecladoyPaises.webp)](https://anticitera.deft.work)

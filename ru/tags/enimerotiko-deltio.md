@@ -1,5 +1,5 @@
 # Записи с тегом “ενημερωτικό δελτίο”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/tags/enimerotiko-deltio/
 
 ---
@@ -15,4 +15,4 @@ URL: https://anticitera.deft.work/ru/tags/enimerotiko-deltio/
 
 
 
-Посмотреть все теги.
+Посмотреть [все теги](https://anticitera.deft.work/ru/tags.md).

@@ -10,7 +10,7 @@ The first company to formally sponsor a sporting event was a railroad company in
 More than 170 years separate us from that moment, the number of companies has grown considerably and we are in the midst of the Artificial Intelligence era. There is a question that echoes in my head, which will be the first?, which will be the first company/organization/institution to sponsor the "Antikythera Project"?
 
 
-This question comes from behind, on several occasions I have already speculated with this idea, one of the favorite candidates is Telefónica which is celebrating its centenary. But the list of potential suitors to leave their mark on the history of technological patronage is long and diverse, ranging from global giants to entities deeply rooted in the Spanish and European landscape.
+This question comes from behind, on several occasions I have already speculated with this idea, one of the favorite candidates is [Telefónica](https://www.telefonica.com/es/) which is celebrating its centenary. But the list of potential suitors to leave their mark on the history of technological patronage is long and diverse, ranging from global giants to entities deeply rooted in the Spanish and European landscape.
 
 
 The Antikythera Project, with its ambition to establish the .IA domain for the island of Antikythera not only as a geographical identifier, but as a thematic and symbolic bridge between the amazing innovation of the Antikythera mechanism and the current field of artificial intelligence, offers a unique showcase.
@@ -23,19 +23,19 @@ List of possible candidates:
 
 
 
-The Global Tech Giants (Google, Microsoft, Nvidia): They are undisputed leaders in the research and application of Artificial Intelligence. Sponsoring the Antikythera Project would allow them to associate their brand directly with the conceptual origins of computing and AI, projecting an image of respect for the history of technology and leadership in its evolution. It would be a global statement about their vision of the digital future rooted in ancient human ingenuity.
+* The Global Tech Giants ([Google](https://www.google.es/), [Microsoft](https://www.microsoft.com/es-es), [Nvidia](https://www.nvidia.com/es-es/)): They are undisputed leaders in the research and application of Artificial Intelligence. Sponsoring the Antikythera Project would allow them to associate their brand directly with the conceptual origins of computing and AI, projecting an image of respect for the history of technology and leadership in its evolution. It would be a global statement about their vision of the digital future rooted in ancient human ingenuity.
 
 
-The Spanish Consulting and Technology Companies (Telefónica, Minsait, Sngular, Paradigma Digital): These companies are at the forefront of digital transformation and the implementation of AI solutions in Spain. For them, sponsorship could be a way to highlight their commitment to innovation from a local perspective with global resonance. Telefónica, in its centenary, could find in this project an original way to celebrate its trajectory, linking its history as a pillar of communications with the future of AI, all under the umbrella of an initiative that uses an internet domain to connect past and future. It would be a way of saying: "We have been here since the beginning of the communication era and we are leading the AI era, respecting where we come from".
+* The Spanish Consulting and Technology Companies ([Telefónica](https://www.telefonica.com/es/), [Minsait](https://www.minsait.com/es), [Sngular](https://www.sngular.com/), [Paradigma Digital](https://www.paradigmadigital.com/)): These companies are at the forefront of digital transformation and the implementation of AI solutions in Spain. For them, sponsorship could be a way to highlight their commitment to innovation from a local perspective with global resonance. Telefónica, in its centenary, could find in this project an original way to celebrate its trajectory, linking its history as a pillar of communications with the future of AI, all under the umbrella of an initiative that uses an internet domain to connect past and future. It would be a way of saying: "We have been here since the beginning of the communication era and we are leading the AI era, respecting where we come from".
 
 
-Banking and Energy (Santander, BBVA, CaixaBank, Repsol): Although traditionally not associated with internet domains or the history of computing, these large corporations are intensive users of AI to optimize processes, analyze data and improve the customer experience. Sponsoring a project like this could be a powerful statement of their commitment to innovation, their interest in the transformative potential of AI and their willingness to support initiatives that, although apparently niche, have a deep conceptual and cultural basis. It would allow them to show a facet beyond their main business, linked to technological and cultural progress.
+* Banking and Energy ([Santander](https://www.santander.com/es/home), [BBVA](https://www.bbva.es/personas.html), [CaixaBank](https://www.caixabank.com/es/home_es.html), [Repsol](https://www.repsol.com/es/index.cshtml)): Although traditionally not associated with internet domains or the history of computing, these large corporations are intensive users of AI to optimize processes, analyze data and improve the customer experience. Sponsoring a project like this could be a powerful statement of their commitment to innovation, their interest in the transformative potential of AI and their willingness to support initiatives that, although apparently niche, have a deep conceptual and cultural basis. It would allow them to show a facet beyond their main business, linked to technological and cultural progress.
 
 
-Institutions and Entities related to AI and Research (GAIA-X, Odiseia, Ellis): Here the connection is more direct. GAIA-X and Ellis are European initiatives focused on data and AI. Odiseia works on responsible AI. Sponsoring the Antikythera Project, which uses a .IA domain and seeks to highlight the "origins almost of computing or artificial intelligence", would be a perfect alignment with their missions.
+* Institutions and Entities related to AI and Research (GAIA-X, Odiseia, Ellis): Here the connection is more direct. GAIA-X and Ellis are European initiatives focused on data and AI. Odiseia works on responsible AI. Sponsoring the Antikythera Project, which uses a .IA domain and seeks to highlight the "origins almost of computing or artificial intelligence", would be a perfect alignment with their missions.
 
 
-Others: Such as Freepik a Spanish startup specializing in AI for images or perhaps a small and unknown company from any industrial sector, that knows how to appreciate the real potential of the project.
+* Others: Such as [Freepik](https://www.freepik.es/) a Spanish startup specializing in AI for images or perhaps a small and unknown company from any industrial sector, that knows how to appreciate the real potential of the project.
 
 
 
@@ -55,16 +55,16 @@ Join us to write the next chapter of technological innovation.
 
 
 
-By sharing the initiative with whomever you see fit or on social media.
+* By sharing the initiative with whomever you see fit or on social media.
 
 
-By signing the petition on Change.org
+* [By signing the petition on Change.org](https://chng.it/hqCyzBpwgW)
 
 
-By subscribing to the newsletter to stay informed of progress.
+* [By subscribing to the newsletter](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link%27) to stay informed of progress.
 
 
-By joining the Telegram discussion room
+* [By joining the Telegram discussion room](https://t.me/+oAeZGMsePDg2ZDI0)
 
 
 

@@ -1,5 +1,5 @@
 # Με ετικέτα "αρχιμήδης"
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/tags/arximidis/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/el/tags/arximidis/
 
 
 
-	
-		Αρχιμήδης ο Συρακούσιος.
+	* 
+		[Αρχιμήδης ο Συρακούσιος.](https://anticitera.deft.work/el/blog/Arquimedes_de_Siracusa.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/el/tags/arximidis/
 
 
 
-Δείτε όλες τις ετικέτες.
+Δείτε [όλες τις ετικέτες](https://anticitera.deft.work/el/tags.md).

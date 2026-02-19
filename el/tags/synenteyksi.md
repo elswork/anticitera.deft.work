@@ -1,5 +1,5 @@
 # Με ετικέτα "συνέντευξη"
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/tags/synenteyksi/
 
 ---
@@ -12,15 +12,15 @@ URL: https://anticitera.deft.work/el/tags/synenteyksi/
 
 
 
-	
-		Συνέντευξη με το Anticitera GPTs προωθητή του Έργου .IA Νήσου Αντικυθήρων
+	* 
+		[Συνέντευξη με το Anticitera GPTs προωθητή του Έργου .IA Νήσου Αντικυθήρων](https://anticitera.deft.work/el/blog/Entrevista_con_Anticitera_por_Gemini.md)
 		August 2024
 	
 
 
 
-	
-		Συνέντευξη με τον Eloy López, εμπνευστή του Έργου .IA Νήσος Αντικύθηρα
+	* 
+		[Συνέντευξη με τον Eloy López, εμπνευστή του Έργου .IA Νήσος Αντικύθηρα](https://anticitera.deft.work/el/blog/Entrevista_con_Eloy_López_Impulsor_Proyecto_IA_Isla_Anticitera.md)
 		June 2024
 	
 
@@ -29,4 +29,4 @@ URL: https://anticitera.deft.work/el/tags/synenteyksi/
 
 
 
-Δείτε όλες τις ετικέτες.
+Δείτε [όλες τις ετικέτες](https://anticitera.deft.work/el/tags.md).

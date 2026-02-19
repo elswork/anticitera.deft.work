@@ -8,7 +8,7 @@ Künstliche Intelligenz ist eine der größten Revolutionen des 21. Jahrhunderts
 
 
 
-1. Der Antikythera-Mechanismus: Eine Maschine aus einer anderen Zeit #
+1. Der Antikythera-Mechanismus: Eine Maschine aus einer anderen Zeit [#](#1-der-antikythera-mechanismus-eine-maschine-aus-einer-anderen-zeit)
 
 
 Der Antikythera-Mechanismus ist ein komplexer astronomischer Computer aus dem antiken Griechenland, der zwischen dem 2. Jahrhundert v. Chr. und dem 1. Jahrhundert v. Chr. datiert wird. Sein Maß an Präzision und mechanischem Design war so fortschrittlich, dass etwas Vergleichbares erst mehr als 1.500 Jahre später mit den ersten astronomischen Uhren des mittelalterlichen Europas zu sehen war.
@@ -18,13 +18,13 @@ Der Antikythera-Mechanismus ist ein komplexer astronomischer Computer aus dem an
 
 
 
-Bestehend aus mehr als 30 Bronzerädern mit erstaunlicher Präzision.
+* Bestehend aus mehr als 30 Bronzerädern mit erstaunlicher Präzision.
 
 
-Sagt Finsternisse, Mondphasen und Planetenbewegungen voraus.
+* Sagt Finsternisse, Mondphasen und Planetenbewegungen voraus.
 
 
-Verwendet ein ausgeklügeltes mathematisches Modell, um den Kosmos darzustellen.
+* Verwendet ein ausgeklügeltes mathematisches Modell, um den Kosmos darzustellen.
 
 
 
@@ -32,47 +32,47 @@ Dieses Artefakt zeigt, dass die Menschheit bereits versuchte, Wissen zu automati
 
 
 
-2. Welche Beziehung hat es zur KI? #
+2. Welche Beziehung hat es zur KI? [#](#2-welche-beziehung-hat-es-zur-ki)
 
 
 Obwohl der Antikythera-Mechanismus keine künstliche Intelligenz im heutigen Sinne ist, teilt er mit ihr Schlüsselprinzipien:
 
 
-🔵 Automatisierung von Wissen #
+🔵 Automatisierung von Wissen [#](#automatisierung-von-wissen)
 
 
 
-So wie heutige KI-Modelle Daten verarbeiten, um Vorhersagen zu treffen, analysierte der Antikythera-Mechanismus astronomische Muster und wandelte sie in nützliche Informationen um.
+* So wie heutige KI-Modelle Daten verarbeiten, um Vorhersagen zu treffen, analysierte der Antikythera-Mechanismus astronomische Muster und wandelte sie in nützliche Informationen um.
 
 
-Dieser Prozess der Simulation der Realität durch ein mathematisches Modell ist derselbe, den moderne KIs verwenden, um Bilder zu erkennen, Sprachen zu übersetzen oder Text zu generieren.
-
-
-
-🔵 Frühe algorithmische Ingenieurskunst #
+* Dieser Prozess der Simulation der Realität durch ein mathematisches Modell ist derselbe, den moderne KIs verwenden, um Bilder zu erkennen, Sprachen zu übersetzen oder Text zu generieren.
 
 
 
-Der Mechanismus verwendete mechanische Algorithmen, die auf Zahnrädern basierten und eine Eingabe (ein Datum) in eine Ausgabe (Planetenposition, Finsternisse usw.) umwandelten.
-
-
-Dieses Konzept ist analog dazu, wie KI-Algorithmen Eingabedaten in intelligente Vorhersagen umwandeln.
+🔵 Frühe algorithmische Ingenieurskunst [#](#fruehe-algorithmische-ingenieurskunst)
 
 
 
-🔵 Ein datengesteuertes Entscheidungssystem #
+* Der Mechanismus verwendete mechanische Algorithmen, die auf Zahnrädern basierten und eine Eingabe (ein Datum) in eine Ausgabe (Planetenposition, Finsternisse usw.) umwandelten.
+
+
+* Dieses Konzept ist analog dazu, wie KI-Algorithmen Eingabedaten in intelligente Vorhersagen umwandeln.
 
 
 
-Der Mechanismus ermöglichte die genaue Vorhersage astronomischer Ereignisse und half bei der Planung von Ernten, religiösen Festen und Seeexpeditionen.
-
-
-Heute wird KI in den Bereichen Finanzen, Medizin und Wissenschaft eingesetzt, um fundierte Entscheidungen auf der Grundlage von Daten zu treffen, so wie sich die alten Griechen auf den Antikythera-Mechanismus verließen.
+🔵 Ein datengesteuertes Entscheidungssystem [#](#ein-datengesteuertes-entscheidungssystem)
 
 
 
+* Der Mechanismus ermöglichte die genaue Vorhersage astronomischer Ereignisse und half bei der Planung von Ernten, religiösen Festen und Seeexpeditionen.
 
-3. Von der Vergangenheit in die Zukunft: Das Erbe von Antikythera in der modernen KI #
+
+* Heute wird KI in den Bereichen Finanzen, Medizin und Wissenschaft eingesetzt, um fundierte Entscheidungen auf der Grundlage von Daten zu treffen, so wie sich die alten Griechen auf den Antikythera-Mechanismus verließen.
+
+
+
+
+3. Von der Vergangenheit in die Zukunft: Das Erbe von Antikythera in der modernen KI [#](#3-von-der-vergangenheit-in-die-zukunft-das-erbe-von-antikythera-in-der-modernen-ki)
 
 
 Der Antikythera-Mechanismus hinterlässt uns eine starke Lehre: Die Menschheit hat immer versucht, Werkzeuge zu schaffen, um Informationen zu verarbeiten und Vorhersagen zu treffen. Die moderne KI ist nichts anderes als die Weiterentwicklung dieses uralten Wunsches.

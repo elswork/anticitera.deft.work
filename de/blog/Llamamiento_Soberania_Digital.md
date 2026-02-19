@@ -4,19 +4,19 @@ URL: https://anticitera.deft.work/de/blog/Llamamiento_Soberania_Digital/
 
 ---
 
-Digitale Souveränität wird nicht erbeten, sie wird auf Standards aufgebaut. #
+Digitale Souveränität wird nicht erbeten, sie wird auf Standards aufgebaut. [#](#digitale-souveraenitaet-wird-nicht-erbeten-sie-wird-auf-standards-aufgebaut)
 
 
 Wir befinden uns an einem historischen Wendepunkt. Die Internetinfrastruktur ist nicht neutral; sie ist ein geopolitisches Schlachtfeld. Während globale Mächte ihre digitalen Vermögenswerte sichern, läuft Europa Gefahr, die Kontrolle über die kritischste Kennung der kommenden Jahrzehnte zu verlieren: das Suffix .ia.
 
 
-Das Problem: Erfassung der .IA-Kennung #
+Das Problem: Erfassung der .IA-Kennung [#](#das-problem-erfassung-der-ia-kennung)
 
 
 Derzeit ist der Code "IA" nicht in der offiziellen ISO 3166-1-Liste zugewiesen. Dies macht ihn zu einem "digitalen Neuland". Wenn wir nicht handeln, wird dieser Code von privaten Interessen oder Gerichtsbarkeiten außerhalb des Rechtsrahmens der Europäischen Union besetzt (wie es bei .ai unter der Kontrolle von Anguilla der Fall war).
 
 
-Die Lösung: Ein beispielloses rechtliches Manöver #
+Die Lösung: Ein beispielloses rechtliches Manöver [#](#die-loesung-ein-beispielloses-rechtliches-manoever)
 
 
 Das Antikythera-Projekt schlägt eine kühne, aber technisch machbare Strategie vor: Die Nutzung des Mechanismus der Europäischen Bürgerinitiative (EBI), um die Kommission aufzufordern, mit der ISO über die Zuweisung des Codes „IA“ an die Region Anticitera (Griechenland) unter dem Status einer „Ausnahmereservierung“ (Exceptional Reservation) zu verhandeln.
@@ -25,7 +25,7 @@ Das Antikythera-Projekt schlägt eine kühne, aber technisch machbare Strategie 
 Dies ist nicht symbolisch. Es ist rechtliches Engineering, um die Governance der Domain für Künstliche Intelligenz unter das Dach der DSGVO und der europäischen Werte zu bringen.
 
 
-Wir suchen Sie: Ingenieur, Jurist, Stratege. #
+Wir suchen Sie: Ingenieur, Jurist, Stratege. [#](#wir-suchen-sie-ingenieur-jurist-stratege)
 
 
 Um diese Initiative bei der Europäischen Kommission zu registrieren, müssen wir eine strikte bürokratische Anforderung erfüllen: die Bildung eines Bürgerausschusses, der aus 7 Personen mit Wohnsitz in 7 verschiedenen Mitgliedstaaten besteht.
@@ -37,40 +37,40 @@ Die Infrastruktur steht bereit. Die rechtliche Strategie ist ausgearbeitet. Uns 
 Wir suchen keine Finanzierung. Wir suchen technische Legitimität und bürgerschaftliches Engagement.
 
 
-Profil des Mitorganisators (Archon) #
+Profil des Mitorganisators (Archon) [#](#profil-des-mitorganisators-archon)
 
 
 
-Staatsbürgerschaft: Reisepass eines EU-Mitgliedstaates (außer Spanien, das bereits vertreten ist).
+* Staatsbürgerschaft: Reisepass eines EU-Mitgliedstaates (außer Spanien, das bereits vertreten ist).
 
 
-Profil: Telekommunikationstechnik, Digitalrecht, Cybersicherheit, KI-Forschung ...
+* Profil: Telekommunikationstechnik, Digitalrecht, Cybersicherheit, KI-Forschung ...
 
 
-Rolle: Validierung der Initiative gegenüber der Kommission (sicheres Online-Verfahren) und Überwachung der Ethik des Projekts.
+* Rolle: Validierung der Initiative gegenüber der Kommission (sicheres Online-Verfahren) und Überwachung der Ethik des Projekts.
 
 
 
-Warum sollten Sie teilnehmen? #
+Warum sollten Sie teilnehmen? [#](#warum-sollten-sie-teilnehmen)
 
 
 Weil die Geschichte der Technologie durch die Definition von Standards geschrieben wird. Als Mitorganisator dieser EBI setzen Sie Ihren Namen unter das Gründungsdokument, das die digitale Identität der europäischen KI gesichert hat.
 
 
-Zugang zum Strategischen Forum (Eingeschränkt) #
+Zugang zum Strategischen Forum (Eingeschränkt) [#](#zugang-zum-strategischen-forum-eingeschraenkt)
 
 
 Wir haben einen technischen Debattenraum eingerichtet, um die Registrierung zu koordinieren und die Standardisierungsstrategie mit ELOT/CEN zu diskutieren.
 
 
-👉 Zur Debatte im EBI-Forum
+👉 [Zur Debatte im EBI-Forum](https://citizens-initiative-forum.europa.eu/discussion-forum/idea/european-digital-sovereignty-establishment-antikythera-technology-district_en)
 (Hinweis: Registrierung im EU-System erforderlich. Wenn Sie dem gesuchten Profil entsprechen, wissen Sie, wie dies funktioniert).
 
 
 ![Ausschuss für digitale europäische Souveränität](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
-Direkter Kontakt #
+Direkter Kontakt [#](#direkter-kontakt)
 
 
 Wenn Sie die Tragweite unseres Vorschlags verstehen, wenden Sie sich direkt an die Projektkoordination, um das vollständige technische Dossier zu erhalten.

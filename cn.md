@@ -1,5 +1,5 @@
 # cn
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/
 
 ---
@@ -13,22 +13,22 @@ URL: https://anticitera.deft.work/cn/
 
 
 
-	
-		欧洲数字主权：致 .IA 欧洲公民倡议委员会的呼吁
+	* 
+		[欧洲数字主权：致 .IA 欧洲公民倡议委员会的呼吁](https://anticitera.deft.work/cn/blog/Llamamiento_Soberania_Digital.md)
 		January 2026
 	
 
 
 
-	
-		AI 如何看待安提基特拉项目的代码
+	* 
+		[AI 如何看待安提基特拉项目的代码](https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
 		December 2025
 	
 
 
 
-	
-		与 Gemini 3.0 Pro 的第一次工作会议
+	* 
+		[与 Gemini 3.0 Pro 的第一次工作会议](https://anticitera.deft.work/cn/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
 		November 2025
 	
 
@@ -39,4 +39,4 @@ URL: https://anticitera.deft.work/cn/
 
 
 
-更多 21 篇文章可以在存档中找到。
+更多 21 篇文章可以在[存档](https://anticitera.deft.work/cn/blog.md)中找到。

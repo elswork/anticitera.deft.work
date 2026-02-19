@@ -1,5 +1,5 @@
 # Записи с тегом “arquímedes”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/tags/arquimedes/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/ru/tags/arquimedes/
 
 
 
-	
-		Архимед из Сиракуз.
+	* 
+		[Архимед из Сиракуз.](https://anticitera.deft.work/ru/blog/Arquimedes_de_Siracusa.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/ru/tags/arquimedes/
 
 
 
-Посмотреть все теги.
+Посмотреть [все теги](https://anticitera.deft.work/ru/tags.md).

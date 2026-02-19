@@ -1,5 +1,5 @@
 # 标签“digital-sovereignty”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/tags/digital-sovereignty/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/cn/tags/digital-sovereignty/
 
 
 
-	
-		欧洲数字主权：致 .IA 欧洲公民倡议委员会的呼吁
+	* 
+		[欧洲数字主权：致 .IA 欧洲公民倡议委员会的呼吁](https://anticitera.deft.work/cn/blog/Llamamiento_Soberania_Digital.md)
 		January 2026
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/cn/tags/digital-sovereignty/
 
 
 
-查看所有标签。
+查看[所有标签](https://anticitera.deft.work/cn/tags.md)。

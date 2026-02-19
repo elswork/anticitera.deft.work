@@ -4,10 +4,10 @@ URL: https://anticitera.deft.work/blog/Gemini-Análisis_detallado_del_Proyecto_.
 
 ---
 
-Vamos a realizar un análisis exhaustivo con Gemini Deep Research del sitio web https://anticitera.deft.work
+Vamos a realizar un análisis exhaustivo con Gemini Deep Research del sitio web [https://anticitera.deft.work](https://anticitera.deft.workanticitera.deft.work.md)
 
 
-El Proyecto Anticitera: Uniendo la Ingeniería Antigua y el Futuro de la Inteligencia Artificial #
+El Proyecto Anticitera: Uniendo la Ingeniería Antigua y el Futuro de la Inteligencia Artificial [#](#el-proyecto-anticitera-uniendo-la-ingenieria-antigua-y-el-futuro-de-la-inteligencia-artificial)
 
 
 El proyecto Anticitera se presenta como una iniciativa innovadora con el objetivo central de establecer un nuevo Dominio de Nivel Superior de Código de País (ccTLD) ".IA" asociado al territorio de la isla de Anticitera 1. Esta empresa se inspira en el mecanismo de Anticitera, considerado el primer computador analógico de la historia, erigiéndose como un símbolo de los albores de la inteligencia artificial y la innovación tecnológica 1. La trascendencia de este artefacto antiguo, descubierto en las profundidades marinas cerca de la isla griega, radica en su sofisticación y capacidad para calcular fenómenos astronómicos, lo que desafía nuestra comprensión de las capacidades tecnológicas del mundo antiguo 2. El proyecto Anticitera busca capitalizar esta rica herencia, proponiendo que la isla, cuna de este prodigio mecánico, sea reconocida en el espacio digital a través de un dominio que evoque los orígenes de la computación y la inteligencia 1.
@@ -22,7 +22,7 @@ Un aspecto fundamental de la propuesta del proyecto Anticitera es la intención 
 Para apoyar esta iniciativa, el proyecto Anticitera ha desarrollado el Asistente Anticitera por OpenAI 1. Esta herramienta se presenta como un recurso valioso para la creación de proyectos tecnológicos vinculados al dominio ".IA", demostrando un enfoque proactivo para fomentar la utilidad y la adopción del nuevo dominio 1. La existencia de este asistente, junto con la visión de construir una comunidad activa, sugiere que el proyecto no se limita a la solicitud de un dominio, sino que busca activamente construir una infraestructura de apoyo para su uso y crecimiento. El presente informe analizará en detalle los diversos aspectos del proyecto Anticitera, desde su inspiración histórica hasta sus objetivos presentes y su potencial impacto futuro.
 
 
-Desvelando la Visión: Propósito y Objetivos de la Iniciativa del Dominio .IA #
+Desvelando la Visión: Propósito y Objetivos de la Iniciativa del Dominio .IA [#](#desvelando-la-vision-proposito-y-objetivos-de-la-iniciativa-del-dominio-ia)
 
 
 El propósito primordial del proyecto Anticitera es la creación de ".IA" como un nuevo Dominio de Nivel Superior de Código de País (ccTLD) específicamente para la isla de Anticitera 1. Esta iniciativa se fundamenta en el reconocimiento de la profunda significación histórica de la isla en relación con los orígenes de la inteligencia artificial y la innovación tecnológica 1. La elección de Anticitera no es casual; la isla es célebre por el descubrimiento del mecanismo de Anticitera, un artefacto de más de dos mil años de antigüedad que se considera la primera computadora analógica de la humanidad 14. Este vínculo histórico y simbólico es el pilar sobre el que se construye la propuesta del dominio ".IA", buscando establecer una conexión entre la ingeniería computacional del pasado y el desarrollo de la inteligencia artificial en el presente y el futuro 1. La iniciativa busca que este ccTLD no sea solo una dirección en internet, sino un símbolo de la perdurable capacidad humana para la innovación en el campo de la computación.
@@ -37,10 +37,10 @@ Una de las motivaciones centrales detrás de la propuesta del dominio ".IA" es l
 Como un paso concreto hacia la realización de su visión, el proyecto Anticitera ha desarrollado el Asistente Anticitera por OpenAI 1. Esta herramienta de inteligencia artificial está diseñada específicamente para ayudar en la creación de proyectos tecnológicos relacionados con el dominio ".IA" 1. La existencia de este asistente no solo proporciona un recurso práctico para los futuros usuarios del dominio ".IA", sino que también subraya el compromiso del proyecto con la innovación y el fomento de una comunidad activa en torno a su propuesta 1. Al ofrecer una herramienta que facilita el desarrollo de proyectos dentro del ecosistema ".IA", el proyecto Anticitera busca incentivar la adopción del nuevo dominio y construir un entorno en línea donde la inteligencia artificial pueda florecer en un contexto multilingüe y culturalmente rico.
 
 
-Deconstruyendo la Presencia Digital: Análisis del Sitio Web (UI/UX, Características y Funcionalidades) #
+Deconstruyendo la Presencia Digital: Análisis del Sitio Web (UI/UX, Características y Funcionalidades) [#](#deconstruyendo-la-presencia-digital-analisis-del-sitio-web-ui-ux-caracteristicas-y-funcionalidades)
 
 
-El sitio web del proyecto .IA Isla Anticitera (https://Anticitera.deft.work) presenta un diseño limpio y directo en su página de inicio 1. La navegación principal se encuentra claramente visible en la parte superior, ofreciendo acceso a las secciones de "Inicio", "Blog", "Proyecto", "Links", "Podcasts" y "X" 1. La inclusión de un enlace "Skip to main content" es una práctica positiva que mejora la accesibilidad para usuarios que utilizan lectores de pantalla 1. Inmediatamente debajo de la introducción principal, se muestran las tres últimas publicaciones del blog, facilitando el descubrimiento de contenido reciente 1. Sin embargo, no se observa una funcionalidad de búsqueda de forma inmediata, lo que podría dificultar ligeramente la usabilidad para usuarios que buscan información específica rápidamente 1. En el pie de página, se encuentran iconos que enlazan a las redes sociales, lo que contribuye al atractivo visual y facilita el reconocimiento de estos enlaces 1.
+El sitio web del proyecto .IA Isla Anticitera ([https://Anticitera.deft.work](https://anticitera.deft.work)) presenta un diseño limpio y directo en su página de inicio 1. La navegación principal se encuentra claramente visible en la parte superior, ofreciendo acceso a las secciones de "Inicio", "Blog", "Proyecto", "Links", "Podcasts" y "X" 1. La inclusión de un enlace "Skip to main content" es una práctica positiva que mejora la accesibilidad para usuarios que utilizan lectores de pantalla 1. Inmediatamente debajo de la introducción principal, se muestran las tres últimas publicaciones del blog, facilitando el descubrimiento de contenido reciente 1. Sin embargo, no se observa una funcionalidad de búsqueda de forma inmediata, lo que podría dificultar ligeramente la usabilidad para usuarios que buscan información específica rápidamente 1. En el pie de página, se encuentran iconos que enlazan a las redes sociales, lo que contribuye al atractivo visual y facilita el reconocimiento de estos enlaces 1.
 
 
 La sección del blog del proyecto Anticitera presenta una lista de publicaciones ordenadas cronológicamente de forma inversa, mostrando primero las más recientes 20. Cada entrada incluye el título de la publicación y el mes y año de su publicación 20. La usabilidad de esta sección es sencilla, ya que el formato de lista permite escanear fácilmente los artículos disponibles. Los títulos son claros, lo que ayuda a los usuarios a comprender rápidamente el tema de cada publicación, y las fechas proporcionadas permiten identificar el contenido reciente 20. El atractivo visual de la sección del blog es minimalista, consistiendo en una simple lista de enlaces 20. Si bien es limpio y funcional, carece de elementos visuales que podrían hacerlo más atractivo. La inclusión de ".IA Isla Anticitera © 2025" en la parte inferior proporciona una clara indicación del origen del blog y el año actual 20. No obstante, se identifican áreas de mejora potencial, como la adición de imágenes en miniatura o extractos para cada publicación, lo que podría mejorar el atractivo visual y proporcionar más contexto a los usuarios antes de hacer clic en un título. La implementación de un sistema de categorías o etiquetas permitiría a los usuarios filtrar y encontrar contenido relevante según sus intereses específicos dentro del tema general del proyecto .IA Isla Anticitera. La inclusión de una funcionalidad de búsqueda dentro de la sección del blog mejoraría significativamente la usabilidad para los usuarios que buscan información específica. Si bien se proporciona el mes y el año, incluir el día de la publicación podría ser beneficioso para los usuarios que necesitan información más precisa sobre la actualidad de una publicación. Finalmente, el uso de encabezados u otras señales visuales para separar mejor las publicaciones del blog podría mejorar la legibilidad 20.
@@ -141,7 +141,7 @@ Accesibilidad
 
 
 
-La Fundación Tecnológica: Comprendiendo la Creación de un Nuevo ccTLD #
+La Fundación Tecnológica: Comprendiendo la Creación de un Nuevo ccTLD [#](#la-fundacion-tecnologica-comprendiendo-la-creacion-de-un-nuevo-cctld)
 
 
 La tecnología fundamental detrás del proyecto Anticitera, más allá de la infraestructura del sitio web, radica en el proceso de establecimiento de un nuevo Dominio de Nivel Superior de Código de País (ccTLD) 1. La creación y gestión de los ccTLD están supervisadas por la Autoridad de Números Asignados de Internet (IANA) y la Corporación de Internet para la Asignación de Nombres y Números (ICANN) 18. IANA, que forma parte de ICANN, es la responsable de coordinar los identificadores únicos globales de internet 18. El proceso para otorgar un ccTLD a una región geográfica requiere una solicitud detallada a ICANN, demostrando cómo el dominio deseado se alinea con la identidad del país o territorio y justificando su necesidad 25. ICANN e IANA evalúan esta solicitud utilizando criterios de elegibilidad específicos, considerando factores clave como la identidad nacional o territorial única de la región, una necesidad genuina del dominio y la capacidad de la región para gestionarlo y mantenerlo de manera eficiente 25. Una vez aprobada la solicitud, ICANN e IANA trabajan en estrecha colaboración con la autoridad designada de la región solicitante para finalizar los términos y responsabilidades, integrando posteriormente el ccTLD en el sistema global de nombres de dominio 25.
@@ -156,10 +156,10 @@ Los pasos generales para obtener un ccTLD implican la presentación de una solic
 Si bien no es directamente aplicable al ".IA", existe un Proceso Acelerado para ccTLD con IDN (Nombres de Dominio Internacionalizados) para países que utilizan escrituras no latinas 24, lo que demuestra la flexibilidad de ICANN para adaptarse a diversas necesidades lingüísticas. Finalmente, el concepto de pseudo-ccTLD, que imita a los dominios oficiales sin reconocimiento formal 24, subraya la importancia de la ambición del proyecto Anticitera por obtener un reconocimiento oficial para el dominio ".IA".
 
 
-El Elemento Humano: Explorando el Equipo y la Comunidad Detrás de Anticitera #
+El Elemento Humano: Explorando el Equipo y la Comunidad Detrás de Anticitera [#](#el-elemento-humano-explorando-el-equipo-y-la-comunidad-detras-de-anticitera)
 
 
-La información disponible en el sitio web del proyecto sobre el equipo u organización detrás de la iniciativa es limitada 1. Si bien se menciona una "comunidad de personas" involucrada en el proyecto 1, no existe una sección dedicada que describa al equipo u organización en detalle. Sin embargo, el repositorio de GitHub del proyecto (https://github.com/elswork/anticitera.deft.work) se presenta como una fuente potencial de información sobre los colaboradores y el desarrollo del proyecto 19. La existencia de este repositorio en una plataforma de colaboración de código abierto sugiere un enfoque comunitario y participativo en la iniciativa, lo que implica que el proyecto se impulsa más por un esfuerzo colectivo que por una estructura organizacional jerárquica tradicional.
+La información disponible en el sitio web del proyecto sobre el equipo u organización detrás de la iniciativa es limitada 1. Si bien se menciona una "comunidad de personas" involucrada en el proyecto 1, no existe una sección dedicada que describa al equipo u organización en detalle. Sin embargo, el repositorio de GitHub del proyecto ([https://github.com/elswork/anticitera.deft.work](https://github.com/elswork/anticitera.deft.work)) se presenta como una fuente potencial de información sobre los colaboradores y el desarrollo del proyecto 19. La existencia de este repositorio en una plataforma de colaboración de código abierto sugiere un enfoque comunitario y participativo en la iniciativa, lo que implica que el proyecto se impulsa más por un esfuerzo colectivo que por una estructura organizacional jerárquica tradicional.
 
 
 El repositorio de GitHub contiene una variedad de información relevante, incluyendo los objetivos del proyecto, que se centran en la promoción de la creación y adopción del ccTLD .IA, destacando la importancia histórica y cultural del mecanismo de Anticitera y fomentando la colaboración 19. También se detallan las formas en que las personas pueden contribuir al proyecto, como la participación en una lista de correo, la colaboración estratégica y la difusión y promoción a través de redes sociales como Facebook, X/Twitter, LinkedIn y WhatsApp 19. Además, el repositorio incluye enlaces importantes al Asistente Anticitera de OpenAI, un formulario de reserva para dominios .IA, la lista oficial de reservas, una tabla de personas y organizaciones involucradas, propuestas para la creación del ccTLD .IA en Change.org y el Foro de la Iniciativa Ciudadana Europea, y un enlace de suscripción a la lista de correo 19. La estructura del repositorio revela una organización lógica del proyecto, con directorios para "Posts" (artículos del blog), "_site" (configuración del sitio web) y "Origen" (enlaces que detallan la historia y relevancia de la isla de Anticitera y su relación con la inteligencia artificial) 19. También se proporcionan enlaces a artículos y entrevistas que discuten el proyecto desde diversas perspectivas, así como información sobre la licencia del repositorio (MIT), los temas relacionados (inteligencia artificial, cctld, gpts, openai-chatgpt, isla-anticitera) y un enlace al archivo README 19. La presencia de un problema abierto en el repositorio sugiere que el proyecto se encuentra en una fase activa de desarrollo y discusión 19.
@@ -168,7 +168,7 @@ El repositorio de GitHub contiene una variedad de información relevante, incluy
 La inclusión de propuestas para la creación del ccTLD .IA en plataformas como Change.org y el Foro de la Iniciativa Ciudadana Europea indica un esfuerzo por parte del proyecto para obtener un apoyo público y político más amplio para su iniciativa 19. El uso de estas plataformas demuestra una comprensión de la necesidad de movilizar la opinión pública y potencialmente influir en las decisiones políticas relacionadas con la creación de nuevos ccTLD.
 
 
-Voces Externas: Una Revisión de la Percepción Pública y el Discurso Académico #
+Voces Externas: Una Revisión de la Percepción Pública y el Discurso Académico [#](#voces-externas-una-revision-de-la-percepcion-publica-y-el-discurso-academico)
 
 
 El mecanismo de Anticitera goza de un reconocimiento generalizado como el computador analógico más antiguo conocido y una maravilla de la tecnología antigua 2. Su complejidad, propósito y orígenes continúan siendo objeto de investigación y fascinación 5. Diversas interpretaciones sobre su función han surgido, abarcando desde cálculos astronómicos hasta propósitos educativos y filosóficos 5. La establecida significación histórica y científica del mecanismo de Anticitera proporciona una base sólida y fácilmente comprensible para la narrativa del proyecto Anticitera, asociando inmediatamente el dominio propuesto con la innovación y la inteligencia. El público ya siente curiosidad por este antiguo artefacto, lo que crea una conexión natural con el concepto de inteligencia artificial, haciendo que el nombre y la idea central del proyecto sean instantáneamente más atractivos y memorables.
@@ -234,7 +234,7 @@ Propuesto para proyectos de IA
 Los principios generales y las mejores prácticas para elegir nombres de dominio incluyen la memorabilidad, la alineación con la marca y las consideraciones de SEO 35. Las herramientas de generación de nombres de dominio impulsadas por IA desempeñan un papel en la lluvia de ideas y la búsqueda de dominios disponibles 35. El proyecto Anticitera busca aprovechar la relevancia semántica inherente de ".IA" para "Inteligencia Artificial" en varios idiomas, lo que se alinea con los principios de elección de un buen nombre de dominio. La conexión histórica con Anticitera refuerza aún más su capacidad de marca y singularidad.
 
 
-Mirando Hacia Adelante: Objetivos a Largo Plazo y Potencial Trayectoria de Desarrollo #
+Mirando Hacia Adelante: Objetivos a Largo Plazo y Potencial Trayectoria de Desarrollo [#](#mirando-hacia-adelante-objetivos-a-largo-plazo-y-potencial-trayectoria-de-desarrollo)
 
 
 La visión a largo plazo del proyecto Anticitera se centra en romper la hegemonía del inglés en el campo de la inteligencia artificial y fomentar una comunidad global y multilingüe 12. Se espera que el dominio ".IA" se convierta en un identificador reconocido y respetado para proyectos, investigaciones y organizaciones relacionadas con la inteligencia artificial en todo el mundo. Existe el potencial de que la isla de Anticitera se convierta en un centro simbólico para la colaboración internacional en el campo de la inteligencia artificial, aprovechando su significado histórico 12. Esta ambición va más allá de un simple nombre de dominio, buscando posicionar a la isla como un punto focal para el discurso y la colaboración global en la inteligencia artificial, basándose en su conexión histórica única con la computación. Esto podría atraer a investigadores, desarrolladores y responsables políticos, lo que podría conducir a un mayor reconocimiento e iniciativas relacionadas con el campo.
@@ -243,13 +243,13 @@ La visión a largo plazo del proyecto Anticitera se centra en romper la hegemon�
 En el futuro, se podrían explorar asociaciones con instituciones académicas, organizaciones de investigación y empresas de tecnología. El Asistente Anticitera podría desempeñar un papel crucial en el fomento de la innovación y la adopción dentro del dominio ".IA".
 
 
-Impacto y Relevancia: Evaluando la Significación del Proyecto Anticitera #
+Impacto y Relevancia: Evaluando la Significación del Proyecto Anticitera [#](#impacto-y-relevancia-evaluando-la-significacion-del-proyecto-anticitera)
 
 
 El proyecto Anticitera tiene el potencial de generar un impacto significativo en el campo de la inteligencia artificial al promover el multilingüismo y la inclusividad. Su relevancia radica en la conexión que establece entre las raíces históricas de la computación y sus avances modernos. La asociación de la isla de Anticitera con los orígenes y el futuro de la inteligencia artificial podría tener una gran significación cultural y simbólica. El proyecto podría fomentar un panorama más inclusivo y culturalmente diverso para la inteligencia artificial a nivel mundial, desafiando el dominio actual del inglés y recordando al mundo la larga historia del ingenio humano en la computación. El éxito en el establecimiento del dominio ".IA" podría contribuir a una representación más equitativa de diferentes idiomas y culturas dentro del campo de la inteligencia artificial en línea. La conexión simbólica con el mecanismo de Anticitera añade una dimensión histórica única a este moderno dominio tecnológico. Además, el proyecto podría generar un mayor reconocimiento e interés en la propia isla de Anticitera. A nivel más amplio, la iniciativa plantea reflexiones sobre la gobernanza de internet y la representación de diversas identidades lingüísticas y culturales en línea.
 
 
-Conclusión: Sintetizando Hallazgos y Ofreciendo Perspectivas Estratégicas #
+Conclusión: Sintetizando Hallazgos y Ofreciendo Perspectivas Estratégicas [#](#conclusion-sintetizando-hallazgos-y-ofreciendo-perspectivas-estrategicas)
 
 
 El proyecto Anticitera representa una iniciativa ambiciosa y con visión de futuro que busca establecer un nuevo ccTLD ".IA" para la isla de Anticitera, inspirándose en el histórico mecanismo de Anticitera como símbolo de los orígenes de la inteligencia artificial. El proyecto tiene como objetivo fomentar una comunidad global y multilingüe en torno a este dominio, desafiando la hegemonía del inglés en el campo de la inteligencia artificial.
@@ -262,138 +262,138 @@ Se ofrecen las siguientes perspectivas estratégicas:
 
 
 
-Mejora del Sitio Web: Es fundamental priorizar la accesibilidad de todas las secciones del sitio web, especialmente "Proyecto" y "Podcasts". Además, se recomienda mejorar la UI/UX de las secciones del blog y enlaces mediante la implementación de las sugerencias detalladas anteriormente (miniaturas, categorías, búsqueda, etc.).
+* Mejora del Sitio Web: Es fundamental priorizar la accesibilidad de todas las secciones del sitio web, especialmente "Proyecto" y "Podcasts". Además, se recomienda mejorar la UI/UX de las secciones del blog y enlaces mediante la implementación de las sugerencias detalladas anteriormente (miniaturas, categorías, búsqueda, etc.).
 
 
-Participación de la Comunidad: Se debe seguir fomentando la participación de la comunidad a través del repositorio de GitHub y otras plataformas. Es importante comunicar claramente el progreso del proyecto y las formas en que las personas pueden contribuir.
+* Participación de la Comunidad: Se debe seguir fomentando la participación de la comunidad a través del repositorio de GitHub y otras plataformas. Es importante comunicar claramente el progreso del proyecto y las formas en que las personas pueden contribuir.
 
 
-Esfuerzos de Promoción del Dominio .IA: En los esfuerzos de promoción, es crucial distinguir claramente la propuesta del ccTLD oficial ".IA" del uso no oficial existente. Se debe enfatizar la búsqueda del reconocimiento oficial por parte de IANA y los beneficios únicos del dominio propuesto en términos de relevancia lingüística y conexión histórica.
+* Esfuerzos de Promoción del Dominio .IA: En los esfuerzos de promoción, es crucial distinguir claramente la propuesta del ccTLD oficial ".IA" del uso no oficial existente. Se debe enfatizar la búsqueda del reconocimiento oficial por parte de IANA y los beneficios únicos del dominio propuesto en términos de relevancia lingüística y conexión histórica.
 
 
 
 En conclusión, el proyecto Anticitera posee un potencial significativo para impactar el panorama de la inteligencia artificial en línea, promoviendo una mayor diversidad lingüística y cultural y honrando la rica historia de la innovación computacional. Su éxito dependerá de la capacidad del equipo para superar los desafíos regulatorios y construir una comunidad global comprometida con su visión.
 
 
-Obras citadas #
+Obras citadas [#](#obras-citadas)
 
 
 
-.IA Isla Anticitera - Base de Conocimiento, fecha de acceso: marzo 24, 2025, https://Anticitera.deft.work
+* .IA Isla Anticitera - Base de Conocimiento, fecha de acceso: marzo 24, 2025, [https://Anticitera.deft.work](https://anticitera.deft.work)
 
 
-Antikythera mechanism - Wikipedia, fecha de acceso: marzo 24, 2025, https://en.wikipedia.org/wiki/Antikythera_mechanism
+* Antikythera mechanism - Wikipedia, fecha de acceso: marzo 24, 2025, [https://en.wikipedia.org/wiki/Antikythera_mechanism](https://en.wikipedia.org/wiki/Antikythera_mechanism)
 
 
-Saros, Spirals, and the Antikythera Project ~ Revelations from an Ancient Shipwreck, fecha de acceso: marzo 24, 2025, https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck
+* Saros, Spirals, and the Antikythera Project ~ Revelations from an Ancient Shipwreck, fecha de acceso: marzo 24, 2025, [https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck](https://www.douglasmacdougal.com/post/saros-spirals-and-the-antikythera-project-~-revelations-from-an-ancient-shipwreck)
 
 
-The Antikythera Mechanism: The Prove of the Accuracy of the Astronomical Calculations Based on It - MDPI, fecha de acceso: marzo 24, 2025, https://www.mdpi.com/2571-9408/4/4/211
+* The Antikythera Mechanism: The Prove of the Accuracy of the Astronomical Calculations Based on It - MDPI, fecha de acceso: marzo 24, 2025, [https://www.mdpi.com/2571-9408/4/4/211](https://www.mdpi.com/2571-9408/4/4/211)
 
 
-The Antikythera Mechanism - Communications of the ACM, fecha de acceso: marzo 24, 2025, https://cacm.acm.org/research/the-antikythera-mechanism/
+* The Antikythera Mechanism - Communications of the ACM, fecha de acceso: marzo 24, 2025, [https://cacm.acm.org/research/the-antikythera-mechanism/](https://cacm.acm.org/research/the-antikythera-mechanism/)
 
 
-Antikythera - Long Now, fecha de acceso: marzo 24, 2025, https://longnow.org/ideas/antikythera/
+* Antikythera - Long Now, fecha de acceso: marzo 24, 2025, [https://longnow.org/ideas/antikythera/](https://longnow.org/ideas/antikythera/)
 
 
-The Antikythera Mechanism Research Project - What's Behind Doerr Number One, fecha de acceso: marzo 24, 2025, https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/
+* The Antikythera Mechanism Research Project - What's Behind Doerr Number One, fecha de acceso: marzo 24, 2025, [https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/](https://wbdno.wordpress.com/2010/02/06/the-antikythera-mechanism-research-project/)
 
 
-The Antikythera Mechanism Research Project - AWOL - The Ancient World Online, fecha de acceso: marzo 24, 2025, http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html
+* The Antikythera Mechanism Research Project - AWOL - The Ancient World Online, fecha de acceso: marzo 24, 2025, [http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html](http://ancientworldonline.blogspot.com/2016/06/the-antikythera-mechanism-research.html)
 
 
-Antikythera Mechanism - The Interactive Commons, fecha de acceso: marzo 24, 2025, https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/
+* Antikythera Mechanism - The Interactive Commons, fecha de acceso: marzo 24, 2025, [https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/](https://interactivecommons.org/what-we-do/our-projects/antikythera-mechanism/)
 
 
-The Antikythera reminds us that humanity shall always prevail over Artificial Intelligence, fecha de acceso: marzo 24, 2025, https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/
+* The Antikythera reminds us that humanity shall always prevail over Artificial Intelligence, fecha de acceso: marzo 24, 2025, [https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/](https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/)
 
 
-"Exploring the antikythera mechanism through augmented reality." by Tiffany Hatzidimitriu, fecha de acceso: marzo 24, 2025, https://digitalcommons.pace.edu/honorscollege_theses/375/
+* "Exploring the antikythera mechanism through augmented reality." by Tiffany Hatzidimitriu, fecha de acceso: marzo 24, 2025, [https://digitalcommons.pace.edu/honorscollege_theses/375/](https://digitalcommons.pace.edu/honorscollege_theses/375/)
 
 
-Antikythera Island: The Future of Artificial Intelligence? - Deft.Work, fecha de acceso: marzo 24, 2025, https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/
+* Antikythera Island: The Future of Artificial Intelligence? - Deft.Work, fecha de acceso: marzo 24, 2025, [https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/](https://deft.work/en/blog/2023/04/03/antikythera-island-the-future-of-artificial-intelligence/)
 
 
-Antikythera Mechanism: The ancient 'computer' that simply shouldn't exist - BBC REEL, fecha de acceso: marzo 24, 2025, https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/
+* Antikythera Mechanism: The ancient 'computer' that simply shouldn't exist - BBC REEL, fecha de acceso: marzo 24, 2025, [https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/](https://www.reddit.com/r/videos/comments/1dvk8v3/antikythera_mechanism_the_ancient_computer_that/)
 
 
-Antikythera Island - Cradle of Artificial Intelligence - Deft.Work, fecha de acceso: marzo 24, 2025, https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/
+* Antikythera Island - Cradle of Artificial Intelligence - Deft.Work, fecha de acceso: marzo 24, 2025, [https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/](https://deft.work/en/blog/2022/09/16/antikythera-island-cradle-of-artificial-intelligence/)
 
 
-Un nuevo amanecer para la IA: el dominio .IA - OpenExpo Europe, fecha de acceso: marzo 24, 2025, https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/
+* Un nuevo amanecer para la IA: el dominio .IA - OpenExpo Europe, fecha de acceso: marzo 24, 2025, [https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/](https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/)
 
 
-.ia domain url extension? : r/webdev - Reddit, fecha de acceso: marzo 24, 2025, https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/
+* .ia domain url extension? : r/webdev - Reddit, fecha de acceso: marzo 24, 2025, [https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/](https://www.reddit.com/r/webdev/comments/1brgjc/ia_domain_url_extension/)
 
 
-Anticitera Island - Don't wait any longer, reserve your .IA domain now, fecha de acceso: marzo 24, 2025, https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/
+* Anticitera Island - Don't wait any longer, reserve your .IA domain now, fecha de acceso: marzo 24, 2025, [https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/](https://deft.work/en/blog/2023/04/13/anticitera-island-dont-wait-any-longer-reserve-your-.ia-domain-now/)
 
 
-.ai Domain Delegation Data, fecha de acceso: marzo 24, 2025, http://www.iana.org/domains/root/db/ai.htm
+* .ai Domain Delegation Data, fecha de acceso: marzo 24, 2025, [http://www.iana.org/domains/root/db/ai.htm](http://www.iana.org/domains/root/db/ai.htm)
 
 
-elswork/anticitera.deft.work: .IA Isla Anticitera - Base de ... - GitHub, fecha de acceso: marzo 24, 2025, https://github.com/elswork/anticitera.deft.work
+* elswork/anticitera.deft.work: .IA Isla Anticitera - Base de ... - GitHub, fecha de acceso: marzo 24, 2025, [https://github.com/elswork/anticitera.deft.work](https://github.com/elswork/anticitera.deft.work)
 
 
-.IA Isla Anticitera - Base de Conocimiento, fecha de acceso: marzo 24, 2025, https://Anticitera.deft.work/blog/
+* .IA Isla Anticitera - Base de Conocimiento, fecha de acceso: marzo 24, 2025, [https://Anticitera.deft.work/blog/](https://anticitera.deft.work/blog/)
 
 
-Sección de Links - IA Isla Anticitera, fecha de acceso: marzo 24, 2025, https://Anticitera.deft.work/links/
+* Sección de Links - IA Isla Anticitera, fecha de acceso: marzo 24, 2025, [https://Anticitera.deft.work/links/](https://anticitera.deft.work/links/)
 
 
-fecha de acceso: enero 1, 1970, https://Anticitera.deft.work/proyecto/
+* fecha de acceso: enero 1, 1970, [https://Anticitera.deft.work/proyecto/](https://anticitera.deft.work/proyecto/)
 
 
-fecha de acceso: enero 1, 1970, https://Anticitera.deft.work/podcasts/
+* fecha de acceso: enero 1, 1970, [https://Anticitera.deft.work/podcasts/](https://anticitera.deft.work/podcasts/)
 
 
-Country code top-level domain - ICANNWiki, fecha de acceso: marzo 24, 2025, https://icannwiki.org/Country_code_top-level_domain
+* Country code top-level domain - ICANNWiki, fecha de acceso: marzo 24, 2025, [https://icannwiki.org/Country_code_top-level_domain](https://icannwiki.org/Country_code_top-level_domain)
 
 
-ccTLDs vs. gTLDs: Who wins and where? | Blog - Dataprovider.com, fecha de acceso: marzo 24, 2025, https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/
+* ccTLDs vs. gTLDs: Who wins and where? | Blog - Dataprovider.com, fecha de acceso: marzo 24, 2025, [https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/](https://www.dataprovider.com/blog/domains/cctlds-vs.-gtlds-who-wins-and-where/)
 
 
-Frequently Asked Questions | ICANN New gTLDs, fecha de acceso: marzo 24, 2025, https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en
+* Frequently Asked Questions | ICANN New gTLDs, fecha de acceso: marzo 24, 2025, [https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en](https://newgtlds.icann.org/en/applicants/global-support/faqs/faqs-en)
 
 
-Country code top-level domain - Wikipedia, fecha de acceso: marzo 24, 2025, https://en.wikipedia.org/wiki/Country_code_top-level_domain
+* Country code top-level domain - Wikipedia, fecha de acceso: marzo 24, 2025, [https://en.wikipedia.org/wiki/Country_code_top-level_domain](https://en.wikipedia.org/wiki/Country_code_top-level_domain)
 
 
-List of Internet top-level domains - Wikipedia, fecha de acceso: marzo 24, 2025, https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+* List of Internet top-level domains - Wikipedia, fecha de acceso: marzo 24, 2025, [https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains)
 
 
-All ccTLDs Explained | Country Code Top Level Domain - tasjeel ae, fecha de acceso: marzo 24, 2025, https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/
+* All ccTLDs Explained | Country Code Top Level Domain - tasjeel ae, fecha de acceso: marzo 24, 2025, [https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/](https://www.tasjeel.ae/ae-domains/blogs/all-cctlds-explained-country-code-top-level-domain/)
 
 
-ccTLD domain policies : Enom Customer Support, fecha de acceso: marzo 24, 2025, https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies
+* ccTLD domain policies : Enom Customer Support, fecha de acceso: marzo 24, 2025, [https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies](https://support.enom.com/support/solutions/articles/201000065278-cctld-domain-policies)
 
 
-IDN ccTLD Fast Track Process - icann, fecha de acceso: marzo 24, 2025, https://www.icann.org/resources/pages/fast-track-2012-02-25-en
+* IDN ccTLD Fast Track Process - icann, fecha de acceso: marzo 24, 2025, [https://www.icann.org/resources/pages/fast-track-2012-02-25-en](https://www.icann.org/resources/pages/fast-track-2012-02-25-en)
 
 
-Antikythera Survey Project | Institute of Archaeology - UCL – University College London, fecha de acceso: marzo 24, 2025, https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project
+* Antikythera Survey Project | Institute of Archaeology - UCL – University College London, fecha de acceso: marzo 24, 2025, [https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project](https://www.ucl.ac.uk/archaeology/research/directory/antikythera-survey-project)
 
 
-The Antikythera Survey Project: Introduction - Archaeology Data Service, fecha de acceso: marzo 24, 2025, https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/
+* The Antikythera Survey Project: Introduction - Archaeology Data Service, fecha de acceso: marzo 24, 2025, [https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/](https://archaeologydataservice.ac.uk/archives/view/antikythera_ahrc_2012/)
 
 
-Assimas Islands - Daidu - The Kylaris Encylopaedia, fecha de acceso: marzo 24, 2025, https://kylaris.miraheze.org/wiki/Assimas_Islands
+* Assimas Islands - Daidu - The Kylaris Encylopaedia, fecha de acceso: marzo 24, 2025, [https://kylaris.miraheze.org/wiki/Assimas_Islands](https://kylaris.miraheze.org/wiki/Assimas_Islands)
 
 
-Free AI Business and Domain Name Generator Tool, fecha de acceso: marzo 24, 2025, https://www.domain.com/domains/ai-domain-generator
+* Free AI Business and Domain Name Generator Tool, fecha de acceso: marzo 24, 2025, [https://www.domain.com/domains/ai-domain-generator](https://www.domain.com/domains/ai-domain-generator)
 
 
-Find the Perfect Website Names with Web.com's AI Domain Name Generator, fecha de acceso: marzo 24, 2025, https://www.web.com/blog/ai-domain-name-generator/
+* Find the Perfect Website Names with Web.com's AI Domain Name Generator, fecha de acceso: marzo 24, 2025, [https://www.web.com/blog/ai-domain-name-generator/](https://www.web.com/blog/ai-domain-name-generator/)
 
 
-AI for Domain Name: 8 Tips For A Strong Online Presence - ShortDot, fecha de acceso: marzo 24, 2025, https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/
+* AI for Domain Name: 8 Tips For A Strong Online Presence - ShortDot, fecha de acceso: marzo 24, 2025, [https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/](https://shortdot.bond/ai-for-domain-name-building-a-strong-online-presence/)
 
 
-Free Domain Name Ideas Tool - Get Instant Ideas for 2025 - GravityWrite, fecha de acceso: marzo 24, 2025, https://gravitywrite.com/blog/domain-name-ideas-tool
+* Free Domain Name Ideas Tool - Get Instant Ideas for 2025 - GravityWrite, fecha de acceso: marzo 24, 2025, [https://gravitywrite.com/blog/domain-name-ideas-tool](https://gravitywrite.com/blog/domain-name-ideas-tool)
 
 
-Project Proposal for a New World Information Architecture Website | by Andrea Rosenbusch, fecha de acceso: marzo 24, 2025, https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb
+* Project Proposal for a New World Information Architecture Website | by Andrea Rosenbusch, fecha de acceso: marzo 24, 2025, [https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb](https://medium.com/worldiaday/project-proposal-for-a-new-world-information-architecture-website-6d05dae083eb)
 
 
 

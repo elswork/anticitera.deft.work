@@ -1,5 +1,5 @@
 # 
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/
 
 ---
@@ -103,8 +103,8 @@ URL: https://anticitera.deft.work/
   
 
   
-    LEER MANIFIESTO
-    SOLICITAR CIUDADANÍA
+    [LEER MANIFIESTO](https://anticitera.deft.work/manifiesto.md)
+    [SOLICITAR CIUDADANÍA](https://anticitera.deft.work/ciudadania.md)
   
 
 
@@ -119,22 +119,22 @@ URL: https://anticitera.deft.work/
 
 
 
-	
-		Soberanía Digital Europea: Llamamiento al Comité ICE .IA
+	* 
+		[Soberanía Digital Europea: Llamamiento al Comité ICE .IA](https://anticitera.deft.work/blog/Llamamiento_Soberania_Digital.md)
 		January 2026
 	
 
 
 
-	
-		Cómo ve una IA el código del Proyecto Anticitera
+	* 
+		[Cómo ve una IA el código del Proyecto Anticitera](https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
 		December 2025
 	
 
 
 
-	
-		Boletín Informativo V Proyecto .IA Isla Anticitera
+	* 
+		[Boletín Informativo V Proyecto .IA Isla Anticitera](https://anticitera.deft.work/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
 		December 2025
 	
 
@@ -145,4 +145,4 @@ URL: https://anticitera.deft.work/
 
 
 
-22 más posts pueden ser encontrados en el archivo.
+22 más posts pueden ser encontrados en [el archivo](https://anticitera.deft.work/blog.md).

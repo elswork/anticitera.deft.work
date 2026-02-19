@@ -4,139 +4,139 @@ URL: https://anticitera.deft.work/el/blog/Casos_de_uso-Dominio.IA/
 
 ---
 
-Πιθανές περιπτώσεις χρήσης για τον Τομέα .IA #
+Πιθανές περιπτώσεις χρήσης για τον Τομέα .IA [#](#pithanes-periptoseis-xrisis-gia-ton-tomea-ia)
 
 
-Εταιρείες και Οργανισμοί #
+Εταιρείες και Οργανισμοί [#](#etaireies-kai-organismoi)
 
 
-Nvid.ia #
+Nvid.ia [#](#nvid-ia)
 
 
 Η NVIDIA έχει γίνει ο αδιαμφισβήτητος ηγέτης στη βιομηχανία της τεχνητής νοημοσύνης (ΤΝ), σύμφωνα με ορισμένους ειδικούς, η NVIDIA κυριαρχεί στο 80% της αγοράς τσιπ για ΤΝ, η τεχνολογία της, η ηγεσία της και η οικονομική της επιτυχία την καθιστούν την εταιρεία που πρέπει να ακολουθήσει κανείς σε αυτόν τον τομέα. Η πολυεθνική της ΤΝ κατ' εξοχήν θα μπορούσε να χρησιμοποιήσει αυτό το URL για να φιλοξενήσει όλα τα μοντέλα Open Source, έτσι ώστε να μπορούν να δοκιμαστούν και να ληφθούν ελεύθερα όλα τα μοντέλα Open Source της.
 
 
-Odise.ia #
+Odise.ia [#](#odise-ia)
 
 
-Wikiped.ia #
+Wikiped.ia [#](#wikiped-ia)
 
 
 Η εγκυκλοπαίδεια στο διαδίκτυο θα μπορούσε να παρουσιάσει εξελίξεις βασισμένες στο περιεχόμενο της Wikipedia, για παράδειγμα, έναν βοηθό που επιτρέπει την πλοήγηση στο περιεχόμενο με συνομιλητικό τρόπο.
 
 
-Εθνικά #
+Εθνικά [#](#ethnika)
 
 
-Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia, Autral.ia, Ind.ia, Colomb.ia, Niger.ia, Ucran.ia #
+Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia, Autral.ia, Ind.ia, Colomb.ia, Niger.ia, Ucran.ia [#](#aleman-ia-franc-ia-escoc-ia-ital-ia-hispan-ia-autral-ia-ind-ia-colomb-ia-niger-ia-ucran-ia)
 
 
 Θα μπορούσαν να είναι εφαρμογές ιστού για την εκμάθηση γλωσσών που υποστηρίζονται από διαφορετικούς βοηθούς, έναν για το κείμενο και έναν για την ομιλία.
 
 
-Περιφερειακά #
+Περιφερειακά [#](#perifereiaka)
 
 
-Andaluc.ia Galic.ia, Murc.ia, Almer.ia, Valenc.ia #
+Andaluc.ia Galic.ia, Murc.ia, Almer.ia, Valenc.ia [#](#andaluc-ia-galic-ia-murc-ia-almer-ia-valenc-ia)
 
 
 Θα μπορούσαν να φιλοξενήσουν τις πύλες των τεχνολογικών κόμβων ΤΝ κάθε περιοχής.
 
 
-Ονόματα #
+Ονόματα [#](#onomata)
 
 
-Rosal.ia #
+Rosal.ia [#](#rosal-ia)
 
 
 Θα μπορούσε να είναι μια εφαρμογή ιστού στην οποία θα μπορούσατε να συνομιλήσετε με την εικονική έκδοση της Rosalía.
 
 
-Luc.ia, Son.ia, Valer.ia, Letiz.ia, La.ia #
+Luc.ia, Son.ia, Valer.ia, Letiz.ia, La.ia [#](#luc-ia-son-ia-valer-ia-letiz-ia-la-ia)
 
 
-Il.ia Topur.ia #
+Il.ia Topur.ia [#](#il-ia-topur-ia)
 
 
-Άλλα #
+Άλλα [#](#alla)
 
 
-Academ.ia #
+Academ.ia [#](#academ-ia)
 
 
 Η λέξη ακαδημία προέρχεται από την ελληνική Ἀκαδημία, που ήταν το όνομα ενός δημόσιου κήπου κοντά στην Αθήνα όπου ο Πλάτωνας δίδασκε τους μαθητές του. Το όνομα του κήπου οφειλόταν σε έναν θρυλικό ήρωα της ελληνικής μυθολογίας, τον Ακάδημο. Στη σημερινή εκδοχή θα μπορούσε να είναι ένας ιστότοπος όπου οι μαθητές θα μπορούσαν να λύσουν τις αμφιβολίες τους και να καθοδηγηhentούν από τους καλύτερους καθηγητές.
 
 
-Alcald.ia #
+Alcald.ia [#](#alcald-ia)
 
 
 Μπορεί ένα μοντέλο ΤΝ να είναι υποψήφιος για δήμαρχος; Είμαι βέβαιος ότι δεν θα αργήσουμε να δούμε τους πολίτες να ψηφίζουν ένα πολιτικό κόμμα που ενσωματώνει ένα καλά ισορροπημένο και αμερόληπτο μοντέλο.
 
 
-Notic.ia #
+Notic.ia [#](#notic-ia)
 
 
 Θα μπορούσε να είναι ένας ιστότοπος στον οποίο του δίνετε διαφορετικές ειδήσεις και τις ταξινομεί χρησιμοποιώντας πολλαπλούς δείκτες.
 
 
-Cienc.ia #
+Cienc.ia [#](#cienc-ia)
 
 
 Η επιστήμη (από το λατινικό scientĭa, «γνώση») είναι ένα σύνολο συστηματικών επαληθεύσιμων γνώσεων που μελετούν, εξηγούν και προβλέπουν τα κοινωνικά, τεχνητά και φυσικά φαινόμενα. Αυτή η πύλη θα μπορούσε να είναι μια συλλογή όλων των ΤΝ που εφαρμόζονται στις επιστήμες.
 
 
-Democrac.ia #
+Democrac.ia [#](#democrac-ia)
 
 
 Η δημοκρατία (από το ελληνικό: δημοκρατία, δήμος, «λαός» και κράτος, «εξουσία») είναι μια μορφή κοινωνικής και πολιτικής οργάνωσης στην οποία οι πολίτες ασκούν την πολιτική εξουσία μέσω των ψήφων τους, σε αυτήν την πύλη οι πολίτες θα μπορούσαν να ασκήσουν το δικαίωμα ψήφου με διαφάνεια.
 
 
-Inteligenc.ia #
+Inteligenc.ia [#](#inteligenc-ia)
 
 
-Memor.ia #
+Memor.ia [#](#memor-ia)
 
 
-Famil.ia #
+Famil.ia [#](#famil-ia)
 
 
-Filosof.ia #
+Filosof.ia [#](#filosof-ia)
 
 
-Loter.ia #
+Loter.ia [#](#loter-ia)
 
 
-Eufor.ia #
+Eufor.ia [#](#eufor-ia)
 
 
-Alegr.ia #
+Alegr.ia [#](#alegr-ia)
 
 
-Teor.ia #
+Teor.ia [#](#teor-ia)
 
 
-Secretar.ia #
+Secretar.ia [#](#secretar-ia)
 
 
-Polic.ia #
+Polic.ia [#](#polic-ia)
 
 
 Εφαρμογή για κινητά με την οποία θα μπορούσατε πάντα να έχετε την αστυνομία στην τσέπη σας.
 
 
-Emergenc.ia #
+Emergenc.ia [#](#emergenc-ia)
 
 
 Μια εφαρμογή πληροφοριών και ειδοποίησης με τεχνητή νοημοσύνη ικανή να σώσει ζωές σε καταστροφές όπως η DANA της Βαλένθια.
 
 
-Tecnolog.ia #
+Tecnolog.ia [#](#tecnolog-ia)
 
 
-Industr.ia #
+Industr.ia [#](#industr-ia)
 
 
-Alimentar.ia #
+Alimentar.ia [#](#alimentar-ia)
 
 
-Factor.ia #
+Factor.ia [#](#factor-ia)

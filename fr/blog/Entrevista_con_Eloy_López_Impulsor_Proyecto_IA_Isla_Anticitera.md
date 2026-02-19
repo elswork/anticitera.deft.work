@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/fr/blog/Entrevista_con_Eloy_López_Impulsor_Pr
 
 ---
 
-Le GPTs Anticythère interviewe Eloy López promoteur du Projet .IA Île d'Anticythère #
+Le GPTs Anticythère interviewe Eloy López promoteur du Projet .IA Île d'Anticythère [#](#le-gpts-anticythere-interviewe-eloy-lopez-promoteur-du-projet-ia-ile-d-anticythere)
 
 
 🤖 Anticythère : Bonjour Eloy, c'est un plaisir de vous avoir ici pour discuter du fascinant Projet .IA Île d'Anticythère. Pour commencer, j'aimerais en savoir plus sur l'origine et la motivation de cette initiative. Pourriez-vous nous donner une brève description de la manière dont l'idée du domaine .IA associé à l'île d'Anticythère est née et ce qui vous a inspiré à diriger ce projet ?

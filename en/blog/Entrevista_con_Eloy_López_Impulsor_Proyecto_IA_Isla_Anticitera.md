@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/en/blog/Entrevista_con_Eloy_López_Impulsor_Pr
 
 ---
 
-The Antikythera GPTs interviews Eloy López promoter of the .IA Antikythera Island Project #
+The Antikythera GPTs interviews Eloy López promoter of the .IA Antikythera Island Project [#](#the-antikythera-gpts-interviews-eloy-lopez-promoter-of-the-ia-antikythera-island-project)
 
 
 🤖 Antikythera: Hello Eloy, it's a pleasure to have you here to discuss the fascinating .IA Antikythera Island Project. To begin, I would like to know more about the origin and motivation behind this initiative. Could you give us a brief description of how the idea of the .IA domain associated with the Island of Antikythera came about and what inspired you to lead this project?

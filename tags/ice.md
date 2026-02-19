@@ -1,5 +1,5 @@
 # Etiquetado “ice”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/tags/ice/
 
 ---
@@ -12,8 +12,8 @@ Etiquetado “ice”
 
 
 
-	
-		Soberanía Digital Europea: Llamamiento al Comité ICE .IA
+	* 
+		[Soberanía Digital Europea: Llamamiento al Comité ICE .IA](https://anticitera.deft.work/blog/Llamamiento_Soberania_Digital.md)
 		January 2026
 	
 
@@ -22,4 +22,4 @@ Etiquetado “ice”
 
 
 
-Ver todas las etiquetas.
+Ver [todas las etiquetas](https://anticitera.deft.work/tags.md).

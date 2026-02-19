@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/blog/Entrevista_con_Eloy_López_Impulsor_Proye
 
 ---
 
-El GPTs Anticitera entrevista a Eloy López impulsor del Proyecto .IA Isla Anticitera #
+El GPTs Anticitera entrevista a Eloy López impulsor del Proyecto .IA Isla Anticitera [#](#el-gpts-anticitera-entrevista-a-eloy-lopez-impulsor-del-proyecto-ia-isla-anticitera)
 
 
 🤖 Anticitera: Hola Eloy, es un placer tenerte aquí para discutir el fascinante Proyecto .IA Isla Anticitera. Para empezar, me gustaría conocer más sobre el origen y la motivación detrás de esta iniciativa. ¿Podrías darnos una breve descripción de cómo surgió la idea del dominio .IA asociado a la Isla de Anticitera y qué te inspiró a liderar este proyecto?

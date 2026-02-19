@@ -1,5 +1,5 @@
 # Με ετικέτα "εππ"
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/tags/epp/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/el/tags/epp/
 
 
 
-	
-		Ευρωπαϊκή Ψηφιακή Κυριαρχία: Πρόσκληση στην Επιτροπή ΕΠΠ .IA
+	* 
+		[Ευρωπαϊκή Ψηφιακή Κυριαρχία: Πρόσκληση στην Επιτροπή ΕΠΠ .IA](https://anticitera.deft.work/el/blog/Llamamiento_Soberania_Digital.md)
 		January 2026
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/el/tags/epp/
 
 
 
-Δείτε όλες τις ετικέτες.
+Δείτε [όλες τις ετικέτες](https://anticitera.deft.work/el/tags.md).

@@ -1,5 +1,5 @@
 # Записи с тегом “разработка”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/tags/razrabotka/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/ru/tags/razrabotka/
 
 
 
-	
-		Как ИИ видит код проекта Антикитера
+	* 
+		[Как ИИ видит код проекта Антикитера](https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
 		December 2025
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/ru/tags/razrabotka/
 
 
 
-Посмотреть все теги.
+Посмотреть [все теги](https://anticitera.deft.work/ru/tags.md).

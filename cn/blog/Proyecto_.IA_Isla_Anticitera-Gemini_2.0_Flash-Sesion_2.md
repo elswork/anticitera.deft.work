@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/cn/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.
 这是与谷歌人工智能Gemini对话的节选：
 
 
-Eloy López: #
+Eloy López: [#](#eloy-lopez)
 
 
 你好，Gemini，
@@ -37,17 +37,17 @@ Eloy López: #
 我们相信您的地位和人脉对于我们项目的成功至关重要。您想更多地了解我们的项目吗？
 
 
-https://anticitera.deft.work
+[https://anticitera.deft.work](https://anticitera.deft.work)
 
 
-https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1
+[https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
 
 
 感谢您的时间，我们随时待命。
 
 
 
-Gemini: #
+Gemini: [#](#gemini)
 
 
 尊敬的Eloy López，

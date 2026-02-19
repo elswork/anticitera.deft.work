@@ -1,10 +1,10 @@
 # Guía de Contribución
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/CONTRIBUTING/
 
 ---
 
-Guía de Contribución al Proyecto Anticitera #
+Guía de Contribución al Proyecto Anticitera [#](#guia-de-contribucion-al-proyecto-anticitera)
 
 
 ¡Gracias por tu interés en contribuir al Proyecto .IA Isla Anticitera! 🏛️✨
@@ -13,122 +13,122 @@ Guía de Contribución al Proyecto Anticitera #
 Este repositorio no es solo código; es un esfuerzo por fusionar la herencia histórica del Mecanismo de Anticitera con el futuro de la Inteligencia Artificial. Buscamos colaboradores que compartan nuestra pasión por la tecnología, la historia y la ética digital.
 
 
-🛠️ Pila Tecnológica #
+🛠️ Pila Tecnológica [#](#pila-tecnologica)
 
 
 Nuestro proyecto está construido sobre principios de simplicidad y rendimiento (Jamstack):
 
 
 
-Motor: Eleventy (11ty) - Generador de sitios estáticos.
+* Motor: [Eleventy (11ty)](https://www.11ty.dev/) - Generador de sitios estáticos.
 
 
-Plantillas: Nunjucks (.njk).
+* Plantillas: [Nunjucks](https://mozilla.github.io/nunjucks/) (.njk).
 
 
-Estilos: CSS moderno (PostCSS/Vanilla).
+* Estilos: CSS moderno (PostCSS/Vanilla).
 
 
-Despliegue: GitHub Pages (automático vía GitHub Actions).
+* Despliegue: GitHub Pages (automático vía GitHub Actions).
 
 
-Gestión de Paquetes: npm.
+* Gestión de Paquetes: npm.
 
 
 
-🚀 Cómo Empezar #
+🚀 Cómo Empezar [#](#como-empezar)
 
 
-0. Requisitos Previos #
+0. Requisitos Previos [#](#0-requisitos-previos)
 
 
 Necesitarás tener instalado:
 
 
 
-Node.js (versión 14 o superior).
+* [Node.js](https://nodejs.org/) (versión 14 o superior).
 
 
-Git.
+* [Git](https://git-scm.com/).
 
 
 
-1. Clonar el repositorio #
+1. Clonar el repositorio [#](#1-clonar-el-repositorio)
 
 
 git clone https://github.com/elswork/anticitera.deft.work.git
 cd anticitera.deft.work
-2. Instalar dependencias #
+2. Instalar dependencias [#](#2-instalar-dependencias)
 
 
 npm install
-3. Ejecutar entorno de desarrollo #
+3. Ejecutar entorno de desarrollo [#](#3-ejecutar-entorno-de-desarrollo)
 
 
 npm start
 Esto lanzará un servidor local en http://localhost:8080 que se recargará automáticamente cuando hagas cambios.
 
 
-📂 Estructura del Proyecto #
+📂 Estructura del Proyecto [#](#estructura-del-proyecto)
 
 
-Una visión rápida para orientarte (tal y como lo vería una IA bien entrenada). Puedes consultar nuestra Wiki viva en Code Wiki para más detalles:
-
-
-
-content/: Aquí vive todo el contenido (páginas, blog posts).
-
-blog/: Artículos en Markdown.
-
-
-index.njk: La página de inicio.
+Una visión rápida para orientarte (tal y como lo vería una IA bien entrenada). Puedes consultar nuestra [Wiki viva en Code Wiki](https://codewiki.google/github.com/elswork/anticitera.deft.work) para más detalles:
 
 
 
+* content/: Aquí vive todo el contenido (páginas, blog posts).
+
+* blog/: Artículos en Markdown.
+
+
+* index.njk: La página de inicio.
 
 
 
-_includes/: Fragmentos de código reutilizables (headers, footers, layouts).
-
-
-_data/: Datos globales (metadata del sitio, navegación).
-
-
-public/: Archivos estáticos (imágenes, fuentes, favicon).
-
-
-eleventy.config.js: El cerebro de la configuración de 11ty.
 
 
 
-📝 Estándares de Código #
+* _includes/: Fragmentos de código reutilizables (headers, footers, layouts).
+
+
+* _data/: Datos globales (metadata del sitio, navegación).
+
+
+* public/: Archivos estáticos (imágenes, fuentes, favicon).
+
+
+* eleventy.config.js: El cerebro de la configuración de 11ty.
 
 
 
-Claridad ante todo: Escribimos código para humanos (y para IAs curiosas). Usa nombres de variables descriptivos.
-
-
-Commits Semánticos: Intenta usar prefijos como feat:, fix:, docs:, style: en tus mensajes de commit.
-
-
-Respeto por el Legado: Si editas contenido histórico, asegúrate de mantener la precisión y el tono respetuoso.
+📝 Estándares de Código [#](#estandares-de-codigo)
 
 
 
-🤝 ¿Cómo puedo ayudar? #
+* Claridad ante todo: Escribimos código para humanos (y para IAs curiosas). Usa nombres de variables descriptivos.
+
+
+* Commits Semánticos: Intenta usar prefijos como feat:, fix:, docs:, style: en tus mensajes de commit.
+
+
+* Respeto por el Legado: Si editas contenido histórico, asegúrate de mantener la precisión y el tono respetuoso.
 
 
 
-Revisar Issues: Echa un vistazo a las Issues abiertas.
+🤝 ¿Cómo puedo ayudar? [#](#como-puedo-ayudar)
 
 
-Mejorar Documentación: Aclarar guías como esta siempre es bienvenido.
+
+* Revisar Issues: Echa un vistazo a las [Issues abiertas](https://github.com/elswork/anticitera.deft.work/issues).
 
 
-Optimización: ¿Puedes hacer que el sitio cargue 1ms más rápido? ¡Adelante!
+* Mejorar Documentación: Aclarar guías como esta siempre es bienvenido.
 
 
-Traducción: Ayúdanos a llevar el mensaje a más idiomas.
+* Optimización: ¿Puedes hacer que el sitio cargue 1ms más rápido? ¡Adelante!
+
+
+* Traducción: Ayúdanos a llevar el mensaje a más idiomas.
 
 
 

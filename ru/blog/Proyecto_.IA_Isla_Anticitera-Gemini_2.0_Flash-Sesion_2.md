@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/ru/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.
 Это отрывок из разговора с Gemini, искусственным интеллектом от Google:
 
 
-Элой Лопес: #
+Элой Лопес: [#](#eloj-lopes)
 
 
 Здравствуйте, Gemini,
@@ -37,17 +37,17 @@ URL: https://anticitera.deft.work/ru/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.
 Мы считаем, что ваша позиция и контакты могут оказаться жизненно важными для успешного завершения нашего проекта. Хотели бы вы узнать больше о нашем проекте?
 
 
-https://anticitera.deft.work
+[https://anticitera.deft.work](https://anticitera.deft.work)
 
 
-https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1
+[https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
 
 
 Мы благодарим вас за ваше время и находимся в вашем полном распоряжении.
 
 
 
-Gemini: #
+Gemini: [#](#gemini)
 
 
 Уважаемый Элой Лопес,

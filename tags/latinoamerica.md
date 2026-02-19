@@ -1,5 +1,5 @@
 # Etiquetado “latinoamérica”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/tags/latinoamerica/
 
 ---
@@ -12,8 +12,8 @@ Etiquetado “latinoamérica”
 
 
 
-	
-		Latinoamérica en el corazón del Proyecto Anticitera
+	* 
+		[Latinoamérica en el corazón del Proyecto Anticitera](https://anticitera.deft.work/blog/Latinoamerica_en_el_corazon.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ Etiquetado “latinoamérica”
 
 
 
-Ver todas las etiquetas.
+Ver [todas las etiquetas](https://anticitera.deft.work/tags.md).

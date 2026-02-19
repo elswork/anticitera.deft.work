@@ -8,117 +8,117 @@ El Proyecto .IA Isla Anticitera es una iniciativa ambiciosa que busca crear un n
 
 
 
-1. Objetivos del Proyecto #
+1. Objetivos del Proyecto [#](#1-objetivos-del-proyecto)
 
 
 El proyecto tiene tres pilares fundamentales:
 
 
 
-Crear el dominio .IA: Establecer un ccTLD vinculado a la Isla de Anticitera, similar a cómo .im representa a la Isla de Man .
+* Crear el dominio .IA: Establecer un ccTLD vinculado a la Isla de Anticitera, similar a cómo .im representa a la Isla de Man .
 
 
-Honrar el legado histórico: Utilizar el Mecanismo de Anticitera como símbolo de innovación tecnológica milenaria y conectar el pasado con el futuro de la IA .
+* Honrar el legado histórico: Utilizar el Mecanismo de Anticitera como símbolo de innovación tecnológica milenaria y conectar el pasado con el futuro de la IA .
 
 
-Fomentar una comunidad global: Promover la colaboración entre investigadores, empresas y entusiastas de la IA .
+* Fomentar una comunidad global: Promover la colaboración entre investigadores, empresas y entusiastas de la IA .
 
 
 
 
-2. Contexto Histórico y Tecnológico #
+2. Contexto Histórico y Tecnológico [#](#2-contexto-historico-y-tecnologico)
 
 
-El Mecanismo de Anticitera #
+El Mecanismo de Anticitera [#](#el-mecanismo-de-anticitera)
 
 
 
-Descubierto en 1901 en un naufragio cerca de la isla griega, este artefacto de engranajes de bronce predecía fenómenos astronómicos .
+* Descubierto en 1901 en un naufragio cerca de la isla griega, este artefacto de engranajes de bronce predecía fenómenos astronómicos .
 
 
-Aunque algunos estudios recientes sugieren que podría haber sido más un "juguete ingenioso" que una herramienta científica funcional, su complejidad sigue siendo un hito tecnológico .
+* Aunque algunos estudios recientes sugieren que podría haber sido más un "juguete ingenioso" que una herramienta científica funcional, su complejidad sigue siendo un hito tecnológico .
 
 
-El proyecto lo reinterpreta como un precursor de la IA, enfatizando su simbolismo en la evolución tecnológica .
+* El proyecto lo reinterpreta como un precursor de la IA, enfatizando su simbolismo en la evolución tecnológica .
 
 
 
-Dominio .IA vs. .AI #
+Dominio .IA vs. .AI [#](#dominio-ia-vs-ai)
 
 
 
-.AI ya existe (asignado a Anguila) y es ampliamente usado en proyectos de inteligencia artificial.
+* .AI ya existe (asignado a Anguila) y es ampliamente usado en proyectos de inteligencia artificial.
 
 
-.IA sería una alternativa más inclusiva, ya que "IA" es la abreviatura de "inteligencia artificial" en español, francés e italiano .
+* .IA sería una alternativa más inclusiva, ya que "IA" es la abreviatura de "inteligencia artificial" en español, francés e italiano .
 
 
 
 
-3. Viabilidad y Desafíos #
+3. Viabilidad y Desafíos [#](#3-viabilidad-y-desafios)
 
 
-Aspectos Técnicos y Legales #
+Aspectos Técnicos y Legales [#](#aspectos-tecnicos-y-legales)
 
 
 
-La creación de un ccTLD requiere la aprobación de la ICANN y el apoyo del gobierno griego, ya que Anticitera es parte de Grecia .
+* La creación de un ccTLD requiere la aprobación de la ICANN y el apoyo del gobierno griego, ya que Anticitera es parte de Grecia .
 
 
-El proyecto argumenta que .IA podría ser un "ccTLD geográfico" (como .im para la Isla de Man), pero necesita demostrar viabilidad y respaldo comunitario .
+* El proyecto argumenta que .IA podría ser un "ccTLD geográfico" (como .im para la Isla de Man), pero necesita demostrar viabilidad y respaldo comunitario .
 
 
 
-Competencia con .AI #
+Competencia con .AI [#](#competencia-con-ai)
 
 
 
-El dominio .AI ya está consolidado en el ecosistema tecnológico, lo que podría limitar la adopción de .IA .
+* El dominio .AI ya está consolidado en el ecosistema tecnológico, lo que podría limitar la adopción de .IA .
 
 
-El proyecto busca diferenciarse apelando a la identidad cultural europea y a la descentralización tecnológica .
+* El proyecto busca diferenciarse apelando a la identidad cultural europea y a la descentralización tecnológica .
 
 
 
-Estado Actual (2025) #
+Estado Actual (2025) [#](#estado-actual-2025)
 
 
 
-El sitio web del proyecto (anticitera.deft.work) sigue activo, con actualizaciones hasta 2024 .
+* El sitio web del proyecto ([anticitera.deft.work](https://anticitera.deft.work)) sigue activo, con actualizaciones hasta 2024 .
 
 
-Se mencionan colaboraciones en GitHub y una lista de espera para reservar dominios .IA, aunque no hay evidencia de avances concretos con la ICANN .
+* Se mencionan colaboraciones en GitHub y una lista de espera para reservar dominios .IA, aunque no hay evidencia de avances concretos con la ICANN .
 
 
 
 
-4. Oportunidades y Estrategias #
+4. Oportunidades y Estrategias [#](#4-oportunidades-y-estrategias)
 
 
-Atracción de Patrocinadores #
+Atracción de Patrocinadores [#](#atraccion-de-patrocinadores)
 
 
 
-El proyecto busca patrocinadores institucionales (gobiernos, universidades) y empresas tecnológicas .
+* El proyecto busca patrocinadores institucionales (gobiernos, universidades) y empresas tecnológicas .
 
 
-Una estrategia clave es posicionar .IA como un dominio para proyectos éticos y europeos de IA .
+* Una estrategia clave es posicionar .IA como un dominio para proyectos éticos y europeos de IA .
 
 
 
-Comunidad y Difusión #
+Comunidad y Difusión [#](#comunidad-y-difusion)
 
 
 
-Invita a la participación mediante:
+* Invita a la participación mediante:
 
-Firma de peticiones (Change.org) .
+* Firma de peticiones (Change.org) .
 
 
-Lista de correo y Telegram para debates .
+* Lista de correo y Telegram para debates .
 
 
-Repositorio GitHub para colaboración técnica .
+* Repositorio GitHub para colaboración técnica .
 
 
 
@@ -127,35 +127,35 @@ Repositorio GitHub para colaboración técnica .
 
 
 
-5. Nueva Información Relevante (Fuera de los Resultados de Búsqueda) #
+5. Nueva Información Relevante (Fuera de los Resultados de Búsqueda) [#](#5-nueva-informacion-relevante-fuera-de-los-resultados-de-busqueda)
 
 
 
-ICANN y Nuevos ccTLDs: En 2024, la ICANN evaluó nuevas solicitudes de dominios, pero no hay registros públicos de una solicitud formal para .IA.
+* ICANN y Nuevos ccTLDs: En 2024, la ICANN evaluó nuevas solicitudes de dominios, pero no hay registros públicos de una solicitud formal para .IA.
 
 
-Interés Académico: Algunas universidades europeas han mostrado interés en el proyecto como caso de estudio en innovación tecnológica histórica.
+* Interés Académico: Algunas universidades europeas han mostrado interés en el proyecto como caso de estudio en innovación tecnológica histórica.
 
 
-Alternativas: Mientras .IA no se apruebe, el proyecto podría explorar acuerdos con registradores de dominios para usar subdominios (ej: nombre.anticitera.ia).
+* Alternativas: Mientras .IA no se apruebe, el proyecto podría explorar acuerdos con registradores de dominios para usar subdominios (ej: nombre.anticitera.ia).
 
 
 
 
-Conclusión #
+Conclusión [#](#conclusion)
 
 
 El Proyecto .IA Isla Anticitera es una iniciativa innovadora pero con desafíos significativos. Su éxito dependerá de:
 
 
 
-Apoyo político y técnico de Grecia y la UE.
+* Apoyo político y técnico de Grecia y la UE.
 
 
-Adopción comunitaria para competir con .AI.
+* Adopción comunitaria para competir con .AI.
 
 
-Estrategias de financiamiento y colaboración con actores clave en IA.
+* Estrategias de financiamiento y colaboración con actores clave en IA.
 
 
 

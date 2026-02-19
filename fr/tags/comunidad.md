@@ -1,5 +1,5 @@
 # Marqué “comunidad”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/tags/comunidad/
 
 ---
@@ -15,4 +15,4 @@ Marqué “comunidad”
 
 
 
-Voir toutes les balises.
+Voir [toutes les balises](https://anticitera.deft.work/fr/tags.md).

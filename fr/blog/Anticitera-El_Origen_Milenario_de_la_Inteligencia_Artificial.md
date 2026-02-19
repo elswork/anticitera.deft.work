@@ -8,7 +8,7 @@ L'intelligence artificielle est l'une des plus grandes révolutions du XXIe siè
 
 
 
-1. Le Mécanisme d'Anticythère : Une Machine Hors de son Temps #
+1. Le Mécanisme d'Anticythère : Une Machine Hors de son Temps [#](#1-le-mecanisme-d-anticythere-une-machine-hors-de-son-temps)
 
 
 Le mécanisme d'Anticythère est un ordinateur astronomique complexe de la Grèce antique, daté entre le IIe siècle av. J.-C. et le Ier siècle av. J.-C. Son niveau de précision et de conception mécanique était si avancé qu'on ne verrait rien de comparable avant plus de 1 500 ans plus tard, avec les premières horloges astronomiques de l'Europe médiévale.
@@ -18,13 +18,13 @@ Le mécanisme d'Anticythère est un ordinateur astronomique complexe de la Grèc
 
 
 
-Composé de plus de 30 engrenages en bronze d'une précision étonnante.
+* Composé de plus de 30 engrenages en bronze d'une précision étonnante.
 
 
-Prédit les éclipses, les phases lunaires et les mouvements planétaires.
+* Prédit les éclipses, les phases lunaires et les mouvements planétaires.
 
 
-Utilise un modèle mathématique sophistiqué pour représenter le cosmos.
+* Utilise un modèle mathématique sophistiqué pour représenter le cosmos.
 
 
 
@@ -32,47 +32,47 @@ Cet artefact démontre que l'humanité cherchait déjà à automatiser la connai
 
 
 
-2. Quel est son Rapport avec l'IA ? #
+2. Quel est son Rapport avec l'IA ? [#](#2-quel-est-son-rapport-avec-l-ia)
 
 
 Bien que le mécanisme d'Anticythère ne soit pas une intelligence artificielle au sens actuel, il partage avec elle des principes clés :
 
 
-🔵 Automatisation de la Connaissance #
+🔵 Automatisation de la Connaissance [#](#automatisation-de-la-connaissance)
 
 
 
-Tout comme les modèles d'IA d'aujourd'hui traitent des données pour faire des prédictions, le mécanisme d'Anticythère analysait les schémas astronomiques et les convertissait en informations utiles.
+* Tout comme les modèles d'IA d'aujourd'hui traitent des données pour faire des prédictions, le mécanisme d'Anticythère analysait les schémas astronomiques et les convertissait en informations utiles.
 
 
-Ce processus de simulation de la réalité à travers un modèle mathématique est le même que celui utilisé par les IA modernes pour reconnaître des images, traduire des langues ou générer du texte.
-
-
-
-🔵 Ingénierie Algorithmique Précoce #
+* Ce processus de simulation de la réalité à travers un modèle mathématique est le même que celui utilisé par les IA modernes pour reconnaître des images, traduire des langues ou générer du texte.
 
 
 
-Le mécanisme utilisait des algorithmes mécaniques basés sur des engrenages, qui transformaient une entrée (une date) en une sortie (position planétaire, éclipses, etc.).
-
-
-Ce concept est analogue à la manière dont les algorithmes d'IA convertissent les données d'entrée en prédictions intelligentes.
+🔵 Ingénierie Algorithmique Précoce [#](#ingenierie-algorithmique-precoce)
 
 
 
-🔵 Un Système de Prise de Décision Basé sur les Données #
+* Le mécanisme utilisait des algorithmes mécaniques basés sur des engrenages, qui transformaient une entrée (une date) en une sortie (position planétaire, éclipses, etc.).
+
+
+* Ce concept est analogue à la manière dont les algorithmes d'IA convertissent les données d'entrée en prédictions intelligentes.
 
 
 
-Le mécanisme permettait de prévoir avec précision les événements astronomiques, aidant à la planification des cultures, des fêtes religieuses et des expéditions navales.
-
-
-Aujourd'hui, l'IA est utilisée dans la finance, la médecine et la science pour prendre des décisions éclairées basées sur des données, tout comme les anciens Grecs se fiaient au mécanisme d'Anticythère.
+🔵 Un Système de Prise de Décision Basé sur les Données [#](#un-systeme-de-prise-de-decision-base-sur-les-donnees)
 
 
 
+* Le mécanisme permettait de prévoir avec précision les événements astronomiques, aidant à la planification des cultures, des fêtes religieuses et des expéditions navales.
 
-3. Du Passé au Futur : L'Héritage d'Anticythère dans l'IA Moderne #
+
+* Aujourd'hui, l'IA est utilisée dans la finance, la médecine et la science pour prendre des décisions éclairées basées sur des données, tout comme les anciens Grecs se fiaient au mécanisme d'Anticythère.
+
+
+
+
+3. Du Passé au Futur : L'Héritage d'Anticythère dans l'IA Moderne [#](#3-du-passe-au-futur-l-heritage-d-anticythere-dans-l-ia-moderne)
 
 
 Le mécanisme d'Anticythère nous laisse une leçon puissante : l'humanité a toujours cherché à créer des outils pour traiter l'information et faire des prédictions. L'IA moderne n'est que l'évolution de ce désir ancestral.

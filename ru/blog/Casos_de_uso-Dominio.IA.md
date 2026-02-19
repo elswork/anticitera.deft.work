@@ -4,139 +4,139 @@ URL: https://anticitera.deft.work/ru/blog/Casos_de_uso-Dominio.IA/
 
 ---
 
-Возможные варианты использования домена .IA #
+Возможные варианты использования домена .IA [#](#vozmozhnye-varianty-ispolzovaniya-domena-ia)
 
 
-Компании и организации #
+Компании и организации [#](#kompanii-i-organizaczii)
 
 
-Nvid.ia #
+Nvid.ia [#](#nvid-ia)
 
 
 NVIDIA стала бесспорным лидером в индустрии искусственного интеллекта (ИИ), по мнению некоторых экспертов, NVIDIA доминирует на 80% рынка чипов для ИИ, ее технологии, лидерство и финансовый успех делают ее компанией, за которой стоит следить в этой области. Эта многонациональная компания, являющаяся синонимом ИИ, могла бы использовать этот URL для размещения всех своих моделей с открытым исходным кодом, чтобы их можно было свободно тестировать и загружать.
 
 
-Odise.ia #
+Odise.ia [#](#odise-ia)
 
 
-Wikiped.ia #
+Wikiped.ia [#](#wikiped-ia)
 
 
 Интернет-энциклопедия могла бы демонстрировать разработки, основанные на содержании Википедии, например, ассистента, который позволяет просматривать контент в разговорной форме.
 
 
-Национальные #
+Национальные [#](#naczionalnye)
 
 
-Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia, Autral.ia, Ind.ia, Colomb.ia, Niger.ia, Ucran.ia #
+Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia, Autral.ia, Ind.ia, Colomb.ia, Niger.ia, Ucran.ia [#](#aleman-ia-franc-ia-escoc-ia-ital-ia-hispan-ia-autral-ia-ind-ia-colomb-ia-niger-ia-ucran-ia)
 
 
 Это могли бы быть веб-приложения для изучения языков, поддерживаемые различными ассистентами, один для текста, другой для речи.
 
 
-Региональные #
+Региональные [#](#regionalnye)
 
 
-Andaluc.ia Galic.ia, Murc.ia, Almer.ia, Valenc.ia #
+Andaluc.ia Galic.ia, Murc.ia, Almer.ia, Valenc.ia [#](#andaluc-ia-galic-ia-murc-ia-almer-ia-valenc-ia)
 
 
 Они могли бы размещать порталы технологических хабов ИИ каждого региона.
 
 
-Имена #
+Имена [#](#imena)
 
 
-Rosal.ia #
+Rosal.ia [#](#rosal-ia)
 
 
 Это могло бы быть веб-приложение, в котором можно было бы общаться с виртуальной версией Розалии.
 
 
-Luc.ia, Son.ia, Valer.ia, Letiz.ia, La.ia #
+Luc.ia, Son.ia, Valer.ia, Letiz.ia, La.ia [#](#luc-ia-son-ia-valer-ia-letiz-ia-la-ia)
 
 
-Il.ia Topur.ia #
+Il.ia Topur.ia [#](#il-ia-topur-ia)
 
 
-Другие #
+Другие [#](#drugie)
 
 
-Academ.ia #
+Academ.ia [#](#academ-ia)
 
 
 Слово «академия» происходит от греческого Ἀκαδημία (Akadēmía), что было названием общественного сада недалеко от Афин, где Платон обучал своих учеников. Сад был назван в честь легендарного героя греческой мифологии, Академа. В современной версии это мог бы быть сайт, на котором студенты могли бы решать свои сомнения и получать наставничество от лучших преподавателей.
 
 
-Alcald.ia #
+Alcald.ia [#](#alcald-ia)
 
 
 Может ли модель ИИ баллотироваться на пост мэра? Я уверен, что скоро мы увидим, как граждане голосуют за политическую партию, которая включает в себя хорошо сбалансированную и беспристрастную модель.
 
 
-Notic.ia #
+Notic.ia [#](#notic-ia)
 
 
 Это мог бы быть веб-сайт, на который вы передаете различные новости, и он классифицирует их по нескольким индексам.
 
 
-Cienc.ia #
+Cienc.ia [#](#cienc-ia)
 
 
 Наука (от лат. scientĭa, «знание») — это совокупность систематических проверяемых знаний, которые изучают, объясняют и предсказывают социальные, искусственные и природные явления. Этот портал мог бы стать сборником всех ИИ, применяемых в науке.
 
 
-Democrac.ia #
+Democrac.ia [#](#democrac-ia)
 
 
 Демократия (от греч. δημοκρατία dēmokratía, dēmos, «народ» и kratos, «власть») — это форма социальной и политической организации, в которой граждане осуществляют политическую власть посредством голосования, на этом портале граждане могли бы голосовать прозрачно.
 
 
-Inteligenc.ia #
+Inteligenc.ia [#](#inteligenc-ia)
 
 
-Memor.ia #
+Memor.ia [#](#memor-ia)
 
 
-Famil.ia #
+Famil.ia [#](#famil-ia)
 
 
-Filosof.ia #
+Filosof.ia [#](#filosof-ia)
 
 
-Loter.ia #
+Loter.ia [#](#loter-ia)
 
 
-Eufor.ia #
+Eufor.ia [#](#eufor-ia)
 
 
-Alegr.ia #
+Alegr.ia [#](#alegr-ia)
 
 
-Teor.ia #
+Teor.ia [#](#teor-ia)
 
 
-Secretar.ia #
+Secretar.ia [#](#secretar-ia)
 
 
-Polic.ia #
+Polic.ia [#](#polic-ia)
 
 
 Мобильное приложение, с которым вы всегда могли бы носить полицию в кармане.
 
 
-Emergenc.ia #
+Emergenc.ia [#](#emergenc-ia)
 
 
 Приложение для информации и оповещения с искусственным интеллектом, способное спасать жизни в катастрофах, таких как DANA в Валенсии.
 
 
-Tecnolog.ia #
+Tecnolog.ia [#](#tecnolog-ia)
 
 
-Industr.ia #
+Industr.ia [#](#industr-ia)
 
 
-Alimentar.ia #
+Alimentar.ia [#](#alimentar-ia)
 
 
-Factor.ia #
+Factor.ia [#](#factor-ia)

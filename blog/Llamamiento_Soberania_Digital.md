@@ -4,19 +4,19 @@ URL: https://anticitera.deft.work/blog/Llamamiento_Soberania_Digital/
 
 ---
 
-La Soberanía Digital no se pide, se construye sobre estándares. #
+La Soberanía Digital no se pide, se construye sobre estándares. [#](#la-soberania-digital-no-se-pide-se-construye-sobre-estandares)
 
 
 Estamos en un punto de inflexión histórico. La infraestructura de internet no es neutral; es un campo de batalla geopolítico. Mientras las potencias globales aseguran sus activos digitales, Europa corre el riesgo de perder el control sobre el identificador más crítico de las próximas décadas: el sufijo .ia.
 
 
-El Problema: Captura del Identificador .IA #
+El Problema: Captura del Identificador .IA [#](#el-problema-captura-del-identificador-ia)
 
 
 Actualmente, el código "IA" no está asignado en la lista oficial ISO 3166-1. Esto lo convierte en un "territorio digital virgen". Si no actuamos, este código será capturado por intereses privados o jurisdicciones fuera del marco de derechos de la Unión Europea (como ocurrió con .ai, bajo control de Anguila).
 
 
-La Solución: Una Maniobra Legal sin Precedentes #
+La Solución: Una Maniobra Legal sin Precedentes [#](#la-solucion-una-maniobra-legal-sin-precedentes)
 
 
 El Proyecto Anticitera propone una estrategia audaz pero técnicamente viable: utilizar el mecanismo de la Iniciativa Ciudadana Europea (ICE) para solicitar a la Comisión que negocie con la ISO la asignación del código "IA" a la región de Anticitera (Grecia) bajo el estatus de "Reserva Excepcional".
@@ -25,7 +25,7 @@ El Proyecto Anticitera propone una estrategia audaz pero técnicamente viable: u
 Esto no es simbólico. Es ingeniería legal para traer la gobernanza del dominio de la Inteligencia Artificial bajo el paraguas del RGPD y los valores europeos.
 
 
-Te Buscamos a Ti: Ingeniero, Jurista, Estratega. #
+Te Buscamos a Ti: Ingeniero, Jurista, Estratega. [#](#te-buscamos-a-ti-ingeniero-jurista-estratega)
 
 
 Para registrar esta iniciativa ante la Comisión Europea, necesitamos cumplir un requisito burocrático estricto: formar un Comité de Ciudadanos compuesto por 7 personas residentes en 7 Estados miembros diferentes.
@@ -37,40 +37,40 @@ Ya tenemos la infraestructura. Ya tenemos la estrategia legal. Nos faltan 6 co-o
 No buscamos financiación. Buscamos legitimidad técnica y compromiso cívico.
 
 
-Perfil del Co-organizador (Arconte) #
+Perfil del Co-organizador (Arconte) [#](#perfil-del-co-organizador-arconte)
 
 
 
-Ciudadanía: Pasaporte de un Estado miembro de la UE (diferente a España, que ya está representada).
+* Ciudadanía: Pasaporte de un Estado miembro de la UE (diferente a España, que ya está representada).
 
 
-Perfil: Ingeniería de Telecomunicaciones, Derecho Digital, Ciberseguridad, Investigación en IA ...
+* Perfil: Ingeniería de Telecomunicaciones, Derecho Digital, Ciberseguridad, Investigación en IA ...
 
 
-Rol: Validar la iniciativa ante la Comisión (trámite seguro online) y supervisar la ética del proyecto.
+* Rol: Validar la iniciativa ante la Comisión (trámite seguro online) y supervisar la ética del proyecto.
 
 
 
-¿Por qué Unirte? #
+¿Por qué Unirte? [#](#por-que-unirte)
 
 
 Porque la historia de la tecnología se escribe definiendo estándares. Ser co-organizador de esta ICE significa poner tu nombre en el documento fundacional que aseguró la identidad digital de la IA europea.
 
 
-Acceso al Foro Estratégico (Restringido) #
+Acceso al Foro Estratégico (Restringido) [#](#acceso-al-foro-estrategico-restringido)
 
 
 Hemos habilitado un espacio de debate técnico para coordinar el registro y discutir la estrategia de normalización con ELOT/CEN.
 
 
-👉 Acceder al Debate en el Foro de la ICE
+👉 [Acceder al Debate en el Foro de la ICE](https://citizens-initiative-forum.europa.eu/discussion-forum/idea/european-digital-sovereignty-establishment-antikythera-technology-district_en)
 (Nota: Requiere registro en el sistema de la UE. Si eres el perfil que buscamos, ya sabes cómo funciona).
 
 
 ![Comité de Soberanía Digital Europea](https://anticitera.deft.work/img/soberania_digital_comite.png)
 
 
-Contacto Directo #
+Contacto Directo [#](#contacto-directo)
 
 
 Si entiendes la magnitud de lo que estamos proponiendo, contacta directamente con la coordinación del proyecto para recibir el dossier técnico completo.

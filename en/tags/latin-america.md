@@ -1,5 +1,5 @@
 # Tagged “latin america”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/tags/latin-america/
 
 ---
@@ -12,8 +12,8 @@ Tagged “latin america”
 
 
 
-	
-		Latin America at the heart of the Antikythera Project
+	* 
+		[Latin America at the heart of the Antikythera Project](https://anticitera.deft.work/en/blog/Latinoamerica_en_el_corazon.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ Tagged “latin america”
 
 
 
-See all tags.
+See [all tags](https://anticitera.deft.work/en/tags.md).

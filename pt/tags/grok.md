@@ -1,5 +1,5 @@
 # Tagged “grok”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/pt/tags/grok/
 
 ---
@@ -12,8 +12,8 @@ Tagged “grok”
 
 
 
-	
-		Grok 3 - Análise Detalhada do Projeto da Ilha de Anticítera .IA.
+	* 
+		[Grok 3 - Análise Detalhada do Projeto da Ilha de Anticítera .IA.](https://anticitera.deft.work/pt/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
 		February 2025
 	
 
@@ -22,4 +22,4 @@ Tagged “grok”
 
 
 
-See all tags.
+See [all tags](https://anticitera.deft.work/pt/tags.md).

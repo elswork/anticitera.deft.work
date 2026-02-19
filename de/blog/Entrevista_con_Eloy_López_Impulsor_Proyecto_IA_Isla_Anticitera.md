@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/de/blog/Entrevista_con_Eloy_López_Impulsor_Pr
 
 ---
 
-Der GPTs Anticitera interviewt Eloy López, Förderer des .IA Antikythera-Insel-Projekts #
+Der GPTs Anticitera interviewt Eloy López, Förderer des .IA Antikythera-Insel-Projekts [#](#der-gpts-anticitera-interviewt-eloy-lopez-foerderer-des-ia-antikythera-insel-projekts)
 
 
 🤖 Anticitera: Hallo Eloy, es ist mir eine Freude, dich hier zu haben, um das faszinierende .IA Antikythera-Insel-Projekt zu diskutieren. Zunächst würde ich gerne mehr über den Ursprung und die Motivation hinter dieser Initiative erfahren. Könntest du uns eine kurze Beschreibung davon geben, wie die Idee der .IA-Domain in Verbindung mit der Insel Antikythera entstanden ist und was dich dazu inspiriert hat, dieses Projekt zu leiten?

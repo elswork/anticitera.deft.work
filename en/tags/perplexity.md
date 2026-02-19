@@ -1,5 +1,5 @@
 # Tagged “perplexity”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/tags/perplexity/
 
 ---
@@ -12,8 +12,8 @@ Tagged “perplexity”
 
 
 
-	
-		Perplexity - Detailed Analysis of the .IA Antikythera Island Project.
+	* 
+		[Perplexity - Detailed Analysis of the .IA Antikythera Island Project.](https://anticitera.deft.work/en/blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
 		February 2025
 	
 
@@ -22,4 +22,4 @@ Tagged “perplexity”
 
 
 
-See all tags.
+See [all tags](https://anticitera.deft.work/en/tags.md).

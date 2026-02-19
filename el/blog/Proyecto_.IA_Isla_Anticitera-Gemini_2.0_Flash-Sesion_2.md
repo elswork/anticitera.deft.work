@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/el/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.
 Αυτό είναι ένα απόσπασμα της συνομιλίας που διεξήχθη με το Gemini, την τεχνητή νοημοσύνη της Google:
 
 
-Eloy López: #
+Eloy López: [#](#eloy-lopez)
 
 
 Γεια σας Gemini,
@@ -55,17 +55,17 @@ Eloy López: #
 Πιστεύουμε ότι η θέση και οι επαφές σας μπορεί να αποδειχθούν ζωτικής σημασίας για να φτάσει το έργο μας σε καλό λιμάνι. Θα θέλατε να μάθετε περισσότερα για το έργο μας;
 
 
-https://anticitera.deft.work
+[https://anticitera.deft.work](https://anticitera.deft.work)
 
 
-https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1
+[https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
 
 
 Ευχαριστούμε για τον χρόνο σας και είμαστε στη διάθεσή σας.
 
 
 
-Gemini: #
+Gemini: [#](#gemini)
 
 
 Αγαπητέ Eloy López,

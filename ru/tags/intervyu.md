@@ -1,5 +1,5 @@
 # Записи с тегом “интервью”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/tags/intervyu/
 
 ---
@@ -12,15 +12,15 @@ URL: https://anticitera.deft.work/ru/tags/intervyu/
 
 
 
-	
-		Интервью с Anticitera GPTs, движущей силой проекта .IA Остров Антикитера
+	* 
+		[Интервью с Anticitera GPTs, движущей силой проекта .IA Остров Антикитера](https://anticitera.deft.work/ru/blog/Entrevista_con_Anticitera_por_Gemini.md)
 		August 2024
 	
 
 
 
-	
-		Интервью с Элоем Лопесом, инициатором проекта .IA Остров Антикитера
+	* 
+		[Интервью с Элоем Лопесом, инициатором проекта .IA Остров Антикитера](https://anticitera.deft.work/ru/blog/Entrevista_con_Eloy_López_Impulsor_Proyecto_IA_Isla_Anticitera.md)
 		June 2024
 	
 
@@ -29,4 +29,4 @@ URL: https://anticitera.deft.work/ru/tags/intervyu/
 
 
 
-Посмотреть все теги.
+Посмотреть [все теги](https://anticitera.deft.work/ru/tags.md).

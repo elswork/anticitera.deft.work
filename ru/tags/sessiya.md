@@ -1,5 +1,5 @@
 # Записи с тегом “сессия”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/tags/sessiya/
 
 ---
@@ -12,15 +12,15 @@ URL: https://anticitera.deft.work/ru/tags/sessiya/
 
 
 
-	
-		Проект .IA Остров Антикитера - Сессия 2
+	* 
+		[Проект .IA Остров Антикитера - Сессия 2](https://anticitera.deft.work/ru/blog/Proyecto_.IA_Isla_Anticitera-Sesion_2.md)
 		December 2023
 	
 
 
 
-	
-		Проект .IA Остров Антикитера - Сессия 1
+	* 
+		[Проект .IA Остров Антикитера - Сессия 1](https://anticitera.deft.work/ru/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1.md)
 		November 2023
 	
 
@@ -29,4 +29,4 @@ URL: https://anticitera.deft.work/ru/tags/sessiya/
 
 
 
-Посмотреть все теги.
+Посмотреть [все теги](https://anticitera.deft.work/ru/tags.md).

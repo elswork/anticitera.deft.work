@@ -1,5 +1,5 @@
 # Marqué “archimède”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/tags/archimede/
 
 ---
@@ -12,8 +12,8 @@ Marqué “archimède”
 
 
 
-	
-		Archimède de Syracuse.
+	* 
+		[Archimède de Syracuse.](https://anticitera.deft.work/fr/blog/Arquimedes_de_Siracusa.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ Marqué “archimède”
 
 
 
-Voir toutes les balises.
+Voir [toutes les balises](https://anticitera.deft.work/fr/tags.md).

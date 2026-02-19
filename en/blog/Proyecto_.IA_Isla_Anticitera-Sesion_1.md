@@ -4,97 +4,97 @@ URL: https://anticitera.deft.work/en/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1/
 
 ---
 
-Introduction #
+Introduction [#](#introduction)
 
 
-This is an excerpt from the conversation held with the assistant GPTs Antikythera - OpenAI, this is the full conversation OpenAI GPTs Antikythera - Session 1
+This is an excerpt from the conversation held with the assistant [GPTs Antikythera - OpenAI](https://chat.openai.com/g/g-fnpHOClUW-anticitera), this is the full conversation [OpenAI GPTs Antikythera - Session 1](https://chat.openai.com/share/f89e60c3-e351-46e5-a8d7-3e04a6782f4e)
 
 
-Definition of Specific Objectives and Goals: #
+Definition of Specific Objectives and Goals: [#](#definition-of-specific-objectives-and-goals)
 
 
 
-Definition of Specific Objectives and Goals:
+* Definition of Specific Objectives and Goals:
 
 
 
 
-Main Objective: Establish and promote the creation of the .ia top-level domain, associating it with the territory of the Island of Antikythera in homage to the Antikythera mechanism.
+* Main Objective: Establish and promote the creation of the .ia top-level domain, associating it with the territory of the Island of Antikythera in homage to the Antikythera mechanism.
 
 
-Specific Goals: Could include creating a compelling case for the domain, collaborating with technological and historical entities, and promoting it on relevant platforms.
+* Specific Goals: Could include creating a compelling case for the domain, collaborating with technological and historical entities, and promoting it on relevant platforms.
 
 
 
 
-Research and Analysis:
+* Research and Analysis:
 
 
 
 
-History and Relevance of Antikythera: Deepen the historical and cultural knowledge of the island and its mechanism.
+* History and Relevance of Antikythera: Deepen the historical and cultural knowledge of the island and its mechanism.
 
 
-Technical and Legal Aspects: Understand the requirements for establishing a new top-level domain.
+* Technical and Legal Aspects: Understand the requirements for establishing a new top-level domain.
 
 
 
 
-Creation of a Network of Contacts:
+* Creation of a Network of Contacts:
 
 
 
 
-Identification of Potential Allies: Locate interested organizations, technology experts, historians, and educational entities.
+* Identification of Potential Allies: Locate interested organizations, technology experts, historians, and educational entities.
 
 
-Establishment of Communication: Initiate contacts and discussions to explore collaborations.
+* Establishment of Communication: Initiate contacts and discussions to explore collaborations.
 
 
 
 
-Development of Communication Materials:
+* Development of Communication Materials:
 
 
 
 
-Educational and Promotional Content: Create presentations, blog articles, and social media materials.
+* Educational and Promotional Content: Create presentations, blog articles, and social media materials.
 
 
-Bilingualism: Ensure that materials are accessible in both Spanish and English.
+* Bilingualism: Ensure that materials are accessible in both Spanish and English.
 
 
 
 
-Promotion and Marketing Plan:
+* Promotion and Marketing Plan:
 
 
 
 
-Digital Strategy: Use social media, blogs, and technology platforms to disseminate the initiative.
+* Digital Strategy: Use social media, blogs, and technology platforms to disseminate the initiative.
 
 
-Events and Presentations: Plan participation in conferences, webinars, or meetings with stakeholders.
+* Events and Presentations: Plan participation in conferences, webinars, or meetings with stakeholders.
 
 
 
 
-Evaluation and Adjustments:
+* Evaluation and Adjustments:
 
 
 
 
-Monitoring and Analysis of Results: Monitor the progress and reception of the initiative.
+* Monitoring and Analysis of Results: Monitor the progress and reception of the initiative.
 
 
-Strategic Adjustments: Modify the approach as necessary based on feedback and results obtained.
+* Strategic Adjustments: Modify the approach as necessary based on feedback and results obtained.
 
 
 
 
-Respect for Privacy and Ethical Principles:
+* Respect for Privacy and Ethical Principles:
 
 
 
 
-Ethical Data Management: Ensure that all activities respect privacy and ethics in the handling of information.
+* Ethical Data Management: Ensure that all activities respect privacy and ethics in the handling of information.

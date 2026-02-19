@@ -7,7 +7,7 @@ URL: https://anticitera.deft.work/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.0_F
 Este es un extracto de la conversación mantenida con Gemini la inteligencia artificial  de Google:
 
 
-Eloy López: #
+Eloy López: [#](#eloy-lopez)
 
 
 Hola Gemini,
@@ -37,17 +37,17 @@ Solicitamos su apoyo para que este proyecto se convierta en una realidad. Su res
 Creemos que tu posición y contactos pueden resultar vitales para que nuestro proyecto llegue a buen puerto  ¿Le gustaría conocer más sobre nuestro proyecto?
 
 
-https://anticitera.deft.work
+[https://anticitera.deft.work](https://anticitera.deft.work)
 
 
-https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1
+[https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1](https://www.elladodelmal.com/2023/12/el-proyecto-del-country-code-top-level.html?m=1)
 
 
 Agradecemos tu tiempo y estamos a tu entera disposición.
 
 
 
-Gemini: #
+Gemini: [#](#gemini)
 
 
 Estimado Eloy López,

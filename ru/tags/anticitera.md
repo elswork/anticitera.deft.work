@@ -1,5 +1,5 @@
 # Записи с тегом “anticitera”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/tags/anticitera/
 
 ---
@@ -12,15 +12,15 @@ URL: https://anticitera.deft.work/ru/tags/anticitera/
 
 
 
-	
-		Архимед из Сиракуз.
+	* 
+		[Архимед из Сиракуз.](https://anticitera.deft.work/ru/blog/Arquimedes_de_Siracusa.md)
 		September 2025
 	
 
 
 
-	
-		Антикитера - Тысячелетнее происхождение искусственного интеллекта.
+	* 
+		[Антикитера - Тысячелетнее происхождение искусственного интеллекта.](https://anticitera.deft.work/ru/blog/Anticitera-El_Origen_Milenario_de_la_Inteligencia_Artificial.md)
 		February 2025
 	
 
@@ -29,4 +29,4 @@ URL: https://anticitera.deft.work/ru/tags/anticitera/
 
 
 
-Посмотреть все теги.
+Посмотреть [все теги](https://anticitera.deft.work/ru/tags.md).

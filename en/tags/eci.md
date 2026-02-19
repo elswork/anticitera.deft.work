@@ -1,5 +1,5 @@
 # Tagged “eci”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/tags/eci/
 
 ---
@@ -12,8 +12,8 @@ Tagged “eci”
 
 
 
-	
-		European Digital Sovereignty: Call to the ECI .IA Committee
+	* 
+		[European Digital Sovereignty: Call to the ECI .IA Committee](https://anticitera.deft.work/en/blog/Llamamiento_Soberania_Digital.md)
 		January 2026
 	
 
@@ -22,4 +22,4 @@ Tagged “eci”
 
 
 
-See all tags.
+See [all tags](https://anticitera.deft.work/en/tags.md).

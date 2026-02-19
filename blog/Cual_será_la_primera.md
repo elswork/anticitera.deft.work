@@ -10,7 +10,7 @@ La primera empresa en patrocinar un evento deportivo de manera formal fue una em
 Más de 170 años nos separan de aquel momento, el número de empresas ha crecido considerablemente y nos encontramos en plena era de la Inteligencia Artificial. Hay una pregunta que retumba en mi cabeza, ¿Cuál será la primera?, ¿Cuál será la primera empresa/organización/institución en patrocinar el “Proyecto Anticitera”?
 
 
-Esta pregunta viene de atrás, en varias ocasiones ya he especulado con esta idea, una de las candidatas favoritas es Telefónica que está celebrando su centenario. Pero la lista de posibles pretendientes a dejar su huella en la historia del mecenazgo tecnológico es larga y diversa, abarcando desde gigantes globales hasta entidades profundamente arraigadas en el panorama español y europeo.
+Esta pregunta viene de atrás, en varias ocasiones ya he especulado con esta idea, una de las candidatas favoritas es [Telefónica](https://www.telefonica.com/es/) que está celebrando su centenario. Pero la lista de posibles pretendientes a dejar su huella en la historia del mecenazgo tecnológico es larga y diversa, abarcando desde gigantes globales hasta entidades profundamente arraigadas en el panorama español y europeo.
 
 
 El Proyecto Anticitera, con su ambición de establecer el dominio .IA para la isla de Anticitera no solo como un identificador geográfico, sino como un puente temático y simbólico entre la asombrosa innovación del mecanismo de Anticitera y el campo actual de la inteligencia artificial, ofrece un escaparate singular.
@@ -23,19 +23,19 @@ Lista de posibles candidatos:
 
 
 
-Los Gigantes Tecnológicos Globales (Google, Microsoft, Nvidia): Son líderes indiscutibles en la investigación y aplicación de la Inteligencia Artificial. Patrocinar el Proyecto Anticitera les permitiría asociar su marca directamente con los orígenes conceptuales de la computación y la IA, proyectando una imagen de respeto por la historia de la tecnología y de liderazgo en su evolución. Sería una declaración global sobre su visión del futuro digital arraigado en el ingenio humano milenario.
+* Los Gigantes Tecnológicos Globales ([Google](https://www.google.es/), [Microsoft](https://www.microsoft.com/es-es), [Nvidia](https://www.nvidia.com/es-es/)): Son líderes indiscutibles en la investigación y aplicación de la Inteligencia Artificial. Patrocinar el Proyecto Anticitera les permitiría asociar su marca directamente con los orígenes conceptuales de la computación y la IA, proyectando una imagen de respeto por la historia de la tecnología y de liderazgo en su evolución. Sería una declaración global sobre su visión del futuro digital arraigado en el ingenio humano milenario.
 
 
-Las Consultoras y Tecnológicas Españolas (Telefónica, Minsait, Sngular, Paradigma Digital): Estas empresas están en la vanguardia de la transformación digital y la implementación de soluciones de IA en España. Para ellas, el patrocinio podría ser una forma de destacar su compromiso con la innovación desde una perspectiva local con resonancia global. Telefónica, en su centenario, podría encontrar en este proyecto una forma original de celebrar su trayectoria, vinculando su historia como pilar de las comunicaciones con el futuro de la IA, todo ello bajo el paraguas de una iniciativa que usa un dominio de internet para conectar pasado y futuro. Sería una forma de decir: "Hemos estado aquí desde el principio de la era de la comunicación y lideramos la era de la IA, respetando de dónde venimos".
+* Las Consultoras y Tecnológicas Españolas ([Telefónica](https://www.telefonica.com/es/), [Minsait](https://www.minsait.com/es), [Sngular](https://www.sngular.com/), [Paradigma Digital](https://www.paradigmadigital.com/)): Estas empresas están en la vanguardia de la transformación digital y la implementación de soluciones de IA en España. Para ellas, el patrocinio podría ser una forma de destacar su compromiso con la innovación desde una perspectiva local con resonancia global. Telefónica, en su centenario, podría encontrar en este proyecto una forma original de celebrar su trayectoria, vinculando su historia como pilar de las comunicaciones con el futuro de la IA, todo ello bajo el paraguas de una iniciativa que usa un dominio de internet para conectar pasado y futuro. Sería una forma de decir: "Hemos estado aquí desde el principio de la era de la comunicación y lideramos la era de la IA, respetando de dónde venimos".
 
 
-La Banca y Energía (Santander, BBVA, CaixaBank, Repsol): Aunque tradicionalmente no se les asocie con los dominios de internet o la historia de la computación, estas grandes corporaciones son usuarias intensivas de la IA para optimizar procesos, analizar datos y mejorar la experiencia del cliente. Patrocinar un proyecto como este podría ser una poderosa declaración de su apuesta por la innovación, su interés en el potencial transformador de la IA y su disposición a apoyar iniciativas que, aunque aparentemente nicho, tienen una profunda base conceptual y cultural. Les permitiría mostrar una faceta más allá de su negocio principal, ligada al progreso tecnológico y cultural.
+* La Banca y Energía ([Santander](https://www.santander.com/es/home), [BBVA](https://www.bbva.es/personas.html), [CaixaBank](https://www.caixabank.com/es/home_es.html), [Repsol](https://www.repsol.com/es/index.cshtml)): Aunque tradicionalmente no se les asocie con los dominios de internet o la historia de la computación, estas grandes corporaciones son usuarias intensivas de la IA para optimizar procesos, analizar datos y mejorar la experiencia del cliente. Patrocinar un proyecto como este podría ser una poderosa declaración de su apuesta por la innovación, su interés en el potencial transformador de la IA y su disposición a apoyar iniciativas que, aunque aparentemente nicho, tienen una profunda base conceptual y cultural. Les permitiría mostrar una faceta más allá de su negocio principal, ligada al progreso tecnológico y cultural.
 
 
-Instituciones y Entidades relacionadas con la IA y la Investigación (GAIA-X, Odiseia, Ellis): Aquí la conexión es más directa. GAIA-X y Ellis son iniciativas europeas centradas en datos e IA. Odiseia trabaja en IA responsable. Patrocinar el Proyecto Anticitera, que usa un dominio .IA y busca destacar los "orígenes casi de la computación o de la inteligencia artificial", sería una alineación perfecta con sus misiones.
+* Instituciones y Entidades relacionadas con la IA y la Investigación (GAIA-X, Odiseia, Ellis): Aquí la conexión es más directa. GAIA-X y Ellis son iniciativas europeas centradas en datos e IA. Odiseia trabaja en IA responsable. Patrocinar el Proyecto Anticitera, que usa un dominio .IA y busca destacar los "orígenes casi de la computación o de la inteligencia artificial", sería una alineación perfecta con sus misiones.
 
 
-Otros: Como por ejemplo Freepik una empresa emergente española especializada en IA para imágenes o quizás una empresa pequeña y desconocida de cualquier sector industrial, que sepa apreciar el potencial real del proyecto.
+* Otros: Como por ejemplo [Freepik](https://www.freepik.es/) una empresa emergente española especializada en IA para imágenes o quizás una empresa pequeña y desconocida de cualquier sector industrial, que sepa apreciar el potencial real del proyecto.
 
 
 
@@ -55,16 +55,16 @@ Tal como la compañía de ferrocarriles vio una oportunidad en vincularse con el
 
 
 
-Compartiendo la iniciativa con quien consideres oportuno o RRSS.
+* Compartiendo la iniciativa con quien consideres oportuno o RRSS.
 
 
-Firmando la petición en Change.org
+* [Firmando la petición en Change.org](https://chng.it/hqCyzBpwgW)
 
 
-Suscribiéndote al boletín de noticias para estar informado del progreso.
+* [Suscribiéndote al boletín de noticias](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link%27) para estar informado del progreso.
 
 
-Entrando en la sala de debate de Telegram
+* [Entrando en la sala de debate](https://t.me/+oAeZGMsePDg2ZDI0) de Telegram
 
 
 

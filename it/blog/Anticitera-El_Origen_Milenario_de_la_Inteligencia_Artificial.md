@@ -8,7 +8,7 @@ L'intelligenza artificiale è una delle più grandi rivoluzioni del XXI secolo, 
 
 
 
-1. Il Meccanismo di Anticitera: Una Macchina Fuori dal suo Tempo #
+1. Il Meccanismo di Anticitera: Una Macchina Fuori dal suo Tempo [#](#1-il-meccanismo-di-anticitera-una-macchina-fuori-dal-suo-tempo)
 
 
 Il Meccanismo di Anticitera è un complesso computer astronomico dell'antica Grecia, datato tra il II secolo a.C. e il I secolo a.C. Il suo livello di precisione e design meccanico era così avanzato che non si vedrà qualcosa di paragonabile per oltre 1.500 anni dopo, con i primi orologi astronomici dell'Europa medievale.
@@ -18,13 +18,13 @@ Il Meccanismo di Anticitera è un complesso computer astronomico dell'antica Gre
 
 
 
-Composto da più di 30 ingranaggi di bronzo con una precisione sorprendente.
+* Composto da più di 30 ingranaggi di bronzo con una precisione sorprendente.
 
 
-Prevede eclissi, fasi lunari e movimenti planetari.
+* Prevede eclissi, fasi lunari e movimenti planetari.
 
 
-Utilizza un sofisticato modello matematico per rappresentare il cosmo.
+* Utilizza un sofisticato modello matematico per rappresentare il cosmo.
 
 
 
@@ -32,47 +32,47 @@ Questo artefatto dimostra che l'umanità cercava già di automatizzare la conosc
 
 
 
-2. Che Relazione ha con l'IA? #
+2. Che Relazione ha con l'IA? [#](#2-che-relazione-ha-con-l-ia)
 
 
 Sebbene il Meccanismo di Anticitera non sia un'intelligenza artificiale nel senso attuale, condivide con essa principi chiave:
 
 
-🔵 Automazione della Conoscenza #
+🔵 Automazione della Conoscenza [#](#automazione-della-conoscenza)
 
 
 
-Così come i modelli di IA di oggi elaborano dati per fare previsioni, il Meccanismo di Anticitera analizzava modelli astronomici e li convertiva in informazioni utili.
+* Così come i modelli di IA di oggi elaborano dati per fare previsioni, il Meccanismo di Anticitera analizzava modelli astronomici e li convertiva in informazioni utili.
 
 
-Questo processo di simulazione della realtà attraverso un modello matematico è lo stesso che usano le IA moderne per riconoscere immagini, tradurre lingue o generare testo.
-
-
-
-🔵 Ingegneria Algoritmica Primitiva #
+* Questo processo di simulazione della realtà attraverso un modello matematico è lo stesso che usano le IA moderne per riconoscere immagini, tradurre lingue o generare testo.
 
 
 
-Il meccanismo utilizzava algoritmi meccanici basati su ingranaggi, i quali trasformavano un input (una data) in un output (posizione planetaria, eclissi, ecc.).
-
-
-Questo concetto è analogo a come gli algoritmi di IA convertono dati di input in previsioni intelligenti.
+🔵 Ingegneria Algoritmica Primitiva [#](#ingegneria-algoritmica-primitiva)
 
 
 
-🔵 Un Sistema di Processo Decisionale Basato sui Dati #
+* Il meccanismo utilizzava algoritmi meccanici basati su ingranaggi, i quali trasformavano un input (una data) in un output (posizione planetaria, eclissi, ecc.).
+
+
+* Questo concetto è analogo a come gli algoritmi di IA convertono dati di input in previsioni intelligenti.
 
 
 
-Il meccanismo permetteva di prevedere eventi astronomici con precisione, aiutando nella pianificazione dei raccolti, delle feste religiose e delle spedizioni navali.
-
-
-Oggi, l'IA viene utilizzata in finanza, medicina e scienza per prendere decisioni informate basate sui dati, proprio come gli antichi greci si affidavano al Meccanismo di Anticitera.
+🔵 Un Sistema di Processo Decisionale Basato sui Dati [#](#un-sistema-di-processo-decisionale-basato-sui-dati)
 
 
 
+* Il meccanismo permetteva di prevedere eventi astronomici con precisione, aiutando nella pianificazione dei raccolti, delle feste religiose e delle spedizioni navali.
 
-3. Dal Passato al Futuro: L'Eredità di Anticitera nell'IA Moderna #
+
+* Oggi, l'IA viene utilizzata in finanza, medicina e scienza per prendere decisioni informate basate sui dati, proprio come gli antichi greci si affidavano al Meccanismo di Anticitera.
+
+
+
+
+3. Dal Passato al Futuro: L'Eredità di Anticitera nell'IA Moderna [#](#3-dal-passato-al-futuro-l-eredita-di-anticitera-nell-ia-moderna)
 
 
 Il Meccanismo di Anticitera ci lascia un insegnamento potente: l'umanità ha sempre cercato di creare strumenti per elaborare informazioni e fare previsioni. L'IA moderna non è altro che l'evoluzione di questo desiderio ancestrale.

@@ -1,5 +1,5 @@
 # Με ετικέτα "ανάπτυξη"
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/tags/anaptyksi/
 
 ---
@@ -12,8 +12,8 @@ URL: https://anticitera.deft.work/el/tags/anaptyksi/
 
 
 
-	
-		Πώς βλέπει μια Τεχνητή Νοημοσύνη τον κώδικα του Project Antikythera
+	* 
+		[Πώς βλέπει μια Τεχνητή Νοημοσύνη τον κώδικα του Project Antikythera](https://anticitera.deft.work/el/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
 		December 2025
 	
 
@@ -22,4 +22,4 @@ URL: https://anticitera.deft.work/el/tags/anaptyksi/
 
 
 
-Δείτε όλες τις ετικέτες.
+Δείτε [όλες τις ετικέτες](https://anticitera.deft.work/el/tags.md).

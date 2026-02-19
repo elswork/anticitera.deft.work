@@ -1,5 +1,5 @@
 # Getaggt "europa"
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/tags/europa/
 
 ---
@@ -12,8 +12,8 @@ Getaggt "europa"
 
 
 
-	
-		Europäische digitale Souveränität: Aufruf an den EBI-Ausschuss .IA
+	* 
+		[Europäische digitale Souveränität: Aufruf an den EBI-Ausschuss .IA](https://anticitera.deft.work/de/blog/Llamamiento_Soberania_Digital.md)
 		January 2026
 	
 
@@ -22,4 +22,4 @@ Getaggt "europa"
 
 
 
-Siehe alle Tags.
+Siehe [alle Tags](https://anticitera.deft.work/de/tags.md).

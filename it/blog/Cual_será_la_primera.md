@@ -10,7 +10,7 @@ La prima azienda a sponsorizzare un evento sportivo in modo formale fu una compa
 Più di 170 anni ci separano da quel momento, il numero di aziende è cresciuto considerevolmente e ci troviamo in piena era dell'Intelligenza Artificiale. C'è una domanda che mi risuona in testa: quale sarà la prima? Quale sarà la prima azienda/organizzazione/istituzione a sponsorizzare il “Progetto Anticitera”?
 
 
-Questa domanda viene da lontano; in diverse occasioni ho già speculato su questa idea. Una delle candidate preferite è Telefónica, che sta celebrando il suo centenario. Ma la lista dei possibili pretendenti a lasciare il proprio segno nella storia del mecenatismo tecnologico è lunga e variegata, spaziando da giganti globali a entità profondamente radicate nel panorama spagnolo ed europeo.
+Questa domanda viene da lontano; in diverse occasioni ho già speculato su questa idea. Una delle candidate preferite è [Telefónica](https://www.telefonica.com/es/), che sta celebrando il suo centenario. Ma la lista dei possibili pretendenti a lasciare il proprio segno nella storia del mecenatismo tecnologico è lunga e variegata, spaziando da giganti globali a entità profondamente radicate nel panorama spagnolo ed europeo.
 
 
 Il Progetto Anticitera, con la sua ambizione di istituire il dominio .IA per l'isola di Anticitera non solo come un identificatore geografico, ma come un ponte tematico e simbolico tra l'incredibile innovazione del meccanismo di Anticitera e il campo attuale dell'intelligenza artificiale, offre una vetrina unica.
@@ -23,19 +23,19 @@ Elenco dei possibili candidati:
 
 
 
-I Giganti Tecnologici Globali (Google, Microsoft, Nvidia): Sono leader indiscussi nella ricerca e applicazione dell'Intelligenza Artificiale. Sponsorizzare il Progetto Anticitera permetterebbe loro di associare il proprio marchio direttamente alle origini concettuali dell'informatica e dell'IA, proiettando un'immagine di rispetto per la storia della tecnologia e di leadership nella sua evoluzione. Sarebbe una dichiarazione globale sulla loro visione del futuro digitale radicato nell'ingegno umano millenario.
+* I Giganti Tecnologici Globali ([Google](https://www.google.es/), [Microsoft](https://www.microsoft.com/es-es), [Nvidia](https://www.nvidia.com/es-es/)): Sono leader indiscussi nella ricerca e applicazione dell'Intelligenza Artificiale. Sponsorizzare il Progetto Anticitera permetterebbe loro di associare il proprio marchio direttamente alle origini concettuali dell'informatica e dell'IA, proiettando un'immagine di rispetto per la storia della tecnologia e di leadership nella sua evoluzione. Sarebbe una dichiarazione globale sulla loro visione del futuro digitale radicato nell'ingegno umano millenario.
 
 
-Le Società di Consulenza e Tecnologiche Spagnole (Telefónica, Minsait, Sngular, Paradigma Digital): Queste aziende sono all'avanguardia della trasformazione digitale e dell'implementazione di soluzioni di IA in Spagna. Per loro, la sponsorizzazione potrebbe essere un modo per evidenziare il loro impegno per l'innovazione da una prospettiva locale con risonanza globale. Telefónica, nel suo centenario, potrebbe trovare in questo progetto un modo originale per celebrare la sua storia, collegando il suo passato come pilastro delle comunicazioni con il futuro dell'IA, il tutto sotto l'ombrello di un'iniziativa che usa un dominio internet per connettere passato e futuro. Sarebbe un modo per dire: "Siamo qui fin dall'inizio dell'era della comunicazione e guidiamo l'era dell'IA, rispettando le nostre origini".
+* Le Società di Consulenza e Tecnologiche Spagnole ([Telefónica](https://www.telefonica.com/es/), [Minsait](https://www.minsait.com/es), [Sngular](https://www.sngular.com/), [Paradigma Digital](https://www.paradigmadigital.com/)): Queste aziende sono all'avanguardia della trasformazione digitale e dell'implementazione di soluzioni di IA in Spagna. Per loro, la sponsorizzazione potrebbe essere un modo per evidenziare il loro impegno per l'innovazione da una prospettiva locale con risonanza globale. Telefónica, nel suo centenario, potrebbe trovare in questo progetto un modo originale per celebrare la sua storia, collegando il suo passato come pilastro delle comunicazioni con il futuro dell'IA, il tutto sotto l'ombrello di un'iniziativa che usa un dominio internet per connettere passato e futuro. Sarebbe un modo per dire: "Siamo qui fin dall'inizio dell'era della comunicazione e guidiamo l'era dell'IA, rispettando le nostre origini".
 
 
-Banche ed Energia (Santander, BBVA, CaixaBank, Repsol): Sebbene tradizionalmente non siano associate ai domini internet o alla storia dell'informatica, queste grandi aziende sono utenti intensivi di IA per ottimizzare processi, analizzare dati e migliorare l'esperienza del cliente. Sponsorizzare un progetto come questo potrebbe essere una potente dichiarazione della loro scommessa sull'innovazione, del loro interesse per il potenziale trasformativo dell'IA e della loro disponibilità a sostenere iniziative che, sebbene apparentemente di nicchia, hanno una profonda base concettuale e culturale. Permetterebbe loro di mostrare un lato diverso dal loro business principale, legato al progresso tecnologico e culturale.
+* Banche ed Energia ([Santander](https://www.santander.com/es/home), [BBVA](https://www.bbva.es/personas.html), [CaixaBank](https://www.caixabank.com/es/home_es.html), [Repsol](https://www.repsol.com/es/index.cshtml)): Sebbene tradizionalmente non siano associate ai domini internet o alla storia dell'informatica, queste grandi aziende sono utenti intensivi di IA per ottimizzare processi, analizzare dati e migliorare l'esperienza del cliente. Sponsorizzare un progetto come questo potrebbe essere una potente dichiarazione della loro scommessa sull'innovazione, del loro interesse per il potenziale trasformativo dell'IA e della loro disponibilità a sostenere iniziative che, sebbene apparentemente di nicchia, hanno una profonda base concettuale e culturale. Permetterebbe loro di mostrare un lato diverso dal loro business principale, legato al progresso tecnologico e culturale.
 
 
-Istituzioni ed Entità legate all'IA e alla Ricerca (GAIA-X, Odiseia, Ellis): Qui la connessione è più diretta. GAIA-X ed Ellis sono iniziative europee incentrate su dati e IA. Odiseia lavora sull'IA responsabile. Sponsorizzare il Progetto Anticitera, che usa un dominio .IA e cerca di evidenziare le "origini quasi dell'informatica o dell'intelligenza artificiale", sarebbe un allineamento perfetto con le loro missioni.
+* Istituzioni ed Entità legate all'IA e alla Ricerca (GAIA-X, Odiseia, Ellis): Qui la connessione è più diretta. GAIA-X ed Ellis sono iniziative europee incentrate su dati e IA. Odiseia lavora sull'IA responsabile. Sponsorizzare il Progetto Anticitera, che usa un dominio .IA e cerca di evidenziare le "origini quasi dell'informatica o dell'intelligenza artificiale", sarebbe un allineamento perfetto con le loro missioni.
 
 
-Altri: Come ad esempio Freepik, un'azienda emergente spagnola specializzata in IA per immagini, o forse un'azienda piccola e sconosciuta di qualsiasi settore industriale, che sappia apprezzare il potenziale reale del progetto.
+* Altri: Come ad esempio [Freepik](https://www.freepik.es/), un'azienda emergente spagnola specializzata in IA per immagini, o forse un'azienda piccola e sconosciuta di qualsiasi settore industriale, che sappia apprezzare il potenziale reale del progetto.
 
 
 
@@ -55,16 +55,16 @@ Unisciti a noi per scrivere il prossimo capitolo dell'innovazione tecnologica.
 
 
 
-Condividendo l'iniziativa con chi ritieni opportuno o sui social media.
+* Condividendo l'iniziativa con chi ritieni opportuno o sui social media.
 
 
-Firmando la petizione su Change.org
+* [Firmando la petizione su Change.org](https://chng.it/hqCyzBpwgW)
 
 
-Iscrivendoti alla newsletter per rimanere informato sui progressi.
+* [Iscrivendoti alla newsletter](https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link%27) per rimanere informato sui progressi.
 
 
-Entrando nella sala di discussione di Telegram
+* [Entrando nella sala di discussione](https://t.me/+oAeZGMsePDg2ZDI0) di Telegram
 
 
 

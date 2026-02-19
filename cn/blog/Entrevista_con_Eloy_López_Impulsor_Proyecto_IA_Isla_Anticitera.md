@@ -4,7 +4,7 @@ URL: https://anticitera.deft.work/cn/blog/Entrevista_con_Eloy_López_Impulsor_Pr
 
 ---
 
-安提基特拉GPTs采访.IA安提基特拉岛项目推动者Eloy López #
+安提基特拉GPTs采访.IA安提基特拉岛项目推动者Eloy López [#](#gpts-ia-eloy-lopez)
 
 
 🤖 安提基特拉：你好，Eloy，很高兴能在这里与你讨论这个引人入胜的.IA安提基特拉岛项目。首先，我想更多地了解这个倡议的起源和动机。你能否简要描述一下将.IA域名与安提基特拉岛联系起来的想法是如何产生的，以及是什么激励你领导这个项目？

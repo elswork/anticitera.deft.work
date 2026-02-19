@@ -1,5 +1,5 @@
 # Etiquetado “arquímedes”
-Fecha: Thu Feb 19 2026 21:58:08 GMT+0000 (Coordinated Universal Time)
+Fecha: Thu Feb 19 2026 22:10:07 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/tags/arquimedes/
 
 ---
@@ -12,8 +12,8 @@ Etiquetado “arquímedes”
 
 
 
-	
-		Arquímedes de Siracusa.
+	* 
+		[Arquímedes de Siracusa.](https://anticitera.deft.work/blog/Arquimedes_de_Siracusa.md)
 		September 2025
 	
 
@@ -22,4 +22,4 @@ Etiquetado “arquímedes”
 
 
 
-Ver todas las etiquetas.
+Ver [todas las etiquetas](https://anticitera.deft.work/tags.md).
