@@ -1,0 +1,38 @@
+---
+permalink: /llms-full.txt
+eleventyExcludeFromCollections: true
+---
+# Contenido Completo - Proyecto Anticitera
+
+Este archivo contiene la consolidación de los documentos principales del Proyecto Anticitera para facilitar su procesamiento por agentes de IA.
+
+{% set main_pages = [
+    "/es/manifiesto/",
+    "/es/about/",
+    "/es/ciudadania/"
+] %}
+
+{%- for path in main_pages -%}
+    {%- for item in collections.all -%}
+        {%- if item.url == path -%}
+---
+## DOCUMENTO: {{ item.data.title }}
+URL: {{ item.url }}
+
+{{ item.content | striptags | safe }}
+
+        {%- endif -%}
+    {%- endfor -%}
+{%- endfor -%}
+
+## BLOG RECIENTE
+
+{%- for post in collections.posts | head(5) -%}
+---
+### POST: {{ post.data.title }}
+Fecha: {{ post.date | date }}
+URL: {{ post.url }}
+
+{{ post.content | striptags | safe }}
+
+{%- endfor -%}
