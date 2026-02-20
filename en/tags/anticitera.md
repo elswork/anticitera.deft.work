@@ -1,5 +1,5 @@
 # Tagged “anticitera”
-Fecha: Thu Feb 19 2026 22:16:46 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Feb 20 2026 08:27:22 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/tags/anticitera/
 
 ---
