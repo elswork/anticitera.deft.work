@@ -19,7 +19,7 @@ Este archivo contiene la consolidación de los documentos principales del Proyec
 ## DOCUMENTO: {{ item.data.title }}
 URL: https://anticitera.deft.work{% if item.url == '/' %}/index.md{% else %}{{ item.url | replace(r/\/$/, '') }}.md{% endif %}
 
-{{ item.content | striptags | safe }}
+{{ item.content | safe }}
 
         {%- endif -%}
     {%- endfor -%}
@@ -27,12 +27,14 @@ URL: https://anticitera.deft.work{% if item.url == '/' %}/index.md{% else %}{{ i
 
 ## BLOG RECIENTE
 
-{%- for post in collections.posts | head(5) -%}
+{%- for post in collections.posts | reverse | head(10) -%}
+    {%- if post.data.lang == 'es' or not post.data.lang -%}
 ---
 ### POST: {{ post.data.title }}
 Fecha: {{ post.date | date }}
 URL: https://anticitera.deft.work{{ post.url | replace(r/\/$/, '') }}.md
 
-{{ post.content | striptags | safe }}
+{{ post.content | safe }}
 
+    {%- endif -%}
 {%- endfor -%}
