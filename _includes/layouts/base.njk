@@ -145,16 +145,16 @@
 		<main id="skip">
 		<ul class="post-metadata">
 			<li>				
-				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}', '_blank')" id="edit-github-btn">
+				<button onclick="window.open('https://github.com/elswork/anticitera.deft.work/edit/main{{ page.inputPath | replace('./', '/') }}', '_blank', 'noopener')" id="edit-github-btn">
 					{{ home[lang].buttons.edit_github }} {% icon "simpleicon:github", class="icon" %} GitHub
 				</button>
-				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank')" id="vote-change-org">
+				<button onclick="window.open('https://chng.it/hqCyzBpwgW', '_blank', 'noopener')" id="vote-change-org">
 					{{ home[lang].buttons.vote_change_org }} {% icon "simpleicon:c", class="icon" %}. Change.org
 				</button>
-				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank')" id="telegram-group">
+				<button onclick="window.open('https://t.me/+oAeZGMsePDg2ZDI0', '_blank', 'noopener')" id="telegram-group">
 					{{ home[lang].buttons.telegram_group }} {% icon "simpleicon:telegram", class="icon" %} Telegram
 				</button>
-				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank')" id="suscribe-mail-list">
+				<button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSeptFS3-XMVTeBFQzDEl1O55hkXhtOgYmMSEfpLLJk11UZEOA/viewform?usp=sf_link', '_blank', 'noopener')" id="suscribe-mail-list">
 					{{ home[lang].buttons.suscribe_mail_list }} {% icon "simpleicon:gmail", class="icon" %} Correo
 				</button>
 			</li>
@@ -170,20 +170,20 @@
 			<div class="container">
 				<div class="social-media">
 					<!-- Botones para redes sociales -->
-					<button onclick="window.open('https://twitter.com/elswork', '_blank')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
-					<button onclick="window.open('https://github.dev/elswork/anticitera.deft.work', '_blank')" class="vscode-icon">{% icon "simpleicon:visualstudiocode", class="icon_plus" %}</button>
-					<button onclick="window.open('https://github.com/elswork/anticitera.deft.work', '_blank')" class="github-icon">{% icon "simpleicon:github", class="icon_plus" %}</button>
-					<button onclick="window.open('https://www.reddit.com/r/IslaAnticitera', '_blank')" class="reddit-icon">{% icon "simpleicon:reddit", class="icon_plus" %}</button>
-					<button onclick="window.open('/feed/feed.json', '_blank')" class="json-icon">{% icon "simpleicon:json", class="icon_plus" %}</button>
-					<button onclick="window.open('/feed/feed.xml', '_blank')" class="feedly-icon">{% icon "simpleicon:feedly", class="icon_plus" %}</button>
+					<button onclick="window.open('https://twitter.com/elswork', '_blank', 'noopener')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
+					<button onclick="window.open('https://github.dev/elswork/anticitera.deft.work', '_blank', 'noopener')" class="vscode-icon">{% icon "simpleicon:visualstudiocode", class="icon_plus" %}</button>
+					<button onclick="window.open('https://github.com/elswork/anticitera.deft.work', '_blank', 'noopener')" class="github-icon">{% icon "simpleicon:github", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.reddit.com/r/IslaAnticitera', '_blank', 'noopener')" class="reddit-icon">{% icon "simpleicon:reddit", class="icon_plus" %}</button>
+					<button onclick="window.open('/feed/feed.json', '_blank', 'noopener')" class="json-icon">{% icon "simpleicon:json", class="icon_plus" %}</button>
+					<button onclick="window.open('/feed/feed.xml', '_blank', 'noopener')" class="feedly-icon">{% icon "simpleicon:feedly", class="icon_plus" %}</button>
 				</div>
 				<p>Anticitera // Nación Digital 🌍 {{ 'now' | currentYear }}</p>
 				<div class="share-links">
 					<!-- Botones para compartir -->
-					<button onclick="window.open('https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera', '_blank')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
-					<button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada', '_blank')" class="linkedin-icon">{% icon "simpleicon:linkedin", class="icon_plus" %}</button>
-					<button onclick="window.open('https://api.whatsapp.com/send?text=https://anticitera.deft.work', '_blank')" class="whatsapp-icon">{% icon "simpleicon:whatsapp", class="icon_plus" %}</button>
-					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work', '_blank')" class="facebook-icon">{% icon "simpleicon:facebook", class="icon_plus" %}</button>
+					<button onclick="window.open('https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera', '_blank', 'noopener')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada', '_blank', 'noopener')" class="linkedin-icon">{% icon "simpleicon:linkedin", class="icon_plus" %}</button>
+					<button onclick="window.open('https://api.whatsapp.com/send?text=https://anticitera.deft.work', '_blank', 'noopener')" class="whatsapp-icon">{% icon "simpleicon:whatsapp", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work', '_blank', 'noopener')" class="facebook-icon">{% icon "simpleicon:facebook", class="icon_plus" %}</button>
 				</div>
 			</div>
 		</footer>

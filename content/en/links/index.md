@@ -14,7 +14,7 @@ eleventyNavigation:
 <div class="links-container">
 {% for link in links %}
     <div class="link-item">
-        <a href="{{ link.url }}" target="_blank" class="link-title">{{ link.title }}</a>
+        <a href="{{ link.url }}" target="_blank" rel="noopener" class="link-title">{{ link.title }}</a>
         <p class="link-description">{{ link.description }}</p>
         {% if link.url and (link.url.includes('youtube.com') or link.url.includes('youtu.be')) %}
             <div class="video-container">
