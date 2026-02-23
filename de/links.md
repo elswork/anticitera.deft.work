@@ -1,5 +1,5 @@
 # Links Bereich
-Fecha: Fri Feb 20 2026 08:27:22 GMT+0000 (Coordinated Universal Time)
+Fecha: Mon Feb 23 2026 14:58:42 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/links/
 
 ---
@@ -277,10 +277,10 @@ Sitio de Noticias de National Geographic Latinoamérica
 ![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600&h=977)
 
 
-![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/cerezos_0.webp?w=1600&h=900)
+![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/2hjjcwpcrop.webp?w=1600&h=900)
 
 
-![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/cheetahsupclosewithbertiegregory_editada.webp?w=973&h=548)
+![Verwandtes Bild](https://static.nationalgeographicla.com/files/styles/image_3200/public/gettyimages-2043296176.webp?w=973&h=548)
 
 
 
