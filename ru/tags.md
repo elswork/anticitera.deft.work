@@ -1,5 +1,5 @@
 # Все теги
-Fecha: Mon Feb 23 2026 14:58:42 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Mar 13 2026 21:43:57 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/tags/
 
 ---
@@ -443,3 +443,13 @@ URL: https://anticitera.deft.work/ru/tags/
 
   
   * [европа](https://anticitera.deft.work/ru/tags/evropa.md)
+
+
+
+  
+  * [soberania digital](https://anticitera.deft.work/ru/tags/soberania-digital.md)
+
+
+
+  
+  * [inteligencia aumentada](https://anticitera.deft.work/ru/tags/inteligencia-aumentada.md)

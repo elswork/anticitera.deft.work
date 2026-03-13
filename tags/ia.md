@@ -1,5 +1,5 @@
 # Etiquetado “.ia”
-Fecha: Mon Feb 23 2026 14:58:42 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Mar 13 2026 21:43:57 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/tags/ia/
 
 ---
@@ -9,6 +9,13 @@ Etiquetado “.ia”
 
 
 
+
+
+
+	* 
+		[Soberanía Digital en la Era de la Inteligencia Aumentada: Por qué el .IA es Inevitable](https://anticitera.deft.work/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
+		March 2026
+	
 
 
 

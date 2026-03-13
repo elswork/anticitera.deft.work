@@ -1,5 +1,5 @@
 # Seção de Links
-Fecha: Mon Feb 23 2026 14:58:42 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Mar 13 2026 21:43:57 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/pt/links/
 
 ---
@@ -277,10 +277,10 @@ Sitio de Noticias de National Geographic Latinoamérica
 ![Imagem relacionada](https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600&h=977)
 
 
-![Imagem relacionada](https://static.nationalgeographicla.com/files/styles/image_3200/public/2hjjcwpcrop.webp?w=1600&h=900)
+![Imagem relacionada](https://static.nationalgeographicla.com/files/styles/image_3200/public/shutterstock2283542145.webp?w=973&h=548)
 
 
-![Imagem relacionada](https://static.nationalgeographicla.com/files/styles/image_3200/public/gettyimages-2043296176.webp?w=973&h=548)
+![Imagem relacionada](https://static.nationalgeographicla.com/files/styles/image_3200/public/guanaco_inaturalist_edit.webp?w=973&h=548)
 
 
 
@@ -309,13 +309,13 @@ Este artefacto, por mérito propio es un rompecabezas increíble para su tiempo 
 ▶
 
 
-![Imagem relacionada](https://s1.abcstatics.com/abc/www/multimedia/ciencia/2023/07/05/antic1-U16600432270dbm-1024x512@abc.jpg)
+![Imagem relacionada](https://s1.abcstatics.com/abc/www/multimedia/ciencia/2023/07/05/antic1-RE5v7f4vUVEGnblgZDzJq4M-1200x970@abc.jpg)
+
+
+![Imagem relacionada](https://s1.abcstatics.com/abc/www/multimedia/plantillas/logos/logo-cope.svg)
 
 
 ![Imagem relacionada](https://s1.abcstatics.com/abc/www/multimedia/plantillas/icon-visual-story.svg)
-
-
-![Imagem relacionada](https://s1.abcstatics.com/abc/www/multimedia/plantillas/icon-audio.svg)
 
 
 
