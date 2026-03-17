@@ -1,5 +1,5 @@
 # Section des Liens
-Fecha: Fri Mar 13 2026 21:43:57 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Mar 17 2026 19:26:58 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/links/
 
 ---
@@ -277,10 +277,10 @@ Sitio de Noticias de National Geographic Latinoamérica
 ![Image connexe](https://static.nationalgeographicla.com/files/styles/image_3200/public/NGlogo2.png?w=1600&h=977)
 
 
+![Image connexe](https://static.nationalgeographicla.com/files/styles/image_3200/public/fkt251206-20251218-bravo_missioncontrolroom-vallejoprut-6644.JPG.webp?w=1600&h=900)
+
+
 ![Image connexe](https://static.nationalgeographicla.com/files/styles/image_3200/public/shutterstock2283542145.webp?w=973&h=548)
-
-
-![Image connexe](https://static.nationalgeographicla.com/files/styles/image_3200/public/guanaco_inaturalist_edit.webp?w=973&h=548)
 
 
 
@@ -309,7 +309,7 @@ Este artefacto, por mérito propio es un rompecabezas increíble para su tiempo 
 ▶
 
 
-![Image connexe](https://s1.abcstatics.com/abc/www/multimedia/ciencia/2023/07/05/antic1-RE5v7f4vUVEGnblgZDzJq4M-1200x970@abc.jpg)
+![Image connexe](https://s1.abcstatics.com/abc/www/multimedia/ciencia/2023/07/05/antic1-U16600432270dbm-1024x512@abc.jpg)
 
 
 ![Image connexe](https://s1.abcstatics.com/abc/www/multimedia/plantillas/logos/logo-cope.svg)
