@@ -8,8 +8,8 @@ permalink: /{{ lang }}/tags/
 
 {% set tagList = collections.all | getAllTags | filterTagList %}
 <ul>
-{% for tag in tagList %}
-  {% set tagUrl %}/{{ lang }}/tags/{{ tag | slugify }}/{% endset %}
+{% for tag in collections.tags_cn %}
+  {% set tagUrl %}/cn/tags/{{ tag | slugify }}/{% endset %}
   <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
 {% endfor %}
 </ul>

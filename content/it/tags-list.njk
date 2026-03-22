@@ -8,7 +8,7 @@ lang: "it"
 <h1>Tutte le etichette</h1>
 
 <ul>
-{% for tag in collections.all | getAllTags | filterTagList %}
+{% for tag in collections.tags_it %}
 	{% set tagUrl %}/it/tags/{{ tag | slugify }}/{% endset %}
 	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
 {% endfor %}

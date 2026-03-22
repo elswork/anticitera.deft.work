@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: collections.validTags
+  data: collections.tags_it
   size: 1
   alias: tag
   addAllPagesToCollections: true
@@ -12,7 +12,8 @@ lang: "it"
 ---
 <h1>Etichettato “{{ tag }}”</h1>
 
-{% set postslist = collections.postsByTag[ tag ] | where("data.lang", lang) %}
+{% set tagPosts = collections.postsByTag[ tag ] or [] %}
+{% set postslist = tagPosts | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
 <p>Vedi <a href="/it/tags/">tutti i tag</a>.</p>

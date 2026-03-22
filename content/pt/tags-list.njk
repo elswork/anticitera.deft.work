@@ -7,10 +7,7 @@ lang: "pt"
 ---
 <h1>All Tags</h1>
 
-{% set tagList = collections.all | getAllTags | filterTagList %}
-<ul>
-{% for tag in tagList %}
-  {% set tagUrl %}/en/tags/{{ tag | slugify }}/{% endset %}
+{% for tag in collections.tags_pt %}
+  {% set tagUrl %}/pt/tags/{{ tag | slugify }}/{% endset %}
   <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
 {% endfor %}
-</ul>

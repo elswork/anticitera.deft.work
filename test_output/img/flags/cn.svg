@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <rect fill="#ee1c25" width="900" height="600"/>
+  <g fill="#ffde00">
+    <path id="star" d="M250 100 L280 190 L370 190 L300 240 L330 330 L250 280 L170 330 L200 240 L130 190 L220 190 Z"/>
+    <use href="#star" transform="translate(150 -10) scale(0.4) rotate(25 250 250)"/>
+    <use href="#star" transform="translate(180 40) scale(0.4) rotate(45 250 250)"/>
+    <use href="#star" transform="translate(180 90) scale(0.4) rotate(65 250 250)"/>
+    <use href="#star" transform="translate(150 140) scale(0.4) rotate(85 250 250)"/>
+  </g>
+</svg>

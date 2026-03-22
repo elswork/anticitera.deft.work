@@ -1,15 +1,15 @@
 ---
-pagination:
-  data: collections.tagList
-  size: 1
-  alias: tag
 layout: layouts/home.njk
 permalink: /el/tags/
 lang: "el"
 eleventyComputed:
-  title: Ετικέτες ({{ collections.tagList | length }})
+  title: Ετικέτες
 ---
 <h1>Ετικέτες</h1>
 
-{% set taglist = collections.tagList %}
-{% include "taglist.njk" %}
+<ul>
+{% for tag in collections.tags_el %}
+	{% set tagUrl %}/el/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>

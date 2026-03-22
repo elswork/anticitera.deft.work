@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: collections.validTags
+  data: collections.tags_el
   size: 1
   alias: tag
   addAllPagesToCollections: true
@@ -12,7 +12,8 @@ lang: "el"
 ---
 <h1>Με ετικέτα "{{ tag }}"</h1>
 
-{% set postslist = collections.postsByTag[ tag ] | where("data.lang", lang) %}
+{% set tagPosts = collections.postsByTag[ tag ] or [] %}
+{% set postslist = tagPosts | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
 <p>Δείτε <a href="/el/tags/">όλες τις ετικέτες</a>.</p>

@@ -1,0 +1,350 @@
+.icon {
+    width: 1em;  /* o el tamaño que prefieras en relación con el tamaño de fuente circundante */
+    height: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+img[width] {
+    width: auto; /* Defer to max-width */
+}
+img[width][height] {
+    height: auto; /* Preserve aspect ratio */
+}
+
+footer {
+    background-color: #997d7d; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+    font-size: 0.9em; /* Tamaño de la fuente */
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto; /* Centrado del contenido */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+footer .social-media{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+footer .share-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+footer a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Remueve el subrayado de los enlaces */
+    transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+footer a:hover {
+    color: #aaa; /* Color de los enlaces al pasar el ratón por encima */
+}
+
+.icon_plus {
+    width: 1.5em; /* Tamaño de los iconos */
+    height: 1.5em;
+}
+
+footer p {
+    margin: 0; /* Remueve el margen por defecto del párrafo */
+    text-align: center;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Estilos específicos para cada icono de redes sociales */
+.twitter-icon { color: #333; }
+.vscode-icon { color: #007ACC; }
+.github-icon { color: #333; }
+.reddit-icon { color: #ff4500; }
+.json-icon { color: #F5A623; }
+.feedly-icon { color: #2BB24C; }
+.linkedin-icon { color: #0077B5; }
+.whatsapp-icon { color: #25D366; }
+.facebook-icon { color: #4267B2; }
+
+.issue-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.issue-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.issue-header h3, .issue-header .issue-user {
+    margin: 0;
+}
+
+.issue-author-avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.issue-author-link {
+    color: white;
+    text-decoration: none;
+}
+
+.issue-author-link:hover {
+    text-decoration: underline;
+}
+
+.issue-body {
+    margin-bottom: 15px;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.issue-footer {
+    background-color: #e7f3ff; /* Color claro acorde a la cabecera */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto; /* Centrado del contenido */
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.issue-footer-left, .issue-footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.issue-footer-left > span, .issue-footer-right > span {
+    margin-right: 15px; /* Espaciado entre elementos */
+}
+
+.issue-created-at {
+    position: relative;
+    display: inline-block;
+}
+
+.issue-updated-at {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    left: 0;
+    top: 100%;
+}
+
+.issue-created-at:hover .issue-updated-at {
+    display: block;
+}
+
+#edit-github-btn, #toggle-comments-btn {
+    /* Estilos para el botón */
+    background-color: #d35d23;
+    color: white;
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#vote-change-org:hover, #edit-github-btn:hover, #toggle-comments-btn:hover, #telegram-group:hover {
+    background-color: #b64309; /* Color de fondo al pasar el ratón por encima */
+}
+
+#vote-change-org {
+    /* Estilos para el botón */
+    background-color: #8455e2;
+    color: white;
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#vote-change-org:hover {
+    background-color: #5f20de; /* Color de fondo al pasar el ratón por encima */
+}
+
+#suscribe-mail-list {
+    /* Estilos para el botón */
+    background-color: #a9aa49;
+    color: white;
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#suscribe-mail-list:hover {
+    background-color: #8d9004; /* Color de fondo al pasar el ratón por encima */
+}
+#telegram-group {
+    /* Estilos para el botón */
+    background-color: #0088cc;
+    color: white;
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+#telegram-group:hover {
+    background-color: #026DA2; /* Color de fondo al pasar el ratón por encima */
+}
+
+/* Estilos existentes para el modo claro */
+.issue-link, .issue-link-create {
+    background-color: #28a745; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    padding: 10px 15px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1em; /* Tamaño de la fuente */
+    cursor: pointer; /* Cursor como puntero */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Alineación con otros elementos */
+    margin: 5px; /* Margen alrededor del botón */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.issue-link:hover, .issue-link-create:hover {
+    background-color: #218838; /* Color de fondo al pasar el ratón por encima */
+}
+
+/* Ajustes específicos para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+    .issue-link, .issue-link-create {
+        background-color: #4caf50; /* Un verde más claro para mayor contraste */
+        color: #000000; /* Texto negro para mayor visibilidad */
+    }
+
+    .issue-link:hover, .issue-link-create:hover {
+        background-color: #388e3c; /* Un verde más oscuro para el efecto hover */
+    }
+}
+
+.links-container {
+    margin: 0;
+    padding: 0;
+}
+
+.link-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.link-title {
+    font-size: 1.2em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link-description {
+    margin: 10px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.gallery img {
+    max-height: 300px;
+    width: auto;
+    display: none;
+}
+
+.gallery-prev, .gallery-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.gallery-prev {
+    left: 10px;
+}
+
+.gallery-next {
+    right: 10px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%; /* O un ancho máximo específico si lo prefieres */
+    padding-top: 56.25%; /* Proporción para vídeos de YouTube (16:9) */
+    margin: 15px 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

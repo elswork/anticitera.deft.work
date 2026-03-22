@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: collections.validTags
+  data: collections.tags_cn
   size: 1
   alias: tag
   addAllPagesToCollections: true
@@ -11,7 +11,8 @@ permalink: /{{ lang }}/tags/{{ tag | slugify }}/
 ---
 <h1>标签“{{ tag }}”</h1>
 
-{% set postslist = collections.postsByTag[ tag ] | where("data.lang", lang) %}
+{% set tagPosts = collections.postsByTag[ tag ] or [] %}
+{% set postslist = tagPosts | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
 <p>查看<a href="/{{ lang }}/tags/">所有标签</a>。</p>

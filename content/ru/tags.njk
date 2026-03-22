@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: collections.validTags
+  data: collections.tags_ru
   size: 1
   alias: tag
   addAllPagesToCollections: true
@@ -12,7 +12,8 @@ lang: "ru"
 ---
 <h1>Записи с тегом “{{ tag }}”</h1>
 
-{% set postslist = collections.postsByTag[ tag ] | where("data.lang", lang) %}
+{% set tagPosts = collections.postsByTag[ tag ] or [] %}
+{% set postslist = tagPosts | where("data.lang", lang) %}
 {% include "postslist.njk" %}
 
 <p>Посмотреть <a href="/ru/tags/">все теги</a>.</p>

@@ -1,0 +1,21 @@
+[11ty/eleventy-base-blog] Excluding drafts.
+[11ty] Problem writing Eleventy templates: (more in DEBUG output)
+[11ty] 1. Having trouble rendering njk template ./content/tags.njk (via TemplateContentRenderError)
+[11ty] 2. (./content/tags.njk)
+[11ty]   TypeError: Cannot read properties of undefined (reading 'filter') (via Template render error)
+[11ty] 
+[11ty] Original error stack trace: Template render error: (./content/tags.njk)
+[11ty]   TypeError: Cannot read properties of undefined (reading 'filter')
+[11ty]     at Object._prettifyError (/home/pirate/anticitera.deft.work/node_modules/nunjucks/src/lib.js:32:11)
+[11ty]     at /home/pirate/anticitera.deft.work/node_modules/nunjucks/src/environment.js:464:19
+[11ty]     at Template.root [as rootRenderFunc] (eval at _compile (/home/pirate/anticitera.deft.work/node_modules/nunjucks/src/environment.js:527:18), <anonymous>:53:3)
+[11ty]     at Template.render (/home/pirate/anticitera.deft.work/node_modules/nunjucks/src/environment.js:454:10)
+[11ty]     at /home/pirate/anticitera.deft.work/node_modules/@11ty/eleventy/src/Engines/Nunjucks.js:411:14
+[11ty]     at new Promise (<anonymous>)
+[11ty]     at /home/pirate/anticitera.deft.work/node_modules/@11ty/eleventy/src/Engines/Nunjucks.js:410:14
+[11ty]     at Template._render (/home/pirate/anticitera.deft.work/node_modules/@11ty/eleventy/src/TemplateContent.js:514:28)
+[11ty]     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[11ty]     at async Template.renderWithoutLayout (/home/pirate/anticitera.deft.work/node_modules/@11ty/eleventy/src/Template.js:456:27)
+[11ty] Benchmark    170ms  13%   769× (Configuration) "slugify" JavaScript Function
+[11ty] Benchmark    122ms   9%   475× (Configuration) "slugify" Nunjucks Filter
+[11ty] Copied 3 files / Wrote 0 files in 0.88 seconds (v2.0.1)

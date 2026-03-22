@@ -11,5 +11,7 @@ eleventyComputed:
 ---
 <h1>Tags</h1>
 
-{% set taglist = collections.tagList %}
-{% include "taglist.njk" %}
+{% for tag in collections.tags_de %}
+  {% set tagUrl %}/de/tags/{{ tag | slugify }}/{% endset %}
+  <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+{% endfor %}

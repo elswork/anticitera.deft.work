@@ -11,23 +11,32 @@ class AllMarkdown {
             eleventyExcludeFromCollections: true,
             permalink: (data) => {
                 const item = data.item;
-                if (!item.url ||
-                    item.url.endsWith('.xml') ||
-                    item.url.endsWith('.json') ||
-                    item.url.endsWith('.css') ||
-                    item.url.endsWith('.js') ||
-                    item.url.endsWith('.txt') ||
-                    item.url.endsWith('.png') ||
-                    item.url.endsWith('.jpg') ||
-                    item.url.endsWith('.webp') ||
-                    item.url.endsWith('.svg')) {
+                if (!item.url) return false;
+
+                const url = item.url.toLowerCase();
+                
+                // Exclude static assets and tags
+                if (url.endsWith('.xml') ||
+                    url.endsWith('.json') ||
+                    url.endsWith('.css') ||
+                    url.endsWith('.js') ||
+                    url.endsWith('.txt') ||
+                    url.endsWith('.png') ||
+                    url.endsWith('.jpg') ||
+                    url.endsWith('.webp') ||
+                    url.endsWith('.svg') ||
+                    url.includes('/tags/')) {
                     return false;
                 }
+
                 if (item.url === '/') {
                     return "/index.md";
                 }
+                
                 // Remove trailing slash and add .md
                 let cleanUrl = item.url.replace(/\/$/, "");
+                if (!cleanUrl) return false;
+                
                 return `${cleanUrl}.md`;
             }
         };
@@ -38,10 +47,8 @@ class AllMarkdown {
         const title = item.data.title || item.fileSlug;
         const content = item.content || "";
 
-        // Simple text extraction and image conversion using Cheerio
         const $ = cheerio.load(content);
 
-        // Convert <img> tags to Markdown syntax
         $('img').each((i, el) => {
             const alt = $(el).attr('alt') || '';
             let src = $(el).attr('src') || '';
@@ -51,13 +58,11 @@ class AllMarkdown {
             $(el).replaceWith(`![${alt}](${src})`);
         });
 
-        // Convert <a> tags to Markdown links
         $('a').each((i, el) => {
             const text = $(el).text().trim();
             let href = $(el).attr('href') || '';
 
             if (href && !href.startsWith('http') && !href.startsWith('#')) {
-                // Internal link: convert to .md version
                 if (href === '/') {
                     href = 'https://anticitera.deft.work/index.md';
                 } else {
@@ -70,12 +75,10 @@ class AllMarkdown {
             }
         });
 
-        // Handle lists
         $('li').each((i, el) => {
             $(el).prepend('* ');
         });
 
-        // To preserve some spacing between paragraphs, we can process blocks
         $('h1, h2, h3, h4, h5, h6, p, li, blockquote').append('\n\n');
         const textContent = $.text().trim();
 

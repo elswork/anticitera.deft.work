@@ -9,7 +9,7 @@ lang: "ru"
 
 {% set tagList = collections.all | getAllTags | filterTagList %}
 <ul>
-{% for tag in tagList %}
+{% for tag in collections.tags_ru %}
   {% set tagUrl %}/ru/tags/{{ tag | slugify }}/{% endset %}
   <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
 {% endfor %}

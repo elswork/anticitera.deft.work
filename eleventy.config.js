@@ -145,6 +145,41 @@ module.exports = function (eleventyConfig) {
 		return postsByLang;
 	});
 
+	// Helper to get tags for a specific language
+	const getTagsByLang = (collectionApi, targetLang) => {
+		const posts = collectionApi.getFilteredByTag("posts");
+		const tagSet = new Set();
+		const ignored = ["all", "post", "posts", "tagList", "posts_by_lang"];
+
+		for (const post of posts) {
+			// Check lang in data OR infer from path
+			const lang = post.data.lang || "es";
+			const isInTargetDir = post.inputPath.includes(`/${targetLang}/`);
+			const isDefaultLang = targetLang === 'es' && !post.inputPath.match(/\/(en|de|it|fr|pt|el|cn|ru)\//);
+
+			if (lang === targetLang || isInTargetDir || isDefaultLang) {
+				(post.data.tags || []).forEach(tag => {
+					const lowerTag = tag.toLowerCase();
+					const slug = eleventyConfig.getFilter("slugify")(tag);
+					if (slug && slug.length > 0 && !ignored.includes(lowerTag)) {
+						tagSet.add(lowerTag);
+					}
+				});
+			}
+		}
+		return Array.from(tagSet).sort();
+	};
+
+	eleventyConfig.addCollection("tags_es", collectionApi => getTagsByLang(collectionApi, "es"));
+	eleventyConfig.addCollection("tags_en", collectionApi => getTagsByLang(collectionApi, "en"));
+	eleventyConfig.addCollection("tags_fr", collectionApi => getTagsByLang(collectionApi, "fr"));
+	eleventyConfig.addCollection("tags_pt", collectionApi => getTagsByLang(collectionApi, "pt"));
+	eleventyConfig.addCollection("tags_it", collectionApi => getTagsByLang(collectionApi, "it"));
+	eleventyConfig.addCollection("tags_de", collectionApi => getTagsByLang(collectionApi, "de"));
+	eleventyConfig.addCollection("tags_el", collectionApi => getTagsByLang(collectionApi, "el"));
+	eleventyConfig.addCollection("tags_cn", collectionApi => getTagsByLang(collectionApi, "cn"));
+	eleventyConfig.addCollection("tags_ru", collectionApi => getTagsByLang(collectionApi, "ru"));
+
 	eleventyConfig.addCollection("germanPosts", function (collectionApi) {
 		return collectionApi.getAll().filter(item => item.inputPath.startsWith('./content/de/blog/'));
 	});
