@@ -7,27 +7,21 @@ class AllMarkdown {
                 data: "collections.all",
                 size: 1,
                 alias: "item",
+                before: function(paginationData, fullData) {
+                    return paginationData.filter(item => {
+                        if (!item.url) return false;
+                        const lowerUrl = item.url.toLowerCase();
+                        const exts = ['.xml', '.json', '.css', '.js', '.txt', '.png', '.jpg', '.jpeg', '.webp', '.svg', '.gif', '.ico', '.webmanifest'];
+                        if (exts.some(ext => lowerUrl.endsWith(ext))) return false;
+                        if (lowerUrl.includes('/tags/')) return false;
+                        return true;
+                    });
+                }
             },
             eleventyExcludeFromCollections: true,
             permalink: (data) => {
                 const item = data.item;
-                if (!item.url) return false;
-
-                const url = item.url.toLowerCase();
-                
-                // Exclude static assets and tags
-                if (url.endsWith('.xml') ||
-                    url.endsWith('.json') ||
-                    url.endsWith('.css') ||
-                    url.endsWith('.js') ||
-                    url.endsWith('.txt') ||
-                    url.endsWith('.png') ||
-                    url.endsWith('.jpg') ||
-                    url.endsWith('.webp') ||
-                    url.endsWith('.svg') ||
-                    url.includes('/tags/')) {
-                    return false;
-                }
+                if (!item || !item.url) return undefined;
 
                 if (item.url === '/') {
                     return "/index.md";
@@ -35,7 +29,6 @@ class AllMarkdown {
                 
                 // Remove trailing slash and add .md
                 let cleanUrl = item.url.replace(/\/$/, "");
-                if (!cleanUrl) return false;
                 
                 return `${cleanUrl}.md`;
             }
