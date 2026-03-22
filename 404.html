@@ -944,6 +944,36 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 
 <h1 id="content-not-found" tabindex="-1">Content not found. <a class="header-anchor" href="#content-not-found">#</a></h1>
 <p>Go <a href="/">Inicio</a>.</p>
+<script>
+  // Script de redirección para manejar slugs traducidos indexados por error
+  (function() {
+    const path = window.location.pathname;
+    
+    // Mapeo de fragmentos de slugs traducidos a sus versiones originales en español
+    // Esto ayuda a redirigir URLs como /de/blog/DeepSeek-Detaillierte_Analyse... 
+    // a /de/blog/DeepSeek-Análisis_detallado...
+    const redirects = {
+      'DeepSeek-Detaillierte_Analyse': 'DeepSeek-An%C3%A1lisis_detallado_del_Proyecto_.IA_Isla_Anticitera',
+      'Detailed_Analysis': 'An%C3%A1lisis_detallado_del_Proyecto_.IA_Isla_Anticitera',
+      'Analyse_detaillee': 'An%C3%A1lisis_detallado_del_Proyecto_.IA_Isla_Anticitera',
+      'Analisi_dettagliata': 'An%C3%A1lisis_detallado_del_Proyecto_.IA_Isla_Anticitera'
+    };
+
+    for (const [key, value] of Object.entries(redirects)) {
+      if (path.includes(key)) {
+        // Mantener el prefijo de idioma y corregir el slug
+        const segments = path.split('/');
+        // Buscar el segmento que contiene la clave y reemplazarlo
+        const newSegments = segments.map(s => s.includes(key) ? value : s);
+        const newPath = newSegments.join('/');
+        
+        console.log('Redirecting to:', newPath);
+        window.location.replace(newPath);
+        return;
+      }
+    }
+  })();
+</script>
 <!--
 
 Read more: https://www.11ty.dev/docs/quicktips/not-found/
