@@ -21,6 +21,10 @@ A NVIDIA tornou-se a líder indiscutível na indústria de inteligência artific
 
 A enciclopédia online poderia exibir desenvolvimentos baseados no conteúdo da Wikipédia, por exemplo, um assistente que permite aos usuários navegar pelo conteúdo de forma conversacional.
 
+### Iber.ia
+
+A principal companhia aérea de Espanha poderia transformar a experiência do passageiro através de um nexo digital sob este dominio. Imaginamos um copiloto de viagem que gira tudo, desde a otimização de rotas em tempo real até um assistente pessoal a bordo que fale todas as línguas do mundo, elevando o conceito de servicio ao cliente para o próximo nível da Inteligência Aumentada.
+
 ## Nacional
 
 ### German.ia, Franc.ia, Scot.ia, Ital.ia, Hispan.ia, Austral.ia, Ind.ia, Colomb.ia, Niger.ia, Ukrain.ia

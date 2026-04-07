@@ -21,6 +21,10 @@ NVIDIA hat sich zum unangefochtenen Marktführer in der Künstlichen Intelligenz
 
 Die Online-Enzyklopädie könnte Entwicklungen basierend auf Wikipedia-Inhalten zeigen, zum Beispiel einen Assistenten, der es ermöglicht, den Inhalt konversationell zu durchsuchen.
 
+### Iber.ia
+
+Spaniens Flaggschiff-Airline könnte das Passagiererlebnis über einen digitalen Nexus unter dieser Domain transformieren. Wir stellen uns einen Reise-Copiloten vor, der von der Routenoptimierung in Echtzeit bis hin zu einem persönlichen Assistenten an Bord, der alle Sprachen der Welt spricht, alles verwaltet und das Konzept des Kundenservice auf die nächste Stufe der Erweiterter Intelligenz (Augmented Intelligence) hebt.
+
 ## National
 
 ### Aleman.ia, Franc.ia, Escoc.ia, Ital.ia, Hispan.ia, Austral.ia, Ind.ia, Colomb.ia, Niger.ia, Ucran.ia
