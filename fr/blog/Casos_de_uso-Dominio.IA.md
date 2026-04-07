@@ -25,6 +25,12 @@ Wikipéd.ia [#](#wikiped-ia)
 L'encyclopédie en ligne pourrait présenter des développements basés sur le contenu de Wikipédia, par exemple, un assistant qui permet aux utilisateurs de naviguer dans le contenu de manière conversationnelle.
 
 
+Iber.ia [#](#iber-ia)
+
+
+La compagnie aérienne nationale espagnole pourrait transformer l'expérience des passagers grâce à un lien numérique sous ce domaine. Nous imaginons un copilote de voyage gérant tout, de l'optimisation des itinéraires en temps réel à un assistant personnel de bord parlant toutes les langues du monde, portant le concept de service client au niveau supérieur de l'Intelligence Augmentée.
+
+
 Nationaux [#](#nationaux)
 
 

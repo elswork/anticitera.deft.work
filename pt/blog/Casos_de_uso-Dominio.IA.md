@@ -25,6 +25,12 @@ Wikiped.ia [#](#wikiped-ia)
 A enciclopédia online poderia exibir desenvolvimentos baseados no conteúdo da Wikipédia, por exemplo, um assistente que permite aos usuários navegar pelo conteúdo de forma conversacional.
 
 
+Iber.ia [#](#iber-ia)
+
+
+A principal companhia aérea de Espanha poderia transformar a experiência do passageiro através de um nexo digital sob este dominio. Imaginamos um copiloto de viagem que gira tudo, desde a otimização de rotas em tempo real até um assistente pessoal a bordo que fale todas as línguas do mundo, elevando o conceito de servicio ao cliente para o próximo nível da Inteligência Aumentada.
+
+
 Nacional [#](#nacional)
 
 
