@@ -1,10 +1,31 @@
 # Sezione Links
-Fecha: Tue Apr 07 2026 20:37:28 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Apr 10 2026 20:29:42 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/links/
 
 ---
 
 Links Anticitera
+
+
+
+
+
+
+[- YouTube](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -200,7 +221,7 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[Antikythera Mechanism Research ProjectError | Antikythera Mechanism Research Project](https://antikythera-mechanism.gr)
+
 
 
 
@@ -211,15 +232,6 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 ◀
 ▶
-
-
-![Immagine correlata](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/amrp-logo.png)
-
-
-![Immagine correlata](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/styles/teaser-banner/public/antikythera-front-detail.png?itok=O7ACvp4n)
-
-
-![Immagine correlata](https://www.antikythera-mechanism.gr/sites/all/modules/languageicons/flags/el.png)
 
 
 

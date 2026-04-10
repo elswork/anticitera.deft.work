@@ -1,10 +1,31 @@
 # 链接部分
-Fecha: Tue Apr 07 2026 20:37:27 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Apr 10 2026 20:29:42 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/links/
 
 ---
 
 安提基特拉链接
+
+
+
+
+
+
+[- YouTube](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -200,7 +221,7 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[Antikythera Mechanism Research ProjectError | Antikythera Mechanism Research Project](https://antikythera-mechanism.gr)
+
 
 
 
@@ -211,15 +232,6 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 ◀
 ▶
-
-
-![相关图片](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/amrp-logo.png)
-
-
-![相关图片](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/styles/teaser-banner/public/antikythera-front-detail.png?itok=O7ACvp4n)
-
-
-![相关图片](https://www.antikythera-mechanism.gr/sites/all/modules/languageicons/flags/el.png)
 
 
 
