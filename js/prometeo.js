@@ -12,6 +12,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const API_URL = 'https://askprometeo-7uaiyegy4a-uc.a.run.app';
 
+    // Helper: Convert content paths to public URLs
+    function pathToUrl(path) {
+        if (!path) return '#';
+        // content/en/blog/post.md -> /en/blog/post/
+        // content/index.md -> /
+        let url = path.replace(/^content\//, '/');
+        url = url.replace(/\.md$/, '/');
+        if (url === '/index/') return '/';
+        // Ensure leading/trailing slashes
+        if (!url.startsWith('/')) url = '/' + url;
+        if (!url.endsWith('/')) url = url + '/';
+        return url.replace(/\/+/g, '/');
+    }
+
     // Toggle Chat
     bubble.addEventListener('click', () => {
         chatBox.classList.add('active');
@@ -51,16 +65,18 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             const data = await response.json();
-            document.getElementById(typingId).remove();
+            const typingEl = document.getElementById(typingId);
+            if (typingEl) typingEl.remove();
 
             if (data.answer) {
-                addMessage(data.answer, 'ai');
+                addMessage(data.answer, 'ai', data.sources);
             } else {
                 addMessage('Lo siento, el oráculo está nublado en este momento.', 'ai');
             }
         } catch (error) {
             console.error('Error:', error);
-            document.getElementById(typingId).remove();
+            const typingEl = document.getElementById(typingId);
+            if (typingEl) typingEl.remove();
             addMessage('He perdido la conexión con el Nexo. Inténtalo de nuevo más tarde.', 'ai');
         }
     };
@@ -70,13 +86,33 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'Enter') handleSend();
     });
 
-    function addMessage(text, side) {
+    function addMessage(text, side, sources = []) {
         const div = document.createElement('div');
         div.className = `prometeo-msg ${side}`;
         
-        // Simple Markdown-ish line break handling
-        const formattedText = text.replace(/\n/g, '<br>');
-        div.innerHTML = formattedText;
+        // Render Markdown if AI, else plain text
+        if (side === 'ai' && window.marked) {
+            div.innerHTML = marked.parse(text);
+            
+            // Add Sources if available
+            if (sources && sources.length > 0) {
+                const sourcesDiv = document.createElement('div');
+                sourcesDiv.className = 'prometeo-sources';
+                sourcesDiv.innerHTML = '<hr><p><small>Lecturas recomendadas:</small></p>';
+                const ul = document.createElement('ul');
+                sources.forEach(src => {
+                    const li = document.createElement('li');
+                    const url = pathToUrl(src);
+                    const name = src.split('/').pop().replace('.md', '').replace(/_/g, ' ');
+                    li.innerHTML = `<a href="${url}" target="_blank" rel="noopener">${name}</a>`;
+                    ul.appendChild(li);
+                });
+                sourcesDiv.appendChild(ul);
+                div.appendChild(sourcesDiv);
+            }
+        } else {
+            div.innerText = text;
+        }
         
         messagesContainer.appendChild(div);
         scrollToBottom();
@@ -86,10 +122,10 @@ document.addEventListener('DOMContentLoaded', () => {
         messagesContainer.scrollTop = messagesContainer.scrollHeight;
     }
 
-    // Proactividad (Opcional: Lanzar saludo tras 30s si no se ha abierto)
+    // Proactividad (Lanzar pulso tras 3s si no se ha abierto)
     setTimeout(() => {
         if (!chatBox.classList.contains('active')) {
-            bubble.classList.add('pulse'); // Requiere CSS pulse
+            bubble.classList.add('pulse');
         }
-    }, 30000);
+    }, 3000);
 });

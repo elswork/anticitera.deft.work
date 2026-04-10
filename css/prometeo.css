@@ -161,6 +161,57 @@
     margin-bottom: 10px;
 }
 
+.prometeo-msg.ai p { margin: 0 0 10px 0; }
+.prometeo-msg.ai p:last-child { margin-bottom: 0; }
+.prometeo-msg.ai ul, .prometeo-msg.ai ol { margin: 10px 0; padding-left: 20px; }
+.prometeo-msg.ai li { margin-bottom: 5px; }
+.prometeo-msg.ai strong { color: #c5a059; font-weight: 600; }
+.prometeo-msg.ai hr { border: 0; border-top: 1px solid rgba(197, 160, 89, 0.2); margin: 15px 0; }
+
+.prometeo-sources {
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+.prometeo-sources p { margin-bottom: 5px !important; color: #888; }
+.prometeo-sources ul { 
+    list-style: none !important; 
+    padding-left: 0 !important; 
+    margin: 5px 0 !important; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.prometeo-sources li { margin-bottom: 0 !important; }
+.prometeo-sources a {
+    color: #c5a059;
+    text-decoration: none;
+    background: rgba(197, 160, 89, 0.1);
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(197, 160, 89, 0.2);
+    transition: all 0.2s ease;
+    display: inline-block;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.prometeo-sources a:hover {
+    background: rgba(197, 160, 89, 0.2);
+    transform: translateY(-1px);
+}
+
+/* Animations */
+@keyframes pulse-gold {
+    0% { box-shadow: 0 0 0 0 rgba(197, 160, 89, 0.4); }
+    70% { box-shadow: 0 0 0 15px rgba(197, 160, 89, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(197, 160, 89, 0); }
+}
+
+.pulse {
+    animation: pulse-gold 2s infinite;
+}
+
 /* Scrollbar */
 #prometeo-messages::-webkit-scrollbar {
     width: 5px;

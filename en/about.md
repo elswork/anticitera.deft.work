@@ -1,5 +1,5 @@
 # .IA Antikythera Island Project
-Fecha: Fri Apr 10 2026 21:07:58 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Apr 10 2026 21:19:09 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/about/
 
 ---
