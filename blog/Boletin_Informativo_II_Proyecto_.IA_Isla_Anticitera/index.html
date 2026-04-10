@@ -868,6 +868,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
     width: 1px;
   }</style>
 		<link rel="stylesheet" href="/css/bundle.css">
+		<link rel="stylesheet" href="/css/prometeo.css">
 
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRM23DV6JJ"></script>
@@ -1530,5 +1531,33 @@ class LiteYTEmbed extends HTMLElement {
 }
 // Register custom element
 customElements.define('lite-youtube', LiteYTEmbed);</script>
+		<!-- Widget de Prometeo -->
+<div id="prometeo-widget-container">
+    <div id="prometeo-bubble" title="Pregunta al Oráculo">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+        </svg>
+    </div>
+
+    <div id="prometeo-chat-box">
+        <div id="prometeo-header">
+            <h3>Oráculo Prometeo</h3>
+            <span id="prometeo-close">&times;</span>
+        </div>
+        <div id="prometeo-messages">
+            <!-- Los mensajes se inyectan dinámicamente -->
+        </div>
+        <div id="prometeo-input-area">
+            <input type="text" id="prometeo-input" placeholder="Escribe tu consulta..." autocomplete="off">
+            <button id="prometeo-send">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="white">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+		<script src="/js/prometeo.js"></script>
 	</body>
 </html>
