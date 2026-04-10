@@ -66,6 +66,7 @@
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
 		<link rel="stylesheet" href="/css/bundle.css">
+		<link rel="stylesheet" href="/css/prometeo.css">
 
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id={{ metadata.analytics }}"></script>
@@ -309,5 +310,7 @@
 		</script>
 			<script type="module" src="{{ '/js/lite-yt-embed.js' | url }}"></script>
 			<script>{% getBundle "js" %}</script>
+		{% include "prometeo_widget.njk" %}
+		<script src="/js/prometeo.js"></script>
 	</body>
 </html>
