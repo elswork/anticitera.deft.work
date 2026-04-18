@@ -12,8 +12,8 @@ lang: "es"
 ---
 <h1>Etiquetado “{{ tag }}”</h1>
 
-{% set tagPosts = collections.postsByTag[ tag ] or [] %}
-{% set postslist = tagPosts | where("data.lang", lang) %}
+{% set tagPosts = collections.postsByTag[ tag ] if collections.postsByTag[ tag ] else [] %}
+{% set postslist = tagPosts | where("data.lang", lang) if tagPosts.length > 0 else [] %}
 {% include "postslist.njk" %}
 
 <p>Ver <a href="/tags/">todas las etiquetas</a>.</p>
