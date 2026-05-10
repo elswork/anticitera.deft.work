@@ -6,7 +6,8 @@ date: Last Modified
 lang: es
 eleventyNavigation:
   key: Podcasts
-  order: 5
+  parent: Contenido
+  order: 2
 ---
 
 <h1>#IslaAnticitera en Podcasts</h1>
