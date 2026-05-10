@@ -3,7 +3,6 @@ layout: layouts/base.njk
 title: Ciudadanía Digital
 eleventyNavigation:
   key: Ciudadanía
-  parent: Explorar
   order: 3
 permalink: /ciudadania/
 ---

@@ -6,8 +6,7 @@ date: Last Modified
 lang: es
 eleventyNavigation:
   key: X
-  parent: Comunidad
-  order: 2
+  order: 4
 ---
 
 <h1>#IslaAnticitera en X</h1>

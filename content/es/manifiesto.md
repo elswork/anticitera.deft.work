@@ -3,8 +3,7 @@ layout: layouts/base.njk
 title: Manifiesto
 eleventyNavigation:
   key: Manifiesto
-  parent: Explorar
-  order: 1
+  order: 2
 permalink: /manifiesto/
 ---
 

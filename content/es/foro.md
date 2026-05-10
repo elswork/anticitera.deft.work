@@ -4,8 +4,7 @@ title: Foro
 permalink: /es/foro/
 eleventyNavigation:
   key: Foro
-  parent: Comunidad
-  order: 1
+  order: 4
 ---
 
 Este es un espacio para la comunidad. Deja tus ideas, comentarios, preguntas y sugerencias.

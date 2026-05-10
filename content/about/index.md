@@ -5,8 +5,7 @@ description: Información relevante del Proyecto .IA Isla Anticitera.
 date: Last Modified
 eleventyNavigation:
   key: Proyecto
-  parent: Explorar
-  order: 2
+  order: 3
 lang: "es"
 ---
 # Proyecto .IA Isla Anticitera 

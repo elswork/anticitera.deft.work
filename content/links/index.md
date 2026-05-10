@@ -6,7 +6,6 @@ date: Last Modified
 lang: es
 eleventyNavigation:
   key: Links
-  parent: Comunidad
   order: 3
 ---
 
