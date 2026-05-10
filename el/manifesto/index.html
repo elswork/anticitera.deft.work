@@ -392,6 +392,121 @@ main lite-youtube {
 		text-align: center;
 	}
 }
+
+/* Dropdown Menu Styles */
+.nav-item.dropdown {
+	position: relative;
+}
+
+.dropdown-toggle {
+	cursor: pointer;
+}
+
+.dropdown-toggle::after {
+	content: ' ▼';
+	font-size: 0.7em;
+	vertical-align: middle;
+	display: inline-block;
+	transition: transform 0.2s;
+}
+
+.nav-item.dropdown:hover .dropdown-toggle::after {
+	transform: rotate(180deg);
+}
+
+.dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	min-width: 200px;
+	padding: 0.5rem 0;
+	margin: 0.5rem 0 0;
+	font-size: 0.95em;
+	text-align: left;
+	list-style: none;
+	background-color: var(--background-color);
+	border: 1px solid var(--color-gray-20);
+	border-radius: 8px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+	display: block;
+	animation: navFadeIn 0.3s ease-out;
+}
+
+@keyframes navFadeIn {
+	from { opacity: 0; transform: translateY(10px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.dropdown-item {
+	display: block;
+	width: 100%;
+	padding: 0;
+	clear: both;
+	text-align: inherit;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+}
+
+.dropdown-item a {
+	display: block;
+	padding: 0.7rem 1.5rem;
+	text-decoration: none !important;
+	color: var(--text-color) !important;
+	transition: all 0.2s ease;
+}
+
+.dropdown-item a:hover {
+	background-color: var(--color-gray-20);
+	color: var(--text-color-link-active) !important;
+	padding-left: 1.8rem;
+}
+
+.dropdown-item a[aria-current="page"] {
+	font-weight: bold;
+	color: var(--text-color-link) !important;
+	background-color: rgba(0, 123, 255, 0.05);
+}
+
+/* Mobile adjustments for dropdown */
+@media (max-width: 768px) {
+	.nav-item.dropdown {
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.dropdown-toggle {
+		display: block;
+		padding: 0.5rem 0;
+		border-bottom: 1px solid var(--color-gray-20);
+		margin-bottom: 0.5rem;
+	}
+
+	.dropdown-menu {
+		position: static;
+		display: block;
+		box-shadow: none;
+		border: none;
+		border-left: 2px solid var(--color-gray-20);
+		padding: 0;
+		margin: 0 0 1rem 1rem;
+		min-width: auto;
+		background-color: transparent;
+		opacity: 1;
+		transform: none;
+		animation: none;
+	}
+	
+	.dropdown-item a {
+		padding: 0.5rem 1rem;
+	}
+}
 /* Language Selector Styles */
 .language-selector {
   position: relative;
@@ -749,10 +864,11 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/el/">Αρχική</a></li>
 						
 						
 						
+							
+								<li class="nav-item"><a href="/el/">Αρχική</a></li>
 						
 						
 						
@@ -764,10 +880,8 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/el/blog/">Blog</a></li>
 						
 						
-							<li class="nav-item"><a href="/el/manifesto/" aria-current="page">Μανιφέστο</a></li>
 						
 						
 						
@@ -779,8 +893,12 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
+							
+								<li class="nav-item"><a href="/el/blog/">Blog</a></li>
 						
 						
+							
+								<li class="nav-item"><a href="/el/manifesto/" aria-current="page">Μανιφέστο</a></li>
 						
 						
 						
@@ -788,10 +906,8 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/el/about/">Έργο</a></li>
 						
 						
-							<li class="nav-item"><a href="/el/links/">Links</a></li>
 						
 						
 						
@@ -809,16 +925,18 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/el/foro/">Φόρουμ</a></li>
 						
 						
-							<li class="nav-item"><a href="/el/x/">X</a></li>
 						
 						
 						
 						
+							
+								<li class="nav-item"><a href="/el/about/">Έργο</a></li>
 						
 						
+							
+								<li class="nav-item"><a href="/el/links/">Links</a></li>
 						
 						
 						
@@ -829,7 +947,63 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 						
 						
 						
-							<li class="nav-item"><a href="/el/podcasts/">Podcasts</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+								<li class="nav-item"><a href="/el/foro/">Φόρουμ</a></li>
+						
+						
+							
+								<li class="nav-item"><a href="/el/x/">X</a></li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							
+								<li class="nav-item"><a href="/el/podcasts/">Podcasts</a></li>
+						
+						
+						
 						
 						
 						
