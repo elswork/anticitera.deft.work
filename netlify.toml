@@ -22,3 +22,28 @@
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
+
+[[redirects]]
+  from = "/en/blog/LlamamientoSoberaniaDigital"
+  to = "/en/blog/Llamamiento_Soberania_Digital/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/blog/LlamamientoSoberaniaDigital/"
+  to = "/en/blog/Llamamiento_Soberania_Digital/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/LlamamientoSoberaniaDigital"
+  to = "/blog/Llamamiento_Soberania_Digital/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/LlamamientoSoberaniaDigital/"
+  to = "/blog/Llamamiento_Soberania_Digital/"
+  status = 301
+  force = true
+
