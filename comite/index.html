@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Iniciativa Ciudadana Europea .IA</title>
+		<meta name="description" content="Descubre Anticitera, la Nación Digital descentralizada. Promovemos la soberanía tecnológica, el dominio soberano .IA y la Alianza Algorítmica (Inteligencia Aumentada).">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700;800;900&family=GFS+Didot&display=swap" rel="stylesheet">
+
+		
+		<style>
+			:root {
+				--bg-color: #030712;
+				--text-color: #f3f4f6;
+				--text-muted: #9ca3af;
+				--accent: #06b6d4;
+				--accent-hover: #22d3ee;
+				--accent-purple: #8b5cf6;
+				--accent-purple-hover: #a78bfa;
+				--glass-bg: rgba(17, 24, 39, 0.65);
+				--glass-border: rgba(255, 255, 255, 0.08);
+				--card-bg: rgba(31, 41, 55, 0.3);
+				--glow-accent: rgba(6, 182, 212, 0.12);
+				--glow-purple: rgba(139, 92, 246, 0.12);
+			}
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				margin: 0;
+				padding: 0;
+				font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+				background-color: var(--bg-color);
+				color: var(--text-color);
+				min-height: 100vh;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+				background-image: 
+					radial-gradient(circle at 10% 20%, var(--glow-purple), transparent 50%),
+					radial-gradient(circle at 90% 80%, var(--glow-accent), transparent 50%),
+					radial-gradient(circle at 50% 50%, rgba(3, 7, 18, 0.2), rgba(3, 7, 18, 1));
+				background-attachment: fixed;
+				line-height: 1.6;
+				overflow-x: hidden;
+			}
+			
+			.landing-wrapper {
+				width: 100%;
+				max-width: 900px;
+				padding: 4rem 1.5rem;
+				display: flex;
+				flex-direction: column;
+				gap: 3rem;
+				align-items: center;
+			}
+
+			.landing-container {
+				width: 100%;
+				background: var(--glass-bg);
+				backdrop-filter: blur(16px);
+				-webkit-backdrop-filter: blur(16px);
+				border: 1px solid var(--glass-border);
+				border-radius: 24px;
+				box-shadow: 
+					0 25px 50px -12px rgba(0, 0, 0, 0.7),
+					0 0 40px rgba(6, 182, 212, 0.03);
+				padding: 3.5rem 3rem;
+				text-align: center;
+				position: relative;
+				animation: fadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) both;
+				overflow: hidden;
+			}
+
+			.landing-container::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				height: 2px;
+				background: linear-gradient(90deg, transparent, var(--accent), var(--accent-purple), transparent);
+			}
+
+			@keyframes fadeIn {
+				from { opacity: 0; transform: translateY(30px); }
+				to { opacity: 1; transform: translateY(0); }
+			}
+
+			/* Header section styles */
+			.epic-header {
+				margin-bottom: 2.5rem;
+			}
+			
+			.epic-badge {
+				display: inline-block;
+				padding: 0.35rem 1rem;
+				background: rgba(6, 182, 212, 0.1);
+				border: 1px solid rgba(6, 182, 212, 0.2);
+				border-radius: 100px;
+				font-size: 0.85rem;
+				font-weight: 600;
+				color: var(--accent);
+				text-transform: uppercase;
+				letter-spacing: 0.15em;
+				margin-bottom: 1.5rem;
+				box-shadow: 0 0 15px rgba(6, 182, 212, 0.05);
+			}
+
+			h1 {
+				font-family: 'Cinzel', 'GFS Didot', serif;
+				font-size: 3rem;
+				line-height: 1.15;
+				margin: 0 0 1rem 0;
+				font-weight: 700;
+				letter-spacing: -0.02em;
+				background: linear-gradient(135deg, #ffffff 30%, var(--accent) 70%, var(--accent-purple) 100%);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+			}
+
+			@media(max-width: 640px) {
+				h1 { font-size: 2.2rem; }
+				.landing-container { padding: 2rem 1.5rem; }
+				.landing-wrapper { padding: 2rem 1rem; }
+			}
+
+			.epic-subtitle {
+				font-size: 1.25rem;
+				color: var(--text-color);
+				max-width: 700px;
+				margin: 0 auto 2.5rem auto;
+				line-height: 1.6;
+				font-weight: 300;
+				opacity: 0.95;
+			}
+
+			/* Illustration Container */
+			.illus-container {
+				width: 100%;
+				max-width: 480px;
+				margin: 0 auto 3rem auto;
+				position: relative;
+				border-radius: 16px;
+				overflow: hidden;
+				box-shadow: 
+					0 20px 40px rgba(0, 0, 0, 0.6),
+					0 0 30px rgba(139, 92, 246, 0.1);
+				border: 1px solid rgba(255, 255, 255, 0.05);
+				transition: transform 0.5s ease;
+			}
+
+			.illus-container:hover {
+				transform: scale(1.02);
+				box-shadow: 
+					0 25px 45px rgba(0, 0, 0, 0.7),
+					0 0 40px rgba(6, 182, 212, 0.15);
+			}
+
+			.illus-container img {
+				width: 100%;
+				height: auto;
+				display: block;
+				transition: transform 0.5s ease;
+			}
+
+			/* Manifesto Sections */
+			.manifesto-sections {
+				text-align: left;
+				display: flex;
+				flex-direction: column;
+				gap: 2.5rem;
+				margin-bottom: 3.5rem;
+			}
+
+			.manifesto-card {
+				background: var(--card-bg);
+				border: 1px solid rgba(255, 255, 255, 0.03);
+				border-radius: 16px;
+				padding: 2rem;
+				transition: all 0.3s ease;
+				position: relative;
+				overflow: hidden;
+			}
+
+			.manifesto-card::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 4px;
+				height: 100%;
+				background: linear-gradient(to bottom, var(--accent), var(--accent-purple));
+				opacity: 0.7;
+			}
+
+			.manifesto-card:hover {
+				background: rgba(31, 41, 55, 0.45);
+				border-color: rgba(255, 255, 255, 0.06);
+				box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+				transform: translateY(-2px);
+			}
+
+			.manifesto-card h2 {
+				font-family: 'Cinzel', serif;
+				font-size: 1.4rem;
+				margin: 0 0 1rem 0;
+				color: #ffffff;
+				letter-spacing: 0.05em;
+				display: flex;
+				align-items: center;
+				gap: 0.75rem;
+			}
+
+			.manifesto-card p {
+				font-size: 1.05rem;
+				line-height: 1.7;
+				color: var(--text-muted);
+				margin: 0;
+				font-weight: 300;
+			}
+
+			/* Form Area */
+			.form-section {
+				max-width: 550px;
+				margin: 0 auto;
+				padding: 2.5rem;
+				background: rgba(3, 7, 18, 0.4);
+				border: 1px solid rgba(6, 182, 212, 0.15);
+				border-radius: 20px;
+				box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+				position: relative;
+			}
+
+			.form-section::after {
+				content: '';
+				position: absolute;
+				inset: 0;
+				border-radius: 20px;
+				padding: 1px;
+				background: linear-gradient(135deg, rgba(6, 182, 212, 0.3), rgba(139, 92, 246, 0.3));
+				-webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+				-webkit-mask-composite: xor;
+				mask-composite: exclude;
+				pointer-events: none;
+			}
+
+			.form-section h3 {
+				font-size: 1.5rem;
+				font-weight: 600;
+				margin: 0 0 0.5rem 0;
+				color: #ffffff;
+			}
+
+			.form-section p.form-desc {
+				font-size: 0.95rem;
+				color: var(--text-muted);
+				margin: 0 0 2rem 0;
+				font-weight: 300;
+			}
+
+			form {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+				width: 100%;
+			}
+
+			.input-wrapper {
+				position: relative;
+				width: 100%;
+			}
+
+			input[type="email"] {
+				width: 100%;
+				padding: 1.1rem 1.2rem;
+				border-radius: 12px;
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				background: rgba(3, 7, 18, 0.6);
+				color: white;
+				font-size: 1rem;
+				font-family: inherit;
+				transition: all 0.3s;
+				box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+			}
+
+			input[type="email"]:focus {
+				outline: none;
+				border-color: var(--accent);
+				box-shadow: 
+					inset 0 2px 4px rgba(0, 0, 0, 0.5),
+					0 0 15px rgba(6, 182, 212, 0.2);
+			}
+
+			button {
+				padding: 1.1rem;
+				border-radius: 12px;
+				border: none;
+				background: linear-gradient(135deg, var(--accent) 0%, var(--accent-purple) 100%);
+				color: #ffffff;
+				font-weight: 700;
+				font-size: 1.1rem;
+				font-family: inherit;
+				cursor: pointer;
+				transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+				box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+			}
+
+			button:hover {
+				transform: translateY(-2px);
+				box-shadow: 0 8px 25px rgba(6, 182, 212, 0.45);
+				background: linear-gradient(135deg, var(--accent-hover) 0%, var(--accent-purple-hover) 100%);
+			}
+
+			button:active {
+				transform: translateY(0);
+			}
+
+			button:disabled {
+				opacity: 0.5;
+				cursor: not-allowed;
+				transform: none;
+				box-shadow: none;
+			}
+
+			.success-msg {
+				display: none;
+				color: #22c55e;
+				font-size: 1.1rem;
+				font-weight: 500;
+				padding: 1.2rem;
+				background: rgba(34, 197, 94, 0.08);
+				border: 1px solid rgba(34, 197, 94, 0.2);
+				border-radius: 12px;
+				margin-top: 1rem;
+				line-height: 1.6;
+				animation: fadeIn 0.5s ease-out;
+			}
+
+			/* Floating Language Selector */
+			.lang-selector {
+				position: absolute;
+				top: 1.5rem;
+				right: 1.5rem;
+				z-index: 10;
+			}
+
+			.lang-selector select {
+				background: rgba(3, 7, 18, 0.75);
+				color: var(--text-color);
+				border: 1px solid var(--glass-border);
+				padding: 0.6rem 1.2rem;
+				border-radius: 100px;
+				cursor: pointer;
+				font-family: inherit;
+				font-size: 0.85rem;
+				font-weight: 600;
+				outline: none;
+				transition: all 0.3s;
+				backdrop-filter: blur(8px);
+				-webkit-backdrop-filter: blur(8px);
+			}
+
+			.lang-selector select:hover {
+				border-color: var(--accent);
+				box-shadow: 0 0 10px rgba(6, 182, 212, 0.15);
+			}
+
+			/* Footer credit */
+			.landing-footer {
+				text-align: center;
+				color: var(--text-muted);
+				font-size: 0.9rem;
+				margin-top: 1rem;
+				font-weight: 300;
+				opacity: 0.6;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="landing-wrapper">
+			<div class="lang-selector">
+				<select id="langSwitch">
+					<option value="es">ES (Español)</option>
+					<option value="bg">BG (Български)</option>
+					<option value="cs">CS (Čeština)</option>
+					<option value="da">DA (Dansk)</option>
+					<option value="de">DE (Deutsch)</option>
+					<option value="el">EL (Ελληνικά)</option>
+					<option value="en">EN (English)</option>
+					<option value="et">ET (Eesti)</option>
+					<option value="fi">FI (Suomi)</option>
+					<option value="fr">FR (Français)</option>
+					<option value="ga">GA (Gaeilge)</option>
+					<option value="hr">HR (Hrvatski)</option>
+					<option value="hu">HU (Magyar)</option>
+					<option value="it">IT (Italiano)</option>
+					<option value="lt">LT (Lietuvių)</option>
+					<option value="lv">LV (Latviešu)</option>
+					<option value="mt">MT (Malti)</option>
+					<option value="nl">NL (Nederlands)</option>
+					<option value="pl">PL (Polski)</option>
+					<option value="pt">PT (Português)</option>
+					<option value="ro">RO (Română)</option>
+					<option value="sk">SK (Slovenčina)</option>
+					<option value="sl">SL (Slovenščina)</option>
+					<option value="sv">SV (Svenska)</option>
+				</select>
+			</div>
+
+			
+<div class="landing-container">
+	<div class="epic-header">
+		<div class="epic-badge" data-i18n="badge">Comité Fundacional .IA</div>
+		<h1 data-i18n="title">Reclama la Soberanía Digital</h1>
+		<p class="epic-subtitle" data-i18n="subtitle">Buscamos a 7 ciudadanos fundadores para registrar la Iniciativa Ciudadana Europea que exigirá la creación del dominio .IA administrado como un bien público.</p>
+	</div>
+
+	<div class="illus-container">
+		<img src="/img/anticitera_museum.png" alt="Mecanismo de Anticitera Real" />
+	</div>
+
+	<div class="manifesto-sections">
+		<div class="manifesto-card">
+			<h2 data-i18n="sec2_title">El Nuevo Engranaje de Europa</h2>
+			<p data-i18n="sec2_body">Hace 2000 años, el Mecanismo de Anticitera fue construido para ordenar el caos del cosmos mediante la lógica y el metal. Hoy, en el siglo XXI, reclamamos la .IA (con su nombre en español, en latín, en el corazón de Europa) no como un activo mercantil de un tercero, sino como una infraestructura cognitiva protegida por y para los ciudadanos.</p>
+		</div>
+
+		<div class="manifesto-card">
+			<h2 data-i18n="sec3_title">La Vía Legal: El Comité de los Siete</h2>
+			<p data-i18n="sec3_body">No pedimos permiso a la ICANN ni a las corporaciones monopolísticas de Silicon Valley. Vamos a utilizar la ley europea: la Iniciativa Ciudadana Europea (ICE). Para registrarla oficialmente, la Comisión Europea exige un comité organizador de al menos 7 ciudadanos residentes en 7 países diferentes de la Unión. Buscamos a los Siete Sábios que darán el paso al frente.</p>
+		</div>
+
+		<div class="manifesto-card">
+			<h2 data-i18n="sec4_title">La Alianza Algorítmica</h2>
+			<p data-i18n="sec4_body">Al unirte, recibirás tu clave digital de Anticitera y participarás en la toma de decisiones del Proyecto. Juntos, coordinaremos una de las maniobras de soberanía digital más audaces de la historia moderna de internet.</p>
+		</div>
+	</div>
+
+	<div class="form-section">
+		<h3 data-i18n="form_title">Únete al Comité Fundacional</h3>
+		<p class="form-desc" data-i18n="form_desc">Déjanos tu email para recibir el Manifiesto de Anticitera y las instrucciones para unirte al comité fundacional.</p>
+		
+		<form id="iceForm">
+			<div class="input-wrapper">
+				<input type="email" id="emailInput" placeholder="Introduce tu email..." required data-i18n-placeholder="placeholder">
+			</div>
+			<button type="submit" data-i18n="button">Unirme a la Inciativa</button>
+		</form>
+		<div id="successMsg" class="success-msg" data-i18n="success">¡Gracias por dar el paso! Te enviaremos las instrucciones pronto.</div>
+	</div>
+</div>
+
+
+			<div class="landing-footer">
+				Anticitera // Red de Soberanía Cognitiva Descentralizada
+			</div>
+		</div>
+
+		<script src="/js/comite-i18n.js"></script>
+	</body>
+</html>
