@@ -454,8 +454,8 @@ document.addEventListener('DOMContentLoaded', () => {
         button.disabled = true;
         
         try {
-            // Apuntamos directamente a M2 ya que el servicio corre de forma nativa sin el proxy de Docker
-            const apiUrl = 'http://192.168.1.75:3050/api/subscribe';
+            // Apuntamos al proxy inverso en el subdominio dedicado
+            const apiUrl = 'https://api.deft.work/api/subscribe';
                 
             const response = await fetch(apiUrl, {
                 method: 'POST',
