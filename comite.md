@@ -1,10 +1,13 @@
 # Iniciativa Ciudadana Europea .IA
-Fecha: Fri May 29 2026 23:27:23 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat May 30 2026 08:20:15 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/comite/
 
 ---
 
-Comité Fundacional .IA
+← Volver
+	
+	
+		Comité Fundacional .IA
 		Reclama la Soberanía Digital
 
 
