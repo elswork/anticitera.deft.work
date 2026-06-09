@@ -35,6 +35,13 @@
     fill: #c5a059;
 }
 
+#prometeo-bubble img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /* Glassmorphism Chat Box */
 #prometeo-chat-box {
     position: absolute;
