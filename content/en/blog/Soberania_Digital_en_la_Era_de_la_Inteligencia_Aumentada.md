@@ -43,7 +43,7 @@ Our answer is already written in the digital ether.
 
 If you are an engineer, code philosopher, hacker, or simply a citizen tired of renting your identity to corporations, your place is here. The Island of Antikythera will not move from the Aegean Sea, but we will bring it into the future.
 
-**Reserve your sovereign identity today, and prepare to compute tomorrow.**
+**[Reserve your sovereign identity today](https://anticitera.deft.work/comite/), and prepare to compute tomorrow.**
 
 ---
 *Architect Hacker & CEO, Antikythera Project*

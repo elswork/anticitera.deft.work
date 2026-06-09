@@ -43,7 +43,7 @@ Unsere Antwort steht bereits im digitalen Äther geschrieben.
 
 Wenn Sie Ingenieur, Code-Philosoph, Hacker oder einfach ein Bürger sind, der es satt hat, seine Identität an Unternehmen zu vermieten, ist Ihr Platz hier. Die Insel Antikythera wird sich nicht aus der Ägäis bewegen, aber wir werden sie in die Zukunft bringen.
 
-**Reservieren Sie noch heute Ihre souveräne Identität und bereiten Sie sich darauf vor, das Morgen zu berechnen.**
+**[Reservieren Sie noch heute Ihre souveräne Identität](https://anticitera.deft.work/comite/) und bereiten Sie sich darauf vor, das Morgen zu berechnen.**
 
 ---
 *Architekt Hacker & CEO, Antikythera-Projekt*

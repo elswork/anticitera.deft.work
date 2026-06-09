@@ -43,7 +43,7 @@ Notre réponse est déjà écrite dans l'éther numérique.
 
 Si vous êtes ingénieur, philosophe du code, hacker ou simplement un citoyen fatigué de louer son identité aux entreprises, votre place est ici. L'île d'Anticythère ne bougera pas de la mer Égée, mais nous la ferons entrer dans le futur.
 
-**Réservez dès aujourd'hui votre identité souveraine, et préparez-vous à calculer demain.**
+**[Réservez dès aujourd'hui votre identité souveraine](https://anticitera.deft.work/comite/), et préparez-vous à calculer demain.**
 
 ---
 *Architecte Hacker & CEO, Projet Anticythère*

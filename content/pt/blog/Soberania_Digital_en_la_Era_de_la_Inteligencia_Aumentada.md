@@ -43,7 +43,7 @@ Nossa resposta já está escrita no éter digital.
 
 Se você é um engenheiro, filósofo do código, hacker ou simplesmente um cidadão cansado de alugar sua identidade para corporações, seu lugar é aqui. A Ilha de Anticítera não sairá do Mar Egeu, mas nós a traremos para o futuro.
 
-**Reserve sua identidade soberana hoje e prepare-se para computar o amanhã.**
+**[Reserve sua identidade soberana hoje](https://anticitera.deft.work/comite/) e prepare-se para computar o amanhã.**
 
 ---
 *Arquiteto Hacker & CEO, Projeto Anticítera*
