@@ -8,7 +8,7 @@ tags:
   - soberania digital
   - web3
   - inteligência aumentada
-  - anticítera
+  - anticitera
 ---
 
 ![Soberania Digital: O Mecanismo de Anticítera e a Inteligência Aumentada](/img/ia_sovereignty.png "Soberania Digital e a Inteligência Aumentada")
