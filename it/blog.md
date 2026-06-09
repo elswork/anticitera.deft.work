@@ -1,5 +1,5 @@
 # blog
-Fecha: Sat May 30 2026 17:36:24 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jun 09 2026 19:27:56 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/blog/
 
 ---
@@ -9,6 +9,13 @@ Blog
 
 
 
+
+
+
+	* 
+		[Sovranità Digitale nell'Era dell'Intelligenza Aumentata: Perché il .IA è Inevitabile](https://anticitera.deft.work/it/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
+		March 2026
+	
 
 
 

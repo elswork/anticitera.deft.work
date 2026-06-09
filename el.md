@@ -1,5 +1,5 @@
 # Τι είναι το Έργο .IA Νήσου Αντικυθήρων;
-Fecha: Sat May 30 2026 17:36:24 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jun 09 2026 19:27:56 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/
 
 ---
@@ -10,13 +10,6 @@ URL: https://anticitera.deft.work/el/
 
 
 
-
-
-
-	* 
-		[I Συνεδρία εργασίας με το Gemini 3.0 Pro](https://anticitera.deft.work/el/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
-		November 2025
-	
 
 
 
@@ -34,10 +27,17 @@ URL: https://anticitera.deft.work/el/
 
 
 
+	* 
+		[Ψηφιακή Κυριαρχία στην Εποχή της Επαυξημένης Νοημοσύνης: Γιατί το .IA είναι Αναπόφευκτο](https://anticitera.deft.work/el/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
+		March 2026
+	
 
 
 
 
 
 
-21 επιπλέον δημοσίευσηεις μπορούν να βρεθούν στο [αρχείο](https://anticitera.deft.work/el/blog.md).
+
+
+
+22 επιπλέον δημοσίευσηεις μπορούν να βρεθούν στο [αρχείο](https://anticitera.deft.work/el/blog.md).

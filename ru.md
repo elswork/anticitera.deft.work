@@ -1,5 +1,5 @@
 # ru
-Fecha: Sat May 30 2026 17:36:24 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jun 09 2026 19:27:56 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/
 
 ---
@@ -10,6 +10,13 @@ URL: https://anticitera.deft.work/ru/
 
 
 
+
+
+
+	* 
+		[Цифровой суверенитет в эпоху дополненного интеллекта: почему .IA неизбежен](https://anticitera.deft.work/ru/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
+		March 2026
+	
 
 
 
@@ -27,16 +34,9 @@ URL: https://anticitera.deft.work/ru/
 
 
 
-	* 
-		[I Рабочая сессия с Gemini 3.0 Pro](https://anticitera.deft.work/ru/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
-		November 2025
-	
 
 
 
 
 
-
-
-
-21 других статей можно найти в [архиве](https://anticitera.deft.work/ru/blog.md).
+22 других статей можно найти в [архиве](https://anticitera.deft.work/ru/blog.md).

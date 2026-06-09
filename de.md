@@ -1,5 +1,5 @@
 # Was ist das .IA Antikythera-Insel-Projekt?
-Fecha: Sat May 30 2026 17:36:24 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jun 09 2026 19:27:56 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/
 
 ---
@@ -10,13 +10,6 @@ Neueste 3 Veröffentlichungen
 
 
 
-
-
-
-	* 
-		[I Arbeitssitzung mit Gemini 3.0 Pro](https://anticitera.deft.work/de/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
-		November 2025
-	
 
 
 
@@ -34,10 +27,17 @@ Neueste 3 Veröffentlichungen
 
 
 
+	* 
+		[Digitale Souveränität im Zeitalter der Augmented Intelligence: Warum .IA unvermeidlich ist](https://anticitera.deft.work/de/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
+		March 2026
+	
 
 
 
 
 
 
-21 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.
+
+
+
+22 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.

@@ -1,5 +1,5 @@
 # en
-Fecha: Sat May 30 2026 17:36:24 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jun 09 2026 19:27:56 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/
 
 ---
@@ -10,6 +10,13 @@ Latest 3 Posts
 
 
 
+
+
+
+	* 
+		[Digital Sovereignty in the Era of Augmented Intelligence: Why .IA is Inevitable](https://anticitera.deft.work/en/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
+		March 2026
+	
 
 
 
@@ -27,16 +34,9 @@ Latest 3 Posts
 
 
 
-	* 
-		[I Working Session with Gemini 3.0 Pro](https://anticitera.deft.work/en/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
-		November 2025
-	
 
 
 
 
 
-
-
-
-21 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).
+22 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).

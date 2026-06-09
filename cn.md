@@ -1,5 +1,5 @@
 # cn
-Fecha: Sat May 30 2026 17:36:24 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jun 09 2026 19:27:56 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/
 
 ---
@@ -10,6 +10,13 @@ URL: https://anticitera.deft.work/cn/
 
 
 
+
+
+
+	* 
+		[增强智能时代的数字主权：为什么 .IA 是不可避免的](https://anticitera.deft.work/cn/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
+		March 2026
+	
 
 
 
@@ -27,16 +34,9 @@ URL: https://anticitera.deft.work/cn/
 
 
 
-	* 
-		[与 Gemini 3.0 Pro 的第一次工作会议](https://anticitera.deft.work/cn/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
-		November 2025
-	
 
 
 
 
 
-
-
-
-更多 21 篇文章可以在[存档](https://anticitera.deft.work/cn/blog.md)中找到。
+更多 22 篇文章可以在[存档](https://anticitera.deft.work/cn/blog.md)中找到。
