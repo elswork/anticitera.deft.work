@@ -5,7 +5,7 @@ date: 2025-12-12
 draft: false
 tags:
   - bulletin
-  - anticythere
+  - anticythère
   - strategie
   - web3
   - manifeste

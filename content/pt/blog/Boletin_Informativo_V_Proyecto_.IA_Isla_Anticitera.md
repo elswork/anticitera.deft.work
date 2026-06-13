@@ -5,7 +5,7 @@ date: 2025-12-12
 draft: false
 tags:
   - boletim
-  - anticítera
+  - anticitera
   - estratégia
   - web3
   - manifesto
