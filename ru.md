@@ -1,5 +1,5 @@
 # ru
-Fecha: Thu Jun 11 2026 18:15:56 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Jun 13 2026 12:33:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/
 
 ---
@@ -39,4 +39,4 @@ URL: https://anticitera.deft.work/ru/
 
 
 
-22 других статей можно найти в [архиве](https://anticitera.deft.work/ru/blog.md).
+23 других статей можно найти в [архиве](https://anticitera.deft.work/ru/blog.md).

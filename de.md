@@ -1,5 +1,5 @@
 # Was ist das .IA Antikythera-Insel-Projekt?
-Fecha: Thu Jun 11 2026 18:15:56 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Jun 13 2026 12:33:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/
 
 ---
@@ -40,4 +40,4 @@ Neueste 3 Veröffentlichungen
 
 
 
-22 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.
+23 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.

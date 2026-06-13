@@ -1,5 +1,5 @@
 # blog
-Fecha: Thu Jun 11 2026 18:15:56 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Jun 13 2026 12:33:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/blog/
 
 ---
@@ -28,6 +28,13 @@ URL: https://anticitera.deft.work/ru/blog/
 
 	* 
 		[Как ИИ видит код проекта Антикитера](https://anticitera.deft.work/ru/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
+		December 2025
+	
+
+
+
+	* 
+		[Информационный бюллетень V Проект .IA Остров Антикитера](https://anticitera.deft.work/ru/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
 		December 2025
 	
 

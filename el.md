@@ -1,5 +1,5 @@
 # Τι είναι το Έργο .IA Νήσου Αντικυθήρων;
-Fecha: Thu Jun 11 2026 18:15:56 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Jun 13 2026 12:33:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/
 
 ---
@@ -40,4 +40,4 @@ URL: https://anticitera.deft.work/el/
 
 
 
-22 επιπλέον δημοσίευσηεις μπορούν να βρεθούν στο [αρχείο](https://anticitera.deft.work/el/blog.md).
+23 επιπλέον δημοσίευσηεις μπορούν να βρεθούν στο [αρχείο](https://anticitera.deft.work/el/blog.md).

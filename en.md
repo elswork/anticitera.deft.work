@@ -1,5 +1,5 @@
 # en
-Fecha: Thu Jun 11 2026 18:15:56 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Jun 13 2026 12:33:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/
 
 ---
@@ -39,4 +39,4 @@ Latest 3 Posts
 
 
 
-22 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).
+23 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).
