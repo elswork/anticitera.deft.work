@@ -6,7 +6,7 @@ const dictionary = {
         sec2_title: "I. El Nuevo Engranaje de Europa",
         sec2_body: "Hace 2000 años, el Mecanismo de Anticitera fue construido para ordenar el caos del cosmos mediante la lógica y el metal. Hoy, en el siglo XXI, reclamamos la .IA (con su nombre en español, en latín, en el corazón de Europa) no como un activo mercantil de un tercero, sino como una infraestructura cognitiva protegida por y para los ciudadanos.",
         sec3_title: "II. La Vía Legal: El Comité de los Siete",
-        sec3_body: "No pedimos permiso a la ICANN ni a las corporaciones monopolísticas de Silicon Valley. Vamos a utilizar la ley europea: la Iniciativa Ciudadana Europea (ICE). Para registrarla oficialmente, la Comisión Europea exige un comité organizador de al menos 7 ciudadanos residentes en 7 países diferentes de la Unión. Buscamos a los Siete Sábios que darán el paso al frente.",
+        sec3_body: "No pedimos permiso a la ICANN ni a las corporaciones monopolísticas de Silicon Valley. Vamos a utilizar la ley europea: la Iniciativa Ciudadana Europea (ICE). Para registrarla oficialmente, la Comisión Europea exige un comité organizador de al menos 7 ciudadanos residentes en 7 países diferentes de la Unión. Buscamos a los Siete Sabios que darán el paso al frente.",
         sec4_title: "III. La Alianza Algorítmica",
         sec4_body: "Al unirte, participarás en la toma de decisiones del Proyecto. Juntos, coordinaremos una de las maniobras de soberanía digital más audaces de la historia moderna de internet.",
         form_title: "Únete al Comité Fundacional",
@@ -229,7 +229,7 @@ const dictionary = {
         sec3_title: "II. La Via Legale: Il Comitato dei Sette",
         sec3_body: "Non chiediamo il permesso all'ICANN né ai monopoli della Silicon Valley. Utilizzeremo la legge europea: l'Iniziativa dei Cittadini Europei (ICE). Per registrarla ufficialmente, la Commissione Europea richiede un comitato organizzatore di almeno 7 cittadini residenti in 7 diversi paesi dell'Unione. Cerchiamo i Sette Saggi che faranno un passo avanti.",
         sec4_title: "III. L'Alleanza Algoritmica",
-        sec4_body: "Unendoti, parteciperai alle decisioni del Progetto. Insieme, coordineremo una delle manovre di sovranità digitale più audaci della historia moderna di internet.",
+        sec4_body: "Unendoti, parteciperai alle decisioni del Progetto. Insieme, coordineremo una delle manovre di sovranità digitale più audaci della storia moderna di internet.",
         form_title: "Unisciti al Comitato Fondatore",
         form_desc: "Lascia la tua email per ricevere il Manifesto di Anticitera e le istruzioni per unirti al comitato fondatore.",
         placeholder: "Inserisci la tua email...",
@@ -395,7 +395,7 @@ const dictionary = {
         title: "Återta Digital Suveränitet",
         subtitle: "Domänen .IA tillhör inte en kolonial enklav i Karibien. Den tillhör den mänskliga hjärnans framtid. Vi kräver att den förvaltas som en europeisk allmännytta.",
         sec2_title: "I. Europas Kugghjul",
-        sec2_body: "För 2000 år sedan konstruerades Antikythera-mekanismen för att bringa ordning i kosmos kaos genom logik och metall. Idag, i det 21:a århundradet, kräver vi .IA not som en handelsvara för en tredje part, utan som en kognitiv infrastruktur skyddad av och för medborgarna.",
+        sec2_body: "För 2000 år sedan konstruerades Antikythera-mekanismen för att bringa ordning i kosmos kaos genom logik och metall. Idag, i det 21:a århundradet, kräver vi .IA inte som en handelsvara för en tredje part, utan som en kognitiv infrastruktur skyddad av och för medborgarna.",
         sec3_title: "II. Den Juridiska Vägen: De Sju Vises Kommitté",
         sec3_body: "Vi ber inte om tillstånd från ICANN eller Silicon Valleys monopol. Vi kommer att använda europeisk lagstiftning: det europeiska medborgarinitiativet (ECI). För att registrera det officiellt kräver EU-kommissionen en organisationskommitté med minst 7 medborgare bosatta i 7 olika EU-länder. Vi söker de sju vise som ska träda fram.",
         sec4_title: "III. Den Algoritmiska Alliansen",
@@ -405,7 +405,7 @@ const dictionary = {
         placeholder: "Ange din e-post...",
         button: "Medunderteckna initiativet",
         success: "Kugghjulet har börjat snurra. Kontrollera din inkorg; Archimedes instruktioner är på väg.",
-        error: "Ett fel uppstod vid synkronisering med Nexus. Vänligen erfara igen."
+        error: "Ett fel uppstod vid synkronisering med Nexus. Vänligen försök igen."
     }
 };
 
