@@ -1,5 +1,5 @@
 # Iniciativa Ciudadana Europea .IA
-Fecha: Sat Jun 13 2026 12:33:48 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jun 16 2026 20:57:05 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/comite/
 
 ---
@@ -34,7 +34,7 @@ URL: https://anticitera.deft.work/comite/
 			La Vía Legal: El Comité de los Siete
 
 
-			No pedimos permiso a la ICANN ni a las corporaciones monopolísticas de Silicon Valley. Vamos a utilizar la ley europea: la Iniciativa Ciudadana Europea (ICE). Para registrarla oficialmente, la Comisión Europea exige un comité organizador de al menos 7 ciudadanos residentes en 7 países diferentes de la Unión. Buscamos a los Siete Sábios que darán el paso al frente.
+			No pedimos permiso a la ICANN ni a las corporaciones monopolísticas de Silicon Valley. Vamos a utilizar la ley europea: la Iniciativa Ciudadana Europea (ICE). Para registrarla oficialmente, la Comisión Europea exige un comité organizador de al menos 7 ciudadanos residentes en 7 países diferentes de la Unión. Buscamos a los Siete Sabios que darán el paso al frente.
 
 
 		
@@ -61,6 +61,6 @@ URL: https://anticitera.deft.work/comite/
 			
 				
 			
-			Unirme a la Inciativa
+			Unirme a la Iniciativa
 		
 		¡Gracias por dar el paso! Te enviaremos las instrucciones pronto.
