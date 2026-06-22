@@ -455,7 +455,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         try {
             // Apuntamos al proxy inverso en el subdominio dedicado
-            const apiUrl = 'https://api.deft.work/api/subscribe';
+            const apiUrl = 'https://us-central1-dominio-deft-work.cloudfunctions.net/subscribeICE';
                 
             const response = await fetch(apiUrl, {
                 method: 'POST',
