@@ -1,5 +1,5 @@
 # Links Bereich
-Fecha: Mon Jun 22 2026 18:35:29 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Jul 05 2026 22:03:31 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/links/
 
 ---
@@ -178,7 +178,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ▶
 
 
-![Verwandtes Bild](https://ichef.bbci.co.uk/news/1024/branded_mundo/FF43/production/_90074356_item-2-promo.jpg)
+![Verwandtes Bild](https://ichef.bbci.co.uk/news/1200/branded_mundo/FF43/production/_90074356_item-2-promo.jpg)
 
 
 ![Verwandtes Bild](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/D833/production/_90074355_item-2-promo.jpg.webp)
@@ -263,7 +263,7 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-
+[Antikythera Mechanism Research ProjectError | Antikythera Mechanism Research Project](https://antikythera-mechanism.gr)
 
 
 
@@ -274,6 +274,15 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 ◀
 ▶
+
+
+![Verwandtes Bild](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/amrp-logo.png)
+
+
+![Verwandtes Bild](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/styles/teaser-banner/public/antikythera-front-detail.png?itok=O7ACvp4n)
+
+
+![Verwandtes Bild](https://www.antikythera-mechanism.gr/sites/all/modules/languageicons/flags/el.png)
 
 
 
@@ -407,7 +416,7 @@ El "mecanismo de Anticitera", considerado el objeto más misterioso de la histor
 ▶
 
 
-![Verwandtes Bild](https://ichef.bbci.co.uk/news/1024/branded_mundo/15ED7/production/_117551898_explodedcosmosmodel8x5.jpg)
+![Verwandtes Bild](https://ichef.bbci.co.uk/news/1200/branded_mundo/15ED7/production/_117551898_explodedcosmosmodel8x5.jpg)
 
 
 ![Verwandtes Bild](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/3879/production/_90075441_armado-una-cara.jpg.webp)
@@ -448,7 +457,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Verwandtes Bild](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Verwandtes Bild](https://kiosco.latercera.com/latest-issue-cover-image?collection=Lt-diario-la-tercera-early-access)
+![Verwandtes Bild](https://www.latercera.com/resizer/v2/DJTGWBOF7RCZVDJHNZPBEPQIH4.jpg?auth=78946391badc765bceb0431dfdc929e0d4bc285d378555ee7cf07e524ff8293e&smart=true&width=100&height=56&quality=70)
 
 
 
