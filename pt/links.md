@@ -1,5 +1,5 @@
 # Seção de Links
-Fecha: Sun Jul 05 2026 22:03:31 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Jul 10 2026 18:16:55 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/pt/links/
 
 ---
@@ -263,7 +263,7 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[Antikythera Mechanism Research ProjectError | Antikythera Mechanism Research Project](https://antikythera-mechanism.gr)
+
 
 
 
@@ -274,15 +274,6 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 ◀
 ▶
-
-
-![Imagem relacionada](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/amrp-logo.png)
-
-
-![Imagem relacionada](https://www.antikythera-mechanism.gr/sites/antikythera-mechanism.gr/files/styles/teaser-banner/public/antikythera-front-detail.png?itok=O7ACvp4n)
-
-
-![Imagem relacionada](https://www.antikythera-mechanism.gr/sites/all/modules/languageicons/flags/el.png)
 
 
 
@@ -457,7 +448,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Imagem relacionada](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Imagem relacionada](https://www.latercera.com/resizer/v2/DJTGWBOF7RCZVDJHNZPBEPQIH4.jpg?auth=78946391badc765bceb0431dfdc929e0d4bc285d378555ee7cf07e524ff8293e&smart=true&width=100&height=56&quality=70)
+![Imagem relacionada](https://www.latercera.com/resizer/v2/WJVZ4RZ2GVAFNLSDARBLUVBWJA.png?auth=7a114d5945e0d34ed544719bc7a5c07e3e9178c8069b1a79187db905b3eeea27&smart=true&width=100&height=56&quality=70)
 
 
 
