@@ -1,5 +1,5 @@
 # Pubblicazioni X
-Fecha: Fri Jul 10 2026 18:16:55 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Jul 21 2026 17:18:19 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/x/
 
 ---
