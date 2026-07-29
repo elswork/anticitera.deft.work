@@ -1,5 +1,5 @@
 # Archiv
-Fecha: Tue Jul 21 2026 17:18:19 GMT+0000 (Coordinated Universal Time)
+Fecha: Wed Jul 29 2026 19:14:45 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/blog/
 
 ---
@@ -33,15 +33,15 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Newsletter V Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
-		December 2025
+		[Informationsblatt IV .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_IV_Proyecto_.IA_Isla_Anticitera.md)
+		September 2025
 	
 
 
 
 	* 
-		[Informationsblatt I .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_I_Proyecto_.IA_Isla_Anticitera.md)
-		March 2024
+		[Newsletter V Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
+		December 2025
 	
 
 
@@ -54,8 +54,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Informationsblatt IV .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_IV_Proyecto_.IA_Isla_Anticitera.md)
-		September 2025
+		[Informationsblatt I .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_I_Proyecto_.IA_Isla_Anticitera.md)
+		March 2024
 	
 
 
@@ -82,22 +82,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Interview mit Eloy López, Förderer des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/Entrevista_con_Eloy_López_Impulsor_Proyecto_IA_Isla_Anticitera.md)
-		June 2024
-	
-
-
-
-	* 
 		[DeepSeek - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/DeepSeek-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
 		June 2025
-	
-
-
-
-	* 
-		[Grok 3 - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
-		February 2025
 	
 
 
@@ -110,8 +96,22 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
+		[Grok 3 - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
+		February 2025
+	
+
+
+
+	* 
 		[Lateinamerika im Herzen des Antikythera-Projekts](https://anticitera.deft.work/de/blog/Latinoamerica_en_el_corazon.md)
 		September 2025
+	
+
+
+
+	* 
+		[Interview mit Eloy López, Förderer des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/Entrevista_con_Eloy_López_Impulsor_Proyecto_IA_Isla_Anticitera.md)
+		June 2024
 	
 
 
@@ -131,15 +131,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[II Arbeitssitzung mit Gemini 2.0 Flash im .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.0_Flash-Sesion_2.md)
-		December 2024
-	
-
-
-
-	* 
-		[Perplexity - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.](https://anticitera.deft.work/de/blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
-		February 2025
+		[Maximierung der Möglichkeiten – Die .IA-Domain für verschiedene Sektoren](https://anticitera.deft.work/de/blog/Maximizando_Oportunidades-El_Dominio.IA.md)
+		April 2024
 	
 
 
@@ -159,7 +152,14 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Was ist das .IA Antikythera-Insel-Projekt?](https://anticitera.deft.work/de/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera.md)
+		[I Arbeitssitzung mit Gemini 3.0 Pro](https://anticitera.deft.work/de/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
+		November 2025
+	
+
+
+
+	* 
+		[II Arbeitssitzung mit Gemini 2.0 Flash im .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.0_Flash-Sesion_2.md)
 		December 2024
 	
 
@@ -173,12 +173,12 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Maximierung der Möglichkeiten – Die .IA-Domain für verschiedene Sektoren](https://anticitera.deft.work/de/blog/Maximizando_Oportunidades-El_Dominio.IA.md)
-		April 2024
+		[Perplexity - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.](https://anticitera.deft.work/de/blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
+		February 2025
 	
 
 
 
 	* 
-		[I Arbeitssitzung mit Gemini 3.0 Pro](https://anticitera.deft.work/de/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
-		November 2025
+		[Was ist das .IA Antikythera-Insel-Projekt?](https://anticitera.deft.work/de/blog/Que_es_el_Proyecto_.IA_Isla_Anticitera.md)
+		December 2024
