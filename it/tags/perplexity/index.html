@@ -43,23 +43,68 @@
 		<link rel="alternate" hreflang="x-default" href="https://anticitera.deft.work/tags/perplexity/">
 		
 				<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
+/* Message Box Component */
 .message-box {
-	--color-message-box: #ffc;
-
-	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
+	background: rgba(15, 23, 42, 0.75);
+	border: 1px solid rgba(56, 189, 248, 0.2);
+	border-left: 4px solid #00f2fe;
+	border-radius: 14px;
+	color: #e2e8f0;
+	padding: 1.4em 1.8em;
+	margin: 1.5em 0;
+	backdrop-filter: blur(8px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
+
 .message-box ol {
-	margin-top: 0;
+	margin: 0 0 1em 0;
+	padding-left: 1.4em;
 }
 
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+.message-box li {
+	margin-bottom: 0.7em;
+	line-height: 1.6;
+	color: #cbd5e1;
+}
+
+.message-box p {
+	margin: 0;
+	color: #94a3b8;
+}
+
+.message-box a {
+	color: #38bdf8 !important;
+	font-weight: 600;
+	text-decoration: underline !important;
+}
+
+.message-box a:hover {
+	color: #00f2fe !important;
+}
+
+/* Light Theme Overrides */
+html[data-theme="light"] .message-box {
+	background: #f1f5f9;
+	border: 1px solid #cbd5e1;
+	border-left: 4px solid #0284c7;
+	color: #1e293b;
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+html[data-theme="light"] .message-box li {
+	color: #334155;
+}
+
+html[data-theme="light"] .message-box p {
+	color: #64748b;
+}
+
+html[data-theme="light"] .message-box a {
+	color: #0284c7 !important;
+}
+
+html[data-theme="light"] .message-box a:hover {
+	color: #0369a1 !important;
 }
 * { box-sizing: border-box; }
 /* Defaults & Theme Variables */

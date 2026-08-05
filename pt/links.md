@@ -1,5 +1,5 @@
 # Seção de Links
-Fecha: Wed Aug 05 2026 18:36:41 GMT+0000 (Coordinated Universal Time)
+Fecha: Wed Aug 05 2026 18:41:37 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/pt/links/
 
 ---
@@ -11,8 +11,7 @@ Links Anticítera
 
 
 
-[- YouTube](https://youtu.be/1lidJfCEAI8)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?v=1lidJfCEAI8&feature=youtu.be](https://youtu.be/1lidJfCEAI8)
 
 
 
@@ -32,8 +31,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?si=ndqNKDNTR9EhMFoP&v=mPPQBbWpBkQ&feature=youtu.be](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
+
 
 
 
@@ -88,8 +88,7 @@ Descubierto en un barco hundido a comienzos del siglo XX, sigue sorprendiendo a 
 
 
 
-[- YouTube](https://youtu.be/AriKIdJTeak)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?v=AriKIdJTeak&feature=youtu.be](https://youtu.be/AriKIdJTeak)
 
 
 
@@ -109,8 +108,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/PNA0f05zsC4)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=PNA0f05zsC4&feature=youtu.be](https://youtu.be/PNA0f05zsC4)
+
 
 
 
@@ -200,8 +200,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 
 
-[- YouTube](https://youtu.be/SWR4_OiTZdc?si=yn7ZqQhwmkgzo0Tp)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?si=yn7ZqQhwmkgzo0Tp&v=SWR4_OiTZdc&feature=youtu.be](https://youtu.be/SWR4_OiTZdc?si=yn7ZqQhwmkgzo0Tp)
 
 
 
@@ -221,8 +220,8 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/ailRl_hUUEE)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=ailRl_hUUEE&feature=youtu.be](https://youtu.be/ailRl_hUUEE)
 
 
 
@@ -242,8 +241,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/7NlBDeqgRIs)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=7NlBDeqgRIs&feature=youtu.be](https://youtu.be/7NlBDeqgRIs)
+
 
 
 
@@ -464,8 +464,8 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 
 
-[Inteligencia Artificial plasmada en la antigua Grecia - Rapinformes](https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/)
-Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus, Medea, o más desconocidos son Talos, Hefesto o Hesíodo. Por supuesto, no
+[One moment, please...Loader](https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/)
+
 
 
 
@@ -477,13 +477,6 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 ▶
 
 
-![Imagem relacionada](https://rapinformes.es/wp-content/uploads/2013/02/inteligencia-artificial-plasmada-antigua-grecia.jpg)
-
-
-![Imagem relacionada](https://rapinformes.es/wp-content/uploads/2021/04/matrices-marca-corp-RAP-INFORMES.png)
-
-
-![Imagem relacionada](https://anticitera.deft.work/data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20782'%3E%3C/svg%3E)
 
 
 
@@ -497,10 +490,7 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 
 
 
-
-
-[- YouTube](https://youtu.be/WN8uUl4rbkE)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?v=WN8uUl4rbkE&feature=youtu.be](https://youtu.be/WN8uUl4rbkE)
 
 
 
@@ -520,8 +510,8 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/XmB8h_FDJCk)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=XmB8h_FDJCk&feature=youtu.be](https://youtu.be/XmB8h_FDJCk)
 
 
 
@@ -541,8 +531,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/CIGZ54b3c1I)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=CIGZ54b3c1I&feature=youtu.be](https://youtu.be/CIGZ54b3c1I)
+
 
 
 
