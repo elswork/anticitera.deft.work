@@ -4,12 +4,19 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
-		<meta name="description" content="{{ description or metadata.description }}">
+		<script>
+			(function() {
+				const saved = localStorage.getItem('theme');
+				const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+				const theme = saved || (prefersDark ? 'dark' : 'light');
+				document.documentElement.setAttribute('data-theme', theme);
+			})();
+		</script>
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&family=GFS+Didot&display=swap" rel="stylesheet">
 
 
 		{#- Atom and JSON feeds included by default #}
@@ -115,43 +122,78 @@
 				<nav>
 					<h2 class="visually-hidden">Top level navigation menu</h2>
 					<ul class="nav">
+					{%- set dropdownItems = [] %}
 					{%- for entry in collections.all | eleventyNavigation %}
-						{# English pages show nav entries with URLs starting with /en/ #}
-						{%- if lang == 'en' and entry.url and entry.url.startsWith('/en/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# French pages show nav entries with URLs starting with /fr/ #}
-						{%- elif lang == 'fr' and entry.url and entry.url.startsWith('/fr/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# Portuguese pages show nav entries with URLs starting with /pt/ #}
-						{%- elif lang == 'pt' and entry.url and entry.url.startsWith('/pt/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# Italian pages show nav entries with URLs starting with /it/ #}
-						{%- elif lang == 'it' and entry.url and entry.url.startsWith('/it/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# German pages show nav entries with URLs starting with /de/ #}
-						{%- elif lang == 'de' and entry.url and entry.url.startsWith('/de/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# Greek pages show nav entries with URLs starting with /el/ #}
-						{%- elif lang == 'el' and entry.url and entry.url.startsWith('/el/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# Chinese pages show nav entries with URLs starting with /cn/ #}
-						{%- elif lang == 'cn' and entry.url and entry.url.startsWith('/cn/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# Russian pages show nav entries with URLs starting with /ru/ #}
-						{%- elif lang == 'ru' and entry.url and entry.url.startsWith('/ru/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-						{# Spanish pages show nav entries with URLs NOT starting with /en/ or /fr/ etc. #}
-						{%- elif lang == 'es' and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') and not entry.url.startsWith('/it/') and not entry.url.startsWith('/de/') and not entry.url.startsWith('/el/') and not entry.url.startsWith('/cn/') and not entry.url.startsWith('/ru/') %}
-							<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						{%- set isLangMatch = false %}
+						{%- if lang == 'en' and entry.url and entry.url.startsWith('/en/') %}{%- set isLangMatch = true %}
+						{%- elif lang == 'fr' and entry.url and entry.url.startsWith('/fr/') %}{%- set isLangMatch = true %}
+						{%- elif lang == 'pt' and entry.url and entry.url.startsWith('/pt/') %}{%- set isLangMatch = true %}
+						{%- elif lang == 'it' and entry.url and entry.url.startsWith('/it/') %}{%- set isLangMatch = true %}
+						{%- elif lang == 'de' and entry.url and entry.url.startsWith('/de/') %}{%- set isLangMatch = true %}
+						{%- elif lang == 'el' and entry.url and entry.url.startsWith('/el/') %}{%- set isLangMatch = true %}
+						{%- elif lang == 'cn' and entry.url and entry.url.startsWith('/cn/') %}{%- set isLangMatch = true %}
+						{%- elif lang == 'ru' and entry.url and entry.url.startsWith('/ru/') %}{%- set isLangMatch = true %}
+						{%- elif (not lang or lang == 'es') and entry.url and not entry.url.startsWith('/en/') and not entry.url.startsWith('/fr/') and not entry.url.startsWith('/pt/') and not entry.url.startsWith('/it/') and not entry.url.startsWith('/de/') and not entry.url.startsWith('/el/') and not entry.url.startsWith('/cn/') and not entry.url.startsWith('/ru/') %}{%- set isLangMatch = true %}
+						{%- endif %}
+
+						{%- if isLangMatch %}
+							{%- set keyLower = (entry.key or entry.title or '') | lower %}
+							{# Ocultar Manifiesto y Ciudadania #}
+							{%- if 'manifiesto' in keyLower or 'manifesto' in keyLower or 'manifeste' in keyLower or 'manifest' in keyLower or '宣言' in keyLower or 'ciudadania' in keyLower or 'ciudadanía' in keyLower %}
+								{# skip #}
+							{# Agrupar Links, Foro, X, Podcasts en desplegable #}
+							{%- elif 'link' in keyLower or 'foro' in keyLower or 'forum' in keyLower or '论坛' in keyLower or keyLower == 'x' or 'podcast' in keyLower or '播客' in keyLower %}
+								{%- set _ = dropdownItems.push(entry) %}
+							{%- else %}
+								<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+							{%- endif %}
 						{%- endif %}
 					{%- endfor %}
+
+					{%- if dropdownItems.length > 0 %}
+						<li class="nav-item dropdown">
+							<a href="#" class="dropdown-toggle" onclick="event.preventDefault();" aria-expanded="false">Links <span class="dropdown-arrow">▾</span></a>
+							<ul class="dropdown-menu">
+								{%- for item in dropdownItems %}
+									<li><a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+								{%- endfor %}
+							</ul>
+						</li>
+					{%- endif %}
 					</ul>
 					{%- set hreflangUrls = page.url | hreflangUrls(collections) %}
 					{% languageSelector lang, page.url, languages, hreflangUrls %}
+					<button id="theme-toggle" class="theme-toggle-btn" aria-label="Cambiar Tema" title="Cambiar Tema Claro / Oscuro">
+						<span class="theme-icon-dark">🌙</span>
+						<span class="theme-icon-light" style="display:none;">☀️</span>
+					</button>
 					<a href="https://dominio.deft.work" class="cta-button">Reservar 🌍 Dominio .IA</a>
 				</nav>
 			</div>
 		</header>
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const btn = document.getElementById('theme-toggle');
+				if (!btn) return;
+				const iconDark = btn.querySelector('.theme-icon-dark');
+				const iconLight = btn.querySelector('.theme-icon-light');
+				const updateUi = () => {
+					const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+					if (iconDark && iconLight) {
+						iconDark.style.display = isLight ? 'none' : 'inline';
+						iconLight.style.display = isLight ? 'inline' : 'none';
+					}
+				};
+				updateUi();
+				btn.addEventListener('click', () => {
+					const curr = document.documentElement.getAttribute('data-theme');
+					const next = curr === 'light' ? 'dark' : 'light';
+					document.documentElement.setAttribute('data-theme', next);
+					localStorage.setItem('theme', next);
+					updateUi();
+				});
+			});
+		</script>
 
 		<main id="skip">
 		<ul class="post-metadata">
