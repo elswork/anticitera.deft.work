@@ -82,6 +82,8 @@ button:focus {
 .reddit-icon { color: #ff4500; }
 .json-icon { color: #F5A623; }
 .feedly-icon { color: #2BB24C; }
+.robot-icon { color: #00f2fe; font-size: 1.1em; cursor: pointer; transition: transform 0.2s ease; }
+.robot-icon:hover { transform: scale(1.2); }
 .linkedin-icon { color: #0077B5; }
 .whatsapp-icon { color: #25D366; }
 .facebook-icon { color: #4267B2; }
