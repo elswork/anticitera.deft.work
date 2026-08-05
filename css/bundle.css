@@ -174,80 +174,57 @@ button:focus {
     display: block;
 }
 
-#edit-github-btn, #toggle-comments-btn {
-    /* Estilos para el botón */
-    background-color: #d35d23;
-    color: white;
-    border: none; /* Sin bordes */
-    padding: 10px 15px; /* Espaciado interno */
-    text-decoration: none; /* Sin subrayado */
-    font-size: 1em; /* Tamaño de la fuente */
-    cursor: pointer; /* Cursor como puntero */
-    border-radius: 5px; /* Bordes redondeados */
-    display: inline-block; /* Alineación con otros elementos */
-    margin: 5px; /* Margen alrededor del botón */
-    transition: background-color 0.3s; /* Transición suave para el hover */
+#edit-github-btn, #vote-change-org, #telegram-group, #suscribe-mail-list, #toggle-comments-btn {
+    background: rgba(30, 41, 59, 0.7);
+    color: #e2e8f0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 18px;
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px;
+    transition: all 0.25s ease;
+    backdrop-filter: blur(8px);
 }
 
-#vote-change-org:hover, #edit-github-btn:hover, #toggle-comments-btn:hover, #telegram-group:hover {
-    background-color: #b64309; /* Color de fondo al pasar el ratón por encima */
-}
-
-#vote-change-org {
-    /* Estilos para el botón */
-    background-color: #8455e2;
-    color: white;
-    border: none; /* Sin bordes */
-    padding: 10px 15px; /* Espaciado interno */
-    text-decoration: none; /* Sin subrayado */
-    font-size: 1em; /* Tamaño de la fuente */
-    cursor: pointer; /* Cursor como puntero */
-    border-radius: 5px; /* Bordes redondeados */
-    display: inline-block; /* Alineación con otros elementos */
-    margin: 5px; /* Margen alrededor del botón */
-    transition: background-color 0.3s; /* Transición suave para el hover */
+#edit-github-btn:hover {
+    background: rgba(240, 80, 50, 0.15);
+    border-color: rgba(240, 80, 50, 0.4);
+    color: #ff7a59;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(240, 80, 50, 0.2);
 }
 
 #vote-change-org:hover {
-    background-color: #5f20de; /* Color de fondo al pasar el ratón por encima */
-}
-
-#suscribe-mail-list {
-    /* Estilos para el botón */
-    background-color: #a9aa49;
-    color: white;
-    border: none; /* Sin bordes */
-    padding: 10px 15px; /* Espaciado interno */
-    text-decoration: none; /* Sin subrayado */
-    font-size: 1em; /* Tamaño de la fuente */
-    cursor: pointer; /* Cursor como puntero */
-    border-radius: 5px; /* Bordes redondeados */
-    display: inline-block; /* Alineación con otros elementos */
-    margin: 5px; /* Margen alrededor del botón */
-    transition: background-color 0.3s; /* Transición suave para el hover */
-}
-
-#suscribe-mail-list:hover {
-    background-color: #8d9004; /* Color de fondo al pasar el ratón por encima */
-}
-#telegram-group {
-    /* Estilos para el botón */
-    background-color: #0088cc;
-    color: white;
-    border: none; /* Sin bordes */
-    padding: 10px 15px; /* Espaciado interno */
-    text-decoration: none; /* Sin subrayado */
-    font-size: 1em; /* Tamaño de la fuente */
-    cursor: pointer; /* Cursor como puntero */
-    border-radius: 5px; /* Bordes redondeados */
-    display: inline-block; /* Alineación con otros elementos */
-    margin: 5px; /* Margen alrededor del botón */
-    transition: background-color 0.3s; /* Transición suave para el hover */
+    background: rgba(147, 51, 234, 0.15);
+    border-color: rgba(147, 51, 234, 0.4);
+    color: #c084fc;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(147, 51, 234, 0.2);
 }
 
 #telegram-group:hover {
-    background-color: #026DA2; /* Color de fondo al pasar el ratón por encima */
+    background: rgba(56, 189, 248, 0.15);
+    border-color: rgba(56, 189, 248, 0.4);
+    color: #38bdf8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(56, 189, 248, 0.2);
 }
+
+#suscribe-mail-list:hover {
+    background: rgba(234, 179, 8, 0.15);
+    border-color: rgba(234, 179, 8, 0.4);
+    color: #fde047;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(234, 179, 8, 0.2);
+}
+
+
 
 /* Estilos existentes para el modo claro */
 .issue-link, .issue-link-create {
