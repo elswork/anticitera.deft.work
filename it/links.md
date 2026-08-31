@@ -1,5 +1,5 @@
 # Sezione Links
-Fecha: Sun Aug 09 2026 11:20:48 GMT+0000 (Coordinated Universal Time)
+Fecha: Mon Aug 31 2026 19:15:27 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/links/
 
 ---
@@ -12,6 +12,27 @@ Links Anticitera
 
 
 [- YouTube](https://youtu.be/1lidJfCEAI8)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[- YouTube](https://youtu.be/Ndi6pCrKOB8?si=9BgPM2knBjCllLSs)
 Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
@@ -448,7 +469,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Immagine correlata](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Immagine correlata](https://www.latercera.com/resizer/v2/MUALD5Y3UZABLN5MKUNMGQUNBE.jpg?auth=c464b98e97b115c61ef2d5cc305812da2317f9fe3179a71cdfc349e37e75efea&smart=true&width=100&height=56&quality=70)
+![Immagine correlata](https://www.latercera.com/resizer/v2/C7GMFU3EKJDS7MYVVHT2QKBUBA.jpg?auth=dad4afdb8e82da563340044513a530da443f8dc72ca112ea31fbe2e31689cc9e&smart=true&width=100&height=56&quality=70)
 
 
 
