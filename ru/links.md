@@ -1,5 +1,5 @@
 # Раздел ссылок
-Fecha: Fri Sep 11 2026 22:59:28 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Sep 19 2026 17:48:00 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/links/
 
 ---
@@ -469,7 +469,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Imagen relacionada](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Imagen relacionada](https://www.latercera.com/resizer/v2/AEKFY3CZ2BHHBP67RVVYPQO7IU.jpg?auth=d14d404b1633061bf9e051b869312999755baf3ef1cd4bff11270d77fd0884f6&smart=true&width=100&height=56&quality=70)
+![Imagen relacionada](https://www.latercera.com/resizer/v2/IIUJETPHX5HS5GKD62OT4VSWCI.jpg?auth=54b2ebbd8921f57ab39dd9c54ffb8fa27aa661768e650ac37ab5423814ef8bb8&smart=true&width=100&height=56&quality=70)
 
 
 
@@ -504,7 +504,7 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 ![Imagen relacionada](https://rapinformes.es/wp-content/uploads/2021/04/matrices-marca-corp-RAP-INFORMES.png)
 
 
-![Imagen relacionada](https://anticitera.deft.work/data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20782'%3E%3C/svg%3E)
+![Imagen relacionada](https://anticitera.deft.work/data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201672%20941'%3E%3C/svg%3E)
 
 
 
