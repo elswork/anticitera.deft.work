@@ -1,5 +1,5 @@
 # Cos'è il Progetto .IA Isola di Anticitera?
-Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:36:46 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/
 
 ---
@@ -10,6 +10,13 @@ Ultime 3 Pubblicazioni
 
 
 
+
+
+
+	* 
+		[Comunicato VI - Vittoria a Strasburgo e Registrazione Ufficiale dell'ICE](https://anticitera.deft.work/it/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
+		October 2026
+	
 
 
 
@@ -27,16 +34,9 @@ Ultime 3 Pubblicazioni
 
 
 
-	* 
-		[Come un'IA vede il codice del Progetto Anticitera](https://anticitera.deft.work/it/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
-		December 2025
-	
 
 
 
 
 
-
-
-
-23 altri posts possono essere trovati in [l'archivio](https://anticitera.deft.work/it/blog.md).
+24 altri posts possono essere trovati in [l'archivio](https://anticitera.deft.work/it/blog.md).

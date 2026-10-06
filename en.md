@@ -1,5 +1,5 @@
 # en
-Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:36:46 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/
 
 ---
@@ -10,6 +10,13 @@ Latest 3 Posts
 
 
 
+
+
+
+	* 
+		[Press Release VI - Victory in Strasbourg and Official ECI Registration](https://anticitera.deft.work/en/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
+		October 2026
+	
 
 
 
@@ -27,16 +34,9 @@ Latest 3 Posts
 
 
 
-	* 
-		[How an AI Sees the Antikythera Project Code](https://anticitera.deft.work/en/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
-		December 2025
-	
 
 
 
 
 
-
-
-
-23 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).
+24 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).

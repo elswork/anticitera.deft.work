@@ -1,5 +1,5 @@
 # blog
-Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:36:46 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/blog/
 
 ---
@@ -9,6 +9,13 @@ Blog
 
 
 
+
+
+
+	* 
+		[公报 VI - 斯特拉斯堡之捷与欧洲公民倡议（ECI）正式注册](https://anticitera.deft.work/cn/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
+		October 2026
+	
 
 
 

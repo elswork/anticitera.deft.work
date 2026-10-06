@@ -1,5 +1,5 @@
 # cn
-Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:36:46 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/
 
 ---
@@ -10,6 +10,13 @@ URL: https://anticitera.deft.work/cn/
 
 
 
+
+
+
+	* 
+		[公报 VI - 斯特拉斯堡之捷与欧洲公民倡议（ECI）正式注册](https://anticitera.deft.work/cn/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
+		October 2026
+	
 
 
 
@@ -27,16 +34,9 @@ URL: https://anticitera.deft.work/cn/
 
 
 
-	* 
-		[AI 如何看待安提基特拉项目的代码](https://anticitera.deft.work/cn/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
-		December 2025
-	
 
 
 
 
 
-
-
-
-更多 23 篇文章可以在[存档](https://anticitera.deft.work/cn/blog.md)中找到。
+更多 24 篇文章可以在[存档](https://anticitera.deft.work/cn/blog.md)中找到。

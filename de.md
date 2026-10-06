@@ -1,5 +1,5 @@
 # Was ist das .IA Antikythera-Insel-Projekt?
-Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:36:46 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/
 
 ---
@@ -10,13 +10,6 @@ Neueste 3 Veröffentlichungen
 
 
 
-
-
-
-	* 
-		[Wie eine KI den Code des Projekts Antikythera sieht](https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
-		December 2025
-	
 
 
 
@@ -34,10 +27,17 @@ Neueste 3 Veröffentlichungen
 
 
 
+	* 
+		[Mitteilung VI - Sieg in Straßburg und offizielle EBI-Registrierung](https://anticitera.deft.work/de/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
+		October 2026
+	
 
 
 
 
 
 
-23 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.
+
+
+
+24 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.
