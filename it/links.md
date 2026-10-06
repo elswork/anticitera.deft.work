@@ -1,5 +1,5 @@
 # Sezione Links
-Fecha: Sat Sep 19 2026 17:48:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/links/
 
 ---
@@ -399,7 +399,7 @@ Este artefacto, por mérito propio es un rompecabezas increíble para su tiempo 
 ![Immagine correlata](https://s1.abcstatics.com/abc/www/multimedia/plantillas/logos/logo-cope.svg)
 
 
-![Immagine correlata](https://s1.abcstatics.com/abc/www/multimedia/plantillas/icon-visual-story.svg)
+![Immagine correlata](https://s1.abcstatics.com/abc/www/multimedia/plantillas/logos/luca-menu-hamburgesa.svg)
 
 
 
@@ -469,7 +469,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Immagine correlata](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Immagine correlata](https://www.latercera.com/resizer/v2/IIUJETPHX5HS5GKD62OT4VSWCI.jpg?auth=54b2ebbd8921f57ab39dd9c54ffb8fa27aa661768e650ac37ab5423814ef8bb8&smart=true&width=100&height=56&quality=70)
+![Immagine correlata](https://www.latercera.com/resizer/v2/PCRUZNPU4BGSVK4ZCAVSJ56O7M.jpg?auth=9ee73923ab73168e5724437285a5eee305154465ba95c53e323fa5972d134b45&smart=true&width=100&height=56&quality=70)
 
 
 

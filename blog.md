@@ -1,5 +1,5 @@
 # blog
-Fecha: Sat Sep 19 2026 17:48:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/blog/
 
 ---
@@ -9,6 +9,13 @@ Blog
 
 
 
+
+
+
+	* 
+		[Comunicado VI - Victoria en Estrasburgo y Registro Oficial ICE](https://anticitera.deft.work/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
+		October 2026
+	
 
 
 

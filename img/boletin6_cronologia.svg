@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" width="1200" height="560" role="img" aria-labelledby="t d">
+  <title id="t">Cronología del Proyecto Anticitera, diciembre 2025 – octubre 2026</title>
+  <desc id="d">Del Boletín V y la vía Web3 al registro de la Iniciativa Ciudadana Europea ECI(2026)000012 por la Comisión Europea.</desc>
+  <style>
+    text { font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif; }
+    .date { font-size: 13px; font-weight: 700; letter-spacing: .08em; fill: #c9a227; }
+    .head { font-size: 16px; font-weight: 700; fill: #eef2f8; }
+    .body { font-size: 13.5px; fill: #a9b7cc; }
+    .ttl  { font-size: 20px; font-weight: 700; fill: #eef2f8; }
+    .sub  { font-size: 13px; fill: #7f8fa8; }
+    .stem { stroke: #3a4a63; stroke-width: 1.5; }
+  </style>
+  <rect width="1200" height="560" rx="14" fill="#0e1726"/>
+  <text x="60" y="52" class="ttl">De la Web3 a Bruselas</text>
+  <text x="60" y="76" class="sub">Diciembre 2025 – octubre 2026 · lo que pasó entre el Boletín V y hoy</text>
+
+  <!-- eje -->
+  <line x1="110" y1="280" x2="921" y2="280" stroke="#c9a227" stroke-width="3"/>
+  <line x1="921" y1="280" x2="1090" y2="280" stroke="#c9a227" stroke-width="3" stroke-dasharray="7 7" opacity=".6"/>
+
+  <!-- 0 · arriba -->
+  <line x1="150" y1="228" x2="150" y2="272" class="stem"/>
+  <circle cx="150" cy="280" r="7" fill="#0e1726" stroke="#c9a227" stroke-width="3"/>
+  <text x="150" y="150" text-anchor="middle" class="date">12 DIC 2025</text>
+  <text x="150" y="174" text-anchor="middle" class="head">Boletín V</text>
+  <text x="150" y="197" text-anchor="middle" class="body">Apuesta Web3: TLD</text>
+  <text x="150" y="216" text-anchor="middle" class="body">.anticitera en Handshake</text>
+
+  <!-- 1 · abajo -->
+  <line x1="279" y1="288" x2="279" y2="326" class="stem"/>
+  <circle cx="279" cy="280" r="7" fill="#0e1726" stroke="#c9a227" stroke-width="3"/>
+  <text x="279" y="348" text-anchor="middle" class="date">ENE 2026</text>
+  <text x="279" y="372" text-anchor="middle" class="head">Giro a la vía legal</text>
+  <text x="279" y="395" text-anchor="middle" class="body">«IA» está libre en ISO 3166;</text>
+  <text x="279" y="414" text-anchor="middle" class="body">la ICE como vehículo</text>
+
+  <!-- 2 · arriba -->
+  <line x1="407" y1="228" x2="407" y2="272" class="stem"/>
+  <circle cx="407" cy="280" r="7" fill="#0e1726" stroke="#c9a227" stroke-width="3"/>
+  <text x="407" y="150" text-anchor="middle" class="date">10 ENE 2026</text>
+  <text x="407" y="174" text-anchor="middle" class="head">Llamamiento</text>
+  <text x="407" y="197" text-anchor="middle" class="body">Se buscan 6 co-organizadores</text>
+  <text x="407" y="216" text-anchor="middle" class="body">de otros Estados de la UE</text>
+
+  <!-- 3 · abajo -->
+  <line x1="536" y1="288" x2="536" y2="326" class="stem"/>
+  <circle cx="536" cy="280" r="7" fill="#0e1726" stroke="#c9a227" stroke-width="3"/>
+  <text x="536" y="348" text-anchor="middle" class="date">FEB – JUN 2026</text>
+  <text x="536" y="372" text-anchor="middle" class="head">Web para la campaña</text>
+  <text x="536" y="395" text-anchor="middle" class="body">Página del comité, textos</text>
+  <text x="536" y="414" text-anchor="middle" class="body">traducidos, llms.txt</text>
+
+  <!-- 4 · arriba -->
+  <line x1="664" y1="228" x2="664" y2="272" class="stem"/>
+  <circle cx="664" cy="280" r="7" fill="#0e1726" stroke="#c9a227" stroke-width="3"/>
+  <text x="664" y="150" text-anchor="middle" class="date">19 JUL – 19 AGO</text>
+  <text x="664" y="174" text-anchor="middle" class="head">Formar el comité</text>
+  <text x="664" y="197" text-anchor="middle" class="body">LinkedIn y 20 oleadas</text>
+  <text x="664" y="216" text-anchor="middle" class="body">de correo: 792 mensajes</text>
+
+  <!-- 5 · abajo -->
+  <line x1="793" y1="288" x2="793" y2="326" class="stem"/>
+  <circle cx="793" cy="280" r="7" fill="#0e1726" stroke="#c9a227" stroke-width="3"/>
+  <text x="793" y="348" text-anchor="middle" class="date">19 AGO 2026</text>
+  <text x="793" y="372" text-anchor="middle" class="head">Solicitud enviada</text>
+  <text x="793" y="395" text-anchor="middle" class="body">Comité completo; papeles</text>
+  <text x="793" y="414" text-anchor="middle" class="body">subsanados 24–28 ago</text>
+
+  <!-- 6 · arriba (hito) -->
+  <line x1="921" y1="228" x2="921" y2="268" stroke="#c9a227" stroke-width="1.5"/>
+  <circle cx="921" cy="280" r="12" fill="#c9a227"/>
+  <circle cx="921" cy="280" r="5" fill="#0e1726"/>
+  <text x="921" y="150" text-anchor="middle" class="date">6 OCT 2026</text>
+  <text x="921" y="174" text-anchor="middle" class="head">Registrada</text>
+  <text x="921" y="197" text-anchor="middle" class="body">Decisión C(2026) 7098</text>
+  <text x="921" y="216" text-anchor="middle" class="body">ECI(2026)000012</text>
+
+  <!-- 7 · abajo (futuro) -->
+  <line x1="1050" y1="288" x2="1050" y2="326" class="stem" stroke-dasharray="4 4"/>
+  <circle cx="1050" cy="280" r="7" fill="#0e1726" stroke="#c9a227" stroke-width="3" stroke-dasharray="3 3"/>
+  <text x="1050" y="348" text-anchor="middle" class="date">ANTES DEL 6 ABR 2027</text>
+  <text x="1050" y="372" text-anchor="middle" class="head">Arranca la recogida</text>
+  <text x="1050" y="395" text-anchor="middle" class="body">Hasta 12 meses para</text>
+  <text x="1050" y="414" text-anchor="middle" class="body">1.000.000 de firmas</text>
+
+  <text x="60" y="520" class="sub">Fuentes: bitácora del proyecto · Decisión de Ejecución C(2026) 7098 · Reglamento (UE) 2019/788</text>
+</svg>

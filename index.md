@@ -1,5 +1,5 @@
 # 
-Fecha: Sat Sep 19 2026 17:48:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Tue Oct 06 2026 20:22:48 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/
 
 ---
@@ -120,6 +120,13 @@ URL: https://anticitera.deft.work/
 
 
 	* 
+		[Comunicado VI - Victoria en Estrasburgo y Registro Oficial ICE](https://anticitera.deft.work/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
+		October 2026
+	
+
+
+
+	* 
 		[Soberanía Digital en la Era de la Inteligencia Aumentada: Por qué el .IA es Inevitable](https://anticitera.deft.work/blog/Soberania_Digital_en_la_Era_de_la_Inteligencia_Aumentada.md)
 		March 2026
 	
@@ -133,16 +140,9 @@ URL: https://anticitera.deft.work/
 
 
 
-	* 
-		[Cómo ve una IA el código del Proyecto Anticitera](https://anticitera.deft.work/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
-		December 2025
-	
 
 
 
 
 
-
-
-
-23 más posts pueden ser encontrados en [el archivo](https://anticitera.deft.work/blog.md).
+24 más posts pueden ser encontrados en [el archivo](https://anticitera.deft.work/blog.md).
