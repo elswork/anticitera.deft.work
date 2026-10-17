@@ -1,5 +1,5 @@
 # Τμήμα Συνδέσμων
-Fecha: Sat Oct 17 2026 15:05:33 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 17 2026 15:36:38 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/links/
 
 ---
@@ -11,8 +11,7 @@ URL: https://anticitera.deft.work/el/links/
 
 
 
-[- YouTube](https://youtu.be/1lidJfCEAI8)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?v=1lidJfCEAI8&feature=youtu.be](https://youtu.be/1lidJfCEAI8)
 
 
 
@@ -32,8 +31,8 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/Ndi6pCrKOB8?si=9BgPM2knBjCllLSs)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?si=9BgPM2knBjCllLSs&v=Ndi6pCrKOB8&feature=youtu.be](https://youtu.be/Ndi6pCrKOB8?si=9BgPM2knBjCllLSs)
 
 
 
@@ -53,8 +52,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?si=ndqNKDNTR9EhMFoP&v=mPPQBbWpBkQ&feature=youtu.be](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
+
 
 
 
@@ -109,8 +109,7 @@ Descubierto en un barco hundido a comienzos del siglo XX, sigue sorprendiendo a 
 
 
 
-[- YouTube](https://youtu.be/AriKIdJTeak)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?v=AriKIdJTeak&feature=youtu.be](https://youtu.be/AriKIdJTeak)
 
 
 
@@ -130,8 +129,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/PNA0f05zsC4)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=PNA0f05zsC4&feature=youtu.be](https://youtu.be/PNA0f05zsC4)
+
 
 
 
@@ -221,8 +221,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 
 
-[- YouTube](https://youtu.be/SWR4_OiTZdc?si=yn7ZqQhwmkgzo0Tp)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?si=yn7ZqQhwmkgzo0Tp&v=SWR4_OiTZdc&feature=youtu.be](https://youtu.be/SWR4_OiTZdc?si=yn7ZqQhwmkgzo0Tp)
 
 
 
@@ -242,8 +241,8 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/ailRl_hUUEE)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=ailRl_hUUEE&feature=youtu.be](https://youtu.be/ailRl_hUUEE)
 
 
 
@@ -263,8 +262,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/7NlBDeqgRIs)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=7NlBDeqgRIs&feature=youtu.be](https://youtu.be/7NlBDeqgRIs)
+
 
 
 
@@ -520,8 +520,7 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 
 
 
-[- YouTube](https://youtu.be/WN8uUl4rbkE)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+[https://www.youtube.com/watch?v=WN8uUl4rbkE&feature=youtu.be](https://youtu.be/WN8uUl4rbkE)
 
 
 
@@ -541,8 +540,8 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/XmB8h_FDJCk)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=XmB8h_FDJCk&feature=youtu.be](https://youtu.be/XmB8h_FDJCk)
 
 
 
@@ -562,8 +561,9 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-[- YouTube](https://youtu.be/CIGZ54b3c1I)
-Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
+
+[https://www.youtube.com/watch?v=CIGZ54b3c1I&feature=youtu.be](https://youtu.be/CIGZ54b3c1I)
+
 
 
 
