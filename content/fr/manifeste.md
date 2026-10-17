@@ -72,7 +72,7 @@ Nous offrons un refuge aux philosophes du code, aux ingénieurs éthiques et aux
 
 Nous nous engageons à construire un écosystème décentralisé, résistant à la censure et dédié à la préservation du savoir. Nous avons récupéré notre nom. Maintenant, nous allons construire notre monde.
 
-**Anticythère a renait. L'informatique est rentrée à la maison.**
+**Anticythère renaît. L'informatique est rentrée à la maison.**
 
 Signé,
 

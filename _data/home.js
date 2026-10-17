@@ -9,16 +9,18 @@ module.exports = {
       external: false,
     },
     messageBox: {
-      item1: "Existe un dominio ccTLD .AI comunmente utilizado para proyectos de \"Artificial Intelligence\", pero no existe el ccTLD .IA que representaria a la mayoria del resto de idiomas del planeta.",
+      item1: "Existe un dominio ccTLD .AI comúnmente utilizado para proyectos de \"Artificial Intelligence\", pero no existe el ccTLD .IA que representaría a la mayoría del resto de idiomas del planeta.",
       item2: "Buscamos crear una comunidad de entusiastas de la IA para promover la creación del dominio de nivel superior ccTLD .IA en el histórico territorio de Isla Anticitera.",
       item3: "Consulta los detalles del <a href=\"/about\">Proyecto</a>.",
-      footer: "Esta es la Base de conocimiento para el <a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Asistente Anticitera de OpenAI</a> creado para asistir en la creación de proyectos tecnologicos relacionados con la .IA"
+      footer: "Esta es la Base de conocimiento para el <a href=\"https://chat.openai.com/g/g-fnpHOClUW-anticitera\">Asistente Anticitera de OpenAI</a> creado para asistir en la creación de proyectos tecnológicos relacionados con la .IA"
     },
     buttons: {
       edit_github: "Editar en",
       vote_change_org: "Firma en",
       telegram_group: "Entra al",
-      suscribe_mail_list: "Suscribete al",
+      suscribe_mail_list: "Suscríbete al",
+      mail_noun: "Correo",
+      share: "Compartir",
       view_comments: "Ver Comentarios",
       new_comment: "Nuevo comentario"
     }
@@ -42,6 +44,8 @@ module.exports = {
       vote_change_org: "Sign on",
       telegram_group: "Join",
       suscribe_mail_list: "Subscribe to",
+      mail_noun: "Newsletter",
+      share: "Share",
       view_comments: "View Comments",
       new_comment: "New comment"
     }
@@ -64,7 +68,9 @@ module.exports = {
       edit_github: "Modifier sur",
       vote_change_org: "Signer sur",
       telegram_group: "Rejoindre",
-      suscribe_mail_list: "S'abonner à",
+      suscribe_mail_list: "S'abonner à la",
+      mail_noun: "Newsletter",
+      share: "Partager",
       view_comments: "Voir les Commentaires",
       new_comment: "Nouveau commentaire"
     }
@@ -88,6 +94,8 @@ module.exports = {
       vote_change_org: "Assinar em",
       telegram_group: "Entrar",
       suscribe_mail_list: "Assinar",
+      mail_noun: "Newsletter",
+      share: "Partilhar",
       view_comments: "Ver Comentários",
       new_comment: "Novo comentário"
     }
@@ -110,7 +118,9 @@ module.exports = {
       edit_github: "Modifica su",
       vote_change_org: "Firma su",
       telegram_group: "Unisciti",
-      suscribe_mail_list: "Sottoscrivi",
+      suscribe_mail_list: "Iscriviti a",
+      mail_noun: "Newsletter",
+      share: "Condividi",
       view_comments: "Vedi Commenti",
       new_comment: "Nuovo commento"
     }
@@ -133,7 +143,9 @@ module.exports = {
       edit_github: "Επεξεργασία στο",
       vote_change_org: "Υπογραφή στο",
       telegram_group: "Είσοδος στο",
-      suscribe_mail_list: "Εγγραφή στη",
+      suscribe_mail_list: "Εγγραφή στο",
+      mail_noun: "Newsletter",
+      share: "Κοινοποίηση",
       view_comments: "Προβολή Σχολίων",
       new_comment: "Νέο σχόλιο"
     }
@@ -157,6 +169,8 @@ module.exports = {
       vote_change_org: "Unterschreiben auf",
       telegram_group: "Beitreten",
       suscribe_mail_list: "Abonnieren",
+      mail_noun: "Newsletter",
+      share: "Teilen",
       view_comments: "Kommentare anzeigen",
       new_comment: "Neuer Kommentar"
     }
@@ -180,6 +194,8 @@ module.exports = {
       vote_change_org: "在Change.org上签名",
       telegram_group: "加入Telegram",
       suscribe_mail_list: "订阅邮件列表",
+      mail_noun: "",
+      share: "分享",
       view_comments: "查看评论",
       new_comment: "发表新评论"
     }
@@ -203,6 +219,8 @@ module.exports = {
       vote_change_org: "Подписать на",
       telegram_group: "Войти в",
       suscribe_mail_list: "Подписаться на",
+      mail_noun: "рассылку",
+      share: "Поделиться",
       view_comments: "Посмотреть комментарии",
       new_comment: "Новый комментарий"
     }

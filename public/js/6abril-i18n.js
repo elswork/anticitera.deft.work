@@ -577,65 +577,65 @@ const dictionary = {
   },
   "fr": {
     "nav_dossier": "DOSSIER OFFICIEL DE L'UE · ECI(2026)000012",
-    "nav_decision": "Décision C(2026) 7098 finale",
-    "hero_kicker": "STRASBOURG, LE 6 OCTOBRE 2026 · INITIATIVE CITOYENNE EUROPÉENNE ADMIS EN TRAITEMENT",
-    "hero_title": "Le 6 avril, l’Europe revendique son territoire à l’ère de l’Intelligence Artificielle.",
-    "hero_lead": "Il y a 2 100 ans, dans les eaux d’Anticythère, le premier ordinateur mécanique de l’humanité faisait naufrage. Aujourd'hui, la Commission européenne a légalement validé notre initiative de création du District numérique européen et du domaine souverain .IA. Un million de signatures citoyennes séparent l’Europe de sa souveraineté cognitive.",
+    "nav_decision": "Décision C(2026) 7098 final",
+    "hero_kicker": "STRASBOURG, LE 6 OCTOBRE 2026 · INITIATIVE CITOYENNE EUROPÉENNE ENREGISTRÉE ET DÉCLARÉE RECEVABLE",
+    "hero_title": "Le 6 avril, l'Europe revendique son territoire à l'ère de l'Intelligence Artificielle.",
+    "hero_lead": "Il y a 2 100 ans, dans les eaux d'Anticythère, le premier ordinateur mécanique de l'humanité faisait naufrage. Aujourd'hui, la Commission européenne a validé juridiquement notre initiative visant à créer le District numérique européen et le domaine souverain .IA. Un million de signatures citoyennes séparent l'Europe de sa souveraineté cognitive.",
     "seal_label": "ACTE JURIDIQUE VÉRIFIÉ · COMMISSION EUROPÉENNE",
-    "seal_title": "«Création du District numérique européen (.IA) pour une gouvernance souveraine de l'IA»",
-    "seal_meta": "Enregistré à Strasbourg le 10/06/2026 · Base juridique reconnue : Articles 16, 114, 172 et 173 du TFUE",
-    "seal_pdf_btn": "Lire la décision C(2026) 7098 (PDF)",
-    "seal_eu_btn": "Registre Officiel à Bruxelles ↗",
-    "clock_badge": "HORLOGE ASTRONOMIQUE À OUVERTURE · SCO SYSTÈME CENTRAL DE L'UNION EUROPÉENNE",
+    "seal_title": "« Création du District numérique européen (.IA) pour la gouvernance d'une IA souveraine »",
+    "seal_meta": "Enregistrée à Strasbourg le 06/10/2026 · Base juridique reconnue : articles 16, 114, 172 et 173 du TFUE",
+    "seal_pdf_btn": "Lire la Décision C(2026) 7098 (PDF)",
+    "seal_eu_btn": "Registre officiel à Bruxelles ↗",
+    "clock_badge": "HORLOGE ASTRONOMIQUE D'OUVERTURE · SYSTÈME CENTRAL OCS DE L'UNION EUROPÉENNE",
     "clock_title": "Ouverture de l'urne électronique : 6 avril 2027",
-    "clock_desc": "Le droit européen accorde six mois à compter de l'immatriculation à Strasbourg pour préparer le déploiement continental avant d'activer le compteur de douze mois. Le mardi 6 avril 2027 à 09h00 CET, ce marqueur se transformera automatiquement en bouton de signature officiel à identité européenne (eIDAS/DNI).",
-    "unit_days": "jours",
-    "unit_hours": "Horaires",
-    "unit_minutes": "Procès-verbal",
+    "clock_desc": "Le droit européen accorde six mois à compter de l'enregistrement à Strasbourg pour préparer le déploiement continental avant d'activer le compte à rebours de douze mois. Le mardi 6 avril 2027 à 09h00 CET, ce compteur se transformera automatiquement en bouton officiel de signature avec identité européenne (eIDAS / CNI).",
+    "unit_days": "Jours",
+    "unit_hours": "Heures",
+    "unit_minutes": "Minutes",
     "unit_seconds": "Secondes",
-    "ocs_btn_locked": "⏳ BOX OFFICIEL EU FERMÉ JUSQU'AU 6 AVRIL 2027 · RÉSERVEZ VOTRE AVIS JOUR 1 ↓",
-    "ocs_btn_unlocked": "✒️ SIGNEZ L'INITIATIVE OFFICIELLE MAINTENANT SUR LE PORTAIL DE LA COMMISSION EUROPÉENNE (OCS)",
-    "ocs_status_note": "Statut du Système Central de Collecte (OCS) : En phase réglementaire de pré-campagne (Art. 8.1 Règlement UE 2019/788).",
+    "ocs_btn_locked": "⏳ URNE OFFICIELLE DE L'UE FERMÉE JUSQU'AU 6 AVRIL 2027 · RECEVEZ VOTRE ALERTE JOUR 1 ↓",
+    "ocs_btn_unlocked": "✒️ SIGNER MAINTENANT L'INITIATIVE OFFICIELLE SUR LE PORTAIL DE LA COMMISSION EUROPÉENNE (OCS)",
+    "ocs_status_note": "Statut du Système central de collecte en ligne (OCS) : en phase réglementaire de pré-campagne (art. 8, par. 1, du règlement UE 2019/788).",
     "form_kicker": "LISTE DES PIONNIERS · JOUR 1",
-    "form_title": "Recevez l'avis dès la première minute",
-    "form_desc": "Pour que la Commission européenne légifère, nous devons réunir 1 000 000 de signatures valides et dépasser les seuils minimaux dans au moins 7 États membres. Laissez votre email pour être averti au moment précis de l'ouverture officielle des urnes le 6 avril.",
-    "label_email": "Courriel",
-    "placeholder_email": "votre.nom@domain.eu",
-    "label_country": "Pays de citoyenneté ou de résidence (règle des 7 États de l’UE)",
+    "form_title": "Recevez l'alerte dès la première minute",
+    "form_desc": "Pour que la Commission européenne légifère, nous devons réunir 1 000 000 de signatures valides et franchir les seuils minimaux dans au moins 7 États membres. Laissez votre adresse e-mail pour être averti à l'instant précis de l'ouverture officielle de l'urne le 6 avril.",
+    "label_email": "Adresse e-mail",
+    "placeholder_email": "votre.nom@domaine.eu",
+    "label_country": "Pays de citoyenneté ou de résidence (règle des 7 États de l'UE)",
     "country_placeholder": "Sélectionnez votre pays de l'UE...",
-    "country_other": "Autre pays / Citoyen européen à l'étranger",
-    "label_collab": "Je souhaite collaborer activement en tant qu'organisation, université, média ou diffuseur",
-    "form_submit": "Rejoignez les Pionniers du 6 avril",
-    "form_privacy": "Conformité stricte au RGPD (Art. 16 TFUE). Vous ne recevrez que l'avis officiel d'ouverture de l'urne électronique européenne.",
-    "form_success": "Votre engagement a été inscrit sur la Liste des Pionniers ! Nous vous informerons le 6 avril 2027 dès que Bruxelles ouvrira l'urne électronique.",
-    "form_error": "Votre email n'a pas pu être enregistré pour le moment. Veuillez réessayer.",
+    "country_other": "Autre pays / Citoyen européen résidant à l'étranger",
+    "label_collab": "Je souhaite collaborer activement en tant qu'organisation, université, média ou vulgarisateur",
+    "form_submit": "Rejoindre les Pionniers du 6 avril",
+    "form_privacy": "Conformité stricte au RGPD (art. 16 TFUE). Vous recevrez uniquement l'avis d'ouverture officielle de l'urne électronique européenne.",
+    "form_success": "Votre engagement a bien été enregistré sur la Liste des Pionniers ! Nous vous préviendrons le 6 avril 2027 dès que Bruxelles ouvrira l'urne électronique.",
+    "form_error": "Impossible d'enregistrer votre adresse e-mail pour le moment. Veuillez réessayer.",
     "donate_kicker": "TRANSPARENCE FINANCIÈRE · RÈGLEMENT (UE) 2019/788",
-    "donate_title": "Fonds de mécénat et de campagne",
-    "donate_desc": "Faire entendre la voix des citoyens dans les 27 États membres sans dépendre des grandes entreprises technologiques nécessite des ressources indépendantes de communication, de traduction et de déploiement. Conformément au règlement (UE) 2019/788, toutes les contributions seront auditées et déclarées publiquement devant la Commission européenne.",
-    "donate_btn_disabled": "🔒 FAIRE UN DON (TEMPORAIREMENT HANDICAPÉ)",
-    "donate_notice": "Le canal de contribution reste désactivé le temps que nous formalisions l'accord avec notre entité faîtière d'IA éthique à but non lucratif et l'audit comptable exigé par Bruxelles.",
-    "museum_caption_title": "FRAGMENT A · MÉCANISME ANTIKYTERA (vers 150-100 av. J.-C.)",
-    "museum_caption_sub": "30 engrenages en bronze calibrés pour prédire les éclipses et les cycles olympiques. Trouvé à 42 mètres de profondeur au large de l'île d'Anticythère (Grèce).",
+    "donate_title": "Mécénat et Fonds de campagne",
+    "donate_desc": "Porter la voix citoyenne dans les 27 États membres sans dépendre des géants technologiques exige des ressources indépendantes de communication, de traduction et de déploiement. Conformément au règlement (UE) 2019/788, chaque contribution sera auditée et déclarée publiquement auprès de la Commission européenne.",
+    "donate_btn_disabled": "🔒 FAIRE UN DON (TEMPORAIREMENT DÉSACTIVÉ)",
+    "donate_notice": "Le canal de dons reste désactivé pendant que nous finalisons la convention avec notre association de référence pour une IA éthique et l'audit comptable exigé par Bruxelles.",
+    "museum_caption_title": "FRAGMENT A · MÉCANISME D'ANTICYTHÈRE (vers 150–100 av. J.-C.)",
+    "museum_caption_sub": "30 engrenages de bronze calibrés pour prédire les éclipses et les cycles olympiques. Retrouvé à 42 mètres de profondeur au large de l'île d'Anticythère (Grèce).",
     "act1_kicker": "I · L'ORIGINE EN MER ÉGÉE (35°52′N, 23°18′E)",
-    "act1_title": "Le premier ordinateur de l'histoire est né en Europe. Votre avenir doit le faire aussi.",
-    "act1_p1": "Au printemps 1901, des plongeurs d'éponges ont sauvé du fond de la mer Égée, au large de la petite île grecque d'Anticythère, un bloc de bronze corrodé qui a changé à jamais l'histoire de la science. Cet artefact – conçu dans la tradition astronomique et mécanique d'Archimède de Syracuse – contenait un système d'engrenages capable de calculer avec une précision mathématique le mouvement du cosmos seize siècles avant toute horloge européenne.",
-    "act1_p2": "Deux millénaires plus tard, nous vivons une anomalie géopolitique : par hasard dans la géographie postale des années 1990, le domaine qui identifie l’Intelligence Artificielle sur toute la planète (.ai) appartient à une île des Caraïbes étrangère à notre gouvernance démocratique. L’Europe a adopté les lois les plus garantes au monde, mais continue de louer le terrain numérique où réside l’avenir.",
-    "act2_kicker": "II · LE TRIANGLE EUROPÉEN DE LA CONFIANCE",
-    "act2_title": "Qu'est-ce qui change pour vous lorsque le domaine .IA existe",
-    "act2_lead": "Un citoyen ne signe pas pour un acronyme technique dans un tableau ISO ou ICANN ; signature pour savoir à qui vous pouvez faire confiance lorsque vous interagissez avec une machine. La décision finale C(2026) 7098 valide les trois mandats de notre initiative :",
+    "act1_title": "Le premier ordinateur de l'histoire est né en Europe. Son avenir doit s'y écrire aussi.",
+    "act1_p1": "Au printemps 1901, des pêcheurs d'éponges ont remonté du fond de la mer Égée, au large de la petite île grecque d'Anticythère, un bloc de bronze corrodé qui a changé à jamais l'histoire des sciences. Cet artefact — conçu dans la tradition astronomique et mécanique d'Archimède de Syracuse — renfermait un système d'engrenages capable de calculer avec une précision mathématique le mouvement du cosmos seize siècles avant la moindre horloge européenne.",
+    "act1_p2": "Deux millénaires plus tard, nous vivons une anomalie géopolitique : par un hasard de la géographie postale des années 1990, le domaine qui identifie l'Intelligence Artificielle sur toute la planète (.ai) appartient à une île des Caraïbes étrangère à notre gouvernance démocratique. L'Europe a promulgué les lois les plus protectrices au monde, mais continue de louer le sol numérique où réside l'avenir.",
+    "act2_kicker": "II · LE TRIANGLE DE CONFIANCE EUROPÉEN",
+    "act2_title": "Ce qui change pour vous avec le domaine .IA",
+    "act2_lead": "Un citoyen ne signe pas pour un sigle technique dans une table de l'ISO ou de l'ICANN ; il signe pour savoir à qui faire confiance lorsqu'il interagit avec une machine. La décision C(2026) 7098 final valide les trois mandats de notre initiative :",
     "pillar1_tag": "OBJECTIF 1 · ART. 172 ET 173 TFUE",
-    "pillar1_title": "Districts numériques à haute confiance",
-    "pillar1_body": "Création d'un cadre communautaire d'environnements de test (bacs à sable réglementaires) et d'infrastructures transeuropéennes pour les chercheurs, startups et universités afin de développer une IA éthique sur le sol européen sans étouffement bureaucratique.",
+    "pillar1_title": "Districts numériques de haute confiance",
+    "pillar1_body": "Création d'un cadre communautaire d'environnements d'expérimentation (bacs à sable réglementaires) et d'infrastructures transeuropéennes permettant aux chercheurs, startups et universités de développer une IA éthique sur le sol européen sans asphyxie bureaucratique.",
     "pillar2_tag": "OBJECTIF 2 · RÈGLEMENT (UE) 2019/517",
     "pillar2_title": "Souveraineté de l'espace de noms .IA",
-    "pillar2_body": "Mandat pour la Commission européenne d'exercer ses pouvoirs de représentation externe auprès de l'ISO (Agence 3166) et de l'ICANN/IANA afin de protéger, réserver et attribuer le domaine .IA en tant qu'actif stratégique européen, suivant le précédent juridique du domaine .eu.",
+    "pillar2_body": "Mandat confié à la Commission européenne pour exercer ses compétences de représentation extérieure auprès de l'ISO (Agence 3166) et de l'ICANN/IANA afin de protéger, réserver et attribuer le domaine .IA comme actif stratégique européen, selon le précédent juridique du domaine .eu.",
     "pillar3_tag": "OBJECTIF 3 · ART. 16 ET 114 TFUE",
     "pillar3_title": "Le passeport unique : eIDAS 2.0 + AI Act + RGPD",
-    "pillar3_body": "Que la résolution technique d'un domaine .ia garantit elle-même par conception trois certitudes au citoyen : identité vérifiée (eIDAS 2.0), audit algorithmique transparent (AI Act) et protection absolue des données personnelles (RGPD).",
-    "ship_caption": "Le naufrage d'Anticythère (vers 87 av. J.-C.) : là où les savoirs anciens ont attendu deux mille ans pour rééclairer l'Europe.",
+    "pillar3_body": "Que la résolution technique même d'un domaine .ia garantisse dès la conception trois certitudes au citoyen : identité vérifiée (eIDAS 2.0), audit algorithmique transparent (AI Act) et protection absolue des données personnelles (RGPD).",
+    "ship_caption": "L'épave d'Anticythère (vers 87 av. J.-C.) : là où le savoir antique a attendu deux mille ans pour éclairer à nouveau l'Europe.",
     "act3_kicker": "III · LA RÈGLE DES 7 ÉTATS ET LE MILLION DE SIGNATURES",
-    "act3_title": "Pourquoi on se prépare jusqu'au 6 avril",
-    "act3_body": "Une initiative citoyenne européenne nécessite de collecter 1 000 000 de déclarations de soutien valables en 12 mois et de dépasser le seuil légal minimum dans au moins 7 États membres. Notre comité d'organisation – dirigé par Eloy López Sánchez (Espagne) et Aristeidis Tsitiridis (Grèce) ainsi que des représentants de la France, du Portugal, de la Hongrie, de la Croatie et de Chypre – a fixé le 6 avril 2027 comme jour J pour que toute l'Europe puisse agir à l'unisson.",
+    "act3_title": "Pourquoi nous nous préparons jusqu'au 6 avril",
+    "act3_body": "Une Initiative citoyenne européenne exige de recueillir 1 000 000 de déclarations de soutien valides en 12 mois et de franchir le seuil légal minimal dans au moins 7 États membres. Notre comité d'organisation — dirigé par Eloy López Sánchez (Espagne) et Aristeidis Tsitiridis (Grèce) aux côtés de représentants de la France, du Portugal, de la Hongrie, de la Croatie et de Chypre — a fixé au 6 avril 2027 le Jour J pour que toute l'Europe agisse à l'unisson.",
     "committee_label": "COMITÉ D'ORGANISATION DES SEPT NATIONS · SEUILS OFFICIELS DE L'UE",
     "footer_legal": "Initiative citoyenne européenne officiellement enregistrée par la Commission européenne · Dossier ECI(2026)000012 · Décision d'exécution C(2026) 7098 final du 6 octobre 2026. Représentants du groupe d'organisateurs : Eloy López Sánchez et Aristeidis Tsitiridis."
   },
@@ -1218,12 +1218,12 @@ const dictionary = {
   "pt": {
     "nav_dossier": "ARQUIVO OFICIAL DA UE · ECI(2026)000012",
     "nav_decision": "Decisão C(2026) 7098 final",
-    "hero_kicker": "ESTRASBURGO, 6 DE OUTUBRO DE 2026 · INICIATIVA DE CIDADÃO EUROPEIA AMITIDA PARA PROCESSAMENTO",
+    "hero_kicker": "ESTRASBURGO, 6 DE OUTUBRO DE 2026 · INICIATIVA DE CIDADANIA EUROPEIA ADMITIDA PARA PROCESSAMENTO",
     "hero_title": "No dia 6 de abril, a Europa reivindica o seu território na era da Inteligência Artificial.",
     "hero_lead": "Há 2.100 anos, nas águas de Anticítera, o primeiro computador mecânico da humanidade naufragou. Hoje, a Comissão Europeia validou legalmente a nossa iniciativa de criar o Distrito Digital Europeu e o domínio soberano .IA. Um milhão de assinaturas de cidadãos separam a Europa da sua soberania cognitiva.",
     "seal_label": "ATO JURÍDICO VERIFICADO · COMISSÃO EUROPEIA",
     "seal_title": "«Criação do Distrito Digital Europeu (.IA) para Governança Soberana da IA»",
-    "seal_meta": "Registado em Estrasburgo em 10/06/2026 · Base jurídica reconhecida: artigos 16.º, 114.º, 172.º e 173.º do TFUE",
+    "seal_meta": "Registada em Estrasburgo em 06/10/2026 · Base jurídica reconhecida: artigos 16.º, 114.º, 172.º e 173.º do TFUE",
     "seal_pdf_btn": "Leia a Decisão C(2026) 7098 (PDF)",
     "seal_eu_btn": "Registro Oficial em Bruxelas ↗",
     "clock_badge": "RELÓGIO DE ABERTURA ASTRONÔMICA · SISTEMA SCO CENTRAL DA UNIÃO EUROPEIA",
@@ -1537,6 +1537,39 @@ const dictionary = {
   }
 };
 
+const extraUiTranslations = {
+  es: { share_btn_top: "Compartir", share_label: "COMPARTIR EN REDES SOCIALES:", share_copy: "Copiar enlace", share_copied: "¡Enlace copiado!", threshold_label: "Umbral Oficial" },
+  bg: { share_btn_top: "Сподели", share_label: "СПОДЕЛЕТЕ В СОЦИАЛНИТЕ МРЕЖИ:", share_copy: "Копирай връзката", share_copied: "Копирано!", threshold_label: "Официален праг" },
+  cs: { share_btn_top: "Sdílet", share_label: "SDÍLET NA SOCIÁLNÍCH SÍTÍCH:", share_copy: "Kopírovat odkaz", share_copied: "Zkopírováno!", threshold_label: "Oficiální práh" },
+  da: { share_btn_top: "Del", share_label: "DEL PÅ SOCIALE MEDIER:", share_copy: "Kopiér link", share_copied: "Link kopieret!", threshold_label: "Officiel tærskel" },
+  de: { share_btn_top: "Teilen", share_label: "IN SOZIALEN MEDIEN TEILEN:", share_copy: "Link kopieren", share_copied: "Link kopiert!", threshold_label: "Offizieller Schwellenwert" },
+  el: { share_btn_top: "Κοινοποίηση", share_label: "ΚΟΙΝΟΠΟΙΗΣΗ ΣΤΑ ΚΟΙΝΩΝΙΚΑ ΔΙΚΤΥΑ:", share_copy: "Αντιγραφή συνδέσμου", share_copied: "Αντιγράφηκε!", threshold_label: "Επίσημο Όριο" },
+  en: { share_btn_top: "Share", share_label: "SHARE ON SOCIAL MEDIA:", share_copy: "Copy link", share_copied: "Link copied!", threshold_label: "Official Threshold" },
+  et: { share_btn_top: "Jaga", share_label: "JAGA SOTSIAALMEEDIAS:", share_copy: "Kopeeri link", share_copied: "Kopeeritud!", threshold_label: "Ametlik künnis" },
+  fi: { share_btn_top: "Jaa", share_label: "JAA SOSIAALISESSA MEDIASSA:", share_copy: "Kopioi linkki", share_copied: "Linkki kopioitu!", threshold_label: "Virallinen kynnys" },
+  fr: { share_btn_top: "Partager", share_label: "PARTAGER SUR LES RÉSEAUX SOCIAUX :", share_copy: "Copier le lien", share_copied: "Lien copié !", threshold_label: "Seuil officiel" },
+  ga: { share_btn_top: "Roinn", share_label: "ROINN AR NA MEÁIN SHÓISIALTA:", share_copy: "Cóipeáil nasc", share_copied: "Nasc cóipeáilte!", threshold_label: "Tairseach Oifigiúil" },
+  hr: { share_btn_top: "Podijeli", share_label: "PODIJELI NA DRUŠTVENIM MREŽAMA:", share_copy: "Kopiraj poveznicu", share_copied: "Kopirano!", threshold_label: "Službeni prag" },
+  hu: { share_btn_top: "Megosztás", share_label: "MEGOSZTÁS A KÖZÖSSÉGI MÉDIÁBAN:", share_copy: "Link másolása", share_copied: "Link másolva!", threshold_label: "Hivatalos küszöb" },
+  it: { share_btn_top: "Condividi", share_label: "CONDIVIDI SUI SOCIAL MEDIA:", share_copy: "Copia link", share_copied: "Link copiato!", threshold_label: "Soglia ufficiale" },
+  lt: { share_btn_top: "Dalintis", share_label: "DALINTIS SOCIALINIUOSE TINKLUOSE:", share_copy: "Kopijuoti nuorodą", share_copied: "Nukopijuota!", threshold_label: "Oficiali riba" },
+  lv: { share_btn_top: "Kopīgot", share_label: "KOPĪGOT SOCIĀLAJOS TĪKLOS:", share_copy: "Kopēt saiti", share_copied: "Saite nokopēta!", threshold_label: "Oficiālais slieksnis" },
+  mt: { share_btn_top: "Aqsam", share_label: "AQSAM FUQ IL-MIDJA SOĊJALI:", share_copy: "Ikkopja l-link", share_copied: "Link ikkopjat!", threshold_label: "Limitu Uffiċjali" },
+  nl: { share_btn_top: "Delen", share_label: "DEEL OP SOCIALE MEDIA:", share_copy: "Link kopiëren", share_copied: "Link gekopieerd!", threshold_label: "Officiële drempel" },
+  pl: { share_btn_top: "Udostępnij", share_label: "UDOSTĘPNIJ W MEDIACH SPOŁECZNOŚCIOWYCH:", share_copy: "Kopiuj link", share_copied: "Skopiowano!", threshold_label: "Oficjalny próg" },
+  pt: { share_btn_top: "Partilhar", share_label: "PARTILHAR NAS REDES SOCIAIS:", share_copy: "Copiar ligação", share_copied: "Ligação copiada!", threshold_label: "Limiar oficial" },
+  ro: { share_btn_top: "Distribuie", share_label: "DISTRIBUIE PE REȚELELE SOCIALE:", share_copy: "Copiază linkul", share_copied: "Link copiat!", threshold_label: "Prag oficial" },
+  sk: { share_btn_top: "Zdieľať", share_label: "ZDIEĽAŤ NA SOCIÁLNYCH SIEŤACH:", share_copy: "Kopírovať odkaz", share_copied: "Skopírované!", threshold_label: "Oficiálny prah" },
+  sl: { share_btn_top: "Deli", share_label: "DELI NA DRUŽBENIH OMREŽJIH:", share_copy: "Kopiraj povezavo", share_copied: "Kopirano!", threshold_label: "Uradni prag" },
+  sv: { share_btn_top: "Dela", share_label: "DELA PÅ SOCIALA MEDIER:", share_copy: "Kopiera länk", share_copied: "Länk kopierad!", threshold_label: "Officiell tröskel" }
+};
+
+for (const [code, extra] of Object.entries(extraUiTranslations)) {
+  if (dictionary[code]) {
+    Object.assign(dictionary[code], extra);
+  }
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const htmlRoot = document.getElementById("htmlRoot");
     const langSwitch = document.getElementById("langSwitch");
@@ -1544,6 +1577,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("pioneerForm");
     const successBox = document.getElementById("pioneerSuccess");
     const submitBtn = document.getElementById("submitPioneerBtn");
+    const topbarShareBtn = document.getElementById("topbarShareBtn");
 
     // 1. Detect preferred EU language (URL ?lang= -> localStorage -> navigator.languages -> es)
     const urlParams = new URLSearchParams(window.location.search);
@@ -1573,6 +1607,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function getOfficialEuPortalUrl(lang) {
         return `https://citizens-initiative.europa.eu/initiatives/details/2026/000012_${lang || "es"}`;
+    }
+
+    function getShareData(lang) {
+        const texts = dictionary[lang] || dictionary.es;
+        const shareUrl = lang && lang !== "es"
+            ? `https://anticitera.deft.work/6abril/?lang=${lang}`
+            : `https://anticitera.deft.work/6abril/`;
+        const shareTitle = `${texts.hero_title} (ECI(2026)000012 · .IA)`;
+        return { shareUrl, shareTitle };
+    }
+
+    function updateShareLinks(lang) {
+        const { shareUrl, shareTitle } = getShareData(lang);
+        const encUrl = encodeURIComponent(shareUrl);
+        const encText = encodeURIComponent(`${shareTitle} ${shareUrl}`);
+        const encTitleOnly = encodeURIComponent(shareTitle);
+
+        const wa = document.querySelector('[data-share="whatsapp"]');
+        if (wa) wa.href = `https://api.whatsapp.com/send?text=${encText}`;
+
+        const xLink = document.querySelector('[data-share="x"]');
+        if (xLink) xLink.href = `https://twitter.com/intent/tweet?text=${encTitleOnly}&url=${encUrl}`;
+
+        const tg = document.querySelector('[data-share="telegram"]');
+        if (tg) tg.href = `https://t.me/share/url?url=${encUrl}&text=${encTitleOnly}`;
+
+        const li = document.querySelector('[data-share="linkedin"]');
+        if (li) li.href = `https://www.linkedin.com/sharing/share-offsite/?url=${encUrl}`;
+
+        const fb = document.querySelector('[data-share="facebook"]');
+        if (fb) fb.href = `https://www.facebook.com/sharer/sharer.php?u=${encUrl}`;
     }
 
     function updateCountdown() {
@@ -1644,6 +1709,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (isUnlocked && ocsBtn) {
             ocsBtn.href = getOfficialEuPortalUrl(lang);
         }
+
+        updateShareLinks(lang);
     }
 
     // Initialize language and countdown
@@ -1659,6 +1726,49 @@ document.addEventListener("DOMContentLoaded", () => {
     applyLanguage(currentLang);
     updateCountdown();
     setInterval(updateCountdown, 1000);
+
+    // Copy link & Topbar share button handlers
+    const copyBtn = document.querySelector('[data-share="copy"]');
+    if (copyBtn) {
+        copyBtn.addEventListener("click", async () => {
+            const { shareUrl } = getShareData(currentLang);
+            const texts = dictionary[currentLang] || dictionary.es;
+            const labelSpan = copyBtn.querySelector("span");
+            try {
+                await navigator.clipboard.writeText(shareUrl);
+                if (labelSpan) {
+                    labelSpan.textContent = texts.share_copied || "¡Enlace copiado!";
+                    setTimeout(() => {
+                        labelSpan.textContent = (dictionary[currentLang] || dictionary.es).share_copy || "Copiar enlace";
+                    }, 2200);
+                }
+            } catch (_) {
+                window.prompt(texts.share_copy || "Copiar enlace", shareUrl);
+            }
+        });
+    }
+
+    if (topbarShareBtn) {
+        topbarShareBtn.addEventListener("click", async () => {
+            const { shareUrl, shareTitle } = getShareData(currentLang);
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: shareTitle,
+                        text: shareTitle,
+                        url: shareUrl
+                    });
+                    return;
+                } catch (_) {
+                    // User cancelled or share failed; scroll to share section
+                }
+            }
+            const shareSec = document.getElementById("shareSection");
+            if (shareSec) {
+                shareSec.scrollIntoView({ behavior: "smooth", block: "center" });
+            }
+        });
+    }
 
     // Smooth focus when clicking locked OCS button
     if (ocsBtn) {

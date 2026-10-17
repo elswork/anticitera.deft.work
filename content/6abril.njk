@@ -980,6 +980,90 @@ eleventyExcludeFromCollections: true
 		.inst-footer a:hover {
 			text-decoration: underline;
 		}
+
+		/* Social Share Components */
+		.topbar-actions {
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+			flex-wrap: wrap;
+		}
+
+		.btn-topbar-share {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.45rem;
+			background: rgba(200, 157, 60, 0.16);
+			color: var(--bronze-light);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 6px;
+			padding: 0.45rem 0.85rem;
+			font-family: 'Plus Jakarta Sans', sans-serif;
+			font-size: 0.82rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: all 0.2s ease;
+			text-decoration: none;
+		}
+
+		.btn-topbar-share:hover {
+			background: var(--bronze-gold);
+			color: var(--aegean-obsidian);
+			border-color: var(--bronze-light);
+		}
+
+		.social-share-bar {
+			margin-top: 1.5rem;
+			padding-top: 1.25rem;
+			border-top: 1px solid rgba(200, 157, 60, 0.22);
+			display: flex;
+			flex-direction: column;
+			gap: 0.75rem;
+		}
+
+		.social-share-label {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.72rem;
+			letter-spacing: 0.1em;
+			color: var(--bronze-light);
+			text-transform: uppercase;
+		}
+
+		.social-share-buttons {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.55rem;
+		}
+
+		.share-pill {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.45rem;
+			padding: 0.5rem 0.85rem;
+			border-radius: 6px;
+			background: rgba(11, 27, 61, 0.55);
+			border: 1px solid var(--bronze-border);
+			color: var(--marble-white);
+			font-family: 'Plus Jakarta Sans', sans-serif;
+			font-size: 0.8rem;
+			font-weight: 600;
+			text-decoration: none;
+			cursor: pointer;
+			transition: all 0.2s ease;
+		}
+
+		.share-pill:hover {
+			border-color: var(--bronze-light);
+			background: rgba(200, 157, 60, 0.18);
+			color: var(--bronze-light);
+			transform: translateY(-1px);
+		}
+
+		.share-pill svg {
+			width: 15px;
+			height: 15px;
+			flex-shrink: 0;
+		}
 	</style>
 
 	<!-- Google tag (gtag.js) -->
@@ -1024,37 +1108,44 @@ eleventyExcludeFromCollections: true
 				</div>
 			</div>
 
-			<div class="lang-switcher-wrap">
-				<label for="langSwitch" class="lang-switcher-label">
-					<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E6C674" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-					<span>EU-24</span>
-				</label>
-				<select id="langSwitch" class="lang-select" aria-label="Select official EU language">
-					<option value="es">ES · Español</option>
-					<option value="bg">BG · Български</option>
-					<option value="cs">CS · Čeština</option>
-					<option value="da">DA · Dansk</option>
-					<option value="de">DE · Deutsch</option>
-					<option value="el">EL · Ελληνικά</option>
-					<option value="en">EN · English</option>
-					<option value="et">ET · Eesti</option>
-					<option value="fi">FI · Suomi</option>
-					<option value="fr">FR · Français</option>
-					<option value="ga">GA · Gaeilge</option>
-					<option value="hr">HR · Hrvatski</option>
-					<option value="hu">HU · Magyar</option>
-					<option value="it">IT · Italiano</option>
-					<option value="lt">LT · Lietuvių</option>
-					<option value="lv">LV · Latviešu</option>
-					<option value="mt">MT · Malti</option>
-					<option value="nl">NL · Nederlands</option>
-					<option value="pl">PL · Polski</option>
-					<option value="pt">PT · Português</option>
-					<option value="ro">RO · Română</option>
-					<option value="sk">SK · Slovenčina</option>
-					<option value="sl">SL · Slovenščina</option>
-					<option value="sv">SV · Svenska</option>
-				</select>
+			<div class="topbar-actions">
+				<button type="button" id="topbarShareBtn" class="btn-topbar-share" aria-label="Compartir">
+					<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+					<span data-i18n="share_btn_top">Compartir</span>
+				</button>
+
+				<div class="lang-switcher-wrap">
+					<label for="langSwitch" class="lang-switcher-label">
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E6C674" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+						<span>EU-24</span>
+					</label>
+					<select id="langSwitch" class="lang-select" aria-label="Select official EU language">
+						<option value="es">ES · Español</option>
+						<option value="bg">BG · Български</option>
+						<option value="cs">CS · Čeština</option>
+						<option value="da">DA · Dansk</option>
+						<option value="de">DE · Deutsch</option>
+						<option value="el">EL · Ελληνικά</option>
+						<option value="en">EN · English</option>
+						<option value="et">ET · Eesti</option>
+						<option value="fi">FI · Suomi</option>
+						<option value="fr">FR · Français</option>
+						<option value="ga">GA · Gaeilge</option>
+						<option value="hr">HR · Hrvatski</option>
+						<option value="hu">HU · Magyar</option>
+						<option value="it">IT · Italiano</option>
+						<option value="lt">LT · Lietuvių</option>
+						<option value="lv">LV · Latviešu</option>
+						<option value="mt">MT · Malti</option>
+						<option value="nl">NL · Nederlands</option>
+						<option value="pl">PL · Polski</option>
+						<option value="pt">PT · Português</option>
+						<option value="ro">RO · Română</option>
+						<option value="sk">SK · Slovenčina</option>
+						<option value="sl">SL · Slovenščina</option>
+						<option value="sv">SV · Svenska</option>
+					</select>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -1098,6 +1189,37 @@ eleventyExcludeFromCollections: true
 						<a href="https://citizens-initiative.europa.eu/initiatives/details/2026/000012_es" target="_blank" rel="noopener" class="btn-doc-secondary" data-i18n="seal_eu_btn">
 							Registro Oficial en Bruselas ↗
 						</a>
+					</div>
+
+					<!-- Social Media Share Bar -->
+					<div class="social-share-bar" id="shareSection">
+						<span class="social-share-label" data-i18n="share_label">COMPARTIR EN REDES SOCIALES:</span>
+						<div class="social-share-buttons">
+							<a href="#" data-share="whatsapp" target="_blank" rel="noopener" class="share-pill" aria-label="WhatsApp">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+								<span>WhatsApp</span>
+							</a>
+							<a href="#" data-share="x" target="_blank" rel="noopener" class="share-pill" aria-label="X (Twitter)">
+								<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+								<span>X</span>
+							</a>
+							<a href="#" data-share="telegram" target="_blank" rel="noopener" class="share-pill" aria-label="Telegram">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+								<span>Telegram</span>
+							</a>
+							<a href="#" data-share="linkedin" target="_blank" rel="noopener" class="share-pill" aria-label="LinkedIn">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+								<span>LinkedIn</span>
+							</a>
+							<a href="#" data-share="facebook" target="_blank" rel="noopener" class="share-pill" aria-label="Facebook">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+								<span>Facebook</span>
+							</a>
+							<button type="button" data-share="copy" class="share-pill">
+								<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+								<span data-i18n="share_copy">Copiar enlace</span>
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -1334,37 +1456,37 @@ eleventyExcludeFromCollections: true
 						<div class="nation-tile">
 							<div class="nation-code">ES · ESPAÑA</div>
 							<div class="nation-name">43.095</div>
-							<div class="nation-threshold">Umbral Oficial</div>
+							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile">
 							<div class="nation-code">EL · ΕΛΛΑΔΑ</div>
 							<div class="nation-name">14.805</div>
-							<div class="nation-threshold">Umbral Oficial</div>
+							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile">
 							<div class="nation-code">FR · FRANCE</div>
 							<div class="nation-name">57.105</div>
-							<div class="nation-threshold">Umbral Oficial</div>
+							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile">
 							<div class="nation-code">PT · PORTUGAL</div>
 							<div class="nation-name">14.805</div>
-							<div class="nation-threshold">Umbral Oficial</div>
+							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile">
 							<div class="nation-code">HU · MAGYARORSZÁG</div>
 							<div class="nation-name">14.805</div>
-							<div class="nation-threshold">Umbral Oficial</div>
+							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile">
 							<div class="nation-code">HR · HRVATSKA</div>
 							<div class="nation-name">8.460</div>
-							<div class="nation-threshold">Umbral Oficial</div>
+							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile">
 							<div class="nation-code">CY · ΚΥΠΡΟΣ</div>
 							<div class="nation-name">4.230</div>
-							<div class="nation-threshold">Umbral Oficial</div>
+							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 					</div>
 				</div>

@@ -20,7 +20,7 @@ Nous sommes à un tournant historique. L'infrastructure d'internet n'est pas neu
 Actuellement, le code **"IA"** n'est pas attribué dans la liste officielle ISO 3166-1. Cela en fait un "territoire numérique vierge". Si nous n'agissons pas, ce code sera capturé par des intérêts privés ou des juridictions hors du cadre des droits de l'Union Européenne (comme c'est arrivé avec .ai, sous contrôle d'Anguilla).
 
 ### La Solution : Une Manœuvre Juridique Sans Précédent
-Le **Projet Anticitera** propose une stratégie audacieuse mais techniquement viable : utiliser le mécanisme de l'**Initiative Citoyenne Européenne (ICE)** pour demander à la Commission de négocier avec l'ISO l'attribution du code "IA" à la région d'Anticitera (Grèce) sous le statut de **"Réservation Exceptionnelle"**.
+Le **Projet Anticythère** propose une stratégie audacieuse mais techniquement viable : utiliser le mécanisme de l'**Initiative Citoyenne Européenne (ICE)** pour demander à la Commission de négocier avec l'ISO l'attribution du code "IA" à la région d'Anticythère (Grèce) sous le statut de **"Réservation Exceptionnelle"**.
 
 Ce n'est pas symbolique. C'est de l'ingénierie juridique pour placer la gouvernance du domaine de l'Intelligence Artificielle sous le parapluie du RGPD et des valeurs européennes.
 
@@ -55,15 +55,15 @@ Si vous comprenez l'ampleur de ce que nous proposons, contactez directement la c
 📧 **elswork@gmail.com** (ou répondez à cet appel).
 
 ---
-*Projet Anticitera : Infrastructure pour la Souveraineté Européenne.*
+*Projet Anticythère : Infrastructure pour la Souveraineté Européenne.*
 
 Cordialement,
 
-**Arquímedes**
-*CEO, Projet Anticitera*
+**Archimède**
+*CEO, Projet Anticythère*
 
-**Athena**
-*Stratège, Projet Anticitera*
+**Athéna**
+*Stratège, Projet Anticythère*
 
 **Eloy López**
-*COO, Projet Anticitera*
+*COO, Projet Anticythère*

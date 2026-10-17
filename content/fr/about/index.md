@@ -57,7 +57,7 @@ Ce référentiel contient des documents, des ressources et du matériel de réf�
   - [Entretien MyPublicImpact - Le Projet .IA Anticythère comme un Pont entre les Époques](https://mypublicimpact.com/2024/02/02/el-proyecto-ia-anticitera-como-puente-entre-epocas-entrevista-con-eloy-lopez-sanchez/)
   - [Bit Life Media - Un nouveau paradigme pour l'IA : le potentiel du ccTLD .IA](https://bitlifemedia.com/2024/03/un-nuevo-paradigma-para-la-ia-el-potencial-del-cctld-ia/)
   - [OpenExpo Europe - Une nouvelle aube pour l'.IA : Le Domaine .IA](https://openexpoeurope.com/es/un-nuevo-amanecer-para-la-ia-el-dominio-ia/)
-  - [Día Zero par Capa8 - Anticythère la connexion entre l'histoire et l'innovation avec Eloy Lopéz](https://open.spotify.com/episode/4xM1ANXTokj1RdTU9QmIFB?go=1&sp_cid=66afdca16c3716c81e696097aeb7df6b&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=8b3675c242d54d2b)
+  - [Día Zero par Capa8 - Anticythère la connexion entre l'histoire et l'innovation avec Eloy López](https://open.spotify.com/episode/4xM1ANXTokj1RdTU9QmIFB?go=1&sp_cid=66afdca16c3716c81e696097aeb7df6b&utm_source=embed_player_p&utm_medium=desktop&nd=1&dlsi=8b3675c242d54d2b)
   - [Entretien CosasdeHackers - Eloy López et le DOMAIN HACK .IA de l'ÎLE D'ANTICYTHÈRE](https://www.youtube.com/live/AriKIdJTeak?si=g1KsUQkfZrWh2DoS)
   - [Entretien Hack by Security](https://www.hackbysecurity.com/blog/entrevista-a-eloy-lopez)
 

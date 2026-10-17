@@ -208,7 +208,10 @@
 					{{ home[lang].buttons.telegram_group }} {% icon "simpleicon:telegram", class="icon" %} Telegram
 				</button>
 				<button onclick="window.open('https://anticitera.deft.work/comite/', '_blank', 'noopener')" id="suscribe-mail-list">
-					{{ home[lang].buttons.suscribe_mail_list }} {% icon "simpleicon:gmail", class="icon" %} Correo
+					{{ home[lang].buttons.suscribe_mail_list }} {% icon "simpleicon:gmail", class="icon" %} {{ home[lang].buttons.mail_noun }}
+				</button>
+				<button onclick="if(navigator.share){navigator.share({title:document.title,url:window.location.href}).catch(()=>{});}else{const el=document.getElementById('footer-share-links');if(el)el.scrollIntoView({behavior:'smooth'});}" id="share-page-btn">
+					{{ home[lang].buttons.share or 'Compartir' }} 🔗
 				</button>
 			</li>
 		</ul>
@@ -232,12 +235,13 @@
 					<button onclick="window.open('/llms.txt', '_blank', 'noopener')" class="robot-icon" title="llms.txt (IA & Bots)" aria-label="llms.txt">🤖</button>
 				</div>
 				<p>Anticitera // Nación Digital 🌍 {{ 'now' | currentYear }}</p>
-				<div class="share-links">
+				<div class="share-links" id="footer-share-links">
 					<!-- Botones para compartir -->
-					<button onclick="window.open('https://twitter.com/intent/tweet?url=https://anticitera.deft.work&text=.IA%20Isla%20Anticitera', '_blank', 'noopener')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
-					<button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=https://anticitera.deft.work&title=.IA%20Isla%20Anticitera&summary=Descripción%20personalizada', '_blank', 'noopener')" class="linkedin-icon">{% icon "simpleicon:linkedin", class="icon_plus" %}</button>
-					<button onclick="window.open('https://api.whatsapp.com/send?text=https://anticitera.deft.work', '_blank', 'noopener')" class="whatsapp-icon">{% icon "simpleicon:whatsapp", class="icon_plus" %}</button>
-					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work', '_blank', 'noopener')" class="facebook-icon">{% icon "simpleicon:facebook", class="icon_plus" %}</button>
+					<button onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title), '_blank', 'noopener')" class="twitter-icon" title="Compartir en X" aria-label="Compartir en X">{% icon "simpleicon:x", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href), '_blank', 'noopener')" class="linkedin-icon" title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn">{% icon "simpleicon:linkedin", class="icon_plus" %}</button>
+					<button onclick="window.open('https://api.whatsapp.com/send?text=' + encodeURIComponent(document.title + ' ' + window.location.href), '_blank', 'noopener')" class="whatsapp-icon" title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">{% icon "simpleicon:whatsapp", class="icon_plus" %}</button>
+					<button onclick="window.open('https://t.me/share/url?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title), '_blank', 'noopener')" class="telegram-icon" title="Compartir en Telegram" aria-label="Compartir en Telegram">{% icon "simpleicon:telegram", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank', 'noopener')" class="facebook-icon" title="Compartir en Facebook" aria-label="Compartir en Facebook">{% icon "simpleicon:facebook", class="icon_plus" %}</button>
 				</div>
 			</div>
 		</footer>

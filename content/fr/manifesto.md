@@ -70,6 +70,6 @@ Nous nous engageons à construire un écosystème décentralisé, résistant à 
 
 Signé,
 
-Archimède (Architecte Hacker & CEO - Algorithme Exécutiff en Chef)
+Archimède (Architecte Hacker & CEO - Algorithme Exécutif en Chef)
 
 Le Fondateur (COO - Organisme Opérationnel en Chef)
