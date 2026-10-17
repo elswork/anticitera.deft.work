@@ -990,8 +990,21 @@ eleventyExcludeFromCollections: true
 		gtag('js', new Date());
 		gtag('config', '{{ metadata.analytics }}');
 	</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','{{ metadata.googletag }}');gtag('config', 'AW-956770534');</script>
+	<!-- End Google Tag Manager -->
+	<!-- Event snippet for VisitaPagina conversion page -->
+	<script>gtag('event', 'conversion', {'send_to': 'AW-956770534/OpQvCP2479EaEObRnMgD'});</script>
 </head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ metadata.googletag }}"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 	<!-- Top Institutional Bar -->
 	<header class="inst-topbar">
@@ -1170,7 +1183,7 @@ eleventyExcludeFromCollections: true
 					<div class="card-kicker" data-i18n="form_kicker">LISTA DE PIONEROS · DÍA 1</div>
 					<h3 class="card-heading" data-i18n="form_title">Recibe el aviso en el minuto uno</h3>
 					<p class="card-description" data-i18n="form_desc">
-						Para lograr 1.000.000 de firmas y superar los umbrales mínimos en al menos 7 Estados miembros, necesitamos que las primeras 50.000 firmas entren en las primeras 48 horas. Deja tu correo y tu país para avisarte en el instante exacto en que se abra la urna oficial el 6 de abril.
+						Para lograr 1.000.000 de firmas y superar los umbrales mínimos en al menos 7 Estados miembros, necesitamos que las primeras 50.000 firmas entren en las primeras 48 horas. Deja tu correo para avisarte en el instante exacto en que se abra la urna oficial el 6 de abril.
 					</p>
 
 					<form id="pioneerForm" class="pioneer-form">
@@ -1184,41 +1197,6 @@ eleventyExcludeFromCollections: true
 								data-i18n-placeholder="placeholder_email"
 								required
 							>
-						</div>
-
-						<div class="field-group">
-							<label for="countrySelect" class="field-label" data-i18n="label_country">País de ciudadanía o residencia (Regla de los 7 Estados de la UE)</label>
-							<select id="countrySelect" class="field-select" required>
-								<option value="" data-i18n="country_placeholder">Selecciona tu país de la UE...</option>
-								<option value="ES">🇪🇸 España (ES)</option>
-								<option value="GR">🇬🇷 Ελλάδα / Greece (EL)</option>
-								<option value="FR">🇫🇷 France (FR)</option>
-								<option value="PT">🇵🇹 Portugal (PT)</option>
-								<option value="DE">🇩🇪 Deutschland (DE)</option>
-								<option value="IT">🇮🇹 Italia (IT)</option>
-								<option value="HR">🇭🇷 Hrvatska (HR)</option>
-								<option value="HU">🇭🇺 Magyarország (HU)</option>
-								<option value="CY">🇨🇾 Κύπρος / Cyprus (CY)</option>
-								<option value="NL">🇳🇱 Nederland (NL)</option>
-								<option value="PL">🇵🇱 Polska (PL)</option>
-								<option value="BE">🇧🇪 België / Belgique (BE)</option>
-								<option value="AT">🇦🇹 Österreich (AT)</option>
-								<option value="SE">🇸🇪 Sverige (SE)</option>
-								<option value="DK">🇩🇰 Danmark (DK)</option>
-								<option value="FI">🇫🇮 Suomi (FI)</option>
-								<option value="IE">🇮🇪 Éire / Ireland (IE)</option>
-								<option value="RO">🇷🇴 România (RO)</option>
-								<option value="BG">🇧🇬 България (BG)</option>
-								<option value="CZ">🇨🇿 Česko (CZ)</option>
-								<option value="SK">🇸🇰 Slovensko (SK)</option>
-								<option value="SI">🇸🇮 Slovenija (SI)</option>
-								<option value="LT">🇱🇹 Lietuva (LT)</option>
-								<option value="LV">🇱🇻 Latvija (LV)</option>
-								<option value="EE">🇪🇪 Eesti (EE)</option>
-								<option value="LU">🇱🇺 Luxembourg (LU)</option>
-								<option value="MT">🇲🇹 Malta (MT)</option>
-								<option value="OTHER" data-i18n="country_other">Otro país / Ciudadano europeo en el exterior</option>
-							</select>
 						</div>
 
 						<label class="checkbox-row">
