@@ -1,5 +1,5 @@
 # Publications X
-Fecha: Sat Oct 17 2026 15:36:38 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 17 2026 20:14:58 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/x/
 
 ---
@@ -16,7 +16,7 @@ Entrevistamos a [@elswork](https://twitter.com/elswork?ref_src=twsrc%5Etfw) nos 
 
 — Hack by Security (@HackbySecurity) [January 28, 2025](https://twitter.com/HackbySecurity/status/1884170711046185040?ref_src=twsrc%5Etfw)
 
- ref_src=twsrc%5Etfw">January 28, 2025
+
 "Lo imposible solo tarda un poco más." Gracias a personas como [@jpcarsi](https://twitter.com/jpcarsi?ref_src=twsrc%5Etfw) y su podcast [#DíaZero](https://twitter.com/hashtag/D%C3%ADaZero?src=hash&ref_src=twsrc%5Etfw) que nos inspiran a superar los límites.Proyecto .IA Isla Anticitera [https://t.co/LhIRw46mJ6](https://t.co/LhIRw46mJ6) [#IA](https://twitter.com/hashtag/IA?src=hash&ref_src=twsrc%5Etfw) [#Anticitera](https://twitter.com/hashtag/Anticitera?src=hash&ref_src=twsrc%5Etfw) [#Antikytera](https://twitter.com/hashtag/Antikytera?src=hash&ref_src=twsrc%5Etfw) [#Antikythera](https://twitter.com/hashtag/Antikythera?src=hash&ref_src=twsrc%5Etfw) [#antikytheramechanism](https://twitter.com/hashtag/antikytheramechanism?src=hash&ref_src=twsrc%5Etfw) [#InteligenciaArtificial](https://twitter.com/hashtag/InteligenciaArtificial?src=hash&ref_src=twsrc%5Etfw) [#ccTLD](https://twitter.com/hashtag/ccTLD?src=hash&ref_src=twsrc%5Etfw)
 
 — Eloy López .|Δ (@elswork) [August 21, 2024](https://twitter.com/elswork/status/1826184900250137021?ref_src=twsrc%5Etfw)

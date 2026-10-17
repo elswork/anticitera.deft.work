@@ -153,21 +153,21 @@ const dictionary = {
         "error": "Pyyntösi käsittelyssä tapahtui virhe. Yritä uudelleen."
     },
     "fr": {
-        "badge": "Comité de la Fondation .IA",
+        "badge": "Comité Fondateur .IA",
         "title": "Revendiquez la souveraineté numérique",
-        "subtitle": "Le domaine .IA ne doit pas seulement être un code territorial pour les Caraïbes, mais un bien public européen qui détermine l'avenir de l'intelligence artificielle de manière éthique et ouverte.",
-        "sec2_title": "I. L'intelligence augmentée en Europe",
-        "sec2_body": "Le projet Antikythera est né avec l'objectif de récupérer la terminaison .IA en tant qu'infrastructure publique. Nous voulons éviter que ce domaine clé soit privatisé comme un simple actif commercial et faire en sorte qu'il soit géré dans le souci des citoyens.",
+        "subtitle": "Le domaine .IA ne devrait pas être un simple code territorial des Caraïbes, mais un bien public européen qui façonne l'avenir de l'intelligence artificielle de manière éthique et ouverte.",
+        "sec2_title": "I. L'Intelligence Augmentée en Europe",
+        "sec2_body": "Le projet Anticythère est né avec l'objectif de revendiquer l'extension .IA en tant qu'infrastructure publique. Nous voulons éviter que ce domaine clé ne soit privatisé comme un simple actif commercial et garantir qu'il soit géré dans l'intérêt des citoyens.",
         "sec3_title": "II. La Voie Légale : Initiative Citoyenne",
-        "sec3_body": "Pour y parvenir, nous allons recourir à une Initiative Citoyenne Européenne (ICE). La première étape juridique nécessite la formation d'un comité d'organisation composé d'au moins 7 citoyens résidant dans 7 pays différents de l'UE. Nous recherchons des personnes engagées qui formeront ce groupe fondateur.",
-        "sec4_title": "III. La prochaine étape",
-        "sec4_body": "En vous joignant au comité, vous jouerez un rôle fondamental dans les décisions stratégiques de cette initiative. Nous travaillerons ensemble pour porter cette proposition officielle à la Commission européenne et créer un véritable précédent en matière de souveraineté numérique.",
-        "form_title": "Rejoignez le comité de fondation",
-        "form_desc": "Laissez-nous votre email pour recevoir la proposition et les instructions pour rejoindre le comité fondateur.",
-        "placeholder": "Entrez votre email...",
-        "button": "Rejoignez l'Initiative",
-        "success": "Merci d'avoir franchi le pas ! Vérifiez votre boîte de réception ; les instructions sont en route.",
-        "error": "Une erreur s'est produite lors du traitement de votre demande. Essayer à nouveau."
+        "sec3_body": "Pour y parvenir, nous allons recourir à une Initiative Citoyenne Européenne (ICE). La première étape juridique exige la formation d'un comité d'organisation composé d'au moins 7 citoyens résidant dans 7 pays différents de l'UE. Nous recherchons des personnes engagées qui formeront ce groupe fondateur.",
+        "sec4_title": "III. La Prochaine Étape",
+        "sec4_body": "En rejoignant le comité, vous jouerez un rôle fondamental dans les décisions stratégiques de cette initiative. Nous travaillerons ensemble pour porter cette proposition officielle devant la Commission européenne et créer un véritable précédent pour notre souveraineté numérique.",
+        "form_title": "Rejoignez le Comité Fondateur",
+        "form_desc": "Laissez-nous votre adresse e-mail pour recevoir la proposition et les instructions permettant de rejoindre le comité fondateur.",
+        "placeholder": "Entrez votre adresse e-mail...",
+        "button": "Rejoindre l'Initiative",
+        "success": "Merci d'avoir franchi le pas ! Vérifiez votre boîte de réception ; les instructions sont en route.",
+        "error": "Une erreur s'est produite lors du traitement de votre demande. Veuillez réessayer."
     },
     "ga": {
         "badge": "Coiste Fondúireachta .IA",
@@ -429,6 +429,17 @@ document.addEventListener('DOMContentLoaded', () => {
         applyLanguage(currentLang);
     });
 
+    const shareLabelByLang = {
+        es: "Compartir en redes sociales", en: "Share on social media", fr: "Partager sur les réseaux sociaux",
+        de: "In sozialen Netzwerken teilen", it: "Condividi sui social media", pt: "Partilhar nas redes sociais",
+        el: "Κοινοποίηση στα κοινωνικά δίκτυα", bg: "Споделете в социалните мрежи", cs: "Sdílet na sociálních sítích",
+        da: "Del på sociale medier", et: "Jaga sotsiaalmeedias", fi: "Jaa sosiaalisessa mediassa",
+        ga: "Roinn ar na meáin shóisialta", hr: "Podijeli na društvenim mrežama", hu: "Megosztás a közösségi médiában",
+        lt: "Dalintis socialiniuose tinkluose", lv: "Dalīties sociālajos tīklos", mt: "Aqsam fuq il-midja soċjali",
+        nl: "Delen op sociale media", pl: "Udostępnij w mediach społecznościowych", ro: "Distribuie pe rețelele sociale",
+        sk: "Zdieľať na sociálnych sieťach", sl: "Deli na družbenih omrežjih", sv: "Dela i sociala medier"
+    };
+
     function applyLanguage(lang) {
         const texts = dictionary[lang];
         if (!texts) return;
@@ -436,12 +447,26 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('[data-i18n]').forEach(el => {
             const key = el.getAttribute('data-i18n');
             if (texts[key]) el.textContent = texts[key];
+            else if (key === 'share_label' && shareLabelByLang[lang]) el.textContent = shareLabelByLang[lang];
         });
 
         document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
             const key = el.getAttribute('data-i18n-placeholder');
             if (texts[key]) el.placeholder = texts[key];
         });
+
+        const shareUrl = 'https://anticitera.deft.work/comite/';
+        const shareText = `${texts.badge || 'ICE .IA'} — ${texts.title || 'Soberanía Digital'}`;
+        const encUrl = encodeURIComponent(shareUrl);
+        const encText = encodeURIComponent(shareText);
+        const encFull = encodeURIComponent(`${shareText} ${shareUrl}`);
+
+        const wa = document.querySelector('[data-comite-share="whatsapp"]');
+        if (wa) wa.href = `https://api.whatsapp.com/send?text=${encFull}`;
+        const x = document.querySelector('[data-comite-share="x"]');
+        if (x) x.href = `https://twitter.com/intent/tweet?url=${encUrl}&text=${encText}`;
+        const tg = document.querySelector('[data-comite-share="telegram"]');
+        if (tg) tg.href = `https://t.me/share/url?url=${encUrl}&text=${encText}`;
     }
 
     // 3. Handle Form Submit

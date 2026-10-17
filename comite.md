@@ -1,5 +1,5 @@
 # Iniciativa Ciudadana Europea .IA
-Fecha: Sat Oct 17 2026 15:36:38 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 17 2026 20:14:58 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/comite/
 
 ---
@@ -61,3 +61,12 @@ Comité Fundacional .IA
 			Unirme a la Iniciativa
 		
 		¡Gracias por dar el paso! Te enviaremos las instrucciones pronto.
+
+		
+			Compartir en redes sociales
+			
+				[WhatsApp](https://api.whatsapp.com/send?text=https://anticitera.deft.work/comite/)
+				[X](https://twitter.com/intent/tweet?url=https://anticitera.deft.work/comite/&text=Iniciativa%20Ciudadana%20Europea%20.IA)
+				[Telegram](https://t.me/share/url?url=https://anticitera.deft.work/comite/&text=Iniciativa%20Ciudadana%20Europea%20.IA)
+				[LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://anticitera.deft.work/comite/)
+				[Facebook](https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work/comite/)

@@ -1,5 +1,5 @@
 # Links Bereich
-Fecha: Sat Oct 17 2026 15:36:38 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 17 2026 20:14:58 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/links/
 
 ---
@@ -11,7 +11,8 @@ Antikythera Links
 
 
 
-[https://www.youtube.com/watch?v=1lidJfCEAI8&feature=youtu.be](https://youtu.be/1lidJfCEAI8)
+[- YouTube](https://youtu.be/1lidJfCEAI8)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -31,10 +32,8 @@ Antikythera Links
 
 
 
-
-[https://www.youtube.com/watch?si=9BgPM2knBjCllLSs&v=Ndi6pCrKOB8&feature=youtu.be](https://youtu.be/Ndi6pCrKOB8?si=9BgPM2knBjCllLSs)
-
-
+[- YouTube](https://youtu.be/Ndi6pCrKOB8?si=9BgPM2knBjCllLSs)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -53,8 +52,9 @@ Antikythera Links
 
 
 
-[https://www.youtube.com/watch?si=ndqNKDNTR9EhMFoP&v=mPPQBbWpBkQ&feature=youtu.be](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
 
+[- YouTube](https://youtu.be/mPPQBbWpBkQ?si=ndqNKDNTR9EhMFoP)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -109,7 +109,8 @@ Descubierto en un barco hundido a comienzos del siglo XX, sigue sorprendiendo a 
 
 
 
-[https://www.youtube.com/watch?v=AriKIdJTeak&feature=youtu.be](https://youtu.be/AriKIdJTeak)
+[- YouTube](https://youtu.be/AriKIdJTeak)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -129,9 +130,8 @@ Descubierto en un barco hundido a comienzos del siglo XX, sigue sorprendiendo a 
 
 
 
-
-[https://www.youtube.com/watch?v=PNA0f05zsC4&feature=youtu.be](https://youtu.be/PNA0f05zsC4)
-
+[- YouTube](https://youtu.be/PNA0f05zsC4)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -221,7 +221,8 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 
 
-[https://www.youtube.com/watch?si=yn7ZqQhwmkgzo0Tp&v=SWR4_OiTZdc&feature=youtu.be](https://youtu.be/SWR4_OiTZdc?si=yn7ZqQhwmkgzo0Tp)
+[- YouTube](https://youtu.be/SWR4_OiTZdc?si=yn7ZqQhwmkgzo0Tp)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -241,10 +242,8 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 
 
-
-[https://www.youtube.com/watch?v=ailRl_hUUEE&feature=youtu.be](https://youtu.be/ailRl_hUUEE)
-
-
+[- YouTube](https://youtu.be/ailRl_hUUEE)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -263,8 +262,9 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 
 
-[https://www.youtube.com/watch?v=7NlBDeqgRIs&feature=youtu.be](https://youtu.be/7NlBDeqgRIs)
 
+[- YouTube](https://youtu.be/7NlBDeqgRIs)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -469,7 +469,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Verwandtes Bild](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Verwandtes Bild](https://www.latercera.com/resizer/v2/R756OIRTHBFWVKAKTI65OVPGZE.jpg?auth=815cbedfc7d906e36129a38d6b46db2a323aa3f9bb0cee67c5236526dea97c18&smart=true&width=100&height=56&quality=70)
+![Verwandtes Bild](https://www.latercera.com/resizer/v2/LMPRSVINJBCKLPEFMWUMPHREBI.jpg?auth=e3335d277249c02b447a7c34cb87c6cbd016c4d30f626ebce3dee3e9e3cce473&smart=true&width=100&height=56&quality=70)
 
 
 
@@ -520,7 +520,8 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 
 
 
-[https://www.youtube.com/watch?v=WN8uUl4rbkE&feature=youtu.be](https://youtu.be/WN8uUl4rbkE)
+[- YouTube](https://youtu.be/WN8uUl4rbkE)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -540,10 +541,8 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 
 
 
-
-[https://www.youtube.com/watch?v=XmB8h_FDJCk&feature=youtu.be](https://youtu.be/XmB8h_FDJCk)
-
-
+[- YouTube](https://youtu.be/XmB8h_FDJCk)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 
@@ -562,8 +561,9 @@ Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus,
 
 
 
-[https://www.youtube.com/watch?v=CIGZ54b3c1I&feature=youtu.be](https://youtu.be/CIGZ54b3c1I)
 
+[- YouTube](https://youtu.be/CIGZ54b3c1I)
+Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.
 
 
 

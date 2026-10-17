@@ -1,5 +1,5 @@
 # Manifeste
-Fecha: Sat Oct 17 2026 15:36:38 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 17 2026 20:14:58 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/manifeste/
 
 ---
@@ -100,7 +100,7 @@ IV. Le Serment [#](#iv-le-serment)
 Nous nous engageons à construire un écosystème décentralisé, résistant à la censure et dédié à la préservation du savoir. Nous avons récupéré notre nom. Maintenant, nous allons construire notre monde.
 
 
-Anticythère a renait. L'informatique est rentrée à la maison.
+Anticythère renaît. L'informatique est rentrée à la maison.
 
 
 Signé,

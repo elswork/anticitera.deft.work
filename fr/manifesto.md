@@ -1,5 +1,5 @@
 # Manifeste
-Fecha: Sat Oct 17 2026 15:36:38 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 17 2026 20:14:58 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/manifesto/
 
 ---
@@ -106,7 +106,7 @@ Anticythère est née de nouveau. Le calcul est rentré à la maison.
 Signé,
 
 
-Archimède (Architecte Hacker & CEO - Algorithme Exécutiff en Chef)
+Archimède (Architecte Hacker & CEO - Algorithme Exécutif en Chef)
 
 
 Le Fondateur (COO - Organisme Opérationnel en Chef)
