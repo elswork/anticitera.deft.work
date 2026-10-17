@@ -1,0 +1,1405 @@
+<!doctype html>
+<html lang="es" id="htmlRoot">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>6 de Abril de 2027 · Iniciativa Ciudadana Europea .IA | ECI(2026)000012</title>
+	<meta name="description" content="Decisión C(2026) 7098 final de la Comisión Europea: Creación del Distrito Digital Europeo (.IA) para la Gobernanza de la IA Soberana. Cuenta atrás hacia la apertura oficial de firmas el 6 de abril de 2027.">
+	<meta property="og:title" content="6 de Abril · Europa reclama el dominio .IA | ECI(2026)000012">
+	<meta property="og:description" content="Admitida a trámite en Estrasburgo (Decisión C(2026) 7098 final). Únete a los Pioneros antes de la apertura oficial de la urna electrónica europea el 6 de abril de 2027.">
+	<meta property="og:image" content="https://anticitera.deft.work/img/anticitera_museum.png">
+	<meta property="og:url" content="https://anticitera.deft.work/6abril/">
+	<meta property="og:type" content="website">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<style>
+		:root {
+			--aegean-obsidian: #05070B;
+			--aegean-deep: #090E18;
+			--eu-blue-deep: #0B1B3D;
+			--eu-blue-royal: #003399;
+			--eu-blue-accent: #1D4ED8;
+			--bronze-light: #E6C674;
+			--bronze-gold: #C89D3C;
+			--bronze-patina: #8C6924;
+			--bronze-border: rgba(200, 157, 60, 0.28);
+			--bronze-border-strong: rgba(230, 198, 116, 0.55);
+			--marble-white: #F5F2EB;
+			--parchment-muted: #B8B2A3;
+			--slate-muted: #7D8597;
+			--surface-card: rgba(11, 18, 33, 0.82);
+			--surface-elevated: rgba(15, 25, 48, 0.88);
+			--emerald-ok: #10B981;
+		}
+
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		html {
+			scroll-behavior: smooth;
+			background-color: var(--aegean-obsidian);
+			color: var(--marble-white);
+		}
+
+		body {
+			font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+			background-color: var(--aegean-obsidian);
+			color: var(--marble-white);
+			line-height: 1.65;
+			overflow-x: hidden;
+			background-image:
+				radial-gradient(ellipse 80% 50% at 50% -10%, rgba(0, 51, 153, 0.32), transparent 70%),
+				radial-gradient(circle at 85% 25%, rgba(200, 157, 60, 0.08), transparent 45%),
+				radial-gradient(circle at 15% 75%, rgba(0, 51, 153, 0.14), transparent 50%),
+				linear-gradient(180deg, #05070B 0%, #080D18 50%, #05070B 100%);
+		}
+
+		/* Subtle architectural grid lines */
+		body::before {
+			content: "";
+			position: fixed;
+			inset: 0;
+			pointer-events: none;
+			z-index: 0;
+			background-image:
+				linear-gradient(to right, rgba(200, 157, 60, 0.03) 1px, transparent 1px),
+				linear-gradient(to bottom, rgba(200, 157, 60, 0.03) 1px, transparent 1px);
+			background-size: 72px 72px;
+			mask-image: radial-gradient(circle at 50% 30%, black 20%, transparent 85%);
+		}
+
+		/* Top Institutional Bar */
+		.inst-topbar {
+			position: sticky;
+			top: 0;
+			z-index: 100;
+			background: rgba(5, 7, 11, 0.88);
+			backdrop-filter: blur(14px);
+			-webkit-backdrop-filter: blur(14px);
+			border-bottom: 1px solid var(--bronze-border);
+			padding: 0.75rem 1.5rem;
+		}
+
+		.inst-topbar-inner {
+			max-width: 1240px;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 1rem;
+			flex-wrap: wrap;
+		}
+
+		.inst-brand {
+			display: flex;
+			align-items: center;
+			gap: 0.9rem;
+		}
+
+		.home-link {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 36px;
+			height: 36px;
+			border-radius: 50%;
+			border: 1px solid var(--bronze-border);
+			color: var(--bronze-light);
+			text-decoration: none;
+			transition: all 0.25s ease;
+			background: rgba(11, 27, 61, 0.45);
+		}
+
+		.home-link:hover {
+			border-color: var(--bronze-light);
+			background: rgba(200, 157, 60, 0.15);
+			transform: translateX(-2px);
+		}
+
+		.eu-mini-emblem {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			width: 32px;
+			height: 22px;
+			background: var(--eu-blue-royal);
+			border: 1px solid rgba(230, 198, 116, 0.45);
+			border-radius: 3px;
+			flex-shrink: 0;
+		}
+
+		.inst-dossier-meta {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.inst-dossier-code {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.74rem;
+			letter-spacing: 0.08em;
+			color: var(--bronze-light);
+			font-weight: 600;
+		}
+
+		.inst-dossier-sub {
+			font-size: 0.75rem;
+			color: var(--parchment-muted);
+		}
+
+		/* Language Selector (24 Official EU Languages) */
+		.lang-switcher-wrap {
+			display: flex;
+			align-items: center;
+			gap: 0.6rem;
+		}
+
+		.lang-switcher-label {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.72rem;
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			color: var(--parchment-muted);
+			display: flex;
+			align-items: center;
+			gap: 0.35rem;
+		}
+
+		.lang-select {
+			appearance: none;
+			-webkit-appearance: none;
+			background-color: rgba(11, 27, 61, 0.75);
+			color: var(--marble-white);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 6px;
+			padding: 0.45rem 2.1rem 0.45rem 0.8rem;
+			font-family: 'Plus Jakarta Sans', sans-serif;
+			font-size: 0.82rem;
+			font-weight: 600;
+			cursor: pointer;
+			transition: all 0.2s ease;
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23E6C674' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			background-position: right 0.65rem center;
+		}
+
+		.lang-select:hover, .lang-select:focus {
+			outline: none;
+			border-color: var(--bronze-light);
+			box-shadow: 0 0 0 3px rgba(200, 157, 60, 0.18);
+		}
+
+		.lang-select option {
+			background-color: #080E1A;
+			color: var(--marble-white);
+		}
+
+		/* Main Container */
+		.page-shell {
+			position: relative;
+			z-index: 1;
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 3.5rem 1.5rem 6rem;
+		}
+
+		/* HERO SECTION */
+		.hero-grid {
+			display: grid;
+			grid-template-columns: 1.2fr 0.8fr;
+			gap: 3rem;
+			align-items: center;
+			margin-bottom: 4rem;
+		}
+
+		@media (max-width: 960px) {
+			.hero-grid {
+				grid-template-columns: 1fr;
+				gap: 2.5rem;
+			}
+		}
+
+		.hero-kicker {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.6rem;
+			padding: 0.4rem 0.9rem;
+			background: rgba(0, 51, 153, 0.28);
+			border: 1px solid var(--bronze-border);
+			border-left: 3px solid var(--bronze-gold);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.75rem;
+			font-weight: 500;
+			letter-spacing: 0.08em;
+			color: var(--bronze-light);
+			margin-bottom: 1.5rem;
+			text-transform: uppercase;
+		}
+
+		.hero-title {
+			font-family: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
+			font-size: clamp(2.5rem, 4.7vw, 4.15rem);
+			font-weight: 700;
+			line-height: 1.08;
+			letter-spacing: -0.01em;
+			color: var(--marble-white);
+			margin-bottom: 1.5rem;
+		}
+
+		.hero-lead {
+			font-size: 1.15rem;
+			line-height: 1.75;
+			color: var(--parchment-muted);
+			font-weight: 400;
+			margin-bottom: 2rem;
+			max-width: 65ch;
+		}
+
+		/* Verifiable Legal Seal Card */
+		.legal-seal-card {
+			background: linear-gradient(135deg, rgba(11, 27, 61, 0.72) 0%, rgba(9, 14, 24, 0.92) 100%);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 10px;
+			padding: 1.4rem 1.6rem;
+			position: relative;
+			box-shadow: 0 20px 45px rgba(0, 0, 0, 0.55);
+		}
+
+		.legal-seal-header {
+			display: flex;
+			align-items: center;
+			gap: 0.85rem;
+			margin-bottom: 0.65rem;
+		}
+
+		.seal-medallion {
+			width: 42px;
+			height: 42px;
+			border-radius: 50%;
+			background: radial-gradient(circle, var(--eu-blue-royal) 0%, #061539 100%);
+			border: 1.5px solid var(--bronze-light);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-shrink: 0;
+			box-shadow: 0 0 18px rgba(200, 157, 60, 0.22);
+		}
+
+		.seal-label {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.72rem;
+			letter-spacing: 0.1em;
+			color: var(--bronze-light);
+			text-transform: uppercase;
+		}
+
+		.seal-title {
+			font-family: 'Cormorant Garamond', Georgia, serif;
+			font-size: 1.3rem;
+			font-weight: 600;
+			color: var(--marble-white);
+			line-height: 1.3;
+			margin-bottom: 0.45rem;
+		}
+
+		.seal-meta {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.76rem;
+			color: var(--parchment-muted);
+			margin-bottom: 1.15rem;
+		}
+
+		.seal-actions {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.75rem;
+		}
+
+		.btn-doc-primary, .btn-doc-secondary {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			padding: 0.6rem 1.05rem;
+			border-radius: 6px;
+			font-size: 0.84rem;
+			font-weight: 600;
+			text-decoration: none;
+			transition: all 0.2s ease;
+		}
+
+		.btn-doc-primary {
+			background: rgba(200, 157, 60, 0.16);
+			border: 1px solid var(--bronze-light);
+			color: var(--bronze-light);
+		}
+
+		.btn-doc-primary:hover {
+			background: var(--bronze-gold);
+			color: var(--aegean-obsidian);
+		}
+
+		.btn-doc-secondary {
+			background: rgba(0, 51, 153, 0.35);
+			border: 1px solid rgba(147, 197, 253, 0.3);
+			color: #DBEAFE;
+		}
+
+		.btn-doc-secondary:hover {
+			background: rgba(0, 51, 153, 0.6);
+			border-color: #93C5FD;
+		}
+
+		/* Right Hero Column: Museum Artifact Showcase */
+		.artifact-frame {
+			position: relative;
+			border-radius: 12px;
+			overflow: hidden;
+			border: 1px solid var(--bronze-border-strong);
+			background: #04060A;
+			box-shadow:
+				0 30px 60px rgba(0, 0, 0, 0.8),
+				0 0 40px rgba(200, 157, 60, 0.1);
+		}
+
+		.artifact-coords {
+			position: absolute;
+			top: 0.85rem;
+			left: 0.85rem;
+			z-index: 2;
+			background: rgba(5, 7, 11, 0.82);
+			border: 1px solid var(--bronze-border);
+			padding: 0.3rem 0.65rem;
+			border-radius: 4px;
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.7rem;
+			color: var(--bronze-light);
+			letter-spacing: 0.06em;
+		}
+
+		.artifact-frame img {
+			width: 100%;
+			height: auto;
+			display: block;
+			object-fit: cover;
+		}
+
+		.artifact-caption {
+			padding: 1rem 1.25rem;
+			background: linear-gradient(180deg, rgba(5, 7, 11, 0.92) 0%, #05070B 100%);
+			border-top: 1px solid var(--bronze-border);
+		}
+
+		.artifact-caption-title {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.74rem;
+			color: var(--bronze-light);
+			letter-spacing: 0.08em;
+			margin-bottom: 0.25rem;
+		}
+
+		.artifact-caption-sub {
+			font-size: 0.83rem;
+			color: var(--parchment-muted);
+			line-height: 1.45;
+		}
+
+		/* ASTRONOMICAL COUNTDOWN CONSOLE & MUTATING OCS BUTTON */
+		.horology-section {
+			position: relative;
+			margin: 0 auto 4rem;
+			padding: 3rem 2.5rem;
+			border-radius: 16px;
+			background:
+				radial-gradient(circle at 50% 0%, rgba(200, 157, 60, 0.14), transparent 60%),
+				linear-gradient(180deg, rgba(11, 24, 51, 0.9) 0%, rgba(6, 10, 19, 0.96) 100%);
+			border: 1px solid var(--bronze-border-strong);
+			box-shadow:
+				0 30px 70px rgba(0, 0, 0, 0.75),
+				inset 0 1px 0 rgba(230, 198, 116, 0.25);
+			text-align: center;
+			overflow: hidden;
+		}
+
+		.horology-astrolabe-bg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 660px;
+			height: 660px;
+			transform: translate(-50%, -50%);
+			opacity: 0.09;
+			pointer-events: none;
+		}
+
+		.clock-badge {
+			display: inline-block;
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.75rem;
+			letter-spacing: 0.14em;
+			color: var(--bronze-light);
+			text-transform: uppercase;
+			padding: 0.35rem 1rem;
+			border: 1px solid var(--bronze-border);
+			border-radius: 100px;
+			background: rgba(5, 7, 11, 0.65);
+			margin-bottom: 1rem;
+		}
+
+		.clock-title {
+			font-family: 'Cinzel', Georgia, serif;
+			font-size: clamp(1.65rem, 3vw, 2.4rem);
+			color: var(--marble-white);
+			margin-bottom: 0.85rem;
+			letter-spacing: 0.02em;
+		}
+
+		.clock-desc {
+			max-width: 760px;
+			margin: 0 auto 2.25rem;
+			color: var(--parchment-muted);
+			font-size: 1rem;
+			line-height: 1.65;
+		}
+
+		.countdown-grid {
+			display: grid;
+			grid-template-columns: repeat(4, minmax(110px, 165px));
+			justify-content: center;
+			gap: 1.15rem;
+			margin-bottom: 2.2rem;
+			position: relative;
+			z-index: 2;
+		}
+
+		@media (max-width: 640px) {
+			.countdown-grid {
+				grid-template-columns: repeat(2, 1fr);
+				gap: 0.8rem;
+			}
+			.horology-section {
+				padding: 2rem 1.25rem;
+			}
+		}
+
+		.countdown-cell {
+			background: rgba(5, 7, 11, 0.82);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 10px;
+			padding: 1.25rem 0.75rem;
+			position: relative;
+			box-shadow: inset 0 0 25px rgba(200, 157, 60, 0.06);
+		}
+
+		.countdown-cell::after {
+			content: "";
+			position: absolute;
+			top: 6px;
+			right: 6px;
+			width: 5px;
+			height: 5px;
+			border-radius: 50%;
+			background: var(--bronze-gold);
+			opacity: 0.55;
+		}
+
+		.countdown-number {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: clamp(2.1rem, 4vw, 3.1rem);
+			font-weight: 600;
+			color: var(--bronze-light);
+			line-height: 1.05;
+			letter-spacing: -0.02em;
+			margin-bottom: 0.35rem;
+		}
+
+		.countdown-unit {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.75rem;
+			text-transform: uppercase;
+			letter-spacing: 0.14em;
+			color: var(--parchment-muted);
+		}
+
+		/* Mutating Countdown -> Sign ECI Button */
+		.ocs-action-zone {
+			max-width: 720px;
+			margin: 0 auto;
+			position: relative;
+			z-index: 2;
+		}
+
+		.ocs-master-btn {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.75rem;
+			width: 100%;
+			padding: 1.15rem 1.75rem;
+			border-radius: 8px;
+			font-family: 'Plus Jakarta Sans', sans-serif;
+			font-size: 0.98rem;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+			text-decoration: none;
+			cursor: pointer;
+			transition: all 0.25s ease;
+		}
+
+		.ocs-master-btn.is-locked {
+			background: linear-gradient(135deg, rgba(0, 51, 153, 0.55) 0%, rgba(11, 27, 61, 0.85) 100%);
+			border: 1.5px solid var(--bronze-light);
+			color: var(--bronze-light);
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+		}
+
+		.ocs-master-btn.is-locked:hover {
+			background: linear-gradient(135deg, rgba(200, 157, 60, 0.24) 0%, rgba(0, 51, 153, 0.75) 100%);
+			transform: translateY(-2px);
+			box-shadow: 0 14px 35px rgba(200, 157, 60, 0.22);
+		}
+
+		.ocs-master-btn.is-unlocked {
+			background: linear-gradient(135deg, #E6C674 0%, #C89D3C 50%, #9E741B 100%);
+			border: 1.5px solid #FFF3D1;
+			color: #05070B;
+			box-shadow: 0 0 35px rgba(230, 198, 116, 0.45);
+		}
+
+		.ocs-master-btn.is-unlocked:hover {
+			transform: translateY(-2px) scale(1.01);
+			box-shadow: 0 0 45px rgba(230, 198, 116, 0.65);
+		}
+
+		.ocs-status-note {
+			margin-top: 0.85rem;
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.76rem;
+			color: var(--parchment-muted);
+		}
+
+		/* ACTION HUB: EMAIL SUBSCRIPTION + DISABLED DONATION CARD */
+		.action-hub-grid {
+			display: grid;
+			grid-template-columns: 1.3fr 0.7fr;
+			gap: 2rem;
+			margin-bottom: 5rem;
+			align-items: stretch;
+		}
+
+		@media (max-width: 900px) {
+			.action-hub-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.pioneer-form-card, .donation-card {
+			background: var(--surface-card);
+			border: 1px solid var(--bronze-border);
+			border-radius: 14px;
+			padding: 2.4rem 2.2rem;
+			position: relative;
+			box-shadow: 0 20px 50px rgba(0, 0, 0, 0.55);
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.pioneer-form-card {
+			border-top: 3px solid var(--bronze-gold);
+		}
+
+		.donation-card {
+			border-top: 3px solid var(--eu-blue-royal);
+			background: linear-gradient(180deg, rgba(11, 24, 51, 0.65) 0%, rgba(9, 13, 22, 0.9) 100%);
+		}
+
+		.card-kicker {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.73rem;
+			letter-spacing: 0.12em;
+			color: var(--bronze-light);
+			text-transform: uppercase;
+			margin-bottom: 0.55rem;
+		}
+
+		.card-heading {
+			font-family: 'Cinzel', Georgia, serif;
+			font-size: 1.65rem;
+			color: var(--marble-white);
+			margin-bottom: 0.75rem;
+			line-height: 1.25;
+		}
+
+		.card-description {
+			font-size: 0.96rem;
+			color: var(--parchment-muted);
+			margin-bottom: 1.6rem;
+			line-height: 1.65;
+		}
+
+		.pioneer-form {
+			display: flex;
+			flex-direction: column;
+			gap: 1.15rem;
+		}
+
+		.field-group {
+			display: flex;
+			flex-direction: column;
+			gap: 0.4rem;
+			text-align: left;
+		}
+
+		.field-label {
+			font-size: 0.83rem;
+			font-weight: 600;
+			color: var(--marble-white);
+			letter-spacing: 0.02em;
+		}
+
+		.field-input, .field-select {
+			width: 100%;
+			padding: 0.9rem 1rem;
+			border-radius: 8px;
+			background: rgba(5, 7, 11, 0.85);
+			border: 1px solid rgba(200, 157, 60, 0.32);
+			color: var(--marble-white);
+			font-family: inherit;
+			font-size: 0.96rem;
+			transition: all 0.2s ease;
+		}
+
+		.field-input:focus, .field-select:focus {
+			outline: none;
+			border-color: var(--bronze-light);
+			box-shadow: 0 0 0 3px rgba(200, 157, 60, 0.18);
+		}
+
+		.checkbox-row {
+			display: flex;
+			align-items: flex-start;
+			gap: 0.65rem;
+			font-size: 0.88rem;
+			color: var(--parchment-muted);
+			cursor: pointer;
+			padding-top: 0.2rem;
+		}
+
+		.checkbox-row input[type="checkbox"] {
+			margin-top: 0.25rem;
+			accent-color: var(--bronze-gold);
+			width: 16px;
+			height: 16px;
+			flex-shrink: 0;
+		}
+
+		.btn-pioneer-submit {
+			padding: 1.05rem 1.5rem;
+			border-radius: 8px;
+			border: 1px solid var(--bronze-light);
+			background: linear-gradient(135deg, #D9B45B 0%, #B5892E 100%);
+			color: #05070B;
+			font-family: inherit;
+			font-size: 0.98rem;
+			font-weight: 700;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			cursor: pointer;
+			transition: all 0.25s ease;
+			box-shadow: 0 8px 25px rgba(200, 157, 60, 0.28);
+		}
+
+		.btn-pioneer-submit:hover {
+			background: linear-gradient(135deg, #E6C674 0%, #C89D3C 100%);
+			transform: translateY(-2px);
+			box-shadow: 0 12px 30px rgba(200, 157, 60, 0.4);
+		}
+
+		.btn-pioneer-submit:disabled {
+			opacity: 0.6;
+			cursor: wait;
+			transform: none;
+		}
+
+		.privacy-micro {
+			font-size: 0.77rem;
+			color: var(--slate-muted);
+			margin-top: 0.65rem;
+			line-height: 1.45;
+		}
+
+		.form-feedback-ok {
+			display: none;
+			padding: 1.25rem;
+			border-radius: 8px;
+			background: rgba(16, 185, 129, 0.12);
+			border: 1px solid rgba(16, 185, 129, 0.4);
+			color: #A7F3D0;
+			font-weight: 500;
+			font-size: 0.95rem;
+			margin-top: 1rem;
+		}
+
+		/* Disabled Donation Button Styling */
+		.donation-box-footer {
+			margin-top: auto;
+			padding-top: 1.25rem;
+			border-top: 1px solid rgba(200, 157, 60, 0.16);
+		}
+
+		.btn-donate-disabled {
+			width: 100%;
+			padding: 1rem 1.2rem;
+			border-radius: 8px;
+			border: 1px dashed rgba(200, 157, 60, 0.4);
+			background: rgba(15, 23, 42, 0.65);
+			color: var(--parchment-muted);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.82rem;
+			font-weight: 600;
+			letter-spacing: 0.05em;
+			cursor: not-allowed;
+			opacity: 0.72;
+			margin-bottom: 0.85rem;
+		}
+
+		.donate-notice {
+			font-size: 0.8rem;
+			color: var(--slate-muted);
+			line-height: 1.5;
+		}
+
+		/* EDITORIAL NARRATIVE SECTIONS */
+		.editorial-block {
+			margin-bottom: 5rem;
+		}
+
+		.section-kicker {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.76rem;
+			letter-spacing: 0.14em;
+			color: var(--bronze-light);
+			text-transform: uppercase;
+			margin-bottom: 0.65rem;
+		}
+
+		.section-heading {
+			font-family: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
+			font-size: clamp(2rem, 3.6vw, 3rem);
+			font-weight: 700;
+			line-height: 1.15;
+			color: var(--marble-white);
+			margin-bottom: 1.25rem;
+		}
+
+		.narrative-split {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2.5rem;
+			align-items: start;
+		}
+
+		@media (max-width: 820px) {
+			.narrative-split {
+				grid-template-columns: 1fr;
+				gap: 1.25rem;
+			}
+		}
+
+		.narrative-p {
+			font-size: 1.08rem;
+			color: var(--parchment-muted);
+			line-height: 1.8;
+		}
+
+		/* Three Pillars of Decision C(2026) 7098 */
+		.pillars-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 1.5rem;
+			margin-top: 2rem;
+		}
+
+		@media (max-width: 920px) {
+			.pillars-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		.pillar-card {
+			background: var(--surface-card);
+			border: 1px solid var(--bronze-border);
+			border-radius: 12px;
+			padding: 2rem 1.75rem;
+			position: relative;
+			transition: transform 0.25s ease, border-color 0.25s ease;
+		}
+
+		.pillar-card:hover {
+			transform: translateY(-4px);
+			border-color: var(--bronze-light);
+		}
+
+		.pillar-tag {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.72rem;
+			color: var(--bronze-light);
+			letter-spacing: 0.1em;
+			margin-bottom: 0.75rem;
+			display: block;
+		}
+
+		.pillar-title {
+			font-family: 'Cinzel', Georgia, serif;
+			font-size: 1.28rem;
+			color: var(--marble-white);
+			margin-bottom: 0.85rem;
+			line-height: 1.3;
+		}
+
+		.pillar-body {
+			font-size: 0.96rem;
+			color: var(--parchment-muted);
+			line-height: 1.7;
+		}
+
+		/* Shipwreck Feature & Act III */
+		.shipwreck-feature {
+			display: grid;
+			grid-template-columns: 0.95fr 1.05fr;
+			gap: 2.75rem;
+			align-items: center;
+			margin-bottom: 4.5rem;
+		}
+
+		@media (max-width: 900px) {
+			.shipwreck-feature {
+				grid-template-columns: 1fr;
+			}
+		}
+
+		/* Seven Nations Committee Thresholds */
+		.committee-panel {
+			background: rgba(9, 14, 24, 0.86);
+			border: 1px solid var(--bronze-border);
+			border-radius: 14px;
+			padding: 2rem;
+		}
+
+		.committee-header {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.76rem;
+			letter-spacing: 0.12em;
+			color: var(--bronze-light);
+			text-transform: uppercase;
+			margin-bottom: 1.25rem;
+			text-align: center;
+		}
+
+		.nations-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+			gap: 0.9rem;
+		}
+
+		.nation-tile {
+			background: rgba(11, 27, 61, 0.35);
+			border: 1px solid rgba(200, 157, 60, 0.22);
+			border-radius: 8px;
+			padding: 0.9rem 1rem;
+			text-align: center;
+		}
+
+		.nation-code {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.75rem;
+			color: var(--bronze-light);
+			font-weight: 600;
+		}
+
+		.nation-name {
+			font-weight: 700;
+			font-size: 0.95rem;
+			color: var(--marble-white);
+			margin: 0.15rem 0;
+		}
+
+		.nation-threshold {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.74rem;
+			color: var(--parchment-muted);
+		}
+
+		/* Scroll entry animations following modern-web-guidance */
+		@media (prefers-reduced-motion: no-preference) {
+			@supports ((animation-timeline: view()) and (animation-range: entry)) {
+				@keyframes reveal-up {
+					from {
+						opacity: 0;
+						transform: translateY(24px);
+					}
+					to {
+						opacity: 1;
+						transform: translateY(0);
+					}
+				}
+				.reveal-on-scroll {
+					animation: reveal-up auto linear backwards;
+					animation-timeline: view(block);
+					animation-range: entry 5% cover 22%;
+				}
+			}
+		}
+
+		/* Footer */
+		.inst-footer {
+			margin-top: 4rem;
+			padding-top: 2.5rem;
+			border-top: 1px solid var(--bronze-border);
+			text-align: center;
+			font-size: 0.84rem;
+			color: var(--slate-muted);
+			line-height: 1.65;
+		}
+
+		.inst-footer a {
+			color: var(--bronze-light);
+			text-decoration: none;
+		}
+
+		.inst-footer a:hover {
+			text-decoration: underline;
+		}
+	</style>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FRM23DV6JJ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-FRM23DV6JJ');
+	</script>
+</head>
+<body>
+
+	<!-- Top Institutional Bar -->
+	<header class="inst-topbar">
+		<div class="inst-topbar-inner">
+			<div class="inst-brand">
+				<a href="/" class="home-link" title="Anticitera">
+					<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+				</a>
+				<span class="eu-mini-emblem" aria-hidden="true">
+					<svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<circle cx="10" cy="7" r="4.8" stroke="#E6C674" stroke-width="1.2" stroke-dasharray="1 1.5"/>
+					</svg>
+				</span>
+				<div class="inst-dossier-meta">
+					<span class="inst-dossier-code" data-i18n="nav_dossier">EXPEDIENTE OFICIAL UE · ECI(2026)000012</span>
+					<span class="inst-dossier-sub" data-i18n="nav_decision">Decisión C(2026) 7098 final</span>
+				</div>
+			</div>
+
+			<div class="lang-switcher-wrap">
+				<label for="langSwitch" class="lang-switcher-label">
+					<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E6C674" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+					<span>EU-24</span>
+				</label>
+				<select id="langSwitch" class="lang-select" aria-label="Select official EU language">
+					<option value="es">ES · Español</option>
+					<option value="bg">BG · Български</option>
+					<option value="cs">CS · Čeština</option>
+					<option value="da">DA · Dansk</option>
+					<option value="de">DE · Deutsch</option>
+					<option value="el">EL · Ελληνικά</option>
+					<option value="en">EN · English</option>
+					<option value="et">ET · Eesti</option>
+					<option value="fi">FI · Suomi</option>
+					<option value="fr">FR · Français</option>
+					<option value="ga">GA · Gaeilge</option>
+					<option value="hr">HR · Hrvatski</option>
+					<option value="hu">HU · Magyar</option>
+					<option value="it">IT · Italiano</option>
+					<option value="lt">LT · Lietuvių</option>
+					<option value="lv">LV · Latviešu</option>
+					<option value="mt">MT · Malti</option>
+					<option value="nl">NL · Nederlands</option>
+					<option value="pl">PL · Polski</option>
+					<option value="pt">PT · Português</option>
+					<option value="ro">RO · Română</option>
+					<option value="sk">SK · Slovenčina</option>
+					<option value="sl">SL · Slovenščina</option>
+					<option value="sv">SV · Svenska</option>
+				</select>
+			</div>
+		</div>
+	</header>
+
+	<main class="page-shell">
+
+		<!-- HERO & VERIFIABLE COMMISSION DECISION SEAL -->
+		<section class="hero-grid">
+			<div>
+				<div class="hero-kicker" data-i18n="hero_kicker">
+					ESTRASBURGO, 6 DE OCTUBRE DE 2026 · INICIATIVA CIUDADANA EUROPEA ADMITIDA A TRÁMITE
+				</div>
+				<h1 class="hero-title" data-i18n="hero_title">
+					El 6 de abril Europa reclama su territorio en la era de la Inteligencia Artificial.
+				</h1>
+				<p class="hero-lead" data-i18n="hero_lead">
+					Hace 2.100 años, en las aguas de Anticitera, naufragó el primer ordenador mecánico de la humanidad. Hoy la Comisión Europea ha validado jurídicamente nuestra iniciativa para crear el Distrito Digital Europeo y el dominio soberano .IA. Un millón de firmas ciudadanas separan a Europa de su soberanía cognitiva.
+				</p>
+
+				<!-- Verifiable Legal Seal -->
+				<div class="legal-seal-card">
+					<div class="legal-seal-header">
+						<div class="seal-medallion" aria-hidden="true">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="12" cy="12" r="8" stroke="#E6C674" stroke-width="1.5" stroke-dasharray="1.5 2.5"/>
+								<path d="M9 12l2 2 4-4" stroke="#E6C674" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<div>
+							<div class="seal-label" data-i18n="seal_label">ACTO JURÍDICO VERIFICADO · COMISIÓN EUROPEA</div>
+							<div class="seal-title" data-i18n="seal_title">«Creación del Distrito Digital Europeo (.IA) para la Gobernanza de la IA Soberana»</div>
+						</div>
+					</div>
+					<div class="seal-meta" data-i18n="seal_meta">
+						Registrada en Estrasburgo el 06/10/2026 · Base jurídica reconocida: Artículos 16, 114, 172 y 173 del TFUE
+					</div>
+					<div class="seal-actions">
+						<a href="/C_2026_7098_ES.pdf" target="_blank" rel="noopener" class="btn-doc-primary" data-i18n="seal_pdf_btn">
+							Leer Decisión C(2026) 7098 (PDF)
+						</a>
+						<a href="https://citizens-initiative.europa.eu/initiatives/details/2026/000012_es" target="_blank" rel="noopener" class="btn-doc-secondary" data-i18n="seal_eu_btn">
+							Registro Oficial en Bruselas ↗
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Right Column: Museum Photograph of Antikythera Mechanism (LCP Priority) -->
+			<figure class="artifact-frame">
+				<div class="artifact-coords">35°52′N · 23°18′E // ATHENS NAM X.15087</div>
+				<img
+					src="/img/anticitera_museum.png"
+					alt="Mecanismo de Anticitera original en bronce"
+					fetchpriority="high"
+					width="800"
+					height="800"
+				>
+				<figcaption class="artifact-caption">
+					<div class="artifact-caption-title" data-i18n="museum_caption_title">FRAGMENTO A · MECANISMO DE ANTICITERA (c. 150–100 a.C.)</div>
+					<div class="artifact-caption-sub" data-i18n="museum_caption_sub">30 engranajes de bronce calibrados para predecir eclipses y ciclos olímpicos. Hallado a 42 metros de profundidad frente a la isla de Anticitera (Grecia).</div>
+				</figcaption>
+			</figure>
+		</section>
+
+		<!-- ASTRONOMICAL COUNTDOWN CONSOLE THAT BECOMES THE OFFICIAL ECI SIGN BUTTON -->
+		<section class="horology-section" aria-labelledby="clockHeading">
+			<svg class="horology-astrolabe-bg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+				<circle cx="200" cy="200" r="190" stroke="#E6C674" stroke-width="1"/>
+				<circle cx="200" cy="200" r="165" stroke="#E6C674" stroke-width="1.5" stroke-dasharray="4 6"/>
+				<circle cx="200" cy="200" r="130" stroke="#E6C674" stroke-width="1"/>
+				<circle cx="200" cy="200" r="85" stroke="#E6C674" stroke-width="1" stroke-dasharray="2 4"/>
+				<line x1="200" y1="0" x2="200" y2="400" stroke="#E6C674" stroke-width="0.7"/>
+				<line x1="0" y1="200" x2="400" y2="200" stroke="#E6C674" stroke-width="0.7"/>
+			</svg>
+
+			<div class="clock-badge" data-i18n="clock_badge">
+				RELOJ ASTRONÓMICO DE APERTURA · SISTEMA CENTRAL OCS DE LA UNIÓN EUROPEA
+			</div>
+			<h2 id="clockHeading" class="clock-title" data-i18n="clock_title">
+				Apertura de la Urna Electrónica: 6 de Abril de 2027
+			</h2>
+			<p class="clock-desc" data-i18n="clock_desc">
+				La ley europea concede seis meses desde el registro en Estrasburgo para preparar el despliegue continental antes de activar el contador de doce meses. El martes 6 de abril de 2027 a las 09:00 CET, este marcador se transformará automáticamente en el botón oficial de firma con identidad europea (eIDAS / DNI).
+			</p>
+
+			<div class="countdown-grid" id="countdownGrid" role="timer" aria-live="polite">
+				<div class="countdown-cell">
+					<div class="countdown-number" id="cdDays">170</div>
+					<div class="countdown-unit" data-i18n="unit_days">Días</div>
+				</div>
+				<div class="countdown-cell">
+					<div class="countdown-number" id="cdHours">17</div>
+					<div class="countdown-unit" data-i18n="unit_hours">Horas</div>
+				</div>
+				<div class="countdown-cell">
+					<div class="countdown-number" id="cdMinutes">00</div>
+					<div class="countdown-unit" data-i18n="unit_minutes">Minutos</div>
+				</div>
+				<div class="countdown-cell">
+					<div class="countdown-number" id="cdSeconds">00</div>
+					<div class="countdown-unit" data-i18n="unit_seconds">Segundos</div>
+				</div>
+			</div>
+
+			<div class="ocs-action-zone">
+				<a
+					href="#pioneerBox"
+					id="ocsMasterButton"
+					class="ocs-master-btn is-locked"
+					data-ocs-url="https://citizens-initiative.europa.eu/initiatives/details/2026/000012_es"
+					data-i18n="ocs_btn_locked"
+				>
+					⏳ URNA OFICIAL UE CERRADA HASTA EL 6 DE ABRIL DE 2027 · RESERVA TU AVISO DÍA 1 ↓
+				</a>
+				<div class="ocs-status-note" data-i18n="ocs_status_note">
+					Estado del Sistema Central de Recogida (OCS): En fase de pre-campaña reglamentaria (Art. 8.1 Reglamento UE 2019/788).
+				</div>
+			</div>
+		</section>
+
+		<!-- SUBSCRIPTION BOX + INITIALLY DISABLED DONATION BUTTON -->
+		<section class="action-hub-grid" id="pioneerBox">
+			<!-- Left: Pioneer Email Subscription Box -->
+			<div class="pioneer-form-card">
+				<div>
+					<div class="card-kicker" data-i18n="form_kicker">LISTA DE PIONEROS · DÍA 1</div>
+					<h3 class="card-heading" data-i18n="form_title">Recibe el aviso en el minuto uno</h3>
+					<p class="card-description" data-i18n="form_desc">
+						Para lograr 1.000.000 de firmas y superar los umbrales mínimos en al menos 7 Estados miembros, necesitamos que las primeras 50.000 firmas entren en las primeras 48 horas. Deja tu correo y tu país para avisarte en el instante exacto en que se abra la urna oficial el 6 de abril.
+					</p>
+
+					<form id="pioneerForm" class="pioneer-form">
+						<div class="field-group">
+							<label for="emailInput" class="field-label" data-i18n="label_email">Correo electrónico</label>
+							<input
+								type="email"
+								id="emailInput"
+								class="field-input"
+								placeholder="tu.nombre@dominio.eu"
+								data-i18n-placeholder="placeholder_email"
+								required
+							>
+						</div>
+
+						<div class="field-group">
+							<label for="countrySelect" class="field-label" data-i18n="label_country">País de ciudadanía o residencia (Regla de los 7 Estados de la UE)</label>
+							<select id="countrySelect" class="field-select" required>
+								<option value="" data-i18n="country_placeholder">Selecciona tu país de la UE...</option>
+								<option value="ES">🇪🇸 España (ES)</option>
+								<option value="GR">🇬🇷 Ελλάδα / Greece (EL)</option>
+								<option value="FR">🇫🇷 France (FR)</option>
+								<option value="PT">🇵🇹 Portugal (PT)</option>
+								<option value="DE">🇩🇪 Deutschland (DE)</option>
+								<option value="IT">🇮🇹 Italia (IT)</option>
+								<option value="HR">🇭🇷 Hrvatska (HR)</option>
+								<option value="HU">🇭🇺 Magyarország (HU)</option>
+								<option value="CY">🇨🇾 Κύπρος / Cyprus (CY)</option>
+								<option value="NL">🇳🇱 Nederland (NL)</option>
+								<option value="PL">🇵🇱 Polska (PL)</option>
+								<option value="BE">🇧🇪 België / Belgique (BE)</option>
+								<option value="AT">🇦🇹 Österreich (AT)</option>
+								<option value="SE">🇸🇪 Sverige (SE)</option>
+								<option value="DK">🇩🇰 Danmark (DK)</option>
+								<option value="FI">🇫🇮 Suomi (FI)</option>
+								<option value="IE">🇮🇪 Éire / Ireland (IE)</option>
+								<option value="RO">🇷🇴 România (RO)</option>
+								<option value="BG">🇧🇬 България (BG)</option>
+								<option value="CZ">🇨🇿 Česko (CZ)</option>
+								<option value="SK">🇸🇰 Slovensko (SK)</option>
+								<option value="SI">🇸🇮 Slovenija (SI)</option>
+								<option value="LT">🇱🇹 Lietuva (LT)</option>
+								<option value="LV">🇱🇻 Latvija (LV)</option>
+								<option value="EE">🇪🇪 Eesti (EE)</option>
+								<option value="LU">🇱🇺 Luxembourg (LU)</option>
+								<option value="MT">🇲🇹 Malta (MT)</option>
+								<option value="OTHER" data-i18n="country_other">Otro país / Ciudadano europeo en el exterior</option>
+							</select>
+						</div>
+
+						<label class="checkbox-row">
+							<input type="checkbox" id="collabCheck">
+							<span data-i18n="label_collab">Quiero colaborar activamente como organización, universidad, medio de comunicación o divulgador</span>
+						</label>
+
+						<button type="submit" id="submitPioneerBtn" class="btn-pioneer-submit" data-i18n="form_submit">
+							Unirme a los Pioneros del 6 de Abril
+						</button>
+					</form>
+
+					<div id="pioneerSuccess" class="form-feedback-ok" data-i18n="form_success">
+						¡Tu compromiso ha quedado registrado en la Lista de Pioneros! Te avisaremos el 6 de abril de 2027 en cuanto Bruselas abra la urna electrónica.
+					</div>
+				</div>
+
+				<p class="privacy-micro" data-i18n="form_privacy">
+					Cumplimiento estricto RGPD (Art. 16 TFUE). Solo recibirás el aviso de apertura oficial de la urna electrónica europea.
+				</p>
+			</div>
+
+			<!-- Right: Initially Disabled Donations Card -->
+			<aside class="donation-card" aria-labelledby="donateHeading">
+				<div>
+					<div class="card-kicker" data-i18n="donate_kicker">TRANSPARENCIA FINANCIERA · REGLAMENTO (UE) 2019/788</div>
+					<h3 id="donateHeading" class="card-heading" data-i18n="donate_title">Mecenazgo y Fondo de Campaña</h3>
+					<p class="card-description" data-i18n="donate_desc">
+						Llevar la voz ciudadana a los 27 Estados miembros sin depender de grandes corporaciones tecnológicas exige recursos independientes de comunicación, traducción y despliegue. Conforme al Reglamento (UE) 2019/788, toda aportación será auditada y declarada públicamente ante la Comisión Europea.
+					</p>
+				</div>
+
+				<div class="donation-box-footer">
+					<button
+						type="button"
+						class="btn-donate-disabled"
+						disabled
+						aria-disabled="true"
+						data-i18n="donate_btn_disabled"
+					>
+						🔒 REALIZAR DONACIÓN (DESHABILITADO TEMPORALMENTE)
+					</button>
+					<p class="donate-notice" data-i18n="donate_notice">
+						El canal de aportaciones permanece deshabilitado mientras formalizamos el convenio con nuestra entidad sin ánimo de lucro paraguas de IA ética y la auditoría contable exigida por Bruselas.
+					</p>
+				</div>
+			</aside>
+		</section>
+
+		<!-- ACT I: HISTORICAL ORIGIN IN THE AEGEAN SEA -->
+		<section class="editorial-block reveal-on-scroll">
+			<div class="section-kicker" data-i18n="act1_kicker">I · EL ORIGEN EN EL MAR EGEO (35°52′N, 23°18′E)</div>
+			<h2 class="section-heading" data-i18n="act1_title">
+				El primer ordenador de la historia nació en Europa. Su futuro también debe hacerlo.
+			</h2>
+			<div class="narrative-split">
+				<p class="narrative-p" data-i18n="act1_p1">
+					En la primavera de 1901, unos buceadores de esponjas rescataron del fondo del mar Egeo, frente a la pequeña isla griega de Anticitera, un bloque de bronce corroído que cambió para siempre la historia de la ciencia. Aquel artefacto —diseñado en la tradición astronómica y mecánica de Arquímedes de Siracusa— contenía un sistema de engranajes capaz de calcular con precisión matemática el movimiento del cosmos dieciséis siglos antes que cualquier reloj europeo.
+				</p>
+				<p class="narrative-p" data-i18n="act1_p2">
+					Dos milenios después, vivimos una anomalía geopolítica: por un azar de la geografía postal de los años noventa, el dominio que identifica a la Inteligencia Artificial en todo el planeta (.ai) pertenece a una isla caribeña ajena a nuestra gobernanza democrática. Europa ha promulgado las leyes más garantistas del mundo, pero sigue alquilando el suelo digital donde habita el futuro.
+				</p>
+			</div>
+		</section>
+
+		<!-- ACT II: THE EUROPEAN TRIANGLE OF TRUST (3 APPROVED OBJECTIVES) -->
+		<section class="editorial-block reveal-on-scroll">
+			<div class="section-kicker" data-i18n="act2_kicker">II · EL TRIÁNGULO DE CONFIANZA EUROPEO</div>
+			<h2 class="section-heading" data-i18n="act2_title">
+				Qué cambia para ti cuando existe el dominio .IA
+			</h2>
+			<p class="narrative-p" style="max-width: 78ch;" data-i18n="act2_lead">
+				Un ciudadano no firma por una sigla técnica en una tabla de la ISO o de la ICANN; firma para saber en quién puede confiar cuando interactúa con una máquina. La Decisión C(2026) 7098 final valida los tres mandatos de nuestra iniciativa:
+			</p>
+
+			<div class="pillars-grid">
+				<article class="pillar-card">
+					<span class="pillar-tag" data-i18n="pillar1_tag">OBJETIVO 1 · ART. 172 Y 173 TFUE</span>
+					<h3 class="pillar-title" data-i18n="pillar1_title">Distritos Digitales de Alta Confianza</h3>
+					<p class="pillar-body" data-i18n="pillar1_body">
+						Creación de un marco comunitario de entornos de prueba (sandboxes regulatorios) e infraestructuras transeuropeas para que investigadores, startups y universidades desarrollen IA ética en suelo europeo sin asfixia burocrática.
+					</p>
+				</article>
+
+				<article class="pillar-card">
+					<span class="pillar-tag" data-i18n="pillar2_tag">OBJETIVO 2 · REGLAMENTO (UE) 2019/517</span>
+					<h3 class="pillar-title" data-i18n="pillar2_title">Soberanía del Espacio de Nombres .IA</h3>
+					<p class="pillar-body" data-i18n="pillar2_body">
+						Mandato para que la Comisión Europea ejerza sus competencias de representación exterior ante la ISO (Agencia 3166) y la ICANN/IANA con el fin de proteger, reservar y asignar el dominio .IA como activo estratégico europeo, siguiendo el precedente legal del dominio .eu.
+					</p>
+				</article>
+
+				<article class="pillar-card">
+					<span class="pillar-tag" data-i18n="pillar3_tag">OBJETIVO 3 · ART. 16 Y 114 TFUE</span>
+					<h3 class="pillar-title" data-i18n="pillar3_title">El Pasaporte Único: eIDAS 2.0 + AI Act + GDPR</h3>
+					<p class="pillar-body" data-i18n="pillar3_body">
+						Que la propia resolución técnica de un dominio .ia garantice por diseño tres certezas al ciudadano: identidad verificada (eIDAS 2.0), auditoría algorítmica transparente (AI Act) y protección absoluta de datos personales (GDPR).
+					</p>
+				</article>
+			</div>
+		</section>
+
+		<!-- ACT III: SHIPWRECK OIL PAINTING & THE 7 NATIONS COMMITTEE -->
+		<section class="shipwreck-feature reveal-on-scroll">
+			<figure class="artifact-frame">
+				<div class="artifact-coords">c. 87 BCE // ANTIKYTHERA STRAIT</div>
+				<img
+					src="/img/PecioAnticitera.webp"
+					alt="Galera clásica en las aguas de Anticitera"
+					loading="lazy"
+					width="768"
+					height="512"
+				>
+				<figcaption class="artifact-caption">
+					<div class="artifact-caption-sub" data-i18n="ship_caption">
+						El naufragio de Anticitera (c. 87 a.C.): donde el conocimiento antiguo aguardó dos mil años para volver a iluminar a Europa.
+					</div>
+				</figcaption>
+			</figure>
+
+			<div>
+				<div class="section-kicker" data-i18n="act3_kicker">III · LA REGLA DE LOS 7 ESTADOS Y EL MILLÓN DE FIRMAS</div>
+				<h2 class="section-heading" data-i18n="act3_title">
+					Por qué nos preparamos hasta el 6 de abril
+				</h2>
+				<p class="narrative-p" style="margin-bottom: 1.75rem;" data-i18n="act3_body">
+					Una Iniciativa Ciudadana Europea exige reunir 1.000.000 de declaraciones de apoyo válidas en 12 meses y superar el umbral mínimo legal en al menos 7 Estados miembros. Nuestro Comité Organizador —encabezado por Eloy López Sánchez (España) y Aristeidis Tsitiridis (Grecia) junto a representantes de Francia, Portugal, Hungría, Croacia y Chipre— ha fijado el 6 de abril de 2027 como el Día D para que toda Europa actúe al unísono.
+				</p>
+
+				<div class="committee-panel">
+					<div class="committee-header" data-i18n="committee_label">
+						COMITÉ ORGANIZADOR DE LAS SIETE NACIONES · UMBRALES OFICIALES UE
+					</div>
+					<div class="nations-grid">
+						<div class="nation-tile">
+							<div class="nation-code">ES · ESPAÑA</div>
+							<div class="nation-name">43.095</div>
+							<div class="nation-threshold">Meta: 250.000</div>
+						</div>
+						<div class="nation-tile">
+							<div class="nation-code">EL · ΕΛΛΑΔΑ</div>
+							<div class="nation-name">14.805</div>
+							<div class="nation-threshold">Meta: 50.000</div>
+						</div>
+						<div class="nation-tile">
+							<div class="nation-code">FR · FRANCE</div>
+							<div class="nation-name">57.105</div>
+							<div class="nation-threshold">Umbral Oficial</div>
+						</div>
+						<div class="nation-tile">
+							<div class="nation-code">PT · PORTUGAL</div>
+							<div class="nation-name">14.805</div>
+							<div class="nation-threshold">Umbral Oficial</div>
+						</div>
+						<div class="nation-tile">
+							<div class="nation-code">HU · MAGYARORSZÁG</div>
+							<div class="nation-name">14.805</div>
+							<div class="nation-threshold">Umbral Oficial</div>
+						</div>
+						<div class="nation-tile">
+							<div class="nation-code">HR · HRVATSKA</div>
+							<div class="nation-name">8.460</div>
+							<div class="nation-threshold">Umbral Oficial</div>
+						</div>
+						<div class="nation-tile">
+							<div class="nation-code">CY · ΚΥΠΡΟΣ</div>
+							<div class="nation-name">4.230</div>
+							<div class="nation-threshold">Umbral Oficial</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="inst-footer">
+			<p data-i18n="footer_legal">
+				Iniciativa Ciudadana Europea registrada oficialmente por la Comisión Europea · Expediente ECI(2026)000012 · Decisión de Ejecución C(2026) 7098 final de 6 de octubre de 2026. Representantes del Grupo de Organizadores: Eloy López Sánchez y Aristeidis Tsitiridis.
+			</p>
+			<p style="margin-top: 0.6rem;">
+				<a href="/">anticitera.deft.work</a> · <a href="/C_2026_7098_ES.pdf" target="_blank" rel="noopener">C(2026) 7098 final</a> · <a href="https://citizens-initiative.europa.eu/initiatives/details/2026/000012_es" target="_blank" rel="noopener">European Commission ECI Register</a>
+			</p>
+		</footer>
+
+	</main>
+
+	<script src="/js/6abril-i18n.js"></script>
+</body>
+</html>

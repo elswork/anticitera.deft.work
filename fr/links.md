@@ -1,5 +1,5 @@
 # Section des Liens
-Fecha: Tue Oct 06 2026 21:30:01 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 17 2026 14:29:01 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/links/
 
 ---
@@ -469,7 +469,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Image connexe](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Image connexe](https://www.latercera.com/resizer/v2/PCRUZNPU4BGSVK4ZCAVSJ56O7M.jpg?auth=9ee73923ab73168e5724437285a5eee305154465ba95c53e323fa5972d134b45&smart=true&width=100&height=56&quality=70)
+![Image connexe](https://www.latercera.com/resizer/v2/LBGMSBUBJFBUJMGVNLEGHVCS74.JPG?auth=c49cf5806427c913bb7c5e3cac59e6902b7cf738de9ac150722c5a37edc36b01&smart=true&width=100&height=56&quality=70)
 
 
 
