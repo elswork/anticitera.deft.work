@@ -1625,19 +1625,16 @@ document.addEventListener("DOMContentLoaded", () => {
         const encTitleOnly = encodeURIComponent(shareTitle);
 
         const wa = document.querySelector('[data-share="whatsapp"]');
-        if (wa) wa.href = `https://api.whatsapp.com/send?text=${encText}`;
+        if (wa) wa.href = `https://wa.me/?text=${encText}`;
 
         const xLink = document.querySelector('[data-share="x"]');
-        if (xLink) xLink.href = `https://twitter.com/intent/tweet?text=${encTitleOnly}&url=${encUrl}`;
+        if (xLink) xLink.href = `https://x.com/intent/post?text=${encText}`;
 
         const tg = document.querySelector('[data-share="telegram"]');
         if (tg) tg.href = `https://t.me/share/url?url=${encUrl}&text=${encTitleOnly}`;
 
         const li = document.querySelector('[data-share="linkedin"]');
-        if (li) li.href = `https://www.linkedin.com/sharing/share-offsite/?url=${encUrl}`;
-
-        const fb = document.querySelector('[data-share="facebook"]');
-        if (fb) fb.href = `https://www.facebook.com/sharer/sharer.php?u=${encUrl}`;
+        if (li) li.href = `https://www.linkedin.com/feed/?shareActive=true&text=${encText}`;
     }
 
     function updateCountdown() {

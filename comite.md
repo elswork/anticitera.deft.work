@@ -1,5 +1,5 @@
 # Iniciativa Ciudadana Europea .IA
-Fecha: Sat Oct 17 2026 20:14:58 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Oct 18 2026 13:30:06 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/comite/
 
 ---
@@ -65,8 +65,7 @@ Comité Fundacional .IA
 		
 			Compartir en redes sociales
 			
-				[WhatsApp](https://api.whatsapp.com/send?text=https://anticitera.deft.work/comite/)
-				[X](https://twitter.com/intent/tweet?url=https://anticitera.deft.work/comite/&text=Iniciativa%20Ciudadana%20Europea%20.IA)
-				[Telegram](https://t.me/share/url?url=https://anticitera.deft.work/comite/&text=Iniciativa%20Ciudadana%20Europea%20.IA)
-				[LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https://anticitera.deft.work/comite/)
-				[Facebook](https://www.facebook.com/sharer/sharer.php?u=https://anticitera.deft.work/comite/)
+				[WhatsApp](https://wa.me/?text=Iniciativa%20Ciudadana%20Europea%20.IA%20%E2%80%94%20Reclama%20la%20Soberan%C3%ADa%20Digital%20https%3A%2F%2Fanticitera.deft.work%2Fcomite%2F)
+				[Telegram](https://t.me/share/url?url=https%3A%2F%2Fanticitera.deft.work%2Fcomite%2F&text=Iniciativa%20Ciudadana%20Europea%20.IA%20%E2%80%94%20Reclama%20la%20Soberan%C3%ADa%20Digital)
+				[𝕏](https://x.com/intent/post?text=Iniciativa%20Ciudadana%20Europea%20.IA%20%E2%80%94%20Reclama%20la%20Soberan%C3%ADa%20Digital%20https%3A%2F%2Fanticitera.deft.work%2Fcomite%2F)
+				[LinkedIn](https://www.linkedin.com/feed/?shareActive=true&text=Iniciativa%20Ciudadana%20Europea%20.IA%20%E2%80%94%20Reclama%20la%20Soberan%C3%ADa%20Digital%20https%3A%2F%2Fanticitera.deft.work%2Fcomite%2F)
