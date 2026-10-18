@@ -1,5 +1,5 @@
 # Archiv
-Fecha: Sun Oct 18 2026 13:30:06 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Oct 18 2026 13:39:04 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/blog/
 
 ---
@@ -12,13 +12,6 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Archimedes von Syrakus](https://anticitera.deft.work/de/blog/Arquimedes_de_Siracusa.md)
-		September 2025
-	
-
-
-
-	* 
 		[Informationsblatt III .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_III_Proyecto_.IA_Isla_Anticitera.md)
 		April 2025
 	
@@ -26,8 +19,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Informationsblatt II .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_II_Proyecto_.IA_Isla_Anticitera.md)
-		June 2024
+		[Archimedes von Syrakus](https://anticitera.deft.work/de/blog/Arquimedes_de_Siracusa.md)
+		September 2025
 	
 
 
@@ -40,8 +33,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Newsletter V Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
-		December 2025
+		[Informationsblatt II .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_II_Proyecto_.IA_Isla_Anticitera.md)
+		June 2024
 	
 
 
@@ -56,6 +49,13 @@ URL: https://anticitera.deft.work/de/blog/
 	* 
 		[Anwendungsfälle - .IA Domain praktische Beispiele](https://anticitera.deft.work/de/blog/Casos_de_uso-Dominio.IA.md)
 		April 2024
+	
+
+
+
+	* 
+		[Newsletter V Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
+		December 2025
 	
 
 
@@ -96,13 +96,6 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Interview mit Anticitera GPTs, dem Förderer des .IA-Insel-Antikythera-Projekts](https://anticitera.deft.work/de/blog/Entrevista_con_Anticitera_por_Gemini.md)
-		August 2024
-	
-
-
-
-	* 
 		[Grok 3 - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
 		February 2025
 	
@@ -117,6 +110,13 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
+		[Maximierung der Möglichkeiten – Die .IA-Domain für verschiedene Sektoren](https://anticitera.deft.work/de/blog/Maximizando_Oportunidades-El_Dominio.IA.md)
+		April 2024
+	
+
+
+
+	* 
 		[Gemini - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.](https://anticitera.deft.work/de/blog/Gemini-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
 		March 2025
 	
@@ -124,8 +124,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Maximierung der Möglichkeiten – Die .IA-Domain für verschiedene Sektoren](https://anticitera.deft.work/de/blog/Maximizando_Oportunidades-El_Dominio.IA.md)
-		April 2024
+		[Interview mit Anticitera GPTs, dem Förderer des .IA-Insel-Antikythera-Projekts](https://anticitera.deft.work/de/blog/Entrevista_con_Anticitera_por_Gemini.md)
+		August 2024
 	
 
 
@@ -152,20 +152,6 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[II Arbeitssitzung mit Gemini 2.0 Flash im .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.0_Flash-Sesion_2.md)
-		December 2024
-	
-
-
-
-	* 
-		[Projekt .IA Insel Antikythera - Sitzung 1](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1.md)
-		November 2023
-	
-
-
-
-	* 
 		[Projekt .IA Insel Antikythera - Sitzung 2](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_2.md)
 		December 2023
 	
@@ -173,8 +159,22 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
+		[II Arbeitssitzung mit Gemini 2.0 Flash im .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.0_Flash-Sesion_2.md)
+		December 2024
+	
+
+
+
+	* 
 		[I Arbeitssitzung mit Gemini 3.0 Pro](https://anticitera.deft.work/de/blog/Proyecto_Anticitera-Gemini_3.0_Pro-Sesion_1.md)
 		November 2025
+	
+
+
+
+	* 
+		[Projekt .IA Insel Antikythera - Sitzung 1](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1.md)
+		November 2023
 	
 
 
