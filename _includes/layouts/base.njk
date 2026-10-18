@@ -226,7 +226,7 @@
 			<div class="container">
 				<div class="social-media">
 					<!-- Botones para redes sociales -->
-					<button onclick="window.open('https://twitter.com/elswork', '_blank', 'noopener')" class="twitter-icon">{% icon "simpleicon:x", class="icon_plus" %}</button>
+					<button onclick="window.open('https://x.com/elswork', '_blank', 'noopener')" class="twitter-icon" title="Perfil en X" aria-label="Perfil en X">{% icon "simpleicon:x", class="icon_plus" %}</button>
 					<button onclick="window.open('https://github.dev/elswork/anticitera.deft.work', '_blank', 'noopener')" class="vscode-icon">{% icon "simpleicon:visualstudiocode", class="icon_plus" %}</button>
 					<button onclick="window.open('https://github.com/elswork/anticitera.deft.work', '_blank', 'noopener')" class="github-icon">{% icon "simpleicon:github", class="icon_plus" %}</button>
 					<button onclick="window.open('https://www.reddit.com/r/IslaAnticitera', '_blank', 'noopener')" class="reddit-icon">{% icon "simpleicon:reddit", class="icon_plus" %}</button>
@@ -237,11 +237,10 @@
 				<p>Anticitera // Nación Digital 🌍 {{ 'now' | currentYear }}</p>
 				<div class="share-links" id="footer-share-links">
 					<!-- Botones para compartir -->
-					<button onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title), '_blank', 'noopener')" class="twitter-icon" title="Compartir en X" aria-label="Compartir en X">{% icon "simpleicon:x", class="icon_plus" %}</button>
-					<button onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href), '_blank', 'noopener')" class="linkedin-icon" title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn">{% icon "simpleicon:linkedin", class="icon_plus" %}</button>
-					<button onclick="window.open('https://api.whatsapp.com/send?text=' + encodeURIComponent(document.title + ' ' + window.location.href), '_blank', 'noopener')" class="whatsapp-icon" title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">{% icon "simpleicon:whatsapp", class="icon_plus" %}</button>
+					<button onclick="window.open('https://x.com/intent/post?text=' + encodeURIComponent(document.title + ' ' + window.location.href), '_blank', 'noopener')" class="twitter-icon" title="Compartir en X" aria-label="Compartir en X">{% icon "simpleicon:x", class="icon_plus" %}</button>
+					<button onclick="window.open('https://www.linkedin.com/feed/?shareActive=true&text=' + encodeURIComponent(document.title + ' ' + window.location.href), '_blank', 'noopener')" class="linkedin-icon" title="Compartir en LinkedIn" aria-label="Compartir en LinkedIn">{% icon "simpleicon:linkedin", class="icon_plus" %}</button>
+					<button onclick="window.open('https://wa.me/?text=' + encodeURIComponent(document.title + ' ' + window.location.href), '_blank', 'noopener')" class="whatsapp-icon" title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">{% icon "simpleicon:whatsapp", class="icon_plus" %}</button>
 					<button onclick="window.open('https://t.me/share/url?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title), '_blank', 'noopener')" class="telegram-icon" title="Compartir en Telegram" aria-label="Compartir en Telegram">{% icon "simpleicon:telegram", class="icon_plus" %}</button>
-					<button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href), '_blank', 'noopener')" class="facebook-icon" title="Compartir en Facebook" aria-label="Compartir en Facebook">{% icon "simpleicon:facebook", class="icon_plus" %}</button>
 				</div>
 			</div>
 		</footer>

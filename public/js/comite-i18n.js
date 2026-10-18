@@ -462,11 +462,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const encFull = encodeURIComponent(`${shareText} ${shareUrl}`);
 
         const wa = document.querySelector('[data-comite-share="whatsapp"]');
-        if (wa) wa.href = `https://api.whatsapp.com/send?text=${encFull}`;
+        if (wa) wa.href = `https://wa.me/?text=${encFull}`;
         const x = document.querySelector('[data-comite-share="x"]');
-        if (x) x.href = `https://twitter.com/intent/tweet?url=${encUrl}&text=${encText}`;
+        if (x) x.href = `https://x.com/intent/post?text=${encFull}`;
         const tg = document.querySelector('[data-comite-share="telegram"]');
         if (tg) tg.href = `https://t.me/share/url?url=${encUrl}&text=${encText}`;
+        const li = document.querySelector('[data-comite-share="linkedin"]');
+        if (li) li.href = `https://www.linkedin.com/feed/?shareActive=true&text=${encFull}`;
     }
 
     // 3. Handle Form Submit
