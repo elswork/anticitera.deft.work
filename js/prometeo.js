@@ -15,10 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Helper: Convert content paths to public URLs
     function pathToUrl(path) {
         if (!path) return '#';
+        if (path.startsWith('wiki/') || path.startsWith('raw/')) {
+            return 'https://github.com/elswork/Archimedes';
+        }
         // content/en/blog/post.md -> /en/blog/post/
+        // content/6abril.njk -> /6abril/
         // content/index.md -> /
         let url = path.replace(/^content\//, '/');
-        url = url.replace(/\.md$/, '/');
+        url = url.replace(/\.(md|njk)$/, '/');
         if (url === '/index/') return '/';
         // Ensure leading/trailing slashes
         if (!url.startsWith('/')) url = '/' + url;
@@ -103,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 sources.forEach(src => {
                     const li = document.createElement('li');
                     const url = pathToUrl(src);
-                    const name = src.split('/').pop().replace('.md', '').replace(/_/g, ' ');
+                    const name = src.split('/').pop().replace(/\.(md|njk)$/, '').replace(/_/g, ' ');
                     li.innerHTML = `<a href="${url}" target="_blank" rel="noopener">${name}</a>`;
                     ul.appendChild(li);
                 });
