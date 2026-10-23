@@ -1538,31 +1538,105 @@ const dictionary = {
 };
 
 const extraUiTranslations = {
-  es: { share_btn_top: "Compartir", share_label: "COMPARTIR EN REDES SOCIALES:", share_copy: "Copiar enlace", share_copied: "¡Enlace copiado!", threshold_label: "Umbral Oficial" },
-  bg: { share_btn_top: "Сподели", share_label: "СПОДЕЛЕТЕ В СОЦИАЛНИТЕ МРЕЖИ:", share_copy: "Копирай връзката", share_copied: "Копирано!", threshold_label: "Официален праг" },
-  cs: { share_btn_top: "Sdílet", share_label: "SDÍLET NA SOCIÁLNÍCH SÍTÍCH:", share_copy: "Kopírovat odkaz", share_copied: "Zkopírováno!", threshold_label: "Oficiální práh" },
-  da: { share_btn_top: "Del", share_label: "DEL PÅ SOCIALE MEDIER:", share_copy: "Kopiér link", share_copied: "Link kopieret!", threshold_label: "Officiel tærskel" },
-  de: { share_btn_top: "Teilen", share_label: "IN SOZIALEN MEDIEN TEILEN:", share_copy: "Link kopieren", share_copied: "Link kopiert!", threshold_label: "Offizieller Schwellenwert" },
-  el: { share_btn_top: "Κοινοποίηση", share_label: "ΚΟΙΝΟΠΟΙΗΣΗ ΣΤΑ ΚΟΙΝΩΝΙΚΑ ΔΙΚΤΥΑ:", share_copy: "Αντιγραφή συνδέσμου", share_copied: "Αντιγράφηκε!", threshold_label: "Επίσημο Όριο" },
-  en: { share_btn_top: "Share", share_label: "SHARE ON SOCIAL MEDIA:", share_copy: "Copy link", share_copied: "Link copied!", threshold_label: "Official Threshold" },
-  et: { share_btn_top: "Jaga", share_label: "JAGA SOTSIAALMEEDIAS:", share_copy: "Kopeeri link", share_copied: "Kopeeritud!", threshold_label: "Ametlik künnis" },
-  fi: { share_btn_top: "Jaa", share_label: "JAA SOSIAALISESSA MEDIASSA:", share_copy: "Kopioi linkki", share_copied: "Linkki kopioitu!", threshold_label: "Virallinen kynnys" },
-  fr: { share_btn_top: "Partager", share_label: "PARTAGER SUR LES RÉSEAUX SOCIAUX :", share_copy: "Copier le lien", share_copied: "Lien copié !", threshold_label: "Seuil officiel" },
-  ga: { share_btn_top: "Roinn", share_label: "ROINN AR NA MEÁIN SHÓISIALTA:", share_copy: "Cóipeáil nasc", share_copied: "Nasc cóipeáilte!", threshold_label: "Tairseach Oifigiúil" },
-  hr: { share_btn_top: "Podijeli", share_label: "PODIJELI NA DRUŠTVENIM MREŽAMA:", share_copy: "Kopiraj poveznicu", share_copied: "Kopirano!", threshold_label: "Službeni prag" },
-  hu: { share_btn_top: "Megosztás", share_label: "MEGOSZTÁS A KÖZÖSSÉGI MÉDIÁBAN:", share_copy: "Link másolása", share_copied: "Link másolva!", threshold_label: "Hivatalos küszöb" },
-  it: { share_btn_top: "Condividi", share_label: "CONDIVIDI SUI SOCIAL MEDIA:", share_copy: "Copia link", share_copied: "Link copiato!", threshold_label: "Soglia ufficiale" },
-  lt: { share_btn_top: "Dalintis", share_label: "DALINTIS SOCIALINIUOSE TINKLUOSE:", share_copy: "Kopijuoti nuorodą", share_copied: "Nukopijuota!", threshold_label: "Oficiali riba" },
-  lv: { share_btn_top: "Kopīgot", share_label: "KOPĪGOT SOCIĀLAJOS TĪKLOS:", share_copy: "Kopēt saiti", share_copied: "Saite nokopēta!", threshold_label: "Oficiālais slieksnis" },
-  mt: { share_btn_top: "Aqsam", share_label: "AQSAM FUQ IL-MIDJA SOĊJALI:", share_copy: "Ikkopja l-link", share_copied: "Link ikkopjat!", threshold_label: "Limitu Uffiċjali" },
-  nl: { share_btn_top: "Delen", share_label: "DEEL OP SOCIALE MEDIA:", share_copy: "Link kopiëren", share_copied: "Link gekopieerd!", threshold_label: "Officiële drempel" },
-  pl: { share_btn_top: "Udostępnij", share_label: "UDOSTĘPNIJ W MEDIACH SPOŁECZNOŚCIOWYCH:", share_copy: "Kopiuj link", share_copied: "Skopiowano!", threshold_label: "Oficjalny próg" },
-  pt: { share_btn_top: "Partilhar", share_label: "PARTILHAR NAS REDES SOCIAIS:", share_copy: "Copiar ligação", share_copied: "Ligação copiada!", threshold_label: "Limiar oficial" },
-  ro: { share_btn_top: "Distribuie", share_label: "DISTRIBUIE PE REȚELELE SOCIALE:", share_copy: "Copiază linkul", share_copied: "Link copiat!", threshold_label: "Prag oficial" },
-  sk: { share_btn_top: "Zdieľať", share_label: "ZDIEĽAŤ NA SOCIÁLNYCH SIEŤACH:", share_copy: "Kopírovať odkaz", share_copied: "Skopírované!", threshold_label: "Oficiálny prah" },
-  sl: { share_btn_top: "Deli", share_label: "DELI NA DRUŽBENIH OMREŽJIH:", share_copy: "Kopiraj povezavo", share_copied: "Kopirano!", threshold_label: "Uradni prag" },
-  sv: { share_btn_top: "Dela", share_label: "DELA PÅ SOCIALA MEDIER:", share_copy: "Kopiera länk", share_copied: "Länk kopierad!", threshold_label: "Officiell tröskel" }
+  es: {
+    share_btn_top: "Compartir",
+    share_label: "COMPARTIR EN REDES SOCIALES:",
+    share_copy: "Copiar enlace",
+    share_copied: "¡Enlace copiado!",
+    threshold_label: "Umbral Oficial",
+    nav_macro: "Visión Global",
+    nav_clock: "Reloj 6 Abril",
+    nav_sim: "Simulador .IA",
+    nav_odyssey: "La Odisea",
+    nav_committee: "7 Naciones",
+    nav_pioneers: "Pioneros",
+    btn_inspect_modal: "🏛️ Decreto Oficial",
+    seal_inspect_btn: "🔍 Inspeccionar Cláusulas",
+    btn_toggle_xray: "🔬 Alternar Rayos-X (150 a.C. ↔ 2027)",
+    scrubber_label: "Profundidad:",
+    btn_time_warp: "⚡ Simular Apertura del 6 de Abril (Día D)",
+    dns_tester_title: "🔍 SIMULADOR DE RESOLUCIÓN TÉCNICA .IA (PROTOCOLO TFUE ART. 114)",
+    dns_examples: "Ejemplos:",
+    dns_btn_audit: "Auditar Resolución .IA",
+    calc_header: "CALCULADORA DE IMPACTO: TU EFECTO MULTIPLICADOR",
+    hero_title_p1: "El 6 de abril Europa reclama su territorio en la era de la ",
+    hero_title_p2: "Inteligencia Artificial.",
+    macro_kicker: "ENVERGADURA Y ALCANCE CONTINENTAL",
+    macro_title: "El Proyecto Anticitera de un vistazo",
+    macro_desc: "Más que una campaña sobre un dominio de Internet, Anticitera es el rescate de la soberanía cognitiva europea: conectar la cuna de la computación con un modelo de gobernanza democrático, ético y auditado.",
+    macro_card1_sub: "Años de Tradición Científica",
+    macro_card1_desc: "Del primer ordenador astronómico de bronce diseñado en Siracusa y hallado en el mar Egeo, al primer Distrito Digital soberano para la era algorítmica.",
+    macro_card2_sub: "Hablantes de Lenguas Romances",
+    macro_card2_desc: "Para los pueblos de habla hispana, francesa, italiana, portuguesa y rumana, la sigla natural y legítima no es el .ai anglosajón, sino .IA (Inteligencia Artificial).",
+    macro_card3_sub: "Victoria Jurídica en Estrasburgo",
+    macro_card3_desc: "La Comisión Europea aprobó por decreto formal la admisibilidad de la iniciativa: mandato legal para exigir la reserva de .IA ante la ISO y la ICANN/IANA.",
+    macro_card4_sub: "Firmas Oficiales Vinculantes",
+    macro_card4_desc: "El umbral democrático continental que obligará al Parlamento y a la Comisión Europea a redactar la Directiva de Soberanía e Identidad Digital .IA.",
+    sim_kicker: "ANATOMÍA DEL «DOMAIN HACK»",
+    sim_title: "Por qué Europa necesita el dominio .IA",
+    sim_desc: "Comprueba en tiempo real la diferencia estructural entre alquilar el suelo digital a paraísos externos y construir un distrito tecnológico verificado en la raíz del DNS europeo.",
+    comp_bad_badge: "❌ MODELO ACTUAL · .AI (ANGUILA)",
+    comp_good_badge: "🏛️ MODELO ANTICITERA · .IA (DISTRITO EUROPEO)",
+    odyssey_kicker: "CRONOLOGÍA VISUAL E ILUSTRACIONES DE ALTA RESOLUCIÓN",
+    odyssey_title: "La Odisea de Anticitera: De 150 a.C. al Día 1",
+    odyssey_desc: "Explora las cuatro estaciones que han transformado un fragmento arqueológico rescatado del mar Egeo en la iniciativa ciudadana más ambiciosa de la Unión Europea."
+  },
+  en: {
+    share_btn_top: "Share",
+    share_label: "SHARE ON SOCIAL MEDIA:",
+    share_copy: "Copy link",
+    share_copied: "Link copied!",
+    threshold_label: "Official Threshold",
+    nav_macro: "Macro-Vision",
+    nav_clock: "April 6 Clock",
+    nav_sim: ".IA Simulator",
+    nav_odyssey: "The Odyssey",
+    nav_committee: "7 Nations",
+    nav_pioneers: "Pioneers",
+    btn_inspect_modal: "🏛️ Official Decree",
+    seal_inspect_btn: "🔍 Inspect Clauses",
+    btn_toggle_xray: "🔬 Toggle X-Ray (150 BC ↔ 2027)",
+    scrubber_label: "Depth:",
+    btn_time_warp: "⚡ Simulate April 6 Opening (Day D)",
+    dns_tester_title: "🔍 .IA TECHNICAL RESOLUTION SIMULATOR (TFEU ART. 114)",
+    dns_examples: "Examples:",
+    dns_btn_audit: "Audit .IA Resolution",
+    calc_header: "IMPACT CALCULATOR: YOUR MULTIPLIER EFFECT",
+    hero_title_p1: "On April 6 Europe claims its territory in the era of ",
+    hero_title_p2: "Artificial Intelligence.",
+    macro_kicker: "SCALE AND CONTINENTAL REACH",
+    macro_title: "The Antikythera Project at a Glance",
+    macro_desc: "More than a campaign about an Internet domain, Antikythera is the reclamation of European cognitive sovereignty: connecting the genesis of computing with a democratic, auditable governance model.",
+    macro_card1_sub: "Years of Scientific Tradition",
+    macro_card1_desc: "From the first bronze astronomical computer designed in Syracuse and discovered in the Aegean, to the first sovereign Digital District for the algorithmic age.",
+    macro_card2_sub: "Romance Language Speakers",
+    macro_card2_desc: "For Spanish, French, Italian, Portuguese, and Romanian speakers, the natural acronym is not the Anglo-Saxon .ai, but .IA (Inteligencia Artificial).",
+    macro_card3_sub: "Legal Victory in Strasbourg",
+    macro_card3_desc: "The European Commission formally approved the admissibility of our initiative: legal mandate to demand the reservation of .IA before ISO and ICANN/IANA.",
+    macro_card4_sub: "Binding Official Signatures",
+    macro_card4_desc: "The continental democratic threshold that will compel the European Parliament and Commission to draft the .IA Sovereign Identity Directive.",
+    sim_kicker: "ANATOMY OF THE DOMAIN HACK",
+    sim_title: "Why Europe Needs the .IA Domain",
+    sim_desc: "Experience in real time the structural difference between renting digital ground from overseas havens and building an auditable district at the core of European DNS.",
+    comp_bad_badge: "❌ CURRENT MODEL · .AI (ANGUILLA)",
+    comp_good_badge: "🏛️ ANTIKYTHERA MODEL · .IA (EUROPEAN DISTRICT)",
+    odyssey_kicker: "VISUAL CHRONOLOGY & HIGH-RESOLUTION ARTWORK",
+    odyssey_title: "The Antikythera Odyssey: From 150 BC to Day 1",
+    odyssey_desc: "Explore the four epochs that have transformed an Aegean shipwreck into the most ambitious citizens' initiative of the European Union."
+  }
 };
+
+// Polyfill extra keys for all other EU languages from English
+const extraKeys = Object.keys(extraUiTranslations.es);
+const euLangs = ["bg","cs","da","de","el","et","fi","fr","ga","hr","hu","it","lt","lv","mt","nl","pl","pt","ro","sk","sl","sv"];
+for (const lang of euLangs) {
+  if (!extraUiTranslations[lang]) extraUiTranslations[lang] = {};
+  for (const k of extraKeys) {
+    if (!extraUiTranslations[lang][k]) {
+      extraUiTranslations[lang][k] = extraUiTranslations.en[k] || extraUiTranslations.es[k];
+    }
+  }
+}
 
 for (const [code, extra] of Object.entries(extraUiTranslations)) {
   if (dictionary[code]) {
@@ -1579,7 +1653,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const submitBtn = document.getElementById("submitPioneerBtn");
     const topbarShareBtn = document.getElementById("topbarShareBtn");
 
-    // 1. Detect preferred EU language (URL ?lang= -> localStorage -> navigator.languages -> es)
+    // 1. Detect preferred EU language
     const urlParams = new URLSearchParams(window.location.search);
     const paramLang = (urlParams.get("lang") || "").toLowerCase().split("-")[0];
 
@@ -1603,7 +1677,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 2. Countdown to April 6, 2027 09:00:00 CEST (UTC+2)
     const targetTimestamp = new Date("2027-04-06T09:00:00+02:00").getTime();
+    const startPrecampaignTimestamp = new Date("2026-10-06T09:00:00+02:00").getTime();
+    const totalPrecampaignDuration = targetTimestamp - startPrecampaignTimestamp;
     let isUnlocked = false;
+    let isTimeWarpActive = false;
 
     function getOfficialEuPortalUrl(lang) {
         return `https://citizens-initiative.europa.eu/initiatives/details/2026/000012_${lang || "es"}`;
@@ -1614,7 +1691,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const shareUrl = lang && lang !== "es"
             ? `https://anticitera.deft.work/6abril/?lang=${lang}`
             : `https://anticitera.deft.work/6abril/`;
-        const shareTitle = `${texts.hero_title} (ECI(2026)000012 · .IA)`;
+        const shareTitle = `${texts.hero_title || "El 6 de abril Europa reclama su territorio en la era de la IA"} (ECI(2026)000012 · .IA)`;
         return { shareUrl, shareTitle };
     }
 
@@ -1638,6 +1715,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function updateCountdown() {
+        if (isTimeWarpActive) return;
+
         const now = Date.now();
         const diff = targetTimestamp - now;
 
@@ -1645,6 +1724,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const elHours = document.getElementById("cdHours");
         const elMinutes = document.getElementById("cdMinutes");
         const elSeconds = document.getElementById("cdSeconds");
+        const pointer = document.getElementById("horologyPointer");
 
         if (diff <= 0) {
             isUnlocked = true;
@@ -1675,6 +1755,25 @@ document.addEventListener("DOMContentLoaded", () => {
         if (elHours) elHours.textContent = String(hours).padStart(2, "0");
         if (elMinutes) elMinutes.textContent = String(minutes).padStart(2, "0");
         if (elSeconds) elSeconds.textContent = String(seconds).padStart(2, "0");
+
+        if (pointer) {
+            pointer.style.transform = `rotate(${seconds * 6}deg)`;
+        }
+
+        // Circular SVG Arcs (circumference = 2 * PI * 44 = ~276.46)
+        const C = 276.46;
+        const cDays = document.getElementById("circleDays");
+        const cHours = document.getElementById("circleHours");
+        const cMinutes = document.getElementById("circleMinutes");
+        const cSeconds = document.getElementById("circleSeconds");
+
+        if (cDays) {
+            const daysProgress = Math.max(0, Math.min(1, (totalPrecampaignDuration - diff) / totalPrecampaignDuration));
+            cDays.style.strokeDashoffset = String(C * (1 - daysProgress));
+        }
+        if (cHours) cHours.style.strokeDashoffset = String(C * (1 - hours / 24));
+        if (cMinutes) cMinutes.style.strokeDashoffset = String(C * (1 - minutes / 60));
+        if (cSeconds) cSeconds.style.strokeDashoffset = String(C * (1 - seconds / 60));
     }
 
     function applyLanguage(lang) {
@@ -1683,7 +1782,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.querySelectorAll("[data-i18n]").forEach(el => {
             const key = el.getAttribute("data-i18n");
-            if (key === "ocs_btn_locked" && isUnlocked) {
+            if (key === "ocs_btn_locked" && (isUnlocked || isTimeWarpActive)) {
                 if (texts.ocs_btn_unlocked) el.textContent = texts.ocs_btn_unlocked;
                 return;
             }
@@ -1699,11 +1798,10 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
-        // Update Brussels official register links to match current EU language
         document.querySelectorAll(".btn-doc-secondary").forEach(link => {
             link.href = getOfficialEuPortalUrl(lang);
         });
-        if (isUnlocked && ocsBtn) {
+        if ((isUnlocked || isTimeWarpActive) && ocsBtn) {
             ocsBtn.href = getOfficialEuPortalUrl(lang);
         }
 
@@ -1724,67 +1822,407 @@ document.addEventListener("DOMContentLoaded", () => {
     updateCountdown();
     setInterval(updateCountdown, 1000);
 
-    // Copy link & Topbar share button handlers
-    const copyBtn = document.querySelector('[data-share="copy"]');
-    if (copyBtn) {
-        copyBtn.addEventListener("click", async () => {
-            const { shareUrl } = getShareData(currentLang);
+    // ==========================================================================
+    // 3. MOTOR DEL ASTROLABIO Y CONSTELACIÓN (CANVAS DE FONDO)
+    // ==========================================================================
+    const canvas = document.getElementById("aegeanAstrolabeCanvas");
+    if (canvas) {
+        const ctx = canvas.getContext("2d");
+        let animationFrameId = null;
+        let isCanvasVisible = true;
+        let width = (canvas.width = window.innerWidth);
+        let height = (canvas.height = window.innerHeight);
+
+        window.addEventListener("resize", () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+        });
+
+        // 35 Partículas marinas bioluminiscentes y nodos estelares
+        const particles = Array.from({ length: 35 }, () => ({
+            x: Math.random() * width,
+            y: Math.random() * height,
+            radius: Math.random() * 1.8 + 0.6,
+            vy: -(Math.random() * 0.35 + 0.15),
+            vx: (Math.random() - 0.5) * 0.2,
+            alpha: Math.random() * 0.6 + 0.2
+        }));
+
+        let gearAngle = 0;
+
+        function drawAstrolabeScene() {
+            if (!isCanvasVisible) return;
+            ctx.clearRect(0, 0, width, height);
+
+            // Anillos astronómicos concéntricos suaves en la esquina superior derecha
+            const centerX = width * 0.85;
+            const centerY = height * 0.22;
+            gearAngle += 0.0015;
+
+            ctx.save();
+            ctx.translate(centerX, centerY);
+            ctx.rotate(gearAngle);
+
+            // Anillo Exterior de Bronce
+            ctx.strokeStyle = "rgba(200, 157, 60, 0.08)";
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.arc(0, 0, 180, 0, Math.PI * 2);
+            ctx.stroke();
+
+            // Marcas zodiacales en el borde
+            for (let i = 0; i < 24; i++) {
+                const a = (i * Math.PI) / 12;
+                const r1 = 175;
+                const r2 = 185;
+                ctx.beginPath();
+                ctx.moveTo(Math.cos(a) * r1, Math.sin(a) * r1);
+                ctx.lineTo(Math.cos(a) * r2, Math.sin(a) * r2);
+                ctx.stroke();
+            }
+
+            // Anillo interior contrarrotante
+            ctx.rotate(-gearAngle * 2);
+            ctx.strokeStyle = "rgba(16, 185, 129, 0.06)";
+            ctx.beginPath();
+            ctx.arc(0, 0, 120, 0, Math.PI * 2);
+            ctx.stroke();
+
+            ctx.restore();
+
+            // Dibujar y elevar partículas
+            for (const p of particles) {
+                p.y += p.vy;
+                p.x += p.vx;
+                if (p.y < 0) {
+                    p.y = height;
+                    p.x = Math.random() * width;
+                }
+                ctx.fillStyle = `rgba(242, 217, 141, ${p.alpha})`;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+                animationFrameId = requestAnimationFrame(drawAstrolabeScene);
+            }
+        }
+
+        drawAstrolabeScene();
+
+        // Control de visibilidad para ahorrar CPU y batería (modern-web-guidance)
+        document.addEventListener("visibilitychange", () => {
+            if (document.hidden) {
+                isCanvasVisible = false;
+                if (animationFrameId) cancelAnimationFrame(animationFrameId);
+            } else {
+                isCanvasVisible = true;
+                drawAstrolabeScene();
+            }
+        });
+    }
+
+    // ==========================================================================
+    // 4. LENTE INTERACTIVA DE RAYOS-X DEL MECANISMO DE ANTICITERA
+    // ==========================================================================
+    const artifactFrame = document.getElementById("artifactInteractiveFrame");
+    const xrayLayer = document.getElementById("artifactXrayLayer");
+    const btnToggleXray = document.getElementById("btnToggleXray");
+    const xrayScrubber = document.getElementById("xrayScrubber");
+    const lensStatusTag = document.getElementById("lensStatusTag");
+
+    if (artifactFrame && xrayLayer) {
+        let isXrayFull = false;
+
+        artifactFrame.addEventListener("pointermove", (e) => {
+            if (isXrayFull) return;
+            const rect = artifactFrame.getBoundingClientRect();
+            const x = Math.max(0, Math.min(100, ((e.clientX - rect.left) / rect.width) * 100));
+            const y = Math.max(0, Math.min(100, ((e.clientY - rect.top) / rect.height) * 100));
+
+            artifactFrame.style.setProperty("--spot-x", `${x.toFixed(1)}%`);
+            artifactFrame.style.setProperty("--spot-y", `${y.toFixed(1)}%`);
+            artifactFrame.style.setProperty("--inner-size", "110px");
+            artifactFrame.style.setProperty("--outer-size", "150px");
+        });
+
+        artifactFrame.addEventListener("pointerleave", () => {
+            if (isXrayFull) return;
+            artifactFrame.style.setProperty("--inner-size", "0px");
+            artifactFrame.style.setProperty("--outer-size", "0px");
+        });
+
+        if (btnToggleXray) {
+            btnToggleXray.addEventListener("click", () => {
+                isXrayFull = !isXrayFull;
+                if (isXrayFull) {
+                    xrayLayer.classList.add("is-active-full");
+                    if (lensStatusTag) lensStatusTag.textContent = "🔬 RECONSTRUCCIÓN 2027: ACTIVA";
+                    if (xrayScrubber) xrayScrubber.value = 100;
+                } else {
+                    xrayLayer.classList.remove("is-active-full");
+                    if (lensStatusTag) lensStatusTag.textContent = "🔬 ESCÁNER: ACTIVO";
+                    if (xrayScrubber) xrayScrubber.value = 0;
+                    artifactFrame.style.setProperty("--inner-size", "0px");
+                    artifactFrame.style.setProperty("--outer-size", "0px");
+                }
+            });
+        }
+
+        if (xrayScrubber) {
+            xrayScrubber.addEventListener("input", (e) => {
+                const val = Number(e.target.value);
+                if (val >= 95) {
+                    xrayLayer.classList.add("is-active-full");
+                    if (lensStatusTag) lensStatusTag.textContent = "🔬 RECONSTRUCCIÓN 2027: 100%";
+                } else {
+                    xrayLayer.classList.remove("is-active-full");
+                    const radius = (val / 100) * 350;
+                    artifactFrame.style.setProperty("--spot-x", "50%");
+                    artifactFrame.style.setProperty("--spot-y", "50%");
+                    artifactFrame.style.setProperty("--inner-size", `${radius}px`);
+                    artifactFrame.style.setProperty("--outer-size", `${radius + 40}px`);
+                    if (lensStatusTag) lensStatusTag.textContent = `🔬 PROFUNDIDAD: ${val}%`;
+                }
+            });
+        }
+    }
+
+    // ==========================================================================
+    // 5. SIMULADOR DE TIEMPO: BOTÓN DÍA D (6 DE ABRIL APERTURA)
+    // ==========================================================================
+    const btnTimeWarp = document.getElementById("btnTimeWarp");
+    if (btnTimeWarp) {
+        btnTimeWarp.addEventListener("click", () => {
+            isTimeWarpActive = !isTimeWarpActive;
+            const elDays = document.getElementById("cdDays");
+            const elHours = document.getElementById("cdHours");
+            const elMinutes = document.getElementById("cdMinutes");
+            const elSeconds = document.getElementById("cdSeconds");
             const texts = dictionary[currentLang] || dictionary.es;
-            const labelSpan = copyBtn.querySelector("span");
-            try {
-                await navigator.clipboard.writeText(shareUrl);
-                if (labelSpan) {
-                    labelSpan.textContent = texts.share_copied || "¡Enlace copiado!";
-                    setTimeout(() => {
-                        labelSpan.textContent = (dictionary[currentLang] || dictionary.es).share_copy || "Copiar enlace";
-                    }, 2200);
+
+            if (isTimeWarpActive) {
+                btnTimeWarp.classList.add("is-active-warp");
+                btnTimeWarp.textContent = "↺ Restaurar Cuenta Atrás en Tiempo Real";
+
+                if (elDays) elDays.textContent = "00";
+                if (elHours) elHours.textContent = "00";
+                if (elMinutes) elMinutes.textContent = "00";
+                if (elSeconds) elSeconds.textContent = "00";
+
+                if (ocsBtn) {
+                    ocsBtn.classList.remove("is-locked");
+                    ocsBtn.classList.add("is-unlocked");
+                    ocsBtn.href = getOfficialEuPortalUrl(currentLang);
+                    ocsBtn.target = "_blank";
+                    ocsBtn.rel = "noopener";
+                    ocsBtn.textContent = texts.ocs_btn_unlocked || "✒️ FIRMAR AHORA LA INICIATIVA OFICIAL EN EL PORTAL DE LA COMISIÓN EUROPEA (OCS)";
                 }
-            } catch (_) {
-                window.prompt(texts.share_copy || "Copiar enlace", shareUrl);
+            } else {
+                btnTimeWarp.classList.remove("is-active-warp");
+                btnTimeWarp.textContent = texts.btn_time_warp || "⚡ Simular Apertura del 6 de Abril (Día D)";
+
+                if (ocsBtn) {
+                    ocsBtn.classList.remove("is-unlocked");
+                    ocsBtn.classList.add("is-locked");
+                    ocsBtn.href = "#pioneerBox";
+                    ocsBtn.target = "";
+                    ocsBtn.rel = "";
+                    ocsBtn.textContent = texts.ocs_btn_locked || "⏳ URNA OFICIAL UE CERRADA HASTA EL 6 DE ABRIL DE 2027 · RESERVA TU AVISO DÍA 1 ↓";
+                }
+                updateCountdown();
             }
         });
     }
 
-    if (topbarShareBtn) {
-        topbarShareBtn.addEventListener("click", async () => {
-            const { shareUrl, shareTitle } = getShareData(currentLang);
-            if (navigator.share) {
-                try {
-                    await navigator.share({
-                        title: shareTitle,
-                        text: shareTitle,
-                        url: shareUrl
-                    });
-                    return;
-                } catch (_) {
-                    // User cancelled or share failed; scroll to share section
-                }
-            }
-            const shareSec = document.getElementById("shareSection");
-            if (shareSec) {
-                shareSec.scrollIntoView({ behavior: "smooth", block: "center" });
-            }
+    // ==========================================================================
+    // 6. SIMULADOR DE RESOLUCIÓN TÉCNICA .IA
+    // ==========================================================================
+    const btnRunDnsAudit = document.getElementById("btnRunDnsAudit");
+    const dnsDomainInput = document.getElementById("dnsDomainInput");
+    const dnsPipelineContainer = document.getElementById("dnsPipelineContainer");
+    const presetChips = document.querySelectorAll(".dns-preset-chip");
+
+    presetChips.forEach(chip => {
+        chip.addEventListener("click", () => {
+            if (dnsDomainInput) dnsDomainInput.value = chip.getAttribute("data-domain");
+            if (btnRunDnsAudit) btnRunDnsAudit.click();
+        });
+    });
+
+    if (btnRunDnsAudit && dnsDomainInput && dnsPipelineContainer) {
+        btnRunDnsAudit.addEventListener("click", () => {
+            const rawVal = dnsDomainInput.value.trim().toLowerCase();
+            const domain = rawVal.endsWith(".ia") ? rawVal : `${rawVal}.ia`;
+            dnsDomainInput.value = domain;
+
+            const nodes = dnsPipelineContainer.querySelectorAll(".dns-node");
+            nodes.forEach(n => {
+                n.classList.remove("active");
+                const statusSpan = n.querySelector(".dns-node-status");
+                if (statusSpan) statusSpan.textContent = "⏳ AUDITANDO...";
+            });
+
+            // Secuencia animada de 4 etapas
+            const stages = [
+                { id: "nodeIso", label: "✓ VERIFICADO (ISO 3166)" },
+                { id: "nodeEidas", label: "✓ IDENTIDAD eIDAS 2.0" },
+                { id: "nodeAiact", label: "✓ CERTIFICADO AI ACT" },
+                { id: "nodeGdpr", label: "✓ BLINDADO (RGPD)" }
+            ];
+
+            stages.forEach((st, idx) => {
+                setTimeout(() => {
+                    const el = document.getElementById(st.id);
+                    if (el) {
+                        el.classList.add("active");
+                        const status = el.querySelector(".dns-node-status");
+                        if (status) status.textContent = st.label;
+                    }
+                }, (idx + 1) * 220);
+            });
         });
     }
 
-    // Smooth focus when clicking locked OCS button
-    if (ocsBtn) {
-        ocsBtn.addEventListener("click", (e) => {
-            if (!isUnlocked) {
-                e.preventDefault();
-                const target = document.getElementById("pioneerBox");
-                if (target) {
-                    target.scrollIntoView({ behavior: "smooth" });
-                    setTimeout(() => {
-                        const emailEl = document.getElementById("emailInput");
-                        if (emailEl) emailEl.focus();
-                    }, 450);
-                }
+    // ==========================================================================
+    // 7. ODISEA DE ANTICITERA: VISOR DE LAS 4 ÉPOCAS (ILUSTRACIONES 16:9)
+    // ==========================================================================
+    const odysseyData = {
+        1: {
+            badge: "ÉPOCA I · c. 150 a.C. · 35°52′N 23°18′E",
+            title: "El Nacimiento de la Computación en Europa",
+            body: "En la primavera de 1901, unos buceadores de esponjas rescataron frente a Anticitera un bloque de bronce con 30 engranajes de precisión matemática. Diseñado en la tradición de Arquímedes de Siracusa, calculaba los movimientos del cosmos dieciséis siglos antes de que Europa inventase el reloj mecánico.",
+            img: "/img/chema-6abril/img_01_origen_egeo_anticitera.jpg",
+            chips: ["Fragmento A de Bronce", "42 Metros de Profundidad", "Computación Mecánica"]
+        },
+        2: {
+            badge: "ÉPOCA II · 2023–2026 · ESTRASBURGO",
+            title: "El «Legal Hack» en el Hemiciclo Europeo",
+            body: "De una 'idea loca' compartida con Chema Alonso en diciembre de 2023 a forjar el Comité Organizador de 7 países. El 6 de octubre de 2026, el Colegio de Comisarios en Estrasburgo adoptó la Decisión C(2026) 7098 final, declarando admisible la iniciativa ante los Tratados Europeos.",
+            img: "/img/chema-6abril/img_02_legal_hack_estrasburgo.jpg",
+            chips: ["Comité de 7 Estados", "Decisión C(2026) 7098", "Art. 114 y 172 TFUE"]
+        },
+        3: {
+            badge: "ÉPOCA III · ARQUITECTURA TÉCNICA",
+            title: "Gobernanza Compilada en el DNS y Norma ISO 42001",
+            body: "No es un simple nombre comercial: la resolución DNS de .ia garantiza el Pasaporte Único (eIDAS 2.0 + AI Act + RGPD). Startups y universidades cuentan con sandboxes regulatorios para crear IA de alta confianza sin asfixia burocrática.",
+            img: "/img/chema-6abril/img_03_gobernanza_dns_soberana.jpg",
+            chips: ["Pasaporte Único DNS", "Norma ISO/IEC 42001", "Alianza Tripartita IA"]
+        },
+        4: {
+            badge: "ÉPOCA IV · 6 DE ABRIL DE 2027",
+            title: "El Despertar Continental: 1.000.000 de Firmas",
+            body: "A las 09:00 CET del 6 de abril, el Sistema Central OCS de la Unión Europea abrirá la urna electrónica oficial. Doce meses exactos para reunir un millón de firmas ciudadanas y consolidar el primer distrito digital soberano del mundo.",
+            img: "/img/chema-6abril/img_04_cronografo_6abril_anticitera.jpg",
+            chips: ["Apertura 09:00 CET", "1.000.000 de Firmas", "27 Estados de la UE"]
+        }
+    };
+
+    const odysseyTabs = document.querySelectorAll(".odyssey-tab-btn");
+    const odysseyImg = document.getElementById("odysseyImg");
+    const odysseyBadge = document.getElementById("odysseyBadge");
+    const odysseyTitle = document.getElementById("odysseyTitle");
+    const odysseyBody = document.getElementById("odysseyBody");
+    const odysseyChips = document.getElementById("odysseyChips");
+
+    odysseyTabs.forEach(tab => {
+        tab.addEventListener("click", () => {
+            const epoch = tab.getAttribute("data-epoch");
+            odysseyTabs.forEach(t => t.classList.remove("active"));
+            tab.classList.add("active");
+
+            const data = odysseyData[epoch];
+            if (!data) return;
+
+            if (odysseyImg) {
+                odysseyImg.style.opacity = "0.2";
+                setTimeout(() => {
+                    odysseyImg.src = data.img;
+                    odysseyImg.style.opacity = "1";
+                }, 180);
             }
+            if (odysseyBadge) odysseyBadge.textContent = data.badge;
+            if (odysseyTitle) odysseyTitle.textContent = data.title;
+            if (odysseyBody) odysseyBody.textContent = data.body;
+            if (odysseyChips) {
+                odysseyChips.innerHTML = data.chips.map(c => `<span class="odyssey-meta-chip">${c}</span>`).join("");
+            }
+        });
+    });
+
+    // ==========================================================================
+    // 8. COMITÉ DE LAS 7 NACIONES Y CALCULADORA VIRAL
+    // ==========================================================================
+    const nationTiles = document.querySelectorAll(".nation-tile");
+    nationTiles.forEach(tile => {
+        tile.addEventListener("click", () => {
+            nationTiles.forEach(t => t.classList.remove("active"));
+            tile.classList.add("active");
+        });
+    });
+
+    const cascadeSlider = document.getElementById("cascadeSlider");
+    const cascadeValue = document.getElementById("cascadeValue");
+    const cascadeOutput = document.getElementById("cascadeOutput");
+
+    if (cascadeSlider && cascadeValue && cascadeOutput) {
+        cascadeSlider.addEventListener("input", (e) => {
+            const n = Number(e.target.value);
+            cascadeValue.textContent = `${n} personas`;
+            // Fórmula viral de 3 niveles: 1 + n + n^2 + n^3
+            const total = 1 + n + (n * n) + (n * n * n);
+            cascadeOutput.innerHTML = `Si te unes hoy y compartes con <strong class="cascade-highlight">${n} personas</strong> que a su vez compartan con otras ${n} en 3 niveles, tu nodo activará <strong class="cascade-highlight">${total.toLocaleString()} firmas</strong> hacia el umbral de tu país.`;
         });
     }
 
-    // 3. Handle Pioneer Subscription Form (language collected automatically without asking for country)
+    // ==========================================================================
+    // 9. GESTIÓN DEL MODAL <dialog id="decisionModal"> Y SPOTLIGHT 3D
+    // ==========================================================================
+    const modal = document.getElementById("decisionModal");
+    const btnOpenModal = document.getElementById("btnOpenModal");
+    const btnInspectLegal = document.getElementById("btnInspectLegal");
+    const btnCloseModal = document.getElementById("btnCloseModal");
+    const btnModalCloseSecondary = document.getElementById("btnModalCloseSecondary");
+
+    function openModal() {
+        if (modal && typeof modal.showModal === "function") {
+            modal.showModal();
+        }
+    }
+    function closeModal() {
+        if (modal && typeof modal.close === "function") {
+            modal.close();
+        }
+    }
+
+    if (btnOpenModal) btnOpenModal.addEventListener("click", openModal);
+    if (btnInspectLegal) btnInspectLegal.addEventListener("click", openModal);
+    if (btnCloseModal) btnCloseModal.addEventListener("click", closeModal);
+    if (btnModalCloseSecondary) btnModalCloseSecondary.addEventListener("click", closeModal);
+
+    if (modal) {
+        modal.addEventListener("click", (e) => {
+            const rect = modal.getBoundingClientRect();
+            const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height && rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+            if (!isInDialog) modal.close();
+        });
+    }
+
+    // Tarjetas con Spotlight 3D en ratón
+    document.querySelectorAll(".macro-card, .legal-seal-card, .pillar-card").forEach(card => {
+        card.addEventListener("pointermove", (e) => {
+            const rect = card.getBoundingClientRect();
+            const x = ((e.clientX - rect.left) / rect.width) * 100;
+            const y = ((e.clientY - rect.top) / rect.height) * 100;
+            card.style.setProperty("--spot-x", `${x.toFixed(1)}%`);
+            card.style.setProperty("--spot-y", `${y.toFixed(1)}%`);
+        });
+    });
+
+    // ==========================================================================
+    // 10. GESTIÓN DEL FORMULARIO DE PIONEROS (FIREBASE CLOUD FUNCTION)
+    // ==========================================================================
     if (form) {
         form.addEventListener("submit", async (e) => {
             e.preventDefault();
@@ -1827,7 +2265,64 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // 4. IntersectionObserver fallback for scroll-driven entry animations (modern-web-guidance)
+    // Copiar Enlace y Compartir
+    const copyBtn = document.querySelector('[data-share="copy"]');
+    if (copyBtn) {
+        copyBtn.addEventListener("click", async () => {
+            const { shareUrl } = getShareData(currentLang);
+            const texts = dictionary[currentLang] || dictionary.es;
+            const labelSpan = copyBtn.querySelector("span");
+            try {
+                await navigator.clipboard.writeText(shareUrl);
+                if (labelSpan) {
+                    labelSpan.textContent = texts.share_copied || "¡Enlace copiado!";
+                    setTimeout(() => {
+                        labelSpan.textContent = (dictionary[currentLang] || dictionary.es).share_copy || "Copiar enlace";
+                    }, 2200);
+                }
+            } catch (_) {
+                window.prompt(texts.share_copy || "Copiar enlace", shareUrl);
+            }
+        });
+    }
+
+    if (topbarShareBtn) {
+        topbarShareBtn.addEventListener("click", async () => {
+            const { shareUrl, shareTitle } = getShareData(currentLang);
+            if (navigator.share) {
+                try {
+                    await navigator.share({
+                        title: shareTitle,
+                        text: shareTitle,
+                        url: shareUrl
+                    });
+                    return;
+                } catch (_) {}
+            }
+            const shareSec = document.getElementById("shareSection");
+            if (shareSec) {
+                shareSec.scrollIntoView({ behavior: "smooth", block: "center" });
+            }
+        });
+    }
+
+    if (ocsBtn) {
+        ocsBtn.addEventListener("click", (e) => {
+            if (!isUnlocked && !isTimeWarpActive) {
+                e.preventDefault();
+                const target = document.getElementById("pioneerBox");
+                if (target) {
+                    target.scrollIntoView({ behavior: "smooth" });
+                    setTimeout(() => {
+                        const emailEl = document.getElementById("emailInput");
+                        if (emailEl) emailEl.focus();
+                    }, 450);
+                }
+            }
+        });
+    }
+
+    // Fallback de IntersectionObserver para navegadores sin scroll-driven animations
     if (!CSS.supports("(animation-timeline: view()) and (animation-range: entry)")) {
         const observer = new IntersectionObserver((entries) => {
             for (const entry of entries) {
