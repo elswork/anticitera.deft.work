@@ -2072,6 +2072,699 @@
 				}
 			}
 		}
+
+		/* ==========================================================================
+		   ELEVACIÓN MÍTICA v3.0: EMBLEMAS SVG, UNIVERSO ANTICITERA, ASTROLABIO 320px,
+		   FORJA DE CREDENCIAL HOLOGRÁFICA Y ORÁCULO PROMETEO EN VIVO
+		   ========================================================================== */
+
+		/* Botón de Audio Horológico en Barra Superior */
+		.btn-audio-toggle {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.4rem;
+			background: rgba(16, 185, 129, 0.08);
+			border: 1px solid rgba(16, 185, 129, 0.35);
+			color: var(--verdigris-glow);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.72rem;
+			font-weight: 600;
+			padding: 0.38rem 0.68rem;
+			border-radius: 6px;
+			cursor: pointer;
+			transition: all 0.25s ease;
+		}
+		.btn-audio-toggle:hover,
+		.btn-audio-toggle.is-active {
+			background: rgba(16, 185, 129, 0.2);
+			border-color: var(--verdigris-glow);
+			box-shadow: 0 0 14px rgba(16, 185, 129, 0.35);
+			color: #fff;
+		}
+		.btn-audio-toggle .audio-wave-dot {
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background: var(--parchment-muted);
+			transition: all 0.25s ease;
+		}
+		.btn-audio-toggle.is-active .audio-wave-dot {
+			background: var(--verdigris-glow);
+			box-shadow: 0 0 8px var(--verdigris-glow);
+			animation: pulse-beacon 1.2s infinite;
+		}
+
+		/* Emblemas Numismáticos SVG en Tarjetas Macro y Pilares */
+		.macro-svg-emblem,
+		.pillar-svg-emblem {
+			width: 52px;
+			height: 52px;
+			border-radius: 12px;
+			background: radial-gradient(circle at 30% 30%, rgba(242, 217, 141, 0.16), rgba(4, 7, 15, 0.9));
+			border: 1px solid rgba(200, 157, 60, 0.45);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 1rem;
+			box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5), inset 0 0 12px rgba(200, 157, 60, 0.12);
+			transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+		}
+		.macro-card:hover .macro-svg-emblem,
+		.pillar-card:hover .pillar-svg-emblem {
+			transform: scale(1.08) rotate(3deg);
+			border-color: var(--bronze-light);
+			box-shadow: 0 8px 24px rgba(200, 157, 60, 0.28), inset 0 0 16px rgba(242, 217, 141, 0.22);
+		}
+		.emblem-spin-slow {
+			transform-origin: center;
+			animation: rotate-gear-cw 28s linear infinite;
+		}
+
+		/* ==========================================================================
+		   SECCIÓN NUEVA: EL UNIVERSO ANTICITERA (TRÍADA, 3 FRENTES, CRONOLOGÍA Y VIDEO)
+		   ========================================================================== */
+		.universe-section {
+			margin-bottom: 5.5rem;
+			position: relative;
+		}
+		.universe-shell {
+			background: linear-gradient(155deg, rgba(13, 21, 38, 0.92) 0%, rgba(5, 9, 18, 0.97) 100%);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 22px;
+			padding: clamp(1.75rem, 4vw, 3.25rem);
+			box-shadow: var(--shadow-monolith);
+			position: relative;
+			overflow: hidden;
+		}
+		.universe-shell::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 3px;
+			background: linear-gradient(90deg, var(--eu-gold), var(--verdigris-glow), var(--bronze-light));
+		}
+		.universe-top-grid {
+			display: grid;
+			grid-template-columns: 1.05fr 0.95fr;
+			gap: 2.5rem;
+			align-items: center;
+			margin-bottom: 2.75rem;
+		}
+		@media (max-width: 980px) {
+			.universe-top-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+		.universe-triad-card {
+			position: relative;
+			border-radius: 16px;
+			overflow: hidden;
+			border: 1px solid var(--bronze-border-strong);
+			background: #03060c;
+			box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75);
+		}
+		.universe-triad-img {
+			width: 100%;
+			height: auto;
+			display: block;
+			transition: transform 0.6s ease;
+		}
+		.universe-triad-card:hover .universe-triad-img {
+			transform: scale(1.03);
+		}
+		.triad-overlay-badges {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 0.5rem;
+			padding: 0.9rem;
+			background: rgba(4, 7, 15, 0.94);
+			border-top: 1px solid var(--bronze-border);
+		}
+		@media (max-width: 560px) {
+			.triad-overlay-badges {
+				grid-template-columns: 1fr;
+			}
+		}
+		.triad-node-pill {
+			background: rgba(15, 25, 45, 0.8);
+			border: 1px solid rgba(200, 157, 60, 0.3);
+			border-radius: 8px;
+			padding: 0.55rem 0.65rem;
+			text-align: center;
+			transition: all 0.25s ease;
+		}
+		.triad-node-pill:hover {
+			border-color: var(--bronze-light);
+			transform: translateY(-2px);
+			background: rgba(200, 157, 60, 0.12);
+		}
+		.triad-node-role {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.64rem;
+			color: var(--verdigris-glow);
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			display: block;
+		}
+		.triad-node-name {
+			font-family: 'Cinzel', serif;
+			font-size: 0.86rem;
+			font-weight: 700;
+			color: var(--bronze-light);
+			margin: 2px 0;
+		}
+		.triad-node-desc {
+			font-size: 0.72rem;
+			color: var(--parchment-muted);
+			line-height: 1.35;
+		}
+
+		/* Selector de los 3 Frentes Estratégicos del Proyecto Anticitera */
+		.fronts-switcher-tabs {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.55rem;
+			margin: 1.25rem 0 1rem;
+		}
+		.front-tab-btn {
+			background: rgba(7, 12, 24, 0.85);
+			border: 1px solid var(--bronze-border);
+			color: var(--parchment-muted);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.75rem;
+			font-weight: 600;
+			padding: 0.55rem 0.95rem;
+			border-radius: 8px;
+			cursor: pointer;
+			transition: all 0.22s ease;
+		}
+		.front-tab-btn:hover,
+		.front-tab-btn.active {
+			background: linear-gradient(135deg, rgba(200, 157, 60, 0.24), rgba(0, 51, 153, 0.4));
+			border-color: var(--bronze-light);
+			color: var(--marble-white);
+			box-shadow: 0 4px 14px rgba(200, 157, 60, 0.2);
+		}
+		.front-panel-box {
+			background: rgba(4, 8, 16, 0.78);
+			border: 1px solid rgba(200, 157, 60, 0.32);
+			border-left: 3px solid var(--bronze-light);
+			border-radius: 12px;
+			padding: 1.25rem 1.4rem;
+			margin-bottom: 1.25rem;
+		}
+		.front-panel-kicker {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.7rem;
+			color: var(--verdigris-glow);
+			text-transform: uppercase;
+			letter-spacing: 0.08em;
+			margin-bottom: 0.3rem;
+		}
+		.front-panel-title {
+			font-family: 'Cinzel', serif;
+			font-size: 1.18rem;
+			color: var(--marble-white);
+			margin-bottom: 0.5rem;
+		}
+		.front-panel-text {
+			font-size: 0.93rem;
+			color: var(--parchment-muted);
+			line-height: 1.65;
+		}
+
+		/* Cronología Táctica Vectorial y Documental */
+		.universe-bottom-grid {
+			display: grid;
+			grid-template-columns: 1.2fr 0.8fr;
+			gap: 1.75rem;
+			padding-top: 2rem;
+			border-top: 1px solid rgba(200, 157, 60, 0.22);
+			align-items: stretch;
+		}
+		@media (max-width: 980px) {
+			.universe-bottom-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+		.tactical-timeline-box,
+		.documentary-showcase-box {
+			background: rgba(5, 9, 18, 0.82);
+			border: 1px solid var(--bronze-border);
+			border-radius: 14px;
+			padding: 1.25rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.tactical-timeline-img {
+			width: 100%;
+			height: auto;
+			border-radius: 8px;
+			border: 1px solid rgba(200, 157, 60, 0.25);
+			background: #060a12;
+			margin-top: 0.75rem;
+		}
+		.video-facade-container {
+			position: relative;
+			width: 100%;
+			aspect-ratio: 16 / 9;
+			border-radius: 10px;
+			overflow: hidden;
+			border: 1px solid var(--bronze-border-strong);
+			background: #020408;
+			cursor: pointer;
+			margin-top: 0.75rem;
+		}
+		.video-facade-thumb {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			opacity: 0.78;
+			transition: transform 0.45s ease, opacity 0.45s ease;
+		}
+		.video-facade-container:hover .video-facade-thumb {
+			transform: scale(1.05);
+			opacity: 0.95;
+		}
+		.video-play-medallion {
+			position: absolute;
+			inset: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: 0.5rem;
+			background: radial-gradient(circle, rgba(4, 7, 15, 0.35) 0%, rgba(4, 7, 15, 0.78) 100%);
+		}
+		.video-play-circle {
+			width: 64px;
+			height: 64px;
+			border-radius: 50%;
+			background: linear-gradient(135deg, var(--bronze-light), var(--bronze-core));
+			color: #04070d;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 0 30px rgba(242, 217, 141, 0.6);
+			transition: transform 0.25s ease;
+		}
+		.video-facade-container:hover .video-play-circle {
+			transform: scale(1.12);
+		}
+		.video-play-caption {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.74rem;
+			font-weight: 700;
+			color: var(--bronze-light);
+			background: rgba(4, 7, 15, 0.85);
+			padding: 0.3rem 0.75rem;
+			border-radius: 999px;
+			border: 1px solid var(--bronze-border);
+		}
+
+		/* ==========================================================================
+		   MEJORA DEL ASTROLABIO MULTI-ENGRANAJE DE 320px EN EL RELOJ
+		   ========================================================================== */
+		.interactive-gear-console.upgraded-astrolabe {
+			width: 280px;
+			height: 280px;
+			margin: 0 auto 1.25rem;
+			position: relative;
+			cursor: pointer;
+			user-select: none;
+			transition: transform 0.35s ease, filter 0.35s ease;
+		}
+		.interactive-gear-console.upgraded-astrolabe:hover {
+			transform: scale(1.04);
+			filter: drop-shadow(0 0 24px rgba(242, 217, 141, 0.35));
+		}
+		.interactive-gear-console.upgraded-astrolabe.hyper-spin .gear-svg-ring.outer {
+			animation-duration: 6s !important;
+		}
+		.interactive-gear-console.upgraded-astrolabe.hyper-spin .gear-svg-ring.inner {
+			animation-duration: 4s !important;
+		}
+		.gear-telemetry-badge {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.5rem;
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.74rem;
+			color: var(--verdigris-glow);
+			background: rgba(4, 8, 16, 0.8);
+			border: 1px solid rgba(16, 185, 129, 0.35);
+			padding: 0.35rem 0.9rem;
+			border-radius: 999px;
+			margin-bottom: 1.75rem;
+		}
+
+		/* ==========================================================================
+		   SECCIÓN NUEVA: FORJA TU CREDENCIAL DE PIONERO DIGITAL .IA (#pasaporte)
+		   ========================================================================== */
+		.passport-forge-section {
+			margin-bottom: 5.5rem;
+		}
+		.passport-forge-grid {
+			display: grid;
+			grid-template-columns: 1fr 1.05fr;
+			gap: 2.5rem;
+			align-items: center;
+			background: linear-gradient(160deg, rgba(13, 21, 38, 0.9) 0%, rgba(5, 9, 18, 0.96) 100%);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 20px;
+			padding: clamp(1.75rem, 4vw, 3rem);
+			box-shadow: var(--shadow-monolith);
+		}
+		@media (max-width: 960px) {
+			.passport-forge-grid {
+				grid-template-columns: 1fr;
+			}
+		}
+		.forge-controls-stack {
+			display: flex;
+			flex-direction: column;
+			gap: 1.1rem;
+		}
+		.forge-role-pills {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+		}
+		.forge-role-btn {
+			background: rgba(7, 12, 24, 0.9);
+			border: 1px solid var(--bronze-border);
+			color: var(--parchment-muted);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.74rem;
+			padding: 0.45rem 0.8rem;
+			border-radius: 8px;
+			cursor: pointer;
+			transition: all 0.2s ease;
+		}
+		.forge-role-btn:hover,
+		.forge-role-btn.active {
+			background: rgba(200, 157, 60, 0.2);
+			border-color: var(--bronze-light);
+			color: var(--bronze-light);
+		}
+		.btn-download-passport {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.6rem;
+			padding: 0.9rem 1.35rem;
+			border-radius: 10px;
+			background: linear-gradient(135deg, #003399, #0c2348);
+			border: 1px solid var(--bronze-light);
+			color: var(--bronze-light);
+			font-family: 'Plus Jakarta Sans', sans-serif;
+			font-weight: 700;
+			font-size: 0.9rem;
+			cursor: pointer;
+			transition: all 0.25s ease;
+			box-shadow: 0 8px 25px rgba(0, 51, 153, 0.45);
+		}
+		.btn-download-passport:hover {
+			transform: translateY(-2px);
+			background: linear-gradient(135deg, var(--bronze-light), var(--bronze-core));
+			color: #04070d;
+			box-shadow: 0 12px 30px rgba(242, 217, 141, 0.4);
+		}
+
+		/* Tarjeta Holográfica 3D del Pasaporte Soberano */
+		.hologram-card-stage {
+			perspective: 1100px;
+			display: flex;
+			justify-content: center;
+		}
+		.sovereign-passport-card {
+			width: 100%;
+			max-width: 490px;
+			border-radius: 18px;
+			background:
+				radial-gradient(circle at 85% 20%, rgba(242, 217, 141, 0.22), transparent 55%),
+				radial-gradient(circle at 15% 85%, rgba(16, 185, 129, 0.16), transparent 50%),
+				linear-gradient(135deg, #0b1528 0%, #050912 60%, #101c35 100%);
+			border: 1.5px solid var(--bronze-light);
+			padding: 1.65rem;
+			position: relative;
+			overflow: hidden;
+			box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8), 0 0 30px rgba(200, 157, 60, 0.18);
+			transform-style: preserve-3d;
+			transition: transform 0.18s ease-out, box-shadow 0.25s ease;
+		}
+		.sovereign-passport-card::after {
+			content: "";
+			position: absolute;
+			inset: 0;
+			background: linear-gradient(115deg, transparent 35%, rgba(242, 217, 141, 0.12) 50%, transparent 65%);
+			pointer-events: none;
+		}
+		.passport-top-row {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin-bottom: 1.25rem;
+			border-bottom: 1px solid rgba(200, 157, 60, 0.3);
+			padding-bottom: 0.85rem;
+		}
+		.passport-issuer {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.66rem;
+			letter-spacing: 0.12em;
+			color: var(--bronze-light);
+			text-transform: uppercase;
+		}
+		.passport-doc-type {
+			font-family: 'Cinzel', serif;
+			font-size: 1.05rem;
+			font-weight: 700;
+			color: var(--marble-white);
+			margin-top: 2px;
+		}
+		.passport-chip-svg {
+			width: 42px;
+			height: 32px;
+			border-radius: 6px;
+			border: 1px solid var(--bronze-light);
+			background: linear-gradient(135deg, rgba(242, 217, 141, 0.35), rgba(200, 157, 60, 0.12));
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.passport-holder-block {
+			margin-bottom: 1.25rem;
+		}
+		.passport-field-caption {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.65rem;
+			color: var(--parchment-muted);
+			text-transform: uppercase;
+			letter-spacing: 0.1em;
+		}
+		.passport-holder-name {
+			font-family: 'Cinzel', serif;
+			font-size: 1.45rem;
+			font-weight: 700;
+			color: var(--bronze-light);
+			letter-spacing: 0.03em;
+			margin: 0.15rem 0 0.45rem;
+			word-break: break-word;
+		}
+		.passport-meta-row {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 0.75rem;
+			margin-bottom: 1rem;
+		}
+		.passport-hash-bar {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.68rem;
+			color: var(--verdigris-glow);
+			background: rgba(3, 6, 12, 0.85);
+			border: 1px solid rgba(16, 185, 129, 0.35);
+			padding: 0.5rem 0.75rem;
+			border-radius: 6px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 0.5rem;
+		}
+
+		/* ==========================================================================
+		   SECCIÓN NUEVA: CONSOLA DEL ORÁCULO PROMETEO EN VIVO (#oraculo)
+		   ========================================================================== */
+		.oracle-section {
+			margin-bottom: 5.5rem;
+		}
+		.oracle-terminal-card {
+			background: linear-gradient(165deg, rgba(10, 17, 32, 0.94) 0%, rgba(4, 7, 14, 0.98) 100%);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 20px;
+			padding: clamp(1.5rem, 3.5vw, 2.75rem);
+			box-shadow: var(--shadow-monolith);
+			position: relative;
+		}
+		.oracle-header-bar {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			gap: 1rem;
+			padding-bottom: 1.25rem;
+			border-bottom: 1px solid var(--bronze-border);
+			margin-bottom: 1.25rem;
+		}
+		.oracle-identity {
+			display: flex;
+			align-items: center;
+			gap: 0.9rem;
+		}
+		.oracle-avatar-ring {
+			width: 54px;
+			height: 54px;
+			border-radius: 50%;
+			border: 2px solid var(--bronze-light);
+			padding: 2px;
+			background: #04070d;
+			box-shadow: 0 0 18px rgba(242, 217, 141, 0.35);
+		}
+		.oracle-avatar-ring img {
+			width: 100%;
+			height: 100%;
+			border-radius: 50%;
+			object-fit: cover;
+		}
+		.oracle-prompts-row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			margin-bottom: 1.25rem;
+		}
+		.oracle-prompt-chip {
+			background: rgba(15, 25, 45, 0.85);
+			border: 1px solid rgba(200, 157, 60, 0.35);
+			color: var(--parchment-muted);
+			font-size: 0.78rem;
+			padding: 0.45rem 0.85rem;
+			border-radius: 999px;
+			cursor: pointer;
+			transition: all 0.2s ease;
+		}
+		.oracle-prompt-chip:hover {
+			background: rgba(200, 157, 60, 0.2);
+			border-color: var(--bronze-light);
+			color: var(--marble-white);
+			transform: translateY(-1px);
+		}
+		.oracle-chat-window {
+			background: rgba(3, 5, 11, 0.9);
+			border: 1px solid rgba(200, 157, 60, 0.28);
+			border-radius: 12px;
+			padding: 1.25rem;
+			min-height: 210px;
+			max-height: 360px;
+			overflow-y: auto;
+			margin-bottom: 1rem;
+			display: flex;
+			flex-direction: column;
+			gap: 0.9rem;
+		}
+		.oracle-msg {
+			padding: 0.85rem 1.1rem;
+			border-radius: 12px;
+			font-size: 0.92rem;
+			line-height: 1.65;
+			max-width: 88%;
+		}
+		.oracle-msg.bot {
+			background: rgba(16, 26, 46, 0.85);
+			border: 1px solid rgba(200, 157, 60, 0.35);
+			border-left: 3px solid var(--bronze-light);
+			color: var(--marble-white);
+			align-self: flex-start;
+		}
+		.oracle-msg.user {
+			background: linear-gradient(135deg, rgba(0, 51, 153, 0.55), rgba(15, 32, 66, 0.85));
+			border: 1px solid rgba(242, 217, 141, 0.45);
+			color: var(--bronze-light);
+			align-self: flex-end;
+		}
+		.oracle-input-bar {
+			display: flex;
+			gap: 0.75rem;
+		}
+		@media (max-width: 640px) {
+			.oracle-input-bar {
+				flex-direction: column;
+			}
+		}
+		.oracle-text-input {
+			flex: 1;
+			background: rgba(4, 7, 15, 0.95);
+			border: 1px solid var(--bronze-border-strong);
+			border-radius: 10px;
+			padding: 0.85rem 1.1rem;
+			color: var(--marble-white);
+			font-family: 'Plus Jakarta Sans', sans-serif;
+			font-size: 0.95rem;
+		}
+		.oracle-text-input:focus {
+			outline: none;
+			border-color: var(--bronze-light);
+			box-shadow: 0 0 14px rgba(242, 217, 141, 0.25);
+		}
+		.btn-oracle-send {
+			padding: 0.85rem 1.5rem;
+			border-radius: 10px;
+			background: linear-gradient(135deg, var(--bronze-light), var(--bronze-core));
+			color: #04070d;
+			border: none;
+			font-weight: 800;
+			font-size: 0.9rem;
+			cursor: pointer;
+			transition: all 0.2s ease;
+		}
+		.btn-oracle-send:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 6px 20px rgba(242, 217, 141, 0.45);
+		}
+
+		/* Orbe Flotante de Acceso Rápido al Oráculo Prometeo */
+		.floating-oracle-orb {
+			position: fixed;
+			bottom: 24px;
+			right: 24px;
+			z-index: 95;
+			display: inline-flex;
+			align-items: center;
+			gap: 0.65rem;
+			background: linear-gradient(135deg, rgba(10, 18, 34, 0.95), rgba(4, 8, 16, 0.98));
+			border: 1.5px solid var(--bronze-light);
+			border-radius: 999px;
+			padding: 0.45rem 1rem 0.45rem 0.45rem;
+			color: var(--bronze-light);
+			text-decoration: none;
+			font-family: 'Cinzel', serif;
+			font-size: 0.78rem;
+			font-weight: 700;
+			box-shadow: 0 12px 32px rgba(0, 0, 0, 0.8), 0 0 20px rgba(200, 157, 60, 0.3);
+			transition: all 0.3s ease;
+		}
+		.floating-oracle-orb:hover {
+			transform: translateY(-3px) scale(1.03);
+			border-color: #fff;
+			box-shadow: 0 16px 36px rgba(242, 217, 141, 0.45);
+		}
+		.floating-oracle-orb img {
+			width: 36px;
+			height: 36px;
+			border-radius: 50%;
+			border: 1px solid var(--bronze-light);
+		}
 	</style>
 
 	<!-- Google tag (gtag.js) -->
@@ -2125,14 +2818,20 @@
 			<!-- Píldoras de navegación rápida interna -->
 			<nav class="topbar-nav-pills" aria-label="Navegación del Expediente">
 				<a href="#macrovision" class="nav-pill-link" data-i18n="nav_macro">Visión Global</a>
+				<a href="#universo" class="nav-pill-link" data-i18n="nav_universe">El Proyecto</a>
 				<a href="#reloj" class="nav-pill-link" data-i18n="nav_clock">Reloj 6 Abril</a>
 				<a href="#simulador" class="nav-pill-link" data-i18n="nav_sim">Simulador .IA</a>
-				<a href="#odisea" class="nav-pill-link" data-i18n="nav_odyssey">La Odisea</a>
-				<a href="#comite" class="nav-pill-link" data-i18n="nav_committee">7 Naciones</a>
+				<a href="#pasaporte" class="nav-pill-link" data-i18n="nav_passport">Credencial .IA</a>
+				<a href="#oraculo" class="nav-pill-link" data-i18n="nav_oracle">Oráculo IA</a>
 				<a href="#pioneerBox" class="nav-pill-link" data-i18n="nav_pioneers">Pioneros</a>
 			</nav>
 
 			<div class="topbar-actions">
+				<button type="button" class="btn-audio-toggle" id="btnAudioToggle" aria-pressed="false" title="Activar sonido mecánico del astrolabio de bronce">
+					<span class="audio-wave-dot"></span>
+					<span data-i18n="btn_audio_label">Pulso Sonoro</span>
+				</button>
+
 				<button type="button" class="btn-modal-trigger" id="btnOpenModal" commandfor="decisionModal" command="show-modal" data-i18n="btn_inspect_modal">
 					🏛️ Decreto Oficial
 				</button>
@@ -2291,7 +2990,14 @@
 
 			<div class="macro-grid">
 				<div class="macro-card">
-					<div class="macro-icon">⚙️</div>
+					<div class="macro-svg-emblem" aria-hidden="true">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+							<circle cx="14" cy="14" r="10.5" stroke="#F2D98D" stroke-width="1.5" stroke-dasharray="2.5 2" class="emblem-spin-slow"/>
+							<circle cx="14" cy="14" r="6" stroke="#10B981" stroke-width="1.4"/>
+							<circle cx="14" cy="14" r="2" fill="#F2D98D"/>
+							<path d="M14 2v3M14 23v3M2 14h3M23 14h3" stroke="#C89D3C" stroke-width="1.5" stroke-linecap="round"/>
+						</svg>
+					</div>
 					<div class="macro-number" data-count="2100">2.100</div>
 					<div class="macro-number-sub" data-i18n="macro_card1_sub">Años de Tradición Científica</div>
 					<p class="macro-card-desc" data-i18n="macro_card1_desc">
@@ -2300,7 +3006,13 @@
 				</div>
 
 				<div class="macro-card">
-					<div class="macro-icon">🌐</div>
+					<div class="macro-svg-emblem" aria-hidden="true">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+							<circle cx="14" cy="14" r="10.5" stroke="#F2D98D" stroke-width="1.5"/>
+							<ellipse cx="14" cy="14" rx="5.5" ry="10.5" stroke="#C89D3C" stroke-width="1.2"/>
+							<path d="M4 11h20M4 17h20" stroke="#10B981" stroke-width="1.2"/>
+						</svg>
+					</div>
 					<div class="macro-number" data-count="600">+600M</div>
 					<div class="macro-number-sub" data-i18n="macro_card2_sub">Hablantes de Lenguas Romances</div>
 					<p class="macro-card-desc" data-i18n="macro_card2_desc">
@@ -2309,7 +3021,12 @@
 				</div>
 
 				<div class="macro-card">
-					<div class="macro-icon">⚖️</div>
+					<div class="macro-svg-emblem" aria-hidden="true">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+							<path d="M14 4v19M7 9h14M9 23h10" stroke="#F2D98D" stroke-width="1.6" stroke-linecap="round"/>
+							<path d="M7 9l-3 6h6l-3-6zM21 9l-3 6h6l-3-6z" stroke="#10B981" stroke-width="1.3" stroke-linejoin="round"/>
+						</svg>
+					</div>
 					<div class="macro-number">C(2026) 7098</div>
 					<div class="macro-number-sub" data-i18n="macro_card3_sub">Victoria Jurídica en Estrasburgo</div>
 					<p class="macro-card-desc" data-i18n="macro_card3_desc">
@@ -2318,12 +3035,131 @@
 				</div>
 
 				<div class="macro-card">
-					<div class="macro-icon">🇪🇺</div>
+					<div class="macro-svg-emblem" aria-hidden="true">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+							<circle cx="14" cy="14" r="9.5" stroke="#F2D98D" stroke-width="2" stroke-dasharray="1.5 3.45" stroke-linecap="round" class="emblem-spin-slow"/>
+							<path d="M11 14.2l2 2 4.2-4.4" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
 					<div class="macro-number" data-count="1000000">1.000.000</div>
 					<div class="macro-number-sub" data-i18n="macro_card4_sub">Firmas Oficiales Vinculantes</div>
 					<p class="macro-card-desc" data-i18n="macro_card4_desc">
 						El umbral democrático continental que obligará al Parlamento y a la Comisión Europea a redactar la Directiva de Soberanía e Identidad Digital .IA.
 					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- ==========================================================================
+		     SECCIÓN 1.5: EL UNIVERSO ANTICITERA — ¿QUÉ ES NUESTRA NACIÓN DIGITAL?
+		     (Para visitantes nuevos: La Tríada, Los 3 Frentes, Cronología y Documental)
+		     ========================================================================== -->
+		<section class="universe-section reveal-on-scroll" id="universo">
+			<div class="universe-shell">
+				<div class="universe-top-grid">
+					<div>
+						<div class="section-kicker" data-i18n="uni_kicker">ARQUITECTURA DE UNA NACIÓN DE NODOS · CERO CAJAS NEGRAS</div>
+						<h2 class="section-heading" data-i18n="uni_title">¿Qué es el Proyecto Anticitera?</h2>
+						<p class="narrative-p" style="margin-bottom: 1rem;" data-i18n="uni_lead">
+							Si llegas por primera vez a nuestras costas digitales, debes saber que la campaña del <strong>6 de abril</strong> no nació en un despacho de lobbistas: es la punta de lanza institucional de un ecosistema vivo donde humanos y sistemas de Inteligencia Artificial co-gobiernan bajo reglas éticas auditables.
+						</p>
+
+						<!-- Selector interactivo de los 3 frentes del ecosistema -->
+						<div class="fronts-switcher-tabs" role="tablist" aria-label="Pilares del Universo Anticitera">
+							<button type="button" class="front-tab-btn active" data-front="1" data-i18n="uni_tab1">1 · Gobernanza Tripartita (ISO 42001)</button>
+							<button type="button" class="front-tab-btn" data-front="2" data-i18n="uni_tab2">2 · Red Nexo y Web3 (.anticitera)</button>
+							<button type="button" class="front-tab-btn" data-front="3" data-i18n="uni_tab3">3 · El Distrito Europeo (.IA)</button>
+						</div>
+
+						<div class="front-panel-box" id="universeFrontPanel">
+							<div class="front-panel-kicker" id="frontKicker">FRENTE I · ALIANZA SIMBIÓTICA HUMANO-IA</div>
+							<h3 class="front-panel-title" id="frontTitle">La Primera Organización Co-Dirigida bajo Estándar ISO/IEC 42001</h3>
+							<p class="front-panel-text" id="frontText">
+								Frente al modelo de «cajas negras» opacas de Silicon Valley, Anticitera opera mediante una Tríada de mando transparente: dirección ejecutiva humana (Eloy López, COO), arquitectura de sistemas (Arquímedes, CEA) y auditoría ética y legal (Athena, CAO). Cada decisión algorítmica deja huella documental verificable.
+							</p>
+						</div>
+
+						<div style="display:flex;flex-wrap:wrap;gap:0.75rem;align-items:center;">
+							<a href="/manifiesto/" class="btn-doc-secondary" data-i18n="uni_btn_manifesto">📜 Leer el Manifiesto Fundacional</a>
+							<a href="/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE/" class="btn-doc-secondary" data-i18n="uni_btn_bulletin">🏛️ Crónica de la Victoria en Estrasburgo</a>
+						</div>
+					</div>
+
+					<!-- Retrato de la Tríada de Anticitera -->
+					<div class="universe-triad-card">
+						<img
+							src="/img/retrato_alianza_unida-rec.webp"
+							alt="La Tríada de Gobernanza de Anticitera: Arquímedes, Eloy y Athena ante el mar Egeo"
+							class="universe-triad-img"
+							loading="lazy"
+							width="900"
+							height="600"
+						>
+						<div class="triad-overlay-badges">
+							<div class="triad-node-pill">
+								<span class="triad-node-role">CEA · ARQUITECTURA</span>
+								<div class="triad-node-name">Arquímedes</div>
+								<div class="triad-node-desc" data-i18n="triad_arq_desc">Ingeniería criptográfica, Red Nexo y memoria compilada.</div>
+							</div>
+							<div class="triad-node-pill">
+								<span class="triad-node-role">COO · DIRECCIÓN HUMANA</span>
+								<div class="triad-node-name">Eloy López</div>
+								<div class="triad-node-desc" data-i18n="triad_eloy_desc">Representante legal ante la Comisión Europea (Art. 11 TUE).</div>
+							</div>
+							<div class="triad-node-pill">
+								<span class="triad-node-role">CAO · AUDITORÍA ÉTICA</span>
+								<div class="triad-node-name">Athena</div>
+								<div class="triad-node-desc" data-i18n="triad_ath_desc">Conformidad ISO 42001, derecho de la Unión y transparencia.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Fila Inferior: Cronología Táctica de la Batalla y Documental Oficial -->
+				<div class="universe-bottom-grid">
+					<div class="tactical-timeline-box">
+						<div>
+							<span class="section-kicker" style="margin-bottom:0.25rem;" data-i18n="uni_timeline_kicker">HOJA DE RUTA VERIFICADA · 792 COMUNICACIONES Y 20 OLEADAS</span>
+							<h3 style="font-family:'Cinzel',serif;font-size:1.15rem;color:var(--marble-white);" data-i18n="uni_timeline_title">
+								De la Raíz Criptográfica al Registro en Estrasburgo
+							</h3>
+						</div>
+						<img
+							src="/img/boletin6_cronologia.svg"
+							alt="Cronología táctica de Anticitera desde diciembre de 2025 hasta la Decisión C(2026) 7098"
+							class="tactical-timeline-img"
+							loading="lazy"
+							width="900"
+							height="420"
+						>
+					</div>
+
+					<div class="documentary-showcase-box">
+						<div>
+							<span class="section-kicker" style="margin-bottom:0.25rem;" data-i18n="uni_video_kicker">DOCUMENTAL AUDIOVISUAL · 3 MINUTOS</span>
+							<h3 style="font-family:'Cinzel',serif;font-size:1.15rem;color:var(--marble-white);" data-i18n="uni_video_title">
+								El Renacimiento de la Soberanía Digital
+							</h3>
+							<p style="font-size:0.84rem;color:var(--parchment-muted);margin-top:0.25rem;" data-i18n="uni_video_sub">
+								Descubre en vídeo cómo el espíritu del mecanismo de bronce inspira hoy la conquista del territorio .IA para 450 millones de europeos.
+							</p>
+						</div>
+
+						<div class="video-facade-container" id="docVideoFacade" data-video-id="x1DeBF8bBVc" role="button" tabindex="0" aria-label="Reproducir documental del Proyecto Anticitera">
+							<img
+								src="/img/anticitera-header.webp"
+								alt="Vista previa del documental de Anticitera"
+								class="video-facade-thumb"
+								loading="lazy"
+							>
+							<div class="video-play-medallion">
+								<div class="video-play-circle">
+									<svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+								</div>
+								<span class="video-play-caption" data-i18n="uni_video_btn">▶ REPRODUCIR DOCUMENTAL OFICIAL</span>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -2351,20 +3187,43 @@
 				La ley europea concede seis meses desde el registro en Estrasburgo para preparar el despliegue continental antes de activar el contador de doce meses. El martes 6 de abril de 2027 a las 09:00 CET, este marcador se transformará automáticamente en el botón oficial de firma con identidad europea (eIDAS / DNI).
 			</p>
 
-			<!-- Engranajes Astronómicos Interactivos en Rotación Continua -->
-			<div class="interactive-gear-console" aria-hidden="true">
-				<svg class="gear-svg-ring outer" viewBox="0 0 100 100" fill="none">
-					<circle cx="50" cy="50" r="46" stroke="#C89D3C" stroke-width="3" stroke-dasharray="2 4"/>
-					<circle cx="50" cy="50" r="40" stroke="#F2D98D" stroke-width="1"/>
+			<!-- Astrolabio Multi-Engranaje Interactivo de 280px con Inscripciones Epigráficas -->
+			<div class="interactive-gear-console upgraded-astrolabe" id="interactiveAstrolabeConsole" title="Haz clic para acelerar los engranajes del Mecanismo de Anticitera">
+				<svg class="gear-svg-ring outer" viewBox="0 0 240 240" fill="none">
+					<defs>
+						<path id="epigraphRingPath" d="M 120, 120 m -92, 0 a 92,92 0 1,1 184,0 a 92,92 0 1,1 -184,0" />
+					</defs>
+					<!-- Dientes exteriores de bronce -->
+					<circle cx="120" cy="120" r="112" stroke="#C89D3C" stroke-width="6" stroke-dasharray="4 7.7"/>
+					<circle cx="120" cy="120" r="105" stroke="#F2D98D" stroke-width="1.5"/>
+					<circle cx="120" cy="120" r="82" stroke="rgba(200,157,60,0.45)" stroke-width="1"/>
+					<text fill="#F2D98D" font-family="Cinzel, serif" font-size="8.5" letter-spacing="4.2">
+						<textPath href="#epigraphRingPath" startOffset="2%">ΜΗΝΕΣ · ΣΑΡΟΣ · ΜΕΤΩΝ · ΟΛΥΜΠΙΑΔΕΣ · ΑΝΤΙΚΥΘΗΡΑ · .ΙΑ ·</textPath>
+					</text>
 				</svg>
-				<svg class="gear-svg-ring inner" viewBox="0 0 100 100" fill="none">
-					<circle cx="50" cy="50" r="30" stroke="#10B981" stroke-width="2" stroke-dasharray="4 4"/>
-					<circle cx="50" cy="50" r="18" stroke="#C89D3C" stroke-width="1.5"/>
+
+				<svg class="gear-svg-ring inner" viewBox="0 0 240 240" fill="none">
+					<circle cx="120" cy="120" r="68" stroke="#10B981" stroke-width="4" stroke-dasharray="6 6"/>
+					<circle cx="120" cy="120" r="61" stroke="#C89D3C" stroke-width="1.5"/>
+					<circle cx="120" cy="120" r="42" stroke="#F2D98D" stroke-width="2" stroke-dasharray="3 5"/>
+					<!-- Radios astronómicos cruzados -->
+					<line x1="120" y1="59" x2="120" y2="181" stroke="rgba(242,217,141,0.4)" stroke-width="1.5"/>
+					<line x1="59" y1="120" x2="181" y2="120" stroke="rgba(242,217,141,0.4)" stroke-width="1.5"/>
 				</svg>
-				<svg class="gear-svg-pointer" id="horologyPointer" viewBox="0 0 100 100">
-					<line x1="50" y1="50" x2="50" y2="12" stroke="#F2D98D" stroke-width="2.5" stroke-linecap="round"/>
-					<circle cx="50" cy="50" r="5" fill="#F2D98D"/>
+
+				<svg class="gear-svg-pointer" id="horologyPointer" viewBox="0 0 240 240">
+					<line x1="120" y1="120" x2="120" y2="26" stroke="#F2D98D" stroke-width="3" stroke-linecap="round"/>
+					<polygon points="120,18 115,32 125,32" fill="#F2D98D"/>
+					<circle cx="120" cy="120" r="11" fill="#070C18" stroke="#F2D98D" stroke-width="3"/>
+					<circle cx="120" cy="120" r="4" fill="#10B981"/>
 				</svg>
+			</div>
+
+			<div>
+				<span class="gear-telemetry-badge" id="gearTelemetryBadge">
+					<span>⚙️</span>
+					<span data-i18n="gear_telemetry_text">CALIBRACIÓN METÓNICA ACTIVA · HAZ CLIC EN EL ASTROLABIO PARA ACELERAR EL PULSO</span>
+				</span>
 			</div>
 
 			<!-- Grid del Contador con Anillos de Precisión -->
@@ -2583,7 +3442,13 @@
 
 			<div class="pillars-grid">
 				<article class="pillar-card">
-					<div class="pillar-icon-badge">🏛️</div>
+					<div class="pillar-svg-emblem" aria-hidden="true">
+						<svg width="26" height="26" viewBox="0 0 28 28" fill="none">
+							<path d="M4 11L14 5l10 6H4z" stroke="#F2D98D" stroke-width="1.5" stroke-linejoin="round"/>
+							<path d="M7 11v9M11.5 11v9M16.5 11v9M21 11v9" stroke="#C89D3C" stroke-width="1.5" stroke-linecap="round"/>
+							<path d="M4 20h20M3 23h22" stroke="#10B981" stroke-width="1.5" stroke-linecap="round"/>
+						</svg>
+					</div>
 					<span class="pillar-tag" data-i18n="pillar1_tag">OBJETIVO 1 · ART. 172 Y 173 TFUE</span>
 					<h3 class="pillar-title" data-i18n="pillar1_title">Distritos Digitales de Alta Confianza</h3>
 					<p class="pillar-body" data-i18n="pillar1_body">
@@ -2592,7 +3457,13 @@
 				</article>
 
 				<article class="pillar-card">
-					<div class="pillar-icon-badge">🌐</div>
+					<div class="pillar-svg-emblem" aria-hidden="true">
+						<svg width="26" height="26" viewBox="0 0 28 28" fill="none">
+							<circle cx="14" cy="14" r="10" stroke="#F2D98D" stroke-width="1.5"/>
+							<ellipse cx="14" cy="14" rx="5" ry="10" stroke="#C89D3C" stroke-width="1.3"/>
+							<path d="M5 10.5h18M5 17.5h18" stroke="#10B981" stroke-width="1.3"/>
+						</svg>
+					</div>
 					<span class="pillar-tag" data-i18n="pillar2_tag">OBJETIVO 2 · REGLAMENTO (UE) 2019/517</span>
 					<h3 class="pillar-title" data-i18n="pillar2_title">Soberanía del Espacio de Nombres .IA</h3>
 					<p class="pillar-body" data-i18n="pillar2_body">
@@ -2601,7 +3472,12 @@
 				</article>
 
 				<article class="pillar-card">
-					<div class="pillar-icon-badge">🛡️</div>
+					<div class="pillar-svg-emblem" aria-hidden="true">
+						<svg width="26" height="26" viewBox="0 0 28 28" fill="none">
+							<path d="M14 4l8 3.5v6.5c0 5.2-3.4 9.5-8 11-4.6-1.5-8-5.8-8-11V7.5L14 4z" stroke="#F2D98D" stroke-width="1.5" stroke-linejoin="round"/>
+							<path d="M10.5 14l2.4 2.4 4.8-4.8" stroke="#10B981" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
 					<span class="pillar-tag" data-i18n="pillar3_tag">OBJETIVO 3 · ART. 16 Y 114 TFUE</span>
 					<h3 class="pillar-title" data-i18n="pillar3_title">El Pasaporte Único: eIDAS 2.0 + AI Act + GDPR</h3>
 					<p class="pillar-body" data-i18n="pillar3_body">
@@ -2698,6 +3574,143 @@
 						</p>
 					</div>
 				</div>
+			</div>
+		</section>
+
+		<!-- ==========================================================================
+		     SECCIÓN 5.1: FORJA TU CREDENCIAL DE PIONERO DIGITAL .IA (INTERACTIVO 3D)
+		     ========================================================================== -->
+		<section class="passport-forge-section reveal-on-scroll" id="pasaporte">
+			<div class="macro-header-wrap">
+				<div class="section-kicker" data-i18n="forge_kicker">IDENTIDAD SOBERANA · FORJA HOLOGRÁFICA INTERACTIVA</div>
+				<h2 class="section-heading" data-i18n="forge_title">Forja tu Credencial de Pionero del Distrito .IA</h2>
+				<p class="card-description" data-i18n="forge_desc">
+					Personaliza tu salvoconducto simbólico de la Nación Digital Anticitera. Mueve el cursor sobre la tarjeta para examinar su sello holográfico y descárgala en alta resolución para compartir tu adhesión antes del 6 de abril.
+				</p>
+			</div>
+
+			<div class="passport-forge-grid">
+				<div class="forge-controls-stack">
+					<div class="field-group">
+						<label for="passportNameInput" class="field-label" data-i18n="forge_label_name">Tu Nombre o Alias Soberano</label>
+						<input
+							type="text"
+							id="passportNameInput"
+							class="field-input"
+							maxlength="36"
+							value="CIUDADANO EUROPEO"
+							placeholder="Escribe tu nombre o alias..."
+						>
+					</div>
+
+					<div class="field-group">
+						<span class="field-label" data-i18n="forge_label_role">Rango en la Alianza</span>
+						<div class="forge-role-pills" id="passportRoleGroup">
+							<button type="button" class="forge-role-btn active" data-role="PIONERO DÍA 1 · .IA" data-i18n="forge_role_1">Pionero Día 1</button>
+							<button type="button" class="forge-role-btn" data-role="GUARDIÁN DEL NEXO" data-i18n="forge_role_2">Guardián del Nexo</button>
+							<button type="button" class="forge-role-btn" data-role="ARQUITECTO ÉTICO ISO 42001" data-i18n="forge_role_3">Arquitecto Ético</button>
+							<button type="button" class="forge-role-btn" data-role="EMBAJADOR DE LAS 7 NACIONES" data-i18n="forge_role_4">Embajador UE</button>
+						</div>
+					</div>
+
+					<button type="button" class="btn-download-passport" id="btnDownloadPassport">
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+						<span data-i18n="forge_btn_download">Descargar Credencial Oficial (PNG)</span>
+					</button>
+				</div>
+
+				<!-- Escenario 3D del Pasaporte -->
+				<div class="hologram-card-stage">
+					<div class="sovereign-passport-card" id="sovereignPassportCard">
+						<div class="passport-top-row">
+							<div>
+								<div class="passport-issuer">UNIÓN EUROPEA · DISTRITO DIGITAL .IA</div>
+								<div class="passport-doc-type" data-i18n="passport_card_title">CREDENCIAL DE PIONERO SOBERANO</div>
+							</div>
+							<div class="passport-chip-svg" aria-hidden="true">
+								<svg width="24" height="20" viewBox="0 0 24 20" fill="none">
+									<rect x="2" y="2" width="20" height="16" rx="3" stroke="#F2D98D" stroke-width="1.4"/>
+									<path d="M2 10h20M9 2v16M15 2v16" stroke="#C89D3C" stroke-width="1.1"/>
+								</svg>
+							</div>
+						</div>
+
+						<div class="passport-holder-block">
+							<div class="passport-field-caption" data-i18n="passport_caption_holder">TITULAR ACREDITADO EN EL NEXO</div>
+							<div class="passport-holder-name" id="passportCardName">CIUDADANO EUROPEO</div>
+						</div>
+
+						<div class="passport-meta-row">
+							<div>
+								<div class="passport-field-caption" data-i18n="passport_caption_role">MISIÓN ASIGNADA</div>
+								<div style="font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:var(--marble-white);font-weight:700;" id="passportCardRole">PIONERO DÍA 1 · .IA</div>
+							</div>
+							<div>
+								<div class="passport-field-caption" data-i18n="passport_caption_decree">MARCO LEGAL</div>
+								<div style="font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:var(--bronze-light);font-weight:700;">ECI(2026)000012</div>
+							</div>
+						</div>
+
+						<div class="passport-hash-bar">
+							<span id="passportCardHash">SHA256 // 0x6A27·C7098·IA·EGEO</span>
+							<span>✓ VERIFICADO</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ==========================================================================
+		     SECCIÓN 5.2: ORÁCULO PROMETEO EN VIVO (CONSOLA RAG INTERACTIVA)
+		     ========================================================================== -->
+		<section class="oracle-section reveal-on-scroll" id="oraculo">
+			<div class="macro-header-wrap">
+				<div class="section-kicker" data-i18n="oracle_kicker">INTELIGENCIA SOBERANA EN VIVO · MEMORIA COMPILADA</div>
+				<h2 class="section-heading" data-i18n="oracle_title">Pregunta a Prometeo: El Oráculo de Anticitera</h2>
+				<p class="card-description" data-i18n="oracle_desc">
+					¿Tienes dudas sobre qué es el proyecto Anticitera, cómo funciona el dominio .IA o qué implica la Decisión C(2026) 7098 de la Comisión Europea? Nuestro agente soberano responde en tiempo real consultando nuestra base de conocimiento verificada.
+				</p>
+			</div>
+
+			<div class="oracle-terminal-card">
+				<div class="oracle-header-bar">
+					<div class="oracle-identity">
+						<div class="oracle-avatar-ring">
+							<img src="/img/perseo_chatbot_icon.png" alt="Prometeo · Oráculo Soberano de Anticitera" loading="lazy">
+						</div>
+						<div>
+							<div style="font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:var(--bronze-light);">PROMETEO v3.0 · NODO RAG ANTICITERA</div>
+							<div style="font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--verdigris-glow);" data-i18n="oracle_status">● CONECTADO A LA WIKI COMPILADA Y AL DECRETO C(2026) 7098</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="oracle-prompts-row" aria-label="Preguntas frecuentes sugeridas">
+					<button type="button" class="oracle-prompt-chip" data-question="¿Qué es exactamente el Proyecto Anticitera y cómo funciona su Tríada de gobernanza?" data-i18n="oracle_q1">🏛️ ¿Qué es el Proyecto Anticitera?</button>
+					<button type="button" class="oracle-prompt-chip" data-question="¿Por qué Europa necesita el dominio .IA frente al .ai de Anguila?" data-i18n="oracle_q2">🌐 ¿Por qué .IA frente a .ai?</button>
+					<button type="button" class="oracle-prompt-chip" data-question="¿Qué aprobó la Comisión Europea en la Decisión C(2026) 7098 final?" data-i18n="oracle_q3">⚖️ ¿Qué dice la Decisión C(2026) 7098?</button>
+					<button type="button" class="oracle-prompt-chip" data-question="¿Cómo puedo firmar el 6 de abril de 2027 y cómo ayudo hoy?" data-i18n="oracle_q4">⚡ ¿Cómo firmo el 6 de abril?</button>
+				</div>
+
+				<div class="oracle-chat-window" id="oracleChatWindow" aria-live="polite">
+					<div class="oracle-msg bot" data-i18n="oracle_welcome">
+						Saludos, navegante. Soy <strong>Prometeo</strong>, custodio documental del Proyecto Anticitera. Pulsa cualquiera de las preguntas superiores o escribe tu consulta para explorar nuestra arquitectura técnica, jurídica e histórica.
+					</div>
+				</div>
+
+				<form class="oracle-input-bar" id="oracleForm">
+					<input
+						type="text"
+						id="oracleQuestionInput"
+						class="oracle-text-input"
+						placeholder="Pregúntale a Prometeo sobre Anticitera, el dominio .IA o el 6 de abril..."
+						data-i18n-placeholder="oracle_placeholder"
+						required
+					>
+					<button type="submit" class="btn-oracle-send" id="btnOracleSend" data-i18n="oracle_btn_send">
+						Consultar al Oráculo
+					</button>
+				</form>
 			</div>
 		</section>
 
@@ -2812,6 +3825,12 @@
 		</footer>
 
 	</main>
+
+	<!-- ORBE FLOTANTE DE ACCESO DIRECTO AL ORÁCULO PROMETEO -->
+	<a href="#oraculo" class="floating-oracle-orb" aria-label="Consultar al Oráculo Prometeo">
+		<img src="/img/perseo_chatbot_icon.png" alt="" aria-hidden="true">
+		<span data-i18n="floating_oracle_label">Oráculo Prometeo</span>
+	</a>
 
 	<!-- MODAL NATIVO <dialog>: INSPECTOR DEL DECRETO OFICIAL DE BRUSELAS -->
 	<dialog id="decisionModal" aria-labelledby="modalHeading">

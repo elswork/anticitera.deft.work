@@ -1,5 +1,5 @@
 # Archiv
-Fecha: Sat Oct 24 2026 16:23:58 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 24 2026 16:53:03 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/blog/
 
 ---
@@ -19,13 +19,6 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Informationsblatt II .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_II_Proyecto_.IA_Isla_Anticitera.md)
-		June 2024
-	
-
-
-
-	* 
 		[Informationsblatt III .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_III_Proyecto_.IA_Isla_Anticitera.md)
 		April 2025
 	
@@ -33,8 +26,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Informationsblatt I .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_I_Proyecto_.IA_Isla_Anticitera.md)
-		March 2024
+		[Informationsblatt II .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_II_Proyecto_.IA_Isla_Anticitera.md)
+		June 2024
 	
 
 
@@ -47,15 +40,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Newsletter V Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
-		December 2025
-	
-
-
-
-	* 
-		[Wie eine KI den Code des Projekts Antikythera sieht](https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
-		December 2025
+		[Informationsblatt I .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Boletin_Informativo_I_Proyecto_.IA_Isla_Anticitera.md)
+		March 2024
 	
 
 
@@ -68,8 +54,22 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
+		[Wie eine KI den Code des Projekts Antikythera sieht](https://anticitera.deft.work/de/blog/Como_ve_una_IA_el_codigo_de_Anticitera.md)
+		December 2025
+	
+
+
+
+	* 
 		[Mitteilung VI - Sieg in Straßburg und offizielle EBI-Registrierung](https://anticitera.deft.work/de/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)
 		October 2026
+	
+
+
+
+	* 
+		[Newsletter V Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Boletin_Informativo_V_Proyecto_.IA_Isla_Anticitera.md)
+		December 2025
 	
 
 
@@ -82,13 +82,6 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[DeepSeek - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/DeepSeek-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
-		June 2025
-	
-
-
-
-	* 
 		[Interview mit Anticitera GPTs, dem Förderer des .IA-Insel-Antikythera-Projekts](https://anticitera.deft.work/de/blog/Entrevista_con_Anticitera_por_Gemini.md)
 		August 2024
 	
@@ -96,8 +89,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Grok 3 - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
-		February 2025
+		[DeepSeek - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/DeepSeek-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
+		June 2025
 	
 
 
@@ -117,15 +110,15 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Lateinamerika im Herzen des Antikythera-Projekts](https://anticitera.deft.work/de/blog/Latinoamerica_en_el_corazon.md)
-		September 2025
+		[Europäische digitale Souveränität: Aufruf an den EBI-Ausschuss .IA](https://anticitera.deft.work/de/blog/Llamamiento_Soberania_Digital.md)
+		January 2026
 	
 
 
 
 	* 
-		[Europäische digitale Souveränität: Aufruf an den EBI-Ausschuss .IA](https://anticitera.deft.work/de/blog/Llamamiento_Soberania_Digital.md)
-		January 2026
+		[Lateinamerika im Herzen des Antikythera-Projekts](https://anticitera.deft.work/de/blog/Latinoamerica_en_el_corazon.md)
+		September 2025
 	
 
 
@@ -138,15 +131,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Perplexity - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.](https://anticitera.deft.work/de/blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
-		February 2025
-	
-
-
-
-	* 
-		[Projekt .IA Insel Antikythera - Sitzung 2](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_2.md)
-		December 2023
+		[I Arbeitssitzung mit Gemini zum Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini-Sesion_1.md)
+		November 2024
 	
 
 
@@ -154,6 +140,20 @@ URL: https://anticitera.deft.work/de/blog/
 	* 
 		[II Arbeitssitzung mit Gemini 2.0 Flash im .IA Antikythera-Insel-Projekt](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini_2.0_Flash-Sesion_2.md)
 		December 2024
+	
+
+
+
+	* 
+		[Projekt .IA Insel Antikythera - Sitzung 1](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1.md)
+		November 2023
+	
+
+
+
+	* 
+		[Perplexity - Detaillierte Analyse des .IA-Insel-Antikythera-Projekts.](https://anticitera.deft.work/de/blog/Perplexity-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
+		February 2025
 	
 
 
@@ -173,8 +173,8 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[I Arbeitssitzung mit Gemini zum Projekt .IA Insel Antikythera](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Gemini-Sesion_1.md)
-		November 2024
+		[Projekt .IA Insel Antikythera - Sitzung 2](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_2.md)
+		December 2023
 	
 
 
@@ -187,5 +187,5 @@ URL: https://anticitera.deft.work/de/blog/
 
 
 	* 
-		[Projekt .IA Insel Antikythera - Sitzung 1](https://anticitera.deft.work/de/blog/Proyecto_.IA_Isla_Anticitera-Sesion_1.md)
-		November 2023
+		[Grok 3 - Detaillierte Analyse des .IA Antikythera-Insel-Projekts](https://anticitera.deft.work/de/blog/Grok_3-Análisis_detallado_del_Proyecto_.IA_Isla_Anticitera.md)
+		February 2025

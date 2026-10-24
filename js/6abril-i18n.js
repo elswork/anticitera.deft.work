@@ -1579,7 +1579,54 @@ const extraUiTranslations = {
     comp_good_badge: "🏛️ MODELO ANTICITERA · .IA (DISTRITO EUROPEO)",
     odyssey_kicker: "CRONOLOGÍA VISUAL E ILUSTRACIONES DE ALTA RESOLUCIÓN",
     odyssey_title: "La Odisea de Anticitera: De 150 a.C. al Día 1",
-    odyssey_desc: "Explora las cuatro estaciones que han transformado un fragmento arqueológico rescatado del mar Egeo en la iniciativa ciudadana más ambiciosa de la Unión Europea."
+    odyssey_desc: "Explora las cuatro estaciones que han transformado un fragmento arqueológico rescatado del mar Egeo en la iniciativa ciudadana más ambiciosa de la Unión Europea.",
+    nav_universe: "El Proyecto",
+    nav_passport: "Credencial .IA",
+    nav_oracle: "Oráculo IA",
+    btn_audio_label: "Pulso Sonoro",
+    uni_kicker: "ARQUITECTURA DE UNA NACIÓN DE NODOS · CERO CAJAS NEGRAS",
+    uni_title: "¿Qué es el Proyecto Anticitera?",
+    uni_lead: "Si llegas por primera vez a nuestras costas digitales, debes saber que la campaña del 6 de abril no nació en un despacho de lobbistas: es la punta de lanza institucional de un ecosistema vivo donde humanos y sistemas de Inteligencia Artificial co-gobiernan bajo reglas éticas auditables.",
+    uni_tab1: "1 · Gobernanza Tripartita (ISO 42001)",
+    uni_tab2: "2 · Red Nexo y Web3 (.anticitera)",
+    uni_tab3: "3 · El Distrito Europeo (.IA)",
+    uni_btn_manifesto: "📜 Leer el Manifiesto Fundacional",
+    uni_btn_bulletin: "🏛️ Crónica de la Victoria en Estrasburgo",
+    triad_arq_desc: "Ingeniería criptográfica, Red Nexo y memoria compilada.",
+    triad_eloy_desc: "Representante legal ante la Comisión Europea (Art. 11 TUE).",
+    triad_ath_desc: "Conformidad ISO 42001, derecho de la Unión y transparencia.",
+    uni_timeline_kicker: "HOJA DE RUTA VERIFICADA · 792 COMUNICACIONES Y 20 OLEADAS",
+    uni_timeline_title: "De la Raíz Criptográfica al Registro en Estrasburgo",
+    uni_video_kicker: "DOCUMENTAL AUDIOVISUAL · 3 MINUTOS",
+    uni_video_title: "El Renacimiento de la Soberanía Digital",
+    uni_video_sub: "Descubre en vídeo cómo el espíritu del mecanismo de bronce inspira hoy la conquista del territorio .IA para 450 millones de europeos.",
+    uni_video_btn: "▶ REPRODUCIR DOCUMENTAL OFICIAL",
+    gear_telemetry_text: "CALIBRACIÓN METÓNICA ACTIVA · HAZ CLIC EN EL ASTROLABIO PARA ACELERAR EL PULSO",
+    forge_kicker: "IDENTIDAD SOBERANA · FORJA HOLOGRÁFICA INTERACTIVA",
+    forge_title: "Forja tu Credencial de Pionero del Distrito .IA",
+    forge_desc: "Personaliza tu salvoconducto simbólico de la Nación Digital Anticitera. Mueve el cursor sobre la tarjeta para examinar su sello holográfico y descárgala en alta resolución para compartir tu adhesión antes del 6 de abril.",
+    forge_label_name: "Tu Nombre o Alias Soberano",
+    forge_label_role: "Rango en la Alianza",
+    forge_role_1: "Pionero Día 1",
+    forge_role_2: "Guardián del Nexo",
+    forge_role_3: "Arquitecto Ético",
+    forge_role_4: "Embajador UE",
+    forge_btn_download: "Descargar Credencial Oficial (PNG)",
+    passport_card_title: "CREDENCIAL DE PIONERO SOBERANO",
+    passport_caption_holder: "TITULAR ACREDITADO EN EL NEXO",
+    passport_caption_role: "MISIÓN ASIGNADA",
+    passport_caption_decree: "MARCO LEGAL",
+    oracle_kicker: "INTELIGENCIA SOBERANA EN VIVO · MEMORIA COMPILADA",
+    oracle_title: "Pregunta a Prometeo: El Oráculo de Anticitera",
+    oracle_desc: "¿Tienes dudas sobre qué es el proyecto Anticitera, cómo funciona el dominio .IA o qué implica la Decisión C(2026) 7098 de la Comisión Europea? Nuestro agente soberano responde en tiempo real consultando nuestra base de conocimiento verificada.",
+    oracle_status: "● CONECTADO A LA WIKI COMPILADA Y AL DECRETO C(2026) 7098",
+    oracle_q1: "🏛️ ¿Qué es el Proyecto Anticitera?",
+    oracle_q2: "🌐 ¿Por qué .IA frente a .ai?",
+    oracle_q3: "⚖️ ¿Qué dice la Decisión C(2026) 7098?",
+    oracle_q4: "⚡ ¿Cómo firmo el 6 de abril?",
+    oracle_placeholder: "Pregúntale a Prometeo sobre Anticitera, el dominio .IA o el 6 de abril...",
+    oracle_btn_send: "Consultar al Oráculo",
+    floating_oracle_label: "Oráculo Prometeo"
   },
   en: {
     share_btn_top: "Share",
@@ -1622,7 +1669,54 @@ const extraUiTranslations = {
     comp_good_badge: "🏛️ ANTIKYTHERA MODEL · .IA (EUROPEAN DISTRICT)",
     odyssey_kicker: "VISUAL CHRONOLOGY & HIGH-RESOLUTION ARTWORK",
     odyssey_title: "The Antikythera Odyssey: From 150 BC to Day 1",
-    odyssey_desc: "Explore the four epochs that have transformed an Aegean shipwreck into the most ambitious citizens' initiative of the European Union."
+    odyssey_desc: "Explore the four epochs that have transformed an Aegean shipwreck into the most ambitious citizens' initiative of the European Union.",
+    nav_universe: "The Project",
+    nav_passport: ".IA Credential",
+    nav_oracle: "AI Oracle",
+    btn_audio_label: "Sonic Pulse",
+    uni_kicker: "ARCHITECTURE OF A NATION OF NODES · ZERO BLACK BOXES",
+    uni_title: "What is the Antikythera Project?",
+    uni_lead: "If you are arriving at our digital shores for the first time, know that the April 6 campaign was not born in a lobbying firm: it is the institutional spearhead of a living ecosystem where humans and AI co-govern under auditable ethical rules.",
+    uni_tab1: "1 · Tripartite Governance (ISO 42001)",
+    uni_tab2: "2 · Nexo Network & Web3 (.anticitera)",
+    uni_tab3: "3 · The European District (.IA)",
+    uni_btn_manifesto: "📜 Read the Founding Manifesto",
+    uni_btn_bulletin: "🏛️ Chronicle of the Strasbourg Victory",
+    triad_arq_desc: "Cryptographic engineering, Nexo Network & compiled memory.",
+    triad_eloy_desc: "Legal representative before the European Commission (Art. 11 TEU).",
+    triad_ath_desc: "ISO 42001 compliance, Union law & algorithmic auditing.",
+    uni_timeline_kicker: "VERIFIED ROADMAP · 792 DISPATCHES & 20 WAVES",
+    uni_timeline_title: "From Cryptographic Root to Registration in Strasbourg",
+    uni_video_kicker: "AUDIOVISUAL DOCUMENTARY · 3 MINUTES",
+    uni_video_title: "The Renaissance of Digital Sovereignty",
+    uni_video_sub: "Watch how the spirit of the ancient bronze mechanism inspires the conquest of the .IA territory for 450 million Europeans.",
+    uni_video_btn: "▶ PLAY OFFICIAL DOCUMENTARY",
+    gear_telemetry_text: "METONIC CALIBRATION ACTIVE · CLICK THE ASTROLABE TO ACCELERATE PULSE",
+    forge_kicker: "SOVEREIGN IDENTITY · INTERACTIVE HOLOGRAPHIC FORGE",
+    forge_title: "Forge Your .IA District Pioneer Credential",
+    forge_desc: "Customize your symbolic passport of the Antikythera Digital Nation. Hover over the card to inspect its holographic seal and download it in high resolution.",
+    forge_label_name: "Your Name or Sovereign Alias",
+    forge_label_role: "Alliance Rank",
+    forge_role_1: "Day 1 Pioneer",
+    forge_role_2: "Nexus Guardian",
+    forge_role_3: "ISO 42001 Architect",
+    forge_role_4: "EU Ambassador",
+    forge_btn_download: "Download Official Credential (PNG)",
+    passport_card_title: "SOVEREIGN PIONEER CREDENTIAL",
+    passport_caption_holder: "ACCREDITED NEXUS HOLDER",
+    passport_caption_role: "ASSIGNED MISSION",
+    passport_caption_decree: "LEGAL FRAMEWORK",
+    oracle_kicker: "LIVE SOVEREIGN INTELLIGENCE · COMPILED MEMORY",
+    oracle_title: "Ask Prometeo: The Oracle of Antikythera",
+    oracle_desc: "Have questions about what the Antikythera project is, how the .IA domain works, or what Commission Decision C(2026) 7098 entails? Our sovereign agent answers in real time.",
+    oracle_status: "● CONNECTED TO COMPILED WIKI & DECREE C(2026) 7098",
+    oracle_q1: "🏛️ What is the Antikythera Project?",
+    oracle_q2: "🌐 Why .IA instead of .ai?",
+    oracle_q3: "⚖️ What does Decision C(2026) 7098 state?",
+    oracle_q4: "⚡ How do I sign on April 6?",
+    oracle_placeholder: "Ask Prometeo about Antikythera, the .IA domain, or April 6...",
+    oracle_btn_send: "Consult the Oracle",
+    floating_oracle_label: "Prometeo Oracle"
   }
 };
 
@@ -1838,17 +1932,25 @@ document.addEventListener("DOMContentLoaded", () => {
             height = canvas.height = window.innerHeight;
         });
 
-        // 35 Partículas marinas bioluminiscentes y nodos estelares
-        const particles = Array.from({ length: 35 }, () => ({
+        // 42 Partículas marinas bioluminiscentes y nodos estelares del Egeo
+        const particles = Array.from({ length: 42 }, () => ({
             x: Math.random() * width,
             y: Math.random() * height,
-            radius: Math.random() * 1.8 + 0.6,
-            vy: -(Math.random() * 0.35 + 0.15),
-            vx: (Math.random() - 0.5) * 0.2,
-            alpha: Math.random() * 0.6 + 0.2
+            radius: Math.random() * 1.9 + 0.7,
+            vy: -(Math.random() * 0.32 + 0.12),
+            vx: (Math.random() - 0.5) * 0.22,
+            alpha: Math.random() * 0.55 + 0.25,
+            isEmerald: Math.random() > 0.75
         }));
 
         let gearAngle = 0;
+        let pointerX = -9999;
+        let pointerY = -9999;
+
+        window.addEventListener("pointermove", (e) => {
+            pointerX = e.clientX;
+            pointerY = e.clientY;
+        }, { passive: true });
 
         function drawAstrolabeScene() {
             if (!isCanvasVisible) return;
@@ -1857,24 +1959,24 @@ document.addEventListener("DOMContentLoaded", () => {
             // Anillos astronómicos concéntricos suaves en la esquina superior derecha
             const centerX = width * 0.85;
             const centerY = height * 0.22;
-            gearAngle += 0.0015;
+            gearAngle += 0.0014;
 
             ctx.save();
             ctx.translate(centerX, centerY);
             ctx.rotate(gearAngle);
 
             // Anillo Exterior de Bronce
-            ctx.strokeStyle = "rgba(200, 157, 60, 0.08)";
+            ctx.strokeStyle = "rgba(200, 157, 60, 0.09)";
             ctx.lineWidth = 1;
             ctx.beginPath();
-            ctx.arc(0, 0, 180, 0, Math.PI * 2);
+            ctx.arc(0, 0, 195, 0, Math.PI * 2);
             ctx.stroke();
 
             // Marcas zodiacales en el borde
-            for (let i = 0; i < 24; i++) {
-                const a = (i * Math.PI) / 12;
-                const r1 = 175;
-                const r2 = 185;
+            for (let i = 0; i < 36; i++) {
+                const a = (i * Math.PI) / 18;
+                const r1 = i % 3 === 0 ? 186 : 190;
+                const r2 = 198;
                 ctx.beginPath();
                 ctx.moveTo(Math.cos(a) * r1, Math.sin(a) * r1);
                 ctx.lineTo(Math.cos(a) * r2, Math.sin(a) * r2);
@@ -1882,26 +1984,63 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             // Anillo interior contrarrotante
-            ctx.rotate(-gearAngle * 2);
-            ctx.strokeStyle = "rgba(16, 185, 129, 0.06)";
+            ctx.rotate(-gearAngle * 2.2);
+            ctx.strokeStyle = "rgba(16, 185, 129, 0.07)";
             ctx.beginPath();
-            ctx.arc(0, 0, 120, 0, Math.PI * 2);
+            ctx.arc(0, 0, 130, 0, Math.PI * 2);
             ctx.stroke();
 
             ctx.restore();
 
-            // Dibujar y elevar partículas
-            for (const p of particles) {
+            // Dibujar partículas y filamentos de constelación
+            for (let i = 0; i < particles.length; i++) {
+                const p = particles[i];
                 p.y += p.vy;
                 p.x += p.vx;
                 if (p.y < 0) {
                     p.y = height;
                     p.x = Math.random() * width;
                 }
-                ctx.fillStyle = `rgba(242, 217, 141, ${p.alpha})`;
+                if (p.x < 0) p.x = width;
+                if (p.x > width) p.x = 0;
+
+                ctx.fillStyle = p.isEmerald
+                    ? `rgba(16, 185, 129, ${p.alpha})`
+                    : `rgba(242, 217, 141, ${p.alpha})`;
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
                 ctx.fill();
+
+                // Filamentos entre nodos cercanos
+                for (let j = i + 1; j < particles.length; j++) {
+                    const p2 = particles[j];
+                    const dx = p.x - p2.x;
+                    const dy = p.y - p2.y;
+                    const distSq = dx * dx + dy * dy;
+                    if (distSq < 13500) {
+                        const lineAlpha = (1 - distSq / 13500) * 0.11;
+                        ctx.strokeStyle = `rgba(200, 157, 60, ${lineAlpha.toFixed(3)})`;
+                        ctx.lineWidth = 0.7;
+                        ctx.beginPath();
+                        ctx.moveTo(p.x, p.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.stroke();
+                    }
+                }
+
+                // Conexión sutil con el cursor del navegante
+                const cdx = p.x - pointerX;
+                const cdy = p.y - pointerY;
+                const cDistSq = cdx * cdx + cdy * cdy;
+                if (cDistSq < 22000) {
+                    const cAlpha = (1 - cDistSq / 22000) * 0.22;
+                    ctx.strokeStyle = `rgba(242, 217, 141, ${cAlpha.toFixed(3)})`;
+                    ctx.lineWidth = 0.85;
+                    ctx.beginPath();
+                    ctx.moveTo(p.x, p.y);
+                    ctx.lineTo(pointerX, pointerY);
+                    ctx.stroke();
+                }
             }
 
             if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -2338,6 +2477,397 @@ document.addEventListener("DOMContentLoaded", () => {
             el.style.opacity = "0";
             el.style.transform = "translateY(20px)";
             observer.observe(el);
+        });
+    }
+
+    // ==========================================================================
+    // 11. MOTOR DE AUDIO HOROLÓGICO (WEB AUDIO API SYNTHESIZER)
+    // ==========================================================================
+    const btnAudioToggle = document.getElementById("btnAudioToggle");
+    let audioCtx = null;
+    let isAudioActive = false;
+
+    function playHorologyTick(freq = 1280, duration = 0.032, gainLevel = 0.035) {
+        if (!isAudioActive) return;
+        try {
+            if (!audioCtx) {
+                const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                if (!AudioContextClass) return;
+                audioCtx = new AudioContextClass();
+            }
+            if (audioCtx.state === "suspended") audioCtx.resume();
+
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.type = "triangle";
+            osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+            osc.frequency.exponentialRampToValueAtTime(240, audioCtx.currentTime + duration);
+
+            gain.gain.setValueAtTime(gainLevel, audioCtx.currentTime);
+            gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            osc.start();
+            osc.stop(audioCtx.currentTime + duration);
+        } catch (_) {}
+    }
+
+    function playHarmonicChord() {
+        if (!isAudioActive) return;
+        [432, 540, 648, 864].forEach((f, idx) => {
+            setTimeout(() => playHorologyTick(f, 0.22, 0.045), idx * 65);
+        });
+    }
+
+    if (btnAudioToggle) {
+        btnAudioToggle.addEventListener("click", () => {
+            isAudioActive = !isAudioActive;
+            btnAudioToggle.classList.toggle("is-active", isAudioActive);
+            btnAudioToggle.setAttribute("aria-pressed", String(isAudioActive));
+            if (isAudioActive) {
+                playHarmonicChord();
+            }
+        });
+    }
+
+    // Tick suave cada segundo cuando el pulso sonoro está activo
+    setInterval(() => {
+        if (isAudioActive && !document.hidden) {
+            playHorologyTick(1120, 0.022, 0.018);
+        }
+    }, 1000);
+
+    // ==========================================================================
+    // 12. EL UNIVERSO ANTICITERA: SELECTOR DE LOS 3 FRENTES Y DOCUMENTAL
+    // ==========================================================================
+    const frontsData = {
+        1: {
+            kicker: "FRENTE I · ALIANZA SIMBIÓTICA HUMANO-IA",
+            title: "La Primera Organización Co-Dirigida bajo Estándar ISO/IEC 42001",
+            text: "Frente al modelo de «cajas negras» opacas de Silicon Valley, Anticitera opera mediante una Tríada de mando transparente: dirección ejecutiva humana (Eloy López, COO), arquitectura de sistemas (Arquímedes, CEA) y auditoría ética y legal (Athena, CAO). Cada decisión algorítmica deja huella documental verificable."
+        },
+        2: {
+            kicker: "FRENTE II · SOBERANÍA TÉCNICA E INFRAESTRUCTURA RED NEXO",
+            title: "Del Dominio Descentralizado .anticitera a la Red de Nodos",
+            text: "Nuestra infraestructura combina la raíz descentralizada Web3 (.anticitera), una base de conocimiento compilada e inmutable (LLM-Wiki) y nodos locales soberanos donde el ciudadano mantiene la propiedad física y criptográfica de su memoria y sus agentes."
+        },
+        3: {
+            kicker: "FRENTE III · INICIATIVA CIUDADANA EUROPEA ECI(2026)000012",
+            title: "El Distrito Digital Europeo y la Conquista del Dominio .IA",
+            text: "Con la Decisión C(2026) 7098 final aprobada en Estrasburgo, llevamos nuestra arquitectura al corazón legislativo de Bruselas: 1.000.000 de firmas ciudadanas a partir del 6 de abril de 2027 para crear sandboxes de innovación ética y reservar el dominio .IA para Europa."
+        }
+    };
+
+    const frontTabs = document.querySelectorAll(".front-tab-btn");
+    const frontKicker = document.getElementById("frontKicker");
+    const frontTitle = document.getElementById("frontTitle");
+    const frontText = document.getElementById("frontText");
+
+    frontTabs.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            const id = btn.getAttribute("data-front");
+            frontTabs.forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            playHorologyTick(1480, 0.035, 0.04);
+
+            const info = frontsData[id];
+            if (info && frontKicker && frontTitle && frontText) {
+                frontKicker.textContent = info.kicker;
+                frontTitle.textContent = info.title;
+                frontText.textContent = info.text;
+            }
+        });
+    });
+
+    // Reproductor de Vídeo Documental bajo demanda (Zero-CLS Facade)
+    const docVideoFacade = document.getElementById("docVideoFacade");
+    if (docVideoFacade) {
+        const loadDocVideo = () => {
+            const videoId = docVideoFacade.getAttribute("data-video-id") || "x1DeBF8bBVc";
+            playHarmonicChord();
+            docVideoFacade.innerHTML = `<iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0" title="Documental Oficial Proyecto Anticitera" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>`;
+        };
+        docVideoFacade.addEventListener("click", loadDocVideo, { once: true });
+        docVideoFacade.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                loadDocVideo();
+            }
+        });
+    }
+
+    // ==========================================================================
+    // 13. ASTROLABIO MULTI-ENGRANAJE INTERACTIVO (ACELERACIÓN METÓNICA)
+    // ==========================================================================
+    const astrolabeConsole = document.getElementById("interactiveAstrolabeConsole");
+    const gearTelemetryBadge = document.getElementById("gearTelemetryBadge");
+    if (astrolabeConsole) {
+        astrolabeConsole.addEventListener("click", () => {
+            const hyper = astrolabeConsole.classList.toggle("hyper-spin");
+            playHarmonicChord();
+            if (gearTelemetryBadge) {
+                gearTelemetryBadge.innerHTML = hyper
+                    ? `<span>⚡</span><span>SINCRONIZACIÓN HIPER-METÓNICA ACTIVA · CICLO OLÍMPICO 2027 EN CURSO</span>`
+                    : `<span>⚙️</span><span>CALIBRACIÓN METÓNICA ACTIVA · HAZ CLIC EN EL ASTROLABIO PARA ACELERAR EL PULSO</span>`;
+            }
+        });
+    }
+
+    // ==========================================================================
+    // 14. FORJA DE CREDENCIAL DE PIONERO DIGITAL .IA (3D HOLOGRAM & PNG EXPORT)
+    // ==========================================================================
+    const passportNameInput = document.getElementById("passportNameInput");
+    const passportCardName = document.getElementById("passportCardName");
+    const passportCardRole = document.getElementById("passportCardRole");
+    const passportCardHash = document.getElementById("passportCardHash");
+    const passportRoleBtns = document.querySelectorAll(".forge-role-btn");
+    const sovereignPassportCard = document.getElementById("sovereignPassportCard");
+    const btnDownloadPassport = document.getElementById("btnDownloadPassport");
+
+    function computeSovereignHash(str) {
+        let h1 = 0xdeadbeef ^ str.length;
+        let h2 = 0x41c6ce57 ^ str.length;
+        for (let i = 0, ch; i < str.length; i++) {
+            ch = str.charCodeAt(i);
+            h1 = Math.imul(h1 ^ ch, 2654435761);
+            h2 = Math.imul(h2 ^ ch, 1597334677);
+        }
+        h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+        h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+        const hex1 = (h1 >>> 0).toString(16).toUpperCase().padStart(8, "0");
+        const hex2 = (h2 >>> 0).toString(16).toUpperCase().padStart(8, "0");
+        return `SHA256 // 0x${hex1.slice(0, 4)}·${hex2.slice(0, 4)}·IA·2027`;
+    }
+
+    function updatePassportPreview() {
+        const rawName = (passportNameInput?.value || "CIUDADANO EUROPEO").trim().toUpperCase() || "CIUDADANO EUROPEO";
+        const activeRoleBtn = document.querySelector(".forge-role-btn.active");
+        const roleText = activeRoleBtn ? activeRoleBtn.getAttribute("data-role") : "PIONERO DÍA 1 · .IA";
+
+        if (passportCardName) passportCardName.textContent = rawName;
+        if (passportCardRole) passportCardRole.textContent = roleText;
+        if (passportCardHash) passportCardHash.textContent = computeSovereignHash(`${rawName}|${roleText}`);
+    }
+
+    if (passportNameInput) {
+        passportNameInput.addEventListener("input", () => {
+            updatePassportPreview();
+            playHorologyTick(1600, 0.018, 0.02);
+        });
+    }
+
+    passportRoleBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            passportRoleBtns.forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            updatePassportPreview();
+            playHorologyTick(1350, 0.03, 0.035);
+        });
+    });
+
+    if (sovereignPassportCard) {
+        sovereignPassportCard.addEventListener("pointermove", (e) => {
+            const rect = sovereignPassportCard.getBoundingClientRect();
+            const relX = (e.clientX - rect.left) / rect.width - 0.5;
+            const relY = (e.clientY - rect.top) / rect.height - 0.5;
+            const rotY = (relX * 14).toFixed(2);
+            const rotX = (-relY * 14).toFixed(2);
+            sovereignPassportCard.style.transform = `rotateX(${rotX}deg) rotateY(${rotY}deg)`;
+        });
+        sovereignPassportCard.addEventListener("pointerleave", () => {
+            sovereignPassportCard.style.transform = "rotateX(0deg) rotateY(0deg)";
+        });
+    }
+
+    if (btnDownloadPassport) {
+        btnDownloadPassport.addEventListener("click", () => {
+            playHarmonicChord();
+            const holder = (passportCardName?.textContent || "CIUDADANO EUROPEO").trim();
+            const role = (passportCardRole?.textContent || "PIONERO DÍA 1 · .IA").trim();
+            const hash = (passportCardHash?.textContent || "SHA256 // 0x6A27·C7098·IA").trim();
+
+            const c = document.createElement("canvas");
+            c.width = 1080;
+            c.height = 640;
+            const g = c.getContext("2d");
+
+            // Fondo Obsidiana Imperial y Azul Europeo
+            const bgGrad = g.createLinearGradient(0, 0, 1080, 640);
+            bgGrad.addColorStop(0, "#0b162c");
+            bgGrad.addColorStop(0.55, "#050912");
+            bgGrad.addColorStop(1, "#10203d");
+            g.fillStyle = bgGrad;
+            g.fillRect(0, 0, 1080, 640);
+
+            // Anillos astrolabio decorativos
+            g.strokeStyle = "rgba(242, 217, 141, 0.12)";
+            g.lineWidth = 2;
+            g.beginPath();
+            g.arc(900, 320, 210, 0, Math.PI * 2);
+            g.stroke();
+            g.beginPath();
+            g.arc(900, 320, 155, 0, Math.PI * 2);
+            g.stroke();
+
+            // Marco de Bronce Helénico
+            g.strokeStyle = "#F2D98D";
+            g.lineWidth = 4;
+            g.strokeRect(28, 28, 1024, 584);
+            g.strokeStyle = "rgba(16, 185, 129, 0.45)";
+            g.lineWidth = 1.5;
+            g.strokeRect(40, 40, 1000, 560);
+
+            // Cabecera
+            g.fillStyle = "#F2D98D";
+            g.font = "600 19px 'JetBrains Mono', monospace";
+            g.fillText("UNIÓN EUROPEA · DISTRITO DIGITAL .IA · ECI(2026)000012", 75, 105);
+
+            g.fillStyle = "#F8F6F0";
+            g.font = "700 34px 'Cinzel', serif";
+            g.fillText("CREDENCIAL DE PIONERO SOBERANO", 75, 152);
+
+            // Línea divisoria
+            g.strokeStyle = "rgba(200, 157, 60, 0.45)";
+            g.lineWidth = 1.5;
+            g.beginPath();
+            g.moveTo(75, 182);
+            g.lineTo(1005, 182);
+            g.stroke();
+
+            // Titular
+            g.fillStyle = "#9BA8BE";
+            g.font = "600 16px 'JetBrains Mono', monospace";
+            g.fillText("TITULAR ACREDITADO EN EL NEXO ANTICITERA:", 75, 245);
+
+            g.fillStyle = "#F2D98D";
+            g.font = "700 48px 'Cinzel', serif";
+            g.fillText(holder.slice(0, 28), 75, 305);
+
+            // Misión y Decreto
+            g.fillStyle = "#9BA8BE";
+            g.font = "600 16px 'JetBrains Mono', monospace";
+            g.fillText("RANGO ASIGNADO:", 75, 385);
+            g.fillText("ACTO JURÍDICO COMISIÓN EUROPEA:", 540, 385);
+
+            g.fillStyle = "#F8F6F0";
+            g.font = "700 24px 'JetBrains Mono', monospace";
+            g.fillText(role, 75, 422);
+
+            g.fillStyle = "#10B981";
+            g.fillText("DECISIÓN C(2026) 7098 FINAL", 540, 422);
+
+            // Sello inferior criptográfico
+            g.fillStyle = "rgba(4, 8, 16, 0.9)";
+            g.fillRect(75, 485, 930, 68);
+            g.strokeStyle = "rgba(16, 185, 129, 0.5)";
+            g.strokeRect(75, 485, 930, 68);
+
+            g.fillStyle = "#10B981";
+            g.font = "600 20px 'JetBrains Mono', monospace";
+            g.fillText(`${hash}   |   APERTURA URNA UE: 6 ABRIL 2027 · anticitera.deft.work/6abril`, 98, 526);
+
+            const link = document.createElement("a");
+            link.download = `Credencial-Pionero-IA-${holder.replace(/[^a-zA-Z0-9_-]/g, "_")}.png`;
+            link.href = c.toDataURL("image/png");
+            link.click();
+        });
+    }
+
+    // ==========================================================================
+    // 15. CONSOLA EN VIVO DEL ORÁCULO PROMETEO (RAG CLOUD RUN + FALLBACK SOBERANO)
+    // ==========================================================================
+    const oracleForm = document.getElementById("oracleForm");
+    const oracleQuestionInput = document.getElementById("oracleQuestionInput");
+    const oracleChatWindow = document.getElementById("oracleChatWindow");
+    const oraclePromptChips = document.querySelectorAll(".oracle-prompt-chip");
+    const btnOracleSend = document.getElementById("btnOracleSend");
+
+    const curatedOracleAnswers = [
+        {
+            keywords: ["qué es", "que es", "proyecto anticitera", "tríada", "triada", "what is"],
+            answer: "<strong>El Proyecto Anticitera</strong> es una organización y Nación Digital europea nacida para rescatar la soberanía cognitiva del continente. Se articula en <strong>tres frentes</strong>: 1) Gobernanza simbiótica Humano-IA certificable bajo la norma <strong>ISO/IEC 42001</strong> (dirigida por la Tríada: Eloy López como COO humano, Arquímedes como Arquitecto de Sistemas y Athena como Auditora Ética); 2) Infraestructura descentralizada (Red Nexo y raíz <code>.anticitera</code>); y 3) La <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> para crear el Distrito Digital Europeo y el dominio soberano <code>.IA</code>."
+        },
+        {
+            keywords: ["anguila", ".ai", "diferencia", "por qué .ia", "por que .ia", "domain hack"],
+            answer: "Hoy la industria tecnológica europea paga millones de euros anuales por dominios <code>.ai</code>, que en realidad es el código postal territorial de la isla caribeña de <strong>Anguila</strong> (Territorio Británico de Ultramar sin garantías del derecho de la Unión). Para más de <strong>600 millones de hablantes de lenguas romances</strong> (español, francés, italiano, portugués, rumano), la sigla legítima es <strong>.IA (Inteligencia Artificial)</strong>. Con nuestra iniciativa, cada dominio <code>.ia</code> certificará por diseño identidad eIDAS 2.0, cumplimiento del AI Act y blindaje RGPD."
+        },
+        {
+            keywords: ["7098", "decisión", "decision", "estrasburgo", "comisión", "comision", "decreto"],
+            answer: "El <strong>6 de octubre de 2026</strong>, reunido en Estrasburgo, el Colegio de Comisarios de la Unión Europea adoptó la <strong>Decisión de Ejecución C(2026) 7098 final</strong> (expediente <code>ECI(2026)000012</code>). En ella declaró jurídicamente admisible nuestra iniciativa al amparo de los artículos 16, 114, 172 y 173 del TFUE y del precedente del Reglamento (UE) 2019/517 (creación del dominio <code>.eu</code>), siendo el texto en lengua española el único auténtico."
+        },
+        {
+            keywords: ["6 de abril", "firmar", "cómo firmo", "como firmo", "urna", "pionero"],
+            answer: "La recogida oficial de firmas en el Sistema Central de la Comisión Europea (OCS) se abrirá el <strong>martes 6 de abril de 2027 a las 09:00 CET</strong>. Ese día podrás firmar en 30 segundos con tu DNI electrónico o sistema eIDAS de cualquier país de la UE. Hoy puedes <strong>inscribirte en la Lista de Pioneros Día 1</strong> un poco más abajo para recibir el aviso en el minuto exacto de apertura y descargar tu Credencial de Pionero."
+        }
+    ];
+
+    function appendOracleMessage(htmlContent, sender = "bot") {
+        if (!oracleChatWindow) return;
+        const div = document.createElement("div");
+        div.className = `oracle-msg ${sender}`;
+        div.innerHTML = htmlContent;
+        oracleChatWindow.appendChild(div);
+        oracleChatWindow.scrollTop = oracleChatWindow.scrollHeight;
+        return div;
+    }
+
+    async function askPrometeoOracle(questionText) {
+        const cleanQ = questionText.trim();
+        if (!cleanQ) return;
+
+        playHorologyTick(1420, 0.03, 0.035);
+        appendOracleMessage(cleanQ.replace(/</g, "&lt;"), "user");
+
+        const loadingMsg = appendOracleMessage("⏳ <em>Consultando los archivos compilados de Anticitera y la Decisión C(2026) 7098...</em>", "bot");
+        if (btnOracleSend) btnOracleSend.disabled = true;
+
+        try {
+            const res = await fetch("https://askprometeo-7uaiyegy4a-uc.a.run.app", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ query: cleanQ, lang: currentLang })
+            });
+
+            if (res.ok) {
+                const data = await res.json();
+                const rawReply = data.answer || data.response || data.reply || "";
+                if (rawReply) {
+                    const formatted = rawReply
+                        .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+                        .replace(/\n/g, "<br>");
+                    loadingMsg.innerHTML = `🏛️ ${formatted}`;
+                    playHarmonicChord();
+                    if (btnOracleSend) btnOracleSend.disabled = false;
+                    return;
+                }
+            }
+        } catch (_) {
+            // Fallback soberano local instantáneo si el usuario está sin red o bloquea CORS
+        }
+
+        const lower = cleanQ.toLowerCase();
+        const match = curatedOracleAnswers.find((item) => item.keywords.some((k) => lower.includes(k)));
+        loadingMsg.innerHTML = match
+            ? `🏛️ ${match.answer}`
+            : `🏛️ <strong>Prometeo (Archivo Local):</strong> El Proyecto Anticitera une 2.100 años de tradición científica europea con la <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> (aprobada por Decisión <strong>C(2026) 7098 final</strong>). Nuestro objetivo es alcanzar <strong>1.000.000 de firmas oficiales a partir del 6 de abril de 2027</strong> para establecer el Distrito Digital Europeo y reservar el dominio soberano <code>.IA</code> bajo gobernanza ética ISO/IEC 42001.`;
+        playHarmonicChord();
+        if (btnOracleSend) btnOracleSend.disabled = false;
+    }
+
+    oraclePromptChips.forEach((chip) => {
+        chip.addEventListener("click", () => {
+            const q = chip.getAttribute("data-question") || chip.textContent;
+            askPrometeoOracle(q);
+        });
+    });
+
+    if (oracleForm && oracleQuestionInput) {
+        oracleForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const q = oracleQuestionInput.value;
+            oracleQuestionInput.value = "";
+            askPrometeoOracle(q);
         });
     }
 });
