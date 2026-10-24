@@ -1,5 +1,5 @@
 # Раздел ссылок
-Fecha: Sun Oct 18 2026 21:33:40 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Oct 24 2026 16:23:58 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/links/
 
 ---
@@ -284,7 +284,7 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-
+[Home | Antikythera Mechanism Research Project](https://antikythera-mechanism.gr)
 
 
 
@@ -295,6 +295,15 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 ◀
 ▶
+
+
+![Imagen relacionada](https://anticitera.deft.work/themes/custom/amrp/images/amrp-header-desktop.png)
+
+
+![Imagen relacionada](https://anticitera.deft.work/sites/default/files/amrp/images/antikythera-front-detail.png)
+
+
+![Imagen relacionada](https://anticitera.deft.work/sites/default/files/amrp/images/sky-trails-over-ancient-greece.jpg)
 
 
 
@@ -469,7 +478,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Imagen relacionada](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Imagen relacionada](https://www.latercera.com/resizer/v2/WJVZ4RZ2GVAFNLSDARBLUVBWJA.png?auth=7a114d5945e0d34ed544719bc7a5c07e3e9178c8069b1a79187db905b3eeea27&smart=true&width=100&height=56&quality=70)
+![Imagen relacionada](https://www.latercera.com/resizer/v2/CBGNRLV37FHVLMCLXOE3TIXJ4I.jpg?auth=a1807dacad185e03596e562f330679772934112e223c3853a3bb7443649a76fe&smart=true&width=100&height=56&quality=70)
 
 
 
