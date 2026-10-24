@@ -3,10 +3,19 @@ permalink: /6abril/index.html
 eleventyExcludeFromCollections: true
 ---
 <!doctype html>
-<html lang="es" id="htmlRoot">
+<html lang="es" id="htmlRoot" data-theme="dark">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		(function() {
+			try {
+				var saved = localStorage.getItem('ice6AbrilTheme');
+				var theme = saved || (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+				document.documentElement.setAttribute('data-theme', theme);
+			} catch(e) {}
+		})();
+	</script>
 	<title>6 de Abril de 2027 · Iniciativa Ciudadana Europea .IA | ECI(2026)000012</title>
 	<meta name="description" content="Decisión C(2026) 7098 final de la Comisión Europea: Creación del Distrito Digital Europeo (.IA) para la Gobernanza de la IA Soberana. Cuenta atrás hacia la apertura oficial de firmas el 6 de abril de 2027.">
 	<meta property="og:title" content="6 de Abril · Europa reclama el dominio .IA | ECI(2026)000012">
@@ -44,7 +53,8 @@ eleventyExcludeFromCollections: true
 			initial-value: 0px;
 		}
 
-		:root {
+		:root, [data-theme="dark"] {
+			--theme-mode: dark;
 			--aegean-obsidian: #04060B;
 			--aegean-deep: #080E1C;
 			--aegean-midnight: #0A1326;
@@ -61,13 +71,39 @@ eleventyExcludeFromCollections: true
 			--bronze-border: rgba(200, 157, 60, 0.28);
 			--bronze-border-strong: rgba(242, 217, 141, 0.55);
 			--bronze-glow: rgba(200, 157, 60, 0.18);
-			--marble-white: #F8F6F0;
-			--parchment-muted: #C5BFB0;
-			--slate-muted: #7D8799;
-			--surface-card: rgba(10, 18, 36, 0.82);
-			--surface-elevated: rgba(14, 25, 52, 0.90);
-			--surface-glass: rgba(6, 12, 24, 0.72);
+			--marble-white: #FFFFFF;
+			--parchment-muted: #E2E8F0;
+			--slate-muted: #94A3B8;
+			--surface-card: rgba(10, 18, 36, 0.85);
+			--surface-elevated: rgba(14, 25, 52, 0.92);
+			--surface-glass: rgba(6, 12, 24, 0.78);
 			--spring-easing: linear(0, 0.016 0.5%, 0.06 1%, 0.226 2%, 1.116 5.4%, 1.375 6.6%, 1.527 7.7%, 1.565 8.2%, 1.585 8.8%, 1.581 9.3%, 1.559 9.8%, 1.458 10.9%, 0.937 14.3%, 0.784 15.5%, 0.693 16.6%, 0.67 17.1%, 0.657 17.7%, 0.671 18.7%, 0.729 19.8%, 1.042 23.3%, 1.13 24.5%, 1.182 25.6%, 1.201 26.7%, 1.192 27.7%, 1.156 28.8%, 0.977 32.2%, 0.925 33.4%, 0.894 34.5%, 0.882 35.6%, 0.887 36.6%, 0.907 37.7%, 1.045 42.4%, 1.069 44.5%, 1.059 46.3%, 0.979 50.9%, 0.96 53.4%, 0.966 55.3%, 1.013 59.9%, 1.024 62.3%, 0.986 71.2%, 1.008 79.9%, 0.995 88.9%, 1);
+		}
+
+		[data-theme="light"] {
+			--theme-mode: light;
+			--aegean-obsidian: #F8F7F4;
+			--aegean-deep: #FFFFFF;
+			--aegean-midnight: #F1EFEA;
+			--eu-blue-deep: #0B2559;
+			--eu-blue-royal: #003399;
+			--eu-blue-accent: #1D4ED8;
+			--eu-blue-glow: rgba(0, 51, 153, 0.12);
+			--bronze-light: #52370A;
+			--bronze-gold: #8C5E13;
+			--bronze-patina: #593E12;
+			--bronze-deep: #3D2908;
+			--verdigris-teal: #047857;
+			--verdigris-glow: rgba(4, 120, 87, 0.20);
+			--bronze-border: rgba(140, 94, 19, 0.22);
+			--bronze-border-strong: rgba(140, 94, 19, 0.42);
+			--bronze-glow: rgba(140, 94, 19, 0.12);
+			--marble-white: #0F172A;
+			--parchment-muted: #1E293B;
+			--slate-muted: #475569;
+			--surface-card: #FFFFFF;
+			--surface-elevated: #F8FAFC;
+			--surface-glass: rgba(255, 255, 255, 0.94);
 		}
 
 		* {
@@ -262,6 +298,30 @@ eleventyExcludeFromCollections: true
 			align-items: center;
 			gap: 0.65rem;
 			flex-wrap: wrap;
+		}
+
+		.btn-theme-toggle {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.45rem;
+			background: rgba(200, 157, 60, 0.12);
+			border: 1px solid var(--bronze-border-strong);
+			color: var(--bronze-light);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.74rem;
+			font-weight: 600;
+			padding: 0.38rem 0.72rem;
+			border-radius: 6px;
+			cursor: pointer;
+			transition: all 0.25s ease;
+			user-select: none;
+		}
+
+		.btn-theme-toggle:hover {
+			background: rgba(200, 157, 60, 0.25);
+			border-color: var(--bronze-light);
+			transform: translateY(-1px);
+			box-shadow: 0 0 14px rgba(200, 157, 60, 0.3);
 		}
 
 		.btn-modal-trigger {
@@ -2317,11 +2377,6 @@ eleventyExcludeFromCollections: true
 			max-width: 840px;
 			width: 100%;
 		}
-			padding: 1.25rem;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-		}
 		.tactical-timeline-img {
 			width: 100%;
 			height: auto;
@@ -2597,6 +2652,703 @@ eleventyExcludeFromCollections: true
 			border-radius: 50%;
 			border: 1px solid var(--bronze-light);
 		}
+
+		.modal-callout-box {
+			background: rgba(4, 6, 12, 0.7);
+			padding: 1rem;
+			border-radius: 8px;
+			border: 1px solid var(--bronze-border);
+			margin-bottom: 1rem;
+		}
+
+		/* ==========================================================================
+		   REGLAS ESPECÍFICAS DE ALTA PRECISIÓN: MODO CLARO (MÁRMOL Y BRONCE)
+		   ========================================================================== */
+		[data-theme="light"] html {
+			background-color: #F8F7F4;
+			color: #0F172A;
+		}
+
+		[data-theme="light"] body {
+			background-color: #F8F7F4;
+			color: #1E293B;
+			background-image:
+				radial-gradient(ellipse 90% 60% at 50% -10%, rgba(0, 51, 153, 0.08), transparent 70%),
+				radial-gradient(circle at 90% 25%, rgba(200, 157, 60, 0.08), transparent 45%),
+				radial-gradient(circle at 10% 75%, rgba(0, 51, 153, 0.06), transparent 50%),
+				linear-gradient(180deg, #F8F7F4 0%, #F1EFEA 40%, #EDE9E1 70%, #F8F7F4 100%);
+		}
+
+		[data-theme="light"] #aegeanAstrolabeCanvas {
+			opacity: 0.35;
+		}
+
+		[data-theme="light"] .inst-topbar {
+			background: rgba(255, 255, 255, 0.94);
+			border-bottom: 1px solid rgba(140, 94, 19, 0.22);
+			box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+		}
+
+		[data-theme="light"] .home-link {
+			background: rgba(0, 51, 153, 0.07);
+			border-color: rgba(140, 94, 19, 0.28);
+			color: #003399;
+		}
+
+		[data-theme="light"] .home-link:hover {
+			background: rgba(0, 51, 153, 0.15);
+			border-color: #003399;
+		}
+
+		[data-theme="light"] .inst-dossier-code {
+			color: #003399;
+		}
+
+		[data-theme="light"] .inst-dossier-sub {
+			color: #475569;
+		}
+
+		[data-theme="light"] .nav-pill-link {
+			color: #334155;
+		}
+
+		[data-theme="light"] .nav-pill-link:hover {
+			color: #003399;
+			background: rgba(0, 51, 153, 0.08);
+			border-color: rgba(0, 51, 153, 0.25);
+		}
+
+		[data-theme="light"] .btn-modal-trigger {
+			background: rgba(0, 51, 153, 0.08);
+			color: #003399;
+			border-color: rgba(0, 51, 153, 0.3);
+		}
+
+		[data-theme="light"] .btn-modal-trigger:hover {
+			background: #003399;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .btn-topbar-share {
+			background: rgba(140, 94, 19, 0.09);
+			color: #63430C;
+			border-color: rgba(140, 94, 19, 0.35);
+		}
+
+		[data-theme="light"] .btn-topbar-share:hover {
+			background: #8C5E13;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .btn-theme-toggle {
+			background: rgba(0, 51, 153, 0.08);
+			border-color: rgba(0, 51, 153, 0.3);
+			color: #003399;
+		}
+
+		[data-theme="light"] .btn-theme-toggle:hover {
+			background: rgba(0, 51, 153, 0.15);
+			border-color: #003399;
+			box-shadow: 0 0 14px rgba(0, 51, 153, 0.25);
+		}
+
+		[data-theme="light"] .btn-audio-toggle {
+			background: rgba(4, 120, 87, 0.08);
+			border-color: rgba(4, 120, 87, 0.35);
+			color: #047857;
+		}
+
+		[data-theme="light"] .btn-audio-toggle:hover,
+		[data-theme="light"] .btn-audio-toggle.is-active {
+			background: #047857;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .lang-select {
+			background-color: #FFFFFF;
+			color: #0F172A;
+			border-color: rgba(140, 94, 19, 0.35);
+			background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238C5E13' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+		}
+
+		[data-theme="light"] .lang-select option {
+			background-color: #FFFFFF;
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .hero-kicker-badge {
+			background: linear-gradient(90deg, rgba(0, 51, 153, 0.09) 0%, rgba(200, 157, 60, 0.12) 100%);
+			border-color: rgba(140, 94, 19, 0.28);
+			border-left-color: #8C5E13;
+			color: #63430C;
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+		}
+
+		[data-theme="light"] .hero-title .title-highlight {
+			background: linear-gradient(135deg, #0B2559 20%, #8C5E13 65%, #593E12 100%);
+			-webkit-background-clip: text;
+		}
+
+		[data-theme="light"] .legal-seal-card {
+			background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 100%);
+			border: 1px solid rgba(140, 94, 19, 0.32);
+			box-shadow: 0 16px 40px rgba(0, 30, 80, 0.08);
+		}
+
+		[data-theme="light"] .seal-medallion {
+			background: radial-gradient(circle, #003399 0%, #0B1B3D 100%);
+			border-color: #C89D3C;
+			box-shadow: 0 0 15px rgba(0, 51, 153, 0.25);
+		}
+
+		[data-theme="light"] .seal-label {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .seal-meta-tag {
+			background: rgba(0, 51, 153, 0.08);
+			border-color: rgba(0, 51, 153, 0.25);
+			color: #003399;
+		}
+
+		[data-theme="light"] .btn-doc-primary {
+			background: rgba(140, 94, 19, 0.1);
+			border-color: #8C5E13;
+			color: #63430C;
+		}
+
+		[data-theme="light"] .btn-doc-primary:hover {
+			background: #8C5E13;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .btn-doc-secondary {
+			background: rgba(0, 51, 153, 0.08);
+			border-color: rgba(0, 51, 153, 0.35);
+			color: #003399;
+		}
+
+		[data-theme="light"] .btn-doc-secondary:hover {
+			background: #003399;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .btn-doc-inspect {
+			background: rgba(4, 120, 87, 0.09);
+			border-color: rgba(4, 120, 87, 0.4);
+			color: #047857;
+		}
+
+		[data-theme="light"] .btn-doc-inspect:hover {
+			background: #047857;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .artifact-frame {
+			background: #F8F9FA;
+			border-color: rgba(140, 94, 19, 0.32);
+			box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+		}
+
+		[data-theme="light"] .artifact-coords {
+			background: rgba(255, 255, 255, 0.94);
+			border-color: rgba(140, 94, 19, 0.28);
+			color: #63430C;
+		}
+
+		[data-theme="light"] .artifact-controls-bar {
+			background: rgba(255, 255, 255, 0.95);
+			border-color: rgba(140, 94, 19, 0.25);
+		}
+
+		[data-theme="light"] .btn-xray-toggle {
+			background: rgba(140, 94, 19, 0.1);
+			border-color: rgba(140, 94, 19, 0.35);
+			color: #63430C;
+		}
+
+		[data-theme="light"] .btn-xray-toggle:hover {
+			background: #8C5E13;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .artifact-caption {
+			background: #FFFFFF;
+			border-top-color: rgba(140, 94, 19, 0.2);
+		}
+
+		[data-theme="light"] .artifact-caption-title {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .macro-card {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+		}
+
+		[data-theme="light"] .macro-card:hover {
+			border-color: #8C5E13;
+			box-shadow: 0 18px 45px rgba(0, 0, 0, 0.1);
+		}
+
+		[data-theme="light"] .macro-number {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .macro-number-sub {
+			color: #003399;
+		}
+
+		[data-theme="light"] .macro-svg-emblem,
+		[data-theme="light"] .pillar-svg-emblem {
+			background: radial-gradient(circle at 30% 30%, rgba(200, 157, 60, 0.15), #F8F9FA);
+			border-color: rgba(140, 94, 19, 0.35);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+		}
+
+		[data-theme="light"] .universe-shell {
+			background: linear-gradient(155deg, #FFFFFF 0%, #F6F8FC 100%);
+			border-color: rgba(140, 94, 19, 0.35);
+			box-shadow: 0 20px 50px rgba(0, 30, 80, 0.08);
+		}
+
+		[data-theme="light"] .universe-triad-card {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.3);
+			box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+		}
+
+		[data-theme="light"] .triad-overlay-badges {
+			background: rgba(248, 250, 252, 0.96);
+			border-top-color: rgba(140, 94, 19, 0.2);
+		}
+
+		[data-theme="light"] .triad-node-pill {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+		}
+
+		[data-theme="light"] .triad-node-pill:hover {
+			background: rgba(200, 157, 60, 0.12);
+			border-color: #8C5E13;
+		}
+
+		[data-theme="light"] .triad-node-role {
+			color: #047857;
+			font-weight: 700;
+		}
+
+		[data-theme="light"] .triad-node-name {
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .front-tab-btn {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			color: #334155;
+		}
+
+		[data-theme="light"] .front-tab-btn:hover,
+		[data-theme="light"] .front-tab-btn.active {
+			background: #003399;
+			border-color: #003399;
+			color: #FFFFFF;
+			box-shadow: 0 4px 14px rgba(0, 51, 153, 0.25);
+		}
+
+		[data-theme="light"] .front-panel-box {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.25);
+			border-left-color: #8C5E13;
+		}
+
+		[data-theme="light"] .front-panel-kicker {
+			color: #047857;
+		}
+
+		[data-theme="light"] .documentary-showcase-box {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+		}
+
+		[data-theme="light"] .tactical-timeline-img {
+			border-color: rgba(140, 94, 19, 0.25);
+			background: #F8F9FA;
+		}
+
+		[data-theme="light"] .horology-section {
+			background:
+				radial-gradient(circle at 50% 0%, rgba(200, 157, 60, 0.14), transparent 65%),
+				linear-gradient(180deg, #FFFFFF 0%, #F5F7FC 100%);
+			border-color: rgba(140, 94, 19, 0.35);
+			box-shadow: 0 25px 60px rgba(0, 30, 80, 0.09);
+		}
+
+		[data-theme="light"] .horology-astrolabe-bg {
+			opacity: 0.07;
+			filter: invert(1);
+		}
+
+		[data-theme="light"] .clock-badge {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.3);
+			color: #63430C;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+		}
+
+		[data-theme="light"] .gear-telemetry-badge {
+			background: #F1F5F9;
+			border-color: rgba(4, 120, 87, 0.35);
+			color: #047857;
+		}
+
+		[data-theme="light"] .countdown-cell {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.3);
+			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+		}
+
+		[data-theme="light"] .cd-progress-circle-bg {
+			stroke: rgba(140, 94, 19, 0.15);
+		}
+
+		[data-theme="light"] .countdown-number {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .btn-time-warp {
+			background: rgba(140, 94, 19, 0.09);
+			border-color: rgba(140, 94, 19, 0.35);
+			color: #63430C;
+		}
+
+		[data-theme="light"] .btn-time-warp:hover {
+			background: rgba(140, 94, 19, 0.2);
+			border-color: #8C5E13;
+		}
+
+		[data-theme="light"] .ocs-master-btn.is-locked {
+			background: linear-gradient(135deg, #003399 0%, #0B1B3D 100%);
+			border-color: #C89D3C;
+			color: #F8F6F0;
+			box-shadow: 0 10px 30px rgba(0, 51, 153, 0.25);
+		}
+
+		[data-theme="light"] .ocs-master-btn.is-locked:hover {
+			background: linear-gradient(135deg, #0B2559 0%, #003399 100%);
+			box-shadow: 0 15px 35px rgba(0, 51, 153, 0.35);
+		}
+
+		[data-theme="light"] .simulator-card {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			box-shadow: 0 15px 45px rgba(0, 0, 0, 0.07);
+		}
+
+		[data-theme="light"] .compare-box {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.2);
+		}
+
+		[data-theme="light"] .compare-box.bad {
+			background: #FEF2F2;
+			border-color: rgba(239, 68, 68, 0.3);
+			border-top-color: #EF4444;
+		}
+
+		[data-theme="light"] .compare-box.bad .compare-badge {
+			color: #DC2626;
+		}
+
+		[data-theme="light"] .compare-box.good {
+			background: #F0FDF4;
+			border-color: rgba(16, 185, 129, 0.35);
+			border-top-color: #047857;
+			box-shadow: 0 0 25px rgba(16, 185, 129, 0.08);
+		}
+
+		[data-theme="light"] .compare-box.good .compare-badge {
+			color: #047857;
+		}
+
+		[data-theme="light"] .dns-tester-console {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.25);
+		}
+
+		[data-theme="light"] .dns-tester-title {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .dns-input {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.32);
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .dns-preset-chip {
+			background: rgba(0, 51, 153, 0.08);
+			border-color: rgba(0, 51, 153, 0.25);
+			color: #003399;
+		}
+
+		[data-theme="light"] .dns-preset-chip:hover {
+			background: #003399;
+			color: #FFFFFF;
+		}
+
+		[data-theme="light"] .dns-node {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.2);
+		}
+
+		[data-theme="light"] .dns-node.active {
+			background: #ECFDF5;
+			border-color: #047857;
+		}
+
+		[data-theme="light"] .dns-node.active .dns-node-status {
+			color: #047857;
+		}
+
+		[data-theme="light"] .odyssey-tab-btn {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			color: #334155;
+		}
+
+		[data-theme="light"] .odyssey-tab-btn:hover,
+		[data-theme="light"] .odyssey-tab-btn.active {
+			background: #003399;
+			border-color: #003399;
+			color: #FFFFFF;
+			box-shadow: 0 4px 14px rgba(0, 51, 153, 0.25);
+		}
+
+		[data-theme="light"] .odyssey-viewer-card {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			box-shadow: 0 15px 45px rgba(0, 0, 0, 0.07);
+		}
+
+		[data-theme="light"] .odyssey-art-frame {
+			background: #F8F9FA;
+			border-color: rgba(140, 94, 19, 0.3);
+		}
+
+		[data-theme="light"] .odyssey-badge-epoch {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .odyssey-meta-chip {
+			background: rgba(0, 51, 153, 0.08);
+			border-color: rgba(0, 51, 153, 0.25);
+			color: #003399;
+		}
+
+		[data-theme="light"] .pillar-card {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+		}
+
+		[data-theme="light"] .pillar-card:hover {
+			border-color: #8C5E13;
+			box-shadow: 0 18px 45px rgba(0, 0, 0, 0.1);
+		}
+
+		[data-theme="light"] .pillar-icon-badge {
+			background: rgba(0, 51, 153, 0.08);
+			border-color: rgba(0, 51, 153, 0.25);
+		}
+
+		[data-theme="light"] .pillar-tag {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .committee-panel {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.28);
+			box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+		}
+
+		[data-theme="light"] .committee-header {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .nation-tile {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.25);
+		}
+
+		[data-theme="light"] .nation-tile:hover,
+		[data-theme="light"] .nation-tile.active {
+			background: rgba(200, 157, 60, 0.15);
+			border-color: #8C5E13;
+		}
+
+		[data-theme="light"] .nation-code {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .nation-name {
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .cascade-calc-box {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.3);
+		}
+
+		[data-theme="light"] .cascade-calc-header {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .cascade-slider-value {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .cascade-highlight {
+			color: #047857;
+		}
+
+		[data-theme="light"] .pioneer-form-card,
+		[data-theme="light"] .donation-card {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+		}
+
+		[data-theme="light"] .donation-card {
+			background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+			border-top-color: #003399;
+		}
+
+		[data-theme="light"] .field-label {
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .field-input {
+			background: #FFFFFF;
+			border: 1.5px solid rgba(140, 94, 19, 0.35);
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .field-input:focus {
+			border-color: #003399;
+			box-shadow: 0 0 0 3px rgba(0, 51, 153, 0.15);
+		}
+
+		[data-theme="light"] .btn-donate-disabled {
+			background: #F1F5F9;
+			color: #64748B;
+			border-color: rgba(140, 94, 19, 0.25);
+		}
+
+		[data-theme="light"] .social-share-bar {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+		}
+
+		[data-theme="light"] .social-share-label {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .share-pill {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.25);
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .share-pill:hover {
+			background: rgba(200, 157, 60, 0.15);
+			border-color: #8C5E13;
+			color: #63430C;
+		}
+
+		[data-theme="light"] .oracle-terminal-card {
+			background: linear-gradient(165deg, #FFFFFF 0%, #F8FAFC 100%);
+			border-color: rgba(140, 94, 19, 0.32);
+			box-shadow: 0 20px 50px rgba(0, 30, 80, 0.08);
+		}
+
+		[data-theme="light"] .oracle-avatar-ring {
+			border-color: #8C5E13;
+			background: #F8FAFC;
+		}
+
+		[data-theme="light"] .oracle-prompt-chip {
+			background: #F1F5F9;
+			border-color: rgba(140, 94, 19, 0.25);
+			color: #334155;
+		}
+
+		[data-theme="light"] .oracle-prompt-chip:hover {
+			background: rgba(200, 157, 60, 0.15);
+			border-color: #8C5E13;
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .oracle-chat-window {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.25);
+		}
+
+		[data-theme="light"] .oracle-msg.bot {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.25);
+			border-left-color: #8C5E13;
+			color: #1E293B;
+		}
+
+		[data-theme="light"] .oracle-msg.user {
+			background: linear-gradient(135deg, #003399 0%, #0B2559 100%);
+			color: #FFFFFF;
+			border: none;
+		}
+
+		[data-theme="light"] .oracle-text-input {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.35);
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .floating-oracle-orb {
+			background: #FFFFFF;
+			color: #63430C;
+			border-color: #8C5E13;
+			box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+		}
+
+		[data-theme="light"] dialog#decisionModal {
+			background: #FFFFFF;
+			color: #0F172A;
+			border-color: rgba(140, 94, 19, 0.35);
+			box-shadow: 0 25px 60px rgba(0, 0, 0, 0.22);
+		}
+
+		[data-theme="light"] dialog#decisionModal::backdrop {
+			background: rgba(15, 23, 42, 0.55);
+		}
+
+		[data-theme="light"] .modal-callout-box {
+			background: #F8FAFC;
+			border-color: rgba(140, 94, 19, 0.25);
+		}
+
+		[data-theme="light"] .modal-close-btn {
+			border-color: rgba(140, 94, 19, 0.28);
+			color: #334155;
+		}
+
+		[data-theme="light"] .modal-close-btn:hover {
+			background: rgba(140, 94, 19, 0.12);
+			color: #63430C;
+			border-color: #8C5E13;
+		}
 	</style>
 
 	<!-- Google tag (gtag.js) -->
@@ -2658,6 +3410,11 @@ eleventyExcludeFromCollections: true
 			</nav>
 
 			<div class="topbar-actions">
+				<button type="button" class="btn-theme-toggle" id="btnThemeToggle" aria-label="Cambiar tema claro/oscuro" title="Alternar entre modo claro y modo oscuro">
+					<span class="theme-icon" id="themeToggleIcon" aria-hidden="true">☀️</span>
+					<span class="theme-label" id="themeToggleLabel" data-i18n="theme_btn_light">Modo Claro</span>
+				</button>
+
 				<button type="button" class="btn-audio-toggle" id="btnAudioToggle" aria-pressed="false" title="Activar sonido mecánico del astrolabio de bronce">
 					<span class="audio-wave-dot"></span>
 					<span data-i18n="btn_audio_label">Pulso Sonoro</span>
@@ -3532,7 +4289,7 @@ eleventyExcludeFromCollections: true
 			<p style="margin-bottom:0.85rem;">
 				Adoptada en Estrasburgo el <strong>6 de octubre de 2026</strong> bajo la presidencia del Colegio de Comisarios. El texto en <strong>lengua española</strong> es el único auténtico.
 			</p>
-			<div style="background:rgba(4,6,12,0.7);padding:1rem;border-radius:8px;border:1px solid var(--bronze-border);margin-bottom:1rem;">
+			<div class="modal-callout-box">
 				<strong style="color:var(--marble-white);display:block;margin-bottom:4px;">Título Registrado:</strong>
 				<em>«Creación del Distrito Digital Europeo (.IA) para la Gobernanza de la IA Soberana»</em>
 			</div>
