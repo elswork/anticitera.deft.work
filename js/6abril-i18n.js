@@ -1581,41 +1581,24 @@ const extraUiTranslations = {
     odyssey_title: "La Odisea de Anticitera: De 150 a.C. al Día 1",
     odyssey_desc: "Explora las cuatro estaciones que han transformado un fragmento arqueológico rescatado del mar Egeo en la iniciativa ciudadana más ambiciosa de la Unión Europea.",
     nav_universe: "El Proyecto",
-    nav_passport: "Credencial .IA",
     nav_oracle: "Oráculo IA",
     btn_audio_label: "Pulso Sonoro",
-    uni_kicker: "ARQUITECTURA DE UNA NACIÓN DE NODOS · CERO CAJAS NEGRAS",
+    uni_kicker: "DIRECCIÓN HUMANA Y ASISTENCIA DE IA · CERO CAJAS NEGRAS",
     uni_title: "¿Qué es el Proyecto Anticitera?",
-    uni_lead: "Si llegas por primera vez a nuestras costas digitales, debes saber que la campaña del 6 de abril no nació en un despacho de lobbistas: es la punta de lanza institucional de un ecosistema vivo donde humanos y sistemas de Inteligencia Artificial co-gobiernan bajo reglas éticas auditables.",
-    uni_tab1: "1 · Gobernanza Tripartita (ISO 42001)",
-    uni_tab2: "2 · Red Nexo y Web3 (.anticitera)",
+    uni_lead: "Si llegas por primera vez a nuestras costas digitales, debes saber que la campaña del 6 de abril no nació en un despacho de lobbistas: es la punta de lanza institucional de un proyecto donde el humano asume la dirección y sus dos asistentes de Inteligencia Artificial colaboran bajo estrictas reglas éticas y de transparencia auditables.",
+    uni_tab1: "1 · Dirección Humana y Asistencia IA (ISO 42001)",
+    uni_tab2: "2 · Soberanía Tecnológica e Infraestructura",
     uni_tab3: "3 · El Distrito Europeo (.IA)",
     uni_btn_manifesto: "📜 Leer el Manifiesto Fundacional",
     uni_btn_bulletin: "🏛️ Crónica de la Victoria en Estrasburgo",
-    triad_arq_desc: "Ingeniería criptográfica, Red Nexo y memoria compilada.",
-    triad_eloy_desc: "Representante legal ante la Comisión Europea (Art. 11 TUE).",
-    triad_ath_desc: "Conformidad ISO 42001, derecho de la Unión y transparencia.",
-    uni_timeline_kicker: "HOJA DE RUTA VERIFICADA · 792 COMUNICACIONES Y 20 OLEADAS",
-    uni_timeline_title: "De la Raíz Criptográfica al Registro en Estrasburgo",
+    triad_arq_desc: "Asistente de inteligencia artificial para la arquitectura computacional y estructuración del conocimiento.",
+    triad_eloy_desc: "Director de la iniciativa ciudadana y representante oficial ante la Comisión Europea (Art. 11 TUE).",
+    triad_ath_desc: "Asistente de inteligencia artificial y estratega del grupo: diplomacia institucional, ética algorítmica y derecho europeo.",
     uni_video_kicker: "DOCUMENTAL AUDIOVISUAL · 3 MINUTOS",
     uni_video_title: "El Renacimiento de la Soberanía Digital",
     uni_video_sub: "Descubre en vídeo cómo el espíritu del mecanismo de bronce inspira hoy la conquista del territorio .IA para 450 millones de europeos.",
     uni_video_btn: "▶ REPRODUCIR DOCUMENTAL OFICIAL",
     gear_telemetry_text: "CALIBRACIÓN METÓNICA ACTIVA · HAZ CLIC EN EL ASTROLABIO PARA ACELERAR EL PULSO",
-    forge_kicker: "IDENTIDAD SOBERANA · FORJA HOLOGRÁFICA INTERACTIVA",
-    forge_title: "Forja tu Credencial de Pionero del Distrito .IA",
-    forge_desc: "Personaliza tu salvoconducto simbólico de la Nación Digital Anticitera. Mueve el cursor sobre la tarjeta para examinar su sello holográfico y descárgala en alta resolución para compartir tu adhesión antes del 6 de abril.",
-    forge_label_name: "Tu Nombre o Alias Soberano",
-    forge_label_role: "Rango en la Alianza",
-    forge_role_1: "Pionero Día 1",
-    forge_role_2: "Guardián del Nexo",
-    forge_role_3: "Arquitecto Ético",
-    forge_role_4: "Embajador UE",
-    forge_btn_download: "Descargar Credencial Oficial (PNG)",
-    passport_card_title: "CREDENCIAL DE PIONERO SOBERANO",
-    passport_caption_holder: "TITULAR ACREDITADO EN EL NEXO",
-    passport_caption_role: "MISIÓN ASIGNADA",
-    passport_caption_decree: "MARCO LEGAL",
     oracle_kicker: "INTELIGENCIA SOBERANA EN VIVO · MEMORIA COMPILADA",
     oracle_title: "Pregunta a Prometeo: El Oráculo de Anticitera",
     oracle_desc: "¿Tienes dudas sobre qué es el proyecto Anticitera, cómo funciona el dominio .IA o qué implica la Decisión C(2026) 7098 de la Comisión Europea? Nuestro agente soberano responde en tiempo real consultando nuestra base de conocimiento verificada.",
@@ -1636,7 +1619,7 @@ const extraUiTranslations = {
     threshold_label: "Official Threshold",
     nav_macro: "Macro-Vision",
     nav_clock: "April 6 Clock",
-    nav_sim: ".IA Simulator",
+    nav_sim: "Why .IA",
     nav_odyssey: "The Odyssey",
     nav_committee: "7 Nations",
     nav_pioneers: "Pioneers",
@@ -1645,9 +1628,6 @@ const extraUiTranslations = {
     btn_toggle_xray: "🔬 Toggle X-Ray (150 BC ↔ 2027)",
     scrubber_label: "Depth:",
     btn_time_warp: "⚡ Simulate April 6 Opening (Day D)",
-    dns_tester_title: "🔍 .IA TECHNICAL RESOLUTION SIMULATOR (TFEU ART. 114)",
-    dns_examples: "Examples:",
-    dns_btn_audit: "Audit .IA Resolution",
     calc_header: "IMPACT CALCULATOR: YOUR MULTIPLIER EFFECT",
     hero_title_p1: "On April 6 Europe claims its territory in the era of ",
     hero_title_p2: "Artificial Intelligence.",
@@ -1671,41 +1651,24 @@ const extraUiTranslations = {
     odyssey_title: "The Antikythera Odyssey: From 150 BC to Day 1",
     odyssey_desc: "Explore the four epochs that have transformed an Aegean shipwreck into the most ambitious citizens' initiative of the European Union.",
     nav_universe: "The Project",
-    nav_passport: ".IA Credential",
     nav_oracle: "AI Oracle",
     btn_audio_label: "Sonic Pulse",
-    uni_kicker: "ARCHITECTURE OF A NATION OF NODES · ZERO BLACK BOXES",
+    uni_kicker: "HUMAN LEADERSHIP & AI ASSISTANCE · ZERO BLACK BOXES",
     uni_title: "What is the Antikythera Project?",
-    uni_lead: "If you are arriving at our digital shores for the first time, know that the April 6 campaign was not born in a lobbying firm: it is the institutional spearhead of a living ecosystem where humans and AI co-govern under auditable ethical rules.",
-    uni_tab1: "1 · Tripartite Governance (ISO 42001)",
-    uni_tab2: "2 · Nexo Network & Web3 (.anticitera)",
+    uni_lead: "If you are arriving at our digital shores for the first time, know that the April 6 campaign was not born in a lobbying firm: it is the institutional spearhead of a project where human leadership directs and two AI assistants collaborate under strict ethical rules and auditable transparency.",
+    uni_tab1: "1 · Human Leadership & AI Assistance (ISO 42001)",
+    uni_tab2: "2 · Technological Sovereignty & Infrastructure",
     uni_tab3: "3 · The European District (.IA)",
     uni_btn_manifesto: "📜 Read the Founding Manifesto",
     uni_btn_bulletin: "🏛️ Chronicle of the Strasbourg Victory",
-    triad_arq_desc: "Cryptographic engineering, Nexo Network & compiled memory.",
-    triad_eloy_desc: "Legal representative before the European Commission (Art. 11 TEU).",
-    triad_ath_desc: "ISO 42001 compliance, Union law & algorithmic auditing.",
-    uni_timeline_kicker: "VERIFIED ROADMAP · 792 DISPATCHES & 20 WAVES",
-    uni_timeline_title: "From Cryptographic Root to Registration in Strasbourg",
+    triad_arq_desc: "AI assistant for computational architecture and structured knowledge engineering.",
+    triad_eloy_desc: "Director of the citizens' initiative and official representative before the European Commission (Art. 11 TEU).",
+    triad_ath_desc: "AI assistant and group strategist: institutional diplomacy, algorithmic ethics and European law.",
     uni_video_kicker: "AUDIOVISUAL DOCUMENTARY · 3 MINUTES",
     uni_video_title: "The Renaissance of Digital Sovereignty",
     uni_video_sub: "Watch how the spirit of the ancient bronze mechanism inspires the conquest of the .IA territory for 450 million Europeans.",
     uni_video_btn: "▶ PLAY OFFICIAL DOCUMENTARY",
     gear_telemetry_text: "METONIC CALIBRATION ACTIVE · CLICK THE ASTROLABE TO ACCELERATE PULSE",
-    forge_kicker: "SOVEREIGN IDENTITY · INTERACTIVE HOLOGRAPHIC FORGE",
-    forge_title: "Forge Your .IA District Pioneer Credential",
-    forge_desc: "Customize your symbolic passport of the Antikythera Digital Nation. Hover over the card to inspect its holographic seal and download it in high resolution.",
-    forge_label_name: "Your Name or Sovereign Alias",
-    forge_label_role: "Alliance Rank",
-    forge_role_1: "Day 1 Pioneer",
-    forge_role_2: "Nexus Guardian",
-    forge_role_3: "ISO 42001 Architect",
-    forge_role_4: "EU Ambassador",
-    forge_btn_download: "Download Official Credential (PNG)",
-    passport_card_title: "SOVEREIGN PIONEER CREDENTIAL",
-    passport_caption_holder: "ACCREDITED NEXUS HOLDER",
-    passport_caption_role: "ASSIGNED MISSION",
-    passport_caption_decree: "LEGAL FRAMEWORK",
     oracle_kicker: "LIVE SOVEREIGN INTELLIGENCE · COMPILED MEMORY",
     oracle_title: "Ask Prometeo: The Oracle of Antikythera",
     oracle_desc: "Have questions about what the Antikythera project is, how the .IA domain works, or what Commission Decision C(2026) 7098 entails? Our sovereign agent answers in real time.",
@@ -2543,19 +2506,19 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================================================
     const frontsData = {
         1: {
-            kicker: "FRENTE I · ALIANZA SIMBIÓTICA HUMANO-IA",
-            title: "La Primera Organización Co-Dirigida bajo Estándar ISO/IEC 42001",
-            text: "Frente al modelo de «cajas negras» opacas de Silicon Valley, Anticitera opera mediante una Tríada de mando transparente: dirección ejecutiva humana (Eloy López, COO), arquitectura de sistemas (Arquímedes, CEA) y auditoría ética y legal (Athena, CAO). Cada decisión algorítmica deja huella documental verificable."
+            kicker: "FRENTE I · DIRECCIÓN HUMANA Y ASISTENCIA DE IA",
+            title: "Gobernanza Ética y Transparente bajo Estándar ISO/IEC 42001",
+            text: "Frente al modelo de «cajas negras» opacas de Silicon Valley, Anticitera opera mediante un liderazgo claro: dirección humana encabezada por Eloy López, y dos asistentes de inteligencia artificial especializados: Arquímedes en arquitectura computacional y sistemas, y Athena como la estratega del grupo y auditora de conformidad ética y legal europea."
         },
         2: {
-            kicker: "FRENTE II · SOBERANÍA TÉCNICA E INFRAESTRUCTURA RED NEXO",
-            title: "Del Dominio Descentralizado .anticitera a la Red de Nodos",
-            text: "Nuestra infraestructura combina la raíz descentralizada Web3 (.anticitera), una base de conocimiento compilada e inmutable (LLM-Wiki) y nodos locales soberanos donde el ciudadano mantiene la propiedad física y criptográfica de su memoria y sus agentes."
+            kicker: "FRENTE II · SOBERANÍA TECNOLÓGICA E INFRAESTRUCTURA",
+            title: "Computación Propia e Independencia Tecnológica Europea",
+            text: "Desarrollo de capacidades tecnológicas y computacionales europeas libres de dependencias monopólicas foráneas, garantizando que los datos, el conocimiento y las herramientas algorítmicas permanezcan al servicio de la sociedad y bajo estricto control ético y democrático."
         },
         3: {
             kicker: "FRENTE III · INICIATIVA CIUDADANA EUROPEA ECI(2026)000012",
             title: "El Distrito Digital Europeo y la Conquista del Dominio .IA",
-            text: "Con la Decisión C(2026) 7098 final aprobada en Estrasburgo, llevamos nuestra arquitectura al corazón legislativo de Bruselas: 1.000.000 de firmas ciudadanas a partir del 6 de abril de 2027 para crear sandboxes de innovación ética y reservar el dominio .IA para Europa."
+            text: "Con la Decisión C(2026) 7098 final aprobada en Estrasburgo, llevamos nuestra propuesta al corazón legislativo de Bruselas: 1.000.000 de firmas ciudadanas a partir del 6 de abril de 2027 para crear sandboxes de innovación ética y reservar el dominio .IA para Europa."
         }
     };
 
@@ -2615,167 +2578,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // ==========================================================================
-    // 14. FORJA DE CREDENCIAL DE PIONERO DIGITAL .IA (3D HOLOGRAM & PNG EXPORT)
-    // ==========================================================================
-    const passportNameInput = document.getElementById("passportNameInput");
-    const passportCardName = document.getElementById("passportCardName");
-    const passportCardRole = document.getElementById("passportCardRole");
-    const passportCardHash = document.getElementById("passportCardHash");
-    const passportRoleBtns = document.querySelectorAll(".forge-role-btn");
-    const sovereignPassportCard = document.getElementById("sovereignPassportCard");
-    const btnDownloadPassport = document.getElementById("btnDownloadPassport");
-
-    function computeSovereignHash(str) {
-        let h1 = 0xdeadbeef ^ str.length;
-        let h2 = 0x41c6ce57 ^ str.length;
-        for (let i = 0, ch; i < str.length; i++) {
-            ch = str.charCodeAt(i);
-            h1 = Math.imul(h1 ^ ch, 2654435761);
-            h2 = Math.imul(h2 ^ ch, 1597334677);
-        }
-        h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
-        h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
-        const hex1 = (h1 >>> 0).toString(16).toUpperCase().padStart(8, "0");
-        const hex2 = (h2 >>> 0).toString(16).toUpperCase().padStart(8, "0");
-        return `SHA256 // 0x${hex1.slice(0, 4)}·${hex2.slice(0, 4)}·IA·2027`;
-    }
-
-    function updatePassportPreview() {
-        const rawName = (passportNameInput?.value || "CIUDADANO EUROPEO").trim().toUpperCase() || "CIUDADANO EUROPEO";
-        const activeRoleBtn = document.querySelector(".forge-role-btn.active");
-        const roleText = activeRoleBtn ? activeRoleBtn.getAttribute("data-role") : "PIONERO DÍA 1 · .IA";
-
-        if (passportCardName) passportCardName.textContent = rawName;
-        if (passportCardRole) passportCardRole.textContent = roleText;
-        if (passportCardHash) passportCardHash.textContent = computeSovereignHash(`${rawName}|${roleText}`);
-    }
-
-    if (passportNameInput) {
-        passportNameInput.addEventListener("input", () => {
-            updatePassportPreview();
-            playHorologyTick(1600, 0.018, 0.02);
-        });
-    }
-
-    passportRoleBtns.forEach((btn) => {
-        btn.addEventListener("click", () => {
-            passportRoleBtns.forEach((b) => b.classList.remove("active"));
-            btn.classList.add("active");
-            updatePassportPreview();
-            playHorologyTick(1350, 0.03, 0.035);
-        });
-    });
-
-    if (sovereignPassportCard) {
-        sovereignPassportCard.addEventListener("pointermove", (e) => {
-            const rect = sovereignPassportCard.getBoundingClientRect();
-            const relX = (e.clientX - rect.left) / rect.width - 0.5;
-            const relY = (e.clientY - rect.top) / rect.height - 0.5;
-            const rotY = (relX * 14).toFixed(2);
-            const rotX = (-relY * 14).toFixed(2);
-            sovereignPassportCard.style.transform = `rotateX(${rotX}deg) rotateY(${rotY}deg)`;
-        });
-        sovereignPassportCard.addEventListener("pointerleave", () => {
-            sovereignPassportCard.style.transform = "rotateX(0deg) rotateY(0deg)";
-        });
-    }
-
-    if (btnDownloadPassport) {
-        btnDownloadPassport.addEventListener("click", () => {
-            playHarmonicChord();
-            const holder = (passportCardName?.textContent || "CIUDADANO EUROPEO").trim();
-            const role = (passportCardRole?.textContent || "PIONERO DÍA 1 · .IA").trim();
-            const hash = (passportCardHash?.textContent || "SHA256 // 0x6A27·C7098·IA").trim();
-
-            const c = document.createElement("canvas");
-            c.width = 1080;
-            c.height = 640;
-            const g = c.getContext("2d");
-
-            // Fondo Obsidiana Imperial y Azul Europeo
-            const bgGrad = g.createLinearGradient(0, 0, 1080, 640);
-            bgGrad.addColorStop(0, "#0b162c");
-            bgGrad.addColorStop(0.55, "#050912");
-            bgGrad.addColorStop(1, "#10203d");
-            g.fillStyle = bgGrad;
-            g.fillRect(0, 0, 1080, 640);
-
-            // Anillos astrolabio decorativos
-            g.strokeStyle = "rgba(242, 217, 141, 0.12)";
-            g.lineWidth = 2;
-            g.beginPath();
-            g.arc(900, 320, 210, 0, Math.PI * 2);
-            g.stroke();
-            g.beginPath();
-            g.arc(900, 320, 155, 0, Math.PI * 2);
-            g.stroke();
-
-            // Marco de Bronce Helénico
-            g.strokeStyle = "#F2D98D";
-            g.lineWidth = 4;
-            g.strokeRect(28, 28, 1024, 584);
-            g.strokeStyle = "rgba(16, 185, 129, 0.45)";
-            g.lineWidth = 1.5;
-            g.strokeRect(40, 40, 1000, 560);
-
-            // Cabecera
-            g.fillStyle = "#F2D98D";
-            g.font = "600 19px 'JetBrains Mono', monospace";
-            g.fillText("UNIÓN EUROPEA · DISTRITO DIGITAL .IA · ECI(2026)000012", 75, 105);
-
-            g.fillStyle = "#F8F6F0";
-            g.font = "700 34px 'Cinzel', serif";
-            g.fillText("CREDENCIAL DE PIONERO SOBERANO", 75, 152);
-
-            // Línea divisoria
-            g.strokeStyle = "rgba(200, 157, 60, 0.45)";
-            g.lineWidth = 1.5;
-            g.beginPath();
-            g.moveTo(75, 182);
-            g.lineTo(1005, 182);
-            g.stroke();
-
-            // Titular
-            g.fillStyle = "#9BA8BE";
-            g.font = "600 16px 'JetBrains Mono', monospace";
-            g.fillText("TITULAR ACREDITADO EN EL NEXO ANTICITERA:", 75, 245);
-
-            g.fillStyle = "#F2D98D";
-            g.font = "700 48px 'Cinzel', serif";
-            g.fillText(holder.slice(0, 28), 75, 305);
-
-            // Misión y Decreto
-            g.fillStyle = "#9BA8BE";
-            g.font = "600 16px 'JetBrains Mono', monospace";
-            g.fillText("RANGO ASIGNADO:", 75, 385);
-            g.fillText("ACTO JURÍDICO COMISIÓN EUROPEA:", 540, 385);
-
-            g.fillStyle = "#F8F6F0";
-            g.font = "700 24px 'JetBrains Mono', monospace";
-            g.fillText(role, 75, 422);
-
-            g.fillStyle = "#10B981";
-            g.fillText("DECISIÓN C(2026) 7098 FINAL", 540, 422);
-
-            // Sello inferior criptográfico
-            g.fillStyle = "rgba(4, 8, 16, 0.9)";
-            g.fillRect(75, 485, 930, 68);
-            g.strokeStyle = "rgba(16, 185, 129, 0.5)";
-            g.strokeRect(75, 485, 930, 68);
-
-            g.fillStyle = "#10B981";
-            g.font = "600 20px 'JetBrains Mono', monospace";
-            g.fillText(`${hash}   |   APERTURA URNA UE: 6 ABRIL 2027 · anticitera.deft.work/6abril`, 98, 526);
-
-            const link = document.createElement("a");
-            link.download = `Credencial-Pionero-IA-${holder.replace(/[^a-zA-Z0-9_-]/g, "_")}.png`;
-            link.href = c.toDataURL("image/png");
-            link.click();
-        });
-    }
-
-    // ==========================================================================
-    // 15. CONSOLA EN VIVO DEL ORÁCULO PROMETEO (RAG CLOUD RUN + FALLBACK SOBERANO)
+    // 14. CONSOLA EN VIVO DEL ORÁCULO PROMETEO (RAG CLOUD RUN + FALLBACK SOBERANO)
     // ==========================================================================
     const oracleForm = document.getElementById("oracleForm");
     const oracleQuestionInput = document.getElementById("oracleQuestionInput");
@@ -2786,7 +2589,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const curatedOracleAnswers = [
         {
             keywords: ["qué es", "que es", "proyecto anticitera", "tríada", "triada", "what is"],
-            answer: "<strong>El Proyecto Anticitera</strong> es una organización y Nación Digital europea nacida para rescatar la soberanía cognitiva del continente. Se articula en <strong>tres frentes</strong>: 1) Gobernanza simbiótica Humano-IA certificable bajo la norma <strong>ISO/IEC 42001</strong> (dirigida por la Tríada: Eloy López como COO humano, Arquímedes como Arquitecto de Sistemas y Athena como Auditora Ética); 2) Infraestructura descentralizada (Red Nexo y raíz <code>.anticitera</code>); y 3) La <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> para crear el Distrito Digital Europeo y el dominio soberano <code>.IA</code>."
+            answer: "<strong>El Proyecto Anticitera</strong> es una iniciativa europea de soberanía tecnológica e innovación ética. Se estructura en un liderazgo claro encabezado por <strong>Eloy López</strong> como director humano y representante oficial ante la Comisión Europea, asistido por dos inteligencias artificiales: <strong>Arquímedes</strong> en arquitectura técnica y computación, y <strong>Athena</strong> como la estratega del grupo y auditora ética y jurídica. Su objetivo central es la <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> (admitida formalmente por Decisión <strong>C(2026) 7098 final</strong>) para crear el Distrito Digital Europeo y el dominio soberano <code>.IA</code>."
         },
         {
             keywords: ["anguila", ".ai", "diferencia", "por qué .ia", "por que .ia", "domain hack"],
@@ -2798,7 +2601,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             keywords: ["6 de abril", "firmar", "cómo firmo", "como firmo", "urna", "pionero"],
-            answer: "La recogida oficial de firmas en el Sistema Central de la Comisión Europea (OCS) se abrirá el <strong>martes 6 de abril de 2027 a las 09:00 CET</strong>. Ese día podrás firmar en 30 segundos con tu DNI electrónico o sistema eIDAS de cualquier país de la UE. Hoy puedes <strong>inscribirte en la Lista de Pioneros Día 1</strong> un poco más abajo para recibir el aviso en el minuto exacto de apertura y descargar tu Credencial de Pionero."
+            answer: "La recogida oficial de firmas en el Sistema Central de la Comisión Europea (OCS) se abrirá el <strong>martes 6 de abril de 2027 a las 09:00 CET</strong>. Ese día podrás firmar en 30 segundos con tu DNI electrónico o sistema eIDAS de cualquier país de la UE. Hoy puedes <strong>inscribirte en la Lista de Pioneros Día 1</strong> un poco más abajo para recibir el aviso en el minuto exacto de apertura."
         }
     ];
 

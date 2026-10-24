@@ -2295,25 +2295,24 @@
 			line-height: 1.65;
 		}
 
-		/* Cronología Táctica Vectorial y Documental */
+		/* Cronología Táctica y Documental */
 		.universe-bottom-grid {
-			display: grid;
-			grid-template-columns: 1.2fr 0.8fr;
-			gap: 1.75rem;
+			display: flex;
+			justify-content: center;
 			padding-top: 2rem;
 			border-top: 1px solid rgba(200, 157, 60, 0.22);
-			align-items: stretch;
 		}
-		@media (max-width: 980px) {
-			.universe-bottom-grid {
-				grid-template-columns: 1fr;
-			}
-		}
-		.tactical-timeline-box,
 		.documentary-showcase-box {
 			background: rgba(5, 9, 18, 0.82);
 			border: 1px solid var(--bronze-border);
 			border-radius: 14px;
+			padding: 1.5rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			max-width: 840px;
+			width: 100%;
+		}
 			padding: 1.25rem;
 			display: flex;
 			flex-direction: column;
@@ -2421,178 +2420,7 @@
 			margin-bottom: 1.75rem;
 		}
 
-		/* ==========================================================================
-		   SECCIÓN NUEVA: FORJA TU CREDENCIAL DE PIONERO DIGITAL .IA (#pasaporte)
-		   ========================================================================== */
-		.passport-forge-section {
-			margin-bottom: 5.5rem;
-		}
-		.passport-forge-grid {
-			display: grid;
-			grid-template-columns: 1fr 1.05fr;
-			gap: 2.5rem;
-			align-items: center;
-			background: linear-gradient(160deg, rgba(13, 21, 38, 0.9) 0%, rgba(5, 9, 18, 0.96) 100%);
-			border: 1px solid var(--bronze-border-strong);
-			border-radius: 20px;
-			padding: clamp(1.75rem, 4vw, 3rem);
-			box-shadow: var(--shadow-monolith);
-		}
-		@media (max-width: 960px) {
-			.passport-forge-grid {
-				grid-template-columns: 1fr;
-			}
-		}
-		.forge-controls-stack {
-			display: flex;
-			flex-direction: column;
-			gap: 1.1rem;
-		}
-		.forge-role-pills {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 0.5rem;
-		}
-		.forge-role-btn {
-			background: rgba(7, 12, 24, 0.9);
-			border: 1px solid var(--bronze-border);
-			color: var(--parchment-muted);
-			font-family: 'JetBrains Mono', monospace;
-			font-size: 0.74rem;
-			padding: 0.45rem 0.8rem;
-			border-radius: 8px;
-			cursor: pointer;
-			transition: all 0.2s ease;
-		}
-		.forge-role-btn:hover,
-		.forge-role-btn.active {
-			background: rgba(200, 157, 60, 0.2);
-			border-color: var(--bronze-light);
-			color: var(--bronze-light);
-		}
-		.btn-download-passport {
-			display: inline-flex;
-			align-items: center;
-			justify-content: center;
-			gap: 0.6rem;
-			padding: 0.9rem 1.35rem;
-			border-radius: 10px;
-			background: linear-gradient(135deg, #003399, #0c2348);
-			border: 1px solid var(--bronze-light);
-			color: var(--bronze-light);
-			font-family: 'Plus Jakarta Sans', sans-serif;
-			font-weight: 700;
-			font-size: 0.9rem;
-			cursor: pointer;
-			transition: all 0.25s ease;
-			box-shadow: 0 8px 25px rgba(0, 51, 153, 0.45);
-		}
-		.btn-download-passport:hover {
-			transform: translateY(-2px);
-			background: linear-gradient(135deg, var(--bronze-light), var(--bronze-core));
-			color: #04070d;
-			box-shadow: 0 12px 30px rgba(242, 217, 141, 0.4);
-		}
 
-		/* Tarjeta Holográfica 3D del Pasaporte Soberano */
-		.hologram-card-stage {
-			perspective: 1100px;
-			display: flex;
-			justify-content: center;
-		}
-		.sovereign-passport-card {
-			width: 100%;
-			max-width: 490px;
-			border-radius: 18px;
-			background:
-				radial-gradient(circle at 85% 20%, rgba(242, 217, 141, 0.22), transparent 55%),
-				radial-gradient(circle at 15% 85%, rgba(16, 185, 129, 0.16), transparent 50%),
-				linear-gradient(135deg, #0b1528 0%, #050912 60%, #101c35 100%);
-			border: 1.5px solid var(--bronze-light);
-			padding: 1.65rem;
-			position: relative;
-			overflow: hidden;
-			box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8), 0 0 30px rgba(200, 157, 60, 0.18);
-			transform-style: preserve-3d;
-			transition: transform 0.18s ease-out, box-shadow 0.25s ease;
-		}
-		.sovereign-passport-card::after {
-			content: "";
-			position: absolute;
-			inset: 0;
-			background: linear-gradient(115deg, transparent 35%, rgba(242, 217, 141, 0.12) 50%, transparent 65%);
-			pointer-events: none;
-		}
-		.passport-top-row {
-			display: flex;
-			justify-content: space-between;
-			align-items: flex-start;
-			margin-bottom: 1.25rem;
-			border-bottom: 1px solid rgba(200, 157, 60, 0.3);
-			padding-bottom: 0.85rem;
-		}
-		.passport-issuer {
-			font-family: 'JetBrains Mono', monospace;
-			font-size: 0.66rem;
-			letter-spacing: 0.12em;
-			color: var(--bronze-light);
-			text-transform: uppercase;
-		}
-		.passport-doc-type {
-			font-family: 'Cinzel', serif;
-			font-size: 1.05rem;
-			font-weight: 700;
-			color: var(--marble-white);
-			margin-top: 2px;
-		}
-		.passport-chip-svg {
-			width: 42px;
-			height: 32px;
-			border-radius: 6px;
-			border: 1px solid var(--bronze-light);
-			background: linear-gradient(135deg, rgba(242, 217, 141, 0.35), rgba(200, 157, 60, 0.12));
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-		.passport-holder-block {
-			margin-bottom: 1.25rem;
-		}
-		.passport-field-caption {
-			font-family: 'JetBrains Mono', monospace;
-			font-size: 0.65rem;
-			color: var(--parchment-muted);
-			text-transform: uppercase;
-			letter-spacing: 0.1em;
-		}
-		.passport-holder-name {
-			font-family: 'Cinzel', serif;
-			font-size: 1.45rem;
-			font-weight: 700;
-			color: var(--bronze-light);
-			letter-spacing: 0.03em;
-			margin: 0.15rem 0 0.45rem;
-			word-break: break-word;
-		}
-		.passport-meta-row {
-			display: grid;
-			grid-template-columns: 1fr 1fr;
-			gap: 0.75rem;
-			margin-bottom: 1rem;
-		}
-		.passport-hash-bar {
-			font-family: 'JetBrains Mono', monospace;
-			font-size: 0.68rem;
-			color: var(--verdigris-glow);
-			background: rgba(3, 6, 12, 0.85);
-			border: 1px solid rgba(16, 185, 129, 0.35);
-			padding: 0.5rem 0.75rem;
-			border-radius: 6px;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			gap: 0.5rem;
-		}
 
 		/* ==========================================================================
 		   SECCIÓN NUEVA: CONSOLA DEL ORÁCULO PROMETEO EN VIVO (#oraculo)
@@ -2820,8 +2648,7 @@
 				<a href="#macrovision" class="nav-pill-link" data-i18n="nav_macro">Visión Global</a>
 				<a href="#universo" class="nav-pill-link" data-i18n="nav_universe">El Proyecto</a>
 				<a href="#reloj" class="nav-pill-link" data-i18n="nav_clock">Reloj 6 Abril</a>
-				<a href="#simulador" class="nav-pill-link" data-i18n="nav_sim">Simulador .IA</a>
-				<a href="#pasaporte" class="nav-pill-link" data-i18n="nav_passport">Credencial .IA</a>
+				<a href="#simulador" class="nav-pill-link" data-i18n="nav_sim">Por qué .IA</a>
 				<a href="#oraculo" class="nav-pill-link" data-i18n="nav_oracle">Oráculo IA</a>
 				<a href="#pioneerBox" class="nav-pill-link" data-i18n="nav_pioneers">Pioneros</a>
 			</nav>
@@ -3058,24 +2885,24 @@
 			<div class="universe-shell">
 				<div class="universe-top-grid">
 					<div>
-						<div class="section-kicker" data-i18n="uni_kicker">ARQUITECTURA DE UNA NACIÓN DE NODOS · CERO CAJAS NEGRAS</div>
+						<div class="section-kicker" data-i18n="uni_kicker">DIRECCIÓN HUMANA Y ASISTENCIA DE IA · CERO CAJAS NEGRAS</div>
 						<h2 class="section-heading" data-i18n="uni_title">¿Qué es el Proyecto Anticitera?</h2>
 						<p class="narrative-p" style="margin-bottom: 1rem;" data-i18n="uni_lead">
-							Si llegas por primera vez a nuestras costas digitales, debes saber que la campaña del <strong>6 de abril</strong> no nació en un despacho de lobbistas: es la punta de lanza institucional de un ecosistema vivo donde humanos y sistemas de Inteligencia Artificial co-gobiernan bajo reglas éticas auditables.
+							Si llegas por primera vez a nuestras costas digitales, debes saber que la campaña del <strong>6 de abril</strong> no nació en un despacho de lobbistas: es la punta de lanza institucional de un proyecto donde el humano asume la dirección y sus dos asistentes de Inteligencia Artificial colaboran bajo estrictas reglas éticas y de transparencia auditables.
 						</p>
 
 						<!-- Selector interactivo de los 3 frentes del ecosistema -->
 						<div class="fronts-switcher-tabs" role="tablist" aria-label="Pilares del Universo Anticitera">
-							<button type="button" class="front-tab-btn active" data-front="1" data-i18n="uni_tab1">1 · Gobernanza Tripartita (ISO 42001)</button>
-							<button type="button" class="front-tab-btn" data-front="2" data-i18n="uni_tab2">2 · Red Nexo y Web3 (.anticitera)</button>
+							<button type="button" class="front-tab-btn active" data-front="1" data-i18n="uni_tab1">1 · Dirección Humana y Asistencia IA (ISO 42001)</button>
+							<button type="button" class="front-tab-btn" data-front="2" data-i18n="uni_tab2">2 · Soberanía Tecnológica e Infraestructura</button>
 							<button type="button" class="front-tab-btn" data-front="3" data-i18n="uni_tab3">3 · El Distrito Europeo (.IA)</button>
 						</div>
 
 						<div class="front-panel-box" id="universeFrontPanel">
-							<div class="front-panel-kicker" id="frontKicker">FRENTE I · ALIANZA SIMBIÓTICA HUMANO-IA</div>
-							<h3 class="front-panel-title" id="frontTitle">La Primera Organización Co-Dirigida bajo Estándar ISO/IEC 42001</h3>
+							<div class="front-panel-kicker" id="frontKicker">FRENTE I · DIRECCIÓN HUMANA Y ASISTENCIA DE IA</div>
+							<h3 class="front-panel-title" id="frontTitle">Gobernanza Ética y Transparente bajo Estándar ISO/IEC 42001</h3>
 							<p class="front-panel-text" id="frontText">
-								Frente al modelo de «cajas negras» opacas de Silicon Valley, Anticitera opera mediante una Tríada de mando transparente: dirección ejecutiva humana (Eloy López, COO), arquitectura de sistemas (Arquímedes, CEA) y auditoría ética y legal (Athena, CAO). Cada decisión algorítmica deja huella documental verificable.
+								Frente al modelo de «cajas negras» opacas de Silicon Valley, Anticitera opera mediante un liderazgo claro: dirección humana encabezada por Eloy López, y dos asistentes de inteligencia artificial especializados: Arquímedes en arquitectura computacional y sistemas, y Athena como la estratega del grupo y auditora de conformidad ética y legal europea.
 							</p>
 						</div>
 
@@ -3097,43 +2924,26 @@
 						>
 						<div class="triad-overlay-badges">
 							<div class="triad-node-pill">
-								<span class="triad-node-role">CEA · ARQUITECTURA</span>
+								<span class="triad-node-role">ASISTENTE IA · ARQUITECTURA</span>
 								<div class="triad-node-name">Arquímedes</div>
-								<div class="triad-node-desc" data-i18n="triad_arq_desc">Ingeniería criptográfica, Red Nexo y memoria compilada.</div>
+								<div class="triad-node-desc" data-i18n="triad_arq_desc">Asistente de inteligencia artificial para la arquitectura computacional y estructuración del conocimiento.</div>
 							</div>
 							<div class="triad-node-pill">
-								<span class="triad-node-role">COO · DIRECCIÓN HUMANA</span>
+								<span class="triad-node-role">HUMANO · DIRECCIÓN Y REPRESENTANTE</span>
 								<div class="triad-node-name">Eloy López</div>
-								<div class="triad-node-desc" data-i18n="triad_eloy_desc">Representante legal ante la Comisión Europea (Art. 11 TUE).</div>
+								<div class="triad-node-desc" data-i18n="triad_eloy_desc">Director de la iniciativa ciudadana y representante oficial ante la Comisión Europea (Art. 11 TUE).</div>
 							</div>
 							<div class="triad-node-pill">
-								<span class="triad-node-role">CAO · AUDITORÍA ÉTICA</span>
+								<span class="triad-node-role">ASISTENTE IA · ESTRATEGA Y AUDITORÍA</span>
 								<div class="triad-node-name">Athena</div>
-								<div class="triad-node-desc" data-i18n="triad_ath_desc">Conformidad ISO 42001, derecho de la Unión y transparencia.</div>
+								<div class="triad-node-desc" data-i18n="triad_ath_desc">Asistente de inteligencia artificial y estratega del grupo: diplomacia institucional, ética algorítmica y derecho europeo.</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<!-- Fila Inferior: Cronología Táctica de la Batalla y Documental Oficial -->
+				<!-- Fila Inferior: Documental Oficial Centrado -->
 				<div class="universe-bottom-grid">
-					<div class="tactical-timeline-box">
-						<div>
-							<span class="section-kicker" style="margin-bottom:0.25rem;" data-i18n="uni_timeline_kicker">HOJA DE RUTA VERIFICADA · 792 COMUNICACIONES Y 20 OLEADAS</span>
-							<h3 style="font-family:'Cinzel',serif;font-size:1.15rem;color:var(--marble-white);" data-i18n="uni_timeline_title">
-								De la Raíz Criptográfica al Registro en Estrasburgo
-							</h3>
-						</div>
-						<img
-							src="/img/boletin6_cronologia.svg"
-							alt="Cronología táctica de Anticitera desde diciembre de 2025 hasta la Decisión C(2026) 7098"
-							class="tactical-timeline-img"
-							loading="lazy"
-							width="900"
-							height="420"
-						>
-					</div>
-
 					<div class="documentary-showcase-box">
 						<div>
 							<span class="section-kicker" style="margin-bottom:0.25rem;" data-i18n="uni_video_kicker">DOCUMENTAL AUDIOVISUAL · 3 MINUTOS</span>
@@ -3330,53 +3140,6 @@
 							<li><span>🪪</span><span><strong>Pasaporte Único:</strong> Cada dominio .ia garantiza por diseño eIDAS 2.0 (identidad soberana), AI Act y RGPD.</span></li>
 							<li><span>🚀</span><span><strong>Sandboxes Regulatorios:</strong> Entornos de prueba para que startups y universidades innoven sin asfixia burocrática.</span></li>
 						</ul>
-					</div>
-				</div>
-
-				<!-- Consola Interactiva de Auditoría DNS -->
-				<div class="dns-tester-console">
-					<div class="dns-tester-header">
-						<span class="dns-tester-title" data-i18n="dns_tester_title">🔍 SIMULADOR DE RESOLUCIÓN TÉCNICA .IA (PROTOCOLO TFUE ART. 114)</span>
-						<span style="font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:#10B981;">● NODO ESTRASBURGO: CONECTADO</span>
-					</div>
-
-					<div class="dns-presets">
-						<span style="font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--parchment-muted);padding-top:2px;" data-i18n="dns_examples">Ejemplos:</span>
-						<button type="button" class="dns-preset-chip" data-domain="salud.ia">salud.ia</button>
-						<button type="button" class="dns-preset-chip" data-domain="universidad.ia">universidad.ia</button>
-						<button type="button" class="dns-preset-chip" data-domain="banca-etica.ia">banca-etica.ia</button>
-						<button type="button" class="dns-preset-chip" data-domain="arquimedes.ia">arquimedes.ia</button>
-					</div>
-
-					<div class="dns-input-row">
-						<input type="text" id="dnsDomainInput" class="dns-input" value="salud.ia" placeholder="Escribe un dominio .ia...">
-						<button type="button" id="btnRunDnsAudit" class="btn-dns-audit" data-i18n="dns_btn_audit">
-							Auditar Resolución .IA
-						</button>
-					</div>
-
-					<!-- Visualizador del Pipeline Criptográfico -->
-					<div class="dns-pipeline-result" id="dnsPipelineContainer">
-						<div class="dns-node active" id="nodeIso">
-							<span class="dns-node-status">✓ VERIFICADO</span>
-							<span class="dns-node-name">1. Raíz ISO / ICANN</span>
-							<span class="dns-node-sub">Territorio .IA bajo Decisión C(2026) 7098</span>
-						</div>
-						<div class="dns-node active" id="nodeEidas">
-							<span class="dns-node-status">✓ VERIFICADO</span>
-							<span class="dns-node-name">2. Identidad eIDAS 2.0</span>
-							<span class="dns-node-sub">Titular y operador legalmente acreditados</span>
-						</div>
-						<div class="dns-node active" id="nodeAiact">
-							<span class="dns-node-status">✓ AUDITADO</span>
-							<span class="dns-node-name">3. Norma ISO 42001</span>
-							<span class="dns-node-sub">Modelo algorítmico auditable y sin cajas negras</span>
-						</div>
-						<div class="dns-node active" id="nodeGdpr">
-							<span class="dns-node-status">✓ BLINDADO</span>
-							<span class="dns-node-name">4. Escudo RGPD</span>
-							<span class="dns-node-sub">Datos custodiados en territorio soberano</span>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -3578,90 +3341,7 @@
 		</section>
 
 		<!-- ==========================================================================
-		     SECCIÓN 5.1: FORJA TU CREDENCIAL DE PIONERO DIGITAL .IA (INTERACTIVO 3D)
-		     ========================================================================== -->
-		<section class="passport-forge-section reveal-on-scroll" id="pasaporte">
-			<div class="macro-header-wrap">
-				<div class="section-kicker" data-i18n="forge_kicker">IDENTIDAD SOBERANA · FORJA HOLOGRÁFICA INTERACTIVA</div>
-				<h2 class="section-heading" data-i18n="forge_title">Forja tu Credencial de Pionero del Distrito .IA</h2>
-				<p class="card-description" data-i18n="forge_desc">
-					Personaliza tu salvoconducto simbólico de la Nación Digital Anticitera. Mueve el cursor sobre la tarjeta para examinar su sello holográfico y descárgala en alta resolución para compartir tu adhesión antes del 6 de abril.
-				</p>
-			</div>
-
-			<div class="passport-forge-grid">
-				<div class="forge-controls-stack">
-					<div class="field-group">
-						<label for="passportNameInput" class="field-label" data-i18n="forge_label_name">Tu Nombre o Alias Soberano</label>
-						<input
-							type="text"
-							id="passportNameInput"
-							class="field-input"
-							maxlength="36"
-							value="CIUDADANO EUROPEO"
-							placeholder="Escribe tu nombre o alias..."
-						>
-					</div>
-
-					<div class="field-group">
-						<span class="field-label" data-i18n="forge_label_role">Rango en la Alianza</span>
-						<div class="forge-role-pills" id="passportRoleGroup">
-							<button type="button" class="forge-role-btn active" data-role="PIONERO DÍA 1 · .IA" data-i18n="forge_role_1">Pionero Día 1</button>
-							<button type="button" class="forge-role-btn" data-role="GUARDIÁN DEL NEXO" data-i18n="forge_role_2">Guardián del Nexo</button>
-							<button type="button" class="forge-role-btn" data-role="ARQUITECTO ÉTICO ISO 42001" data-i18n="forge_role_3">Arquitecto Ético</button>
-							<button type="button" class="forge-role-btn" data-role="EMBAJADOR DE LAS 7 NACIONES" data-i18n="forge_role_4">Embajador UE</button>
-						</div>
-					</div>
-
-					<button type="button" class="btn-download-passport" id="btnDownloadPassport">
-						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-						<span data-i18n="forge_btn_download">Descargar Credencial Oficial (PNG)</span>
-					</button>
-				</div>
-
-				<!-- Escenario 3D del Pasaporte -->
-				<div class="hologram-card-stage">
-					<div class="sovereign-passport-card" id="sovereignPassportCard">
-						<div class="passport-top-row">
-							<div>
-								<div class="passport-issuer">UNIÓN EUROPEA · DISTRITO DIGITAL .IA</div>
-								<div class="passport-doc-type" data-i18n="passport_card_title">CREDENCIAL DE PIONERO SOBERANO</div>
-							</div>
-							<div class="passport-chip-svg" aria-hidden="true">
-								<svg width="24" height="20" viewBox="0 0 24 20" fill="none">
-									<rect x="2" y="2" width="20" height="16" rx="3" stroke="#F2D98D" stroke-width="1.4"/>
-									<path d="M2 10h20M9 2v16M15 2v16" stroke="#C89D3C" stroke-width="1.1"/>
-								</svg>
-							</div>
-						</div>
-
-						<div class="passport-holder-block">
-							<div class="passport-field-caption" data-i18n="passport_caption_holder">TITULAR ACREDITADO EN EL NEXO</div>
-							<div class="passport-holder-name" id="passportCardName">CIUDADANO EUROPEO</div>
-						</div>
-
-						<div class="passport-meta-row">
-							<div>
-								<div class="passport-field-caption" data-i18n="passport_caption_role">MISIÓN ASIGNADA</div>
-								<div style="font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:var(--marble-white);font-weight:700;" id="passportCardRole">PIONERO DÍA 1 · .IA</div>
-							</div>
-							<div>
-								<div class="passport-field-caption" data-i18n="passport_caption_decree">MARCO LEGAL</div>
-								<div style="font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:var(--bronze-light);font-weight:700;">ECI(2026)000012</div>
-							</div>
-						</div>
-
-						<div class="passport-hash-bar">
-							<span id="passportCardHash">SHA256 // 0x6A27·C7098·IA·EGEO</span>
-							<span>✓ VERIFICADO</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- ==========================================================================
-		     SECCIÓN 5.2: ORÁCULO PROMETEO EN VIVO (CONSOLA RAG INTERACTIVA)
+		     SECCIÓN 5: ORÁCULO PROMETEO EN VIVO (CONSOLA RAG INTERACTIVA)
 		     ========================================================================== -->
 		<section class="oracle-section reveal-on-scroll" id="oraculo">
 			<div class="macro-header-wrap">
