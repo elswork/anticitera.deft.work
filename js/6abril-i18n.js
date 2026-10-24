@@ -61,7 +61,9 @@ const dictionary = {
     "act3_title": "Por qué nos preparamos hasta el 6 de abril",
     "act3_body": "Una Iniciativa Ciudadana Europea exige reunir 1.000.000 de declaraciones de apoyo válidas en 12 meses y superar el umbral mínimo legal en al menos 7 Estados miembros. Nuestro Comité Organizador —encabezado por Eloy López Sánchez (España) y Aristeidis Tsitiridis (Grecia) junto a representantes de Francia, Portugal, Hungría, Croacia y Chipre— ha fijado el 6 de abril de 2027 como el Día D para que toda Europa actúe al unísono.",
     "committee_label": "COMITÉ ORGANIZADOR DE LAS SIETE NACIONES · UMBRALES OFICIALES UE",
-    "footer_legal": "Iniciativa Ciudadana Europea registrada oficialmente por la Comisión Europea · Expediente ECI(2026)000012 · Decisión de Ejecución C(2026) 7098 final de 6 de octubre de 2026. Representantes del Grupo de Organizadores: Eloy López Sánchez y Aristeidis Tsitiridis."
+    "footer_legal": "Iniciativa Ciudadana Europea registrada oficialmente por la Comisión Europea · Expediente ECI(2026)000012 · Decisión de Ejecución C(2026) 7098 final de 6 de octubre de 2026. Representantes del Grupo de Organizadores: Eloy López Sánchez y Aristeidis Tsitiridis.",
+    "theme_btn_light": "Modo Claro",
+    "theme_btn_dark": "Modo Oscuro"
   },
   "bg": {
     "nav_dossier": "ОФИЦИАЛЕН ФАЙЛ НА ЕС · ECI(2026)000012",
@@ -445,7 +447,9 @@ const dictionary = {
     "act3_title": "Why we prepare until April 6",
     "act3_body": "A European Citizens' Initiative requires collecting 1,000,000 valid declarations of support in 12 months and exceeding the minimum legal threshold in at least 7 Member States. Our Organizing Committee – headed by Eloy López Sánchez (Spain) and Aristeidis Tsitiridis (Greece) together with representatives from France, Portugal, Hungary, Croatia and Cyprus – has set April 6, 2027 as D-Day for all of Europe to act in unison.",
     "committee_label": "ORGANIZING COMMITTEE OF THE SEVEN NATIONS · EU OFFICIAL THRESHOLDS",
-    "footer_legal": "European Citizen Initiative officially registered by the European Commission · File ECI(2026)000012 · Execution Decision C(2026) 7098 final of October 6, 2026. Representatives of the Group of Organizers: Eloy López Sánchez and Aristeidis Tsitiridis."
+    "footer_legal": "European Citizen Initiative officially registered by the European Commission · File ECI(2026)000012 · Execution Decision C(2026) 7098 final of October 6, 2026. Representatives of the Group of Organizers: Eloy López Sánchez and Aristeidis Tsitiridis.",
+    "theme_btn_light": "Light Mode",
+    "theme_btn_dark": "Dark Mode"
   },
   "et": {
     "nav_dossier": "EL-I AMETLIK TOIK · ECI(2026)000012",
@@ -1863,7 +1867,56 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         updateShareLinks(lang);
+        updateThemeToggleUI();
     }
+
+    // ==========================================================================
+    // 2.5 CONTROL DE TEMA CLARO / OSCURO (ACCESIBILIDAD Y ALTO CONTRASTE)
+    // ==========================================================================
+    const btnThemeToggle = document.getElementById("btnThemeToggle");
+    const themeToggleIcon = document.getElementById("themeToggleIcon");
+    const themeToggleLabel = document.getElementById("themeToggleLabel");
+
+    let currentTheme = localStorage.getItem("ice6AbrilTheme") ||
+        (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+
+    function updateThemeToggleUI() {
+        const texts = dictionary[currentLang] || dictionary.es;
+        if (currentTheme === "light") {
+            if (themeToggleIcon) themeToggleIcon.textContent = "🌙";
+            if (themeToggleLabel) themeToggleLabel.textContent = texts.theme_btn_dark || "Modo Oscuro";
+            if (btnThemeToggle) {
+                btnThemeToggle.setAttribute("aria-label", texts.theme_btn_dark || "Cambiar a modo oscuro");
+                btnThemeToggle.setAttribute("title", texts.theme_btn_dark || "Cambiar a modo oscuro");
+            }
+        } else {
+            if (themeToggleIcon) themeToggleIcon.textContent = "☀️";
+            if (themeToggleLabel) themeToggleLabel.textContent = texts.theme_btn_light || "Modo Claro";
+            if (btnThemeToggle) {
+                btnThemeToggle.setAttribute("aria-label", texts.theme_btn_light || "Cambiar a modo claro");
+                btnThemeToggle.setAttribute("title", texts.theme_btn_light || "Cambiar a modo claro");
+            }
+        }
+    }
+
+    function setTheme(theme) {
+        currentTheme = theme;
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("ice6AbrilTheme", theme);
+        updateThemeToggleUI();
+    }
+
+    if (btnThemeToggle) {
+        btnThemeToggle.addEventListener("click", () => {
+            const nextTheme = currentTheme === "light" ? "dark" : "light";
+            setTheme(nextTheme);
+            if (typeof playHorologyTick === "function") {
+                playHorologyTick(1280, 0.025, 0.02);
+            }
+        });
+    }
+
+    setTheme(currentTheme);
 
     // Initialize language and countdown
     if (langSwitch) {
@@ -1919,6 +1972,8 @@ document.addEventListener("DOMContentLoaded", () => {
             if (!isCanvasVisible) return;
             ctx.clearRect(0, 0, width, height);
 
+            const isLight = document.documentElement.getAttribute("data-theme") === "light";
+
             // Anillos astronómicos concéntricos suaves en la esquina superior derecha
             const centerX = width * 0.85;
             const centerY = height * 0.22;
@@ -1929,13 +1984,14 @@ document.addEventListener("DOMContentLoaded", () => {
             ctx.rotate(gearAngle);
 
             // Anillo Exterior de Bronce
-            ctx.strokeStyle = "rgba(200, 157, 60, 0.09)";
+            ctx.strokeStyle = isLight ? "rgba(140, 94, 19, 0.16)" : "rgba(200, 157, 60, 0.09)";
             ctx.lineWidth = 1;
             ctx.beginPath();
             ctx.arc(0, 0, 195, 0, Math.PI * 2);
             ctx.stroke();
 
             // Marcas zodiacales en el borde
+            ctx.strokeStyle = isLight ? "rgba(140, 94, 19, 0.18)" : "rgba(200, 157, 60, 0.12)";
             for (let i = 0; i < 36; i++) {
                 const a = (i * Math.PI) / 18;
                 const r1 = i % 3 === 0 ? 186 : 190;
@@ -1948,7 +2004,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // Anillo interior contrarrotante
             ctx.rotate(-gearAngle * 2.2);
-            ctx.strokeStyle = "rgba(16, 185, 129, 0.07)";
+            ctx.strokeStyle = isLight ? "rgba(4, 120, 87, 0.14)" : "rgba(16, 185, 129, 0.07)";
             ctx.beginPath();
             ctx.arc(0, 0, 130, 0, Math.PI * 2);
             ctx.stroke();
@@ -1968,8 +2024,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 if (p.x > width) p.x = 0;
 
                 ctx.fillStyle = p.isEmerald
-                    ? `rgba(16, 185, 129, ${p.alpha})`
-                    : `rgba(242, 217, 141, ${p.alpha})`;
+                    ? (isLight ? `rgba(4, 120, 87, ${(p.alpha * 0.75).toFixed(3)})` : `rgba(16, 185, 129, ${p.alpha})`)
+                    : (isLight ? `rgba(140, 94, 19, ${(p.alpha * 0.75).toFixed(3)})` : `rgba(242, 217, 141, ${p.alpha})`);
                 ctx.beginPath();
                 ctx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
                 ctx.fill();
@@ -1982,7 +2038,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     const distSq = dx * dx + dy * dy;
                     if (distSq < 13500) {
                         const lineAlpha = (1 - distSq / 13500) * 0.11;
-                        ctx.strokeStyle = `rgba(200, 157, 60, ${lineAlpha.toFixed(3)})`;
+                        ctx.strokeStyle = isLight
+                            ? `rgba(140, 94, 19, ${(lineAlpha * 0.85).toFixed(3)})`
+                            : `rgba(200, 157, 60, ${lineAlpha.toFixed(3)})`;
                         ctx.lineWidth = 0.7;
                         ctx.beginPath();
                         ctx.moveTo(p.x, p.y);
@@ -1997,7 +2055,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 const cDistSq = cdx * cdx + cdy * cdy;
                 if (cDistSq < 22000) {
                     const cAlpha = (1 - cDistSq / 22000) * 0.22;
-                    ctx.strokeStyle = `rgba(242, 217, 141, ${cAlpha.toFixed(3)})`;
+                    ctx.strokeStyle = isLight
+                        ? `rgba(140, 94, 19, ${(cAlpha * 0.75).toFixed(3)})`
+                        : `rgba(242, 217, 141, ${cAlpha.toFixed(3)})`;
                     ctx.lineWidth = 0.85;
                     ctx.beginPath();
                     ctx.moveTo(p.x, p.y);
