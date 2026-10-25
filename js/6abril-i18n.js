@@ -199,7 +199,22 @@ const dictionary = {
     "xray_status_recon": "🔬 RECONSTRUCCIÓN 2027: ACTIVA",
     "oracle_loading": "Consultando los archivos compilados de Anticitera y la Decisión C(2026) 7098...",
     "theme_btn_light": "Modo Claro",
-    "theme_btn_dark": "Modo Oscuro"
+    "theme_btn_dark": "Modo Oscuro",
+    "lang_selector_label": "Idioma oficial de la UE",
+    "calc_slider_aria": "Número de personas que puedes invitar",
+    "btn_time_warp_restore": "↺ Restaurar Cuenta Atrás en Tiempo Real",
+    "xray_status_recon_full": "🔬 RECONSTRUCCIÓN 2027: 100%",
+    "xray_depth_tmpl": "🔬 PROFUNDIDAD: {val}%",
+    "xray_scrubber_aria": "Ajustar transparencia de rayos X",
+    "floating_oracle_aria": "Consultar a Prometeo",
+    "modal_btn_close_aria": "Cerrar modal",
+    "dns_status_auditing": "⏳ AUDITANDO...",
+    "dns_status_iso": "✓ VERIFICADO (ISO 3166)",
+    "dns_status_eidas": "✓ IDENTIDAD eIDAS 2.0",
+    "dns_status_aiact": "✓ CERTIFICADO AI ACT",
+    "dns_status_gdpr": "✓ BLINDADO (RGPD)",
+    "oracle_local_intro": "🏛️ Prometeo (Archivo Local):",
+    "oracle_local_fallback": "El Proyecto Anticitera une 2.100 años de tradición científica europea con la <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> (aprobada por Decisión <strong>C(2026) 7098 final</strong>). Nuestro objetivo es alcanzar <strong>1.000.000 de firmas oficiales a partir del 6 de abril de 2027</strong> para establecer el Distrito Digital Europeo y reservar el dominio soberano <code>.IA</code> bajo gobernanza ética ISO/IEC 42001."
   },
   "bg": {
     "nav_dossier": "ОФИЦИАЛЕН ФАЙЛ НА ЕС · ECI(2026)000012",
@@ -599,7 +614,20 @@ const dictionary = {
     "xray_status_recon": "🔬 REKONSTRUKTION 2027: AKTIV",
     "oracle_loading": "Kompilierte Antikythera-Akten und Beschluss C(2026) 7098 werden abgefragt...",
     "theme_btn_light": "Heller Modus",
-    "theme_btn_dark": "Dunkler Modus"
+    "theme_btn_dark": "Dunkler Modus",
+    "lang_selector_label": "Amtssprache der EU",
+    "calc_slider_aria": "Anzahl der Personen, die Sie einladen können",
+    "btn_time_warp_restore": "↺ Echtzeit-Countdown wiederherstellen",
+    "xray_status_recon_full": "🔬 REKONSTRUKTION 2027: 100%",
+    "xray_depth_tmpl": "🔬 TIEFE: {val}%",
+    "xray_scrubber_aria": "Röntgentransparenz anpassen",
+    "floating_oracle_aria": "Prometeo befragen",
+    "modal_btn_close_aria": "Modal schließen",
+    "dns_status_auditing": "⏳ PRÜFUNG...",
+    "dns_status_iso": "✓ VERIFIZIERT (ISO 3166)",
+    "dns_status_eidas": "✓ IDENTITÄT eIDAS 2.0",
+    "dns_status_aiact": "✓ AI ACT ZERTIFIZIERT",
+    "dns_status_gdpr": "✓ DSGVO-GESCHÜTZT"
   },
   "el": {
     "nav_dossier": "ΕΠΙΣΗΜΟΣ ΦΑΚΕΛΟΣ ΕΕ · ECI(2026)000012",
@@ -801,7 +829,20 @@ const dictionary = {
     "xray_status_recon": "🔬 ΑΝΑΚΑΤΑΣΚΕΥΗ 2027: ΕΝΕΡΓΗ",
     "oracle_loading": "Αναζήτηση στα συγκεντρωμένα αρχεία των Αντικυθήρων και την Απόφαση C(2026) 7098...",
     "theme_btn_light": "Φωτεινή Λειτουργία",
-    "theme_btn_dark": "Σκοτεινή Λειτουργία"
+    "theme_btn_dark": "Σκοτεινή Λειτουργία",
+    "lang_selector_label": "Επίσημη γλώσσα της ΕΕ",
+    "calc_slider_aria": "Αριθμός ατόμων που μπορείτε να προσκαλέσετε",
+    "btn_time_warp_restore": "↺ Επαναφορά αντίστροφης μέτρησης σε πραγματικό χρόνο",
+    "xray_status_recon_full": "🔬 ΑΝΑΚΑΤΑΣΚΕΥΗ 2027: 100%",
+    "xray_depth_tmpl": "🔬 ΒΑΘΟΣ: {val}%",
+    "xray_scrubber_aria": "Ρύθμιση διαφάνειας ακτίνων Χ",
+    "floating_oracle_aria": "Ρωτήστε τον Προμηθέα",
+    "modal_btn_close_aria": "Κλείσιμο παραθύρου",
+    "dns_status_auditing": "⏳ ΕΛΕΓΧΟΣ...",
+    "dns_status_iso": "✓ ΕΠΑΛΗΘΕΥΜΕΝΟ (ISO 3166)",
+    "dns_status_eidas": "✓ ΤΑΥΤΟΤΗΤΑ eIDAS 2.0",
+    "dns_status_aiact": "✓ ΠΙΣΤΟΠΟΙΗΜΕΝΟ AI ACT",
+    "dns_status_gdpr": "✓ ΘΩΡΑΚΙΣΜΕΝΟ (GDPR)"
   },
   "en": {
     "nav_dossier": "EU OFFICIAL FILE · ECI(2026)000012",
@@ -1003,7 +1044,22 @@ const dictionary = {
     "xray_status_recon": "🔬 2027 RECONSTRUCTION: ACTIVE",
     "oracle_loading": "Consulting compiled Antikythera records and Decision C(2026) 7098...",
     "theme_btn_light": "Light Mode",
-    "theme_btn_dark": "Dark Mode"
+    "theme_btn_dark": "Dark Mode",
+    "lang_selector_label": "Official EU language",
+    "calc_slider_aria": "Number of people you can invite",
+    "btn_time_warp_restore": "↺ Restore Real-Time Countdown",
+    "xray_status_recon_full": "🔬 RECONSTRUCTION 2027: 100%",
+    "xray_depth_tmpl": "🔬 DEPTH: {val}%",
+    "xray_scrubber_aria": "Adjust X-ray transparency",
+    "floating_oracle_aria": "Ask Prometeo",
+    "modal_btn_close_aria": "Close modal",
+    "dns_status_auditing": "⏳ AUDITING...",
+    "dns_status_iso": "✓ VERIFIED (ISO 3166)",
+    "dns_status_eidas": "✓ IDENTITY eIDAS 2.0",
+    "dns_status_aiact": "✓ AI ACT CERTIFIED",
+    "dns_status_gdpr": "✓ GDPR SHIELDED",
+    "oracle_local_intro": "🏛️ Prometeo (Local Archive):",
+    "oracle_local_fallback": "The Antikythera Project bridges 2,100 years of European scientific tradition with the <strong>European Citizens' Initiative ECI(2026)000012</strong> (approved by Decision <strong>C(2026) 7098 final</strong>). Our goal is to collect <strong>1,000,000 official signatures starting April 6, 2027</strong> to establish the European Digital District and secure the sovereign <code>.IA</code> domain under ISO/IEC 42001 ethical governance."
   },
   "et": {
     "nav_dossier": "EL-I AMETLIK TOIK · ECI(2026)000012",
@@ -1337,7 +1393,20 @@ const dictionary = {
     "xray_status_recon": "🔬 RECONSTRUCTION 2027 : ACTIVE",
     "oracle_loading": "Consultation des archives compilées d'Anticythère et de la Décision C(2026) 7098...",
     "theme_btn_light": "Mode Clair",
-    "theme_btn_dark": "Mode Sombre"
+    "theme_btn_dark": "Mode Sombre",
+    "lang_selector_label": "Langue officielle de l'UE",
+    "calc_slider_aria": "Nombre de personnes que vous pouvez inviter",
+    "btn_time_warp_restore": "↺ Restaurer le compte à rebours en temps réel",
+    "xray_status_recon_full": "🔬 RECONSTRUCTION 2027 : 100%",
+    "xray_depth_tmpl": "🔬 PROFONDEUR : {val}%",
+    "xray_scrubber_aria": "Ajuster la transparence des rayons X",
+    "floating_oracle_aria": "Consulter Prométhée",
+    "modal_btn_close_aria": "Fermer la boîte",
+    "dns_status_auditing": "⏳ AUDIT EN COURS...",
+    "dns_status_iso": "✓ VÉRIFIÉ (ISO 3166)",
+    "dns_status_eidas": "✓ IDENTITÉ eIDAS 2.0",
+    "dns_status_aiact": "✓ CERTIFIÉ AI ACT",
+    "dns_status_gdpr": "✓ PROTÉGÉ RGPD"
   },
   "ga": {
     "nav_dossier": "COMHAD OIFIGIÚIL AE · ECI(2026)000012",
@@ -1737,7 +1806,20 @@ const dictionary = {
     "xray_status_recon": "🔬 RICOSTRUZIONE 2027: ATTIVA",
     "oracle_loading": "Consultazione degli archivi compilati di Anticitera e della Decisione C(2026) 7098...",
     "theme_btn_light": "Modalità Chiara",
-    "theme_btn_dark": "Modalità Scura"
+    "theme_btn_dark": "Modalità Scura",
+    "lang_selector_label": "Lingua ufficiale dell'UE",
+    "calc_slider_aria": "Numero di persone che puoi invitare",
+    "btn_time_warp_restore": "↺ Ripristina conto alla rovescia in tempo reale",
+    "xray_status_recon_full": "🔬 RICOSTRUZIONE 2027: 100%",
+    "xray_depth_tmpl": "🔬 PROFONDITÀ: {val}%",
+    "xray_scrubber_aria": "Regola trasparenza raggi X",
+    "floating_oracle_aria": "Consulta Prometeo",
+    "modal_btn_close_aria": "Chiudi finestra",
+    "dns_status_auditing": "⏳ AUDIT IN CORSO...",
+    "dns_status_iso": "✓ VERIFICATO (ISO 3166)",
+    "dns_status_eidas": "✓ IDENTITÀ eIDAS 2.0",
+    "dns_status_aiact": "✓ CERTIFICATO AI ACT",
+    "dns_status_gdpr": "✓ PROTETTO RGPD"
   },
   "lt": {
     "nav_dossier": "ES OFICIALUS FAILAS · ECI(2026)000012",
@@ -2269,7 +2351,20 @@ const dictionary = {
     "xray_status_recon": "🔬 RECONSTRUÇÃO 2027: ATIVA",
     "oracle_loading": "A consultar os ficheiros compilados de Anticítera e a Decisão C(2026) 7098...",
     "theme_btn_light": "Modo Claro",
-    "theme_btn_dark": "Modo Escuro"
+    "theme_btn_dark": "Modo Escuro",
+    "lang_selector_label": "Língua oficial da UE",
+    "calc_slider_aria": "Número de pessoas que pode convidar",
+    "btn_time_warp_restore": "↺ Restaurar contagem regressiva em tempo real",
+    "xray_status_recon_full": "🔬 RECONSTRUÇÃO 2027: 100%",
+    "xray_depth_tmpl": "🔬 PROFUNDIDADE: {val}%",
+    "xray_scrubber_aria": "Ajustar transparência de raios X",
+    "floating_oracle_aria": "Consultar Prometeu",
+    "modal_btn_close_aria": "Fechar modal",
+    "dns_status_auditing": "⏳ A AUDITAR...",
+    "dns_status_iso": "✓ VERIFICADO (ISO 3166)",
+    "dns_status_eidas": "✓ IDENTIDADE eIDAS 2.0",
+    "dns_status_aiact": "✓ CERTIFICADO AI ACT",
+    "dns_status_gdpr": "✓ BLINDADO (RGPD)"
   },
   "ro": {
     "nav_dossier": "FIȘAR OFICIAL UE · ECI(2026)000012",
@@ -2537,6 +2632,84 @@ const dictionary = {
   }
 };
 
+// Traducciones nativas de la calculadora viral para todas las 24 lenguas oficiales de la UE
+const extraCalcTranslations = {
+    nl: {
+        calc_people_val: "{n} personen",
+        calc_output_tmpl: "Als u zich vandaag aansluit en deelt met <strong class=\"cascade-highlight\">{n} personen</strong> die op hun beurt delen met ieder {n} anderen over 3 niveaus, activeert uw knooppunt <strong class=\"cascade-highlight\">{total} handtekeningen</strong> voor de nationale drempel."
+    },
+    pl: {
+        calc_people_val: "{n} osób",
+        calc_output_tmpl: "Jeśli dołączysz dzisiaj i podzielisz się z <strong class=\"cascade-highlight\">{n} osobami</strong>, które z kolei podzielą się z {n} kolejnymi na 3 poziomach, Twój węzeł aktywuje <strong class=\"cascade-highlight\">{total} podpisów</strong> dla progu Twojego kraju."
+    },
+    ro: {
+        calc_people_val: "{n} persoane",
+        calc_output_tmpl: "Dacă vă alăturați astăzi și distribuiți către <strong class=\"cascade-highlight\">{n} persoane</strong> care la rândul lor distribuie altor {n} pe 3 niveluri, nodul dumneavoastră va mobiliza <strong class=\"cascade-highlight\">{total} semnături</strong> pentru pragul național."
+    },
+    sv: {
+        calc_people_val: "{n} personer",
+        calc_output_tmpl: "Om du ansluter idag och delar med <strong class=\"cascade-highlight\">{n} personer</strong> som i sin tur delar med {n} andra i 3 nivåer, aktiverar din nod <strong class=\"cascade-highlight\">{total} underskrifter</strong> mot ditt lands tröskel."
+    },
+    da: {
+        calc_people_val: "{n} personer",
+        calc_output_tmpl: "Hvis du tilslutter dig i dag og deler med <strong class=\"cascade-highlight\">{n} personer</strong>, som hver deler med {n} andre i 3 niveauer, mobiliserer din knude <strong class=\"cascade-highlight\">{total} underskrifter</strong> mod dit lands tærskel."
+    },
+    fi: {
+        calc_people_val: "{n} henkilöä",
+        calc_output_tmpl: "Jos liityt tänään ja jaat <strong class=\"cascade-highlight\">{n} henkilölle</strong>, jotka jakavat kukin {n} muulle 3 tasolla, solmusi aktivoi <strong class=\"cascade-highlight\">{total} allekirjoitusta</strong> maasi kynnyksen saavuttamiseksi."
+    },
+    cs: {
+        calc_people_val: "{n} lidí",
+        calc_output_tmpl: "Pokud se dnes připojíte a budete sdílet s <strong class=\"cascade-highlight\">{n} lidmi</strong>, kteří budou sdílet s dalšími {n} ve 3 úrovních, váš uzel zmobilizuje <strong class=\"cascade-highlight\">{total} podpisů</strong> pro národní kvótu."
+    },
+    sk: {
+        calc_people_val: "{n} ľudí",
+        calc_output_tmpl: "Ak sa dnes pripojíte a budete zdieľať s <strong class=\"cascade-highlight\">{n} ľuďmi</strong>, ktorí budú zdieľať s ďalšími {n} v 3 úrovniach, váš uzol zmobilizuje <strong class=\"cascade-highlight\">{total} podpisov</strong> k národnej kvóte."
+    },
+    hu: {
+        calc_people_val: "{n} ember",
+        calc_output_tmpl: "Ha ma csatlakozik, és megosztja <strong class=\"cascade-highlight\">{n} emberrel</strong>, akik szintén megosztják {n} másikkal 3 szinten, az Ön csomópontja <strong class=\"cascade-highlight\">{total} aláírást</strong> mozgósít országa küszöbéhez."
+    },
+    bg: {
+        calc_people_val: "{n} души",
+        calc_output_tmpl: "Ако се присъедините днес и споделите с <strong class=\"cascade-highlight\">{n} души</strong>, които на свой ред споделят с по {n} други на 3 нива, вашият възел ще мобилизира <strong class=\"cascade-highlight\">{total} подписа</strong> към националния праг."
+    },
+    hr: {
+        calc_people_val: "{n} osoba",
+        calc_output_tmpl: "Ako se danas pridružite i podijelite s <strong class=\"cascade-highlight\">{n} osoba</strong> koje će podijeliti s još po {n} osoba na 3 razine, vaš će čvor aktivirati <strong class=\"cascade-highlight\">{total} potpisa</strong> prema pragu vaše zemlje."
+    },
+    sl: {
+        calc_people_val: "{n} oseb",
+        calc_output_tmpl: "Če se pridružite danes in delite z <strong class=\"cascade-highlight\">{n} osebami</strong>, ki delijo z nadaljnjimi {n} na 3 ravneh, bo vaše vozlišče aktiviralo <strong class=\"cascade-highlight\">{total} podpisov</strong> za prag vaše države."
+    },
+    et: {
+        calc_people_val: "{n} inimest",
+        calc_output_tmpl: "Kui liitute täna ja jagate <strong class=\"cascade-highlight\">{n} inimesega</strong>, kes omakorda jagavad {n} teisega kolmel tasandil, aktiveerib teie sõlm <strong class=\"cascade-highlight\">{total} allkirja</strong> teie riigi künnise suunas."
+    },
+    lv: {
+        calc_people_val: "{n} cilvēki",
+        calc_output_tmpl: "Ja pievienosieties šodien un dalīsieties ar <strong class=\"cascade-highlight\">{n} cilvēkiem</strong>, kuri katrs dalīsies ar {n} citiem 3 līmeņos, jūsu mezgls piesaistīs <strong class=\"cascade-highlight\">{total} parakstus</strong> jūsu valsts slieksnim."
+    },
+    lt: {
+        calc_people_val: "{n} žmonių",
+        calc_output_tmpl: "Jei prisijungsite šiandien ir pasidalinsite su <strong class=\"cascade-highlight\">{n} žmonių</strong>, kurie savo ruožtu pasidalins su dar {n} per 3 lygius, jūsų mazgas sutelks <strong class=\"cascade-highlight\">{total} parašų</strong> jūsų šalies slenksčiui."
+    },
+    ga: {
+        calc_people_val: "{n} duine",
+        calc_output_tmpl: "Má ghlacann tú páirt inniu agus é a roinnt le <strong class=\"cascade-highlight\">{n} duine</strong> a roinneann le {n} duine eile trasna 3 leibhéal, cuirfidh do nód <strong class=\"cascade-highlight\">{total} síniú</strong> i ngníomh i dtreo thairseach do thíre."
+    },
+    mt: {
+        calc_people_val: "{n} persuni",
+        calc_output_tmpl: "Jekk tingħaqad illum u taqsam ma' <strong class=\"cascade-highlight\">{n} persuni</strong> li min-naħa tagħhom jaqsmu ma' {n} oħra f'3 livelli, in-node tiegħek jattiva <strong class=\"cascade-highlight\">{total} firem</strong> lejn il-limitu ta' pajjiżek."
+    }
+};
+
+for (const [code, translations] of Object.entries(extraCalcTranslations)) {
+    if (dictionary[code]) {
+        Object.assign(dictionary[code], translations);
+    }
+}
+
 // Polyfill missing keys safely: if a language does NOT have a key, fill it from English or Spanish fallback
 const fallbackEs = dictionary.es;
 const fallbackEn = dictionary.en || dictionary.es;
@@ -2700,9 +2873,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function applyLanguage(lang) {
+        currentLang = lang;
         const texts = dictionary[lang] || dictionary.es;
         const fallback = dictionary.es;
         if (htmlRoot) htmlRoot.setAttribute("lang", lang);
+        if (langSwitch && langSwitch.value !== lang) {
+            langSwitch.value = lang;
+        }
 
         document.querySelectorAll("[data-i18n]").forEach(el => {
             const key = el.getAttribute("data-i18n");
@@ -2729,6 +2906,22 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
 
+        document.querySelectorAll("[data-i18n-aria]").forEach(el => {
+            const key = el.getAttribute("data-i18n-aria");
+            const val = (texts && texts[key] !== undefined && texts[key] !== "") ? texts[key] : fallback[key];
+            if (val !== undefined) {
+                el.setAttribute("aria-label", val);
+            }
+        });
+
+        document.querySelectorAll("[data-i18n-title]").forEach(el => {
+            const key = el.getAttribute("data-i18n-title");
+            const val = (texts && texts[key] !== undefined && texts[key] !== "") ? texts[key] : fallback[key];
+            if (val !== undefined) {
+                el.setAttribute("title", val);
+            }
+        });
+
         document.querySelectorAll(".btn-doc-secondary").forEach(link => {
             link.href = getOfficialEuPortalUrl(lang);
         });
@@ -2743,12 +2936,14 @@ document.addEventListener("DOMContentLoaded", () => {
         const activeFrontId = activeFrontBtn ? activeFrontBtn.getAttribute("data-front") : "1";
         updateFrontPanel(activeFrontId);
 
-        if (typeof renderOdysseyEpoch === "function") {
+        try {
             renderOdysseyEpoch(currentOdysseyEpoch);
-        }
-        if (typeof updateCascadeCalculator === "function") {
+        } catch (_) {}
+
+        try {
             updateCascadeCalculator();
-        }
+        } catch (_) {}
+
         const lensTag = document.getElementById("lensStatusTag");
         const xLayer = document.getElementById("artifactXrayLayer");
         if (lensTag && xLayer) {
@@ -2808,7 +3003,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTheme(currentTheme);
 
-    // Initialize language and countdown
+    // Initialize language selector listener
     if (langSwitch) {
         langSwitch.value = currentLang;
         langSwitch.addEventListener("change", (e) => {
@@ -2817,10 +3012,6 @@ document.addEventListener("DOMContentLoaded", () => {
             applyLanguage(currentLang);
         });
     }
-
-    applyLanguage(currentLang);
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
 
     // ==========================================================================
     // 3. MOTOR DEL ASTROLABIO Y CONSTELACIÓN (CANVAS DE FONDO)
@@ -3027,9 +3218,11 @@ document.addEventListener("DOMContentLoaded", () => {
         if (xrayScrubber) {
             xrayScrubber.addEventListener("input", (e) => {
                 const val = Number(e.target.value);
+                const texts = dictionary[currentLang] || dictionary.es;
+                const fallback = dictionary.es;
                 if (val >= 95) {
                     xrayLayer.classList.add("is-active-full");
-                    if (lensStatusTag) lensStatusTag.textContent = "🔬 RECONSTRUCCIÓN 2027: 100%";
+                    if (lensStatusTag) lensStatusTag.textContent = texts.xray_status_recon_full || fallback.xray_status_recon_full || "🔬 RECONSTRUCCIÓN 2027: 100%";
                 } else {
                     xrayLayer.classList.remove("is-active-full");
                     const radius = (val / 100) * 350;
@@ -3037,7 +3230,8 @@ document.addEventListener("DOMContentLoaded", () => {
                     artifactFrame.style.setProperty("--spot-y", "50%");
                     artifactFrame.style.setProperty("--inner-size", `${radius}px`);
                     artifactFrame.style.setProperty("--outer-size", `${radius + 40}px`);
-                    if (lensStatusTag) lensStatusTag.textContent = `🔬 PROFUNDIDAD: ${val}%`;
+                    const depthTmpl = texts.xray_depth_tmpl || fallback.xray_depth_tmpl || "🔬 PROFUNDIDAD: {val}%";
+                    if (lensStatusTag) lensStatusTag.textContent = depthTmpl.replace("{val}", val);
                 }
             });
         }
@@ -3058,7 +3252,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (isTimeWarpActive) {
                 btnTimeWarp.classList.add("is-active-warp");
-                btnTimeWarp.textContent = "↺ Restaurar Cuenta Atrás en Tiempo Real";
+                btnTimeWarp.textContent = texts.btn_time_warp_restore || fallback.btn_time_warp_restore || "↺ Restaurar Cuenta Atrás en Tiempo Real";
 
                 if (elDays) elDays.textContent = "00";
                 if (elHours) elHours.textContent = "00";
@@ -3111,19 +3305,21 @@ document.addEventListener("DOMContentLoaded", () => {
             const domain = rawVal.endsWith(".ia") ? rawVal : `${rawVal}.ia`;
             dnsDomainInput.value = domain;
 
+            const texts = dictionary[currentLang] || dictionary.es;
+            const fallback = dictionary.es;
             const nodes = dnsPipelineContainer.querySelectorAll(".dns-node");
             nodes.forEach(n => {
                 n.classList.remove("active");
                 const statusSpan = n.querySelector(".dns-node-status");
-                if (statusSpan) statusSpan.textContent = "⏳ AUDITANDO...";
+                if (statusSpan) statusSpan.textContent = texts.dns_status_auditing || fallback.dns_status_auditing || "⏳ AUDITANDO...";
             });
 
             // Secuencia animada de 4 etapas
             const stages = [
-                { id: "nodeIso", label: "✓ VERIFICADO (ISO 3166)" },
-                { id: "nodeEidas", label: "✓ IDENTIDAD eIDAS 2.0" },
-                { id: "nodeAiact", label: "✓ CERTIFICADO AI ACT" },
-                { id: "nodeGdpr", label: "✓ BLINDADO (RGPD)" }
+                { id: "nodeIso", label: texts.dns_status_iso || fallback.dns_status_iso || "✓ VERIFICADO (ISO 3166)" },
+                { id: "nodeEidas", label: texts.dns_status_eidas || fallback.dns_status_eidas || "✓ IDENTIDAD eIDAS 2.0" },
+                { id: "nodeAiact", label: texts.dns_status_aiact || fallback.dns_status_aiact || "✓ CERTIFICADO AI ACT" },
+                { id: "nodeGdpr", label: texts.dns_status_gdpr || fallback.dns_status_gdpr || "✓ BLINDADO (RGPD)" }
             ];
 
             stages.forEach((st, idx) => {
@@ -3167,10 +3363,15 @@ document.addEventListener("DOMContentLoaded", () => {
         const c2Key = `odyssey_e${epoch}_chip2`;
         const c3Key = `odyssey_e${epoch}_chip3`;
 
-        if (odysseyBadge) odysseyBadge.textContent = texts[badgeKey] || fallback[badgeKey] || "";
-        if (odysseyTitle) odysseyTitle.textContent = texts[titleKey] || fallback[titleKey] || "";
-        if (odysseyBody) odysseyBody.textContent = texts[bodyKey] || fallback[bodyKey] || "";
-        if (odysseyChips) {
+        const badge = document.getElementById("odysseyBadge");
+        const title = document.getElementById("odysseyTitle");
+        const body = document.getElementById("odysseyBody");
+        const chips = document.getElementById("odysseyChips");
+
+        if (badge) badge.textContent = texts[badgeKey] || fallback[badgeKey] || "";
+        if (title) title.textContent = texts[titleKey] || fallback[titleKey] || "";
+        if (body) body.textContent = texts[bodyKey] || fallback[bodyKey] || "";
+        if (chips) {
             const c1 = texts[c1Key] || fallback[c1Key] || "";
             const c2 = texts[c2Key] || fallback[c2Key] || "";
             const c3 = texts[c3Key] || fallback[c3Key] || "";
@@ -3211,19 +3412,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const cascadeOutput = document.getElementById("cascadeOutput");
 
     function updateCascadeCalculator() {
-        if (!cascadeSlider || !cascadeValue || !cascadeOutput) return;
-        const n = Number(cascadeSlider.value);
+        const slider = document.getElementById("cascadeSlider");
+        const valEl = document.getElementById("cascadeValue");
+        const outEl = document.getElementById("cascadeOutput");
+        if (!slider || !valEl || !outEl) return;
+        const n = Number(slider.value);
         const texts = dictionary[currentLang] || dictionary.es;
         const fallback = dictionary.es;
         const peopleTmpl = texts.calc_people_val || fallback.calc_people_val || "{n} personas";
-        cascadeValue.textContent = peopleTmpl.replace("{n}", n);
+        valEl.textContent = peopleTmpl.replace("{n}", n);
         // Fórmula viral de 3 niveles: 1 + n + n^2 + n^3
         const total = 1 + n + (n * n) + (n * n * n);
         const outputTmpl = texts.calc_output_tmpl || fallback.calc_output_tmpl ||
             "Si te unes hoy y compartes con <strong class=\"cascade-highlight\">{n} personas</strong> que a su vez compartan con otras {n} en 3 niveles, tu nodo activará <strong class=\"cascade-highlight\">{total} firmas</strong> hacia el umbral de tu país.";
-        cascadeOutput.innerHTML = outputTmpl
+        outEl.innerHTML = outputTmpl
             .replace(/\{n\}/g, n)
             .replace(/\{total\}/g, total.toLocaleString());
+        const ariaLabel = texts.calc_slider_aria || fallback.calc_slider_aria;
+        if (ariaLabel) slider.setAttribute("aria-label", ariaLabel);
     }
 
     if (cascadeSlider) {
@@ -3579,9 +3785,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const lower = cleanQ.toLowerCase();
         const match = curatedOracleAnswers.find((item) => item.keywords.some((k) => lower.includes(k)));
+        const defaultIntro = texts.oracle_local_intro || fallback.oracle_local_intro || "🏛️ <strong>Prometeo (Archivo Local):</strong>";
+        const defaultReply = texts.oracle_local_fallback || fallback.oracle_local_fallback || "El Proyecto Anticitera une 2.100 años de tradición científica europea con la <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> (aprobada por Decisión <strong>C(2026) 7098 final</strong>). Nuestro objetivo es alcanzar <strong>1.000.000 de firmas oficiales a partir del 6 de abril de 2027</strong> para establecer el Distrito Digital Europeo y reservar el dominio soberano <code>.IA</code> bajo gobernanza ética ISO/IEC 42001.";
         loadingMsg.innerHTML = match
             ? `🏛️ ${match.answer}`
-            : `🏛️ <strong>Prometeo (Archivo Local):</strong> El Proyecto Anticitera une 2.100 años de tradición científica europea con la <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> (aprobada por Decisión <strong>C(2026) 7098 final</strong>). Nuestro objetivo es alcanzar <strong>1.000.000 de firmas oficiales a partir del 6 de abril de 2027</strong> para establecer el Distrito Digital Europeo y reservar el dominio soberano <code>.IA</code> bajo gobernanza ética ISO/IEC 42001.`;
+            : `${defaultIntro} ${defaultReply}`;
         playHarmonicChord();
         if (btnOracleSend) btnOracleSend.disabled = false;
     }
@@ -3601,4 +3809,11 @@ document.addEventListener("DOMContentLoaded", () => {
             askPrometeoOracle(q);
         });
     }
+
+    // ==========================================================================
+    // 15. ARRANQUE DEL ESTADO INICIAL (SINCRONIZACIÓN TOTAL)
+    // ==========================================================================
+    applyLanguage(currentLang);
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
 });

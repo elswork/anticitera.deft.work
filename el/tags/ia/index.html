@@ -1619,10 +1619,34 @@ lite-youtube.lyt-activated > .lyt-playbtn {
             cta: "Εξερευνήστε την Εκστρατεία 6 Απριλίου ↗",
             dismiss: "Υπενθύμιση αργότερα",
             targetUrl: "/6abril/?lang=el"
+        },
+        nl: {
+            badge: "🏛️ EUROPEES BURGERINITIATIEF · ECI(2026)000012",
+            chip: "D-DAY · 6 APRIL 2027",
+            title: "Op 6 april eist Europa zijn grondgebied op in het AI-tijdperk",
+            body: "De Europese Commissie heeft ons initiatief goedgekeurd om het <strong>Europees Digitaal District</strong> en het soevereine <strong>.IA</strong> domein te creëren. Sluit u aan bij de Pionierslijst.",
+            pill1: "🛡️ Besluit C(2026) 7098",
+            pill2: "⏳ 1.000.000 Handtekeningen",
+            pill3: "🏛️ Soeverein .IA-District",
+            cta: "Verken Campagne 6 April ↗",
+            dismiss: "Later herinneren",
+            targetUrl: "/6abril/?lang=nl"
+        },
+        pl: {
+            badge: "🏛️ EUROPEJSKA INICJATYWA OBYWATELSKA · ECI(2026)000012",
+            chip: "DZIEŃ D · 6 KWIETNIA 2027",
+            title: "6 kwietnia Europa odzyskuje swoje terytorium w erze AI",
+            body: "Komisja Europejska formalnie zatwierdziła naszą inicjatywę utworzenia <strong>Europejskiego Dystryktu Cyfrowego</strong> i suwerennej domeny <strong>.IA</strong>. Dołącz do Listy Pionierów.",
+            pill1: "🛡️ Decyzja C(2026) 7098",
+            pill2: "⏳ 1 000 000 Podpisów",
+            pill3: "🏛️ Suwerenny Dystrykt .IA",
+            cta: "Odkryj Kampanię 6 Kwietnia ↗",
+            dismiss: "Przypomnij później",
+            targetUrl: "/6abril/?lang=pl"
         }
     };
 
-    const t = i18n[docLang] || i18n.es;
+    const t = i18n[docLang] || (docLang === 'es' ? i18n.es : (i18n.en || i18n.es));
     const badgeEl = document.getElementById('popup6AbrilBadge');
     const chipEl = document.getElementById('popup6AbrilChip');
     const titleEl = document.getElementById('popup6AbrilTitle');
