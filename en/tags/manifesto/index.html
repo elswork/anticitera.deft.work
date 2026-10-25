@@ -1131,6 +1131,486 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 
 <p>See <a href="/en/tags/">all tags</a>.</p>
 
+
+<!-- Popup Recomendación Landing 6 de Abril (ECI(2026)000012) -->
+<style>
+.popup-6abril-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(2, 6, 16, 0.78);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 99998;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s ease;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+.popup-6abril-backdrop.is-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-6abril-card {
+    position: relative;
+    width: 100%;
+    max-width: 540px;
+    background: linear-gradient(165deg, rgba(10, 18, 36, 0.96) 0%, rgba(4, 8, 18, 0.98) 100%);
+    border: 1px solid rgba(200, 157, 60, 0.45);
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 50px rgba(200, 157, 60, 0.22);
+    overflow: hidden;
+    color: #F8F6F0;
+    transform: scale(0.92) translateY(20px);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.popup-6abril-backdrop.is-visible .popup-6abril-card {
+    transform: scale(1) translateY(0);
+}
+
+/* Modo Claro / Light Mode */
+[data-theme="light"] .popup-6abril-card {
+    background: linear-gradient(165deg, #FFFFFF 0%, #F8FAFC 100%);
+    border-color: rgba(140, 94, 19, 0.35);
+    box-shadow: 0 25px 60px rgba(0, 30, 80, 0.18), 0 0 40px rgba(200, 157, 60, 0.15);
+    color: #0F172A;
+}
+
+/* Botón Cerrar (X) */
+.popup-6abril-close-btn {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(4, 7, 15, 0.7);
+    border: 1px solid rgba(200, 157, 60, 0.4);
+    color: #F2D98D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 1;
+    z-index: 10;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(6px);
+}
+
+.popup-6abril-close-btn:hover {
+    background: rgba(200, 157, 60, 0.25);
+    border-color: #F2D98D;
+    transform: scale(1.08);
+    color: #FFFFFF;
+}
+
+[data-theme="light"] .popup-6abril-close-btn {
+    background: rgba(255, 255, 255, 0.88);
+    border-color: rgba(140, 94, 19, 0.35);
+    color: #63430C;
+}
+
+[data-theme="light"] .popup-6abril-close-btn:hover {
+    background: #8C5E13;
+    color: #FFFFFF;
+}
+
+/* Encabezado Visual */
+.popup-6abril-media {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+    background: #020408;
+}
+
+.popup-6abril-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 32%;
+    transition: transform 0.6s ease;
+}
+
+.popup-6abril-card:hover .popup-6abril-img {
+    transform: scale(1.04);
+}
+
+.popup-6abril-media-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(4, 8, 18, 0.15) 0%, rgba(4, 8, 18, 0.75) 70%, rgba(10, 18, 36, 1) 100%);
+}
+
+[data-theme="light"] .popup-6abril-media-overlay {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(248, 250, 252, 0.75) 70%, #FFFFFF 100%);
+}
+
+.popup-6abril-dday-chip {
+    position: absolute;
+    bottom: 14px;
+    left: 20px;
+    background: rgba(16, 185, 129, 0.2);
+    border: 1px solid rgba(16, 185, 129, 0.5);
+    color: #34D399;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    text-transform: uppercase;
+    backdrop-filter: blur(6px);
+}
+
+[data-theme="light"] .popup-6abril-dday-chip {
+    background: rgba(4, 120, 87, 0.12);
+    border-color: rgba(4, 120, 87, 0.4);
+    color: #047857;
+}
+
+/* Cuerpo de la tarjeta */
+.popup-6abril-content {
+    padding: 1.4rem 1.6rem 1.6rem;
+}
+
+.popup-6abril-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    color: #C89D3C;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 0.45rem;
+    display: block;
+}
+
+[data-theme="light"] .popup-6abril-badge {
+    color: #8C5E13;
+}
+
+.popup-6abril-title {
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 1.32rem;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #FFFFFF;
+    margin: 0 0 0.65rem;
+    letter-spacing: -0.01em;
+}
+
+[data-theme="light"] .popup-6abril-title {
+    color: #0F172A;
+}
+
+.popup-6abril-body {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: #CBD5E1;
+    margin: 0 0 1.2rem;
+}
+
+[data-theme="light"] .popup-6abril-body {
+    color: #475569;
+}
+
+.popup-6abril-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 1.35rem;
+}
+
+.popup-6abril-pill-item {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    background: rgba(200, 157, 60, 0.1);
+    border: 1px solid rgba(200, 157, 60, 0.28);
+    color: #F2D98D;
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+[data-theme="light"] .popup-6abril-pill-item {
+    background: rgba(140, 94, 19, 0.08);
+    border-color: rgba(140, 94, 19, 0.25);
+    color: #63430C;
+}
+
+/* Botones de acción */
+.popup-6abril-actions {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .popup-6abril-actions {
+        flex-direction: column;
+    }
+}
+
+.popup-6abril-btn-primary {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    background: linear-gradient(135deg, #F2D98D 0%, #C89D3C 60%, #996B1E 100%);
+    color: #050811 !important;
+    font-weight: 800;
+    font-size: 0.88rem;
+    padding: 0.78rem 1.25rem;
+    border-radius: 10px;
+    text-decoration: none !important;
+    box-shadow: 0 8px 24px rgba(200, 157, 60, 0.35);
+    transition: all 0.25s ease;
+    border: none;
+    text-align: center;
+}
+
+.popup-6abril-btn-primary:hover {
+    background: linear-gradient(135deg, #FFF0B8 0%, #DBAE4A 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(200, 157, 60, 0.5);
+    color: #020408 !important;
+}
+
+.popup-6abril-btn-secondary {
+    background: transparent;
+    border: 1px solid rgba(200, 157, 60, 0.3);
+    color: #94A3B8;
+    font-size: 0.82rem;
+    font-weight: 600;
+    padding: 0.78rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.popup-6abril-btn-secondary:hover {
+    background: rgba(200, 157, 60, 0.12);
+    border-color: rgba(200, 157, 60, 0.5);
+    color: #F8F6F0;
+}
+
+[data-theme="light"] .popup-6abril-btn-secondary {
+    border-color: rgba(140, 94, 19, 0.3);
+    color: #64748B;
+}
+
+[data-theme="light"] .popup-6abril-btn-secondary:hover {
+    background: rgba(140, 94, 19, 0.08);
+    color: #0F172A;
+}
+</style>
+
+<div id="popup6AbrilBackdrop" class="popup-6abril-backdrop" role="dialog" aria-modal="true" aria-labelledby="popup6AbrilTitle">
+    <div class="popup-6abril-card">
+        <button type="button" class="popup-6abril-close-btn" id="popup6AbrilCloseBtn" aria-label="Cerrar">&times;</button>
+        <div class="popup-6abril-media">
+            <img src="/img/chema-6abril/img_04_cronografo_6abril_anticitera.jpg" alt="Cronógrafo de Anticitera y la Campaña del 6 de Abril" class="popup-6abril-img" loading="lazy">
+            <div class="popup-6abril-media-overlay"></div>
+            <span class="popup-6abril-dday-chip" id="popup6AbrilChip">DÍA D · 6 DE ABRIL DE 2027</span>
+        </div>
+        <div class="popup-6abril-content">
+            <span class="popup-6abril-badge" id="popup6AbrilBadge">🏛️ INICIATIVA CIUDADANA EUROPEA · ECI(2026)000012</span>
+            <h3 class="popup-6abril-title" id="popup6AbrilTitle">El 6 de abril, Europa reclama su territorio en la era de la IA</h3>
+            <p class="popup-6abril-body" id="popup6AbrilBody">
+                La Comisión Europea ha admitido formalmente a trámite nuestra iniciativa para crear el <strong>Distrito Digital Europeo</strong> y el dominio soberano <strong>.IA</strong>. Descubre la cronología, consulta a Prometeo y súmate a la Lista de Pioneros Día 1.
+            </p>
+            <div class="popup-6abril-pills">
+                <span class="popup-6abril-pill-item" id="popup6AbrilPill1">🛡️ Decisión C(2026) 7098</span>
+                <span class="popup-6abril-pill-item" id="popup6AbrilPill2">⏳ 1.000.000 de Firmas</span>
+                <span class="popup-6abril-pill-item" id="popup6AbrilPill3">🏛️ Distrito Soberano .IA</span>
+            </div>
+            <div class="popup-6abril-actions">
+                <a href="/6abril/" class="popup-6abril-btn-primary" id="popup6AbrilCta">
+                    <span>Explorar Campaña 6 de Abril ↗</span>
+                </a>
+                <button type="button" class="popup-6abril-btn-secondary" id="popup6AbrilDismiss">
+                    Recordar más tarde
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+(function() {
+    // Solo se activa en las portadas/raíces de idiomas
+    const rawPath = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '') || '/';
+    const isHomePage = (rawPath === '/' || rawPath === '/es' || rawPath === '/en' || rawPath === '/fr' || rawPath === '/pt' || rawPath === '/de' || rawPath === '/it' || rawPath === '/el');
+    if (!isHomePage) return;
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const forceShow = urlParams.get('show_6abril') === '1' || urlParams.get('popup') === '1';
+
+    const STORAGE_KEY = 'anticitera_6abril_popup_dismissed_until';
+    const dismissedUntil = localStorage.getItem(STORAGE_KEY);
+    if (!forceShow && dismissedUntil && Date.now() < parseInt(dismissedUntil, 10)) {
+        return;
+    }
+
+    const backdrop = document.getElementById('popup6AbrilBackdrop');
+    if (!backdrop) return;
+
+    // Diccionarios multilingües
+    const docLang = (document.documentElement.lang || 'es').toLowerCase().split('-')[0];
+    const i18n = {
+        es: {
+            badge: "🏛️ INICIATIVA CIUDADANA EUROPEA · ECI(2026)000012",
+            chip: "DÍA D · 6 DE ABRIL DE 2027",
+            title: "El 6 de abril, Europa reclama su territorio en la era de la IA",
+            body: "La Comisión Europea ha admitido formalmente a trámite nuestra iniciativa para crear el <strong>Distrito Digital Europeo</strong> y el dominio soberano <strong>.IA</strong>. Descubre la cronología, consulta a Prometeo y súmate a la Lista de Pioneros Día 1.",
+            pill1: "🛡️ Decisión C(2026) 7098",
+            pill2: "⏳ 1.000.000 de Firmas",
+            pill3: "🏛️ Distrito Soberano .IA",
+            cta: "Explorar Campaña 6 de Abril ↗",
+            dismiss: "Recordar más tarde",
+            targetUrl: "/6abril/"
+        },
+        en: {
+            badge: "🏛️ EUROPEAN CITIZENS' INITIATIVE · ECI(2026)000012",
+            chip: "D-DAY · 6 APRIL 2027",
+            title: "On April 6, Europe reclaims its territory in the AI era",
+            body: "The European Commission has legally validated our initiative to establish the <strong>European Digital District</strong> and the sovereign <strong>.IA</strong> domain. Explore the odyssey, ask Prometeo and join the Pioneers List.",
+            pill1: "🛡️ Decision C(2026) 7098",
+            pill2: "⏳ 1,000,000 Signatures",
+            pill3: "🏛️ Sovereign .IA District",
+            cta: "Explore April 6 Campaign ↗",
+            dismiss: "Remind me later",
+            targetUrl: "/6abril/?lang=en"
+        },
+        fr: {
+            badge: "🏛️ INITIATIVE CITOYENNE EUROPÉENNE · ECI(2026)000012",
+            chip: "JOUR J · 6 AVRIL 2027",
+            title: "Le 6 avril, l'Europe revendique son territoire à l'ère de l'IA",
+            body: "La Commission européenne a validé juridiquement notre initiative pour créer le <strong>District Numérique Européen</strong> et le domaine souverain <strong>.IA</strong>. Rejoignez la Liste des Pionniers.",
+            pill1: "🛡️ Décision C(2026) 7098",
+            pill2: "⏳ 1 000 000 de Signatures",
+            pill3: "🏛️ Domaine Souverain .IA",
+            cta: "Découvrir la Campagne du 6 Avril ↗",
+            dismiss: "Plus tard",
+            targetUrl: "/6abril/?lang=fr"
+        },
+        it: {
+            badge: "🏛️ INIZIATIVA DEI CITTADINI EUROPEI · ECI(2026)000012",
+            chip: "GIORNO D · 6 APRILE 2027",
+            title: "Il 6 aprile l'Europa rivendica il suo territorio nell'era dell'IA",
+            body: "La Commissione Europea ha approvato l'iniziativa per la creazione del <strong>Distretto Digitale Europeo</strong> e del dominio sovrano <strong>.IA</strong>. Unisciti alla Lista dei Pionieri del Giorno 1.",
+            pill1: "🛡️ Decisione C(2026) 7098",
+            pill2: "⏳ 1.000.000 di Firme",
+            pill3: "🏛️ Distretto Sovrano .IA",
+            cta: "Esplora la Campagna del 6 Aprile ↗",
+            dismiss: "Ricordamelo più tardi",
+            targetUrl: "/6abril/?lang=it"
+        },
+        pt: {
+            badge: "🏛️ INICIATIVA DE CIDADANIA EUROPEIA · ECI(2026)000012",
+            chip: "DIA D · 6 DE ABRIL DE 2027",
+            title: "A 6 de abril, a Europa reclama o seu território na era da IA",
+            body: "A Comissão Europeia validou juridicamente a iniciativa para criar o <strong>Distrito Digital Europeu</strong> e o domínio soberano <strong>.IA</strong>. Junte-se à Lista de Pioneiros antes da abertura da urna.",
+            pill1: "🛡️ Decisão C(2026) 7098",
+            pill2: "⏳ 1.000.000 de Assinaturas",
+            pill3: "🏛️ Distrito Soberano .IA",
+            cta: "Explorar Campanha de 6 de Abril ↗",
+            dismiss: "Lembrar mais tarde",
+            targetUrl: "/6abril/?lang=pt"
+        },
+        de: {
+            badge: "🏛️ EUROPÄISCHE BÜRGERINITIATIVE · ECI(2026)000012",
+            chip: "TAG X · 6. APRIL 2027",
+            title: "Am 6. April fordert Europa sein Territorium im KI-Zeitalter ein",
+            body: "Die Europäische Kommission hat die Initiative zur Schaffung des <strong>Europäischen Digitalen Distrikts</strong> und der Domäne <strong>.IA</strong> bestätigt. Werden Sie Pionier.",
+            pill1: "🛡️ Beschluss C(2026) 7098",
+            pill2: "⏳ 1.000.000 Unterschriften",
+            pill3: "🏛️ Souveräner .IA-Distrikt",
+            cta: "Kampagne vom 6. April entdecken ↗",
+            dismiss: "Später erinnern",
+            targetUrl: "/6abril/?lang=de"
+        },
+        el: {
+            badge: "🏛️ ΕΥΡΩΠΑΪΚΗ ΠΡΩΤΟΒΟΥΛΙΑ ΠΟΛΙΤΩΝ · ECI(2026)000012",
+            chip: "ΗΜΕΡΑ D · 6 ΑΠΡΙΛΙΟΥ 2027",
+            title: "Στις 6 Απριλίου η Ευρώπη διεκδικεί την κυριαρχία της στην εποχή της ΤΝ",
+            body: "Η Ευρωπαϊκή Επιτροπή ενέκρινε νομικά την πρωτοβουλία για το <strong>Ευρωπαϊκό Ψηφιακό Διαμέρισμα</strong> και το domain <strong>.IA</strong>. Εγγραφείτε στη Λίστα Πρωτοπόρων.",
+            pill1: "🛡️ Απόφαση C(2026) 7098",
+            pill2: "⏳ 1.000.000 Υπογραφές",
+            pill3: "🏛️ Κυρίαρχο Domain .IA",
+            cta: "Εξερευνήστε την Εκστρατεία 6 Απριλίου ↗",
+            dismiss: "Υπενθύμιση αργότερα",
+            targetUrl: "/6abril/?lang=el"
+        }
+    };
+
+    const t = i18n[docLang] || i18n.es;
+    const badgeEl = document.getElementById('popup6AbrilBadge');
+    const chipEl = document.getElementById('popup6AbrilChip');
+    const titleEl = document.getElementById('popup6AbrilTitle');
+    const bodyEl = document.getElementById('popup6AbrilBody');
+    const pill1El = document.getElementById('popup6AbrilPill1');
+    const pill2El = document.getElementById('popup6AbrilPill2');
+    const pill3El = document.getElementById('popup6AbrilPill3');
+    const ctaEl = document.getElementById('popup6AbrilCta');
+    const dismissBtn = document.getElementById('popup6AbrilDismiss');
+    const closeBtn = document.getElementById('popup6AbrilCloseBtn');
+
+    if (badgeEl) badgeEl.textContent = t.badge;
+    if (chipEl) chipEl.textContent = t.chip;
+    if (titleEl) titleEl.textContent = t.title;
+    if (bodyEl) bodyEl.innerHTML = t.body;
+    if (pill1El) pill1El.textContent = t.pill1;
+    if (pill2El) pill2El.textContent = t.pill2;
+    if (pill3El) pill3El.textContent = t.pill3;
+    if (ctaEl) {
+        ctaEl.innerHTML = `<span>${t.cta}</span>`;
+        ctaEl.href = t.targetUrl;
+    }
+    if (dismissBtn) dismissBtn.textContent = t.dismiss;
+
+    function dismissPopup(durationHours) {
+        backdrop.classList.remove('is-visible');
+        const expireTime = Date.now() + (durationHours * 60 * 60 * 1000);
+        localStorage.setItem(STORAGE_KEY, String(expireTime));
+        setTimeout(() => {
+            backdrop.style.display = 'none';
+        }, 360);
+    }
+
+    if (closeBtn) closeBtn.addEventListener('click', () => dismissPopup(24));
+    if (dismissBtn) dismissBtn.addEventListener('click', () => dismissPopup(24));
+    if (ctaEl) ctaEl.addEventListener('click', () => dismissPopup(72)); // 3 días si explora
+
+    backdrop.addEventListener('click', (e) => {
+        if (e.target === backdrop) dismissPopup(24);
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && backdrop.classList.contains('is-visible')) {
+            dismissPopup(24);
+        }
+    });
+
+    // Retardo suave de 1.4 segundos tras la carga de la página principal
+    setTimeout(() => {
+        backdrop.style.display = 'flex';
+        void backdrop.offsetWidth; // Reflow para disparar la transición CSS
+        backdrop.classList.add('is-visible');
+    }, 1400);
+})();
+</script>
+
+
 		<br>
 
 
