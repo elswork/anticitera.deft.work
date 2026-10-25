@@ -1,5 +1,5 @@
 # Τμήμα Συνδέσμων
-Fecha: Sun Oct 25 2026 09:43:22 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Oct 25 2026 10:50:17 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/links/
 
 ---
@@ -478,7 +478,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Σχετική εικόνα](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Σχετική εικόνα](https://www.latercera.com/resizer/v2/IHQQAAQ22JECFPHNOKPGXTTLH4.jpeg?auth=e28bfadadff58196499c2ba9a56c27b5ca3f6db4bbc869f17a48fa155f7f364b&smart=true&width=100&height=56&quality=70)
+![Σχετική εικόνα](https://www.latercera.com/resizer/v2/WWUJ377GFJFOVPQFJL6EZHGBLY.jpeg?auth=488a30a1c569a2d3d2545219ecdd0fe9b7058ffee52e81a67b9600ef2b5bfe93&smart=true&width=100&height=56&quality=70)
 
 
 

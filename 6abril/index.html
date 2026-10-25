@@ -2466,9 +2466,10 @@
 			align-items: center;
 			gap: 0.5rem;
 			font-family: 'JetBrains Mono', monospace;
-			font-size: 0.74rem;
-			color: var(--verdigris-glow);
-			background: rgba(4, 8, 16, 0.8);
+			font-size: 0.76rem;
+			font-weight: 600;
+			color: #34D399;
+			background: rgba(16, 185, 129, 0.12);
 			border: 1px solid rgba(16, 185, 129, 0.35);
 			padding: 0.35rem 0.9rem;
 			border-radius: 999px;
@@ -2505,6 +2506,29 @@
 			display: flex;
 			align-items: center;
 			gap: 0.9rem;
+		}
+		.oracle-title-line {
+			font-family: 'Cinzel', serif;
+			font-size: 1.12rem;
+			font-weight: 700;
+			color: var(--bronze-light);
+			letter-spacing: 0.02em;
+		}
+		.oracle-status-line {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.45rem;
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.8rem;
+			font-weight: 600;
+			letter-spacing: 0.03em;
+			line-height: 1.35;
+			color: #34D399;
+			background: rgba(16, 185, 129, 0.12);
+			border: 1px solid rgba(16, 185, 129, 0.35);
+			border-radius: 999px;
+			padding: 0.25rem 0.75rem;
+			margin-top: 0.35rem;
 		}
 		.oracle-avatar-ring {
 			width: 54px;
@@ -3025,6 +3049,12 @@
 			border-color: #8C5E13;
 		}
 
+		[data-theme="light"] .gear-telemetry-badge {
+			color: #065F46;
+			background: rgba(4, 120, 87, 0.09);
+			border-color: rgba(4, 120, 87, 0.3);
+		}
+
 		[data-theme="light"] .ocs-master-btn.is-locked {
 			background: linear-gradient(135deg, #003399 0%, #0B1B3D 100%);
 			border-color: #C89D3C;
@@ -3271,6 +3301,16 @@
 			box-shadow: 0 20px 50px rgba(0, 30, 80, 0.08);
 		}
 
+		[data-theme="light"] .oracle-title-line {
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .oracle-status-line {
+			color: #065F46;
+			background: rgba(4, 120, 87, 0.10);
+			border-color: rgba(4, 120, 87, 0.32);
+		}
+
 		[data-theme="light"] .oracle-avatar-ring {
 			border-color: #8C5E13;
 			background: #F8FAFC;
@@ -3401,7 +3441,7 @@
 				<a href="#universo" class="nav-pill-link" data-i18n="nav_universe">El Proyecto</a>
 				<a href="#reloj" class="nav-pill-link" data-i18n="nav_clock">Reloj 6 Abril</a>
 				<a href="#simulador" class="nav-pill-link" data-i18n="nav_sim">Por qué .IA</a>
-				<a href="#oraculo" class="nav-pill-link" data-i18n="nav_oracle">Oráculo IA</a>
+				<a href="#oraculo" class="nav-pill-link" data-i18n="nav_oracle">Prometeo</a>
 				<a href="#pioneerBox" class="nav-pill-link" data-i18n="nav_pioneers">Pioneros</a>
 			</nav>
 
@@ -4113,11 +4153,11 @@
 				<div class="oracle-header-bar">
 					<div class="oracle-identity">
 						<div class="oracle-avatar-ring">
-							<img src="/img/perseo_chatbot_icon.png" alt="Prometeo · Oráculo Soberano de Anticitera" loading="lazy">
+							<img src="/img/perseo_chatbot_icon.png" alt="Prometeo · Custodio Documental de Anticitera" loading="lazy">
 						</div>
 						<div>
-							<div style="font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:var(--bronze-light);">PROMETEO v3.0 · NODO RAG ANTICITERA</div>
-							<div style="font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--verdigris-glow);" data-i18n="oracle_status">● CONECTADO A LA WIKI COMPILADA Y AL DECRETO C(2026) 7098</div>
+							<div class="oracle-title-line">PROMETEO v3.0 · NODO RAG ANTICITERA</div>
+							<div class="oracle-status-line" data-i18n="oracle_status">● CONECTADO A LA WIKI COMPILADA Y AL DECRETO C(2026) 7098</div>
 						</div>
 					</div>
 				</div>
@@ -4145,7 +4185,7 @@
 						required
 					>
 					<button type="submit" class="btn-oracle-send" id="btnOracleSend" data-i18n="oracle_btn_send">
-						Consultar al Oráculo
+						Consultar a Prometeo
 					</button>
 				</form>
 			</div>
@@ -4263,10 +4303,10 @@
 
 	</main>
 
-	<!-- ORBE FLOTANTE DE ACCESO DIRECTO AL ORÁCULO PROMETEO -->
-	<a href="#oraculo" class="floating-oracle-orb" aria-label="Consultar al Oráculo Prometeo">
+	<!-- ORBE FLOTANTE DE ACCESO DIRECTO A PROMETEO -->
+	<a href="#oraculo" class="floating-oracle-orb" aria-label="Consultar a Prometeo">
 		<img src="/img/perseo_chatbot_icon.png" alt="" aria-hidden="true">
-		<span data-i18n="floating_oracle_label">Oráculo Prometeo</span>
+		<span data-i18n="floating_oracle_label">Prometeo</span>
 	</a>
 
 	<!-- MODAL NATIVO <dialog>: INSPECTOR DEL DECRETO OFICIAL DE BRUSELAS -->
