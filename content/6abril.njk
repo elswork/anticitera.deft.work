@@ -3464,13 +3464,13 @@ eleventyExcludeFromCollections: true
 					🏛️ Decreto Oficial
 				</button>
 
-				<button type="button" id="topbarShareBtn" class="btn-topbar-share" aria-label="Compartir">
+				<button type="button" id="topbarShareBtn" class="btn-topbar-share" aria-label="Compartir" data-i18n-aria="share_btn_top">
 					<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
 					<span data-i18n="share_btn_top">Compartir</span>
 				</button>
 
 				<div class="lang-switcher-wrap">
-					<label for="langSwitch" class="visually-hidden">Idioma oficial de la UE</label>
+					<label for="langSwitch" class="visually-hidden" data-i18n="lang_selector_label">Idioma oficial de la UE</label>
 					<select id="langSwitch" class="lang-select" aria-label="Select official EU language">
 						<option value="es">ES · Español</option>
 						<option value="bg">BG · Български</option>
@@ -3598,7 +3598,7 @@ eleventyExcludeFromCollections: true
 					</button>
 					<div class="artifact-scrubber-wrap">
 						<label for="xrayScrubber" class="artifact-scrubber-label" data-i18n="scrubber_label">Profundidad:</label>
-						<input type="range" id="xrayScrubber" class="artifact-slider" min="0" max="100" value="0" aria-label="Ajustar transparencia de rayos X">
+						<input type="range" id="xrayScrubber" class="artifact-slider" min="0" max="100" value="0" aria-label="Ajustar transparencia de rayos X" data-i18n-aria="xray_scrubber_aria">
 					</div>
 				</div>
 			</div>
@@ -4130,7 +4130,7 @@ eleventyExcludeFromCollections: true
 							<span data-i18n="calc_header">CALCULADORA DE IMPACTO: TU EFECTO MULTIPLICADOR</span>
 						</div>
 						<div class="cascade-slider-row">
-							<input type="range" id="cascadeSlider" class="cascade-slider" min="1" max="15" value="5" aria-label="Número de personas que puedes invitar">
+							<input type="range" id="cascadeSlider" class="cascade-slider" min="1" max="15" value="5" aria-label="Número de personas que puedes invitar" data-i18n-aria="calc_slider_aria">
 							<span class="cascade-slider-value" id="cascadeValue">5 personas</span>
 						</div>
 						<p class="cascade-result-text" id="cascadeOutput">
@@ -4308,7 +4308,7 @@ eleventyExcludeFromCollections: true
 	</main>
 
 	<!-- ORBE FLOTANTE DE ACCESO DIRECTO A PROMETEO -->
-	<a href="#oraculo" class="floating-oracle-orb" aria-label="Consultar a Prometeo">
+	<a href="#oraculo" class="floating-oracle-orb" aria-label="Consultar a Prometeo" data-i18n-aria="floating_oracle_aria">
 		<img src="/img/perseo_chatbot_icon.png" alt="" aria-hidden="true">
 		<span data-i18n="floating_oracle_label">Prometeo</span>
 	</a>
@@ -4322,7 +4322,7 @@ eleventyExcludeFromCollections: true
 					Decisión de Ejecución C(2026) 7098 final
 				</h3>
 			</div>
-			<button type="button" class="modal-close-btn" id="btnCloseModal" commandfor="decisionModal" command="close" aria-label="Cerrar modal">✕</button>
+			<button type="button" class="modal-close-btn" id="btnCloseModal" commandfor="decisionModal" command="close" aria-label="Cerrar modal" data-i18n-aria="modal_btn_close_aria">✕</button>
 		</div>
 
 		<div style="font-size:0.92rem;line-height:1.7;color:var(--parchment-muted);margin-bottom:1.5rem;">
