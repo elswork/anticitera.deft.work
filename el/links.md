@@ -1,5 +1,5 @@
 # Τμήμα Συνδέσμων
-Fecha: Sat Oct 24 2026 23:23:30 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Oct 25 2026 09:43:22 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/links/
 
 ---
@@ -151,8 +151,8 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 
 
-
-
+[The Antikythera reminds us that humanity shall always prevail over Artificial Intelligence](https://planetmainframe.com/2023/11/the-antikythera-reminds-us-that-humanity-shall-always-prevail-over-artificial-intelligence/)
+In the last 2,500 years human civilization has made great strides; and in merely the last 80 of these, technology has advanced to the point where machines, endowed with artificial […]
 
 
 
@@ -162,6 +162,15 @@ Enjoy the videos and music you love, upload original content, and share it all w
 
 ◀
 ▶
+
+
+![Σχετική εικόνα](https://planetmainframe.com/wp-content/uploads/2023/11/Antikythera.jpg)
+
+
+![Σχετική εικόνα](https://planetmainframe.com/wp-content/uploads/2025/11/PMF-YouTube-Icon.png)
+
+
+![Σχετική εικόνα](https://planetmainframe.com/wp-content/uploads/2025/08/LinkedIn-Icon-Full.png)
 
 
 
@@ -469,7 +478,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Σχετική εικόνα](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Σχετική εικόνα](https://www.latercera.com/resizer/v2/WJVZ4RZ2GVAFNLSDARBLUVBWJA.png?auth=7a114d5945e0d34ed544719bc7a5c07e3e9178c8069b1a79187db905b3eeea27&smart=true&width=100&height=56&quality=70)
+![Σχετική εικόνα](https://www.latercera.com/resizer/v2/IHQQAAQ22JECFPHNOKPGXTTLH4.jpeg?auth=e28bfadadff58196499c2ba9a56c27b5ca3f6db4bbc869f17a48fa155f7f364b&smart=true&width=100&height=56&quality=70)
 
 
 
@@ -485,8 +494,8 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 
 
-
-
+[Inteligencia Artificial plasmada en la antigua Grecia - Rapinformes](https://rapinformes.es/inteligencia-artificial-plasmada-en-la-antigua-grecia/)
+Homero no deja indiferente a nadie, al igual que Pandora y su famosa caja, Zeus, Medea, o más desconocidos son Talos, Hefesto o Hesíodo. Por supuesto, no
 
 
 
@@ -496,6 +505,15 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 
 ◀
 ▶
+
+
+![Σχετική εικόνα](https://rapinformes.es/wp-content/uploads/2013/02/inteligencia-artificial-plasmada-antigua-grecia.jpg)
+
+
+![Σχετική εικόνα](https://rapinformes.es/wp-content/uploads/2021/04/matrices-marca-corp-RAP-INFORMES.png)
+
+
+![Σχετική εικόνα](https://anticitera.deft.work/data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201672%20941'%3E%3C/svg%3E)
 
 
 
