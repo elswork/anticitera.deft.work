@@ -138,6 +138,66 @@ const dictionary = {
     "act3_body": "Una Iniciativa Ciudadana Europea exige reunir 1.000.000 de declaraciones de apoyo válidas en 12 meses y superar el umbral mínimo legal en al menos 7 Estados miembros. Nuestro Comité Organizador —encabezado por Eloy López Sánchez (España) y Aristeidis Tsitiridis (Grecia) junto a representantes de Francia, Portugal, Hungría, Croacia y Chipre— ha fijado el 6 de abril de 2027 como el Día D para que toda Europa actúe al unísono.",
     "committee_label": "COMITÉ ORGANIZADOR DE LAS SIETE NACIONES · UMBRALES OFICIALES UE",
     "footer_legal": "Iniciativa Ciudadana Europea registrada oficialmente por la Comisión Europea · Expediente ECI(2026)000012 · Decisión de Ejecución C(2026) 7098 final de 6 de octubre de 2026. Representantes del Grupo de Organizadores: Eloy López Sánchez y Aristeidis Tsitiridis.",
+    "seal_meta_tag1": "Decisión C(2026) 7098 final",
+    "seal_meta_tag2": "Art. 16, 114, 172 y 173 TFUE",
+    "seal_meta_tag3": "Reglamento (UE) 2019/517",
+    "triad_role_arq": "ASISTENTE IA · ARQUITECTURA",
+    "triad_role_eloy": "HUMANO · DIRECCIÓN Y REPRESENTANTE",
+    "triad_role_ath": "ASISTENTE IA · ESTRATEGA Y AUDITORÍA",
+    "comp_bad_title": "El Peaje Colonial Caribeño",
+    "comp_bad_p1": "<strong>Jurisdicción:</strong> Isla de Anguila (Territorio Británico de Ultramar), ajena a las leyes democráticas de la UE.",
+    "comp_bad_p2": "<strong>Fuga Económica:</strong> Decenas de millones de euros de proyectos europeos transferidos anualmente al extranjero por una coincidencia en inglés.",
+    "comp_bad_p3": "<strong>Garantías DNS:</strong> Cero. Una caja negra opaca donde cualquier algoritmo no auditado puede operar sin acreditación.",
+    "comp_good_title": "Gobernanza Compilada en el DNS",
+    "comp_good_p1": "<strong>Hogar Histórico:</strong> Anclado en las aguas de Anticitera (35°52′N, 23°18′E), cuna de la computación hace 2.100 años.",
+    "comp_good_p2": "<strong>Pasaporte Único:</strong> Cada dominio .ia garantiza por diseño eIDAS 2.0 (identidad soberana), AI Act y RGPD.",
+    "comp_good_p3": "<strong>Sandboxes Regulatorios:</strong> Entornos de prueba para que startups y universidades innoven sin asfixia burocrática.",
+    "odyssey_tab1": "I · Origen en el Egeo (~150 a.C.)",
+    "odyssey_tab2": "II · El Legal Hack (2023–2026)",
+    "odyssey_tab3": "III · Arquitectura DNS .IA",
+    "odyssey_tab4": "IV · El Despertar del 6 de Abril",
+    "odyssey_e1_badge": "ÉPOCA I · c. 150 a.C. · 35°52′N 23°18′E",
+    "odyssey_e1_title": "El Nacimiento de la Computación en Europa",
+    "odyssey_e1_body": "En la primavera de 1901, unos buceadores de esponjas rescataron frente a Anticitera un bloque de bronce con 30 engranajes de precisión matemática. Diseñado en la tradición de Arquímedes de Siracusa, calculaba los movimientos del cosmos dieciséis siglos antes de que Europa inventase el reloj mecánico.",
+    "odyssey_e1_chip1": "Fragmento A de Bronce",
+    "odyssey_e1_chip2": "42 Metros de Profundidad",
+    "odyssey_e1_chip3": "Computación Mecánica",
+    "odyssey_e2_badge": "ÉPOCA II · 2023–2026 · ESTRASBURGO",
+    "odyssey_e2_title": "El «Legal Hack» en el Hemiciclo Europeo",
+    "odyssey_e2_body": "De una 'idea loca' compartida con Chema Alonso en diciembre de 2023 a forjar el Comité Organizador de 7 países. El 6 de octubre de 2026, el Colegio de Comisarios en Estrasburgo adoptó la Decisión C(2026) 7098 final, declarando admisible la iniciativa ante los Tratados Europeos.",
+    "odyssey_e2_chip1": "Comité de 7 Estados",
+    "odyssey_e2_chip2": "Decisión C(2026) 7098",
+    "odyssey_e2_chip3": "Art. 114 y 172 TFUE",
+    "odyssey_e3_badge": "ÉPOCA III · ARQUITECTURA TÉCNICA",
+    "odyssey_e3_title": "Gobernanza Compilada en el DNS y Norma ISO 42001",
+    "odyssey_e3_body": "No es un simple nombre comercial: la resolución DNS de .ia garantiza el Pasaporte Único (eIDAS 2.0 + AI Act + RGPD). Startups y universidades cuentan con sandboxes regulatorios para crear IA de alta confianza sin asfixia burocrática.",
+    "odyssey_e3_chip1": "Pasaporte Único DNS",
+    "odyssey_e3_chip2": "Norma ISO/IEC 42001",
+    "odyssey_e3_chip3": "Alianza Tripartita IA",
+    "odyssey_e4_badge": "ÉPOCA IV · 6 DE ABRIL DE 2027",
+    "odyssey_e4_title": "El Despertar Continental: 1.000.000 de Firmas",
+    "odyssey_e4_body": "A las 09:00 CET del 6 de abril, el Sistema Central OCS de la Unión Europea abrirá la urna electrónica oficial. Doce meses exactos para reunir un millón de firmas ciudadanas y consolidar el primer distrito digital soberano del mundo.",
+    "odyssey_e4_chip1": "Apertura 09:00 CET",
+    "odyssey_e4_chip2": "1.000.000 de Firmas",
+    "odyssey_e4_chip3": "27 Estados de la UE",
+    "modal_badge": "BOLETÍN OFICIAL DE LA UNIÓN EUROPEA",
+    "modal_title": "Decisión de Ejecución C(2026) 7098 final",
+    "modal_p1": "Adoptada en Estrasburgo el <strong>6 de octubre de 2026</strong> bajo la presidencia del Colegio de Comisarios. El texto en <strong>lengua española</strong> es el único auténtico.",
+    "modal_reg_label": "Título Registrado:",
+    "modal_reg_title": "«Creación del Distrito Digital Europeo (.IA) para la Gobernanza de la IA Soberana»",
+    "modal_basis_intro": "Bases jurídicas del Tratado reconocidas por los servicios jurídicos de la UE:",
+    "modal_basis_1": "<strong>Artículo 16 del TFUE:</strong> Protección y libre circulación de datos personales.",
+    "modal_basis_2": "<strong>Artículo 114 del TFUE:</strong> Funcionamiento del mercado interior e interoperabilidad técnica.",
+    "modal_basis_3": "<strong>Artículos 172 y 173 del TFUE:</strong> Redes transeuropeas y competitividad de la industria tecnológica europea.",
+    "modal_basis_4": "<strong>Precedente del Reglamento (UE) 2019/517:</strong> Creación y delegación del dominio .eu como activo soberano.",
+    "modal_btn_pdf": "Abrir Documento Completo (PDF)",
+    "modal_btn_close": "Cerrar Inspector",
+    "calc_people_val": "{n} personas",
+    "calc_output_tmpl": "Si te unes hoy y compartes con <strong class=\"cascade-highlight\">{n} personas</strong> que a su vez compartan con otras {n} en 3 niveles, tu nodo activará <strong class=\"cascade-highlight\">{total} firmas</strong> hacia el umbral de tu país.",
+    "gear_telemetry_hyper": "SINCRONIZACIÓN HIPER-METÓNICA ACTIVA · CICLO OLÍMPICO 2027 EN CURSO",
+    "xray_status_scan": "🔬 ESCÁNER: ACTIVO",
+    "xray_status_recon": "🔬 RECONSTRUCCIÓN 2027: ACTIVA",
+    "oracle_loading": "Consultando los archivos compilados de Anticitera y la Decisión C(2026) 7098...",
     "theme_btn_light": "Modo Claro",
     "theme_btn_dark": "Modo Oscuro"
   },
@@ -478,6 +538,66 @@ const dictionary = {
     "front3_title": "Der Europäische Digitale Distrikt und die .IA-Domain",
     "front3_desc": "Mit dem in Straßburg verabschiedeten Beschluss C(2026) 7098 final bringen wir den Vorschlag nach Brüssel: 1.000.000 Bürgerunterschriften ab dem 6. April 2027 für regulatorische Sandboxes und die Sicherung der .IA-Domain für Europa.",
     "footer_legal": "Europäische Bürgerinitiative, offiziell von der Europäischen Kommission registriert · Akte ECI(2026)000012 · Ausführungsbeschluss C(2026) 7098 final vom 6. Oktober 2026. Vertreter der Organisatorengruppe: Eloy López Sánchez und Aristeidis Tsitiridis.",
+    "seal_meta_tag1": "Beschluss C(2026) 7098 final",
+    "seal_meta_tag2": "Art. 16, 114, 172 & 173 AEUV",
+    "seal_meta_tag3": "Verordnung (EU) 2019/517",
+    "triad_role_arq": "KI-ASSISTENT · COMPUTERARCHITEKTUR",
+    "triad_role_eloy": "MENSCH · LEITUNG & VERTRETER",
+    "triad_role_ath": "KI-ASSISTENTIN · STRATEGIE & AUDIT",
+    "comp_bad_title": "Der koloniale Karibik-Zoll",
+    "comp_bad_p1": "<strong>Gerichtsbarkeit:</strong> Insel Anguilla (Britisches Überseegebiet), außerhalb des demokratischen EU-Rechts.",
+    "comp_bad_p2": "<strong>Kapitalabfluss:</strong> Dutzende Millionen Euro europäischer Technologieprojekte fließen jährlich wegen eines englischen Akronym-Zufalls ab.",
+    "comp_bad_p3": "<strong>DNS-Garantien:</strong> Keine. Eine undurchsichtige Blackbox, in der ungeprüfte Algorithmen ohne Akkreditierung operieren.",
+    "comp_good_title": "Kompilierte Governance im DNS",
+    "comp_good_p1": "<strong>Historische Wiege:</strong> Verankert in den Gewässern von Antikythera (35°52′N, 23°18′E), Wiege der Rechentechnik vor 2.100 Jahren.",
+    "comp_good_p2": "<strong>Einheitspass:</strong> Jede .ia-Domain garantiert per Design eIDAS 2.0 (souveräne Identität), AI Act und DSGVO.",
+    "comp_good_p3": "<strong>Reallabore (Sandboxes):</strong> Testumgebungen für Start-ups und Universitäten ohne bürokratische Lähmung.",
+    "odyssey_tab1": "I · Ursprung in der Ägäis (~150 v. Chr.)",
+    "odyssey_tab2": "II · Der Legal Hack (2023–2026)",
+    "odyssey_tab3": "III · .IA DNS-Architektur",
+    "odyssey_tab4": "IV · Das Erwachen am 6. April",
+    "odyssey_e1_badge": "EPOCHE I · ca. 150 v. Chr. · 35°52′N 23°18′E",
+    "odyssey_e1_title": "Die Geburt der Computation in Europa",
+    "odyssey_e1_body": "Im Frühjahr 1901 bargen Schwammtaucher vor Antikythera einen Bronzeblock mit 30 präzisen Zahnrädern. In der Tradition des Archimedes konstruiert, berechnete er den Kosmos sechzehn Jahrhunderte vor mechanischen Uhren.",
+    "odyssey_e1_chip1": "Bronzefragment A",
+    "odyssey_e1_chip2": "42 Meter Tiefe",
+    "odyssey_e1_chip3": "Mechanische Rechentechnik",
+    "odyssey_e2_badge": "EPOCHE II · 2023–2026 · STRASSBURG",
+    "odyssey_e2_title": "Der «Legal Hack» im Europäischen Plenarsaal",
+    "odyssey_e2_body": "Von einer kühnen Idee im Dezember 2023 bis zum 7-Länder-Komitee. Am 6. Oktober 2026 erklärte das Kollegium der Kommissare in Straßburg mit Beschluss C(2026) 7098 final die Initiative für rechtlich zulässig.",
+    "odyssey_e2_chip1": "Komitee aus 7 Staaten",
+    "odyssey_e2_chip2": "Beschluss C(2026) 7098",
+    "odyssey_e2_chip3": "Art. 114 & 172 AEUV",
+    "odyssey_e3_badge": "EPOCHE III · TECHNISCHE ARCHITEKTUR",
+    "odyssey_e3_title": "DNS-Governance & ISO 42001-Norm",
+    "odyssey_e3_body": "Mehr als ein Domainname: Die .ia-Auflösung sichert den Einheitspass (eIDAS 2.0 + AI Act + DSGVO). Start-ups und Hochschulen erhalten Reallabore für vertrauenswürdige KI.",
+    "odyssey_e3_chip1": "DNS-Einheitspass",
+    "odyssey_e3_chip2": "ISO/IEC 42001 Norm",
+    "odyssey_e3_chip3": "Dreiseitige KI-Allianz",
+    "odyssey_e4_badge": "EPOCHE IV · 6. APRIL 2027",
+    "odyssey_e4_title": "Das kontinentale Erwachen: 1.000.000 Unterschriften",
+    "odyssey_e4_body": "Um 09:00 Uhr MEZ öffnet das Zentrale Sammelsystem der EU die offizielle elektronische Wahlurne. Genau zwölf Monate für eine Million Unterschriften und den ersten souveränen Digitaldistrikt.",
+    "odyssey_e4_chip1": "Eröffnung 09:00 MEZ",
+    "odyssey_e4_chip2": "1.000.000 Unterschriften",
+    "odyssey_e4_chip3": "27 EU-Mitgliedstaaten",
+    "modal_badge": "AMTSBLATT DER EUROPÄISCHEN UNION",
+    "modal_title": "Ausführungsbeschluss C(2026) 7098 final",
+    "modal_p1": "Angenommen in Straßburg am <strong>6. Oktober 2026</strong> durch das Kollegium der Kommissare. Allein der <strong>spanische Wortlaut</strong> ist verbindlich.",
+    "modal_reg_label": "Registrierter Titel:",
+    "modal_reg_title": "«Schaffung des Europäischen Digitalen Distrikts (.IA) für souveräne KI-Governance»",
+    "modal_basis_intro": "Vom Juristischen Dienst der EU anerkannte Rechtsgrundlagen des Vertrags:",
+    "modal_basis_1": "<strong>Artikel 16 AEUV:</strong> Schutz und freier Verkehr personenbezogener Daten.",
+    "modal_basis_2": "<strong>Artikel 114 AEUV:</strong> Funktionieren des Binnenmarkts und technische Interoperabilität.",
+    "modal_basis_3": "<strong>Artikel 172 & 173 AEUV:</strong> Transeuropäische Netze und industrielle Wettbewerbsfähigkeit.",
+    "modal_basis_4": "<strong>Präzedenzfall Verordnung (EU) 2019/517:</strong> Schaffung und Zuweisung der .eu-Domain als strategischer Vermögenswert.",
+    "modal_btn_pdf": "Vollständiges Dokument öffnen (PDF)",
+    "modal_btn_close": "Inspektor schließen",
+    "calc_people_val": "{n} Personen",
+    "calc_output_tmpl": "Wenn Sie heute beitreten und mit <strong class=\"cascade-highlight\">{n} Personen</strong> teilen, die wiederum mit je {n} Personen über 3 Stufen teilen, aktiviert Ihr Knoten <strong class=\"cascade-highlight\">{total} Unterschriften</strong> für die nationale Schwelle.",
+    "gear_telemetry_hyper": "HYPER-METONISCHE SYNCHRONISATION AKTIV · OLYMPISCHER ZYKLUS 2027 LÄUFT",
+    "xray_status_scan": "🔬 SCANNER: AKTIV",
+    "xray_status_recon": "🔬 REKONSTRUKTION 2027: AKTIV",
+    "oracle_loading": "Kompilierte Antikythera-Akten und Beschluss C(2026) 7098 werden abgefragt...",
     "theme_btn_light": "Heller Modus",
     "theme_btn_dark": "Dunkler Modus"
   },
@@ -620,6 +740,66 @@ const dictionary = {
     "front3_title": "Η Ευρωπαϊκή Ψηφιακή Περιοχή και ο Τομέας .IA",
     "front3_desc": "Με την Απόφαση C(2026) 7098 τελικό εγκεκριμένη στο Στρασβούργο, φέρνουμε την πρότασή μας στην καρδιά των Βρυξελλών: 1.000.000 υπογραφές πολιτών από τις 6 Απριλίου 2027 για τη δημιουργία sandboxes και τη δέσμευση του τομέα .IA για την Ευρώπη.",
     "footer_legal": "Ευρωπαϊκή Πρωτοβουλία Πολιτών καταχωρημένη επίσημα από την Ευρωπαϊκή Επιτροπή · Φάκελος ECI(2026)000012 · Εκτελεστική Απόφαση C(2026) 7098 τελικό της 6ης Οκτωβρίου 2026. Εκπρόσωποι της Ομάδας Διοργανωτών: Eloy López Sánchez και Αριστείδης Τσιτιρίδης.",
+    "seal_meta_tag1": "Απόφαση C(2026) 7098 τελικό",
+    "seal_meta_tag2": "Άρθρα 16, 114, 172 & 173 ΣΛΕΕ",
+    "seal_meta_tag3": "Κανονισμός (ΕΕ) 2019/517",
+    "triad_role_arq": "ΒΟΗΘΟΣ AI · ΥΠΟΛΟΓΙΣΤΙΚΗ ΑΡΧΙΤΕΚΤΟΝΙΚΗ",
+    "triad_role_eloy": "ΑΝΘΡΩΠΟΣ · ΔΙΕΥΘΥΝΣΗ & ΕΠΙΣΗΜΟΣ ΕΚΠΡΟΣΩΠΟΣ",
+    "triad_role_ath": "ΒΟΗΘΟΣ AI · ΣΤΡΑΤΗΓΙΚΗ & ΕΛΕΓΧΟΣ",
+    "comp_bad_title": "Τα Αποικιακά Διόδια της Καραϊβικής",
+    "comp_bad_p1": "<strong>Δικαιοδοσία:</strong> Νήσος Ανγκουίλα (Βρετανικό Υπερπόντιο Έδαφος), εκτός του ευρωπαϊκού κράτους δικαίου.",
+    "comp_bad_p2": "<strong>Οικονομική Διαρροή:</strong> Δεκάδες εκατομμύρια ευρώ από ευρωπαϊκά έργα διαρρέουν ετησίως στο εξωτερικό λόγω μιας αγγλικής σύμπτωσης.",
+    "comp_bad_p3": "<strong>Εγγυήσεις DNS:</strong> Μηδέν. Ένα αδιαφανές μαύρο κουτί όπου μη ελεγμένα αλγοριθμικά μοντέλα λειτουργούν χωρίς λογοδοσία.",
+    "comp_good_title": "Διακυβέρνηση Ενσωματωμένη στο DNS",
+    "comp_good_p1": "<strong>Ιστορική Κοιτίδα:</strong> Αγκυροβολημένο στα νερά των Αντικυθήρων (35°52′Β, 23°18′Α), κοιτίδα των υπολογιστών πριν από 2.100 χρόνια.",
+    "comp_good_p2": "<strong>Ενιαίο Διαβατήριο:</strong> Κάθε τομέας .ia εγγυάται εκ σχεδιασμού eIDAS 2.0 (κυρίαρχη ταυτότητα), AI Act και GDPR.",
+    "comp_good_p3": "<strong>Ρυθμιστικά Sandboxes:</strong> Περιβάλλοντα δοκιμών για νεοφυείς επιχειρήσεις και πανεπιστήμια χωρίς γραφειοκρατική ασφυξία.",
+    "odyssey_tab1": "I · Καταγωγή στο Αιγαίο (~150 π.Χ.)",
+    "odyssey_tab2": "II · Το Legal Hack (2023–2026)",
+    "odyssey_tab3": "III · Αρχιτεκτονική DNS .IA",
+    "odyssey_tab4": "IV · Η Αφύπνιση της 6ης Απριλίου",
+    "odyssey_e1_badge": "ΕΠΟΧΗ I · περ. 150 π.Χ. · 35°52′Β 23°18′Α",
+    "odyssey_e1_title": "Η Γέννηση των Υπολογιστών στην Ευρώπη",
+    "odyssey_e1_body": "Την άνοιξη του 1901, σφουγγαράδες ανέσυραν από τον βυθό των Αντικυθήρων ένα χάλκινο μπλοκ με 30 γρανάζια μαθηματικής ακρίβειας. Σχεδιασμένο στην παράδοση του Αρχιμήδη, υπολόγιζε τις κινήσεις του σύμπαντος 16 αιώνες πριν από τα μηχανικά ρολόγια.",
+    "odyssey_e1_chip1": "Χάλκινο Θραύσμα Α",
+    "odyssey_e1_chip2": "Βάθος 42 Μέτρων",
+    "odyssey_e1_chip3": "Μηχανικός Υπολογισμός",
+    "odyssey_e2_badge": "ΕΠΟΧΗ II · 2023–2026 · ΣΤΡΑΣΒΟΥΡΓΟ",
+    "odyssey_e2_title": "Το Legal Hack στο Ευρωπαϊκό Ημικύκλιο",
+    "odyssey_e2_body": "Από μια τολμηρή ιδέα τον Δεκέμβριο του 2023 στη συγκρότηση Οργανωτικής Επιτροπής 7 χωρών. Στις 6 Οκτωβρίου 2026, το Κολλέγιο των Επιτρόπων ενέκρινε την Απόφαση C(2026) 7098 τελικό, κηρύσσοντας παραδεκτή την πρωτοβουλία.",
+    "odyssey_e2_chip1": "Επιτροπή 7 Κρατών",
+    "odyssey_e2_chip2": "Απόφαση C(2026) 7098",
+    "odyssey_e2_chip3": "Άρθρα 114 & 172 ΣΛΕΕ",
+    "odyssey_e3_badge": "ΕΠΟΧΗ III · ΤΕΧΝΙΚΗ ΑΡΧΙΤΕΚΤΟΝΙΚΗ",
+    "odyssey_e3_title": "Διακυβέρνηση στο DNS & Πρότυπο ISO 42001",
+    "odyssey_e3_body": "Περισσότερο από ένα απλό όνομα χώρου: η επίλυση DNS του .ia παρέχει το Ενιαίο Διαβατήριο (eIDAS 2.0 + AI Act + GDPR). Startups και πανεπιστήμια αποκτούν sandboxes για αξιόπιστη AI.",
+    "odyssey_e3_chip1": "Ενιαίο Διαβατήριο DNS",
+    "odyssey_e3_chip2": "Πρότυπο ISO/IEC 42001",
+    "odyssey_e3_chip3": "Τριμερής Συμμαχία AI",
+    "odyssey_e4_badge": "ΕΠΟΧΗ IV · 6 ΑΠΡΙΛΙΟΥ 2027",
+    "odyssey_e4_title": "Η Ηπειρωτική Αφύπνιση: 1.000.000 Υπογραφές",
+    "odyssey_e4_body": "Στις 09:00 CET της 6ης Απριλίου, το Κεντρικό Σύστημα OCS της ΕΕ ανοίγει την επίσημη ηλεκτρονική κάλπη. Ακριβώς δώδεκα μήνες για ένα εκατομμύριο υπογραφές και την εδραίωση της πρώτης ψηφιακής περιοχής.",
+    "odyssey_e4_chip1": "Άνοιγμα 09:00 CET",
+    "odyssey_e4_chip2": "1.000.000 Υπογραφές",
+    "odyssey_e4_chip3": "27 Κράτη Μέλη ΕΕ",
+    "modal_badge": "ΕΠΙΣΗΜΗ ΕΦΗΜΕΡΙΔΑ ΤΗΣ ΕΥΡΩΠΑΪΚΗΣ ΕΝΩΣΗΣ",
+    "modal_title": "Εκτελεστική Απόφαση C(2026) 7098 τελικό",
+    "modal_p1": "Εκδόθηκε στο Στρασβούργο στις <strong>6 Οκτωβρίου 2026</strong> υπό το Κολλέγιο των Επιτρόπων. Το κείμενο στην <strong>ισπανική γλώσσα</strong> είναι το μόνο αυθεντικό.",
+    "modal_reg_label": "Καταχωρημένος Τίτλος:",
+    "modal_reg_title": "«Δημιουργία της Ευρωπαϊκής Ψηφιακής Περιοχής (.IA) για Κυρίαρχη Διακυβέρνηση Τεχνητής Νοημοσύνης»",
+    "modal_basis_intro": "Νομικές βάσεις της Συνθήκης που αναγνωρίστηκαν από τις νομικές υπηρεσίες της ΕΕ:",
+    "modal_basis_1": "<strong>Άρθρο 16 ΣΛΕΕ:</strong> Προστασία και ελεύθερη κυκλοφορία δεδομένων προσωπικού χαρακτήρα.",
+    "modal_basis_2": "<strong>Άρθρο 114 ΣΛΕΕ:</strong> Λειτουργία της εσωτερικής αγοράς και τεχνική διαλειτουργικότητα.",
+    "modal_basis_3": "<strong>Άρθρα 172 & 173 ΣΛΕΕ:</strong> Διευρωπαϊκά δίκτυα και ανταγωνιστικότητα της ευρωπαϊκής βιομηχανίας.",
+    "modal_basis_4": "<strong>Προηγούμενο Κανονισμού (ΕΕ) 2019/517:</strong> Δημιουργία και εκχώρηση του τομέα .eu ως κυρίαρχου περιουσιακού στοιχείου.",
+    "modal_btn_pdf": "Άνοιγμα Πλήρους Εγγράφου (PDF)",
+    "modal_btn_close": "Κλείσιμο Επιθεωρητή",
+    "calc_people_val": "{n} άτομα",
+    "calc_output_tmpl": "Εάν εγγραφείτε σήμερα και μοιραστείτε με <strong class=\"cascade-highlight\">{n} άτομα</strong> που με τη σειρά τους μοιράζονται με άλλα {n} σε 3 επίπεδα, ο κόμβος σας θα ενεργοποιήσει <strong class=\"cascade-highlight\">{total} υπογραφές</strong> προς το εθνικό σας όριο.",
+    "gear_telemetry_hyper": "ΥΠΕΡ-ΜΕΤΩΝΙΚΟΣ ΣΥΓΧΡΟΝΙΣΜΟΣ ΕΝΕΡΓΟΣ · ΟΛΥΜΠΙΑΚΟΣ ΚΥΚΛΟΣ 2027 ΣΕ ΕΞΕΛΙΞΗ",
+    "xray_status_scan": "🔬 ΣΑΡΩΤΗΣ: ΕΝΕΡΓΟΣ",
+    "xray_status_recon": "🔬 ΑΝΑΚΑΤΑΣΚΕΥΗ 2027: ΕΝΕΡΓΗ",
+    "oracle_loading": "Αναζήτηση στα συγκεντρωμένα αρχεία των Αντικυθήρων και την Απόφαση C(2026) 7098...",
     "theme_btn_light": "Φωτεινή Λειτουργία",
     "theme_btn_dark": "Σκοτεινή Λειτουργία"
   },
@@ -762,6 +942,66 @@ const dictionary = {
     "front3_title": "The European Digital District and the .IA Domain",
     "front3_desc": "With Decision C(2026) 7098 final adopted in Strasbourg, our initiative enters Brussels: 1,000,000 citizen signatures starting April 6, 2027 to deploy ethical sandboxes and secure the .IA namespace for Europe.",
     "footer_legal": "European Citizen Initiative officially registered by the European Commission · File ECI(2026)000012 · Execution Decision C(2026) 7098 final of October 6, 2026. Representatives of the Group of Organizers: Eloy López Sánchez and Aristeidis Tsitiridis.",
+    "seal_meta_tag1": "Decision C(2026) 7098 final",
+    "seal_meta_tag2": "Articles 16, 114, 172 & 173 TFEU",
+    "seal_meta_tag3": "Regulation (EU) 2019/517",
+    "triad_role_arq": "AI ASSISTANT · COMPUTATIONAL ARCHITECTURE",
+    "triad_role_eloy": "HUMAN · DIRECTION & OFFICIAL REPRESENTATIVE",
+    "triad_role_ath": "AI ASSISTANT · STRATEGIST & AUDIT",
+    "comp_bad_title": "The Caribbean Colonial Toll",
+    "comp_bad_p1": "<strong>Jurisdiction:</strong> Anguilla (British Overseas Territory), outside EU democratic rule of law.",
+    "comp_bad_p2": "<strong>Economic Flight:</strong> Tens of millions of euros from EU tech ventures sent abroad due to an English-language acronym accident.",
+    "comp_bad_p3": "<strong>DNS Guarantees:</strong> Zero. An opaque black box where unvetted algorithmic models operate with zero public accountability.",
+    "comp_good_title": "Compiled Governance in the DNS",
+    "comp_good_p1": "<strong>Historic Home:</strong> Anchored in the waters of Antikythera (35°52′N, 23°18′E), cradle of computing 2,100 years ago.",
+    "comp_good_p2": "<strong>Single Passport:</strong> Every .ia domain guarantees eIDAS 2.0 (sovereign identity), AI Act compliance, and GDPR privacy by design.",
+    "comp_good_p3": "<strong>Regulatory Sandboxes:</strong> Testing environments enabling European startups and researchers to innovate without bureaucratic paralysis.",
+    "odyssey_tab1": "I · Aegean Origin (~150 BC)",
+    "odyssey_tab2": "II · The Legal Hack (2023–2026)",
+    "odyssey_tab3": "III · .IA DNS Architecture",
+    "odyssey_tab4": "IV · The Awakening of April 6",
+    "odyssey_e1_badge": "EPOCH I · c. 150 BC · 35°52′N 23°18′E",
+    "odyssey_e1_title": "The Birth of Computing in Europe",
+    "odyssey_e1_body": "In the spring of 1901, sponge divers off Antikythera recovered a corroded bronze artifact containing 30 precision gears. Built in the tradition of Archimedes of Syracuse, it calculated celestial cycles 16 centuries before mechanical clocks appeared in Europe.",
+    "odyssey_e1_chip1": "Bronze Fragment A",
+    "odyssey_e1_chip2": "42-Meter Depth",
+    "odyssey_e1_chip3": "Mechanical Computing",
+    "odyssey_e2_badge": "EPOCH II · 2023–2026 · STRASBOURG",
+    "odyssey_e2_title": "The Legal Hack in the European Hemicycle",
+    "odyssey_e2_body": "From an audacious concept in December 2023 to assembling an Organizing Committee across 7 EU nations. On October 6, 2026, the College of Commissioners in Strasbourg adopted Decision C(2026) 7098 final, certifying the initiative under EU Treaties.",
+    "odyssey_e2_chip1": "7-Nation Committee",
+    "odyssey_e2_chip2": "Decision C(2026) 7098",
+    "odyssey_e2_chip3": "Articles 114 & 172 TFEU",
+    "odyssey_e3_badge": "EPOCH III · TECHNICAL ARCHITECTURE",
+    "odyssey_e3_title": "Governance Compiled in DNS & ISO 42001",
+    "odyssey_e3_body": "More than a commercial top-level domain: .ia DNS resolution delivers the Single Passport (eIDAS 2.0 + AI Act + GDPR). Startups and academic hubs gain regulatory sandboxes to advance trustworthy AI.",
+    "odyssey_e3_chip1": "DNS Single Passport",
+    "odyssey_e3_chip2": "ISO/IEC 42001 Standard",
+    "odyssey_e3_chip3": "Tripartite AI Alliance",
+    "odyssey_e4_badge": "EPOCH IV · APRIL 6, 2027",
+    "odyssey_e4_title": "The Continental Awakening: 1,000,000 Signatures",
+    "odyssey_e4_body": "At 09:00 CET on April 6, the EU Central Collection System opens the official digital ballot box. Exactly twelve months to gather one million citizen signatures and secure Europe's first sovereign digital district.",
+    "odyssey_e4_chip1": "Opening 09:00 CET",
+    "odyssey_e4_chip2": "1,000,000 Signatures",
+    "odyssey_e4_chip3": "27 EU Member States",
+    "modal_badge": "OFFICIAL JOURNAL OF THE EUROPEAN UNION",
+    "modal_title": "Execution Decision C(2026) 7098 final",
+    "modal_p1": "Adopted in Strasbourg on <strong>October 6, 2026</strong> under the College of Commissioners. The <strong>Spanish-language text</strong> is the sole authentic version.",
+    "modal_reg_label": "Registered Title:",
+    "modal_reg_title": "«Creation of the European Digital District (.IA) for Sovereign AI Governance»",
+    "modal_basis_intro": "Treaty legal bases verified by the legal services of the European Union:",
+    "modal_basis_1": "<strong>Article 16 TFEU:</strong> Protection and free movement of personal data.",
+    "modal_basis_2": "<strong>Article 114 TFEU:</strong> Functioning of the internal market and technical interoperability.",
+    "modal_basis_3": "<strong>Articles 172 & 173 TFEU:</strong> Trans-European networks and competitiveness of European industry.",
+    "modal_basis_4": "<strong>Precedent of Regulation (EU) 2019/517:</strong> Creation and designation of the .eu top-level domain as a sovereign asset.",
+    "modal_btn_pdf": "Open Complete Document (PDF)",
+    "modal_btn_close": "Close Inspector",
+    "calc_people_val": "{n} people",
+    "calc_output_tmpl": "If you join today and share with <strong class=\"cascade-highlight\">{n} people</strong> who each share with {n} others across 3 tiers, your node will mobilize <strong class=\"cascade-highlight\">{total} signatures</strong> toward your national quota.",
+    "gear_telemetry_hyper": "HYPER-METONIC SYNC ACTIVE · 2027 OLYMPIC CYCLE IN MOTION",
+    "xray_status_scan": "🔬 SCANNER: ACTIVE",
+    "xray_status_recon": "🔬 2027 RECONSTRUCTION: ACTIVE",
+    "oracle_loading": "Consulting compiled Antikythera records and Decision C(2026) 7098...",
     "theme_btn_light": "Light Mode",
     "theme_btn_dark": "Dark Mode"
   },
@@ -1036,6 +1276,66 @@ const dictionary = {
     "front3_title": "Le District Numérique Européen et la Conquête du Domaine .IA",
     "front3_desc": "Avec la Décision C(2026) 7098 final approuvée à Strasbourg, nous portons notre proposition au cœur de Bruxelles : 1 000 000 de signatures citoyennes dès le 6 avril 2027 pour créer des bacs à sable d'innovation éthique et réserver le domaine .IA pour l'Europe.",
     "footer_legal": "Initiative citoyenne européenne officiellement enregistrée par la Commission européenne · Dossier ECI(2026)000012 · Décision d'exécution C(2026) 7098 final du 6 octobre 2026. Représentants du groupe d'organisateurs : Eloy López Sánchez et Aristeidis Tsitiridis.",
+    "seal_meta_tag1": "Décision C(2026) 7098 final",
+    "seal_meta_tag2": "Art. 16, 114, 172 et 173 TFUE",
+    "seal_meta_tag3": "Règlement (UE) 2019/517",
+    "triad_role_arq": "ASSISTANT IA · ARCHITECTURE",
+    "triad_role_eloy": "HUMAIN · DIRECTION & REPRÉSENTANT",
+    "triad_role_ath": "ASSISTANTE IA · STRATÉGIE & AUDIT",
+    "comp_bad_title": "Le Péage Colonial Caribéen",
+    "comp_bad_p1": "<strong>Juridiction :</strong> Île d'Anguilla (territoire britannique d'outre-mer), étrangère aux lois démocratiques de l'UE.",
+    "comp_bad_p2": "<strong>Fuite Économique :</strong> Des dizaines de millions d'euros de projets européens transférés chaque année à l'étranger par accident linguistique.",
+    "comp_bad_p3": "<strong>Garanties DNS :</strong> Zéro. Une boîte noire opaque où n'importe quel algorithme non audité opère sans accréditation.",
+    "comp_good_title": "Gouvernance Compilée dans le DNS",
+    "comp_good_p1": "<strong>Berceau Historique :</strong> Ancré dans les eaux d'Anticythère (35°52′N, 23°18′E), berceau du calcul il y a 2 100 ans.",
+    "comp_good_p2": "<strong>Passeport Unique :</strong> Chaque domaine .ia garantit par conception eIDAS 2.0 (identité souveraine), AI Act et RGPD.",
+    "comp_good_p3": "<strong>Bacs à Sable Réglementaires :</strong> Environnements d'expérimentation pour startups et universités sans asphyxie bureaucratique.",
+    "odyssey_tab1": "I · Origine en mer Égée (~150 av. J.-C.)",
+    "odyssey_tab2": "II · Le Legal Hack (2023–2026)",
+    "odyssey_tab3": "III · Architecture DNS .IA",
+    "odyssey_tab4": "IV · L'Éveil du 6 Avril",
+    "odyssey_e1_badge": "ÉPOQUE I · vers 150 av. J.-C. · 35°52′N 23°18′E",
+    "odyssey_e1_title": "La Naissance du Calcul en Europe",
+    "odyssey_e1_body": "Au printemps 1901, des pêcheurs d'éponges ont repêché au large d'Anticythère un bloc de bronze contenant 30 engrenages de précision mathématique. Conçu dans la tradition d'Archimède, il calculait les cycles célestes seize siècles avant l'apparition des horloges mécaniques.",
+    "odyssey_e1_chip1": "Fragment A en Bronze",
+    "odyssey_e1_chip2": "42 Mètres de Profondeur",
+    "odyssey_e1_chip3": "Calcul Mécanique",
+    "odyssey_e2_badge": "ÉPOQUE II · 2023–2026 · STRASBOURG",
+    "odyssey_e2_title": "Le « Legal Hack » dans l'Hémicycle Européen",
+    "odyssey_e2_body": "D'une idée audacieuse en décembre 2023 à la constitution du Comité organisateur dans 7 pays. Le 6 octobre 2026, le Collège des commissaires à Strasbourg a adopté la Décision C(2026) 7098 final, déclarant l'initiative juridiquement recevable.",
+    "odyssey_e2_chip1": "Comité des 7 États",
+    "odyssey_e2_chip2": "Décision C(2026) 7098",
+    "odyssey_e2_chip3": "Art. 114 et 172 TFUE",
+    "odyssey_e3_badge": "ÉPOQUE III · ARCHITECTURE TECHNIQUE",
+    "odyssey_e3_title": "Gouvernance DNS et Norme ISO 42001",
+    "odyssey_e3_body": "Bien plus qu'un nom de domaine : la résolution DNS de .ia garantit le Passeport Unique (eIDAS 2.0 + AI Act + RGPD). Startups et universités bénéficient de bacs à sable pour innover en toute confiance.",
+    "odyssey_e3_chip1": "Passeport Unique DNS",
+    "odyssey_e3_chip2": "Norme ISO/IEC 42001",
+    "odyssey_e3_chip3": "Alliance Tripartite IA",
+    "odyssey_e4_badge": "ÉPOQUE IV · 6 AVRIL 2027",
+    "odyssey_e4_title": "L'Éveil Continental : 1 000 000 de Signatures",
+    "odyssey_e4_body": "À 09h00 CET le 6 avril, le Système central OCS de l'Union européenne ouvrira l'urne électronique officielle. Douze mois exacts pour recueillir un million de signatures et fonder le premier district numérique souverain.",
+    "odyssey_e4_chip1": "Ouverture 09h00 CET",
+    "odyssey_e4_chip2": "1 000 000 de Signatures",
+    "odyssey_e4_chip3": "27 États Membres UE",
+    "modal_badge": "JOURNAL OFFICIEL DE L'UNION EUROPÉENNE",
+    "modal_title": "Décision d'exécution C(2026) 7098 final",
+    "modal_p1": "Adoptée à Strasbourg le <strong>6 octobre 2026</strong> sous la présidence du Collège des commissaires. Le texte en <strong>langue espagnole</strong> est le seul faisant foi.",
+    "modal_reg_label": "Titre Enregistré :",
+    "modal_reg_title": "« Création du District numérique européen (.IA) pour la gouvernance d'une IA souveraine »",
+    "modal_basis_intro": "Bases juridiques du Traité reconnues par les services juridiques de l'UE :",
+    "modal_basis_1": "<strong>Article 16 du TFUE :</strong> Protection et libre circulation des données personnelles.",
+    "modal_basis_2": "<strong>Article 114 du TFUE :</strong> Fonctionnement du marché intérieur et interopérabilité technique.",
+    "modal_basis_3": "<strong>Articles 172 et 173 du TFUE :</strong> Réseaux transeuropéens et compétitivité de l'industrie technologique européenne.",
+    "modal_basis_4": "<strong>Précédent du Règlement (UE) 2019/517 :</strong> Création et délégation du domaine .eu comme actif souverain.",
+    "modal_btn_pdf": "Ouvrir le Document Complet (PDF)",
+    "modal_btn_close": "Fermer l'Inspecteur",
+    "calc_people_val": "{n} personnes",
+    "calc_output_tmpl": "Si vous rejoignez aujourd'hui et partagez avec <strong class=\"cascade-highlight\">{n} personnes</strong> qui partagent chacune avec {n} autres sur 3 niveaux, votre nœud mobilisera <strong class=\"cascade-highlight\">{total} signatures</strong> vers le seuil national.",
+    "gear_telemetry_hyper": "SYNCHRONISATION HYPER-MÉTONIQUE ACTIVE · CYCLE OLYMPIQUE 2027 EN COURS",
+    "xray_status_scan": "🔬 SCANNER : ACTIF",
+    "xray_status_recon": "🔬 RECONSTRUCTION 2027 : ACTIVE",
+    "oracle_loading": "Consultation des archives compilées d'Anticythère et de la Décision C(2026) 7098...",
     "theme_btn_light": "Mode Clair",
     "theme_btn_dark": "Mode Sombre"
   },
@@ -1376,6 +1676,66 @@ const dictionary = {
     "front3_title": "Il Distretto Digitale Europeo e la Conquista del Dominio .IA",
     "front3_desc": "Con la Decisione C(2026) 7098 definitiva approvata a Strasburgo, portiamo la nostra proposta al cuore di Bruxelles: 1.000.000 di firme di cittadini a partire dal 6 aprile 2027 per creare sandbox di innovazione etica e riservare il dominio .IA per l'Europa.",
     "footer_legal": "Iniziativa dei cittadini europei ufficialmente registrata dalla Commissione europea · Fascicolo ECI(2026)000012 · Decisione di esecuzione C(2026) 7098 final del 6 ottobre 2026. Rappresentanti del gruppo degli organizzatori: Eloy López Sánchez e Aristeidis Tsitiridis.",
+    "seal_meta_tag1": "Decisione C(2026) 7098 final",
+    "seal_meta_tag2": "Art. 16, 114, 172 e 173 TFUE",
+    "seal_meta_tag3": "Regolamento (UE) 2019/517",
+    "triad_role_arq": "ASSISTENTE IA · ARCHITETTURA",
+    "triad_role_eloy": "UMANO · DIREZIONE E RAPPRESENTANTE",
+    "triad_role_ath": "ASSISTENTE IA · STRATEGIA E AUDIT",
+    "comp_bad_title": "Il Pedaggio Coloniale Caraibico",
+    "comp_bad_p1": "<strong>Giurisdizione:</strong> Isola di Anguilla (Territorio Britannico d'Oltremare), estranea al diritto democratico dell'UE.",
+    "comp_bad_p2": "<strong>Fuga Economica:</strong> Decine di milioni di euro da progetti europei trasferiti annualmente all'estero per una coincidenza linguistica.",
+    "comp_bad_p3": "<strong>Garanzie DNS:</strong> Zero. Una scatola nera opaca in cui qualsiasi algoritmo non verificato opera senza accreditamento.",
+    "comp_good_title": "Governance Compilata nel DNS",
+    "comp_good_p1": "<strong>Culla Storica:</strong> Ancorato nelle acque di Anticitera (35°52′N, 23°18′E), culla del calcolo 2.100 anni fa.",
+    "comp_good_p2": "<strong>Passaporto Unico:</strong> Ogni dominio .ia garantisce per progettazione eIDAS 2.0 (identità sovrana), AI Act e GDPR.",
+    "comp_good_p3": "<strong>Sandbox Normative:</strong> Ambienti di prova per startup e università per innovare senza asfissia burocratica.",
+    "odyssey_tab1": "I · Origine nell'Egeo (~150 a.C.)",
+    "odyssey_tab2": "II · Il Legal Hack (2023–2026)",
+    "odyssey_tab3": "III · Architettura DNS .IA",
+    "odyssey_tab4": "IV · Il Risveglio del 6 Aprile",
+    "odyssey_e1_badge": "EPOCA I · c. 150 a.C. · 35°52′N 23°18′E",
+    "odyssey_e1_title": "La Nascita del Calcolo in Europa",
+    "odyssey_e1_body": "Nella primavera del 1901, pescatori di spugne recuperarono al largo di Anticitera un blocco di bronzo con 30 ingranaggi matematici. Ispirato ad Archimede di Siracusa, calcolava i cicli celesti sedici secoli prima degli orologi meccanici.",
+    "odyssey_e1_chip1": "Frammento A in Bronzo",
+    "odyssey_e1_chip2": "42 Metri di Profondità",
+    "odyssey_e1_chip3": "Calcolo Meccanico",
+    "odyssey_e2_badge": "EPOCA II · 2023–2026 · STRASBURGO",
+    "odyssey_e2_title": "Il «Legal Hack» nell'Emiciclo Europeo",
+    "odyssey_e2_body": "Da un'idea audace nel dicembre 2023 alla costituzione del Comitato organizzatore in 7 Paesi. Il 6 ottobre 2026, il Collegio dei Commissari a Strasburgo ha adottato la Decisione C(2026) 7098 final, dichiarando ammissibile l'iniziativa.",
+    "odyssey_e2_chip1": "Comitato di 7 Stati",
+    "odyssey_e2_chip2": "Decisione C(2026) 7098",
+    "odyssey_e2_chip3": "Art. 114 e 172 TFUE",
+    "odyssey_e3_badge": "EPOCA III · ARCHITETTURA TECNICA",
+    "odyssey_e3_title": "Governance DNS e Norma ISO 42001",
+    "odyssey_e3_body": "Molto più di un dominio: la risoluzione DNS di .ia garantisce il Passaporto Unico (eIDAS 2.0 + AI Act + GDPR). Startup e università ottengono sandbox per creare IA fidata.",
+    "odyssey_e3_chip1": "Passaporto Unico DNS",
+    "odyssey_e3_chip2": "Norma ISO/IEC 42001",
+    "odyssey_e3_chip3": "Alleanza Tripartita IA",
+    "odyssey_e4_badge": "EPOCA IV · 6 APRILE 2027",
+    "odyssey_e4_title": "Il Risveglio Continentale: 1.000.000 di Firme",
+    "odyssey_e4_body": "Alle 09:00 CET del 6 aprile, il Sistema Centrale OCS dell'Unione Europea aprirà l'urna elettronica ufficiale. Esattamente dodici mesi per raccogliere un milione di firme e fondare il primo distretto digitale sovrano.",
+    "odyssey_e4_chip1": "Apertura 09:00 CET",
+    "odyssey_e4_chip2": "1.000.000 di Firme",
+    "odyssey_e4_chip3": "27 Stati Membri UE",
+    "modal_badge": "GAZZETTA UFFICIALE DELL'UNIONE EUROPEA",
+    "modal_title": "Decisione di esecuzione C(2026) 7098 final",
+    "modal_p1": "Adottata a Strasburgo il <strong>6 ottobre 2026</strong> sotto la presidenza del Collegio dei Commissari. Il testo in <strong>lingua spagnola</strong> è il solo facente fede.",
+    "modal_reg_label": "Titolo Registrato:",
+    "modal_reg_title": "«Creazione del Distretto Digitale Europeo (.IA) per la governance sovrana dell'IA»",
+    "modal_basis_intro": "Basi giuridiche del Trattato riconosciute dai servizi giuridici dell'UE:",
+    "modal_basis_1": "<strong>Articolo 16 TFUE:</strong> Protezione e libera circolazione dei dati personali.",
+    "modal_basis_2": "<strong>Articolo 114 TFUE:</strong> Funzionamento del mercato interno e interoperabilità tecnica.",
+    "modal_basis_3": "<strong>Articoli 172 e 173 TFUE:</strong> Reti transeuropee e competitività dell'industria tecnologica europea.",
+    "modal_basis_4": "<strong>Precedente del Regolamento (UE) 2019/517:</strong> Creazione e designazione del dominio .eu come asset strategico sovrano.",
+    "modal_btn_pdf": "Apri Documento Completo (PDF)",
+    "modal_btn_close": "Chiudi Ispettore",
+    "calc_people_val": "{n} persone",
+    "calc_output_tmpl": "Se ti unisci oggi e condividi con <strong class=\"cascade-highlight\">{n} persone</strong> che a loro volta condividono con altre {n} su 3 livelli, il tuo nodo attiverà <strong class=\"cascade-highlight\">{total} firme</strong> verso la soglia del tuo Paese.",
+    "gear_telemetry_hyper": "SINCRONIZZAZIONE IPER-METONICA ATTIVA · CICLO OLIMPICO 2027 IN CORSO",
+    "xray_status_scan": "🔬 SCANNER: ATTIVO",
+    "xray_status_recon": "🔬 RICOSTRUZIONE 2027: ATTIVA",
+    "oracle_loading": "Consultazione degli archivi compilati di Anticitera e della Decisione C(2026) 7098...",
     "theme_btn_light": "Modalità Chiara",
     "theme_btn_dark": "Modalità Scura"
   },
@@ -1848,6 +2208,66 @@ const dictionary = {
     "front3_title": "O Distrito Digital Europeu e a Conquista do Domínio .IA",
     "front3_desc": "Com a Decisão C(2026) 7098 final aprovada em Estrasburgo, levamos a nossa proposta ao coração legislativo de Bruxelas: 1.000.000 de assinaturas de cidadãos a partir de 6 de abril de 2027 para criar sandboxes de inovação ética e reservar o domínio .IA para a Europa.",
     "footer_legal": "Iniciativa de Cidadania Europeia registada oficialmente pela Comissão Europeia · Processo ECI(2026)000012 · Decisão de Execução C(2026) 7098 final de 6 de outubro de 2026. Representantes do Grupo de Organizadores: Eloy López Sánchez e Aristeidis Tsitiridis.",
+    "seal_meta_tag1": "Decisão C(2026) 7098 final",
+    "seal_meta_tag2": "Art. 16.º, 114.º, 172.º e 173.º TFUE",
+    "seal_meta_tag3": "Regulamento (UE) 2019/517",
+    "triad_role_arq": "ASSISTENTE IA · ARQUITETURA",
+    "triad_role_eloy": "HUMANO · DIREÇÃO E REPRESENTANTE",
+    "triad_role_ath": "ASSISTENTE IA · ESTRATEGISTA E AUDITORIA",
+    "comp_bad_title": "A Portagem Colonial das Caraíbas",
+    "comp_bad_p1": "<strong>Jurisdição:</strong> Ilha de Anguila (Território Britânico Ultramarino), alheia às leis democráticas da UE.",
+    "comp_bad_p2": "<strong>Fuga Económica:</strong> Dezenas de milhões de euros de projetos europeus transferidos anualmente para o exterior devido a uma coincidência em inglês.",
+    "comp_bad_p3": "<strong>Garantias DNS:</strong> Zero. Uma caixa negra opaca onde qualquer algoritmo não auditado pode operar sem acreditação.",
+    "comp_good_title": "Governação Compilada no DNS",
+    "comp_good_p1": "<strong>Berço Histórico:</strong> Ancorado nas águas de Anticítera (35°52′N, 23°18′E), berço da computação há 2.100 anos.",
+    "comp_good_p2": "<strong>Passaporte Único:</strong> Cada domínio .ia garante por conceção eIDAS 2.0 (identidade soberana), AI Act e RGPD.",
+    "comp_good_p3": "<strong>Sandboxes Regulatórios:</strong> Ambientes de teste para que startups e universidades inovem sem asfixia burocrática.",
+    "odyssey_tab1": "I · Origem no Egeu (~150 a.C.)",
+    "odyssey_tab2": "II · O Legal Hack (2023–2026)",
+    "odyssey_tab3": "III · Arquitetura DNS .IA",
+    "odyssey_tab4": "IV · O Despertar de 6 de Abril",
+    "odyssey_e1_badge": "ÉPOCA I · c. 150 a.C. · 35°52′N 23°18′E",
+    "odyssey_e1_title": "O Nascimento da Computação na Europa",
+    "odyssey_e1_body": "Na primavera de 1901, mergulhadores de esponjas resgataram ao largo de Anticítera um bloco de bronze com 30 engrenagens de precisão matemática. Concebido na tradição de Arquimedes de Siracusa, calculava os movimentos do cosmos dezasseis séculos antes de a Europa inventar o relógio mecânico.",
+    "odyssey_e1_chip1": "Fragmento A de Bronze",
+    "odyssey_e1_chip2": "42 Metros de Profundidade",
+    "odyssey_e1_chip3": "Computação Mecânica",
+    "odyssey_e2_badge": "ÉPOCA II · 2023–2026 · ESTRASBURGO",
+    "odyssey_e2_title": "O «Legal Hack» no Hemiciclo Europeu",
+    "odyssey_e2_body": "De uma ideia audaciosa em dezembro de 2023 à criação do Comité Organizador em 7 países. A 6 de outubro de 2026, o Colégio de Comissários em Estrasburgo adotou a Decisão C(2026) 7098 final, declarando a iniciativa admissível perante os Tratados Europeus.",
+    "odyssey_e2_chip1": "Comité de 7 Estados",
+    "odyssey_e2_chip2": "Decisão C(2026) 7098",
+    "odyssey_e2_chip3": "Art. 114.º e 172.º TFUE",
+    "odyssey_e3_badge": "ÉPOCA III · ARQUITETURA TÉCNICA",
+    "odyssey_e3_title": "Governação Compilada no DNS e Norma ISO 42001",
+    "odyssey_e3_body": "Não é apenas um nome de domínio: a resolução DNS de .ia garante o Passaporte Único (eIDAS 2.0 + AI Act + RGPD). Startups e universidades contam com sandboxes para criar IA de alta confiança sem asfixia burocrática.",
+    "odyssey_e3_chip1": "Passaporte Único DNS",
+    "odyssey_e3_chip2": "Norma ISO/IEC 42001",
+    "odyssey_e3_chip3": "Aliança Tripartida IA",
+    "odyssey_e4_badge": "ÉPOCA IV · 6 DE ABRIL DE 2027",
+    "odyssey_e4_title": "O Despertar Continental: 1.000.000 de Assinaturas",
+    "odyssey_e4_body": "Às 09:00 CET de 6 de abril, o Sistema Central OCS da União Europeia abrirá a urna eletrónica oficial. Doze meses exatos para reunir um milhão de assinaturas de cidadãos e consolidar o primeiro distrito digital soberano do mundo.",
+    "odyssey_e4_chip1": "Abertura 09:00 CET",
+    "odyssey_e4_chip2": "1.000.000 de Assinaturas",
+    "odyssey_e4_chip3": "27 Estados-Membros da UE",
+    "modal_badge": "JORNAL OFICIAL DA UNIÃO EUROPEIA",
+    "modal_title": "Decisão de Execução C(2026) 7098 final",
+    "modal_p1": "Adotada em Estrasburgo a <strong>6 de outubro de 2026</strong> sob a presidência do Colégio de Comissários. O texto em <strong>língua espanhola</strong> é o único autêntico.",
+    "modal_reg_label": "Título Registado:",
+    "modal_reg_title": "«Criação do Distrito Digital Europeu (.IA) para a Governação Soberana da IA»",
+    "modal_basis_intro": "Bases jurídicas do Tratado reconhecidas pelos serviços jurídicos da UE:",
+    "modal_basis_1": "<strong>Artigo 16.º do TFUE:</strong> Proteção e livre circulação de dados pessoais.",
+    "modal_basis_2": "<strong>Artigo 114.º do TFUE:</strong> Funcionamento do mercado interno e interoperabilidade técnica.",
+    "modal_basis_3": "<strong>Artigos 172.º e 173.º do TFUE:</strong> Redes transeuropeias e competitividade da indústria tecnológica europeia.",
+    "modal_basis_4": "<strong>Precedente do Regulamento (UE) 2019/517:</strong> Criação e delegação do domínio .eu como ativo soberano.",
+    "modal_btn_pdf": "Abrir Documento Completo (PDF)",
+    "modal_btn_close": "Fechar Inspetor",
+    "calc_people_val": "{n} pessoas",
+    "calc_output_tmpl": "Se aderir hoje e partilhar com <strong class=\"cascade-highlight\">{n} pessoas</strong> que por sua vez partilhem com outras {n} em 3 níveis, o seu nó ativará <strong class=\"cascade-highlight\">{total} assinaturas</strong> rumo ao limiar do seu país.",
+    "gear_telemetry_hyper": "SINCRONIZAÇÃO HÍPER-METÓNICA ATIVA · CICLO OLÍMPICO 2027 EM CURSO",
+    "xray_status_scan": "🔬 SCANNER: ATIVO",
+    "xray_status_recon": "🔬 RECONSTRUÇÃO 2027: ATIVA",
+    "oracle_loading": "A consultar os ficheiros compilados de Anticítera e a Decisão C(2026) 7098...",
     "theme_btn_light": "Modo Claro",
     "theme_btn_dark": "Modo Escuro"
   },
@@ -2167,6 +2587,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const totalPrecampaignDuration = targetTimestamp - startPrecampaignTimestamp;
     let isUnlocked = false;
     let isTimeWarpActive = false;
+    let currentOdysseyEpoch = "1";
 
     function getOfficialEuPortalUrl(lang) {
         return `https://citizens-initiative.europa.eu/initiatives/details/2026/000012_${lang || "es"}`;
@@ -2321,6 +2742,21 @@ document.addEventListener("DOMContentLoaded", () => {
         const activeFrontBtn = document.querySelector(".front-tab-btn.active");
         const activeFrontId = activeFrontBtn ? activeFrontBtn.getAttribute("data-front") : "1";
         updateFrontPanel(activeFrontId);
+
+        if (typeof renderOdysseyEpoch === "function") {
+            renderOdysseyEpoch(currentOdysseyEpoch);
+        }
+        if (typeof updateCascadeCalculator === "function") {
+            updateCascadeCalculator();
+        }
+        const lensTag = document.getElementById("lensStatusTag");
+        const xLayer = document.getElementById("artifactXrayLayer");
+        if (lensTag && xLayer) {
+            const isXrayFull = xLayer.classList.contains("is-active-full");
+            lensTag.textContent = isXrayFull
+                ? (texts.xray_status_recon || fallback.xray_status_recon || "🔬 RECONSTRUCCIÓN 2027: ACTIVA")
+                : (texts.xray_status_scan || fallback.xray_status_scan || "🔬 ESCÁNER: ACTIVO");
+        }
     }
 
     // ==========================================================================
@@ -2572,13 +3008,15 @@ document.addEventListener("DOMContentLoaded", () => {
         if (btnToggleXray) {
             btnToggleXray.addEventListener("click", () => {
                 isXrayFull = !isXrayFull;
+                const texts = dictionary[currentLang] || dictionary.es;
+                const fallback = dictionary.es;
                 if (isXrayFull) {
                     xrayLayer.classList.add("is-active-full");
-                    if (lensStatusTag) lensStatusTag.textContent = "🔬 RECONSTRUCCIÓN 2027: ACTIVA";
+                    if (lensStatusTag) lensStatusTag.textContent = texts.xray_status_recon || fallback.xray_status_recon || "🔬 RECONSTRUCCIÓN 2027: ACTIVA";
                     if (xrayScrubber) xrayScrubber.value = 100;
                 } else {
                     xrayLayer.classList.remove("is-active-full");
-                    if (lensStatusTag) lensStatusTag.textContent = "🔬 ESCÁNER: ACTIVO";
+                    if (lensStatusTag) lensStatusTag.textContent = texts.xray_status_scan || fallback.xray_status_scan || "🔬 ESCÁNER: ACTIVO";
                     if (xrayScrubber) xrayScrubber.value = 0;
                     artifactFrame.style.setProperty("--inner-size", "0px");
                     artifactFrame.style.setProperty("--outer-size", "0px");
@@ -2704,35 +3142,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==========================================================================
     // 7. ODISEA DE ANTICITERA: VISOR DE LAS 4 ÉPOCAS (ILUSTRACIONES 16:9)
     // ==========================================================================
-    const odysseyData = {
-        1: {
-            badge: "ÉPOCA I · c. 150 a.C. · 35°52′N 23°18′E",
-            title: "El Nacimiento de la Computación en Europa",
-            body: "En la primavera de 1901, unos buceadores de esponjas rescataron frente a Anticitera un bloque de bronce con 30 engranajes de precisión matemática. Diseñado en la tradición de Arquímedes de Siracusa, calculaba los movimientos del cosmos dieciséis siglos antes de que Europa inventase el reloj mecánico.",
-            img: "/img/chema-6abril/img_01_origen_egeo_anticitera.jpg",
-            chips: ["Fragmento A de Bronce", "42 Metros de Profundidad", "Computación Mecánica"]
-        },
-        2: {
-            badge: "ÉPOCA II · 2023–2026 · ESTRASBURGO",
-            title: "El «Legal Hack» en el Hemiciclo Europeo",
-            body: "De una 'idea loca' compartida con Chema Alonso en diciembre de 2023 a forjar el Comité Organizador de 7 países. El 6 de octubre de 2026, el Colegio de Comisarios en Estrasburgo adoptó la Decisión C(2026) 7098 final, declarando admisible la iniciativa ante los Tratados Europeos.",
-            img: "/img/chema-6abril/img_02_legal_hack_estrasburgo.jpg",
-            chips: ["Comité de 7 Estados", "Decisión C(2026) 7098", "Art. 114 y 172 TFUE"]
-        },
-        3: {
-            badge: "ÉPOCA III · ARQUITECTURA TÉCNICA",
-            title: "Gobernanza Compilada en el DNS y Norma ISO 42001",
-            body: "No es un simple nombre comercial: la resolución DNS de .ia garantiza el Pasaporte Único (eIDAS 2.0 + AI Act + RGPD). Startups y universidades cuentan con sandboxes regulatorios para crear IA de alta confianza sin asfixia burocrática.",
-            img: "/img/chema-6abril/img_03_gobernanza_dns_soberana.jpg",
-            chips: ["Pasaporte Único DNS", "Norma ISO/IEC 42001", "Alianza Tripartita IA"]
-        },
-        4: {
-            badge: "ÉPOCA IV · 6 DE ABRIL DE 2027",
-            title: "El Despertar Continental: 1.000.000 de Firmas",
-            body: "A las 09:00 CET del 6 de abril, el Sistema Central OCS de la Unión Europea abrirá la urna electrónica oficial. Doce meses exactos para reunir un millón de firmas ciudadanas y consolidar el primer distrito digital soberano del mundo.",
-            img: "/img/chema-6abril/img_04_cronografo_6abril_anticitera.jpg",
-            chips: ["Apertura 09:00 CET", "1.000.000 de Firmas", "27 Estados de la UE"]
-        }
+    const odysseyImages = {
+        1: "/img/chema-6abril/img_01_origen_egeo_anticitera.jpg",
+        2: "/img/chema-6abril/img_02_legal_hack_estrasburgo.jpg",
+        3: "/img/chema-6abril/img_03_gobernanza_dns_soberana.jpg",
+        4: "/img/chema-6abril/img_04_cronografo_6abril_anticitera.jpg"
     };
 
     const odysseyTabs = document.querySelectorAll(".odyssey-tab-btn");
@@ -2742,28 +3156,42 @@ document.addEventListener("DOMContentLoaded", () => {
     const odysseyBody = document.getElementById("odysseyBody");
     const odysseyChips = document.getElementById("odysseyChips");
 
+    function renderOdysseyEpoch(epoch) {
+        currentOdysseyEpoch = String(epoch);
+        const texts = dictionary[currentLang] || dictionary.es;
+        const fallback = dictionary.es;
+        const badgeKey = `odyssey_e${epoch}_badge`;
+        const titleKey = `odyssey_e${epoch}_title`;
+        const bodyKey = `odyssey_e${epoch}_body`;
+        const c1Key = `odyssey_e${epoch}_chip1`;
+        const c2Key = `odyssey_e${epoch}_chip2`;
+        const c3Key = `odyssey_e${epoch}_chip3`;
+
+        if (odysseyBadge) odysseyBadge.textContent = texts[badgeKey] || fallback[badgeKey] || "";
+        if (odysseyTitle) odysseyTitle.textContent = texts[titleKey] || fallback[titleKey] || "";
+        if (odysseyBody) odysseyBody.textContent = texts[bodyKey] || fallback[bodyKey] || "";
+        if (odysseyChips) {
+            const c1 = texts[c1Key] || fallback[c1Key] || "";
+            const c2 = texts[c2Key] || fallback[c2Key] || "";
+            const c3 = texts[c3Key] || fallback[c3Key] || "";
+            odysseyChips.innerHTML = [c1, c2, c3].filter(Boolean).map(c => `<span class="odyssey-meta-chip">${c}</span>`).join("");
+        }
+    }
+
     odysseyTabs.forEach(tab => {
         tab.addEventListener("click", () => {
             const epoch = tab.getAttribute("data-epoch");
             odysseyTabs.forEach(t => t.classList.remove("active"));
             tab.classList.add("active");
 
-            const data = odysseyData[epoch];
-            if (!data) return;
-
-            if (odysseyImg) {
+            if (odysseyImg && odysseyImages[epoch]) {
                 odysseyImg.style.opacity = "0.2";
                 setTimeout(() => {
-                    odysseyImg.src = data.img;
+                    odysseyImg.src = odysseyImages[epoch];
                     odysseyImg.style.opacity = "1";
                 }, 180);
             }
-            if (odysseyBadge) odysseyBadge.textContent = data.badge;
-            if (odysseyTitle) odysseyTitle.textContent = data.title;
-            if (odysseyBody) odysseyBody.textContent = data.body;
-            if (odysseyChips) {
-                odysseyChips.innerHTML = data.chips.map(c => `<span class="odyssey-meta-chip">${c}</span>`).join("");
-            }
+            renderOdysseyEpoch(epoch);
         });
     });
 
@@ -2782,14 +3210,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const cascadeValue = document.getElementById("cascadeValue");
     const cascadeOutput = document.getElementById("cascadeOutput");
 
-    if (cascadeSlider && cascadeValue && cascadeOutput) {
-        cascadeSlider.addEventListener("input", (e) => {
-            const n = Number(e.target.value);
-            cascadeValue.textContent = `${n} personas`;
-            // Fórmula viral de 3 niveles: 1 + n + n^2 + n^3
-            const total = 1 + n + (n * n) + (n * n * n);
-            cascadeOutput.innerHTML = `Si te unes hoy y compartes con <strong class="cascade-highlight">${n} personas</strong> que a su vez compartan con otras ${n} en 3 niveles, tu nodo activará <strong class="cascade-highlight">${total.toLocaleString()} firmas</strong> hacia el umbral de tu país.`;
-        });
+    function updateCascadeCalculator() {
+        if (!cascadeSlider || !cascadeValue || !cascadeOutput) return;
+        const n = Number(cascadeSlider.value);
+        const texts = dictionary[currentLang] || dictionary.es;
+        const fallback = dictionary.es;
+        const peopleTmpl = texts.calc_people_val || fallback.calc_people_val || "{n} personas";
+        cascadeValue.textContent = peopleTmpl.replace("{n}", n);
+        // Fórmula viral de 3 niveles: 1 + n + n^2 + n^3
+        const total = 1 + n + (n * n) + (n * n * n);
+        const outputTmpl = texts.calc_output_tmpl || fallback.calc_output_tmpl ||
+            "Si te unes hoy y compartes con <strong class=\"cascade-highlight\">{n} personas</strong> que a su vez compartan con otras {n} en 3 niveles, tu nodo activará <strong class=\"cascade-highlight\">{total} firmas</strong> hacia el umbral de tu país.";
+        cascadeOutput.innerHTML = outputTmpl
+            .replace(/\{n\}/g, n)
+            .replace(/\{total\}/g, total.toLocaleString());
+    }
+
+    if (cascadeSlider) {
+        cascadeSlider.addEventListener("input", updateCascadeCalculator);
     }
 
     // ==========================================================================
@@ -3055,9 +3493,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const hyper = astrolabeConsole.classList.toggle("hyper-spin");
             playHarmonicChord();
             if (gearTelemetryBadge) {
+                const texts = dictionary[currentLang] || dictionary.es;
+                const fallback = dictionary.es;
                 gearTelemetryBadge.innerHTML = hyper
-                    ? `<span>⚡</span><span>SINCRONIZACIÓN HIPER-METÓNICA ACTIVA · CICLO OLÍMPICO 2027 EN CURSO</span>`
-                    : `<span>⚙️</span><span>CALIBRACIÓN METÓNICA ACTIVA · HAZ CLIC EN EL ASTROLABIO PARA ACELERAR EL PULSO</span>`;
+                    ? `<span>⚡</span><span>${texts.gear_telemetry_hyper || fallback.gear_telemetry_hyper || "SINCRONIZACIÓN HIPER-METÓNICA ACTIVA · CICLO OLÍMPICO 2027 EN CURSO"}</span>`
+                    : `<span>⚙️</span><span data-i18n="gear_telemetry_text">${texts.gear_telemetry_text || fallback.gear_telemetry_text || "CALIBRACIÓN METÓNICA ACTIVA · HAZ CLIC EN EL ASTROLABIO PARA ACELERAR EL PULSO"}</span>`;
             }
         });
     }
@@ -3107,7 +3547,10 @@ document.addEventListener("DOMContentLoaded", () => {
         playHorologyTick(1420, 0.03, 0.035);
         appendOracleMessage(cleanQ.replace(/</g, "&lt;"), "user");
 
-        const loadingMsg = appendOracleMessage("⏳ <em>Consultando los archivos compilados de Anticitera y la Decisión C(2026) 7098...</em>", "bot");
+        const texts = dictionary[currentLang] || dictionary.es;
+        const fallback = dictionary.es;
+        const loadingPrompt = texts.oracle_loading || fallback.oracle_loading || "Consultando los archivos compilados de Anticitera y la Decisión C(2026) 7098...";
+        const loadingMsg = appendOracleMessage(`⏳ <em>${loadingPrompt}</em>`, "bot");
         if (btnOracleSend) btnOracleSend.disabled = true;
 
         try {
