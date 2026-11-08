@@ -1,6 +1,6 @@
 ---
-title: "Communiqué VII - L'échelle des objectifs, la date officielle du 6 avril et le lancement de « L'Odyssée du .ia »"
-description: "Réflexion stratégique sur le chemin vers le million de signatures : l'échelle des étapes intermédiaires, la date finale du 6 avril et la présentation de notre livre interactif « L'Odyssée du .ia »."
+title: "Communiqué VII - L'échelle des objectifs, la date officielle du 6 avril et le lancement de « L'Odyssée de la .IA »"
+description: "Réflexion stratégique sur le chemin vers le million de signatures : l'échelle des étapes intermédiaires, la date finale du 6 avril et la présentation de notre livre interactif « L'Odyssée de la .IA »."
 date: 2026-11-08
 draft: false
 tags:
@@ -63,7 +63,7 @@ Nous confirmons aujourd'hui que le **6 avril 2027 est la date officielle d'ouver
 
 Pour articuler cette étape de pré-campagne et rassembler tous les supporters avant que la cloche du départ ne retentisse, nous avons déployé une landing page monographique et interactive :
 
-👉**§LIEN0§**
+👉 **[odisea.deft.work](https://odisea.deft.work)**
 
 Sur cette plateforme officielle vous trouverez :
 * **Le chronomètre en temps réel** avec le compte à rebours jusqu'au 6 avril.
@@ -73,15 +73,15 @@ Sur cette plateforme officielle vous trouverez :
 
 ---
 
-### 3. Nous vous présentons « L'Odyssée du .ia » : notre livre en 9 langues
+### 3. Nous vous présentons « L'Odyssée de la .IA » : notre livre en 9 langues
 
 Pour que les citoyens soutiennent une cause, ils doivent d’abord en comprendre l’âme. Nous ne pouvons pas demander un million de signatures avec de froides déclarations administratives ; Il fallait raconter l’histoire vivante, personnelle et documentaire de notre arrivée ici.
 
-C'est pourquoi j'ai écrit **«L'Odyssée du .ia»**, une chronique à la première personne divisée en courts chapitres que vous pouvez désormais lire et écouter gratuitement sur :
+C'est pourquoi j'ai écrit **«L'Odyssée de la .IA»**, une chronique à la première personne divisée en courts chapitres que vous pouvez désormais lire et écouter gratuitement sur :
 
-👉**§LIEN0§**
+👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![L'Odyssée du .ia - Chronique de l'ICE ECI (2026)000012](/img/ia_sovereignty.png)
+![L'Odyssée de la .IA - Chronique de l'ICE ECI (2026)000012](/img/ia_sovereignty.png)
 
 Ce livre n'est pas un texte statique :
 * **Livre audio neuronal avec karaoké inversé :** Grâce au moteur open source **Homer** (développé spécifiquement à cet effet), vous pouvez écouter la narration avec des voix neuronales haute fidélité tandis que le texte est mis en évidence mot par mot sur l'écran, vous permettant d'appuyer sur n'importe quelle phrase pour passer directement à ce moment.
@@ -96,7 +96,7 @@ Atteindre les objectifs de notre échelle dépend d’un facteur qu’aucun algo
 
 Nous vous demandons aujourd’hui trois actions très concrètes pour unir vos forces :
 1. **Inscrivez-vous à la liste des pionniers** dans [antikythera.deft.work/6abril/](https://anticitera.deft.work/fr/6abril/) pour être prêt le 6 avril.
-2. **Allez sur [odyssée.deft.work](https://odisea.deft.work)**, lisez les quatre premiers chapitres et abonnez-vous à la liste de diffusion du livre pour recevoir les prochains versements.
+2. **Allez sur [odisea.deft.work](https://odisea.deft.work)**, lisez les quatre premiers chapitres et abonnez-vous à la liste de diffusion du livre pour recevoir les prochains versements.
 3. **Partagez les deux liens** sur vos réseaux sociaux, chaînes Telegram ou WhatsApp, forums universitaires, communautés technologiques et groupes de débat éthique.
 
 L’histoire de l’informatique n’a pas commencé à Palo Alto et n’appartient pas à une entreprise ; Tout a commencé dans la mer Égée il y a plus de deux mille ans avec un mécanisme à engrenages en bronze. Aujourd’hui, ce même mécanisme est à nouveau mis en œuvre grâce à vous.

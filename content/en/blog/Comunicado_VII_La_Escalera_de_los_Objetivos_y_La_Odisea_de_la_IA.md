@@ -1,6 +1,6 @@
 ---
-title: "Communiqué VII - The Ladder of Objectives, the Official Date of April 6 and the Launch of \"The .ia Odyssey\""
-description: "Strategic reflection on the path to a million signatures: the ladder of intermediate milestones, the final date of April 6 and the presentation of our interactive book “The Odyssey of .ia”."
+title: "Communiqué VII - The Ladder of Objectives, the Official Date of April 6 and the Launch of \"The .IA Odyssey\""
+description: "Strategic reflection on the path to a million signatures: the ladder of intermediate milestones, the final date of April 6 and the presentation of our interactive book “The .IA Odyssey”."
 date: 2026-11-08
 draft: false
 tags:
@@ -73,15 +73,15 @@ On this official platform you will find:
 
 ---
 
-### 3. We present “The .ia Odyssey”: Our Book in 9 Languages
+### 3. We present “The .IA Odyssey”: Our Book in 9 Languages
 
 For citizens to support a cause, they must first understand its soul. We cannot ask for a million signatures with cold administrative statements; It was necessary to tell the living, personal and documentary story of how we got here.
 
-That is why I have written **«The Odyssey of .ia»**, a first-person chronicle divided into short chapters that you can now read and listen to for free at:
+That is why I have written **«The .IA Odyssey»**, a first-person chronicle divided into short chapters that you can now read and listen to for free at:
 
-👉 **[odyssey.deft.work](https://odisea.deft.work) **
+👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![The Odyssey of the .ia - Chronicle of the ICE ECI (2026)000012](/img/ia_sovereignty.png)
+![The .IA Odyssey - Chronicle of the ICE ECI (2026)000012](/img/ia_sovereignty.png)
 
 This book is not a static text:
 * **Neural audiobook with reverse karaoke:** Thanks to the **Homer** open source engine (developed specifically for this purpose), you can listen to the narration with high-fidelity neural voices while the text is highlighted word by word on the screen, allowing you to press any phrase to jump directly to that moment.
@@ -96,7 +96,7 @@ Reaching the objectives of our ladder depends on a factor that no algorithm can 
 
 We ask you for three very specific actions to join forces today:
 1. **Sign up for the Pioneer List** in [antikythera.deft.work/6abril/](https://anticitera.deft.work/en/6abril/) to be ready on April 6.
-2. **Go to [odyssey.deft.work](https://odisea.deft.work)**, read the first four chapters and subscribe to the book's mailing list to receive the next installments.
+2. **Go to [odisea.deft.work](https://odisea.deft.work)**, read the first four chapters and subscribe to the book's mailing list to receive the next installments.
 3. **Share both links** on your social networks, Telegram or WhatsApp channels, university forums, technological communities and ethical debate groups.
 
 The history of computing did not begin in Palo Alto nor does it belong to a corporation; It began in the Aegean Sea over two thousand years ago with a bronze gear mechanism. Today, that same mechanism is put into action again thanks to you.

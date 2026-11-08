@@ -73,7 +73,7 @@ En esta plataforma oficial encontraréis:
 
 ---
 
-### 3. Presentamos «La Odisea del .ia»: Nuestro Libro en 9 Idiomas
+### 3. Presentamos «La Odisea de la .IA»: Nuestro Libro en 9 Idiomas
 
 Para que la ciudadanía apoye una causa, primero debe comprender su alma. No podemos pedir un millón de firmas con fríos comunicados administrativos; hacía falta narrar la historia viva, personal y documental de cómo hemos llegado hasta aquí.
 

@@ -1,6 +1,6 @@
 ---
-title: "Kommuniqué VII – Die Leiter der Ziele, das offizielle Datum des 6. April und der Start von „The .ia Odyssey“"
-description: "Strategische Überlegungen zum Weg zu einer Million Unterschriften: die Leiter der Zwischenmeilensteine, der letzte Termin am 6. April und die Präsentation unseres interaktiven Buches „The Odyssey of .ia“."
+title: "Kommuniqué VII – Die Leiter der Ziele, das offizielle Datum des 6. April und der Start von „Die .IA-Odyssee“"
+description: "Strategische Überlegungen zum Weg zu einer Million Unterschriften: die Leiter der Zwischenmeilensteine, der letzte Termin am 6. April und die Präsentation unseres interaktiven Buches „Die .IA-Odyssee“."
 date: 2026-11-08
 draft: false
 tags:
@@ -73,15 +73,15 @@ Auf dieser offiziellen Plattform finden Sie:
 
 ---
 
-### 3. Wir präsentieren „The .ia Odyssey“: Unser Buch in 9 Sprachen
+### 3. Wir präsentieren „Die .IA-Odyssee“: Unser Buch in 9 Sprachen
 
 Damit Bürger eine Sache unterstützen können, müssen sie zunächst deren Seele verstehen. Wir können nicht mit kalten Verwaltungserklärungen eine Million Unterschriften verlangen; Es war notwendig, die lebendige, persönliche und dokumentarische Geschichte darüber zu erzählen, wie wir hierher gekommen sind.
 
-Deshalb habe ich **«Die Odyssee von .ia»** geschrieben, eine in kurze Kapitel unterteilte Ich-Chronik, die Sie jetzt kostenlos lesen und anhören können unter:
+Deshalb habe ich **«Die .IA-Odyssee»** geschrieben, eine in kurze Kapitel unterteilte Ich-Chronik, die Sie jetzt kostenlos lesen und anhören können unter:
 
-👉 **[odyssey.deft.work](https://odisea.deft.work) **
+👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![Die Odyssee der .ia – Chronik der ICE ECI (2026)000012](/img/ia_sovereignty.png)
+![Die .IA-Odyssee – Chronik der EBI ECI(2026)000012](/img/ia_sovereignty.png)
 
 Dieses Buch ist kein statischer Text:
 * **Neuronales Hörbuch mit umgekehrtem Karaoke:** Dank der Open-Source-Engine **Homer** (die speziell für diesen Zweck entwickelt wurde) können Sie die Erzählung mit hochauflösenden neuronalen Stimmen anhören, während der Text Wort für Wort auf dem Bildschirm hervorgehoben wird, sodass Sie durch Drücken einer beliebigen Phrase direkt zu diesem Moment springen können.
@@ -96,7 +96,7 @@ Das Erreichen der Ziele unserer Leiter hängt von einem Faktor ab, den kein Algo
 
 Wir bitten Sie heute um drei ganz konkrete Aktionen, um unsere Kräfte zu bündeln:
 1. **Melden Sie sich unter [antikythera.deft.work/6abril/](https://anticitera.deft.work/de/6abril/) für die Pionierliste an**, um am 6. April bereit zu sein.
-2. **Gehen Sie zu [odyssey.deft.work](https://odisea.deft.work)**, lesen Sie die ersten vier Kapitel und abonnieren Sie die Mailingliste des Buches, um die nächsten Teile zu erhalten.
+2. **Gehen Sie zu [odisea.deft.work](https://odisea.deft.work)**, lesen Sie die ersten vier Kapitel und abonnieren Sie die Mailingliste des Buches, um die nächsten Teile zu erhalten.
 3. **Teilen Sie beide Links** in Ihren sozialen Netzwerken, Telegram- oder WhatsApp-Kanälen, Universitätsforen, Technologie-Communitys und ethischen Debattengruppen.
 
 Die Geschichte der Informatik begann weder in Palo Alto, noch gehört sie zu einem Unternehmen; Es begann vor über zweitausend Jahren in der Ägäis mit einem Bronzegetriebe. Heute wird derselbe Mechanismus dank Ihnen wieder in Gang gesetzt.

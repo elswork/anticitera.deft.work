@@ -1,5 +1,5 @@
 ---
-title: "Comunicato VII - La scala degli obiettivi, la data ufficiale del 6 aprile e il lancio di \"The .ia Odyssey\""
+title: "Comunicato VII - La scala degli obiettivi, la data ufficiale del 6 aprile e il lancio di \"L'Odissea della .IA\""
 description: "Riflessione strategica sul percorso verso il milione di firme: la scala delle tappe intermedie, la data finale del 6 aprile e la presentazione del nostro libro interattivo “L'Odissea di .ia”."
 date: 2026-11-08
 draft: false
@@ -73,15 +73,15 @@ Su questa piattaforma ufficiale troverai:
 
 ---
 
-### 3. Presentiamo “The .ia Odyssey”: il nostro libro in 9 lingue
+### 3. Presentiamo «L'Odissea della .IA»: il nostro libro in 9 lingue
 
 Perché i cittadini possano sostenere una causa, devono prima comprenderne l’anima. Non possiamo chiedere un milione di firme con freddi resoconti amministrativi; Era necessario raccontare la storia viva, personale e documentaria di come siamo arrivati ​​fin qui.
 
-Per questo ho scritto **«L'Odissea di .ia»**, una cronaca in prima persona divisa in brevi capitoli che ora puoi leggere e ascoltare gratuitamente su:
+Per questo ho scritto **«L'Odissea della .IA»**, una cronaca in prima persona divisa in brevi capitoli che ora puoi leggere e ascoltare gratuitamente su:
 
-👉 **[odissea.lavoro.deft](https://odisea.deft.work) **
+👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![L'Odissea dell'.ia - Cronaca dell'ICE ICE (2026)000012](/img/ia_sovereignty.png)
+![L'Odissea della .IA - Cronaca dell'ICE ECI(2026)000012](/img/ia_sovereignty.png)
 
 Questo libro non è un testo statico:
 * **Audiolibro neurale con karaoke inverso:** Grazie al motore open source **Homer** (sviluppato appositamente per questo scopo), puoi ascoltare la narrazione con voci neurali ad alta fedeltà mentre il testo viene evidenziato parola per parola sullo schermo, permettendoti di premere qualsiasi frase per saltare direttamente a quel momento.
@@ -96,7 +96,7 @@ Il raggiungimento degli obiettivi della nostra scala dipende da un fattore che n
 
 Vi chiediamo tre azioni molto specifiche per unire le forze oggi:
 1. **Iscriviti all'Elenco dei Pionieri** in [antikythera.deft.work/6abril/](https://anticitera.deft.work/it/6abril/) per essere pronto il 6 aprile.
-2. **Vai a [odissea.lavoro.deft](https://odisea.deft.work)**, leggi i primi quattro capitoli e iscriviti alla mailing list del libro per ricevere le puntate successive.
+2. **Vai a [odisea.deft.work](https://odisea.deft.work)**, leggi i primi quattro capitoli e iscriviti alla mailing list del libro per ricevere le puntate successive.
 3. **Condividi entrambi i link** sui tuoi social network, canali Telegram o WhatsApp, forum universitari, comunità tecnologiche e gruppi di dibattito etico.
 
 La storia dell'informatica non è iniziata a Palo Alto né appartiene a una società; Cominciò nel Mar Egeo più di duemila anni fa con un meccanismo a ingranaggi in bronzo. Oggi quello stesso meccanismo si rimette in moto grazie a voi.
