@@ -6082,17 +6082,27 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // ==========================================================================
-    // 10. GESTIÓN DEL FORMULARIO DE PIONEROS (FIREBASE CLOUD FUNCTION)
+    // 10. GESTIÓN DE LOS FORMULARIOS DE PIONEROS (FIREBASE CLOUD FUNCTION)
     // ==========================================================================
-    if (form) {
-        form.addEventListener("submit", async (e) => {
+    const pioneerForms = document.querySelectorAll(".pioneer-form");
+    pioneerForms.forEach((f) => {
+        f.addEventListener("submit", async (e) => {
             e.preventDefault();
-            const email = document.getElementById("emailInput").value.trim();
-            const isCollab = document.getElementById("collabCheck")?.checked || false;
+            const emailInput = f.querySelector('input[type="email"]');
+            const collabCheck = f.querySelector('input[type="checkbox"]');
+            const submitBtnEl = f.querySelector('button[type="submit"]');
 
-            const prevLabel = submitBtn.textContent;
-            submitBtn.textContent = "...";
-            submitBtn.disabled = true;
+            if (!emailInput) return;
+            const email = emailInput.value.trim();
+            if (!email) return;
+
+            const isCollab = collabCheck ? collabCheck.checked : false;
+
+            const prevLabel = submitBtnEl ? submitBtnEl.textContent : "...";
+            if (submitBtnEl) {
+                submitBtnEl.textContent = "...";
+                submitBtnEl.disabled = true;
+            }
 
             try {
                 const apiUrl = "https://us-central1-dominio-deft-work.cloudfunctions.net/subscribeICE";
@@ -6110,21 +6120,31 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
 
                 if (response.ok) {
-                    form.style.display = "none";
-                    if (successBox) successBox.style.display = "block";
+                    pioneerForms.forEach((anyForm) => {
+                        anyForm.style.display = "none";
+                        const parent = anyForm.closest(".pioneer-form-card");
+                        if (parent) {
+                            const okBox = parent.querySelector(".form-feedback-ok");
+                            if (okBox) okBox.style.display = "block";
+                        }
+                    });
                 } else {
-                    alert((dictionary[currentLang] || dictionary.es).form_error);
-                    submitBtn.textContent = prevLabel;
-                    submitBtn.disabled = false;
+                    alert((dictionary[currentLang] || dictionary.es).form_error || "Error al procesar la solicitud");
+                    if (submitBtnEl) {
+                        submitBtnEl.textContent = prevLabel;
+                        submitBtnEl.disabled = false;
+                    }
                 }
             } catch (err) {
                 console.error(err);
-                alert((dictionary[currentLang] || dictionary.es).form_error);
-                submitBtn.textContent = prevLabel;
-                submitBtn.disabled = false;
+                alert((dictionary[currentLang] || dictionary.es).form_error || "Error de conexión");
+                if (submitBtnEl) {
+                    submitBtnEl.textContent = prevLabel;
+                    submitBtnEl.disabled = false;
+                }
             }
         });
-    }
+    });
 
     // Copiar Enlace y Compartir
     const copyBtn = document.querySelector('[data-share="copy"]');

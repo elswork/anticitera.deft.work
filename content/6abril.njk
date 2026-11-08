@@ -822,6 +822,14 @@ eleventyExcludeFromCollections: true
 			margin-bottom: 5.5rem;
 		}
 
+		/* ==========================================================================
+		   SECCIÓN INTERMEDIA: SUSCRIPCIÓN RÁPIDA PIONEROS (POST-ENVERGADURA)
+		   ========================================================================== */
+		.pioneer-mid-section {
+			max-width: 860px;
+			margin: 0 auto 5.5rem;
+		}
+
 		.macro-header-wrap {
 			text-align: center;
 			max-width: 820px;
@@ -3675,6 +3683,52 @@ eleventyExcludeFromCollections: true
 						El umbral democrático continental que obligará al Parlamento y a la Comisión Europea a redactar la Directiva de Soberanía e Identidad Digital .IA.
 					</p>
 				</div>
+			</div>
+		</section>
+
+		<!-- ==========================================================================
+		     SECCIÓN: SUSCRIPCIÓN RÁPIDA LISTA DE PIONEROS (POST-ENVERGADURA)
+		     ========================================================================== -->
+		<section class="pioneer-mid-section reveal-on-scroll" id="pioneerBoxTop">
+			<div class="pioneer-form-card">
+				<div>
+					<div class="card-kicker" data-i18n="form_kicker">LISTA DE PIONEROS · DÍA 1</div>
+					<h3 class="card-heading" data-i18n="form_title">Recibe el aviso en el minuto uno</h3>
+					<p class="card-description" data-i18n="form_desc">
+						Para que la Comisión Europea legisle necesitamos reunir 1.000.000 de firmas válidas y superar los umbrales mínimos en al menos 7 Estados miembros. Deja tu correo para avisarte en el instante exacto en que se abra la urna oficial el 6 de abril.
+					</p>
+
+					<form id="pioneerFormTop" class="pioneer-form">
+						<div class="field-group">
+							<label for="emailInputTop" class="field-label" data-i18n="label_email">Correo electrónico</label>
+							<input
+								type="email"
+								id="emailInputTop"
+								class="field-input"
+								placeholder="tu.nombre@dominio.eu"
+								data-i18n-placeholder="placeholder_email"
+								required
+							>
+						</div>
+
+						<label class="checkbox-row">
+							<input type="checkbox" id="collabCheckTop">
+							<span data-i18n="label_collab">Quiero colaborar activamente como organización, universidad, medio de comunicación o divulgador</span>
+						</label>
+
+						<button type="submit" id="submitPioneerBtnTop" class="btn-pioneer-submit" data-i18n="form_submit">
+							Unirme a los Pioneros del 6 de Abril
+						</button>
+					</form>
+
+					<div id="pioneerSuccessTop" class="form-feedback-ok" data-i18n="form_success">
+						¡Tu compromiso ha quedado registrado en la Lista de Pioneros! Te avisaremos el 6 de abril de 2027 en cuanto Bruselas abra la urna electrónica.
+					</div>
+				</div>
+
+				<p class="privacy-micro" data-i18n="form_privacy">
+					Cumplimiento estricto RGPD (Art. 16 TFUE). Solo recibirás el aviso de apertura oficial de la urna electrónica europea.
+				</p>
 			</div>
 		</section>
 
