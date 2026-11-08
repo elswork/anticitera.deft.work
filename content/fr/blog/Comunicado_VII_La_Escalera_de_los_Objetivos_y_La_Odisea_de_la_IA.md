@@ -81,7 +81,7 @@ C'est pourquoi j'ai écrit **«L'Odyssée de la .IA»**, une chronique à la pre
 
 👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![L'Odyssée de la .IA - Chronique de l'ICE ECI (2026)000012](/img/ia_sovereignty.png)
+![L'Odyssée de la .IA - Chronique de l'ICE ECI (2026)000012](/img/portada-la-odisea-de-la-ia.webp)
 
 Ce livre n'est pas un texte statique :
 * **Livre audio neuronal avec karaoké inversé :** Grâce au moteur open source **Homer** (développé spécifiquement à cet effet), vous pouvez écouter la narration avec des voix neuronales haute fidélité tandis que le texte est mis en évidence mot par mot sur l'écran, vous permettant d'appuyer sur n'importe quelle phrase pour passer directement à ce moment.

@@ -81,7 +81,7 @@ Para que os cidadãos apoiem uma causa, devem primeiro compreender a sua alma. N
 
 👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![A Odisseia da .IA - Crônica do ICE ECI (2026)000012](/img/ia_sovereignty.png)
+![A Odisseia da .IA - Crônica do ICE ECI (2026)000012](/img/portada-la-odisea-de-la-ia.webp)
 
 Este livro não é um texto estático:
 * **Audiolivro neural com karaokê reverso:** Graças ao mecanismo de código aberto **Homer** (desenvolvido especificamente para esse fim), você pode ouvir a narração com vozes neurais de alta fidelidade enquanto o texto é destacado palavra por palavra na tela, permitindo que você pressione qualquer frase para pular diretamente para aquele momento.

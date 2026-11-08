@@ -81,7 +81,7 @@ Por eso he escrito **«La Odisea de la .IA»**, una crónica en primera persona 
 
 👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![La Odisea de la .IA - Crónica de la ICE ECI(2026)000012](/img/ia_sovereignty.png)
+![La Odisea de la .IA - Crónica de la ICE ECI(2026)000012](/img/portada-la-odisea-de-la-ia.webp)
 
 Este libro no es un texto estático:
 * **Audiolibro neuronal con karaoke inverso:** Gracias al motor de código abierto **Homero** (desarrollado específicamente para este fin), podéis escuchar la narración con voces neuronales de alta fidelidad mientras el texto se resalta palabra a palabra en pantalla, permitiendo pulsar cualquier frase para saltar directamente a ese instante.

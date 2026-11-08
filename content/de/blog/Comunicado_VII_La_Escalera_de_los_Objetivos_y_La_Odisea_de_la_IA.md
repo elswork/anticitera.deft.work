@@ -81,7 +81,7 @@ Deshalb habe ich **«Die .IA-Odyssee»** geschrieben, eine in kurze Kapitel unte
 
 👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![Die .IA-Odyssee – Chronik der EBI ECI(2026)000012](/img/ia_sovereignty.png)
+![Die .IA-Odyssee – Chronik der EBI ECI(2026)000012](/img/portada-la-odisea-de-la-ia.webp)
 
 Dieses Buch ist kein statischer Text:
 * **Neuronales Hörbuch mit umgekehrtem Karaoke:** Dank der Open-Source-Engine **Homer** (die speziell für diesen Zweck entwickelt wurde) können Sie die Erzählung mit hochauflösenden neuronalen Stimmen anhören, während der Text Wort für Wort auf dem Bildschirm hervorgehoben wird, sodass Sie durch Drücken einer beliebigen Phrase direkt zu diesem Moment springen können.

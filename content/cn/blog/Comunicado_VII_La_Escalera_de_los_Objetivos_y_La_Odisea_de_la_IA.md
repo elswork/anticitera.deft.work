@@ -81,7 +81,7 @@ tags:
 
 👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![.IA 奥德赛 - 欧洲公民倡议 ECI(2026)000012 纪实](/img/ia_sovereignty.png)
+![.IA 奥德赛 - 欧洲公民倡议 ECI(2026)000012 纪实](/img/portada-la-odisea-de-la-ia.webp)
 
 这本书不是静态的文本：
 * **带有反向卡拉 OK 的神经有声读物：** 得益于 **Homer** 开源引擎（专门为此目的而开发），您可以聆听高保真神经语音的旁白，同时文本在屏幕上逐字突出显示，让您可以按任何短语直接跳转到那一刻。

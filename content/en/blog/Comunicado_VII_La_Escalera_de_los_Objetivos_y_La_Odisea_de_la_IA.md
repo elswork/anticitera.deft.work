@@ -81,7 +81,7 @@ That is why I have written **«The .IA Odyssey»**, a first-person chronicle div
 
 👉 **[odisea.deft.work](https://odisea.deft.work)**
 
-![The .IA Odyssey - Chronicle of the ICE ECI (2026)000012](/img/ia_sovereignty.png)
+![The .IA Odyssey - Chronicle of the ICE ECI (2026)000012](/img/portada-la-odisea-de-la-ia.webp)
 
 This book is not a static text:
 * **Neural audiobook with reverse karaoke:** Thanks to the **Homer** open source engine (developed specifically for this purpose), you can listen to the narration with high-fidelity neural voices while the text is highlighted word by word on the screen, allowing you to press any phrase to jump directly to that moment.
