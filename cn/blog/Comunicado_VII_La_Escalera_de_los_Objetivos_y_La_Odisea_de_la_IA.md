@@ -1,6 +1,6 @@
-# 公报 VII - 目标阶梯、4 月 6 日正式日期以及“.ia Odyssey”的启动
+# 公报 VII - 目标阶梯、4 月 6 日正式日期以及《.IA 奥德赛》的发布
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,19 +114,19 @@ URL: https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Obje
 
 
 
-3. 我们推出“The .ia Odyssey”：我们的书有 9 种语言版本 [#](#3-the-ia-odyssey-9)
+3. 我们推出《.IA 奥德赛》：我们的书籍提供 9 种语言版本 [#](#3-ia-9)
 
 
 公民要支持一项事业，首先必须了解其灵魂。我们不能用冷酷的行政声明来要求一百万个签名；有必要讲述我们如何走到这一步的活生生的、个人的、纪实的故事。
 
 
-这就是为什么我写了**《.ia 的奥德赛》**，这是一本第一人称编年史，分为几个简短的章节，您现在可以在以下位置免费阅读和收听：
+这就是为什么我写了**《.IA 奥德赛》**，这是一本第一人称编年史，分为几个简短的章节，您现在可以在以下位置免费阅读和收听：
 
 
-👉 **[奥德赛.deft.work](https://odisea.deft.work) **
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![.ia 的奥德赛 - ICE ECI 编年史 (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![.IA 奥德赛 - 欧洲公民倡议 ECI(2026)000012 纪实](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 这本书不是静态的文本：
@@ -157,7 +157,7 @@ URL: https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Obje
 * 在[antikythera.deft.work/6abril/](https://anticitera.deft.work/cn/6abril/)中注册先锋名单，将于 4 月 6 日准备就绪。
 
 
-* 转到[奥德赛.deft.work](https://odisea.deft.work)，阅读前四章并订阅本书的邮件列表以接收下一部分。
+* 访问 [odisea.deft.work](https://odisea.deft.work)，阅读前四章并订阅本书的邮件列表以接收下一部分。
 
 
 * 在您的社交网络、Telegram 或 WhatsApp 频道、大学论坛、技术社区和道德辩论小组上分享这两个链接。

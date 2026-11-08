@@ -1,6 +1,6 @@
-# Communiqué VII - L'échelle des objectifs, la date officielle du 6 avril et le lancement de « L'Odyssée du .ia »
+# Communiqué VII - L'échelle des objectifs, la date officielle du 6 avril et le lancement de « L'Odyssée de la .IA »
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/fr/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/fr/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -93,7 +93,7 @@ Nous confirmons aujourd'hui que le 6 avril 2027 est la date officielle d'ouvertu
 Pour articuler cette étape de pré-campagne et rassembler tous les supporters avant que la cloche du départ ne retentisse, nous avons déployé une landing page monographique et interactive :
 
 
-👉**§LIEN0§**
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
 Sur cette plateforme officielle vous trouverez :
@@ -114,19 +114,19 @@ Sur cette plateforme officielle vous trouverez :
 
 
 
-3. Nous vous présentons « L'Odyssée du .ia » : notre livre en 9 langues [#](#3-nous-vous-presentons-l-odyssee-du-ia-notre-livre-en-9-langues)
+3. Nous vous présentons « L'Odyssée de la .IA » : notre livre en 9 langues [#](#3-nous-vous-presentons-l-odyssee-de-la-ia-notre-livre-en-9-langues)
 
 
 Pour que les citoyens soutiennent une cause, ils doivent d’abord en comprendre l’âme. Nous ne pouvons pas demander un million de signatures avec de froides déclarations administratives ; Il fallait raconter l’histoire vivante, personnelle et documentaire de notre arrivée ici.
 
 
-C'est pourquoi j'ai écrit «L'Odyssée du .ia», une chronique à la première personne divisée en courts chapitres que vous pouvez désormais lire et écouter gratuitement sur :
+C'est pourquoi j'ai écrit «L'Odyssée de la .IA», une chronique à la première personne divisée en courts chapitres que vous pouvez désormais lire et écouter gratuitement sur :
 
 
-👉**§LIEN0§**
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![L'Odyssée du .ia - Chronique de l'ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![L'Odyssée de la .IA - Chronique de l'ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 Ce livre n'est pas un texte statique :
@@ -157,7 +157,7 @@ Nous vous demandons aujourd’hui trois actions très concrètes pour unir vos f
 * Inscrivez-vous à la liste des pionniers dans [antikythera.deft.work/6abril/](https://anticitera.deft.work/fr/6abril/) pour être prêt le 6 avril.
 
 
-* Allez sur [odyssée.deft.work](https://odisea.deft.work), lisez les quatre premiers chapitres et abonnez-vous à la liste de diffusion du livre pour recevoir les prochains versements.
+* Allez sur [odisea.deft.work](https://odisea.deft.work), lisez les quatre premiers chapitres et abonnez-vous à la liste de diffusion du livre pour recevoir les prochains versements.
 
 
 * Partagez les deux liens sur vos réseaux sociaux, chaînes Telegram ou WhatsApp, forums universitaires, communautés technologiques et groupes de débat éthique.

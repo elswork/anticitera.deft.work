@@ -1,6 +1,6 @@
-# Comunicado VII - A Escada de Objetivos, a Data Oficial de 6 de abril e o Lançamento de "A Odisséia .ia"
+# Comunicado VII - A Escada de Objetivos, a Data Oficial de 6 de abril e o Lançamento de "A Odisseia da .IA"
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/pt/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/pt/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,19 +114,19 @@ Nesta plataforma oficial você encontrará:
 
 
 
-3. Apresentamos “The .ia Odyssey”: Nosso livro em 9 idiomas [#](#3-apresentamos-the-ia-odyssey-nosso-livro-em-9-idiomas)
+3. Apresentamos «A Odisseia da .IA»: Nosso livro em 9 idiomas [#](#3-apresentamos-a-odisseia-da-ia-nosso-livro-em-9-idiomas)
 
 
 Para que os cidadãos apoiem uma causa, devem primeiro compreender a sua alma. Não podemos pedir um milhão de assinaturas com declarações administrativas frias; Era preciso contar a história viva, pessoal e documental de como chegamos até aqui.
 
 
-É por isso que escrevi «A Odisséia de .ia», uma crônica em primeira pessoa dividida em pequenos capítulos que agora você pode ler e ouvir gratuitamente em:
+É por isso que escrevi «A Odisseia da .IA», uma crônica em primeira pessoa dividida em pequenos capítulos que agora você pode ler e ouvir gratuitamente em:
 
 
-👉 **[odissey.deft.work](https://odisea.deft.work) **
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![A Odisséia do .ia - Crônica do ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![A Odisseia da .IA - Crônica do ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 Este livro não é um texto estático:
@@ -157,7 +157,7 @@ Pedimos-lhe três ações muito específicas para unir forças hoje:
 * Inscreva-se na Lista de Pioneiros em [antikythera.deft.work/6abril/](https://anticitera.deft.work/pt/6abril/) para ficar pronta em 6 de abril.
 
 
-* Acesse [odissey.deft.work](https://odisea.deft.work), leia os quatro primeiros capítulos e inscreva-se na mailing list do livro para receber os próximos capítulos.
+* Acesse [odisea.deft.work](https://odisea.deft.work), leia os quatro primeiros capítulos e inscreva-se na mailing list do livro para receber os próximos capítulos.
 
 
 * Compartilhe ambos os links em suas redes sociais, canais de Telegram ou WhatsApp, fóruns universitários, comunidades tecnológicas e grupos de debate ético.

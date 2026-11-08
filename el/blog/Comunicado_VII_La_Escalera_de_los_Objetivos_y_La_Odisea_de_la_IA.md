@@ -1,6 +1,6 @@
-# Ανακοίνωση VII - Η Κλίμακα των Στόχων, η Επίσημη Ημερομηνία της 6ης Απριλίου και η έναρξη του "The .ia Odyssey"
+# Ανακοίνωση VII - Η Κλίμακα των Στόχων, η Επίσημη Ημερομηνία της 6ης Απριλίου και η έναρξη του «Η Οδύσσεια της .ΙΑ»
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/el/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/el/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,19 +114,19 @@ URL: https://anticitera.deft.work/el/blog/Comunicado_VII_La_Escalera_de_los_Obje
 
 
 
-3. Παρουσιάζουμε το «The .ia Odyssey»: Το βιβλίο μας σε 9 γλώσσες [#](#3-paroysiazoyme-to-the-ia-odyssey-to-vivlio-mas-se-9-glosses)
+3. Παρουσιάζουμε την «Οδύσσεια της .ΙΑ»: Το βιβλίο μας σε 9 γλώσσες [#](#3-paroysiazoyme-tin-odysseia-tis-ia-to-vivlio-mas-se-9-glosses)
 
 
 Για να υποστηρίξουν οι πολίτες έναν σκοπό, πρέπει πρώτα να κατανοήσουν την ψυχή του. Δεν μπορούμε να ζητάμε ένα εκατομμύριο υπογραφές με ψυχρές διοικητικές δηλώσεις. Ήταν απαραίτητο να πούμε τη ζωντανή, προσωπική και ντοκιμαντέρ ιστορία του πώς φτάσαμε εδώ.
 
 
-Γι' αυτό έγραψα «Η Οδύσσεια του .ia», ένα χρονικό σε πρώτο πρόσωπο χωρισμένο σε μικρά κεφάλαια που μπορείτε τώρα να διαβάσετε και να ακούσετε δωρεάν στη διεύθυνση:
+Γι' αυτό έγραψα το «Η Οδύσσεια της .ΙΑ», ένα χρονικό σε πρώτο πρόσωπο χωρισμένο σε μικρά κεφάλαια που μπορείτε τώρα να διαβάσετε και να ακούσετε δωρεάν στη διεύθυνση:
 
 
-👉 **[οδύσσεια.deft.εργασία](https://odisea.deft.work) **
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![The Odyssey of the .ia - Chronicle of the ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![Η Οδύσσεια της .ΙΑ - Χρονικό της ΕΠΠ ECI(2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 Αυτό το βιβλίο δεν είναι ένα στατικό κείμενο:
@@ -157,7 +157,7 @@ URL: https://anticitera.deft.work/el/blog/Comunicado_VII_La_Escalera_de_los_Obje
 * Εγγραφείτε για τη Λίστα Pioneer στο [antikythera.deft.work/6abril/](https://anticitera.deft.work/el/6abril/) για να είναι έτοιμη στις 6 Απριλίου.
 
 
-* Μεταβείτε στη [οδύσσεια.deft.εργασία](https://odisea.deft.work), διαβάστε τα πρώτα τέσσερα κεφάλαια και εγγραφείτε στη λίστα αλληλογραφίας του βιβλίου για να λάβετε τις επόμενες δόσεις.
+* Επισκεφθείτε το [odisea.deft.work](https://odisea.deft.work), διαβάστε τα πρώτα τέσσερα κεφάλαια και εγγραφείτε στη λίστα αλληλογραφίας του βιβλίου για να λάβετε τις επόμενες δόσεις.
 
 
 * Μοιραστείτε και τους δύο συνδέσμους στα κοινωνικά σας δίκτυα, στα κανάλια Telegram ή WhatsApp, πανεπιστημιακά φόρουμ, τεχνολογικές κοινότητες και ομάδες δεοντολογικών συζητήσεων.

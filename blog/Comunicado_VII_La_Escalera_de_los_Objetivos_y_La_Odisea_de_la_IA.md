@@ -1,6 +1,6 @@
 # Comunicado VII - La Escalera de los Objetivos, la Fecha Oficial del 6 de Abril y el Lanzamiento de «La Odisea de la .IA»
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,7 +114,7 @@ En esta plataforma oficial encontraréis:
 
 
 
-3. Presentamos «La Odisea del .ia»: Nuestro Libro en 9 Idiomas [#](#3-presentamos-la-odisea-del-ia-nuestro-libro-en-9-idiomas)
+3. Presentamos «La Odisea de la .IA»: Nuestro Libro en 9 Idiomas [#](#3-presentamos-la-odisea-de-la-ia-nuestro-libro-en-9-idiomas)
 
 
 Para que la ciudadanía apoye una causa, primero debe comprender su alma. No podemos pedir un millón de firmas con fríos comunicados administrativos; hacía falta narrar la historia viva, personal y documental de cómo hemos llegado hasta aquí.

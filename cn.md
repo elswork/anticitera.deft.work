@@ -1,5 +1,5 @@
 # cn
-Fecha: Sun Nov 08 2026 11:54:26 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 13:54:50 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/cn/
 
 ---
@@ -14,7 +14,7 @@ URL: https://anticitera.deft.work/cn/
 
 
 	* 
-		[公报 VII - 目标阶梯、4 月 6 日正式日期以及“.ia Odyssey”的启动](https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		[公报 VII - 目标阶梯、4 月 6 日正式日期以及《.IA 奥德赛》的发布](https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA.md)
 		November 2026
 	
 

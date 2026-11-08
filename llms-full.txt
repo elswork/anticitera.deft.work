@@ -5,7 +5,7 @@ Este archivo contiene la consolidación de los documentos principales del Proyec
 ## BLOG RECIENTE---
 ### POST: Comunicado VII - La Escalera de los Objetivos, la Fecha Oficial del 6 de Abril y el Lanzamiento de «La Odisea de la .IA»
 Fecha: 08/11/2026 00:00
-URL: https://anticitera.deft.work/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md
+URL: https://anticitera.deft.work/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA.md
 
 <h2 id="comunicado-oficial-vii-realismo-escalera-estrategica-y-nuestro-relato-al-mundo" tabindex="-1">Comunicado Oficial VII: Realismo, Escalera Estratégica y Nuestro Relato al Mundo <a class="header-anchor" href="#comunicado-oficial-vii-realismo-escalera-estrategica-y-nuestro-relato-al-mundo">#</a></h2>
 <p>Ciudadanos de la Nación de Nodos, simpatizantes y pioneros de la soberanía digital:</p>
@@ -55,7 +55,7 @@ La meta cumbre. Obliga legalmente a la Comisión Europea a comparecer en audienc
 <li><strong>La Lista de Pioneros:</strong> os pedimos que dejéis vuestro correo electrónico para recibir un aviso directo en el minuto uno en que Bruselas habilite la firma digital. Entrar el primer día con miles de apoyos marcará el ritmo de toda la campaña continental.</li>
 </ul>
 <hr>
-<h3 id="3-presentamos-la-odisea-del-ia-nuestro-libro-en-9-idiomas" tabindex="-1">3. Presentamos «La Odisea del .ia»: Nuestro Libro en 9 Idiomas <a class="header-anchor" href="#3-presentamos-la-odisea-del-ia-nuestro-libro-en-9-idiomas">#</a></h3>
+<h3 id="3-presentamos-la-odisea-de-la-ia-nuestro-libro-en-9-idiomas" tabindex="-1">3. Presentamos «La Odisea de la .IA»: Nuestro Libro en 9 Idiomas <a class="header-anchor" href="#3-presentamos-la-odisea-de-la-ia-nuestro-libro-en-9-idiomas">#</a></h3>
 <p>Para que la ciudadanía apoye una causa, primero debe comprender su alma. No podemos pedir un millón de firmas con fríos comunicados administrativos; hacía falta narrar la historia viva, personal y documental de cómo hemos llegado hasta aquí.</p>
 <p>Por eso he escrito <strong>«La Odisea de la .IA»</strong>, una crónica en primera persona dividida en capítulos breves que ya podéis leer y escuchar gratuitamente en:</p>
 <p>👉 <strong><a href="https://odisea.deft.work">odisea.deft.work</a></strong></p>

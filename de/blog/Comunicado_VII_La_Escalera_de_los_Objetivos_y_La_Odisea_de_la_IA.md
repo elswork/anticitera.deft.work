@@ -1,6 +1,6 @@
-# Kommuniqué VII – Die Leiter der Ziele, das offizielle Datum des 6. April und der Start von „The .ia Odyssey“
+# Kommuniqué VII – Die Leiter der Ziele, das offizielle Datum des 6. April und der Start von „Die .IA-Odyssee“
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/de/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/de/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,19 +114,19 @@ Auf dieser offiziellen Plattform finden Sie:
 
 
 
-3. Wir präsentieren „The .ia Odyssey“: Unser Buch in 9 Sprachen [#](#3-wir-praesentieren-the-ia-odyssey-unser-buch-in-9-sprachen)
+3. Wir präsentieren „Die .IA-Odyssee“: Unser Buch in 9 Sprachen [#](#3-wir-praesentieren-die-ia-odyssee-unser-buch-in-9-sprachen)
 
 
 Damit Bürger eine Sache unterstützen können, müssen sie zunächst deren Seele verstehen. Wir können nicht mit kalten Verwaltungserklärungen eine Million Unterschriften verlangen; Es war notwendig, die lebendige, persönliche und dokumentarische Geschichte darüber zu erzählen, wie wir hierher gekommen sind.
 
 
-Deshalb habe ich «Die Odyssee von .ia» geschrieben, eine in kurze Kapitel unterteilte Ich-Chronik, die Sie jetzt kostenlos lesen und anhören können unter:
+Deshalb habe ich «Die .IA-Odyssee» geschrieben, eine in kurze Kapitel unterteilte Ich-Chronik, die Sie jetzt kostenlos lesen und anhören können unter:
 
 
-👉 **[odyssey.deft.work](https://odisea.deft.work) **
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![Die Odyssee der .ia – Chronik der ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![Die .IA-Odyssee – Chronik der EBI ECI(2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 Dieses Buch ist kein statischer Text:
@@ -157,7 +157,7 @@ Wir bitten Sie heute um drei ganz konkrete Aktionen, um unsere Kräfte zu bünde
 * Melden Sie sich unter [antikythera.deft.work/6abril/](https://anticitera.deft.work/de/6abril/) für die Pionierliste an, um am 6. April bereit zu sein.
 
 
-* Gehen Sie zu [odyssey.deft.work](https://odisea.deft.work), lesen Sie die ersten vier Kapitel und abonnieren Sie die Mailingliste des Buches, um die nächsten Teile zu erhalten.
+* Gehen Sie zu [odisea.deft.work](https://odisea.deft.work), lesen Sie die ersten vier Kapitel und abonnieren Sie die Mailingliste des Buches, um die nächsten Teile zu erhalten.
 
 
 * Teilen Sie beide Links in Ihren sozialen Netzwerken, Telegram- oder WhatsApp-Kanälen, Universitätsforen, Technologie-Communitys und ethischen Debattengruppen.

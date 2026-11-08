@@ -1,6 +1,6 @@
-# Communiqué VII - The Ladder of Objectives, the Official Date of April 6 and the Launch of "The .ia Odyssey"
+# Communiqué VII - The Ladder of Objectives, the Official Date of April 6 and the Launch of "The .IA Odyssey"
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/en/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/en/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,19 +114,19 @@ On this official platform you will find:
 
 
 
-3. We present “The .ia Odyssey”: Our Book in 9 Languages [#](#3-we-present-the-ia-odyssey-our-book-in-9-languages)
+3. We present “The .IA Odyssey”: Our Book in 9 Languages [#](#3-we-present-the-ia-odyssey-our-book-in-9-languages)
 
 
 For citizens to support a cause, they must first understand its soul. We cannot ask for a million signatures with cold administrative statements; It was necessary to tell the living, personal and documentary story of how we got here.
 
 
-That is why I have written «The Odyssey of .ia», a first-person chronicle divided into short chapters that you can now read and listen to for free at:
+That is why I have written «The .IA Odyssey», a first-person chronicle divided into short chapters that you can now read and listen to for free at:
 
 
-👉 **[odyssey.deft.work](https://odisea.deft.work) **
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![The Odyssey of the .ia - Chronicle of the ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![The .IA Odyssey - Chronicle of the ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 This book is not a static text:
@@ -157,7 +157,7 @@ We ask you for three very specific actions to join forces today:
 * Sign up for the Pioneer List in [antikythera.deft.work/6abril/](https://anticitera.deft.work/en/6abril/) to be ready on April 6.
 
 
-* Go to [odyssey.deft.work](https://odisea.deft.work), read the first four chapters and subscribe to the book's mailing list to receive the next installments.
+* Go to [odisea.deft.work](https://odisea.deft.work), read the first four chapters and subscribe to the book's mailing list to receive the next installments.
 
 
 * Share both links on your social networks, Telegram or WhatsApp channels, university forums, technological communities and ethical debate groups.

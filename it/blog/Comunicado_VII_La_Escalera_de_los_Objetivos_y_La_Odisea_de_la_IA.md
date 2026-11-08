@@ -1,6 +1,6 @@
-# Comunicato VII - La scala degli obiettivi, la data ufficiale del 6 aprile e il lancio di "The .ia Odyssey"
+# Comunicato VII - La scala degli obiettivi, la data ufficiale del 6 aprile e il lancio di "L'Odissea della .IA"
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/it/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/it/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,19 +114,19 @@ Su questa piattaforma ufficiale troverai:
 
 
 
-3. Presentiamo “The .ia Odyssey”: il nostro libro in 9 lingue [#](#3-presentiamo-the-ia-odyssey-il-nostro-libro-in-9-lingue)
+3. Presentiamo «L'Odissea della .IA»: il nostro libro in 9 lingue [#](#3-presentiamo-l-odissea-della-ia-il-nostro-libro-in-9-lingue)
 
 
 Perché i cittadini possano sostenere una causa, devono prima comprenderne l’anima. Non possiamo chiedere un milione di firme con freddi resoconti amministrativi; Era necessario raccontare la storia viva, personale e documentaria di come siamo arrivati ​​fin qui.
 
 
-Per questo ho scritto «L'Odissea di .ia», una cronaca in prima persona divisa in brevi capitoli che ora puoi leggere e ascoltare gratuitamente su:
+Per questo ho scritto «L'Odissea della .IA», una cronaca in prima persona divisa in brevi capitoli che ora puoi leggere e ascoltare gratuitamente su:
 
 
-👉 **[odissea.lavoro.deft](https://odisea.deft.work) **
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![L'Odissea dell'.ia - Cronaca dell'ICE ICE (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![L'Odissea della .IA - Cronaca dell'ICE ECI(2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 Questo libro non è un testo statico:
@@ -157,7 +157,7 @@ Vi chiediamo tre azioni molto specifiche per unire le forze oggi:
 * Iscriviti all'Elenco dei Pionieri in [antikythera.deft.work/6abril/](https://anticitera.deft.work/it/6abril/) per essere pronto il 6 aprile.
 
 
-* Vai a [odissea.lavoro.deft](https://odisea.deft.work), leggi i primi quattro capitoli e iscriviti alla mailing list del libro per ricevere le puntate successive.
+* Vai a [odisea.deft.work](https://odisea.deft.work), leggi i primi quattro capitoli e iscriviti alla mailing list del libro per ricevere le puntate successive.
 
 
 * Condividi entrambi i link sui tuoi social network, canali Telegram o WhatsApp, forum universitari, comunità tecnologiche e gruppi di dibattito etico.

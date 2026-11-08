@@ -1,6 +1,6 @@
-# Коммюнике VII – Лестница целей, официальная дата 6 апреля и запуск «.ia Odyssey»
+# Коммюнике VII – Лестница целей, официальная дата 6 апреля и запуск «Одиссеи .IA»
 Fecha: Sun Nov 08 2026 00:00:00 GMT+0000 (Coordinated Universal Time)
-URL: https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia/
+URL: https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA/
 
 ---
 
@@ -114,19 +114,19 @@ URL: https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Obje
 
 
 
-3. Мы представляем «.ia Odyssey»: нашу книгу на 9 языках. [#](#3-my-predstavlyaem-ia-odyssey-nashu-knigu-na-9-yazykah)
+3. Мы представляем «Одиссею .IA»: нашу книгу на 9 языках [#](#3-my-predstavlyaem-odisseyu-ia-nashu-knigu-na-9-yazykah)
 
 
 Чтобы граждане могли поддержать какое-либо дело, они должны сначала понять его душу. Мы не можем требовать миллион подписей с холодными административными заявлениями; Необходимо было рассказать живую, личную и документальную историю того, как мы сюда попали.
 
 
-Именно поэтому я написал «Одиссею .ia», хронику от первого лица, разделенную на короткие главы, которые теперь вы можете читать и слушать бесплатно по адресу:
+Именно поэтому я написал «Одиссею .IA», хронику от первого лица, разделенную на короткие главы, которые теперь вы можете читать и слушать бесплатно по адресу:
 
 
-👉 **[Одиссея.deft.work](https://odisea.deft.work) **
+👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![Одиссея .ia - Хроника ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![Одиссея .IA - Хроника ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
 
 
 Эта книга не является статичным текстом:
@@ -157,7 +157,7 @@ URL: https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Obje
 * Подпишитесь на список пионеров в [antikythera.deft.work/6abril/](https://anticitera.deft.work/ru/6abril/), который будет готов 6 апреля.
 
 
-* Перейдите по [Одиссея.deft.work](https://odisea.deft.work), прочитайте первые четыре главы и подпишитесь на список рассылки книги, чтобы получать следующие части.
+* Перейдите на [odisea.deft.work](https://odisea.deft.work), прочитайте первые четыре главы и подпишитесь на список рассылки книги, чтобы получать следующие части.
 
 
 * Поделитесь обеими ссылками в своих социальных сетях, каналах Telegram или WhatsApp, на университетских форумах, в технологических сообществах и группах по этическим дебатам.

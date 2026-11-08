@@ -1,5 +1,5 @@
 # Τι είναι το Έργο .IA Νήσου Αντικυθήρων;
-Fecha: Sun Nov 08 2026 11:54:26 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 13:54:50 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/el/
 
 ---
@@ -28,7 +28,7 @@ URL: https://anticitera.deft.work/el/
 
 
 	* 
-		[Ανακοίνωση VII - Η Κλίμακα των Στόχων, η Επίσημη Ημερομηνία της 6ης Απριλίου και η έναρξη του "The .ia Odyssey"](https://anticitera.deft.work/el/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		[Ανακοίνωση VII - Η Κλίμακα των Στόχων, η Επίσημη Ημερομηνία της 6ης Απριλίου και η έναρξη του «Η Οδύσσεια της .ΙΑ»](https://anticitera.deft.work/el/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA.md)
 		November 2026
 	
 

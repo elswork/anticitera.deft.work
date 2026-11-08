@@ -1,5 +1,5 @@
 # blog
-Fecha: Sun Nov 08 2026 11:54:26 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 13:54:50 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/blog/
 
 ---
@@ -13,7 +13,7 @@ Blog
 
 
 	* 
-		[Communiqué VII - The Ladder of Objectives, the Official Date of April 6 and the Launch of "The .ia Odyssey"](https://anticitera.deft.work/en/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		[Communiqué VII - The Ladder of Objectives, the Official Date of April 6 and the Launch of "The .IA Odyssey"](https://anticitera.deft.work/en/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_de_la_IA.md)
 		November 2026
 	
 
