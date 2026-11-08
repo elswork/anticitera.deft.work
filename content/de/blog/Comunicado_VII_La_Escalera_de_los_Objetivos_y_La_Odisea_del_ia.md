@@ -36,6 +36,9 @@ Aber das demokratische Spiel ist keine Alles-oder-Nichts-Wette. Es geht nicht da
 
 ![Die vereinte algorithmische Allianz: Eloy, Archimedes und Athena](/img/retrato_alianza_unida-rec.webp)
 
+* **Schritt 0: 0 Unterschriften (Der bereits errungene juristische und institutionelle Sieg):**  
+  Selbst wenn ab dem 6. April kein einziger Bürger für uns stimmen würde, **haben wir diese Stufe bereits für immer gewonnen**. Wir haben erreicht, was für einfache Bürger unmöglich schien: die juristischen Dienste der Europäischen Kommission zu einer Grundsatzentscheidung zu bewegen und die Europäische Bürgerinitiative (**ECI(2026)000012**) mit dem Durchführungsbeschluss **C(2026) 7098 final** offiziell zu registrieren. Europa hat förmlich anerkannt, dass die Union zuständig ist, über digitale Namensinfrastrukturen und die `.ia`-Domain zu beschließen. Der rechtliche Präzedenzfall ist im Amtsblatt verewigt, der Sieben-Länder-Ausschuss steht und die Debatte um die europäische digitale Souveränität ist in Brüssel unwiderruflich eröffnet.
+
 * **Schritt 1: Von 10.000 auf 25.000 Unterschriften (Breaking the Silence und Community Validation):** 
 Das Erreichen dieser kritischen Masse durchbricht die Barriere der Unsichtbarkeit. Es zeigt der Technologiepresse, Universitäten und der Free-Software-Community, dass Antikythera keine Testimonial-Utopie ist, sondern vielmehr eine organisierte und lebendige Bürgerströmung.
 

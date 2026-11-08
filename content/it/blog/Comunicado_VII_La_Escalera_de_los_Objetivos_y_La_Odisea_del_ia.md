@@ -36,6 +36,9 @@ Ma il gioco democratico non è una scommessa tutto o niente. La questione non è
 
 ![L'alleanza algoritmica unita: Eloy, Archimede e Atena](/img/retrato_alianza_unida-rec.webp)
 
+* **Passaggio 0: 0 firme (La vittoria giuridica e istituzionale già conquistata):**  
+  Anche se a partire dal 6 aprile nessuno dovesse votare per noi, questo gradino **è già conquistato e nessuno ce lo potrà togliere**. Abbiamo ottenuto ciò che sembrava impossibile per comuni cittadini: spingere i servizi legali della Commissione Europea a pronunciarsi e registrare formalmente l'Iniziativa dei Cittadini Europei (**ECI(2026)000012**) tramite la Decisione di Esecuzione **C(2026) 7098 final**. L'Europa ha ufficialmente riconosciuto la propria competenza a legiferare sulle infrastrutture digitali e sul dominio `.ia`. Il precedente giuridico è ormai storico, il comitato di sette Stati membri è costituito e il dibattito sulla sovranità tecnologica europea è aperto per sempre a Bruxelles.
+
 * **Passaggio 1: da 10.000 a 25.000 firme (Rompere il silenzio e convalida della comunità):** 
 Raggiungere questa massa critica rompe la barriera dell’invisibilità. Dimostra alla stampa tecnologica, alle università e alla comunità del software libero che Anticitera non è un'utopia testimoniale, ma piuttosto una corrente cittadina organizzata e viva.
 
