@@ -37,6 +37,14 @@ Mas o jogo democrático não é uma aposta de tudo ou nada. Não se trata de “
 
 
 * 
+Etapa 0: 0 assinaturas (A Vitória Jurídica e Institucional Já Conquistada):
+Mesmo que a partir de 6 de abril ninguém vote em nós, este degrau já está conquistado e ninguém nos pode retirar. Conseguimos o que parecia impossível para cidadãos comuns: forçar os serviços jurídicos da Comissão Europeia a pronunciar-se e registar formalmente a Iniciativa de Cidadania Europeia (ECI(2026)000012) através da Decisão de Execução C(2026) 7098 final. A Europa já reconheceu formalmente a sua competência para legislar sobre a infraestrutura digital e o domínio .ia. O precedente jurídico é histórico, o comité de sete países está constituído e o debate sobre a soberania tecnológica europeia fica aberto para sempre no coração das instituições comunitárias.
+
+
+
+
+
+* 
 Etapa 1: De 10.000 a 25.000 assinaturas (Quebrando o Silêncio e Validação da Comunidade):
 Alcançar esta massa crítica quebra a barreira da invisibilidade. Demonstra à imprensa tecnológica, às universidades e à comunidade de software livre que Antikythera não é uma utopia testemunhal, mas sim uma corrente cidadã organizada e viva.
 

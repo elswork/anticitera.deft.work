@@ -37,6 +37,14 @@ Pero el juego democrático no es una apuesta a todo o nada. No se trata de "o co
 
 
 * 
+Peldaño 0: 0 firmas (La Victoria Jurídica e Institucional ya Consolidada):
+Aunque a partir del 6 de abril no nos votase absolutamente nadie, este peldaño ya lo hemos ganado y nadie nos lo puede arrebatar. Hemos conseguido lo que parecía imposible para un ciudadano de a pie: obligar a los servicios jurídicos de la Comisión Europea a pronunciarse y registrar formalmente la Iniciativa Ciudadana Europea (ECI(2026)000012) mediante la Decisión de Ejecución C(2026) 7098 final. Europa ya ha admitido formalmente que la Unión tiene competencia para legislar sobre la infraestructura digital y el dominio .ia. El precedente jurídico ya es histórico, el comité de siete países está formalmente constituido y el debate sobre la soberanía tecnológica europea ha quedado abierto para siempre en el corazón de las instituciones comunitarias.
+
+
+
+
+
+* 
 Peldaño 1: De 10.000 a 25.000 firmas (Ruptura del Silencio y Validación Comunitaria):
 Alcanzar esta masa crítica rompe la barrera de la invisibilidad. Demuestra a la prensa tecnológica, a las universidades y a la comunidad de software libre que Anticitera no es una utopía testimonial, sino una corriente ciudadana organizada y viva.
 

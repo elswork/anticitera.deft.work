@@ -37,6 +37,14 @@ Mais le jeu démocratique n’est pas un pari du tout ou rien. Il ne s’agit pa
 
 
 * 
+Étape 0 : 0 signature (La victoire juridique et institutionnelle déjà acquise) :
+Même si absolument personne ne votait pour nous à partir du 6 avril, ce palier est déjà gagné et nul ne pourra nous l'enlever. Nous avons réussi ce qui semblait impossible pour de simples citoyens : contraindre les services juridiques de la Commission européenne à statuer et à enregistrer officiellement l'Initiative Citoyenne Européenne (ECI(2026)000012) via la Décision d'exécution C(2026) 7098 final. L'Europe a formellement reconnu sa compétence pour légiférer sur les infrastructures numériques et le domaine .ia. Le précédent juridique est gravé dans l'histoire, le comité de sept États membres est constitué et le débat sur la souveraineté technologique européenne est ouvert pour toujours à Bruxelles.
+
+
+
+
+
+* 
 Étape 1 : De 10 000 à 25 000 signatures (Briser le silence et validation communautaire) :
 Atteindre cette masse critique brise la barrière de l’invisibilité. Il démontre à la presse technologique, aux universités et à la communauté du logiciel libre qu’Anticythère n’est pas une utopie testimoniale, mais plutôt un courant citoyen organisé et vivant.
 

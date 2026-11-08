@@ -37,6 +37,14 @@ But the democratic game is not an all or nothing bet. It's not about "either we 
 
 
 * 
+Step 0: 0 signatures (The Legal and Institutional Victory Already Achieved):
+Even if absolutely no one votes for us starting on April 6, this milestone is already won and no one can take it away from us. We have achieved what seemed impossible for ordinary citizens: compelling the European Commission's legal services to rule on the matter and formally register our European Citizens' Initiative (ECI(2026)000012) under Implementing Decision C(2026) 7098 final. Europe has officially recognized its legal competence to regulate digital naming infrastructure and the .ia domain. The legal precedent is permanently established in the Official Journal, the seven-nation committee is formed, and the debate over European digital sovereignty is irreversibly open in Brussels.
+
+
+
+
+
+* 
 Step 1: From 10,000 to 25,000 signatures (Breaking the Silence and Community Validation):
 Reaching this critical mass breaks the barrier of invisibility. It demonstrates to the technology press, universities and the free software community that Antikythera is not a testimonial utopia, but rather an organized and living citizen current.
 
