@@ -1,5 +1,5 @@
 # ru
-Fecha: Sun Nov 08 2026 11:27:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 11:49:18 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/
 
 ---
@@ -10,6 +10,13 @@ URL: https://anticitera.deft.work/ru/
 
 
 
+
+
+
+	* 
+		[Коммюнике VII – Лестница целей, официальная дата 6 апреля и запуск «.ia Odyssey»](https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		November 2026
+	
 
 
 
@@ -27,16 +34,9 @@ URL: https://anticitera.deft.work/ru/
 
 
 
-	* 
-		[Европейский цифровой суверенитет: Призыв к комитету ECI .IA](https://anticitera.deft.work/ru/blog/Llamamiento_Soberania_Digital.md)
-		January 2026
-	
 
 
 
 
 
-
-
-
-24 других статей можно найти в [архиве](https://anticitera.deft.work/ru/blog.md).
+25 других статей можно найти в [архиве](https://anticitera.deft.work/ru/blog.md).

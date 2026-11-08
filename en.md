@@ -1,5 +1,5 @@
 # en
-Fecha: Sun Nov 08 2026 11:27:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 11:49:18 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/en/
 
 ---
@@ -10,6 +10,13 @@ Latest 3 Posts
 
 
 
+
+
+
+	* 
+		[Communiqué VII - The Ladder of Objectives, the Official Date of April 6 and the Launch of "The .ia Odyssey"](https://anticitera.deft.work/en/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		November 2026
+	
 
 
 
@@ -27,16 +34,9 @@ Latest 3 Posts
 
 
 
-	* 
-		[European Digital Sovereignty: Call to the ECI .IA Committee](https://anticitera.deft.work/en/blog/Llamamiento_Soberania_Digital.md)
-		January 2026
-	
 
 
 
 
 
-
-
-
-24 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).
+25 more posts can be found in [the archive](https://anticitera.deft.work/en/blog.md).

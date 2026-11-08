@@ -1,5 +1,5 @@
 # blog
-Fecha: Sun Nov 08 2026 11:27:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 11:49:18 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/ru/blog/
 
 ---
@@ -9,6 +9,13 @@ URL: https://anticitera.deft.work/ru/blog/
 
 
 
+
+
+
+	* 
+		[Коммюнике VII – Лестница целей, официальная дата 6 апреля и запуск «.ia Odyssey»](https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		November 2026
+	
 
 
 

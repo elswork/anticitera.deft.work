@@ -1,5 +1,5 @@
 # Was ist das .IA Antikythera-Insel-Projekt?
-Fecha: Sun Nov 08 2026 11:27:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 11:49:18 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/de/
 
 ---
@@ -10,13 +10,6 @@ Neueste 3 Veröffentlichungen
 
 
 
-
-
-
-	* 
-		[Europäische digitale Souveränität: Aufruf an den EBI-Ausschuss .IA](https://anticitera.deft.work/de/blog/Llamamiento_Soberania_Digital.md)
-		January 2026
-	
 
 
 
@@ -34,10 +27,17 @@ Neueste 3 Veröffentlichungen
 
 
 
+	* 
+		[Kommuniqué VII – Die Leiter der Ziele, das offizielle Datum des 6. April und der Start von „The .ia Odyssey“](https://anticitera.deft.work/de/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		November 2026
+	
 
 
 
 
 
 
-24 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.
+
+
+
+25 weitere Posts können im [Archiv](https://anticitera.deft.work/de/blog.md) gefunden werden.

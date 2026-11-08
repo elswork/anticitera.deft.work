@@ -1,5 +1,5 @@
 # Cos'è il Progetto .IA Isola di Anticitera?
-Fecha: Sun Nov 08 2026 11:27:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 11:49:18 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/
 
 ---
@@ -10,6 +10,13 @@ Ultime 3 Pubblicazioni
 
 
 
+
+
+
+	* 
+		[Comunicato VII - La scala degli obiettivi, la data ufficiale del 6 aprile e il lancio di "The .ia Odyssey"](https://anticitera.deft.work/it/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		November 2026
+	
 
 
 
@@ -27,16 +34,9 @@ Ultime 3 Pubblicazioni
 
 
 
-	* 
-		[Sovranità Digitale Europea: Appello al Comitato ICE .IA](https://anticitera.deft.work/it/blog/Llamamiento_Soberania_Digital.md)
-		January 2026
-	
 
 
 
 
 
-
-
-
-24 altri posts possono essere trovati in [l'archivio](https://anticitera.deft.work/it/blog.md).
+25 altri posts possono essere trovati in [l'archivio](https://anticitera.deft.work/it/blog.md).

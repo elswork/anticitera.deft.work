@@ -1,5 +1,5 @@
 # fr
-Fecha: Sun Nov 08 2026 11:27:00 GMT+0000 (Coordinated Universal Time)
+Fecha: Sun Nov 08 2026 11:49:18 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/fr/
 
 ---
@@ -10,6 +10,13 @@ Derniers 3 Articles
 
 
 
+
+
+
+	* 
+		[Communiqué VII - L'échelle des objectifs, la date officielle du 6 avril et le lancement de « L'Odyssée du .ia »](https://anticitera.deft.work/fr/blog/Comunicado_VII_La_Escalera_de_los_Objetivos_y_La_Odisea_del_ia.md)
+		November 2026
+	
 
 
 
@@ -27,16 +34,9 @@ Derniers 3 Articles
 
 
 
-	* 
-		[Souveraineté Numérique Européenne : Appel au Comité ICE .IA](https://anticitera.deft.work/fr/blog/Llamamiento_Soberania_Digital.md)
-		January 2026
-	
 
 
 
 
 
-
-
-
-24 autres articles peuvent être trouvés dans [les archives](https://anticitera.deft.work/fr/blog.md).
+25 autres articles peuvent être trouvés dans [les archives](https://anticitera.deft.work/fr/blog.md).
