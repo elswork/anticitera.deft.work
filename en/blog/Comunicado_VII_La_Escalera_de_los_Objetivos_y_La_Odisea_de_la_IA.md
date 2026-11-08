@@ -126,7 +126,7 @@ That is why I have written «The .IA Odyssey», a first-person chronicle divided
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![The .IA Odyssey - Chronicle of the ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![The .IA Odyssey - Chronicle of the ICE ECI (2026)000012](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 This book is not a static text:

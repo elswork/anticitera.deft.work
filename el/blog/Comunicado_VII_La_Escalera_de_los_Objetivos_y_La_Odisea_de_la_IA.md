@@ -126,7 +126,7 @@ URL: https://anticitera.deft.work/el/blog/Comunicado_VII_La_Escalera_de_los_Obje
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![Η Οδύσσεια της .ΙΑ - Χρονικό της ΕΠΠ ECI(2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![Η Οδύσσεια της .ΙΑ - Χρονικό της ΕΠΠ ECI(2026)000012](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 Αυτό το βιβλίο δεν είναι ένα στατικό κείμενο:

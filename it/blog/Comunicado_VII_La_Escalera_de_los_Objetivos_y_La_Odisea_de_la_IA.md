@@ -126,7 +126,7 @@ Per questo ho scritto «L'Odissea della .IA», una cronaca in prima persona divi
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![L'Odissea della .IA - Cronaca dell'ICE ECI(2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![L'Odissea della .IA - Cronaca dell'ICE ECI(2026)000012](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 Questo libro non è un testo statico:

@@ -126,7 +126,7 @@ Para que os cidadãos apoiem uma causa, devem primeiro compreender a sua alma. N
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![A Odisseia da .IA - Crônica do ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![A Odisseia da .IA - Crônica do ICE ECI (2026)000012](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 Este livro não é um texto estático:

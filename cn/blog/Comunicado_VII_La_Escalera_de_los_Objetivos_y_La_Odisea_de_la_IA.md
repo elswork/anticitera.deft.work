@@ -126,7 +126,7 @@ URL: https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Obje
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![.IA 奥德赛 - 欧洲公民倡议 ECI(2026)000012 纪实](https://anticitera.deft.work/img/ia_sovereignty.png)
+![.IA 奥德赛 - 欧洲公民倡议 ECI(2026)000012 纪实](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 这本书不是静态的文本：

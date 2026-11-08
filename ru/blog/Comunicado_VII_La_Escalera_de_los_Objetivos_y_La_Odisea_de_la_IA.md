@@ -126,7 +126,7 @@ URL: https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Obje
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![Одиссея .IA - Хроника ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![Одиссея .IA - Хроника ICE ECI (2026)000012](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 Эта книга не является статичным текстом:

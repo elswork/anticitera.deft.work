@@ -126,7 +126,7 @@ C'est pourquoi j'ai écrit «L'Odyssée de la .IA», une chronique à la premiè
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![L'Odyssée de la .IA - Chronique de l'ICE ECI (2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![L'Odyssée de la .IA - Chronique de l'ICE ECI (2026)000012](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 Ce livre n'est pas un texte statique :

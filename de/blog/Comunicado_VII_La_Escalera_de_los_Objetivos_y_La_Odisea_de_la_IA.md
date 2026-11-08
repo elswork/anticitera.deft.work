@@ -126,7 +126,7 @@ Deshalb habe ich «Die .IA-Odyssee» geschrieben, eine in kurze Kapitel untertei
 👉 [odisea.deft.work](https://odisea.deft.work)
 
 
-![Die .IA-Odyssee – Chronik der EBI ECI(2026)000012](https://anticitera.deft.work/img/ia_sovereignty.png)
+![Die .IA-Odyssee – Chronik der EBI ECI(2026)000012](https://anticitera.deft.work/img/portada-la-odisea-de-la-ia.webp)
 
 
 Dieses Buch ist kein statischer Text:
