@@ -16,8 +16,6 @@ tags:
 
 ## Comunicato ufficiale VII: realismo, scala strategica e la nostra storia nel mondo
 
-Cittadini della Nazione dei Nodi, sostenitori e pionieri della sovranità digitale:
-
 Qualche settimana fa abbiamo condiviso con voi su [Comunicato VI](/it/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE/) il traguardo istituzionale più importante dalla nascita di questo progetto: la registrazione ufficiale della nostra Iniziativa dei Cittadini Europei (**ECI(2026)000012**) attraverso la Decisione di Esecuzione **C(2026) 7098 final** della Commissione Europea. L'Europa ha riconosciuto formalmente la propria competenza a legiferare sull'infrastruttura Internet e sul dominio ".ia".
 
 Oggi, con la serenità di chi conosce la grandezza della montagna che ci aspetta, mi rivolgo a voi non come un lontano stratega, ma come Eloy: l’informatico di Alcorcón che un giorno decise che valeva la pena dedicare la sua vita a difendere che la tecnologia più potente del nostro tempo non poteva portare la targa di un paradiso fiscale caraibico mentre le nostre lingue e i nostri popoli erano relegati a semplici spettatori.

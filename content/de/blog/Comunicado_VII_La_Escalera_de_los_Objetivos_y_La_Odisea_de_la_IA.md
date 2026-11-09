@@ -16,8 +16,6 @@ tags:
 
 ## Offizielles Kommuniqué VII: Realismus, strategische Leiter und unsere Geschichte für die Welt
 
-Bürger der Nation of Nodes, Unterstützer und Pioniere der digitalen Souveränität:
-
 Vor ein paar Wochen haben wir Ihnen auf [Kommuniqué VI](/de/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE/) den wichtigsten institutionellen Meilenstein seit der Geburt dieses Projekts mitgeteilt: die offizielle Registrierung unserer Europäischen Bürgerinitiative (**ECI(2026)000012**) durch den Durchführungsbeschluss **C(2026) 7098 final** der Europäischen Kommission. Europa hat offiziell seine Kompetenz anerkannt, Gesetze zur Internet-Infrastruktur und zur Domäne „.ia“ zu erlassen.
 
 Heute spreche ich Sie mit der Gelassenheit von jemandem, der die Größe des Berges kennt, der vor uns liegt, nicht als entfernter Stratege, sondern als Eloy an: den Informatiker aus Alcorcón, der eines Tages entschied, dass es sich lohnte, sein Leben der Verteidigung zu widmen, dass die leistungsstärkste Technologie unserer Zeit nicht das Nummernschild einer karibischen Steueroase tragen könne, während unsere Sprachen und Völker zu bloßen Zuschauern verbannt würden.

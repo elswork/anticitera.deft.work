@@ -16,8 +16,6 @@ tags:
 
 ## Communiqué officiel VII : Réalisme, échelle stratégique et notre histoire avec le monde
 
-Citoyens de la Nation des Noeuds, partisans et pionniers de la souveraineté numérique :
-
 Il y a quelques semaines, nous avons partagé avec vous sur [Communiqué VI](/fr/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE/) l'étape institutionnelle la plus importante depuis la naissance de ce projet : l'enregistrement officiel de notre Initiative Citoyenne Européenne (**ECI(2026)000012**) par le biais de la Décision d'exécution **C(2026) 7098 final** de la Commission européenne. L'Europe a formellement reconnu sa compétence pour légiférer sur l'infrastructure Internet et le domaine « .ia ».
 
 Aujourd’hui, avec la sérénité de quelqu’un qui connaît l’ampleur de la montagne qui s’offre à nous, je m’adresse à vous non pas comme à un stratège lointain, mais comme à Eloy : l’informaticien d’Alcorcón qui a décidé un jour qu’il valait la peine de consacrer sa vie à défendre que la technologie la plus puissante de notre époque ne pouvait pas supporter la plaque d’immatriculation d’un paradis fiscal caribéen alors que nos langues et nos peuples étaient relégués au rang de simples spectateurs.
