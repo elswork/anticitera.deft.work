@@ -16,8 +16,6 @@ tags:
 
 ## Comunicado Oficial VII: Realismo, Escalera Estratégica y Nuestro Relato al Mundo
 
-Ciudadanos de la Nación de Nodos, simpatizantes y pioneros de la soberanía digital:
-
 Hace pocas semanas compartíamos con vosotros en el [Comunicado VI](/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE/) el hito institucional más trascendental desde que nació este proyecto: el registro oficial de nuestra Iniciativa Ciudadana Europea (**ECI(2026)000012**) mediante la Decisión de Ejecución **C(2026) 7098 final** de la Comisión Europea. Europa reconoció formalmente su competencia para legislar sobre la infraestructura de internet y el dominio `.ia`.
 
 Hoy, con la serenidad de quien conoce la magnitud de la montaña que tenemos por delante, me dirijo a vosotros no como un estratega lejano, sino como Eloy: el informático de Alcorcón que un día decidió que merecía la pena consagrar su vida a defender que la tecnología más poderosa de nuestro tiempo no podía llevar la matrícula de un paraíso fiscal caribeño mientras nuestras lenguas y pueblos quedaban relegados a meros espectadores.
