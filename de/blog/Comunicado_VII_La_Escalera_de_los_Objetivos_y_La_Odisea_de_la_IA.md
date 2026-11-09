@@ -7,9 +7,6 @@ URL: https://anticitera.deft.work/de/blog/Comunicado_VII_La_Escalera_de_los_Obje
 Offizielles Kommuniqué VII: Realismus, strategische Leiter und unsere Geschichte für die Welt [#](#offizielles-kommunique-vii-realismus-strategische-leiter-und-unsere-geschichte-fuer-die-welt)
 
 
-Bürger der Nation of Nodes, Unterstützer und Pioniere der digitalen Souveränität:
-
-
 Vor ein paar Wochen haben wir Ihnen auf [Kommuniqué VI](https://anticitera.deft.work/de/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md) den wichtigsten institutionellen Meilenstein seit der Geburt dieses Projekts mitgeteilt: die offizielle Registrierung unserer Europäischen Bürgerinitiative (ECI(2026)000012) durch den Durchführungsbeschluss C(2026) 7098 final der Europäischen Kommission. Europa hat offiziell seine Kompetenz anerkannt, Gesetze zur Internet-Infrastruktur und zur Domäne „.ia“ zu erlassen.
 
 

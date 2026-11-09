@@ -7,9 +7,6 @@ URL: https://anticitera.deft.work/en/blog/Comunicado_VII_La_Escalera_de_los_Obje
 Official Communiqué VII: Realism, Strategic Ladder and Our Story to the World [#](#official-communique-vii-realism-strategic-ladder-and-our-story-to-the-world)
 
 
-Citizens of the Nation of Nodes, supporters and pioneers of digital sovereignty:
-
-
 A few weeks ago we shared with you on [Communiqué VI](https://anticitera.deft.work/en/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md) the most important institutional milestone since this project was born: the official registration of our European Citizens' Initiative (ECI(2026)000012) through the Implementing Decision C(2026) 7098 final of the European Commission. Europe formally recognized its competence to legislate on internet infrastructure and the .ia domain.
 
 

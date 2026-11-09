@@ -7,9 +7,6 @@ URL: https://anticitera.deft.work/pt/blog/Comunicado_VII_La_Escalera_de_los_Obje
 Comunicado Oficial VII: Realismo, Escada Estratégica e Nossa História para o Mundo [#](#comunicado-oficial-vii-realismo-escada-estrategica-e-nossa-historia-para-o-mundo)
 
 
-Cidadãos da Nação dos Nós, apoiadores e pioneiros da soberania digital:
-
-
 Há algumas semanas partilhámos convosco no [Comunicado VI](https://anticitera.deft.work/pt/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md) o marco institucional mais importante desde o nascimento deste projeto: o registo oficial da nossa Iniciativa de Cidadania Europeia (ECI(2026)000012) através da Decisão de Execução C(2026) 7098 final da Comissão Europeia. A Europa reconheceu formalmente a sua competência para legislar sobre a infra-estrutura da Internet e o domínio .ia.
 
 

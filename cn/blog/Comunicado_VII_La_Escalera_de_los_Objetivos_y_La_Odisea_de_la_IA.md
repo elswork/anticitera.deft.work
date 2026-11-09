@@ -7,9 +7,6 @@ URL: https://anticitera.deft.work/cn/blog/Comunicado_VII_La_Escalera_de_los_Obje
 官方公报七：现实主义、战略阶梯和我们向世界讲述的故事 [#](#)
 
 
-节点之国的公民、数字主权的支持者和先驱者：
-
-
 几周前，我们与您分享了[公报六](https://anticitera.deft.work/cn/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md)自该项目诞生以来最重要的制度里程碑：我们的欧洲公民倡议 (ECI(2026)000012) 通过欧盟委员会的实施决定 C(2026) 7098 Final 正式注册。欧洲正式承认其对互联网基础设施和“.ia”域名进行立法的能力。
 
 

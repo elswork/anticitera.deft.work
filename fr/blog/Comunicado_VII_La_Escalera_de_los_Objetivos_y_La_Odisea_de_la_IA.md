@@ -7,9 +7,6 @@ URL: https://anticitera.deft.work/fr/blog/Comunicado_VII_La_Escalera_de_los_Obje
 Communiqué officiel VII : Réalisme, échelle stratégique et notre histoire avec le monde [#](#communique-officiel-vii-realisme-echelle-strategique-et-notre-histoire-avec-le-monde)
 
 
-Citoyens de la Nation des Noeuds, partisans et pionniers de la souveraineté numérique :
-
-
 Il y a quelques semaines, nous avons partagé avec vous sur [Communiqué VI](https://anticitera.deft.work/fr/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md) l'étape institutionnelle la plus importante depuis la naissance de ce projet : l'enregistrement officiel de notre Initiative Citoyenne Européenne (ECI(2026)000012) par le biais de la Décision d'exécution C(2026) 7098 final de la Commission européenne. L'Europe a formellement reconnu sa compétence pour légiférer sur l'infrastructure Internet et le domaine « .ia ».
 
 

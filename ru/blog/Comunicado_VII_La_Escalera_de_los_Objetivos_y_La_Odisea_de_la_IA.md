@@ -7,9 +7,6 @@ URL: https://anticitera.deft.work/ru/blog/Comunicado_VII_La_Escalera_de_los_Obje
 Официальное коммюнике VII: Реализм, стратегическая лестница и наша история для мира [#](#oficzialnoe-kommyunike-vii-realizm-strategicheskaya-lestnicza-i-nasha-istoriya-dlya-mira)
 
 
-Граждане Нации Узлов, сторонники и пионеры цифрового суверенитета:
-
-
 Несколько недель назад мы поделились с вами на [Коммюнике VI](https://anticitera.deft.work/ru/blog/Comunicado_VI_Victoria_en_Estrasburgo_y_Registro_ICE.md) самой важной институциональной вехой с момента рождения этого проекта: официальной регистрацией нашей Европейской гражданской инициативы (ECI(2026)000012) на основании Исполнительного решения C(2026) 7098 Final Европейской Комиссии. Европа официально признала свою компетенцию принимать законы об интернет-инфраструктуре и домене .ia.
 
 
