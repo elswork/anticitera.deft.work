@@ -79,3 +79,8 @@ Otras formas de financiarme:
 ---
 
 *Ten en cuenta que las donaciones son voluntarias y no son reembolsables. ¡Gracias por tu generosidad!*
+
+Aportación por si te vale: la tarjeta "En el próximo capítulo", ¿puede llevar link al siguiente capítulo, como en el menú de la izquierda? Me refiero a la tarjeta al pie del propio capítulo según vas leyendo, (justo antes de comparte y patrocina)
+
+Otra aportación: puedes poner favicon muuuy fácil. Es solo una línea en tu <head> (el truco es llamar a un emoji Unicode wehehehe). ¿Te mola? Copia y pega:
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
