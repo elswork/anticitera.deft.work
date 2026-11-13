@@ -4,9 +4,6 @@
 			"path": "."
 		},
 		{
-			"path": "../dominio.deft.work"
-		},
-		{
 			"path": "../synapse-ia"
 		},
 		{
@@ -17,6 +14,9 @@
 		},
 		{
 			"path": "../homero.deft.work"
+		},
+		{
+			"path": "../union.deft.work"
 		}
 	]
 }
