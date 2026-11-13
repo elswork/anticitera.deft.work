@@ -1,5 +1,5 @@
 # Cos'è il Progetto .IA Isola di Anticitera?
-Fecha: Wed Nov 11 2026 21:31:39 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Nov 13 2026 22:36:46 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/it/
 
 ---

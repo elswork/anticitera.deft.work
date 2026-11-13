@@ -1,5 +1,5 @@
 # Sección de Links
-Fecha: Wed Nov 11 2026 21:31:39 GMT+0000 (Coordinated Universal Time)
+Fecha: Fri Nov 13 2026 22:36:46 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/links/
 
 ---
@@ -202,10 +202,10 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Imagen relacionada](https://ichef.bbci.co.uk/news/1200/branded_mundo/FF43/production/_90074356_item-2-promo.jpg)
 
 
-![Imagen relacionada](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/D833/production/_90074355_item-2-promo.jpg.webp)
+![Imagen relacionada](https://static.files.bbci.co.uk/ws/simorgh-assets/public/images/icons/ws-header-logo.svg)
 
 
-![Imagen relacionada](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/12653/production/_90074357_fondo-del-mar.jpg.webp)
+![Imagen relacionada](https://static.files.bbci.co.uk/ws/simorgh-assets/public/images/icons/account-rounded-blue.svg)
 
 
 
@@ -434,10 +434,10 @@ El "mecanismo de Anticitera", considerado el objeto más misterioso de la histor
 ![Imagen relacionada](https://ichef.bbci.co.uk/news/1200/branded_mundo/15ED7/production/_117551898_explodedcosmosmodel8x5.jpg)
 
 
-![Imagen relacionada](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/3879/production/_90075441_armado-una-cara.jpg.webp)
+![Imagen relacionada](https://static.files.bbci.co.uk/ws/simorgh-assets/public/images/icons/ws-header-logo.svg)
 
 
-![Imagen relacionada](https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/D833/production/_90074355_item-2-promo.jpg.webp)
+![Imagen relacionada](https://static.files.bbci.co.uk/ws/simorgh-assets/public/images/icons/account-rounded-blue.svg)
 
 
 
@@ -472,7 +472,7 @@ El equipo internacional de expertos que investiga el fabuloso artilugio acaba de
 ![Imagen relacionada](https://www.latercera.com/resizer/v2/LNTX4CAJLZGAFJCQTL2EWO7STA.jpg?auth=9d190a9c367914860440827b4cabd17409892544b709bb1efa29e47eb3112d08&focal=600%2C315&width=800&height=450&quality=70)
 
 
-![Imagen relacionada](https://www.latercera.com/resizer/v2/HH2PLN4RPFGHBPPUISMXVGXJSI.jpg?auth=739d95928da9ddeef80eaf4723268979264b0926cd401185bcf4de98d4cc61f6&smart=true&width=100&height=56&quality=70)
+![Imagen relacionada](https://www.latercera.com/resizer/v2/KLHGCL44SJBVZOUUGSAQAUWUJQ.jpg?auth=6993fe76d3e5f6dfef78ee95ccd7b4f3876d90c228b07754903fe0d08090e089&smart=true&width=100&height=56&quality=70)
 
 
 
