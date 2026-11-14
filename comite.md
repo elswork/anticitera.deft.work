@@ -1,5 +1,5 @@
 # Iniciativa Ciudadana Europea .IA
-Fecha: Fri Nov 13 2026 22:36:46 GMT+0000 (Coordinated Universal Time)
+Fecha: Sat Nov 14 2026 23:36:12 GMT+0000 (Coordinated Universal Time)
 URL: https://anticitera.deft.work/comite/
 
 ---
