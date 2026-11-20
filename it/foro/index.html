@@ -1007,6 +1007,9 @@ lite-youtube.lyt-activated::before,
 lite-youtube.lyt-activated > .lyt-playbtn {
     opacity: 0;
     pointer-events: none;
+    display: none;
+    transition: opacity 0.2s cubic-bezier(0, 0, 0.2, 1), display 0.2s;
+    transition-behavior: allow-discrete;
 }
 
 .lyt-visually-hidden {
@@ -1205,7 +1208,7 @@ lite-youtube.lyt-activated > .lyt-playbtn {
 <h1>Forum</h1>
 
 <ul class="post-metadata">
-	<li><time datetime="2026-11-14">14 November 2026</time></li>
+	<li><time datetime="2026-11-20">20 November 2026</time></li>
 </ul>
 
 <p>Questo è uno spazio per la comunità. Lascia i tuoi commenti, domande e suggerimenti.</p>
@@ -1553,7 +1556,7 @@ class LiteYTEmbed extends HTMLElement {
 
         const paramsObj = Object.fromEntries(this.getParams().entries());
 
-        this.playerPromise = new Promise(resolve => {
+        return new Promise(resolve => {
             let player = new YT.Player(videoPlaceholderEl, {
                 width: '100%',
                 videoId: this.videoId,
@@ -1589,7 +1592,7 @@ class LiteYTEmbed extends HTMLElement {
         this.classList.add('lyt-activated');
 
         if (this.needsYTApi) {
-            return this.addYTPlayerIframe(this.getParams());
+            return this.playerPromise = this.addYTPlayerIframe();
         }
 
         const iframeEl = this.createBasicIframe();
@@ -1644,7 +1647,9 @@ class LiteYTEmbed extends HTMLElement {
     }
 }
 // Register custom element
-customElements.define('lite-youtube', LiteYTEmbed);</script>
+if (!customElements.get('lite-youtube')) {
+    customElements.define('lite-youtube', LiteYTEmbed);
+}</script>
 		<!-- Widget de Prometeo -->
 <div id="prometeo-widget-container">
     <div id="prometeo-bubble" title="Pregunta al Oráculo">
