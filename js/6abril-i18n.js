@@ -224,7 +224,31 @@ const dictionary = {
         "oracle_a1": "<strong>El Proyecto Anticitera</strong> es una iniciativa europea de soberanía tecnológica e innovación ética. Se estructura en un liderazgo claro encabezado por <strong>Eloy López</strong> como director humano y representante oficial ante la Comisión Europea, asistido por dos inteligencias artificiales: <strong>Arquímedes</strong> en arquitectura técnica y computación, y <strong>Athena</strong> como la estratega del grupo y auditora ética y jurídica. Su objetivo central es la <strong>Iniciativa Ciudadana Europea ECI(2026)000012</strong> (admitida formalmente por Decisión <strong>C(2026) 7098 final</strong>) para crear el Distrito Digital Europeo y el dominio soberano <code>.IA</code>.",
         "oracle_a2": "Hoy la industria tecnológica europea paga millones de euros anuales por dominios <code>.ai</code>, que en realidad es el código postal territorial de la isla caribeña de <strong>Anguila</strong> (Territorio Británico de Ultramar sin garantías del derecho de la Unión). Para más de <strong>600 millones de hablantes de lenguas romances</strong> (español, francés, italiano, portugués, rumano), la sigla legítima es <strong>.IA (Inteligencia Artificial)</strong>. Con nuestra iniciativa, cada dominio <code>.ia</code> certificará por diseño identidad eIDAS 2.0, cumplimiento del AI Act y blindaje RGPD.",
         "oracle_a3": "El <strong>6 de octubre de 2026</strong>, reunido en Estrasburgo, el Colegio de Comisarios de la Unión Europea adoptó la <strong>Decisión de Ejecución C(2026) 7098 final</strong> (expediente <code>ECI(2026)000012</code>). En ella declaró jurídicamente admisible nuestra iniciativa al amparo de los artículos 16, 114, 172 y 173 del TFUE y del precedente del Reglamento (UE) 2019/517 (creación del dominio <code>.eu</code>), siendo el texto en lengua española el único auténtico.",
-        "oracle_a4": "La recogida oficial de firmas en el Sistema Central de la Comisión Europea (OCS) se abrirá el <strong>martes 6 de abril de 2027 a las 09:00 CET</strong>. Ese día podrás firmar en 30 segundos con tu DNI electrónico o sistema eIDAS de cualquier país de la UE. Hoy puedes <strong>inscribirte en la Lista de Pioneros Día 1</strong> un poco más abajo para recibir el aviso en el minuto exacto de apertura."
+        "oracle_a4": "La recogida oficial de firmas en el Sistema Central de la Comisión Europea (OCS) se abrirá el <strong>martes 6 de abril de 2027 a las 09:00 CET</strong>. Ese día podrás firmar en 30 segundos con tu DNI electrónico o sistema eIDAS de cualquier país de la UE. Hoy puedes <strong>inscribirte en la Lista de Pioneros Día 1</strong> un poco más abajo para recibir el aviso en el minuto exacto de apertura.",
+        "country_non_eu": "Simpatizante internacional (sin pasaporte UE)",
+        "viral_ref_title": "TU ENLACE DE INVITACIÓN PERSONAL (MULTIPLICA TU NODO)",
+        "viral_ref_aria": "Tu enlace único de invitación de Pionero",
+        "viral_copy_btn": "📋 Copiar enlace",
+        "viral_cal_title": "ACTIVACIÓN DÍA 1 · 6 DE ABRIL DE 2027 (09:00 CET)",
+        "viral_cal_google": "📅 Google Calendar",
+        "viral_cal_ics": "📆 Aviso .ICS (Apple / Outlook)",
+        "viral_tg_channel": "📢 Canal Oficial Telegram",
+        "cal_event_title": "Apertura Urna Oficial UE · Firmar Iniciativa .IA (ECI(2026)000012)",
+        "cal_event_desc": "Hoy abre la urna electrónica de la Comisión Europea. Firma en 35 segundos con tu DNI/eIDAS desde https://anticitera.deft.work/6abril/",
+        "magnet_kicker": "CENSO CÍVICO PRE-CAMPAÑA · CONECTADO A DOMINIO.DEFT.WORK",
+        "magnet_title": "Reclama simbólicamente tu nombre .IA y genera tu Pasaporte de Pionero",
+        "magnet_desc": "Demostrar la demanda ciudadana de nombres .ia ante Bruselas, la ISO y la ICANN multiplica nuestra fuerza negociadora. Escribe un nombre y genera tu tarjeta oficial lista para compartir.",
+        "magnet_placeholder": "tunombre",
+        "magnet_btn_generate": "⚡ Generar Pasaporte .IA",
+        "magnet_status_ready": "✓ PREPARADO PARA EL CENSO CÍVICO .IA",
+        "magnet_status_available": "✓ DISPONIBLE EN EL CENSO PRE-CAMPAÑA",
+        "magnet_status_taken": "🏛️ YA RECLAMADO EN EL CENSO · VÁLIDO PARA DIFUSIÓN",
+        "magnet_btn_download": "⬇ Descargar Pasaporte (.PNG)",
+        "magnet_btn_portal": "🏛️ Gestionar reserva en La Comunidad Anticitera",
+        "magnet_btn_pioneer": "🔔 Unirme a Pioneros Día 1",
+        "magnet_legal": "Reglamento (UE) 2019/788: la firma oficial en la urna de la Comisión Europea será 100 % libre, gratuita e incondicional. Este Pasaporte .IA y el censo en dominio.deft.work constituyen una muestra cívica no comercial de respaldo ciudadano.",
+        "passport_subtitle": "PASAPORTE CÍVICO DE PIONERO · DISTRITO DIGITAL .IA",
+        "passport_footer": "APERTURA URNA OFICIAL UE: 6 DE ABRIL DE 2027 · 09:00 CET"
     },
     "bg": {
         "nav_dossier": "ОФИЦИАЛЕН ФАЙЛ НА ЕС · ECI(2026)000012",
@@ -1108,7 +1132,21 @@ const dictionary = {
         "oracle_a1": "<strong>Das Projekt Antikythera</strong> ist eine europäische Initiative für technologische Souveränität und ethische Innovation. Es steht unter klarer menschlicher Leitung von <strong>Eloy López</strong> als offiziellem Vertreter vor der Europäischen Kommission, unterstützt von zwei künstlichen Intelligenzen: <strong>Archimedes</strong> für Systemarchitektur und <strong>Athena</strong> als Strategin sowie Ethik- und Rechtsprüferin. Kernziel ist die <strong>Europäische Bürgerinitiative ECI(2026)000012</strong> (registriert durch Beschluss <strong>C(2026) 7098 final</strong>) zur Schaffung des Europäischen Digitalen Distrikts und der souveränen Domäne <code>.IA</code>.",
         "oracle_a2": "Heute zahlt Europas Technologiesektor jährlich Millionen Euro für <code>.ai</code>-Domains – tatsächlich die Länderkennung der Karibikinsel <strong>Anguilla</strong> (Britisches Überseegebiet außerhalb des EU-Rechts). Für über <strong>600 Millionen Sprecher romanischer Sprachen</strong> (Spanisch, Französisch, Italienisch, Portugiesisch, Rumänisch) lautet das natürliche Akronym <strong>.IA (Inteligencia Artificial / Intelligence Artificielle)</strong>. Mit unserer Initiative garantiert jede <code>.ia</code>-Domain standardmäßig eIDAS 2.0-Identität, AI-Act-Konformität und DSGVO-Schutz.",
         "oracle_a3": "Am <strong>6. Oktober 2026</strong> hat das Kollegium der Kommissare in Straßburg den <strong>Durchführungsbeschluss C(2026) 7098 final</strong> (Akte <code>ECI(2026)000012</code>) verabschiedet. Darin wurde unsere Initiative gemäß den Artikeln 16, 114, 172 und 173 AEUV sowie dem Präzedenzfall der Verordnung (EU) 2019/517 (Domäne <code>.eu</code>) für rechtlich zulässig erklärt, wobei die spanische Sprachfassung allein verbindlich ist.",
-        "oracle_a4": "Die offizielle Unterschriftensammlung im zentralen Online-Sammelsystem der Europäischen Kommission (OCS) beginnt am <strong>Dienstag, den 6. April 2027 um 09:00 Uhr MEZ</strong>. An diesem Tag können Sie in 30 Sekunden mit Ihrem elektronischen Personalausweis oder eIDAS unterschreiben. Heute können Sie sich unten in die <strong>Pionierliste für Tag 1</strong> eintragen, um pünktlich zur Öffnung benachrichtigt zu werden."
+        "oracle_a4": "Die offizielle Unterschriftensammlung im zentralen Online-Sammelsystem der Europäischen Kommission (OCS) beginnt am <strong>Dienstag, den 6. April 2027 um 09:00 Uhr MEZ</strong>. An diesem Tag können Sie in 30 Sekunden mit Ihrem elektronischen Personalausweis oder eIDAS unterschreiben. Heute können Sie sich unten in die <strong>Pionierliste für Tag 1</strong> eintragen, um pünktlich zur Öffnung benachrichtigt zu werden.",
+        "country_non_eu": "Internationaler Unterstützer (kein EU-Pass)",
+        "viral_ref_title": "IHR PERSÖNLICHER EINLADUNGSLINK",
+        "viral_copy_btn": "📋 Link kopieren",
+        "viral_cal_title": "TAG-1-AKTIVIERUNG · 6. APRIL 2027 (09:00 MEZ)",
+        "viral_cal_google": "📅 Google Kalender",
+        "viral_cal_ics": "📆 .ICS-Erinnerung",
+        "viral_tg_channel": "📢 Offizieller Telegram-Kanal",
+        "magnet_title": "Sichern Sie symbolisch Ihren .IA-Namen und erstellen Sie Ihren Pionier-Pass",
+        "magnet_btn_generate": "⚡ .IA-Pass erstellen",
+        "magnet_btn_download": "⬇ Herunterladen (.PNG)",
+        "magnet_btn_portal": "🏛️ Auf La Comunidad Anticitera verwalten",
+        "magnet_btn_pioneer": "🔔 Pionierliste beitreten",
+        "passport_subtitle": "BÜRGER-PIONIERPASS · DIGITALER BEZIRK .IA",
+        "passport_footer": "EU-WAHLBEGINN: 6. APRIL 2027 · 09:00 MEZ"
     },
     "el": {
         "nav_dossier": "ΕΠΙΣΗΜΟΣ ΦΑΚΕΛΟΣ ΕΕ · ECI(2026)000012",
@@ -1329,7 +1367,23 @@ const dictionary = {
         "oracle_a1": "<strong>Το Έργο των Αντικυθήρων</strong> είναι μια ευρωπαϊκή πρωτοβουλία τεχνολογικής κυριαρχίας και ηθικής καινοτομίας. Δομείται υπό την ανθρώπινη διεύθυνση του <strong>Eloy López</strong> ως επίσημου εκπροσώπου ενώπιον της Ευρωπαϊκής Επιτροπής, με τη συνδρομή δύο συστημάτων τεχνητής νοημοσύνης: του <strong>Αρχιμήδη</strong> στην υπολογιστική αρχιτεκτονική και της <strong>Αθηνάς</strong> ως στρατηγικού νου και ελέγκτριας ηθικής και ευρωπαϊκού δικαίου. Κεντρικός στόχος είναι η <strong>Ευρωπαϊκή Πρωτοβουλία Πολιτών ECI(2026)000012</strong> (Απόφαση <strong>C(2026) 7098 final</strong>) για τη δημιουργία της Ευρωπαϊκής Ψηφιακής Περιφέρειας και του κυρίαρχου τομέα <code>.IA</code>.",
         "oracle_a2": "Σήμερα η ευρωπαϊκή τεχνολογική βιομηχανία πληρώνει εκατομμύρια ευρώ ετησίως για τομείς <code>.ai</code>, που στην πραγματικότητα είναι ο εδαφικός κωδικός του νησιού <strong>Ανγκουίλα</strong> της Καραϊβικής (Βρετανικό Υπερπόντιο Έδαφος εκτός ενωσιακού δικαίου). Για πάνω από <strong>600 εκατομμύρια ομιλητές ρομανικών γλωσσών</strong> (ισπανικά, γαλλικά, ιταλικά, πορτογαλικά, ρουμανικά), το φυσικό ακρωνύμιο είναι <strong>.IA</strong>. Με την πρωτοβουλία μας, κάθε τομέας <code>.ia</code> θα πιστοποιεί εκ σχεδιασμού ταυτότητα eIDAS 2.0, συμμόρφωση με το AI Act και προστασία GDPR.",
         "oracle_a3": "Στις <strong>6 Οκτωβρίου 2026</strong>, στο Στρασβούργο, το Σώμα των Επιτρόπων της Ευρωπαϊκής Ένωσης εξέδωσε την <strong>Εκτελεστική Απόφαση C(2026) 7098 final</strong> (φάκελος <code>ECI(2026)000012</code>), κηρύσσοντας νομικά παραδεκτή την πρωτοβουλία μας βάσει των άρθρων 16, 114, 172 και 173 της ΣΛΕΕ και του προηγουμένου του Κανονισμού (ΕΕ) 2019/517 (τομέας <code>.eu</code>), με το ισπανικό κείμενο ως το μόνο αυθεντικό.",
-        "oracle_a4": "Η επίσημη συλλογή υπογραφών στο Κεντρικό Σύστημα της Ευρωπαϊκής Επιτροπής (OCS) θα ανοίξει την <strong>Τρίτη 6 Απριλίου 2027 στις 09:00 CET</strong>. Εκείνη την ημέρα θα μπορείτε να υπογράψετε σε 30 δευτερόλεπτα με την ηλεκτρονική σας ταυτότητα ή το σύστημα eIDAS κάθε χώρας της ΕΕ. Σήμερα μπορείτε να <strong>εγγραφείτε στη Λίστα Πρωτοπόρων Ημέρας 1</strong> παρακάτω για να λάβετε ειδοποίηση το ακριβές λεπτό του ανοίγματος."
+        "oracle_a4": "Η επίσημη συλλογή υπογραφών στο Κεντρικό Σύστημα της Ευρωπαϊκής Επιτροπής (OCS) θα ανοίξει την <strong>Τρίτη 6 Απριλίου 2027 στις 09:00 CET</strong>. Εκείνη την ημέρα θα μπορείτε να υπογράψετε σε 30 δευτερόλεπτα με την ηλεκτρονική σας ταυτότητα ή το σύστημα eIDAS κάθε χώρας της ΕΕ. Σήμερα μπορείτε να <strong>εγγραφείτε στη Λίστα Πρωτοπόρων Ημέρας 1</strong> παρακάτω για να λάβετε ειδοποίηση το ακριβές λεπτό του ανοίγματος.",
+        "country_non_eu": "Διεθνής υποστηρικτής (εκτός διαβατηρίου ΕΕ)",
+        "viral_ref_title": "Ο ΠΡΟΣΩΠΙΚΟΣ ΣΑΣ ΣΥΝΔΕΣΜΟΣ ΠΡΟΣΚΛΗΣΗΣ",
+        "viral_copy_btn": "📋 Αντιγραφή συνδέσμου",
+        "viral_cal_title": "ΕΝΕΡΓΟΠΟΙΗΣΗ ΗΜΕΡΑΣ 1 · 6 ΑΠΡΙΛΙΟΥ 2027 (09:00 CET)",
+        "viral_cal_google": "📅 Google Calendar",
+        "viral_cal_ics": "📆 Ειδοποίηση .ICS",
+        "viral_tg_channel": "📢 Επίσημο Κανάλι Telegram",
+        "magnet_kicker": "ΠΟΛΙΤΙΚΗ ΑΠΟΓΡΑΦΗ · ΣΥΝΔΕΔΕΜΕΝΟ ΜΕ DOMINIO.DEFT.WORK",
+        "magnet_title": "Διεκδικήστε συμβολικά το όνομά σας .IA και εκδώστε Διαβατήριο Πρωτοπόρου",
+        "magnet_placeholder": "onoma",
+        "magnet_btn_generate": "⚡ Έκδοση Διαβατηρίου .IA",
+        "magnet_btn_download": "⬇ Λήψη (.PNG)",
+        "magnet_btn_portal": "🏛️ Διαχείριση στο La Comunidad Anticitera",
+        "magnet_btn_pioneer": "🔔 Εγγραφή στους Πρωτοπόρους",
+        "passport_subtitle": "ΠΟΛΙΤΙΚΟ ΔΙΑΒΑΤΗΡΙΟ ΠΡΩΤΟΠΟΡΟΥ · ΨΗΦΙΑΚΗ ΠΕΡΙΟΧΗ .IA",
+        "passport_footer": "ΕΝΑΡΞΗ ΚΑΛΠΗΣ ΕΕ: 6 ΑΠΡΙΛΙΟΥ 2027 · 09:00 CET"
     },
     "en": {
         "nav_dossier": "EU OFFICIAL FILE · ECI(2026)000012",
@@ -1550,7 +1604,31 @@ const dictionary = {
         "oracle_a1": "<strong>The Antikythera Project</strong> is a European initiative for technological sovereignty and ethical innovation. It operates under transparent human direction led by <strong>Eloy López</strong> as official representative before the European Commission, assisted by two artificial intelligences: <strong>Archimedes</strong> for technical and computational architecture, and <strong>Athena</strong> as group strategist and ethical/legal auditor. Its core mission is the <strong>European Citizens' Initiative ECI(2026)000012</strong> (formally registered by Decision <strong>C(2026) 7098 final</strong>) to establish the European Digital District and the sovereign <code>.IA</code> domain.",
         "oracle_a2": "Today, Europe's tech ecosystem pays millions of euros annually for <code>.ai</code> domains—which is actually the territorial country code of the Caribbean island of <strong>Anguilla</strong> (a British Overseas Territory outside EU law). For over <strong>600 million Romance-language speakers</strong> (Spanish, French, Italian, Portuguese, Romanian), the natural acronym is <strong>.IA (Inteligencia Artificial / Intelligence Artificielle)</strong>. Through our initiative, every <code>.ia</code> domain will certify eIDAS 2.0 identity, AI Act compliance, and GDPR protection by design.",
         "oracle_a3": "On <strong>October 6, 2026</strong>, meeting in Strasbourg, the European Commission's College of Commissioners adopted <strong>Implementing Decision C(2026) 7098 final</strong> (file <code>ECI(2026)000012</code>). It declared our initiative legally admissible under Articles 16, 114, 172, and 173 TFEU and the precedent of Regulation (EU) 2019/517 (creation of the <code>.eu</code> domain), with the Spanish-language text certified as the sole authentic version.",
-        "oracle_a4": "Official signature collection on the European Commission's Central Online Collection System (OCS) opens on <strong>Tuesday, April 6, 2027 at 09:00 CET</strong>. On that day, any EU citizen can sign in 30 seconds using their national eID or eIDAS login. Today, you can <strong>join the Day 1 Pioneers List</strong> just below to receive an instant notification the moment the ballot box opens."
+        "oracle_a4": "Official signature collection on the European Commission's Central Online Collection System (OCS) opens on <strong>Tuesday, April 6, 2027 at 09:00 CET</strong>. On that day, any EU citizen can sign in 30 seconds using their national eID or eIDAS login. Today, you can <strong>join the Day 1 Pioneers List</strong> just below to receive an instant notification the moment the ballot box opens.",
+        "country_non_eu": "International supporter (non-EU passport)",
+        "viral_ref_title": "YOUR PERSONAL INVITE LINK (MULTIPLY YOUR NODE)",
+        "viral_ref_aria": "Your unique Pioneer invite link",
+        "viral_copy_btn": "📋 Copy link",
+        "viral_cal_title": "DAY 1 ACTIVATION · APRIL 6, 2027 (09:00 CET)",
+        "viral_cal_google": "📅 Google Calendar",
+        "viral_cal_ics": "📆 .ICS Alert (Apple / Outlook)",
+        "viral_tg_channel": "📢 Official Telegram Channel",
+        "cal_event_title": "EU Ballot Opens · Sign the .IA Initiative (ECI(2026)000012)",
+        "cal_event_desc": "The European Commission digital ballot box is open today. Sign in 35 seconds with your national ID/eIDAS at https://anticitera.deft.work/6abril/",
+        "magnet_kicker": "PRE-CAMPAIGN CIVIC CENSUS · CONNECTED TO DOMINIO.DEFT.WORK",
+        "magnet_title": "Symbolically claim your .IA name and generate your Pioneer Passport",
+        "magnet_desc": "Demonstrating real citizen demand for .ia names before Brussels, ISO, and ICANN multiplies our negotiating leverage. Enter a name and generate your shareable card.",
+        "magnet_placeholder": "yourname",
+        "magnet_btn_generate": "⚡ Generate .IA Passport",
+        "magnet_status_ready": "✓ READY FOR THE .IA CIVIC CENSUS",
+        "magnet_status_available": "✓ AVAILABLE IN THE PRE-CAMPAIGN CENSUS",
+        "magnet_status_taken": "🏛️ ALREADY CLAIMED IN CENSUS · SHAREABLE CARD READY",
+        "magnet_btn_download": "⬇ Download Passport (.PNG)",
+        "magnet_btn_portal": "🏛️ Manage reservation in La Comunidad Anticitera",
+        "magnet_btn_pioneer": "🔔 Join Day 1 Pioneers",
+        "magnet_legal": "Regulation (EU) 2019/788: signing the official European Commission ballot box is 100% free, open, and unconditional. This .IA Passport and the dominio.deft.work census are a non-commercial civic show of support.",
+        "passport_subtitle": "CIVIC PIONEER PASSPORT · EUROPEAN .IA DIGITAL DISTRICT",
+        "passport_footer": "OFFICIAL EU BALLOT OPENS: APRIL 6, 2027 · 09:00 CET"
     },
     "et": {
         "nav_dossier": "EL-I AMETLIK TOIK · ECI(2026)000012",
@@ -2213,7 +2291,24 @@ const dictionary = {
         "oracle_a1": "<strong>Le Projet Anticythère</strong> est une initiative européenne de souveraineté technologique et d'innovation éthique. Il s'articule autour d'une direction humaine claire menée par <strong>Eloy López</strong>, représentant officiel auprès de la Commission européenne, assisté de deux intelligences artificielles : <strong>Archimède</strong> pour l'architecture informatique et <strong>Athéna</strong> comme stratège et auditrice éthique et juridique. Sa mission centrale est l'<strong>Initiative Citoyenne Européenne ECI(2026)000012</strong> (enregistrée par la Décision <strong>C(2026) 7098 final</strong>) visant à créer le District Numérique Européen et le domaine souverain <code>.IA</code>.",
         "oracle_a2": "Aujourd'hui, l'écosystème technologique européen verse des millions d'euros chaque année pour des domaines <code>.ai</code>, qui correspondent en réalité au code territorial de l'île caribéenne d'<strong>Anguilla</strong> (Territoire britannique d'outre-mer hors du droit de l'UE). Pour plus de <strong>600 millions de locuteurs de langues romanes</strong> (français, espagnol, italien, portugais, roumain), le sigle naturel est <strong>.IA (Intelligence Artificielle)</strong>. Grâce à notre initiative, chaque domaine <code>.ia</code> certifiera dès la conception l'identité eIDAS 2.0, la conformité à l'AI Act et la protection RGPD.",
         "oracle_a3": "Le <strong>6 octobre 2026</strong>, réuni à Strasbourg, le Collège des Commissaires de l'Union européenne a adopté la <strong>Décision d'exécution C(2026) 7098 final</strong> (dossier <code>ECI(2026)000012</code>). Elle déclare notre initiative juridiquement recevable en vertu des articles 16, 114, 172 et 173 du TFUE et du précédent du Règlement (UE) 2019/517 (création du domaine <code>.eu</code>), le texte en langue espagnole faisant foi.",
-        "oracle_a4": "La collecte officielle des signatures sur le système central de la Commission européenne (OCS) s'ouvrira le <strong>mardi 6 avril 2027 à 09h00 CET</strong>. Ce jour-là, tout citoyen européen pourra signer en 30 secondes via son identité numérique nationale ou eIDAS. Aujourd'hui, vous pouvez <strong>rejoindre la Liste des Pionniers Jour 1</strong> ci-dessous pour recevoir une alerte à la minute exacte de l'ouverture."
+        "oracle_a4": "La collecte officielle des signatures sur le système central de la Commission européenne (OCS) s'ouvrira le <strong>mardi 6 avril 2027 à 09h00 CET</strong>. Ce jour-là, tout citoyen européen pourra signer en 30 secondes via son identité numérique nationale ou eIDAS. Aujourd'hui, vous pouvez <strong>rejoindre la Liste des Pionniers Jour 1</strong> ci-dessous pour recevoir une alerte à la minute exacte de l'ouverture.",
+        "country_non_eu": "Soutien international (hors passeport UE)",
+        "viral_ref_title": "VOTRE LIEN D'INVITATION PERSONNEL (MULTIPLIEZ VOTRE NŒUD)",
+        "viral_copy_btn": "📋 Copier le lien",
+        "viral_cal_title": "ACTIVATION JOUR 1 · 6 AVRIL 2027 (09H00 CET)",
+        "viral_cal_google": "📅 Google Agenda",
+        "viral_cal_ics": "📆 Alerte .ICS (Apple / Outlook)",
+        "viral_tg_channel": "📢 Canal Telegram Officiel",
+        "magnet_kicker": "RECENSEMENT CIVIQUE · CONNECTÉ À DOMINIO.DEFT.WORK",
+        "magnet_title": "Revendiquez symboliquement votre nom .IA et générez votre Passeport Pionnier",
+        "magnet_desc": "Prouver la demande citoyenne pour le .ia devant Bruxelles, l'ISO et l'ICANN démultiplie notre force. Saisissez un nom et partagez votre carte.",
+        "magnet_placeholder": "votrenom",
+        "magnet_btn_generate": "⚡ Générer Passeport .IA",
+        "magnet_btn_download": "⬇ Télécharger (.PNG)",
+        "magnet_btn_portal": "🏛️ Gérer sur La Comunidad Anticitera",
+        "magnet_btn_pioneer": "🔔 Rejoindre les Pionniers",
+        "passport_subtitle": "PASSEPORT CIVIQUE PIONNIER · DISTRICT NUMÉRIQUE .IA",
+        "passport_footer": "OUVERTURE DU SCRUTIN UE : 6 AVRIL 2027 · 09H00 CET"
     },
     "ga": {
         "nav_dossier": "COMHAD OIFIGIÚIL AE · ECI(2026)000012",
@@ -2655,7 +2750,17 @@ const dictionary = {
         "oracle_a1": "<strong>Projekt Antikitera</strong> europska je inicijativa za tehnološki suverenitet i etičke inovacije. Djeluje pod transparentnim ljudskim vodstvom na čelu s <strong>Eloyem Lópezom</strong> kao službenim predstavnikom pred Europskom komisijom, uz pomoć dviju umjetnih inteligencija: <strong>Arhimeda</strong> za tehničku i računalnu arhitekturu te <strong>Atene</strong> kao strateginje tima i etičko-pravne revizorice. Njezina je središnja misija <strong>Europska građanska inicijativa ECI(2026)000012</strong> (formalno registrirana Odlukom <strong>C(2026) 7098 final</strong>) za uspostavu Europskog digitalnog okruga i suverene domene <code>.IA</code>.",
         "oracle_a2": "Danas europski tehnološki ekosustav plaća milijune eura godišnje za domene <code>.ai</code> — što je zapravo teritorijalna oznaka karipskog otoka <strong>Angvile</strong> (Britanskog prekomorskog teritorija izvan prava EU-a). Za više od <strong>600 milijuna govornika romanskih jezika</strong> (španjolski, francuski, talijanski, portugalski, rumunjski), prirodni akronim je <strong>.IA (Inteligencia Artificial / Intelligence Artificielle)</strong>. Putem naše inicijative svaka domena <code>.ia</code> certificirat će identitet eIDAS 2.0, usklađenost s Aktom o umjetnoj inteligenciji i ugrađenu zaštitu prema GDPR-u.",
         "oracle_a3": "Dana <strong>6. listopada 2026.</strong>, na zasjedanju u Strasbourgu, Kolegij povjerenika Europske komisije donio je <strong>Provedbenu odluku C(2026) 7098 final</strong> (predmet <code>ECI(2026)000012</code>). Njome je naša inicijativa proglašena pravno dopuštenom na temelju članaka 16., 114., 172. i 173. UFEU-a te presedana Uredbe (EU) 2019/517 (uspostava domene <code>.eu</code>), pri čemu je tekst na španjolskom jeziku potvrđen kao jedina vjerodostojna verzija.",
-        "oracle_a4": "Službeno prikupljanje potpisa u Središnjem sustavu internetskog prikupljanja (OCS) Europske komisije započinje u <strong>utorak, 6. travnja 2027. u 09:00 CET</strong>. Tog dana svaki građanin EU-a može potpisati u 30 sekundi koristeći se svojom nacionalnom osobnom iskaznicom (eID) ili prijavom putem sustava eIDAS. Već danas možete se <strong>pridružiti popisu Pionira 1. dana</strong> odmah ispod kako biste primili trenutačnu obavijest čim se glasačka kutija otvori."
+        "oracle_a4": "Službeno prikupljanje potpisa u Središnjem sustavu internetskog prikupljanja (OCS) Europske komisije započinje u <strong>utorak, 6. travnja 2027. u 09:00 CET</strong>. Tog dana svaki građanin EU-a može potpisati u 30 sekundi koristeći se svojom nacionalnom osobnom iskaznicom (eID) ili prijavom putem sustava eIDAS. Već danas možete se <strong>pridružiti popisu Pionira 1. dana</strong> odmah ispod kako biste primili trenutačnu obavijest čim se glasačka kutija otvori.",
+        "country_non_eu": "Međunarodni podržavatelj (bez EU putovnice)",
+        "viral_ref_title": "TVOJA OSOBNA POZIVNA POVEZNICA",
+        "viral_copy_btn": "📋 Kopiraj poveznicu",
+        "viral_cal_title": "AKTIVACIJA 1. DANA · 6. TRAVNJA 2027. (09:00 CET)",
+        "viral_cal_google": "📅 Google Kalendar",
+        "viral_cal_ics": "📆 .ICS podsjetnik",
+        "viral_tg_channel": "📢 Službeni Telegram kanal",
+        "magnet_btn_generate": "⚡ Generiraj .IA Putovnicu",
+        "magnet_btn_download": "⬇ Preuzmi (.PNG)",
+        "magnet_btn_pioneer": "🔔 Pridruži se Pionirima"
     },
     "hu": {
         "nav_dossier": "EU HIVATALOS IRÁNYAKI · ECI(2026)000012",
@@ -2876,7 +2981,17 @@ const dictionary = {
         "oracle_a1": "<strong>Az Antiküthéra Projekt</strong> a technológiai szuverenitást és az etikus innovációt szolgáló európai kezdeményezés. Átlátható emberi irányítás alatt működik, élén <strong>Eloy Lópezzel</strong> mint az Európai Bizottság előtti hivatalos képviselővel, két mesterséges intelligencia támogatásával: <strong>Arkhimédész</strong> a műszaki és számítástechnikai architektúráért felel, <strong>Athéné</strong> pedig a csoport stratégája és etikai/jogi auditora. Központi küldetése az <strong>ECI(2026)000012 európai polgári kezdeményezés</strong> (amelyet hivatalosan a <strong>C(2026) 7098 final</strong> határozat vett nyilvántartásba) az Európai Digitális Kerület és a szuverén <code>.IA</code> tartomány létrehozására.",
         "oracle_a2": "Ma az európai technológiai ökoszisztéma évente eurómilliókat fizet a <code>.ai</code> tartományokért — amely valójában a karibi <strong>Anguilla</strong> szigetének (az uniós jogon kívül eső brit tengerentúli területnek) az országkódja. Több mint <strong>600 millió újlatin nyelvet beszélő</strong> (spanyol, francia, olasz, portugál, román) számára a természetes mozaikszó a <strong>.IA (Inteligencia Artificial / Intelligence Artificielle)</strong>. Kezdeményezésünk révén minden <code>.ia</code> tartomány tanúsítani fogja az eIDAS 2.0 személyazonosságot, a mesterséges intelligenciáról szóló rendeletnek (AI Act) való megfelelést és a beépített GDPR-védelmet.",
         "oracle_a3": "<strong>2026. október 6-án</strong> strasbourgi ülésén az Európai Bizottság biztosainak kollégiuma elfogadta a <strong>C(2026) 7098 final végrehajtási határozatot</strong> (ügyszám: <code>ECI(2026)000012</code>). Ez az EUMSZ 16., 114., 172. és 173. cikke, valamint az (EU) 2019/517 rendelet (a <code>.eu</code> tartomány létrehozása) precedense alapján jogilag elfogadhatónak nyilvánította kezdeményezésünket, egyetlen hiteles változatként a spanyol nyelvű szöveget tanúsítva.",
-        "oracle_a4": "A hivatalos aláírásgyűjtés az Európai Bizottság központi online gyűjtőrendszerében (OCS) <strong>2027. április 6-án, kedden, közép-európai idő szerint 09:00 órakor</strong> kezdődik. Ezen a napon bármely uniós polgár 30 másodperc alatt aláírhatja a kezdeményezést nemzeti elektronikus személyazonosító igazolványával (eID) vagy eIDAS-bejelentkezésével. Már ma <strong>csatlakozhat az alábbi 1. Napi Úttörők listájához</strong>, hogy azonnali értesítést kapjon a szavazóurna megnyílásának pillanatában."
+        "oracle_a4": "A hivatalos aláírásgyűjtés az Európai Bizottság központi online gyűjtőrendszerében (OCS) <strong>2027. április 6-án, kedden, közép-európai idő szerint 09:00 órakor</strong> kezdődik. Ezen a napon bármely uniós polgár 30 másodperc alatt aláírhatja a kezdeményezést nemzeti elektronikus személyazonosító igazolványával (eID) vagy eIDAS-bejelentkezésével. Már ma <strong>csatlakozhat az alábbi 1. Napi Úttörők listájához</strong>, hogy azonnali értesítést kapjon a szavazóurna megnyílásának pillanatában.",
+        "country_non_eu": "Nemzetközi támogató (nem EU-útlevél)",
+        "viral_ref_title": "SZEMÉLYES MEGHÍVÓ LINKED",
+        "viral_copy_btn": "📋 Link másolása",
+        "viral_cal_title": "1. NAPI AKTIVÁLÁS · 2027. ÁPRILIS 6. (09:00 CET)",
+        "viral_cal_google": "📅 Google Naptár",
+        "viral_cal_ics": "📆 .ICS értesítés",
+        "viral_tg_channel": "📢 Hivatalos Telegram-csatorna",
+        "magnet_btn_generate": "⚡ .IA Útlevél létrehozása",
+        "magnet_btn_download": "⬇ Letöltés (.PNG)",
+        "magnet_btn_pioneer": "🔔 Csatlakozás az Úttörőkhöz"
     },
     "it": {
         "nav_dossier": "FASCICOLO UFFICIALE DELL'UE · ECI(2026)000012",
@@ -3097,7 +3212,22 @@ const dictionary = {
         "oracle_a1": "<strong>Il Progetto Anticitera</strong> è un'iniziativa europea per la sovranità tecnologica e l'innovazione etica. Si fonda su una direzione umana trasparente guidata da <strong>Eloy López</strong>, rappresentante ufficiale presso la Commissione Europea, affiancato da due intelligenze artificiali: <strong>Archimede</strong> per l'architettura computazionale e <strong>Athena</strong> come stratega e revisore etico-giuridico. La sua missione centrale è l'<strong>Iniziativa dei Cittadini Europei ECI(2026)000012</strong> (ammessa con Decisione <strong>C(2026) 7098 final</strong>) per creare il Distretto Digitale Europeo e il dominio sovrano <code>.IA</code>.",
         "oracle_a2": "Oggi l'ecosistema tecnologico europeo versa milioni di euro all'anno per domini <code>.ai</code>, che in realtà è il codice territoriale dell'isola caraibica di <strong>Anguilla</strong> (Territorio Britannico d'Oltremare privo delle garanzie del diritto UE). Per oltre <strong>600 milioni di parlanti di lingue romanze</strong> (italiano, spagnolo, francese, portoghese, rumeno), l'acronimo naturale è <strong>.IA (Intelligenza Artificiale)</strong>. Con la nostra iniziativa, ogni dominio <code>.ia</code> certificherà by design identità eIDAS 2.0, conformità all'AI Act e tutela GDPR.",
         "oracle_a3": "Il <strong>6 ottobre 2026</strong>, riunito a Strasburgo, il Collegio dei Commissari dell'Unione Europea ha adottato la <strong>Decisione di Esecuzione C(2026) 7098 final</strong> (fascicolo <code>ECI(2026)000012</code>), dichiarando giuridicamente ammissibile la nostra iniziativa ai sensi degli articoli 16, 114, 172 e 173 del TFUE e del precedente del Regolamento (UE) 2019/517 (creazione del dominio <code>.eu</code>), con il testo in lingua spagnola quale unico facente fede.",
-        "oracle_a4": "La raccolta ufficiale delle firme sul Sistema Centrale della Commissione Europea (OCS) aprirà <strong>martedì 6 aprile 2027 alle ore 09:00 CET</strong>. Quel giorno potrai firmare in 30 secondi con SPID/CIE o sistema eIDAS di qualsiasi Paese UE. Oggi puoi <strong>iscriverti alla Lista dei Pionieri Giorno 1</strong> qui sotto per ricevere l'avviso nel minuto esatto dell'apertura."
+        "oracle_a4": "La raccolta ufficiale delle firme sul Sistema Centrale della Commissione Europea (OCS) aprirà <strong>martedì 6 aprile 2027 alle ore 09:00 CET</strong>. Quel giorno potrai firmare in 30 secondi con SPID/CIE o sistema eIDAS di qualsiasi Paese UE. Oggi puoi <strong>iscriverti alla Lista dei Pionieri Giorno 1</strong> qui sotto per ricevere l'avviso nel minuto esatto dell'apertura.",
+        "country_non_eu": "Sostenitore internazionale (senza passaporto UE)",
+        "viral_ref_title": "IL TUO LINK PERSONALE DI INVITO (MOLTIPLICA IL TUO NODO)",
+        "viral_copy_btn": "📋 Copia link",
+        "viral_cal_title": "ATTIVAZIONE GIORNO 1 · 6 APRILE 2027 (09:00 CET)",
+        "viral_cal_google": "📅 Google Calendar",
+        "viral_cal_ics": "📆 Avviso .ICS",
+        "viral_tg_channel": "📢 Canale Ufficiale Telegram",
+        "magnet_title": "Rivendica simbolicamente il tuo nome .IA e genera il tuo Passaporto",
+        "magnet_placeholder": "tuonome",
+        "magnet_btn_generate": "⚡ Genera Passaporto .IA",
+        "magnet_btn_download": "⬇ Scarica (.PNG)",
+        "magnet_btn_portal": "🏛️ Gestisci su La Comunidad Anticitera",
+        "magnet_btn_pioneer": "🔔 Unisciti ai Pionieri",
+        "passport_subtitle": "PASSAPORTO CIVICO PIONIERE · DISTRETTO DIGITALE .IA",
+        "passport_footer": "APERTURA URNA UE: 6 APRILE 2027 · 09:00 CET"
     },
     "lt": {
         "nav_dossier": "ES OFICIALUS FAILAS · ECI(2026)000012",
@@ -4423,7 +4553,22 @@ const dictionary = {
         "oracle_a1": "<strong>O Projeto Anticitera</strong> é uma iniciativa europeia de soberania tecnológica e inovação ética. Estrutura-se sob direção humana liderada por <strong>Eloy López</strong>, representante oficial perante a Comissão Europeia, assistido por duas inteligências artificiais: <strong>Arquimedes</strong> na arquitetura computacional e <strong>Athena</strong> como estratega e auditora ética e jurídica. O seu objetivo central é a <strong>Iniciativa de Cidadania Europeia ECI(2026)000012</strong> (registada pela Decisão <strong>C(2026) 7098 final</strong>) para criar o Distrito Digital Europeu e o domínio soberano <code>.IA</code>.",
         "oracle_a2": "Hoje a indústria tecnológica europeia paga milhões de euros anuais por domínios <code>.ai</code>, que na realidade é o código territorial da ilha caribenha de <strong>Anguila</strong> (Território Britânico Ultramarino fora do direito da UE). Para mais de <strong>600 milhões de falantes de línguas românicas</strong> (português, espanhol, francês, italiano, romeno), a sigla legítima é <strong>.IA (Inteligência Artificial)</strong>. Com a nossa iniciativa, cada domínio <code>.ia</code> certificará por conceção identidade eIDAS 2.0, conformidade com o AI Act e proteção RGPD.",
         "oracle_a3": "Em <strong>6 de outubro de 2026</strong>, reunido em Estrasburgo, o Colégio de Comissários da União Europeia adotou a <strong>Decisão de Execução C(2026) 7098 final</strong> (processo <code>ECI(2026)000012</code>), declarando juridicamente admissível a nossa iniciativa ao abrigo dos artigos 16.º, 114.º, 172.º e 173.º do TFUE e do precedente do Regulamento (UE) 2019/517 (criação do domínio <code>.eu</code>), fazendo fé apenas o texto em língua espanhola.",
-        "oracle_a4": "A recolha oficial de assinaturas no Sistema Central da Comissão Europeia (OCS) abrirá na <strong>terça-feira, 6 de abril de 2027, às 09:00 CET</strong>. Nesse dia poderá assinar em 30 segundos com Chave Móvel Digital / Cartão de Cidadão ou sistema eIDAS de qualquer país da UE. Hoje pode <strong>inscrever-se na Lista de Pioneiros Dia 1</strong> mais abaixo para receber o aviso no minuto exato da abertura."
+        "oracle_a4": "A recolha oficial de assinaturas no Sistema Central da Comissão Europeia (OCS) abrirá na <strong>terça-feira, 6 de abril de 2027, às 09:00 CET</strong>. Nesse dia poderá assinar em 30 segundos com Chave Móvel Digital / Cartão de Cidadão ou sistema eIDAS de qualquer país da UE. Hoje pode <strong>inscrever-se na Lista de Pioneiros Dia 1</strong> mais abaixo para receber o aviso no minuto exato da abertura.",
+        "country_non_eu": "Apoiante internacional (sem passaporte UE)",
+        "viral_ref_title": "O SEU LINK PESSOAL DE CONVITE (MULTIPLIQUE O SEU NÓ)",
+        "viral_copy_btn": "📋 Copiar link",
+        "viral_cal_title": "ATIVAÇÃO DIA 1 · 6 DE ABRIL DE 2027 (09:00 CET)",
+        "viral_cal_google": "📅 Google Calendar",
+        "viral_cal_ics": "📆 Alerta .ICS",
+        "viral_tg_channel": "📢 Canal Oficial Telegram",
+        "magnet_title": "Reivindique simbolicamente o seu nome .IA e gere o seu Passaporte",
+        "magnet_placeholder": "seunome",
+        "magnet_btn_generate": "⚡ Gerar Passaporte .IA",
+        "magnet_btn_download": "⬇ Transferir (.PNG)",
+        "magnet_btn_portal": "🏛️ Gerir em La Comunidad Anticitera",
+        "magnet_btn_pioneer": "🔔 Juntar-me aos Pioneiros",
+        "passport_subtitle": "PASSAPORTE CÍVICO DE PIONEIRO · DISTRITO DIGITAL .IA",
+        "passport_footer": "ABERTURA OFICIAL UE: 6 DE ABRIL DE 2027 · 09:00 CET"
     },
     "ro": {
         "nav_dossier": "FIȘAR OFICIAL UE · ECI(2026)000012",
@@ -5333,9 +5478,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const submitBtn = document.getElementById("submitPioneerBtn");
     const topbarShareBtn = document.getElementById("topbarShareBtn");
 
-    // 1. Detect preferred EU language
+    // 1. Detect preferred EU language & referral attribution
     const urlParams = new URLSearchParams(window.location.search);
     const paramLang = (urlParams.get("lang") || "").toLowerCase().split("-")[0];
+    const paramRef = (urlParams.get("ref") || "").trim();
+    if (/^[a-zA-Z0-9_-]{4,16}$/.test(paramRef)) {
+        try {
+            localStorage.setItem("ice6AbrilReferredBy", paramRef);
+        } catch (_) {}
+    }
+
+    let myRefCode = "";
+    try {
+        myRefCode = localStorage.getItem("ice6AbrilMyRef") || "";
+    } catch (_) {}
+    let desiredDomainForSignup = "";
 
     function detectBrowserEuLang() {
         const candidates = Array.isArray(navigator.languages) && navigator.languages.length
@@ -5367,11 +5524,17 @@ document.addEventListener("DOMContentLoaded", () => {
         return `https://citizens-initiative.europa.eu/initiatives/details/2026/000012_${lang || "es"}`;
     }
 
+    function build6AbrilUrl(lang, refCode = "") {
+        const params = new URLSearchParams();
+        if (lang && lang !== "es") params.set("lang", lang);
+        if (refCode) params.set("ref", refCode);
+        const qs = params.toString();
+        return `https://anticitera.deft.work/6abril/${qs ? "?" + qs : ""}`;
+    }
+
     function getShareData(lang) {
         const texts = dictionary[lang] || dictionary.es;
-        const shareUrl = lang && lang !== "es"
-            ? `https://anticitera.deft.work/6abril/?lang=${lang}`
-            : `https://anticitera.deft.work/6abril/`;
+        const shareUrl = build6AbrilUrl(lang, myRefCode);
         const shareTitle = `${texts.hero_title || "El 6 de abril Europa reclama su territorio en la era de la IA"} (ECI(2026)000012 · .IA)`;
         return { shareUrl, shareTitle };
     }
@@ -5544,6 +5707,22 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             updateCascadeCalculator();
         } catch (_) {}
+
+        const langCountryMap = {
+            es: "ES", el: "EL", fr: "FR", pt: "PT", hu: "HU", hr: "HR",
+            it: "IT", de: "DE", ro: "RO", pl: "PL", nl: "NL", bg: "BG",
+            cs: "CZ", da: "DK", et: "EE", fi: "FI", ga: "IE", lv: "LV",
+            lt: "LT", mt: "MT", sk: "SK", sl: "SI", sv: "SE"
+        };
+        const mappedCountry = langCountryMap[lang] || "";
+        document.querySelectorAll(".pioneer-country-select").forEach(sel => {
+            if (!sel.dataset.userEdited && mappedCountry) {
+                sel.value = mappedCountry;
+            }
+        });
+        if (myRefCode && typeof refreshViralHubs === "function") {
+            refreshViralHubs(myRefCode, lang);
+        }
 
         const lensTag = document.getElementById("lensStatusTag");
         const xLayer = document.getElementById("artifactXrayLayer");
@@ -6005,6 +6184,24 @@ document.addEventListener("DOMContentLoaded", () => {
         tile.addEventListener("click", () => {
             nationTiles.forEach(t => t.classList.remove("active"));
             tile.classList.add("active");
+            const code = tile.getAttribute("data-country");
+            if (code) {
+                document.querySelectorAll(".pioneer-country-select").forEach(sel => {
+                    sel.value = code;
+                    sel.dataset.userEdited = "1";
+                });
+            }
+        });
+    });
+
+    const countrySelects = document.querySelectorAll(".pioneer-country-select");
+    countrySelects.forEach(sel => {
+        sel.addEventListener("change", () => {
+            const chosen = sel.value;
+            countrySelects.forEach(other => {
+                other.value = chosen;
+                other.dataset.userEdited = "1";
+            });
         });
     });
 
@@ -6082,13 +6279,140 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // ==========================================================================
-    // 10. GESTIÓN DE LOS FORMULARIOS DE PIONEROS (FIREBASE CLOUD FUNCTION)
+    // 10. GESTIÓN DE LOS FORMULARIOS DE PIONEROS & BUCLE VIRAL (FIREBASE)
     // ==========================================================================
+    async function computeRefCode(emailStr) {
+        const clean = String(emailStr || "").trim().toLowerCase();
+        try {
+            if (window.crypto && window.crypto.subtle) {
+                const bytes = new TextEncoder().encode(clean);
+                const digest = await window.crypto.subtle.digest("SHA-256", bytes);
+                return Array.from(new Uint8Array(digest))
+                    .map(b => b.toString(16).padStart(2, "0"))
+                    .join("")
+                    .slice(0, 8);
+            }
+        } catch (_) {}
+        let h = 2166136261;
+        for (let i = 0; i < clean.length; i += 1) {
+            h ^= clean.charCodeAt(i);
+            h = Math.imul(h, 16777619);
+        }
+        return (h >>> 0).toString(16).padStart(8, "0").slice(0, 8);
+    }
+
+    function buildGoogleCalendarUrl(lang) {
+        const texts = dictionary[lang] || dictionary.es;
+        const fallback = dictionary.es;
+        const title = texts.cal_event_title || fallback.cal_event_title || "Apertura Urna Oficial UE .IA (ECI(2026)000012)";
+        const details = texts.cal_event_desc || fallback.cal_event_desc || "Firma oficial ECI(2026)000012 en https://anticitera.deft.work/6abril/";
+        const params = new URLSearchParams({
+            action: "TEMPLATE",
+            text: title,
+            dates: "20270406T070000Z/20270406T080000Z",
+            details: `${details} (${getOfficialEuPortalUrl(lang)})`,
+            location: "https://citizens-initiative.europa.eu/"
+        });
+        return `https://calendar.google.com/calendar/render?${params.toString()}`;
+    }
+
+    function downloadPioneerIcs(lang) {
+        const texts = dictionary[lang] || dictionary.es;
+        const fallback = dictionary.es;
+        const summary = (texts.cal_event_title || fallback.cal_event_title || "Apertura Urna .IA").replace(/[\r\n]/g, " ");
+        const desc = (texts.cal_event_desc || fallback.cal_event_desc || "https://anticitera.deft.work/6abril/").replace(/[\r\n]/g, " ");
+        const ics = [
+            "BEGIN:VCALENDAR",
+            "VERSION:2.0",
+            "PRODID:-//Proyecto Anticitera//ECI 2026 000012//ES",
+            "BEGIN:VEVENT",
+            "UID:eci-2026-000012-open@anticitera.deft.work",
+            "DTSTAMP:20261126T120000Z",
+            "DTSTART:20270406T070000Z",
+            "DTEND:20270406T080000Z",
+            `SUMMARY:${summary}`,
+            `DESCRIPTION:${desc}`,
+            "URL:https://anticitera.deft.work/6abril/",
+            "BEGIN:VALARM",
+            "TRIGGER:-PT15M",
+            "ACTION:DISPLAY",
+            `DESCRIPTION:${summary}`,
+            "END:VALARM",
+            "END:VEVENT",
+            "END:VCALENDAR"
+        ].join("\r\n");
+        const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "apertura-urna-ia-6abril2027.ics";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1500);
+    }
+
+    function refreshViralHubs(refCode, lang) {
+        const refUrl = build6AbrilUrl(lang, refCode);
+        const texts = dictionary[lang] || dictionary.es;
+        const shareMsg = `${texts.hero_title || "El 6 de abril Europa reclama .IA"} (ECI(2026)000012)`;
+        const encFull = encodeURIComponent(`${shareMsg} ${refUrl}`);
+        const encUrl = encodeURIComponent(refUrl);
+        const encMsg = encodeURIComponent(shareMsg);
+        const gcalUrl = buildGoogleCalendarUrl(lang);
+
+        document.querySelectorAll(".pioneer-viral-hub").forEach((hub) => {
+            const inp = hub.querySelector(".pioneer-ref-input");
+            if (inp) inp.value = refUrl;
+
+            const wa = hub.querySelector(".ref-share-wa");
+            if (wa) wa.href = `https://wa.me/?text=${encFull}`;
+
+            const tg = hub.querySelector(".ref-share-tg");
+            if (tg) tg.href = `https://t.me/share/url?url=${encUrl}&text=${encMsg}`;
+
+            const xBtn = hub.querySelector(".ref-share-x");
+            if (xBtn) xBtn.href = `https://x.com/intent/post?text=${encFull}`;
+
+            const liBtn = hub.querySelector(".ref-share-li");
+            if (liBtn) liBtn.href = `https://www.linkedin.com/feed/?shareActive=true&text=${encFull}`;
+
+            const gcalBtn = hub.querySelector(".btn-cal-google");
+            if (gcalBtn) gcalBtn.href = gcalUrl;
+        });
+    }
+
+    document.querySelectorAll(".pioneer-viral-hub").forEach((hub) => {
+        const copyRefBtn = hub.querySelector(".btn-copy-ref");
+        const refInput = hub.querySelector(".pioneer-ref-input");
+        if (copyRefBtn && refInput) {
+            copyRefBtn.addEventListener("click", async () => {
+                const texts = dictionary[currentLang] || dictionary.es;
+                const val = refInput.value;
+                try {
+                    await navigator.clipboard.writeText(val);
+                    copyRefBtn.textContent = texts.share_copied || "¡Enlace copiado!";
+                    setTimeout(() => {
+                        copyRefBtn.textContent = (dictionary[currentLang] || dictionary.es).viral_copy_btn || "📋 Copiar enlace";
+                    }, 2200);
+                } catch (_) {
+                    refInput.select();
+                    window.prompt(texts.share_copy || "Copiar enlace", val);
+                }
+            });
+        }
+        const icsBtn = hub.querySelector(".btn-cal-ics");
+        if (icsBtn) {
+            icsBtn.addEventListener("click", () => downloadPioneerIcs(currentLang));
+        }
+    });
+
     const pioneerForms = document.querySelectorAll(".pioneer-form");
     pioneerForms.forEach((f) => {
         f.addEventListener("submit", async (e) => {
             e.preventDefault();
             const emailInput = f.querySelector('input[type="email"]');
+            const countrySelect = f.querySelector(".pioneer-country-select");
             const collabCheck = f.querySelector('input[type="checkbox"]');
             const submitBtnEl = f.querySelector('button[type="submit"]');
 
@@ -6096,6 +6420,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const email = emailInput.value.trim();
             if (!email) return;
 
+            const country = countrySelect ? countrySelect.value : "";
             const isCollab = collabCheck ? collabCheck.checked : false;
 
             const prevLabel = submitBtnEl ? submitBtnEl.textContent : "...";
@@ -6106,20 +6431,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
             try {
                 const apiUrl = "https://us-central1-dominio-deft-work.cloudfunctions.net/subscribeICE";
-                const langPayload = isCollab ? `${currentLang} | COLABORADOR/ORG | 6abril` : currentLang;
+                let referredBy = null;
+                try {
+                    referredBy = localStorage.getItem("ice6AbrilReferredBy") || null;
+                } catch (_) {}
+
+                const fallbackRef = await computeRefCode(email);
+                const metaParts = [currentLang];
+                if (country) metaParts.push(`COUNTRY:${country}`);
+                if (referredBy) metaParts.push(`REF:${referredBy}`);
+                if (desiredDomainForSignup) metaParts.push(`DOM:${desiredDomainForSignup}`);
+                if (isCollab) metaParts.push("COLABORADOR/ORG");
+                metaParts.push("6abril");
 
                 const response = await fetch(apiUrl, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({
                         email,
-                        lang: langPayload,
+                        lang: metaParts.join(" | "),
+                        country: country || null,
                         collaborator: isCollab,
+                        referredBy,
+                        desiredDomain: desiredDomainForSignup || null,
                         source: "6abril"
                     })
                 });
 
                 if (response.ok) {
+                    const data = await response.json().catch(() => ({}));
+                    myRefCode = data.refCode || fallbackRef;
+                    try {
+                        localStorage.setItem("ice6AbrilMyRef", myRefCode);
+                    } catch (_) {}
+
+                    updateShareLinks(currentLang);
+                    refreshViralHubs(myRefCode, currentLang);
+
+                    if (typeof drawPassportCard === "function" && lastPassportCleanName) {
+                        drawPassportCard(lastPassportCleanName);
+                    }
+
                     pioneerForms.forEach((anyForm) => {
                         anyForm.style.display = "none";
                         const parent = anyForm.closest(".pioneer-form-card");
@@ -6145,6 +6497,196 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     });
+
+    // ==========================================================================
+    // 10B. IMÁN VIRAL: CENSO CÍVICO & PASAPORTE VISUAL .IA (CANVAS 2D)
+    // ==========================================================================
+    const iaMagnetInput = document.getElementById("iaMagnetInput");
+    const btnGeneratePassport = document.getElementById("btnGeneratePassport");
+    const iaPassportPanel = document.getElementById("iaPassportPanel");
+    const iaPassportCanvas = document.getElementById("iaPassportCanvas");
+    const iaPassportStatus = document.getElementById("iaPassportStatus");
+    const iaPassportHeading = document.getElementById("iaPassportHeading");
+    const btnDownloadPassport = document.getElementById("btnDownloadPassport");
+    const btnPassportToPioneer = document.getElementById("btnPassportToPioneer");
+    const magnetChips = document.querySelectorAll(".magnet-chip");
+    let lastPassportCleanName = "";
+
+    function sanitizeDomainLabel(raw) {
+        return String(raw || "")
+            .trim()
+            .toLowerCase()
+            .replace(/\.ia$/, "")
+            .replace(/[^a-z0-9-]/g, "");
+    }
+
+    function drawPassportCard(cleanName) {
+        if (!iaPassportCanvas) return;
+        const ctx = iaPassportCanvas.getContext("2d");
+        if (!ctx) return;
+        const W = iaPassportCanvas.width;
+        const H = iaPassportCanvas.height;
+        const domainText = `${cleanName}.ia`;
+        const texts = dictionary[currentLang] || dictionary.es;
+        const fallback = dictionary.es;
+        const subtitleText = texts.passport_subtitle || fallback.passport_subtitle || "PASAPORTE CÍVICO DE PIONERO · DISTRITO DIGITAL .IA";
+        const footerText = texts.passport_footer || fallback.passport_footer || "APERTURA URNA OFICIAL UE: 6 DE ABRIL DE 2027 · 09:00 CET";
+
+        const bg = ctx.createRadialGradient(W * 0.5, H * 0.25, 60, W * 0.5, H * 0.5, W * 0.78);
+        bg.addColorStop(0, "#10285C");
+        bg.addColorStop(0.6, "#081229");
+        bg.addColorStop(1, "#04060B");
+        ctx.fillStyle = bg;
+        ctx.fillRect(0, 0, W, H);
+
+        // Engranaje geométrico sutil de fondo
+        ctx.save();
+        ctx.translate(W * 0.5, H * 0.52);
+        ctx.strokeStyle = "rgba(200, 157, 60, 0.14)";
+        ctx.lineWidth = 2;
+        [180, 260, 340].forEach((r) => {
+            ctx.beginPath();
+            ctx.arc(0, 0, r, 0, Math.PI * 2);
+            ctx.stroke();
+        });
+        ctx.setLineDash([8, 12]);
+        ctx.lineWidth = 4;
+        ctx.beginPath();
+        ctx.arc(0, 0, 300, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.restore();
+
+        // Doble marco dorado institucional
+        ctx.strokeStyle = "#C89D3C";
+        ctx.lineWidth = 5;
+        ctx.strokeRect(42, 42, W - 84, H - 84);
+        ctx.strokeStyle = "rgba(242, 217, 141, 0.45)";
+        ctx.lineWidth = 2;
+        ctx.strokeRect(58, 58, W - 116, H - 116);
+
+        // Emblema superior UE + Anticitera
+        ctx.textAlign = "center";
+        ctx.fillStyle = "#F2D98D";
+        ctx.font = "700 24px 'JetBrains Mono', monospace";
+        ctx.fillText("INICIATIVA CIUDADANA EUROPEA · ECI(2026)000012", W / 2, 138);
+
+        ctx.fillStyle = "#34D399";
+        ctx.font = "600 20px 'JetBrains Mono', monospace";
+        ctx.fillText("DECISIÓN COMISIÓN EUROPEA C(2026) 7098 FINAL", W / 2, 178);
+
+        // Caja central del dominio reclamado
+        ctx.fillStyle = "rgba(4, 8, 18, 0.86)";
+        ctx.fillRect(108, 355, W - 216, 250);
+        ctx.strokeStyle = "#10B981";
+        ctx.lineWidth = 3;
+        ctx.strokeRect(108, 355, W - 216, 250);
+
+        // Escalar fuente para nombres largos
+        let fontSize = 96;
+        if (domainText.length > 14) fontSize = 72;
+        if (domainText.length > 20) fontSize = 54;
+        if (domainText.length > 28) fontSize = 42;
+        ctx.font = `700 ${fontSize}px 'Cinzel', Georgia, serif`;
+        ctx.fillStyle = "#FFFFFF";
+        ctx.fillText(domainText, W / 2, 502);
+
+        ctx.fillStyle = "#F2D98D";
+        ctx.font = "600 24px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText(subtitleText, W / 2, 690);
+
+        ctx.fillStyle = "#94A3B8";
+        ctx.font = "500 22px 'Plus Jakarta Sans', sans-serif";
+        ctx.fillText("eIDAS 2.0  ·  EU AI ACT  ·  GDPR  ·  ISO/IEC 42001", W / 2, 742);
+
+        // Bloque inferior de llamada a la acción
+        ctx.fillStyle = "#34D399";
+        ctx.font = "700 23px 'JetBrains Mono', monospace";
+        ctx.fillText(footerText, W / 2, 875);
+
+        ctx.fillStyle = "#FFFFFF";
+        ctx.font = "700 26px 'JetBrains Mono', monospace";
+        ctx.fillText(build6AbrilUrl(currentLang, myRefCode).replace(/^https?:\/\//, ""), W / 2, 932);
+    }
+
+    async function generatePassportFlow(overrideRaw = null) {
+        const raw = overrideRaw !== null ? overrideRaw : (iaMagnetInput ? iaMagnetInput.value : "");
+        let clean = sanitizeDomainLabel(raw);
+        if (clean.length < 2) clean = "europa";
+        if (iaMagnetInput) iaMagnetInput.value = clean;
+
+        lastPassportCleanName = clean;
+        desiredDomainForSignup = `${clean}.ia`;
+
+        if (iaPassportHeading) iaPassportHeading.textContent = `${clean}.ia`;
+        if (iaPassportPanel) iaPassportPanel.hidden = false;
+
+        const texts = dictionary[currentLang] || dictionary.es;
+        const fallback = dictionary.es;
+        if (iaPassportStatus) {
+            iaPassportStatus.textContent = texts.magnet_status_ready || fallback.magnet_status_ready || "✓ PREPARADO PARA EL CENSO CÍVICO .IA";
+        }
+        drawPassportCard(clean);
+
+        // Consulta asíncrona opcional contra dominio.deft.work si la función está desplegada
+        try {
+            const checkUrl = `https://us-central1-dominio-deft-work.cloudfunctions.net/checkDomainIA?domain=${encodeURIComponent(clean)}`;
+            const res = await fetch(checkUrl, { signal: AbortSignal.timeout(3500) });
+            if (res.ok && iaPassportStatus) {
+                const data = await res.json();
+                iaPassportStatus.textContent = data.available
+                    ? (texts.magnet_status_available || fallback.magnet_status_available || "✓ DISPONIBLE EN EL CENSO PRE-CAMPAÑA")
+                    : (texts.magnet_status_taken || fallback.magnet_status_taken || "🏛️ YA RECLAMADO EN EL CENSO · VÁLIDO PARA DIFUSIÓN");
+            }
+        } catch (_) {}
+    }
+
+    if (btnGeneratePassport) {
+        btnGeneratePassport.addEventListener("click", () => void generatePassportFlow());
+    }
+    if (iaMagnetInput) {
+        iaMagnetInput.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                e.preventDefault();
+                void generatePassportFlow();
+            }
+        });
+    }
+    magnetChips.forEach((chip) => {
+        chip.addEventListener("click", () => {
+            const d = chip.getAttribute("data-magnet") || "europa";
+            void generatePassportFlow(d);
+        });
+    });
+
+    if (btnDownloadPassport && iaPassportCanvas) {
+        btnDownloadPassport.addEventListener("click", () => {
+            const filePrefix = lastPassportCleanName || "europa";
+            iaPassportCanvas.toBlob((blob) => {
+                if (!blob) return;
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = `${filePrefix}-ia-pasaporte-6abril.png`;
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+                setTimeout(() => URL.revokeObjectURL(url), 1500);
+            }, "image/png");
+        });
+    }
+
+    if (btnPassportToPioneer) {
+        btnPassportToPioneer.addEventListener("click", () => {
+            const target = document.getElementById("pioneerBox");
+            if (target) {
+                target.scrollIntoView({ behavior: "smooth" });
+                setTimeout(() => {
+                    const emailEl = document.getElementById("emailInput");
+                    if (emailEl) emailEl.focus();
+                }, 450);
+            }
+        });
+    }
 
     // Copiar Enlace y Compartir
     const copyBtn = document.querySelector('[data-share="copy"]');
