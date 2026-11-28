@@ -3397,6 +3397,271 @@ eleventyExcludeFromCollections: true
 			color: #63430C;
 			border-color: #8C5E13;
 		}
+
+		/* ==========================================================================
+		   HUB VIRAL DE PIONEROS & IMÁN CENSO CÍVICO (.IA)
+		   ========================================================================== */
+		.pioneer-viral-hub {
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+		}
+
+		.pioneer-ref-row {
+			display: flex;
+			gap: 0.6rem;
+			flex-wrap: wrap;
+			align-items: center;
+		}
+
+		.pioneer-ref-input {
+			flex: 1;
+			min-width: 210px;
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.82rem;
+			padding: 0.7rem 0.9rem;
+		}
+
+		.btn-copy-ref,
+		.viral-action-btn,
+		.passport-action-btn {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 0.45rem;
+			padding: 0.68rem 1rem;
+			border-radius: 8px;
+			border: 1px solid var(--bronze-border);
+			background: rgba(14, 25, 52, 0.85);
+			color: var(--marble-white);
+			font-family: inherit;
+			font-size: 0.84rem;
+			font-weight: 600;
+			text-decoration: none;
+			cursor: pointer;
+			transition: all 0.2s ease;
+		}
+
+		.btn-copy-ref:hover,
+		.viral-action-btn:hover,
+		.passport-action-btn:hover {
+			border-color: var(--bronze-light);
+			background: rgba(200, 157, 60, 0.2);
+			transform: translateY(-1px);
+		}
+
+		.viral-action-btn.primary-passport,
+		.passport-action-btn.primary-passport {
+			background: linear-gradient(135deg, #D9B45B 0%, #B5892E 100%);
+			color: #04060B;
+			border-color: var(--bronze-light);
+			font-weight: 700;
+		}
+
+		.viral-action-row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.55rem;
+		}
+
+		.viral-subhead {
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.72rem;
+			letter-spacing: 0.08em;
+			text-transform: uppercase;
+			color: var(--bronze-light);
+			margin-top: 0.2rem;
+		}
+
+		.domain-magnet-card {
+			margin-top: 2.2rem;
+			background: var(--surface-card);
+			border: 1px solid var(--bronze-border);
+			border-top: 3px solid var(--eu-blue-royal);
+			border-radius: 18px;
+			padding: 2.4rem 2.2rem;
+			box-shadow: 0 22px 55px rgba(0, 0, 0, 0.6);
+		}
+
+		.magnet-search-row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.75rem;
+			align-items: stretch;
+			margin: 1.25rem 0 0.85rem;
+		}
+
+		.magnet-input-wrap {
+			flex: 1;
+			min-width: 220px;
+			display: flex;
+			align-items: center;
+			background: rgba(4, 6, 12, 0.9);
+			border: 1px solid var(--bronze-border);
+			border-radius: 8px;
+			overflow: hidden;
+		}
+
+		.magnet-input-wrap:focus-within {
+			border-color: var(--bronze-light);
+			box-shadow: 0 0 0 3px rgba(200, 157, 60, 0.2);
+		}
+
+		.magnet-input {
+			flex: 1;
+			min-width: 120px;
+			background: transparent;
+			border: 0;
+			color: var(--marble-white);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 1rem;
+			padding: 0.9rem 0.6rem 0.9rem 1rem;
+			outline: none;
+		}
+
+		.magnet-tld-suffix {
+			padding: 0.9rem 1rem 0.9rem 0.5rem;
+			font-family: 'JetBrains Mono', monospace;
+			font-weight: 700;
+			font-size: 1rem;
+			color: var(--verdigris-teal);
+			background: rgba(16, 185, 129, 0.08);
+			border-left: 1px solid rgba(16, 185, 129, 0.25);
+		}
+
+		.magnet-chips {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.5rem;
+			margin-bottom: 1rem;
+		}
+
+		.magnet-chip {
+			padding: 0.35rem 0.8rem;
+			border-radius: 999px;
+			border: 1px solid var(--bronze-border);
+			background: rgba(14, 25, 52, 0.65);
+			color: var(--bronze-light);
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.78rem;
+			cursor: pointer;
+			transition: all 0.2s ease;
+		}
+
+		.magnet-chip:hover {
+			border-color: var(--bronze-light);
+			background: rgba(200, 157, 60, 0.2);
+		}
+
+		.passport-panel {
+			margin-top: 1.5rem;
+			padding-top: 1.5rem;
+			border-top: 1px solid var(--bronze-border);
+			display: grid;
+			grid-template-columns: auto 1fr;
+			gap: 1.6rem;
+			align-items: center;
+		}
+
+		.passport-panel[hidden] {
+			display: none;
+		}
+
+		@media (max-width: 780px) {
+			.passport-panel {
+				grid-template-columns: 1fr;
+				justify-items: center;
+			}
+		}
+
+		.passport-canvas {
+			width: 100%;
+			max-width: 320px;
+			height: auto;
+			border-radius: 12px;
+			border: 1px solid var(--bronze-border-strong);
+			box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+			display: block;
+		}
+
+		.passport-details {
+			display: flex;
+			flex-direction: column;
+			gap: 0.85rem;
+			width: 100%;
+		}
+
+		.passport-status-badge {
+			display: inline-flex;
+			align-items: center;
+			gap: 0.45rem;
+			align-self: flex-start;
+			padding: 0.35rem 0.75rem;
+			border-radius: 999px;
+			font-family: 'JetBrains Mono', monospace;
+			font-size: 0.75rem;
+			font-weight: 600;
+			background: rgba(16, 185, 129, 0.14);
+			border: 1px solid rgba(16, 185, 129, 0.4);
+			color: #34D399;
+		}
+
+		.magnet-legal-note {
+			font-size: 0.78rem;
+			color: var(--slate-muted);
+			line-height: 1.5;
+		}
+
+		[data-theme="light"] .domain-magnet-card {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.28);
+			box-shadow: 0 15px 45px rgba(0, 0, 0, 0.07);
+		}
+
+		[data-theme="light"] .magnet-input-wrap {
+			background: #FFFFFF;
+			border-color: rgba(140, 94, 19, 0.35);
+		}
+
+		[data-theme="light"] .magnet-input {
+			color: #0F172A;
+		}
+
+		[data-theme="light"] .magnet-tld-suffix {
+			color: #047857;
+			background: rgba(4, 120, 87, 0.08);
+		}
+
+		[data-theme="light"] .magnet-chip,
+		[data-theme="light"] .btn-copy-ref,
+		[data-theme="light"] .viral-action-btn,
+		[data-theme="light"] .passport-action-btn {
+			background: #F8FAFC;
+			color: #0F172A;
+			border-color: rgba(140, 94, 19, 0.3);
+		}
+
+		[data-theme="light"] .viral-action-btn.primary-passport,
+		[data-theme="light"] .passport-action-btn.primary-passport {
+			background: linear-gradient(135deg, #D9B45B 0%, #B5892E 100%);
+			color: #04060B;
+		}
+
+		[data-theme="light"] .form-feedback-ok {
+			background: rgba(4, 120, 87, 0.08);
+			border-color: rgba(4, 120, 87, 0.35);
+			color: #064E3B;
+		}
+
+		[data-theme="light"] .viral-subhead {
+			color: #63430C;
+		}
+
+		[data-theme="light"] .passport-status-badge {
+			color: #047857;
+			background: rgba(4, 120, 87, 0.1);
+			border-color: rgba(4, 120, 87, 0.3);
+		}
 	</style>
 
 	<!-- Google tag (gtag.js) -->
@@ -3711,6 +3976,48 @@ eleventyExcludeFromCollections: true
 							>
 						</div>
 
+						<div class="field-group">
+							<label for="countryInputTop" class="field-label" data-i18n="label_country">País de ciudadanía o residencia (Regla de los 7 Estados de la UE)</label>
+							<select id="countryInputTop" class="field-input pioneer-country-select" name="country" required>
+								<option value="" data-i18n="country_placeholder">Selecciona tu país de la UE...</option>
+								<optgroup label="Comité Organizador (7 Naciones)">
+									<option value="ES">🇪🇸 España / Spain</option>
+									<option value="EL">🇬🇷 Ελλάδα / Greece</option>
+									<option value="FR">🇫🇷 France / Francia</option>
+									<option value="PT">🇵🇹 Portugal</option>
+									<option value="HU">🇭🇺 Magyarország / Hungary</option>
+									<option value="HR">🇭🇷 Hrvatska / Croatia</option>
+									<option value="CY">🇨🇾 Κύπρος / Cyprus</option>
+								</optgroup>
+								<optgroup label="Otros Estados Miembros (UE-27)">
+									<option value="DE">🇩🇪 Deutschland / Germany</option>
+									<option value="IT">🇮🇹 Italia / Italy</option>
+									<option value="RO">🇷🇴 România / Romania</option>
+									<option value="PL">🇵🇱 Polska / Poland</option>
+									<option value="NL">🇳🇱 Nederland / Netherlands</option>
+									<option value="BE">🇧🇪 Belgique / België / Belgium</option>
+									<option value="AT">🇦🇹 Österreich / Austria</option>
+									<option value="BG">🇧🇬 България / Bulgaria</option>
+									<option value="CZ">🇨🇿 Česko / Czechia</option>
+									<option value="DK">🇩🇰 Danmark / Denmark</option>
+									<option value="EE">🇪🇪 Eesti / Estonia</option>
+									<option value="FI">🇫🇮 Suomi / Finland</option>
+									<option value="IE">🇮🇪 Éire / Ireland</option>
+									<option value="LV">🇱🇻 Latvija / Latvia</option>
+									<option value="LT">🇱🇹 Lietuva / Lithuania</option>
+									<option value="LU">🇱🇺 Luxembourg / Luxemburg</option>
+									<option value="MT">🇲🇹 Malta</option>
+									<option value="SK">🇸🇰 Slovensko / Slovakia</option>
+									<option value="SI">🇸🇮 Slovenija / Slovenia</option>
+									<option value="SE">🇸🇪 Sverige / Sweden</option>
+								</optgroup>
+								<optgroup label="Exterior / Simpatizantes">
+									<option value="EU_ABROAD" data-i18n="country_other">Otro país / Ciudadano europeo en el exterior</option>
+									<option value="NON_EU" data-i18n="country_non_eu">Simpatizante internacional (sin pasaporte UE)</option>
+								</optgroup>
+							</select>
+						</div>
+
 						<label class="checkbox-row">
 							<input type="checkbox" id="collabCheckTop">
 							<span data-i18n="label_collab">Quiero colaborar activamente como organización, universidad, medio de comunicación o divulgador</span>
@@ -3721,8 +4028,29 @@ eleventyExcludeFromCollections: true
 						</button>
 					</form>
 
-					<div id="pioneerSuccessTop" class="form-feedback-ok" data-i18n="form_success">
-						¡Tu compromiso ha quedado registrado en la Lista de Pioneros! Te avisaremos el 6 de abril de 2027 en cuanto Bruselas abra la urna electrónica.
+					<div id="pioneerSuccessTop" class="form-feedback-ok">
+						<div class="pioneer-viral-hub">
+							<p class="viral-lead" data-i18n="form_success">
+								¡Tu compromiso ha quedado registrado en la Lista de Pioneros! Te avisaremos el 6 de abril de 2027 en cuanto Bruselas abra la urna electrónica.
+							</p>
+							<div class="viral-subhead" data-i18n="viral_ref_title">TU ENLACE DE INVITACIÓN PERSONAL (MULTIPLICA TU NODO)</div>
+							<div class="pioneer-ref-row">
+								<input type="text" readonly class="field-input pioneer-ref-input" value="https://anticitera.deft.work/6abril/" aria-label="Tu enlace único de Pionero" data-i18n-aria="viral_ref_aria">
+								<button type="button" class="btn-copy-ref" data-i18n="viral_copy_btn">📋 Copiar</button>
+							</div>
+							<div class="viral-action-row">
+								<a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-wa">💬 WhatsApp</a>
+								<a href="https://t.me/share/url" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-tg">✈️ Telegram</a>
+								<a href="https://x.com/intent/post" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-x">𝕏 X</a>
+								<a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-li">in LinkedIn</a>
+							</div>
+							<div class="viral-subhead" data-i18n="viral_cal_title">ACTIVACIÓN DÍA 1 · 6 DE ABRIL DE 2027 (09:00 CET)</div>
+							<div class="viral-action-row">
+								<a href="#" target="_blank" rel="noopener noreferrer" class="viral-action-btn btn-cal-google" data-i18n="viral_cal_google">📅 Google Calendar</a>
+								<button type="button" class="viral-action-btn btn-cal-ics" data-i18n="viral_cal_ics">📆 Aviso .ICS (Apple/Outlook)</button>
+								<a href="https://t.me/+oAeZGMsePDg2ZDI0" target="_blank" rel="noopener noreferrer" class="viral-action-btn" data-i18n="viral_tg_channel">📢 Canal Oficial Telegram</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -3998,6 +4326,62 @@ eleventyExcludeFromCollections: true
 					</div>
 				</div>
 			</div>
+
+			<!-- Imán Viral: Censo Cívico y Pasaporte Visual .IA conectado a dominio.deft.work -->
+			<div class="domain-magnet-card" id="domainMagnetBox">
+				<div class="card-kicker" data-i18n="magnet_kicker">CENSO CÍVICO PRE-CAMPAÑA · CONECTADO A DOMINIO.DEFT.WORK</div>
+				<h3 class="card-heading" data-i18n="magnet_title">Reclama simbólicamente tu nombre .IA y genera tu Pasaporte de Pionero</h3>
+				<p class="card-description" style="margin-bottom: 0.75rem;" data-i18n="magnet_desc">
+					Demostrar la demanda ciudadana de nombres .ia ante Bruselas, la ISO y la ICANN multiplica nuestra fuerza negociadora. Escribe un nombre y genera tu tarjeta oficial lista para compartir.
+				</p>
+
+				<div class="magnet-search-row">
+					<div class="magnet-input-wrap">
+						<input
+							type="text"
+							id="iaMagnetInput"
+							class="magnet-input"
+							placeholder="tunombre"
+							data-i18n-placeholder="magnet_placeholder"
+							maxlength="48"
+							autocomplete="off"
+						>
+						<span class="magnet-tld-suffix">.ia</span>
+					</div>
+					<button type="button" id="btnGeneratePassport" class="btn-pioneer-submit" style="padding: 0.9rem 1.4rem;" data-i18n="magnet_btn_generate">
+						⚡ Generar Pasaporte .IA
+					</button>
+				</div>
+
+				<div class="magnet-chips" aria-label="Ejemplos de dominio .ia">
+					<button type="button" class="magnet-chip" data-magnet="europa">europa.ia</button>
+					<button type="button" class="magnet-chip" data-magnet="salud">salud.ia</button>
+					<button type="button" class="magnet-chip" data-magnet="ciencia">ciencia.ia</button>
+					<button type="button" class="magnet-chip" data-magnet="cultura">cultura.ia</button>
+				</div>
+
+				<div class="passport-panel" id="iaPassportPanel" hidden>
+					<canvas id="iaPassportCanvas" class="passport-canvas" width="1080" height="1080" aria-label="Pasaporte Visual .IA"></canvas>
+					<div class="passport-details">
+						<span class="passport-status-badge" id="iaPassportStatus" data-i18n="magnet_status_ready">✓ PREPARADO PARA EL CENSO CÍVICO .IA</span>
+						<h4 id="iaPassportHeading" style="font-family:'Cinzel',serif;font-size:1.35rem;color:var(--marble-white);">europa.ia</h4>
+						<div class="viral-action-row">
+							<button type="button" id="btnDownloadPassport" class="passport-action-btn primary-passport" data-i18n="magnet_btn_download">
+								⬇ Descargar Pasaporte (.PNG)
+							</button>
+							<a id="linkDominioPortal" href="https://dominio.deft.work/" target="_blank" rel="noopener noreferrer" class="passport-action-btn" data-i18n="magnet_btn_portal">
+								🏛️ Gestionar reserva en La Comunidad Anticitera
+							</a>
+							<button type="button" id="btnPassportToPioneer" class="passport-action-btn" data-i18n="magnet_btn_pioneer">
+								🔔 Unirme a Pioneros Día 1
+							</button>
+						</div>
+						<p class="magnet-legal-note" data-i18n="magnet_legal">
+							Reglamento (UE) 2019/788: la firma oficial en la urna de la Comisión Europea será 100 % libre, gratuita e incondicional. Este Pasaporte .IA y el censo en dominio.deft.work constituyen una muestra cívica no comercial de respaldo ciudadano.
+						</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
 		<!-- ==========================================================================
@@ -4142,37 +4526,37 @@ eleventyExcludeFromCollections: true
 					<div class="nations-grid">
 						<div class="nation-tile active" data-country="ES">
 							<div class="nation-code">ES · ESPAÑA</div>
-							<div class="nation-name">43.095</div>
+							<div class="nation-name">43.920</div>
 							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile" data-country="EL">
 							<div class="nation-code">EL · ΕΛΛΑΔΑ</div>
-							<div class="nation-name">14.805</div>
+							<div class="nation-name">15.120</div>
 							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile" data-country="FR">
 							<div class="nation-code">FR · FRANCE</div>
-							<div class="nation-name">57.105</div>
+							<div class="nation-name">58.320</div>
 							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile" data-country="PT">
 							<div class="nation-code">PT · PORTUGAL</div>
-							<div class="nation-name">14.805</div>
+							<div class="nation-name">15.120</div>
 							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile" data-country="HU">
 							<div class="nation-code">HU · MAGYARORSZÁG</div>
-							<div class="nation-name">14.805</div>
+							<div class="nation-name">15.120</div>
 							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile" data-country="HR">
 							<div class="nation-code">HR · HRVATSKA</div>
-							<div class="nation-name">8.460</div>
+							<div class="nation-name">8.640</div>
 							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 						<div class="nation-tile" data-country="CY">
 							<div class="nation-code">CY · ΚΥΠΡΟΣ</div>
-							<div class="nation-name">4.230</div>
+							<div class="nation-name">4.320</div>
 							<div class="nation-threshold" data-i18n="threshold_label">Umbral Oficial</div>
 						</div>
 					</div>
@@ -4274,6 +4658,48 @@ eleventyExcludeFromCollections: true
 							>
 						</div>
 
+						<div class="field-group">
+							<label for="countryInput" class="field-label" data-i18n="label_country">País de ciudadanía o residencia (Regla de los 7 Estados de la UE)</label>
+							<select id="countryInput" class="field-input pioneer-country-select" name="country" required>
+								<option value="" data-i18n="country_placeholder">Selecciona tu país de la UE...</option>
+								<optgroup label="Comité Organizador (7 Naciones)">
+									<option value="ES">🇪🇸 España / Spain</option>
+									<option value="EL">🇬🇷 Ελλάδα / Greece</option>
+									<option value="FR">🇫🇷 France / Francia</option>
+									<option value="PT">🇵🇹 Portugal</option>
+									<option value="HU">🇭🇺 Magyarország / Hungary</option>
+									<option value="HR">🇭🇷 Hrvatska / Croatia</option>
+									<option value="CY">🇨🇾 Κύπρος / Cyprus</option>
+								</optgroup>
+								<optgroup label="Otros Estados Miembros (UE-27)">
+									<option value="DE">🇩🇪 Deutschland / Germany</option>
+									<option value="IT">🇮🇹 Italia / Italy</option>
+									<option value="RO">🇷🇴 România / Romania</option>
+									<option value="PL">🇵🇱 Polska / Poland</option>
+									<option value="NL">🇳🇱 Nederland / Netherlands</option>
+									<option value="BE">🇧🇪 Belgique / België / Belgium</option>
+									<option value="AT">🇦🇹 Österreich / Austria</option>
+									<option value="BG">🇧🇬 България / Bulgaria</option>
+									<option value="CZ">🇨🇿 Česko / Czechia</option>
+									<option value="DK">🇩🇰 Danmark / Denmark</option>
+									<option value="EE">🇪🇪 Eesti / Estonia</option>
+									<option value="FI">🇫🇮 Suomi / Finland</option>
+									<option value="IE">🇮🇪 Éire / Ireland</option>
+									<option value="LV">🇱🇻 Latvija / Latvia</option>
+									<option value="LT">🇱🇹 Lietuva / Lithuania</option>
+									<option value="LU">🇱🇺 Luxembourg / Luxemburg</option>
+									<option value="MT">🇲🇹 Malta</option>
+									<option value="SK">🇸🇰 Slovensko / Slovakia</option>
+									<option value="SI">🇸🇮 Slovenija / Slovenia</option>
+									<option value="SE">🇸🇪 Sverige / Sweden</option>
+								</optgroup>
+								<optgroup label="Exterior / Simpatizantes">
+									<option value="EU_ABROAD" data-i18n="country_other">Otro país / Ciudadano europeo en el exterior</option>
+									<option value="NON_EU" data-i18n="country_non_eu">Simpatizante internacional (sin pasaporte UE)</option>
+								</optgroup>
+							</select>
+						</div>
+
 						<label class="checkbox-row">
 							<input type="checkbox" id="collabCheck">
 							<span data-i18n="label_collab">Quiero colaborar activamente como organización, universidad, medio de comunicación o divulgador</span>
@@ -4284,8 +4710,29 @@ eleventyExcludeFromCollections: true
 						</button>
 					</form>
 
-					<div id="pioneerSuccess" class="form-feedback-ok" data-i18n="form_success">
-						¡Tu compromiso ha quedado registrado en la Lista de Pioneros! Te avisaremos el 6 de abril de 2027 en cuanto Bruselas abra la urna electrónica.
+					<div id="pioneerSuccess" class="form-feedback-ok">
+						<div class="pioneer-viral-hub">
+							<p class="viral-lead" data-i18n="form_success">
+								¡Tu compromiso ha quedado registrado en la Lista de Pioneros! Te avisaremos el 6 de abril de 2027 en cuanto Bruselas abra la urna electrónica.
+							</p>
+							<div class="viral-subhead" data-i18n="viral_ref_title">TU ENLACE DE INVITACIÓN PERSONAL (MULTIPLICA TU NODO)</div>
+							<div class="pioneer-ref-row">
+								<input type="text" readonly class="field-input pioneer-ref-input" value="https://anticitera.deft.work/6abril/" aria-label="Tu enlace único de Pionero" data-i18n-aria="viral_ref_aria">
+								<button type="button" class="btn-copy-ref" data-i18n="viral_copy_btn">📋 Copiar</button>
+							</div>
+							<div class="viral-action-row">
+								<a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-wa">💬 WhatsApp</a>
+								<a href="https://t.me/share/url" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-tg">✈️ Telegram</a>
+								<a href="https://x.com/intent/post" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-x">𝕏 X</a>
+								<a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" class="viral-action-btn ref-share-li">in LinkedIn</a>
+							</div>
+							<div class="viral-subhead" data-i18n="viral_cal_title">ACTIVACIÓN DÍA 1 · 6 DE ABRIL DE 2027 (09:00 CET)</div>
+							<div class="viral-action-row">
+								<a href="#" target="_blank" rel="noopener noreferrer" class="viral-action-btn btn-cal-google" data-i18n="viral_cal_google">📅 Google Calendar</a>
+								<button type="button" class="viral-action-btn btn-cal-ics" data-i18n="viral_cal_ics">📆 Aviso .ICS (Apple/Outlook)</button>
+								<a href="https://t.me/+oAeZGMsePDg2ZDI0" target="_blank" rel="noopener noreferrer" class="viral-action-btn" data-i18n="viral_tg_channel">📢 Canal Oficial Telegram</a>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -4408,6 +4855,6 @@ eleventyExcludeFromCollections: true
 		</div>
 	</dialog>
 
-	<script src="/js/6abril-i18n.js?v=20261025b"></script>
+	<script src="/js/6abril-i18n.js?v=20261126"></script>
 </body>
 </html>
